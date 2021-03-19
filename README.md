@@ -36,9 +36,6 @@ pip install -r ./requirements.txt
 # Running
 
 ```bash
-# Running server
-python ./main.py
-
-# Testing
-python ./test.py
+# Running app
+python ./run.py
 ```
