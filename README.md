@@ -2,6 +2,17 @@
 
 API abierta para consultar a los y las candidatas de las elecciones de México 2021
 
+# Database
+
+##  ER model
+
+Diagrams can be found in [docs folder](./docs).
+
+- [XML version](./docs/mx-elections-2021-db-er-diagram.xml) from [diagrams.net](diagrams.net)
+- [PNG version](./docs/mx-elections-2021-db-er-diagram.png)
+
+![ER model](./docs/mx-elections-2021-db-er-diagram.png)
+
 # Components
 
 - `python3`
