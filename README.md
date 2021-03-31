@@ -20,12 +20,12 @@ Diagrams can be found in [docs folder](./docs).
 - `virtualenv`
 - `flask`
 
-# Setup environment
+## Setup environment
 
 This development was made on Debian/Ubuntu GNU/Linux based distro.
 Please verify any command for your distro before execute it.
 
-## Setting up `virtualenv` and `python3`
+### Setting up `virtualenv` and `python3`
 
 ```bash
 # Create a virtual environment.
@@ -38,13 +38,13 @@ source ./venv/bin/activate
 deactivate
 ```
 
-## Installing dependencies
+### Installing dependencies
 
 ```bash
 pip install -r ./requirements.txt
 ```
 
-# Running
+## Running
 
 ```bash
 # Running app
