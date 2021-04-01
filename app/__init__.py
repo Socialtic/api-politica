@@ -16,7 +16,10 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
-from app.module.controller import *
+from app.controllers.frontend import *
+from app.controllers.area import *
+from app.controllers.person import *
 
-# Create DB
+# For testing
+#db.drop_all()
 db.create_all()
