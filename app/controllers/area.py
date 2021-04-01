@@ -1,12 +1,13 @@
 from flask import request, jsonify
 from app import app
 from app.models.area import *
-from app.const import HttpStatus
+from app.const import *
 
 @app.route('/area', methods=['GET', 'POST'])
 def area():
-    construct = {}
 
+    construct = {}
+    
     #   Get all from table area
     if request.method == 'GET':
         construct = {
@@ -21,16 +22,16 @@ def area():
 
         #   Trying to get parameters from the POST method
         try:
-            ocd_id = "" if request.json['ocd_id'] == "" else request.json['ocd_id']
-            name = "" if request.json['name'] == "" else request.json['name']
-            country = "" if request.json['country'] == "" else request.json['country']
-            state = "" if request.json['state'] == "" else request.json['state']
-            city = "" if request.json['city'] == "" else request.json['city']
-            distric_type = "" if request.json['distric_type'] == "" else request.json['distric_type']
-            parent_area_id = (-1) if request.json['parent_area_id'] == "" else request.json['parent_area_id']
+            ocd_id = EmptyValues.EMPTY_STRING if request.json['ocd_id'] == EmptyValues.EMPTY_STRING else request.json['ocd_id']
+            name = EmptyValues.EMPTY_STRING if request.json['name'] == EmptyValues.EMPTY_STRING else request.json['name']
+            country = EmptyValues.EMPTY_STRING if request.json['country'] == EmptyValues.EMPTY_STRING else request.json['country']
+            state = EmptyValues.EMPTY_STRING if request.json['state'] == EmptyValues.EMPTY_STRING else request.json['state']
+            city = EmptyValues.EMPTY_STRING if request.json['city'] == EmptyValues.EMPTY_STRING else request.json['city']
+            distric_type = EmptyValues.EMPTY_STRING if request.json['distric_type'] == EmptyValues.EMPTY_STRING else request.json['distric_type']
+            parent_area_id = EmptyValues.EMPTY_INT if request.json['parent_area_id'] == EmptyValues.EMPTY_STRING else request.json['parent_area_id']
 
             #   Verifying REQUIRED values
-            if ocd_id == "" or name == "" or country == "" or distric_type == "":
+            if ocd_id == EmptyValues.EMPTY_STRING or name == EmptyValues.EMPTY_STRING or country == EmptyValues.EMPTY_STRING or distric_type == EmptyValues.EMPTY_STRING:
                 construct['success'] = False
                 construct['error'] = "Missing data. Required values for ocd_id, name, country and distric_type."
                 response = jsonify(construct)
@@ -103,16 +104,16 @@ def areaId(area_id):
         construct = {}
         #   Trying to get parameters from the PUT method
         try:
-            ocd_id = "" if request.json['ocd_id'] == "" else request.json['ocd_id']
-            name = "" if request.json['name'] == "" else request.json['name']
-            country = "" if request.json['country'] == "" else request.json['country']
-            state = "" if request.json['state'] == "" else request.json['state']
-            city = "" if request.json['city'] == "" else request.json['city']
-            distric_type = "" if request.json['distric_type'] == "" else request.json['distric_type']
-            parent_area_id = (-1) if request.json['parent_area_id'] == "" else request.json['parent_area_id']
+            ocd_id = EmptyValues.EMPTY_STRING if request.json['ocd_id'] == EmptyValues.EMPTY_STRING else request.json['ocd_id']
+            name = EmptyValues.EMPTY_STRING if request.json['name'] == EmptyValues.EMPTY_STRING else request.json['name']
+            country = EmptyValues.EMPTY_STRING if request.json['country'] == EmptyValues.EMPTY_STRING else request.json['country']
+            state = EmptyValues.EMPTY_STRING if request.json['state'] == EmptyValues.EMPTY_STRING else request.json['state']
+            city = EmptyValues.EMPTY_STRING if request.json['city'] == EmptyValues.EMPTY_STRING else request.json['city']
+            distric_type = EmptyValues.EMPTY_STRING if request.json['distric_type'] == EmptyValues.EMPTY_STRING else request.json['distric_type']
+            parent_area_id = EmptyValues.EMPTY_INT if request.json['parent_area_id'] == EmptyValues.EMPTY_STRING else request.json['parent_area_id']
 
             #   Verifying REQUIRED values
-            if ocd_id == "" or name == "" or country == "" or distric_type == "":
+            if ocd_id == EmptyValues.EMPTY_STRING or name == EmptyValues.EMPTY_STRING or country == EmptyValues.EMPTY_STRING or distric_type == EmptyValues.EMPTY_STRING:
                 construct['success'] = False
                 construct['error'] = "Missing data. Required values for ocd_id, name, country and distric_type."
                 response = jsonify(construct)

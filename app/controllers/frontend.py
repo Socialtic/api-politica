@@ -1,6 +1,4 @@
-from flask import request, jsonify
 from app import app
-from app.const import HttpStatus
 
 ## <-- home/index --> ###
 @app.route('/', methods=['GET', 'POST'])

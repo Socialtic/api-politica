@@ -1,7 +1,7 @@
 from flask import request, jsonify
 from app import app
 from app.models.chamber import *
-from app.const import HttpStatus
+from app.const import *
 
 @app.route('/chamber', methods=['GET', 'POST'])
 def chamber():
@@ -21,11 +21,11 @@ def chamber():
 
         #   Trying to get parameters from the POST method
         try:
-            name = "" if request.json['name'] == "" else request.json['name']
-            area_id = (-1) if request.json['area_id'] == "" else request.json['area_id']
+            name = EmptyValues.EMPTY_STRING if request.json['name'] == EmptyValues.EMPTY_STRING else request.json['name']
+            area_id = EmptyValues.EMPTY_INT if request.json['area_id'] == EmptyValues.EMPTY_STRING else request.json['area_id']
 
             #   Verifying REQUIRED values
-            if name == "" or area_id == (-1):
+            if name == EmptyValues.EMPTY_STRING or area_id == EmptyValues.EMPTY_INT:
                 construct['success'] = False
                 construct['error'] = "Missing data. Required values for name and area_id."
                 response = jsonify(construct)
@@ -89,11 +89,11 @@ def chamberId(chamber_id):
         construct = {}
         #   Trying to get parameters from the PUT method
         try:
-            name = "" if request.json['name'] == "" else request.json['name']
-            area_id = (-1) if request.json['area_id'] == "" else request.json['area_id']
+            name = EmptyValues.EMPTY_STRING if request.json['name'] == EmptyValues.EMPTY_STRING else request.json['name']
+            area_id = EmptyValues.EMPTY_INT if request.json['area_id'] == EmptyValues.EMPTY_STRING else request.json['area_id']
 
             #   Verifying REQUIRED values
-            if name == "" or area_id == (-1):
+            if name == EmptyValues.EMPTY_STRING or area_id == EmptyValues.EMPTY_INT:
                 construct['success'] = False
                 construct['error'] = "Missing data. Required values for name and area_id."
                 response = jsonify(construct)
