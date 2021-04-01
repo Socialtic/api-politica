@@ -2,6 +2,7 @@ import requests
 
 BASE = "http://127.0.0.1:8000/"
 
+print("-----------------------------------------------------------------------")
 print("Inserting areas")
 data = [
     {
@@ -37,7 +38,32 @@ for i in range(len(data)):
     print(data[i])
     response = requests.post(BASE + "area", json=data[i])
     print(response.json())
+print("-----------------------------------------------------------------------")
+print()
 
+print("-----------------------------------------------------------------------")
+print("Inserting chambers")
+data = [
+    {
+    	"name": "Gubernatura de Baja California",
+    	"area_id": "1"
+    },
+    {
+    	"name": "Diputación del Distrito Federal IV de Baja California",
+    	"area_id": "2"
+    },
+    {
+    	"name": "Presidencia del municipio 4 de Bajalifornia (Tijuana)",
+    	"area_id": "3"
+    }
+]
+
+for i in range(len(data)):
+    print(data[i])
+    response = requests.post(BASE + "chamber", json=data[i])
+    print(response.json())
+print("-----------------------------------------------------------------------")
+print()
 """
 print("Getting all areas")
 response = requests.get(BASE + "area")
