@@ -120,6 +120,53 @@ for i in range(len(data)):
 print("-----------------------------------------------------------------------")
 print()
 
+
+print("-----------------------------------------------------------------------")
+print("Inserting parties")
+data = [
+    {
+    	"name": "Partido Revolucionario Institucional",
+    	"abbreviation": "PRI",
+    	"colors": ["GREEN", "WHITE", "RED"],
+    	"area_id": "1",
+    	"coalition_id": "1"
+    },
+    {
+    	"name": "Partido Acción Nacional",
+    	"abbreviation": "PAN",
+    	"colors": ["BLUE", "WHITE"],
+    	"area_id": "1",
+    	"coalition_id": "1"
+    },
+    {
+    	"name": "Partido de la Revolución Democrática",
+    	"abbreviation": "PRD",
+    	"colors": ["YELLOW", "BLACK", "RED"],
+    	"area_id": "1",
+    	"coalition_id": "1"
+    },
+    {
+    	"name": "Movimiento Regeneración Nacional",
+    	"abbreviation": "Morena",
+    	"colors": ["RED"],
+    	"area_id": "1",
+    	"coalition_id": "2"
+    },
+    {
+    	"name": "Partido del Trabajo",
+    	"abbreviation": "PT",
+    	"colors": ["RED", "YELLOW"],
+    	"area_id": "1",
+    	"coalition_id": "2"
+    }
+]
+
+for i in range(len(data)):
+    print(data[i])
+    response = requests.post(BASE + "party", json=data[i])
+    print(response.json())
+print("-----------------------------------------------------------------------")
+print()
 """
 print("Getting all areas")
 response = requests.get(BASE + "area")
