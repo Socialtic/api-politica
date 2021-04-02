@@ -98,6 +98,28 @@ for i in range(len(data)):
 print("-----------------------------------------------------------------------")
 print()
 
+print("-----------------------------------------------------------------------")
+print("Inserting coalitions")
+data = [
+    {
+    	"name": "Va por México",
+    	"abbreviation": "VPM",
+    	"colors": ["BLUE", "RED", "YELLOW"]
+    },
+    {
+    	"name": "Juntos Hacemos Historia",
+    	"abbreviation": "JHH",
+    	"colors": ""
+    }
+]
+
+for i in range(len(data)):
+    print(data[i])
+    response = requests.post(BASE + "coalition", json=data[i])
+    print(response.json())
+print("-----------------------------------------------------------------------")
+print()
+
 """
 print("Getting all areas")
 response = requests.get(BASE + "area")
