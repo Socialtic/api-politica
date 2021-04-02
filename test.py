@@ -21,7 +21,7 @@ data = [
     	"state": "Baja California",
     	"city": "Tijuana",
     	"distric_type": "NATIONAL_LOWER",
-    	"parent_area_id": ""
+    	"parent_area_id": "1"
     },
     {
     	"ocd_id": "ocd-division/country:mx/state:bc/city:4",
@@ -30,7 +30,7 @@ data = [
     	"state": "Baja California",
     	"city": "Tijuana",
     	"distric_type": "LOCAL_EXECUTIVE",
-    	"parent_area_id": ""
+    	"parent_area_id": "1"
     }
 ]
 
@@ -167,6 +167,7 @@ for i in range(len(data)):
     print(response.json())
 print("-----------------------------------------------------------------------")
 print()
+
 """
 print("Getting all areas")
 response = requests.get(BASE + "area")

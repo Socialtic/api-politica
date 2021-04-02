@@ -23,6 +23,11 @@ from app.controllers.role import *
 from app.controllers.coalition import *
 from app.controllers.party import *
 
+# Other_Names_Types
+from app.controllers.catalogs import *
+
 # For testing
 db.drop_all()
 db.create_all()
+
+Catalogue.PopulateOtherNamesTypes()
