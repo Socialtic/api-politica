@@ -7,8 +7,6 @@ class Coalition(db.Model):
     coalition_id = db.Column(db.Integer, unique=True, primary_key=True, nullable=False, autoincrement=True)
     name = db.Column(db.String, nullable=False)
     abbreviation = db.Column(db.String)
-    #colors = db.Column(db.String)
-    #colors = db.Column(db.ARRAY(db.String))
     colors = db.Column(db.JSON)
 
     def __init__(self, name, abbreviation, colors):

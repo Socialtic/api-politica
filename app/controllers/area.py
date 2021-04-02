@@ -7,7 +7,7 @@ from app.const import *
 def area():
 
     construct = {}
-    
+
     #   Get all from table area
     if request.method == 'GET':
         construct = {
@@ -50,12 +50,14 @@ def area():
                 construct['message'] = 'Data saved'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.CREATED
+
             #   Failling while INSERTING into the DB
             except Exception as e:
                 construct['success'] = False
                 construct['error'] = str(e)
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
+
         #   Missing parameters from the POST method
         except Exception as e:
             construct['success'] = False
@@ -67,6 +69,7 @@ def area():
 
 @app.route('/area/<int:area_id>', methods=['GET', 'PUT', 'DELETE'])
 def areaId(area_id):
+
     #   Trying to get the area with area_id
     area = Area.query.filter_by(area_id=area_id).first()
 
@@ -102,6 +105,7 @@ def areaId(area_id):
     #   Update their data
     elif request.method == 'PUT':
         construct = {}
+
         #   Trying to get parameters from the PUT method
         try:
             ocd_id = EmptyValues.EMPTY_STRING if request.json['ocd_id'] == EmptyValues.EMPTY_STRING else request.json['ocd_id']
@@ -134,12 +138,14 @@ def areaId(area_id):
                 construct['message'] = 'Data saved'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.CREATED
+
             #   Failling while UPDATING into the DB
             except Exception as e:
                 construct['success'] = False
                 construct['error'] = str(e)
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
+
         #   Missing parameters from the PUT method
         except Exception as e:
             construct['success'] = False

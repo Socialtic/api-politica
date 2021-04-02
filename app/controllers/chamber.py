@@ -40,12 +40,14 @@ def chamber():
                 construct['message'] = 'Data saved'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.CREATED
+
             #   Failling while INSERTING into the DB
             except Exception as e:
                 construct['success'] = False
                 construct['error'] = str(e)
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
+
         #   Missing parameters from the POST method
         except Exception as e:
             construct['success'] = False
@@ -57,6 +59,7 @@ def chamber():
 
 @app.route('/chamber/<int:chamber_id>', methods=['GET', 'PUT', 'DELETE'])
 def chamberId(chamber_id):
+
     #   Trying to get the chamber with chamber_id
     chamber = Chamber.query.filter_by(chamber_id=chamber_id).first()
 
@@ -87,6 +90,7 @@ def chamberId(chamber_id):
     #   Update their data
     elif request.method == 'PUT':
         construct = {}
+
         #   Trying to get parameters from the PUT method
         try:
             name = EmptyValues.EMPTY_STRING if request.json['name'] == EmptyValues.EMPTY_STRING else request.json['name']
@@ -109,12 +113,14 @@ def chamberId(chamber_id):
                 construct['message'] = 'Data saved'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.CREATED
+
             #   Failling while UPDATING into the DB
             except Exception as e:
                 construct['success'] = False
                 construct['error'] = str(e)
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
+
         #   Missing parameters from the PUT method
         except Exception as e:
             construct['success'] = False

@@ -46,12 +46,14 @@ def role():
                 construct['message'] = 'Data saved'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.CREATED
+
             #   Failling while INSERTING into the DB
             except Exception as e:
                 construct['success'] = False
                 construct['error'] = str(e)
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
+
         #   Missing parameters from the POST method
         except Exception as e:
             construct['success'] = False
@@ -63,6 +65,7 @@ def role():
 
 @app.route('/role/<int:role_id>', methods=['GET', 'PUT', 'DELETE'])
 def roleId(role_id):
+
     #   Trying to get the role with role_id
     role = Role.query.filter_by(role_id=role_id).first()
 
@@ -96,6 +99,7 @@ def roleId(role_id):
     #   Update their data
     elif request.method == 'PUT':
         construct = {}
+
         #   Trying to get parameters from the PUT method
         try:
             title = EmptyValues.EMPTY_STRING if request.json['title'] == EmptyValues.EMPTY_STRING else request.json['title']
@@ -124,12 +128,14 @@ def roleId(role_id):
                 construct['message'] = 'Data saved'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.CREATED
+
             #   Failling while UPDATING into the DB
             except Exception as e:
                 construct['success'] = False
                 construct['error'] = str(e)
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
+
         #   Missing parameters from the PUT method
         except Exception as e:
             construct['success'] = False
