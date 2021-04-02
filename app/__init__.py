@@ -22,5 +22,5 @@ from app.controllers.chamber import *
 from app.controllers.role import *
 
 # For testing
-db.drop_all()
+#db.drop_all()
 db.create_all()

@@ -11,7 +11,7 @@ def role():
     if request.method == 'GET':
         construct = {
             'success': True,
-            'areas': Role.getAll()
+            'roles': Role.getAll()
         }
         response = jsonify(construct)
         response.status_code = HttpStatus.OK
@@ -22,13 +22,13 @@ def role():
         #   Trying to get parameters from the POST method
         try:
             title = EmptyValues.EMPTY_STRING if request.json['title'] == EmptyValues.EMPTY_STRING else request.json['title']
-            role = EmptyValues.EMPTY_STRING if request.json['role'] == EmptyValues.EMPTY_STRING else request.json['role']
+            role_type = EmptyValues.EMPTY_STRING if request.json['role'] == EmptyValues.EMPTY_STRING else request.json['role']
             area_id = EmptyValues.EMPTY_INT if request.json['area_id'] == EmptyValues.EMPTY_STRING else request.json['area_id']
             chamber_id = EmptyValues.EMPTY_INT if request.json['chamber_id'] == EmptyValues.EMPTY_STRING else request.json['chamber_id']
             contest_id = EmptyValues.EMPTY_INT if request.json['contest_id'] == EmptyValues.EMPTY_STRING else request.json['contest_id']
 
             #   Verifying REQUIRED values
-            if title == EmptyValues.EMPTY_STRING or role == EmptyValues.EMPTY_STRING or area_id == EmptyValues.EMPTY_INT or chamber_id == EmptyValues.EMPTY_INT:
+            if title == EmptyValues.EMPTY_STRING or role_type == EmptyValues.EMPTY_STRING or area_id == EmptyValues.EMPTY_INT or chamber_id == EmptyValues.EMPTY_INT:
                 construct['success'] = False
                 construct['error'] = "Missing data. Required values for title, role, parent_area_id, chamber_id."
                 response = jsonify(construct)
@@ -37,8 +37,8 @@ def role():
 
             #   Trying to INSERT into the DB
             try:
-                role = role(
-                    title=title, role=role, area_id=area_id, chamber_id=chamber_id,
+                role = Role(
+                    title=title, role_type=role_type, area_id=area_id, chamber_id=chamber_id,
                     contest_id=contest_id
                 )
                 role.save()
@@ -81,10 +81,10 @@ def roleId(role_id):
     if request.method == 'GET':
         construct = {
             'success': True,
-            'role|': {
+            'role': {
                 'role_id': role.role_id,
                 'title': role.title,
-                'role': role.role,
+                'role': role.role_type,
                 'area_id': role.area_id,
                 'chamber_id': role.chamber_id,
                 'contest_id': role.contest_id
@@ -99,13 +99,13 @@ def roleId(role_id):
         #   Trying to get parameters from the PUT method
         try:
             title = EmptyValues.EMPTY_STRING if request.json['title'] == EmptyValues.EMPTY_STRING else request.json['title']
-            role = EmptyValues.EMPTY_STRING if request.json['role'] == EmptyValues.EMPTY_STRING else request.json['role']
+            role_type = EmptyValues.EMPTY_STRING if request.json['role'] == EmptyValues.EMPTY_STRING else request.json['role']
             area_id = EmptyValues.EMPTY_INT if request.json['area_id'] == EmptyValues.EMPTY_STRING else request.json['area_id']
             chamber_id = EmptyValues.EMPTY_INT if request.json['chamber_id'] == EmptyValues.EMPTY_STRING else request.json['chamber_id']
             contest_id = EmptyValues.EMPTY_INT if request.json['contest_id'] == EmptyValues.EMPTY_STRING else request.json['contest_id']
 
             #   Verifying REQUIRED values
-            if title == EmptyValues.EMPTY_STRING or role == EmptyValues.EMPTY_STRING or area_id == EmptyValues.EMPTY_INT or chamber_id == EmptyValues.EMPTY_INT:
+            if title == EmptyValues.EMPTY_STRING or role_type == EmptyValues.EMPTY_STRING or area_id == EmptyValues.EMPTY_INT or chamber_id == EmptyValues.EMPTY_INT:
                 construct['success'] = False
                 construct['error'] = "Missing data. Required values for title, role, parent_area_id, chamber_id."
                 response = jsonify(construct)
@@ -115,7 +115,7 @@ def roleId(role_id):
             #   Trying to UPDATE into the DB
             try:
                 role.title = title
-                role.role = role
+                role.role_type = role_type
                 role.area_id = area_id
                 role.chamber_id = chamber_id
                 role.contest_id = contest_id

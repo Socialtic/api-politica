@@ -6,15 +6,15 @@ class Role(db.Model):
 
     role_id = db.Column(db.Integer, unique=True, primary_key=True, nullable=False, autoincrement=True)
     title = db.Column(db.String, nullable=False)
-    role = db.Column(db.String, nullable=False)
+    role_type = db.Column(db.String, nullable=False)
     area_id = db.Column(db.Integer, db.ForeignKey('area.area_id'), nullable=False)
     chamber_id = db.Column(db.Integer, db.ForeignKey('chamber.chamber_id'), nullable=False)
     #contest_id = db.Column(db.Integer, db.ForeignKey('contest.contest_id'), nullable=True)
-    contest_id = db.Column(db.Integer) # Change it to ForeignKey
+    contest_id = db.Column(db.Integer, nullable=True) # Change it to ForeignKey
 
-    def __init__(self, title, role, area_id, chamber_id, contest_id):
+    def __init__(self, title, role_type, area_id, chamber_id, contest_id):
         self.title = title
-        self.role = role
+        self.role_type = role_type
         self.area_id = area_id
         self.chamber_id = chamber_id
         self.contest_id = contest_id
@@ -31,7 +31,7 @@ class Role(db.Model):
             obj = {
                 'role_id': role.role_id,
                 'title': role.title,
-                'role': role.role,
+                'role': role.role_type,
                 'area_id': role.area_id,
                 'chamber_id': role.chamber_id,
                 'contest_id': role.contest_id

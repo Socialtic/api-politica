@@ -64,6 +64,40 @@ for i in range(len(data)):
     print(response.json())
 print("-----------------------------------------------------------------------")
 print()
+
+print("-----------------------------------------------------------------------")
+print("Inserting roles")
+data = [
+    {
+    	"title": "Gobernador",
+    	"role": "governmentOfficer",
+    	"area_id": 1,
+    	"chamber_id": 1,
+    	"contest_id": ""
+    },
+    {
+    	"title": "Diputado",
+    	"role": "Diputado",
+    	"area_id": 2,
+    	"chamber_id": 2,
+    	"contest_id": ""
+    },
+    {
+    	"title": "Presidente Municipal",
+    	"role": "executiveCouncil",
+    	"area_id": 3,
+    	"chamber_id": 3,
+    	"contest_id": ""
+    }
+]
+
+for i in range(len(data)):
+    print(data[i])
+    response = requests.post(BASE + "role", json=data[i])
+    print(response.json())
+print("-----------------------------------------------------------------------")
+print()
+
 """
 print("Getting all areas")
 response = requests.get(BASE + "area")
