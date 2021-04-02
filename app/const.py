@@ -7,3 +7,10 @@ class HttpStatus:
 class EmptyValues:
     EMPTY_INT = (-1)
     EMPTY_STRING = ""
+
+class Catalogues:
+    OTHER_NAMES_TYPES = ["preferred", "nickname", "ballot_name"]
+    GENDERS = ["M", "F"]
+    #   https://www.gob.mx/sep/acciones-y-programas/educacion-por-niveles?state=published
+    DEGREES_OF_STUDIES = ["EDUCACIÓN INICIAL", "EDUCACIÓN BÁSICA", "EDUCACIÓN MEDIA SUPERIOR", "EDUCACIÓN SUPERIOR", "EDUCACIÓN TECNOLÓGICA", "EDUCACIÓN INDÍGENA"]
+    PROFESSIONS = ["INGENIEROS", "ABOGADOS", "MÉDICOS", "ARQUITECTO", "PERIODISTA", "VETERINARIO", "DENTISTA"]
