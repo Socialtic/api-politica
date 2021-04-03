@@ -22,6 +22,7 @@ from app.controllers.chamber import *
 from app.controllers.role import *
 from app.controllers.coalition import *
 from app.controllers.party import *
+from app.controllers.person import *
 
 # For testing
 db.drop_all()
