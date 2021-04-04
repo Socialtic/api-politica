@@ -34,7 +34,9 @@ class Person(db.Model):
         for person in persons:
             obj = {
                 'person_id': person.person_id,
-                'full_name': person.full_name,
+                'full_name': {
+                    'es_MX': person.full_name
+                },
                 'date_birth': person.date_birth.strftime('%Y-%m-%d'),
                 'gender': Catalogues.GENDERS[person.gender_id],
                 'dead_or_alive': person.dead_or_alive,
