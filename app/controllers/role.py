@@ -30,7 +30,7 @@ def role():
             #   Verifying REQUIRED values
             if title == EmptyValues.EMPTY_STRING or role_type == EmptyValues.EMPTY_STRING or area_id == EmptyValues.EMPTY_INT or chamber_id == EmptyValues.EMPTY_INT:
                 construct['success'] = False
-                construct['error'] = "Missing data. Required values for title, role, parent_area_id, chamber_id."
+                construct['error'] = 'Missing data. Required values for title, role, parent_area_id, chamber_id.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -57,7 +57,7 @@ def role():
         #   Missing parameters from the POST method
         except Exception as e:
             construct['success'] = False
-            construct['error'] = "Missing data. Missing value " + str(e)
+            construct['error'] = 'Missing data. Missing value ' + str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
 
@@ -73,7 +73,7 @@ def roleId(role_id):
     if not role:
         construct = {
             'success': False,
-            'message': "Theres no data for that role_id"
+            'message': 'Theres no data for that role_id'
         }
         response = jsonify(construct)
         response.status_code = HttpStatus.OK
@@ -111,7 +111,7 @@ def roleId(role_id):
             #   Verifying REQUIRED values
             if title == EmptyValues.EMPTY_STRING or role_type == EmptyValues.EMPTY_STRING or area_id == EmptyValues.EMPTY_INT or chamber_id == EmptyValues.EMPTY_INT:
                 construct['success'] = False
-                construct['error'] = "Missing data. Required values for title, role, parent_area_id, chamber_id."
+                construct['error'] = 'Missing data. Required values for title, role, parent_area_id, chamber_id.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -139,7 +139,7 @@ def roleId(role_id):
         #   Missing parameters from the PUT method
         except Exception as e:
             construct['success'] = False
-            construct['error'] = "Missing data. Missing value " + str(e)
+            construct['error'] = 'Missing data. Missing value ' + str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
 

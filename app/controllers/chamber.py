@@ -27,7 +27,7 @@ def chamber():
             #   Verifying REQUIRED values
             if name == EmptyValues.EMPTY_STRING or area_id == EmptyValues.EMPTY_INT:
                 construct['success'] = False
-                construct['error'] = "Missing data. Required values for name and area_id."
+                construct['error'] = 'Missing data. Required values for name and area_id.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -51,7 +51,7 @@ def chamber():
         #   Missing parameters from the POST method
         except Exception as e:
             construct['success'] = False
-            construct['error'] = "Missing data. Missing value " + str(e)
+            construct['error'] = 'Missing data. Missing value ' + str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
 
@@ -67,7 +67,7 @@ def chamberId(chamber_id):
     if not chamber:
         construct = {
             'success': False,
-            'message': "Theres no data for that chamber_id"
+            'message': 'Theres no data for that chamber_id'
         }
         response = jsonify(construct)
         response.status_code = HttpStatus.OK
@@ -99,7 +99,7 @@ def chamberId(chamber_id):
             #   Verifying REQUIRED values
             if name == EmptyValues.EMPTY_STRING or area_id == EmptyValues.EMPTY_INT:
                 construct['success'] = False
-                construct['error'] = "Missing data. Required values for name and area_id."
+                construct['error'] = 'Missing data. Required values for name and area_id.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -124,7 +124,7 @@ def chamberId(chamber_id):
         #   Missing parameters from the PUT method
         except Exception as e:
             construct['success'] = False
-            construct['error'] = "Missing data. Missing value " + str(e)
+            construct['error'] = 'Missing data. Missing value ' + str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
 

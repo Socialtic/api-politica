@@ -29,7 +29,7 @@ def coalition():
             #   Verifying REQUIRED values
             if name == EmptyValues.EMPTY_STRING:
                 construct['success'] = False
-                construct['error'] = "Missing data. Required values for name."
+                construct['error'] = 'Missing data. Required values for name.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -55,7 +55,7 @@ def coalition():
         #   Missing parameters from the POST method
         except Exception as e:
             construct['success'] = False
-            construct['error'] = "Missing data. Missing value " + str(e)
+            construct['error'] = 'Missing data. Missing value ' + str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
 
@@ -71,7 +71,7 @@ def coalitionId(coalition_id):
     if not coalition:
         construct = {
             'success': False,
-            'message': "Theres no data for that coalition_id"
+            'message': 'Theres no data for that coalition_id'
         }
         response = jsonify(construct)
         response.status_code = HttpStatus.OK
@@ -105,7 +105,7 @@ def coalitionId(coalition_id):
             #   Verifying REQUIRED values
             if name == EmptyValues.EMPTY_STRING:
                 construct['success'] = False
-                construct['error'] = "Missing data. Required values for name."
+                construct['error'] = 'Missing data. Required values for name.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -131,7 +131,7 @@ def coalitionId(coalition_id):
         #   Missing parameters from the PUT method
         except Exception as e:
             construct['success'] = False
-            construct['error'] = "Missing data. Missing value " + str(e)
+            construct['error'] = 'Missing data. Missing value ' + str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
 

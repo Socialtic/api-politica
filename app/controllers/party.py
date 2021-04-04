@@ -31,7 +31,7 @@ def party():
             #   Verifying REQUIRED values
             if name == EmptyValues.EMPTY_STRING:
                 construct['success'] = False
-                construct['error'] = "Missing data. Required values for name."
+                construct['error'] = 'Missing data. Required values for name.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -58,7 +58,7 @@ def party():
         #   Missing parameters from the POST method
         except Exception as e:
             construct['success'] = False
-            construct['error'] = "Missing data. Missing value " + str(e)
+            construct['error'] = 'Missing data. Missing value ' + str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
 
@@ -74,7 +74,7 @@ def partyId(party_id):
     if not party:
         construct = {
             'success': False,
-            'message': "Theres no data for that party_id"
+            'message': 'Theres no data for that party_id'
         }
         response = jsonify(construct)
         response.status_code = HttpStatus.OK
@@ -112,7 +112,7 @@ def partyId(party_id):
             #   Verifying REQUIRED values
             if name == EmptyValues.EMPTY_STRING:
                 construct['success'] = False
-                construct['error'] = "Missing data. Required values for name."
+                construct['error'] = 'Missing data. Required values for name.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -140,7 +140,7 @@ def partyId(party_id):
         #   Missing parameters from the PUT method
         except Exception as e:
             construct['success'] = False
-            construct['error'] = "Missing data. Missing value " + str(e)
+            construct['error'] = 'Missing data. Missing value ' + str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
 

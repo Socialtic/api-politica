@@ -36,7 +36,7 @@ def person():
             #   Verifying REQUIRED values
             if full_name == EmptyValues.EMPTY_STRING or gender == EmptyValues.EMPTY_INT or dead_or_alive == EmptyValues.EMPTY_INT:
                 construct['success'] = False
-                construct['error'] = "Missing data. Required values for full_name, gender and dead_or_alive."
+                construct['error'] = 'Missing data. Required values for full_name, gender and dead_or_alive.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -65,7 +65,7 @@ def person():
         #   Missing parameters from the POST method
         except Exception as e:
             construct['success'] = False
-            construct['error'] = "Missing data. Missing value " + str(e)
+            construct['error'] = 'Missing data. Missing value ' + str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
 
@@ -81,7 +81,7 @@ def personId(person_id):
     if not person:
         construct = {
             'success': False,
-            'message': "Theres no data for that person_id"
+            'message': 'Theres no data for that person_id'
         }
         response = jsonify(construct)
         response.status_code = HttpStatus.OK
@@ -121,7 +121,7 @@ def personId(person_id):
             #   Verifying REQUIRED values
             if full_name == EmptyValues.EMPTY_STRING or gender == EmptyValues.EMPTY_INT or dead_or_alive == EmptyValues.EMPTY_INT:
                 construct['success'] = False
-                construct['error'] = "Missing data. Required values for full_name, gender and dead_or_alive."
+                construct['error'] = 'Missing data. Required values for full_name, gender and dead_or_alive.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -150,7 +150,7 @@ def personId(person_id):
         #   Missing parameters from the PUT method
         except Exception as e:
             construct['success'] = False
-            construct['error'] = "Missing data. Missing value " + str(e)
+            construct['error'] = 'Missing data. Missing value ' + str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
 

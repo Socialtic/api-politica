@@ -33,7 +33,7 @@ def area():
             #   Verifying REQUIRED values
             if ocd_id == EmptyValues.EMPTY_STRING or name == EmptyValues.EMPTY_STRING or country == EmptyValues.EMPTY_STRING or distric_type == EmptyValues.EMPTY_STRING:
                 construct['success'] = False
-                construct['error'] = "Missing data. Required values for ocd_id, name, country and distric_type."
+                construct['error'] = 'Missing data. Required values for ocd_id, name, country and distric_type.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -61,7 +61,7 @@ def area():
         #   Missing parameters from the POST method
         except Exception as e:
             construct['success'] = False
-            construct['error'] = "Missing data. Missing value " + str(e)
+            construct['error'] = 'Missing data. Missing value ' + str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
 
@@ -77,7 +77,7 @@ def areaId(area_id):
     if not area:
         construct = {
             'success': False,
-            'message': "Theres no data for that area_id"
+            'message': 'Theres no data for that area_id'
         }
         response = jsonify(construct)
         response.status_code = HttpStatus.OK
@@ -119,7 +119,7 @@ def areaId(area_id):
             #   Verifying REQUIRED values
             if ocd_id == EmptyValues.EMPTY_STRING or name == EmptyValues.EMPTY_STRING or country == EmptyValues.EMPTY_STRING or distric_type == EmptyValues.EMPTY_STRING:
                 construct['success'] = False
-                construct['error'] = "Missing data. Required values for ocd_id, name, country and distric_type."
+                construct['error'] = 'Missing data. Required values for ocd_id, name, country and distric_type.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -149,7 +149,7 @@ def areaId(area_id):
         #   Missing parameters from the PUT method
         except Exception as e:
             construct['success'] = False
-            construct['error'] = "Missing data. Missing value " + str(e)
+            construct['error'] = 'Missing data. Missing value ' + str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
 
