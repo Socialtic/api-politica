@@ -210,28 +210,28 @@ print('-----------------------------------------------------------------------')
 print('Inserting past memberships')
 data = [
     {
-    	"person_id": 1,
-    	"start_date": "2004-06-01",
-    	"end_date": "2008-12-01",
-    	"party_name": "PRI",
-    	"coalition_name": "",
-    	"role_name": "Presidente Municipal de Zapopan"
+    	'person_id': 1,
+    	'start_date': '2004-06-01',
+    	'end_date': '2008-12-01',
+    	'party_name': 'PRI',
+    	'coalition_name': '',
+    	'role_name': 'Presidente Municipal de Zapopan'
     },
     {
-    	"person_id": 1,
-    	"start_date": "2008-06-01",
-    	"end_date": "2012-12-01",
-    	"party_name": "PRI",
-    	"coalition_name": "",
-    	"role_name": "Gobernador de Jalisco"
+    	'person_id': 1,
+    	'start_date': '2008-06-01',
+    	'end_date': '2012-12-01',
+    	'party_name': 'PRI',
+    	'coalition_name': '',
+    	'role_name': 'Gobernador de Jalisco'
     },
     {
-    	"person_id": 1,
-    	"start_date": "2012-06-01",
-    	"end_date": "2018-12-01",
-    	"party_name": "PRI",
-    	"coalition_name": "",
-    	"role_name": "Presidente de México"
+    	'person_id': 1,
+    	'start_date': '2012-06-01',
+    	'end_date': '2018-12-01',
+    	'party_name': 'PRI',
+    	'coalition_name': '',
+    	'role_name': 'Presidente de México'
     }
 ]
 
@@ -242,27 +242,66 @@ for i in range(len(data)):
 print('-----------------------------------------------------------------------')
 print()
 
-'''
-print('Getting all areas')
-response = requests.get(BASE + 'area')
-print(response.json())
-'''
+print('-----------------------------------------------------------------------')
+print('Inserting memberships')
+data = [
+	{
+		'person_id': 1,
+		'role_id': 1,
+		'party_id': 1,
+		'coalition_id': 1,
+		'goes_for_coalition': False,
+		'membership_type': 1,
+		'goes_for_reelection': False,
+		'start_date': '',
+		'end_date': '',
+		'is_substitute': False,
+		'parent_membership_id': '',
+		'changed_from_substitute': False,
+		'date_changed_from_substitute': ''
+	},
+	{
+		'person_id': 2,
+		'role_id': 2,
+		'party_id': 2,
+		'coalition_id': 2,
+		'goes_for_coalition': False,
+		'membership_type': 2,
+		'goes_for_reelection': False,
+		'start_date': '',
+		'end_date': '',
+		'is_substitute': False,
+		'parent_membership_id': '',
+		'changed_from_substitute': False,
+		'date_changed_from_substitute': ''
+	},
+	{
+		'person_id': 3,
+		'role_id': 3,
+		'party_id': 3,
+		'coalition_id': 3,
+		'goes_for_coalition': False,
+		'membership_type': 3,
+		'goes_for_reelection': False,
+		'start_date': '',
+		'end_date': '',
+		'is_substitute': False,
+		'parent_membership_id': '',
+		'changed_from_substitute': False,
+		'date_changed_from_substitute': ''
+	}
+]
+
+for i in range(len(data)):
+    print(data[i])
+    response = requests.post(BASE + 'membership', json=data[i])
+    print(response.json())
+print('-----------------------------------------------------------------------')
+print()
 
 '''
-print('Update')
-response = requests.patch(BASE + 'person/2', {'first_name': 'Paul'})
-print(response.json())
-
-response = requests.patch(BASE + 'person/2', {'first_name': 'Paul', 'last_name': 'Enriquez'})
-print(response.json())
-
-
-
-print('Delete')
-response = requests.delete(BASE + 'person/2')
-print(response)
-response = requests.delete(BASE + 'person/2')
-print(response)
-response = requests.delete(BASE + 'person/200')
-print(response)
+requests.get
+requests.post
+requests.patch
+requests.delete
 '''

@@ -3,7 +3,6 @@ from app import app
 from app.models.past_memberships import *
 from app.const import *
 from datetime import date
-import json
 
 @app.route('/past-membership', methods=['GET', 'POST'])
 def pastMembership():

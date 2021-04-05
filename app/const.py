@@ -7,6 +7,7 @@ class HttpStatus:
 class EmptyValues:
     EMPTY_INT = (-1)
     EMPTY_STRING = ''
+    EMPTY_DATE = '0001-01-01'
 
 class Catalogues:
     OTHER_NAMES_TYPES = ['','preferred', 'nickname', 'ballot_name']

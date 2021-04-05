@@ -24,6 +24,7 @@ from app.controllers.coalition import *
 from app.controllers.party import *
 from app.controllers.person import *
 from app.controllers.past_memberships import *
+from app.controllers.memberships import *
 
 # For testing
 db.drop_all()
