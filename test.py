@@ -206,6 +206,42 @@ for i in range(len(data)):
 print('-----------------------------------------------------------------------')
 print()
 
+print('-----------------------------------------------------------------------')
+print('Inserting past memberships')
+data = [
+    {
+    	"person_id": 1,
+    	"start_date": "2004-06-01",
+    	"end_date": "2008-12-01",
+    	"party_name": "PRI",
+    	"coalition_name": "",
+    	"role_name": "Presidente Municipal de Zapopan"
+    },
+    {
+    	"person_id": 1,
+    	"start_date": "2008-06-01",
+    	"end_date": "2012-12-01",
+    	"party_name": "PRI",
+    	"coalition_name": "",
+    	"role_name": "Gobernador de Jalisco"
+    },
+    {
+    	"person_id": 1,
+    	"start_date": "2012-06-01",
+    	"end_date": "2018-12-01",
+    	"party_name": "PRI",
+    	"coalition_name": "",
+    	"role_name": "Presidente de México"
+    }
+]
+
+for i in range(len(data)):
+    print(data[i])
+    response = requests.post(BASE + 'past-membership', json=data[i])
+    print(response.json())
+print('-----------------------------------------------------------------------')
+print()
+
 '''
 print('Getting all areas')
 response = requests.get(BASE + 'area')
