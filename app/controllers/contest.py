@@ -51,7 +51,7 @@ def contest_fun():
                 response = jsonify(construct)
                 response.status_code = HttpStatus.CREATED
 
-            #   Failling while INSERTING into the DB
+            #   Falling while INSERTING into the DB
             except Exception as e:
                 construct['success'] = False
                 construct['error'] = str(e)
@@ -136,7 +136,7 @@ def contestId(contest_id):
                 response = jsonify(construct)
                 response.status_code = HttpStatus.CREATED
 
-            #   Failling while UPDATING into the DB
+            #   Falling while UPDATING into the DB
             except Exception as e:
                 construct['success'] = False
                 construct['error'] = str(e)

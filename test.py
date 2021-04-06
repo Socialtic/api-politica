@@ -13,7 +13,7 @@ data = [
     	'country': 'México',
     	'state': 'Baja California',
     	'city': '',
-    	'distric_type': 'REGIONAL_EXECUTIVE',
+    	'district_type': 'REGIONAL_EXECUTIVE',
     	'parent_area_id': ''
     },
     {
@@ -22,7 +22,7 @@ data = [
     	'country': 'México',
     	'state': 'Baja California',
     	'city': 'Tijuana',
-    	'distric_type': 'NATIONAL_LOWER',
+    	'district_type': 'NATIONAL_LOWER',
     	'parent_area_id': '1'
     },
     {
@@ -31,7 +31,7 @@ data = [
     	'country': 'México',
     	'state': 'Baja California',
     	'city': 'Tijuana',
-    	'distric_type': 'LOCAL_EXECUTIVE',
+    	'district_type': 'LOCAL_EXECUTIVE',
     	'parent_area_id': '1'
     }
 ]

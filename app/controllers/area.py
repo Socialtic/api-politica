@@ -27,13 +27,13 @@ def area():
             country = EmptyValues.EMPTY_STRING if request.json['country'] == EmptyValues.EMPTY_STRING else request.json['country']
             state = EmptyValues.EMPTY_STRING if request.json['state'] == EmptyValues.EMPTY_STRING else request.json['state']
             city = EmptyValues.EMPTY_STRING if request.json['city'] == EmptyValues.EMPTY_STRING else request.json['city']
-            distric_type = EmptyValues.EMPTY_STRING if request.json['distric_type'] == EmptyValues.EMPTY_STRING else request.json['distric_type']
+            district_type = EmptyValues.EMPTY_STRING if request.json['district_type'] == EmptyValues.EMPTY_STRING else request.json['district_type']
             parent_area_id = EmptyValues.EMPTY_INT if request.json['parent_area_id'] == EmptyValues.EMPTY_STRING else request.json['parent_area_id']
 
             #   Verifying REQUIRED values
-            if ocd_id == EmptyValues.EMPTY_STRING or name == EmptyValues.EMPTY_STRING or country == EmptyValues.EMPTY_STRING or distric_type == EmptyValues.EMPTY_STRING:
+            if ocd_id == EmptyValues.EMPTY_STRING or name == EmptyValues.EMPTY_STRING or country == EmptyValues.EMPTY_STRING or district_type == EmptyValues.EMPTY_STRING:
                 construct['success'] = False
-                construct['error'] = 'Missing data. Required values for ocd_id, name, country and distric_type.'
+                construct['error'] = 'Missing data. Required values for ocd_id, name, country and district_type.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -42,7 +42,7 @@ def area():
             try:
                 area = Area(
                     ocd_id=ocd_id, name=name, country=country, state=state,
-                    city=city, distric_type=distric_type,
+                    city=city, district_type=district_type,
                     parent_area_id=parent_area_id
                 )
                 area.save()
@@ -51,7 +51,7 @@ def area():
                 response = jsonify(construct)
                 response.status_code = HttpStatus.CREATED
 
-            #   Failling while INSERTING into the DB
+            #   Falling while INSERTING into the DB
             except Exception as e:
                 construct['success'] = False
                 construct['error'] = str(e)
@@ -95,7 +95,7 @@ def areaId(area_id):
                 'country': area.country,
                 'state': area.state,
                 'city': area.city,
-                'distric_type': area.distric_type,
+                'district_type': area.district_type,
                 'parent_area_id': area.parent_area_id
             }
         }
@@ -113,13 +113,13 @@ def areaId(area_id):
             country = EmptyValues.EMPTY_STRING if request.json['country'] == EmptyValues.EMPTY_STRING else request.json['country']
             state = EmptyValues.EMPTY_STRING if request.json['state'] == EmptyValues.EMPTY_STRING else request.json['state']
             city = EmptyValues.EMPTY_STRING if request.json['city'] == EmptyValues.EMPTY_STRING else request.json['city']
-            distric_type = EmptyValues.EMPTY_STRING if request.json['distric_type'] == EmptyValues.EMPTY_STRING else request.json['distric_type']
+            district_type = EmptyValues.EMPTY_STRING if request.json['district_type'] == EmptyValues.EMPTY_STRING else request.json['district_type']
             parent_area_id = EmptyValues.EMPTY_INT if request.json['parent_area_id'] == EmptyValues.EMPTY_STRING else request.json['parent_area_id']
 
             #   Verifying REQUIRED values
-            if ocd_id == EmptyValues.EMPTY_STRING or name == EmptyValues.EMPTY_STRING or country == EmptyValues.EMPTY_STRING or distric_type == EmptyValues.EMPTY_STRING:
+            if ocd_id == EmptyValues.EMPTY_STRING or name == EmptyValues.EMPTY_STRING or country == EmptyValues.EMPTY_STRING or district_type == EmptyValues.EMPTY_STRING:
                 construct['success'] = False
-                construct['error'] = 'Missing data. Required values for ocd_id, name, country and distric_type.'
+                construct['error'] = 'Missing data. Required values for ocd_id, name, country and district_type.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -131,7 +131,7 @@ def areaId(area_id):
                 area.country = country
                 area.state = state
                 area.city = city
-                area.distric_type = distric_type
+                area.district_type = district_type
                 area.parent_area_id = parent_area_id
                 db.session.commit()
                 construct['success'] = True
@@ -139,7 +139,7 @@ def areaId(area_id):
                 response = jsonify(construct)
                 response.status_code = HttpStatus.CREATED
 
-            #   Failling while UPDATING into the DB
+            #   Falling while UPDATING into the DB
             except Exception as e:
                 construct['success'] = False
                 construct['error'] = str(e)

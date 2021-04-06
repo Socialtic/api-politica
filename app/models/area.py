@@ -10,17 +10,16 @@ class Area(db.Model):
     country = db.Column(db.String, nullable=False)
     state = db.Column(db.String)
     city = db.Column(db.String)
-    distric_type = db.Column(db.String, nullable=False)
+    district_type = db.Column(db.String, nullable=False)
     parent_area_id = db.Column(db.Integer, db.ForeignKey('area.area_id'), nullable=True)
-    #area = relationship('Area', backref='area')
 
-    def __init__(self, ocd_id, name, country, state, city, distric_type, parent_area_id):
+    def __init__(self, ocd_id, name, country, state, city, district_type, parent_area_id):
         self.ocd_id = ocd_id
         self.name = name
         self.country = country
         self.state = state
         self.city = city
-        self.distric_type = distric_type
+        self.district_type = district_type
         self.parent_area_id = parent_area_id
 
     def save(self):
@@ -39,7 +38,7 @@ class Area(db.Model):
                 'country': area.country,
                 'state': area.state,
                 'city': area.city,
-                'distric_type': area.distric_type,
+                'district_type': area.district_type,
                 'parent_area_id': area.parent_area_id
             }
             result.append(obj)

@@ -1,6 +1,5 @@
 from app import app
 
-## <-- home/index --> ###
 @app.route('/', methods=['GET', 'POST'])
 def index():
     indexBody = """
