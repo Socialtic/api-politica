@@ -87,7 +87,7 @@ def roleId(role_id):
             'role': {
                 'role_id': role.role_id,
                 'title': {
-                    'es_MX': role.title
+                    'en_US': role.title
                 },
                 'role': Catalogues.ROLE_TYPES[role.role_type],
                 'area_id': role.area_id,

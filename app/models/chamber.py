@@ -24,7 +24,7 @@ class Chamber(db.Model):
             obj = {
                 'chamber_id': chamber.chamber_id,
                 'name': {
-                    'es_MX': chamber.name
+                    'en_US': chamber.name
                 },
                 'area_id': chamber.area_id
             }

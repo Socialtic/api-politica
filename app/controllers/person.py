@@ -94,9 +94,18 @@ def personId(person_id):
             'success': True,
             'person': {
                 'person_id': person.person_id,
-                'first_name': person.first_name,
-                'last_name': person.last_name,
-                'full_name': person.full_name,
+                'first_name': {
+                    'en_US': person.first_name,
+                    'es_MX': person.first_name
+                },
+                'last_name': {
+                    'en_US': person.last_name,
+                    'es_MX': person.last_name
+                },
+                'full_name': {
+                    'en_US': person.full_name,
+                    'es_MX': person.full_name
+                },
                 'date_birth': person.date_birth.strftime('%Y-%m-%d'),
                 'gender': Catalogues.GENDERS[person.gender_id],
                 'dead_or_alive': person.dead_or_alive,

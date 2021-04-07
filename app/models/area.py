@@ -36,6 +36,7 @@ class Area(db.Model):
                 'area_id': area.area_id,
                 'ocd_id': area.ocd_id,
                 'name': {
+                    'en_US': area.name,
                     'es_MX': area.name
                 },
                 'country': area.country,

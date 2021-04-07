@@ -29,8 +29,14 @@ class Party(db.Model):
         for party in parties:
             obj = {
                 'party_id': party.party_id,
-                'name': party.name,
-                'abbreviation': party.abbreviation,
+                'name': {
+                    'en_US': party.name,
+                    'es_MX': party.name
+                },
+                'abbreviation': {
+                    'en_US': party.abbreviation,
+                    'es_MX': party.abbreviation
+                },
                 'colors': party.colors,
                 'area_id': party.area_id,
                 'coalition_id': party.coalition_id

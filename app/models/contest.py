@@ -32,7 +32,9 @@ class Contest(db.Model):
             obj = {
                 'contest_id': contest.contest_id,
                 'area_id': contest.area_id,
-                'title': contest.title,
+                'title': {
+                    'en_US': contest.title,
+                },
                 'membership_id_winner': contest.membership_id_winner,
                 'start_date': contest.start_date.strftime('%Y-%m-%d'),
                 'end_date': contest.end_date.strftime('%Y-%m-%d'),
