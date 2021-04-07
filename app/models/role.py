@@ -1,5 +1,5 @@
 from app import db
-from app.const import Catalogues
+from app.const import Catalogues, EmptyValues
 
 class Role(db.Model):
     __tablename__ = 'role'
@@ -37,7 +37,7 @@ class Role(db.Model):
                 'role': Catalogues.ROLE_TYPES[role.role_type],
                 'area_id': role.area_id,
                 'chamber_id': role.chamber_id,
-                'contest_id': role.contest_id
+                'contest_id': "" if role.contest_id == EmptyValues.EMPTY_INT else role.contest_id
             }
             result.append(obj)
         return result

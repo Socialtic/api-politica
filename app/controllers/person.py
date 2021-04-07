@@ -106,11 +106,11 @@ def personId(person_id):
                     'en_US': person.full_name,
                     'es_MX': person.full_name
                 },
-                'date_birth': person.date_birth.strftime('%Y-%m-%d'),
+                'date_birth': "" if person.date_birth.strftime('%Y-%m-%d') == date.fromisoformat(EmptyValues.EMPTY_DATE).strftime('%Y-%m-%d') else person.date_birth.strftime('%Y-%m-%d'),
                 'gender': Catalogues.GENDERS[person.gender_id],
                 'dead_or_alive': person.dead_or_alive,
-                'last_degree_of_studies': Catalogues.DEGREES_OF_STUDIES[person.last_degree_of_studies_id],
-                'contest_id': person.contest_id
+                'last_degree_of_studies': "" if person.last_degree_of_studies_id == EmptyValues.EMPTY_INT else Catalogues.DEGREES_OF_STUDIES[person.last_degree_of_studies_id],
+                'contest_id': "" if person.contest_id == EmptyValues.EMPTY_INT else person.contest_id
             }
         }
         response = jsonify(construct)

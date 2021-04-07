@@ -92,7 +92,7 @@ def roleId(role_id):
                 'role': Catalogues.ROLE_TYPES[role.role_type],
                 'area_id': role.area_id,
                 'chamber_id': role.chamber_id,
-                'contest_id': role.contest_id
+                'contest_id': "" if role.contest_id == EmptyValues.EMPTY_INT else role.contest_id
             }
         }
         response = jsonify(construct)

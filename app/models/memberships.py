@@ -1,5 +1,6 @@
 from app import db
-from app.const import Catalogues
+from app.const import Catalogues, EmptyValues
+from datetime import date
 
 class Membership(db.Model):
     __tablename__ = 'membership'
@@ -54,16 +55,16 @@ class Membership(db.Model):
                 'person_id': membership.person_id,
                 'role_id': membership.role_id,
                 'party_id': membership.party_id,
-                'coalition_id': membership.coalition_id,
+                'coalition_id': "" if membership.coalition_id == EmptyValues.EMPTY_INT else membership.coalition_id,
                 'goes_for_coalition': membership.goes_for_coalition,
                 'membership_type': Catalogues.MEMBERSHIP_TYPES[membership.membership_type],
                 'goes_for_reelection': membership.goes_for_reelection,
-                'start_date': membership.start_date.strftime('%Y-%m-%d'),
-                'end_date': membership.end_date.strftime('%Y-%m-%d'),
+                'start_date': "" if membership.start_date.strftime('%Y-%m-%d') == date.fromisoformat(EmptyValues.EMPTY_DATE).strftime('%Y-%m-%d') else membership.start_date.strftime('%Y-%m-%d'),
+                'end_date': "" if membership.end_date.strftime('%Y-%m-%d') == date.fromisoformat(EmptyValues.EMPTY_DATE).strftime('%Y-%m-%d') else membership.end_date.strftime('%Y-%m-%d'),
                 'is_substitute': membership.is_substitute,
-                'parent_membership_id': membership.parent_membership_id,
-                'changed_from_substitute': membership.changed_from_substitute,
-                'date_changed_from_substitute': membership.date_changed_from_substitute.strftime('%Y-%m-%d')
+                'parent_membership_id': "" if membership.parent_membership_id == EmptyValues.EMPTY_INT else membership.parent_membership_id,
+                'changed_from_substitute': "" if membership.changed_from_substitute == EmptyValues.EMPTY_INT else membership.changed_from_substitute,
+                'date_changed_from_substitute': "" if membership.date_changed_from_substitute.strftime('%Y-%m-%d') == date.fromisoformat(EmptyValues.EMPTY_DATE).strftime('%Y-%m-%d') else membership.date_changed_from_substitute.strftime('%Y-%m-%d')
             }
             result.append(obj)
         return result

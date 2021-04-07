@@ -1,4 +1,5 @@
 from app import db
+from app.const import EmptyValues
 
 class Party(db.Model):
     __tablename__ = 'party'
@@ -38,8 +39,8 @@ class Party(db.Model):
                     'es_MX': party.abbreviation
                 },
                 'colors': party.colors,
-                'area_id': party.area_id,
-                'coalition_id': party.coalition_id
+                'area_id': "" if party.area_id == EmptyValues.EMPTY_INT else party.area_id,
+                'coalition_id': "" if party.coalition_id == EmptyValues.EMPTY_INT else party.coalition_id
             }
             result.append(obj)
         return result
