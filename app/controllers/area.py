@@ -27,11 +27,11 @@ def area():
             country = EmptyValues.EMPTY_STRING if request.json['country'] == EmptyValues.EMPTY_STRING else request.json['country']
             state = EmptyValues.EMPTY_STRING if request.json['state'] == EmptyValues.EMPTY_STRING else request.json['state']
             city = EmptyValues.EMPTY_STRING if request.json['city'] == EmptyValues.EMPTY_STRING else request.json['city']
-            district_type = EmptyValues.EMPTY_STRING if request.json['district_type'] == EmptyValues.EMPTY_STRING else request.json['district_type']
+            district_type = EmptyValues.EMPTY_INT if request.json['district_type'] == EmptyValues.EMPTY_STRING else request.json['district_type']
             parent_area_id = EmptyValues.EMPTY_INT if request.json['parent_area_id'] == EmptyValues.EMPTY_STRING else request.json['parent_area_id']
 
             #   Verifying REQUIRED values
-            if ocd_id == EmptyValues.EMPTY_STRING or name == EmptyValues.EMPTY_STRING or country == EmptyValues.EMPTY_STRING or district_type == EmptyValues.EMPTY_STRING:
+            if ocd_id == EmptyValues.EMPTY_STRING or name == EmptyValues.EMPTY_STRING or country == EmptyValues.EMPTY_STRING or district_type == EmptyValues.EMPTY_INT:
                 construct['success'] = False
                 construct['error'] = 'Missing data. Required values for ocd_id, name, country and district_type.'
                 response = jsonify(construct)
@@ -91,12 +91,14 @@ def areaId(area_id):
             'area': {
                 'area_id': area.area_id,
                 'ocd_id': area.ocd_id,
-                'name': area.name,
+                'name': {
+                    'es_MX': area.name
+                },
                 'country': area.country,
                 'state': area.state,
                 'city': area.city,
-                'district_type': area.district_type,
-                'parent_area_id': area.parent_area_id
+                'district_type': Catalogues.DISTRICT_TYPES[area.district_type],
+                'parent_area_id': "" if area.parent_area_id == EmptyValues.EMPTY_INT else area.parent_area_id
             }
         }
         response = jsonify(construct)
@@ -113,11 +115,11 @@ def areaId(area_id):
             country = EmptyValues.EMPTY_STRING if request.json['country'] == EmptyValues.EMPTY_STRING else request.json['country']
             state = EmptyValues.EMPTY_STRING if request.json['state'] == EmptyValues.EMPTY_STRING else request.json['state']
             city = EmptyValues.EMPTY_STRING if request.json['city'] == EmptyValues.EMPTY_STRING else request.json['city']
-            district_type = EmptyValues.EMPTY_STRING if request.json['district_type'] == EmptyValues.EMPTY_STRING else request.json['district_type']
+            district_type = EmptyValues.EMPTY_INT if request.json['district_type'] == EmptyValues.EMPTY_STRING else request.json['district_type']
             parent_area_id = EmptyValues.EMPTY_INT if request.json['parent_area_id'] == EmptyValues.EMPTY_STRING else request.json['parent_area_id']
 
             #   Verifying REQUIRED values
-            if ocd_id == EmptyValues.EMPTY_STRING or name == EmptyValues.EMPTY_STRING or country == EmptyValues.EMPTY_STRING or district_type == EmptyValues.EMPTY_STRING:
+            if ocd_id == EmptyValues.EMPTY_STRING or name == EmptyValues.EMPTY_STRING or country == EmptyValues.EMPTY_STRING or district_type == EmptyValues.EMPTY_INT:
                 construct['success'] = False
                 construct['error'] = 'Missing data. Required values for ocd_id, name, country and district_type.'
                 response = jsonify(construct)

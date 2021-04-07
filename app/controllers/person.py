@@ -5,7 +5,6 @@ from app.models.person_professions import *
 from app.models.person import *
 from app.const import *
 from datetime import date
-import json
 
 @app.route('/person', methods=['GET', 'POST'])
 def person():
@@ -26,6 +25,8 @@ def person():
 
         #   Trying to get parameters from the POST method
         try:
+            first_name = EmptyValues.EMPTY_STRING if request.json['first_name'] == EmptyValues.EMPTY_STRING else request.json['first_name']
+            last_name = EmptyValues.EMPTY_STRING if request.json['last_name'] == EmptyValues.EMPTY_STRING else request.json['last_name']
             full_name = EmptyValues.EMPTY_STRING if request.json['full_name'] == EmptyValues.EMPTY_STRING else request.json['full_name']
             date_birth = EmptyValues.EMPTY_STRING if request.json['date_birth'] == EmptyValues.EMPTY_STRING else request.json['date_birth']
             gender = EmptyValues.EMPTY_INT if request.json['gender'] == EmptyValues.EMPTY_STRING else request.json['gender']
@@ -34,9 +35,9 @@ def person():
             contest_id = EmptyValues.EMPTY_INT if request.json['contest_id'] == EmptyValues.EMPTY_STRING else request.json['contest_id']
 
             #   Verifying REQUIRED values
-            if full_name == EmptyValues.EMPTY_STRING or gender == EmptyValues.EMPTY_INT or dead_or_alive == EmptyValues.EMPTY_INT:
+            if first_name == EmptyValues.EMPTY_STRING or last_name == EmptyValues.EMPTY_STRING or full_name == EmptyValues.EMPTY_STRING or gender == EmptyValues.EMPTY_INT or dead_or_alive == EmptyValues.EMPTY_INT:
                 construct['success'] = False
-                construct['error'] = 'Missing data. Required values for full_name, gender and dead_or_alive.'
+                construct['error'] = 'Missing data. Required values for first_name, last_name, full_name, gender and dead_or_alive.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -44,10 +45,9 @@ def person():
             #   Trying to INSERT into the DB
             try:
                 person = Person(
-                    full_name=full_name, date_birth=date.fromisoformat(date_birth),
-                    gender_id=gender, dead_or_alive=dead_or_alive,
-                    last_degree_of_studies_id=last_degree_of_studies,
-                    contest_id=contest_id
+                    first_name=first_name, last_name=last_name, full_name=full_name,
+                    date_birth=date.fromisoformat(date_birth), gender_id=gender, dead_or_alive=dead_or_alive,
+                    last_degree_of_studies_id=last_degree_of_studies, contest_id=contest_id
                 )
                 person.save()
                 construct['success'] = True
@@ -94,6 +94,8 @@ def personId(person_id):
             'success': True,
             'person': {
                 'person_id': person.person_id,
+                'first_name': person.first_name,
+                'last_name': person.last_name,
                 'full_name': person.full_name,
                 'date_birth': person.date_birth.strftime('%Y-%m-%d'),
                 'gender': Catalogues.GENDERS[person.gender_id],
@@ -111,6 +113,8 @@ def personId(person_id):
 
         #   Trying to get parameters from the PUT method
         try:
+            first_name = EmptyValues.EMPTY_STRING if request.json['first_name'] == EmptyValues.EMPTY_STRING else request.json['first_name']
+            last_name = EmptyValues.EMPTY_STRING if request.json['last_name'] == EmptyValues.EMPTY_STRING else request.json['last_name']
             full_name = EmptyValues.EMPTY_STRING if request.json['full_name'] == EmptyValues.EMPTY_STRING else request.json['full_name']
             date_birth = EmptyValues.EMPTY_STRING if request.json['date_birth'] == EmptyValues.EMPTY_STRING else request.json['date_birth']
             gender = EmptyValues.EMPTY_INT if request.json['gender'] == EmptyValues.EMPTY_STRING else request.json['gender']
@@ -119,15 +123,17 @@ def personId(person_id):
             contest_id = EmptyValues.EMPTY_INT if request.json['contest_id'] == EmptyValues.EMPTY_STRING else request.json['contest_id']
 
             #   Verifying REQUIRED values
-            if full_name == EmptyValues.EMPTY_STRING or gender == EmptyValues.EMPTY_INT or dead_or_alive == EmptyValues.EMPTY_INT:
+            if first_name == EmptyValues.EMPTY_STRING or last_name == EmptyValues.EMPTY_STRING or full_name == EmptyValues.EMPTY_STRING or gender == EmptyValues.EMPTY_INT or dead_or_alive == EmptyValues.EMPTY_INT:
                 construct['success'] = False
-                construct['error'] = 'Missing data. Required values for full_name, gender and dead_or_alive.'
+                construct['error'] = 'Missing data. Required values for first_name, last_name, full_name, gender and dead_or_alive.'
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
 
             #   Trying to UPDATE into the DB
             try:
+                person.first_name = first_name
+                person.last_name = last_name
                 person.full_name = full_name
                 person.date_birth = date.fromisoformat(date_birth)
                 person.gender_id = gender

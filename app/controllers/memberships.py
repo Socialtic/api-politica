@@ -110,7 +110,7 @@ def membershipId(membership_id):
                 'party_id': membership.party_id,
                 'coalition_id': membership.coalition_id,
                 'goes_for_coalition': membership.goes_for_coalition,
-                'membership_type': membership.membership_type,
+                'membership_type': Catalogues.MEMBERSHIP_TYPES[membership.membership_type],
                 'goes_for_reelection': membership.goes_for_reelection,
                 'start_date': membership.start_date.strftime('%Y-%m-%d'),
                 'end_date': membership.end_date.strftime('%Y-%m-%d'),

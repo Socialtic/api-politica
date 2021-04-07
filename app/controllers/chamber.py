@@ -80,7 +80,9 @@ def chamberId(chamber_id):
             'success': True,
             'chamber': {
                 'chamber_id': chamber.chamber_id,
-                'name': chamber.name,
+                'name': {
+                    'es_MX': chamber.name
+                },
                 'area_id': chamber.area_id
             }
         }

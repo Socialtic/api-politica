@@ -23,7 +23,9 @@ class Chamber(db.Model):
         for chamber in chambers:
             obj = {
                 'chamber_id': chamber.chamber_id,
-                'name': chamber.name,
+                'name': {
+                    'es_MX': chamber.name
+                },
                 'area_id': chamber.area_id
             }
             result.append(obj)

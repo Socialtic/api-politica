@@ -10,8 +10,12 @@ class EmptyValues:
     EMPTY_DATE = '0001-01-01'
 
 class Catalogues:
-    OTHER_NAMES_TYPES = ['','preferred', 'nickname', 'ballot_name']
-    GENDERS = ['','M', 'F', 'B', 'N']
-    #   https://www.gob.mx/sep/acciones-y-programas/educacion-por-niveles?state=published
-    DEGREES_OF_STUDIES = ['','EDUCACIÓN INICIAL', 'EDUCACIÓN BÁSICA', 'EDUCACIÓN MEDIA SUPERIOR', 'EDUCACIÓN SUPERIOR', 'EDUCACIÓN TECNOLÓGICA', 'EDUCACIÓN INDÍGENA']
-    PROFESSIONS = ['','INGENIEROS', 'ABOGADOS', 'MÉDICOS', 'ARQUITECTO', 'PERIODISTA', 'VETERINARIO', 'DENTISTA']
+    DEGREES_OF_STUDIES = ['', 'ELEMENTARY', 'HIGH SCHOOL', 'ASSOCIATE DEGREE', 'BACHELOR’S DEGREE', 'UNIVERSITY 1 ST PROFESSIONAL DEGREE', 'MASTER DEGREE', 'PHD DEGREE']
+    #   GOBERNADOR, DIPUTADO , PRESIDENTE MUNICIPAL
+    DISTRICT_TYPES = ['', 'REGIONAL_EXECUTIVE', 'NATIONAL_LOWER', 'LOCAL_EXECUTIVE']
+    GENDERS = ['', 'M', 'F']
+    MEMBERSHIP_TYPES = ['', 'campaigning_politician', 'officeholder_substitute', 'officeholder']
+    OTHER_NAMES_TYPES = ['', 'preferred', 'nickname', 'ballot_name']
+    PROFESSIONS = ['', 'INGENIEROS', 'ABOGADOS', 'MÉDICOS', 'ARQUITECTO', 'PERIODISTA', 'VETERINARIO', 'DENTISTA']
+    #   GOBERNADOR, DIPUTADO , PRESIDENTE MUNICIPAL
+    ROLE_TYPES = ['', 'governmentOfficer', 'legislatorUpperBody', 'executiveCouncil']

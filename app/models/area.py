@@ -1,4 +1,5 @@
 from app import db
+from app.const import Catalogues, EmptyValues
 
 class Area(db.Model):
     __tablename__ = 'area'
@@ -10,7 +11,7 @@ class Area(db.Model):
     country = db.Column(db.String, nullable=False)
     state = db.Column(db.String)
     city = db.Column(db.String)
-    district_type = db.Column(db.String, nullable=False)
+    district_type = db.Column(db.Integer, nullable=False)
     parent_area_id = db.Column(db.Integer, db.ForeignKey('area.area_id'), nullable=True)
 
     def __init__(self, ocd_id, name, country, state, city, district_type, parent_area_id):
@@ -34,12 +35,14 @@ class Area(db.Model):
             obj = {
                 'area_id': area.area_id,
                 'ocd_id': area.ocd_id,
-                'name': area.name,
+                'name': {
+                    'es_MX': area.name
+                },
                 'country': area.country,
                 'state': area.state,
                 'city': area.city,
-                'district_type': area.district_type,
-                'parent_area_id': area.parent_area_id
+                'district_type': Catalogues.DISTRICT_TYPES[area.district_type],
+                'parent_area_id': "" if area.parent_area_id == EmptyValues.EMPTY_INT else area.parent_area_id
             }
             result.append(obj)
         return result

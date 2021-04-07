@@ -1,4 +1,5 @@
 from app import db
+from app.const import Catalogues
 
 class Membership(db.Model):
     __tablename__ = 'membership'
@@ -10,7 +11,7 @@ class Membership(db.Model):
     party_id = db.Column(db.Integer, db.ForeignKey('party.party_id'), nullable=False)
     coalition_id = db.Column(db.Integer, db.ForeignKey('coalition.coalition_id'), nullable=True)
     goes_for_coalition = db.Column(db.Boolean, nullable=False)
-    membership_type = db.Column(db.String, nullable=False)
+    membership_type = db.Column(db.Integer, nullable=False)
     goes_for_reelection = db.Column(db.Boolean, nullable=False)
     start_date = db.Column(db.Date)
     end_date = db.Column(db.Date)
@@ -55,7 +56,7 @@ class Membership(db.Model):
                 'party_id': membership.party_id,
                 'coalition_id': membership.coalition_id,
                 'goes_for_coalition': membership.goes_for_coalition,
-                'membership_type': membership.membership_type,
+                'membership_type': Catalogues.MEMBERSHIP_TYPES[membership.membership_type],
                 'goes_for_reelection': membership.goes_for_reelection,
                 'start_date': membership.start_date.strftime('%Y-%m-%d'),
                 'end_date': membership.end_date.strftime('%Y-%m-%d'),

@@ -22,13 +22,13 @@ def role():
         #   Trying to get parameters from the POST method
         try:
             title = EmptyValues.EMPTY_STRING if request.json['title'] == EmptyValues.EMPTY_STRING else request.json['title']
-            role_type = EmptyValues.EMPTY_STRING if request.json['role'] == EmptyValues.EMPTY_STRING else request.json['role']
+            role_type = EmptyValues.EMPTY_INT if request.json['role'] == EmptyValues.EMPTY_STRING else request.json['role']
             area_id = EmptyValues.EMPTY_INT if request.json['area_id'] == EmptyValues.EMPTY_STRING else request.json['area_id']
             chamber_id = EmptyValues.EMPTY_INT if request.json['chamber_id'] == EmptyValues.EMPTY_STRING else request.json['chamber_id']
             contest_id = EmptyValues.EMPTY_INT if request.json['contest_id'] == EmptyValues.EMPTY_STRING else request.json['contest_id']
 
             #   Verifying REQUIRED values
-            if title == EmptyValues.EMPTY_STRING or role_type == EmptyValues.EMPTY_STRING or area_id == EmptyValues.EMPTY_INT or chamber_id == EmptyValues.EMPTY_INT:
+            if title == EmptyValues.EMPTY_STRING or role_type == EmptyValues.EMPTY_INT or area_id == EmptyValues.EMPTY_INT or chamber_id == EmptyValues.EMPTY_INT:
                 construct['success'] = False
                 construct['error'] = 'Missing data. Required values for title, role, parent_area_id, chamber_id.'
                 response = jsonify(construct)
@@ -86,8 +86,10 @@ def roleId(role_id):
             'success': True,
             'role': {
                 'role_id': role.role_id,
-                'title': role.title,
-                'role': role.role_type,
+                'title': {
+                    'es_MX': role.title
+                },
+                'role': Catalogues.ROLE_TYPES[role.role_type],
                 'area_id': role.area_id,
                 'chamber_id': role.chamber_id,
                 'contest_id': role.contest_id
@@ -103,13 +105,13 @@ def roleId(role_id):
         #   Trying to get parameters from the PUT method
         try:
             title = EmptyValues.EMPTY_STRING if request.json['title'] == EmptyValues.EMPTY_STRING else request.json['title']
-            role_type = EmptyValues.EMPTY_STRING if request.json['role'] == EmptyValues.EMPTY_STRING else request.json['role']
+            role_type = EmptyValues.EMPTY_INT if request.json['role'] == EmptyValues.EMPTY_STRING else request.json['role']
             area_id = EmptyValues.EMPTY_INT if request.json['area_id'] == EmptyValues.EMPTY_STRING else request.json['area_id']
             chamber_id = EmptyValues.EMPTY_INT if request.json['chamber_id'] == EmptyValues.EMPTY_STRING else request.json['chamber_id']
             contest_id = EmptyValues.EMPTY_INT if request.json['contest_id'] == EmptyValues.EMPTY_STRING else request.json['contest_id']
 
             #   Verifying REQUIRED values
-            if title == EmptyValues.EMPTY_STRING or role_type == EmptyValues.EMPTY_STRING or area_id == EmptyValues.EMPTY_INT or chamber_id == EmptyValues.EMPTY_INT:
+            if title == EmptyValues.EMPTY_STRING or role_type == EmptyValues.EMPTY_INT or area_id == EmptyValues.EMPTY_INT or chamber_id == EmptyValues.EMPTY_INT:
                 construct['success'] = False
                 construct['error'] = 'Missing data. Required values for title, role, parent_area_id, chamber_id.'
                 response = jsonify(construct)
