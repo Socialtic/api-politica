@@ -1,6 +1,4 @@
 import requests
-import json
-from datetime import date
 
 BASE = 'http://127.0.0.1:8000/'
 
@@ -10,28 +8,28 @@ data = [
     {
     	'ocd_id': 'ocd-division/country:mx/state:bc',
     	'name': 'Baja California',
-    	'country': 'México',
-    	'state': 'Baja California',
+    	'country': 'MX',
+    	'state': 'BC',
     	'city': '',
-    	'district_type': 'REGIONAL_EXECUTIVE',
+    	'district_type': 1,
     	'parent_area_id': ''
     },
     {
     	'ocd_id': 'ocd-division/country:mx/state:bc/fed:4',
     	'name': 'Tijuana',
-    	'country': 'México',
-    	'state': 'Baja California',
+    	'country': 'MX',
+    	'state': 'BC',
     	'city': 'Tijuana',
-    	'district_type': 'NATIONAL_LOWER',
+    	'district_type': 2,
     	'parent_area_id': '1'
     },
     {
     	'ocd_id': 'ocd-division/country:mx/state:bc/city:4',
     	'name': 'Tijuana',
-    	'country': 'México',
-    	'state': 'Baja California',
+    	'country': 'MX',
+    	'state': 'BC',
     	'city': 'Tijuana',
-    	'district_type': 'LOCAL_EXECUTIVE',
+    	'district_type': 3,
     	'parent_area_id': '1'
     }
 ]
@@ -72,21 +70,21 @@ print('Inserting roles')
 data = [
     {
     	'title': 'Gobernador',
-    	'role': 'governmentOfficer',
+    	'role': 1,
     	'area_id': 1,
     	'chamber_id': 1,
     	'contest_id': ''
     },
     {
     	'title': 'Diputado',
-    	'role': 'Diputado',
+    	'role': 2,
     	'area_id': 2,
     	'chamber_id': 2,
     	'contest_id': ''
     },
     {
     	'title': 'Presidente Municipal',
-    	'role': 'executiveCouncil',
+    	'role': 3,
     	'area_id': 3,
     	'chamber_id': 3,
     	'contest_id': ''
@@ -175,6 +173,8 @@ print('Inserting persons')
 data = [
     {
     	'full_name': 'Paul Aguilar',
+		'first_name': 'Paul',
+		'last_name': 'Aguilar',
     	'date_birth': '1994-02-16',
     	'gender': 1,
     	'dead_or_alive': True,
@@ -183,6 +183,8 @@ data = [
     },
     {
     	'full_name': 'Haydeé Quijano',
+		'first_name': 'Haydeé',
+		'last_name': 'Quijano',
     	'date_birth': '1994-02-16',
     	'gender': 2,
     	'dead_or_alive': True,
@@ -191,8 +193,10 @@ data = [
     },
     {
     	'full_name': 'Jose Luis Pérez',
+		'first_name': 'Jose',
+		'last_name': 'Pérez',
     	'date_birth': '1994-02-16',
-    	'gender': 3,
+    	'gender': 1,
     	'dead_or_alive': False,
     	'last_degree_of_studies': 3,
     	'contest_id': ''
@@ -206,6 +210,7 @@ for i in range(len(data)):
 print('-----------------------------------------------------------------------')
 print()
 
+"""
 print('-----------------------------------------------------------------------')
 print('Inserting past memberships')
 data = [
@@ -241,6 +246,7 @@ for i in range(len(data)):
     print(response.json())
 print('-----------------------------------------------------------------------')
 print()
+"""
 
 print('-----------------------------------------------------------------------')
 print('Inserting memberships')
@@ -295,6 +301,42 @@ data = [
 for i in range(len(data)):
     print(data[i])
     response = requests.post(BASE + 'membership', json=data[i])
+    print(response.json())
+print('-----------------------------------------------------------------------')
+print()
+
+print('-----------------------------------------------------------------------')
+print('Inserting contests')
+data = [
+	{
+		'area_id': 1,
+		'title': 'Gobernatura',
+		'membership_id_winner': 1,
+		'start_date': '2020-04-05',
+		'end_date': '2020-06-06',
+		'election_identifier': 'election-identifier-01'
+	},
+	{
+		'area_id': 1,
+		'title': 'Gobernatura',
+		'membership_id_winner': 1,
+		'start_date': '2020-04-05',
+		'end_date': '2020-06-06',
+		'election_identifier': 'election-identifier-01'
+	},
+	{
+		'area_id': 1,
+		'title': 'Gobernatura',
+		'membership_id_winner': 1,
+		'start_date': '2020-04-05',
+		'end_date': '2020-06-06',
+		'election_identifier': 'election-identifier-01'
+	}
+]
+
+for i in range(len(data)):
+    print(data[i])
+    response = requests.post(BASE + 'contest', json=data[i])
     print(response.json())
 print('-----------------------------------------------------------------------')
 print()
