@@ -29,6 +29,7 @@ from app.controllers.person_professions import *
 #from app.controllers.past_memberships import *
 from app.controllers.memberships import *
 from app.controllers.contest import *
+from app.controllers.export import *
 
 # For testing
 db.drop_all()

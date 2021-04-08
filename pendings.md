@@ -15,3 +15,10 @@
 -   Column:		contest_id
 -   Pending:	Change to FK
 ---
+area
+chamber
+role
+person
+party
+membership
+contest
