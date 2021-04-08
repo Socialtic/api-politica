@@ -1,6 +1,7 @@
 from app import db
-from app.const import Catalogues, EmptyValues
+from app.const import OtherNames
 from datetime import date
+from app.controllers.other_names import *
 
 class Person(db.Model):
     __tablename__ = 'person'
@@ -35,7 +36,48 @@ class Person(db.Model):
     def getAll():
         persons = Person.query.all()
         result = []
+
         for person in persons:
+            other_names_preferred = Other_Names.query.filter_by(other_name_type_id=OtherNames.PREFERRED, person_id=person.person_id)
+            other_names_nickname = Other_Names.query.filter_by(other_name_type_id=OtherNames.NICKNAME, person_id=person.person_id)
+            other_names_ballot_name = Other_Names.query.filter_by(other_name_type_id=OtherNames.BALLOT_NAME, person_id=person.person_id)
+
+            other_names_preferred_val = []
+            other_names_nickname_val = []
+            other_names_ballot_name_val = []
+
+            for other_name_preferred in other_names_preferred:
+                other_name = {
+                    'en_US': other_name_preferred.name
+                }
+                other_names_preferred_val.append(other_name)
+                other_name = {
+                    'es_MX': other_name_preferred.name
+                }
+                other_names_preferred_val.append(other_name)
+
+            for other_name_nickname in other_names_nickname:
+                other_name = {
+                    'en_US': other_name_nickname.name
+                }
+                other_names_nickname_val.append(other_name)
+                other_name = {
+                    'es_MX': other_name_nickname.name
+                }
+                other_names_nickname_val.append(other_name)
+
+            for other_name_ballot_name in other_names_ballot_name:
+                other_name = {
+                    'en_US': other_name_ballot_name.name
+                }
+                other_names_ballot_name_val.append(other_name)
+                other_name = {
+                    'es_MX': other_name_ballot_name.name
+                }
+                other_names_ballot_name_val.append(other_name)
+
+            other_names = dict(preferred=other_names_preferred_val, nickname=other_names_nickname_val,ballot_name=other_names_ballot_name_val)
+
             obj = {
                 'person_id': person.person_id,
                 'first_name': {
@@ -54,7 +96,8 @@ class Person(db.Model):
                 'gender': Catalogues.GENDERS[person.gender_id],
                 'dead_or_alive': person.dead_or_alive,
                 'last_degree_of_studies': "" if person.last_degree_of_studies_id == EmptyValues.EMPTY_INT else Catalogues.DEGREES_OF_STUDIES[person.last_degree_of_studies_id],
-                'contest_id': "" if person.contest_id == EmptyValues.EMPTY_INT else person.contest_id
+                'contest_id': "" if person.contest_id == EmptyValues.EMPTY_INT else person.contest_id,
+                'other_names': other_names
             }
             result.append(obj)
         return result
