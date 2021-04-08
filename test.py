@@ -220,6 +220,43 @@ for i in range(len(data)):
 print('-----------------------------------------------------------------------')
 print()
 
+print('-----------------------------------------------------------------------')
+print('Inserting other names')
+data = [
+	{
+		'other_name_type': 1,
+		'name': 'Pol',
+		'person_id': 1
+	},
+	{
+		'other_name_type': 2,
+		'name': 'Penserbjorne',
+		'person_id': 1
+	},
+	{
+		'other_name_type': 2,
+		'name': 'Dr',
+		'person_id': 1
+	},
+	{
+		'other_name_type': 3,
+		'name': 'Dr Pol',
+		'person_id': 1
+	},
+	{
+		'other_name_type': 1,
+		'name': 'Luis',
+		'person_id': 3
+	},
+]
+
+for i in range(len(data)):
+    print(data[i])
+    response = requests.post(BASE + 'other-name', json=data[i])
+    print(response.json())
+print('-----------------------------------------------------------------------')
+print()
+
 """
 print('-----------------------------------------------------------------------')
 print('Inserting past memberships')

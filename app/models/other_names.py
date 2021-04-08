@@ -8,8 +8,8 @@ class Other_Names(db.Model):
     other_name_id = db.Column(db.Integer, unique=True, primary_key=True, nullable=False, autoincrement=True)
     other_name_type_id = db.Column(db.Integer, nullable=False)
     name = db.Column(db.String, nullable=False)
-    #person_id = db.Column(db.Integer, db.ForeignKey('person.person_id'), nullable=False)
-    person_id = db.Column(db.Integer, nullable=False)
+    person_id = db.Column(db.Integer, db.ForeignKey('person.person_id'), nullable=False)
+    #person_id = db.Column(db.Integer, nullable=False)
 
     def __init__(self, other_name_type_id, name, person_id):
         self.other_name_type_id = other_name_type_id

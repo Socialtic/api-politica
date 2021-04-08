@@ -15,6 +15,7 @@ class Catalogues:
     DISTRICT_TYPES = ['', 'REGIONAL_EXECUTIVE', 'NATIONAL_LOWER', 'LOCAL_EXECUTIVE']
     GENDERS = ['', 'M', 'F']
     MEMBERSHIP_TYPES = ['', 'campaigning_politician', 'officeholder_substitute', 'officeholder']
+    # privilegiado, apodo, nombre de la boleta
     OTHER_NAMES_TYPES = ['', 'preferred', 'nickname', 'ballot_name']
     PROFESSIONS = ['', 'INGENIEROS', 'ABOGADOS', 'MÉDICOS', 'ARQUITECTO', 'PERIODISTA', 'VETERINARIO', 'DENTISTA']
     #   GOBERNADOR, DIPUTADO , PRESIDENTE MUNICIPAL
