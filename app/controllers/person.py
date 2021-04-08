@@ -1,4 +1,3 @@
-from flask import request, jsonify
 from app import app
 from app.models.other_names import *
 from app.models.person_professions import *
@@ -90,6 +89,47 @@ def personId(person_id):
     #   If theres a result, then ...
     #   Get their data
     if request.method == 'GET':
+
+        other_names_preferred = Other_Names.query.filter_by(other_name_type_id=OtherNames.PREFERRED, person_id=person.person_id)
+        other_names_nickname = Other_Names.query.filter_by(other_name_type_id=OtherNames.NICKNAME, person_id=person.person_id)
+        other_names_ballot_name = Other_Names.query.filter_by(other_name_type_id=OtherNames.BALLOT_NAME, person_id=person.person_id)
+
+        other_names_preferred_val = []
+        other_names_nickname_val = []
+        other_names_ballot_name_val = []
+
+        for other_name_preferred in other_names_preferred:
+            other_name = {
+                'en_US': other_name_preferred.name
+            }
+            other_names_preferred_val.append(other_name)
+            other_name = {
+                'es_MX': other_name_preferred.name
+            }
+            other_names_preferred_val.append(other_name)
+
+        for other_name_nickname in other_names_nickname:
+            other_name = {
+                'en_US': other_name_nickname.name
+            }
+            other_names_nickname_val.append(other_name)
+            other_name = {
+                'es_MX': other_name_nickname.name
+            }
+            other_names_nickname_val.append(other_name)
+
+        for other_name_ballot_name in other_names_ballot_name:
+            other_name = {
+                'en_US': other_name_ballot_name.name
+            }
+            other_names_ballot_name_val.append(other_name)
+            other_name = {
+                'es_MX': other_name_ballot_name.name
+            }
+            other_names_ballot_name_val.append(other_name)
+
+        other_names = dict(preferred=other_names_preferred_val, nickname=other_names_nickname_val, ballot_name=other_names_ballot_name_val)
+
         construct = {
             'success': True,
             'person': {
@@ -110,7 +150,8 @@ def personId(person_id):
                 'gender': Catalogues.GENDERS[person.gender_id],
                 'dead_or_alive': person.dead_or_alive,
                 'last_degree_of_studies': "" if person.last_degree_of_studies_id == EmptyValues.EMPTY_INT else Catalogues.DEGREES_OF_STUDIES[person.last_degree_of_studies_id],
-                'contest_id': "" if person.contest_id == EmptyValues.EMPTY_INT else person.contest_id
+                'contest_id': "" if person.contest_id == EmptyValues.EMPTY_INT else person.contest_id,
+                'other_names': other_names
             }
         }
         response = jsonify(construct)
