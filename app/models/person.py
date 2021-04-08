@@ -2,6 +2,8 @@ from app import db
 from app.const import OtherNames
 from datetime import date
 from app.controllers.other_names import *
+from app.controllers.professions import *
+from app.controllers.person_professions import *
 
 class Person(db.Model):
     __tablename__ = 'person'
@@ -38,6 +40,8 @@ class Person(db.Model):
         result = []
 
         for person in persons:
+
+            #   Getting other_names
             other_names_preferred = Other_Names.query.filter_by(other_name_type_id=OtherNames.PREFERRED, person_id=person.person_id)
             other_names_nickname = Other_Names.query.filter_by(other_name_type_id=OtherNames.NICKNAME, person_id=person.person_id)
             other_names_ballot_name = Other_Names.query.filter_by(other_name_type_id=OtherNames.BALLOT_NAME, person_id=person.person_id)
@@ -78,6 +82,14 @@ class Person(db.Model):
 
             other_names = dict(preferred=other_names_preferred_val, nickname=other_names_nickname_val,ballot_name=other_names_ballot_name_val)
 
+            #   Getting professions
+            professions_val = []
+            person_professions = Person_Profession.query.filter_by(person_id=person.person_id)
+            for person_profession in person_professions:
+                professions = Profession.query.filter_by(profession_id=person_profession.profession_id)
+                for profession in professions:
+                    professions_val.append(profession.description)
+
             obj = {
                 'person_id': person.person_id,
                 'first_name': {
@@ -97,7 +109,8 @@ class Person(db.Model):
                 'dead_or_alive': person.dead_or_alive,
                 'last_degree_of_studies': "" if person.last_degree_of_studies_id == EmptyValues.EMPTY_INT else Catalogues.DEGREES_OF_STUDIES[person.last_degree_of_studies_id],
                 'contest_id': "" if person.contest_id == EmptyValues.EMPTY_INT else person.contest_id,
-                'other_names': other_names
+                'other_names': other_names,
+                'professions': professions_val
             }
             result.append(obj)
         return result
