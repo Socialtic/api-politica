@@ -1,8 +1,9 @@
 from flask import request, jsonify
 from app import app
-from app.models.contest import *
 from app.const import *
-from datetime import date
+from app.models.contest import *
+from app.models.role import *
+from app.models.person import *
 
 @app.route('/contest', methods=['GET', 'POST'])
 def contest_fun():
@@ -86,6 +87,19 @@ def contestId(contest_id):
     #   If theres a result, then ...
     #   Get their data
     if request.method == 'GET':
+
+        roles = Role.query.filter_by(contest_id=contest.contest_id)
+        persons = Person.query.filter_by(contest_id=contest.contest_id)
+
+        role_ids = []
+        person_ids = []
+
+        for role in roles:
+            role_ids.append(role.role_id)
+
+        for person in persons:
+            person_ids.append(person.person_id)
+
         construct = {
             'success': True,
             'contest': {
@@ -97,7 +111,9 @@ def contestId(contest_id):
                 'membership_id_winner': contest.membership_id_winner,
                 'start_date': contest.start_date.strftime('%Y-%m-%d'),
                 'end_date': contest.end_date.strftime('%Y-%m-%d'),
-                'election_identifier': contest.election_identifier
+                'election_identifier': contest.election_identifier,
+                'role_ids': role_ids,
+                'person_ids': person_ids
             }
         }
         response = jsonify(construct)

@@ -73,21 +73,21 @@ data = [
     	'role': 1,
     	'area_id': 1,
     	'chamber_id': 1,
-    	'contest_id': ''
+    	'contest_id': 1
     },
     {
     	'title': 'Diputado',
     	'role': 2,
     	'area_id': 2,
     	'chamber_id': 2,
-    	'contest_id': ''
+    	'contest_id': 1
     },
     {
     	'title': 'Presidente Municipal',
     	'role': 3,
     	'area_id': 3,
     	'chamber_id': 3,
-    	'contest_id': ''
+    	'contest_id': 2
     }
 ]
 
@@ -179,7 +179,7 @@ data = [
     	'gender': 1,
     	'dead_or_alive': True,
     	'last_degree_of_studies': 1,
-    	'contest_id': ''
+    	'contest_id': 1
     },
     {
     	'full_name': 'Haydeé Quijano',
@@ -189,7 +189,7 @@ data = [
     	'gender': 2,
     	'dead_or_alive': True,
     	'last_degree_of_studies': 2,
-    	'contest_id': ''
+    	'contest_id': 2
     },
     {
     	'full_name': 'Jose Luis Pérez',
@@ -199,7 +199,17 @@ data = [
     	'gender': 1,
     	'dead_or_alive': False,
     	'last_degree_of_studies': 3,
-    	'contest_id': ''
+    	'contest_id': 3
+    },
+    {
+    	'full_name': 'David Ortiz',
+		'first_name': 'David',
+		'last_name': 'Ortiz',
+    	'date_birth': '1994-02-16',
+    	'gender': 1,
+    	'dead_or_alive': True,
+    	'last_degree_of_studies': 3,
+    	'contest_id': 3
     }
 ]
 

@@ -1,4 +1,6 @@
 from app import db
+from app.models.role import *
+from app.models.person import *
 
 class Contest(db.Model):
     __tablename__ = 'contest'
@@ -29,6 +31,19 @@ class Contest(db.Model):
         contests = Contest.query.all()
         result = []
         for contest in contests:
+
+            roles = Role.query.filter_by(contest_id=contest.contest_id)
+            persons = Person.query.filter_by(contest_id=contest.contest_id)
+
+            role_ids = []
+            person_ids = []
+
+            for role in roles:
+                role_ids.append(role.role_id)
+
+            for person in persons:
+                person_ids.append(person.person_id)
+
             obj = {
                 'contest_id': contest.contest_id,
                 'area_id': contest.area_id,
@@ -38,7 +53,9 @@ class Contest(db.Model):
                 'membership_id_winner': contest.membership_id_winner,
                 'start_date': contest.start_date.strftime('%Y-%m-%d'),
                 'end_date': contest.end_date.strftime('%Y-%m-%d'),
-                'election_identifier': contest.election_identifier
+                'election_identifier': contest.election_identifier,
+                'role_ids': role_ids,
+                'person_ids': person_ids
             }
             result.append(obj)
         return result
