@@ -89,7 +89,7 @@ def areaId(area_id):
         construct = {
             'success': True,
             'area': {
-                'area_id': area.area_id,
+                'id': area.area_id,
                 'ocd_id': area.ocd_id,
                 'name': {
                     'en_US': area.name,

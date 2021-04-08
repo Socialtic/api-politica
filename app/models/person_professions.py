@@ -24,7 +24,7 @@ class Person_Profession(db.Model):
         result = []
         for person_profession in person_professions:
             obj = {
-                'person_profession_id': person_profession.person_profession_id,
+                'id': person_profession.person_profession_id,
                 'person_id': person_profession.person_id,
                 'profession_id': person_profession.profession_id
             }

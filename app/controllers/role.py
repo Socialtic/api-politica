@@ -85,7 +85,7 @@ def roleId(role_id):
         construct = {
             'success': True,
             'role': {
-                'role_id': role.role_id,
+                'id': role.role_id,
                 'title': {
                     'en_US': role.title
                 },

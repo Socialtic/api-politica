@@ -80,7 +80,7 @@ def personProfessionID(person_profession_id):
         construct = {
             'success': True,
             'person_profession': {
-                'person_profession_id': person_profession.person_profession_id,
+                'id': person_profession.person_profession_id,
                 'person_id': person_profession.person_id,
                 'profession_id': person_profession.profession_id
             }

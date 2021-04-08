@@ -83,7 +83,7 @@ def coalitionId(coalition_id):
         construct = {
             'success': True,
             'coalition': {
-                'coalition_id': coalition.coalition_id,
+                'id': coalition.coalition_id,
                 'name': coalition.name,
                 'abbreviation': coalition.abbreviation,
                 'colors': coalition.colors

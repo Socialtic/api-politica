@@ -22,7 +22,7 @@ class Chamber(db.Model):
         result = []
         for chamber in chambers:
             obj = {
-                'chamber_id': chamber.chamber_id,
+                'id': chamber.chamber_id,
                 'name': {
                     'en_US': chamber.name
                 },

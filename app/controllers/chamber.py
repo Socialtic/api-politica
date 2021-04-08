@@ -79,7 +79,7 @@ def chamberId(chamber_id):
         construct = {
             'success': True,
             'chamber': {
-                'chamber_id': chamber.chamber_id,
+                'id': chamber.chamber_id,
                 'name': {
                     'en_US': chamber.name
                 },

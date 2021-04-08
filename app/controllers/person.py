@@ -142,7 +142,7 @@ def personId(person_id):
         construct = {
             'success': True,
             'person': {
-                'person_id': person.person_id,
+                'id': person.person_id,
                 'first_name': {
                     'en_US': person.first_name,
                     'es_MX': person.first_name

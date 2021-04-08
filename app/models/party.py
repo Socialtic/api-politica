@@ -29,7 +29,7 @@ class Party(db.Model):
         result = []
         for party in parties:
             obj = {
-                'party_id': party.party_id,
+                'id': party.party_id,
                 'name': {
                     'en_US': party.name,
                     'es_MX': party.name

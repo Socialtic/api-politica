@@ -1,10 +1,10 @@
 {
   "areas": [
     {
-      "area_id": 1, 
       "city": "", 
       "country": "MX", 
       "district_type": "REGIONAL_EXECUTIVE", 
+      "id": 1, 
       "name": {
         "en_US": "Baja California", 
         "es_MX": "Baja California"
@@ -14,10 +14,10 @@
       "state": "BC"
     }, 
     {
-      "area_id": 2, 
       "city": "Tijuana", 
       "country": "MX", 
       "district_type": "NATIONAL_LOWER", 
+      "id": 2, 
       "name": {
         "en_US": "Tijuana", 
         "es_MX": "Tijuana"
@@ -27,10 +27,10 @@
       "state": "BC"
     }, 
     {
-      "area_id": 3, 
       "city": "Tijuana", 
       "country": "MX", 
       "district_type": "LOCAL_EXECUTIVE", 
+      "id": 3, 
       "name": {
         "en_US": "Tijuana", 
         "es_MX": "Tijuana"
@@ -43,21 +43,21 @@
   "chambers": [
     {
       "area_id": 1, 
-      "chamber_id": 1, 
+      "id": 1, 
       "name": {
         "en_US": "Gubernatura de Baja California"
       }
     }, 
     {
       "area_id": 2, 
-      "chamber_id": 2, 
+      "id": 2, 
       "name": {
         "en_US": "Diputaci\u00f3n del Distrito Federal IV de Baja California"
       }
     }, 
     {
       "area_id": 3, 
-      "chamber_id": 3, 
+      "id": 3, 
       "name": {
         "en_US": "Presidencia del municipio 4 de Bajalifornia (Tijuana)"
       }
@@ -66,9 +66,9 @@
   "contests": [
     {
       "area_id": 1, 
-      "contest_id": 1, 
       "election_identifier": "election-identifier-01", 
       "end_date": "2020-06-06", 
+      "id": 1, 
       "membership_id_winner": 1, 
       "person_ids": [
         1
@@ -84,9 +84,9 @@
     }, 
     {
       "area_id": 1, 
-      "contest_id": 2, 
       "election_identifier": "election-identifier-01", 
       "end_date": "2020-06-06", 
+      "id": 2, 
       "membership_id_winner": 1, 
       "person_ids": [
         2
@@ -101,9 +101,9 @@
     }, 
     {
       "area_id": 1, 
-      "contest_id": 3, 
       "election_identifier": "election-identifier-01", 
       "end_date": "2020-06-06", 
+      "id": 3, 
       "membership_id_winner": 1, 
       "person_ids": [
         3, 
@@ -124,8 +124,8 @@
       "end_date": "", 
       "goes_for_coalition": false, 
       "goes_for_reelection": false, 
+      "id": 1, 
       "is_substitute": false, 
-      "membership_id": 1, 
       "membership_type": "campaigning_politician", 
       "parent_membership_id": "", 
       "party_id": 1, 
@@ -140,8 +140,8 @@
       "end_date": "", 
       "goes_for_coalition": false, 
       "goes_for_reelection": false, 
+      "id": 2, 
       "is_substitute": false, 
-      "membership_id": 2, 
       "membership_type": "officeholder_substitute", 
       "parent_membership_id": "", 
       "party_id": 2, 
@@ -156,8 +156,8 @@
       "end_date": "", 
       "goes_for_coalition": false, 
       "goes_for_reelection": false, 
+      "id": 3, 
       "is_substitute": false, 
-      "membership_id": 3, 
       "membership_type": "officeholder", 
       "parent_membership_id": "", 
       "party_id": 3, 
@@ -179,11 +179,11 @@
         "WHITE", 
         "RED"
       ], 
+      "id": 1, 
       "name": {
         "en_US": "Partido Revolucionario Institucional", 
         "es_MX": "Partido Revolucionario Institucional"
-      }, 
-      "party_id": 1
+      }
     }, 
     {
       "abbreviation": {
@@ -196,11 +196,11 @@
         "BLUE", 
         "WHITE"
       ], 
+      "id": 2, 
       "name": {
         "en_US": "Partido Acci\u00f3n Nacional", 
         "es_MX": "Partido Acci\u00f3n Nacional"
-      }, 
-      "party_id": 2
+      }
     }, 
     {
       "abbreviation": {
@@ -214,11 +214,11 @@
         "BLACK", 
         "RED"
       ], 
+      "id": 3, 
       "name": {
         "en_US": "Partido de la Revoluci\u00f3n Democr\u00e1tica", 
         "es_MX": "Partido de la Revoluci\u00f3n Democr\u00e1tica"
-      }, 
-      "party_id": 3
+      }
     }, 
     {
       "abbreviation": {
@@ -230,11 +230,11 @@
       "colors": [
         "RED"
       ], 
+      "id": 4, 
       "name": {
         "en_US": "Movimiento Regeneraci\u00f3n Nacional", 
         "es_MX": "Movimiento Regeneraci\u00f3n Nacional"
-      }, 
-      "party_id": 4
+      }
     }, 
     {
       "abbreviation": {
@@ -247,11 +247,11 @@
         "RED", 
         "YELLOW"
       ], 
+      "id": 5, 
       "name": {
         "en_US": "Partido del Trabajo", 
         "es_MX": "Partido del Trabajo"
-      }, 
-      "party_id": 5
+      }
     }
   ], 
   "persons": [
@@ -268,6 +268,7 @@
         "es_MX": "Paul Aguilar"
       }, 
       "gender": "M", 
+      "id": 1, 
       "last_degree_of_studies": "ELEMENTARY", 
       "last_name": {
         "en_US": "Aguilar", 
@@ -305,7 +306,6 @@
           }
         ]
       }, 
-      "person_id": 1, 
       "professions": [
         "Didactics and pedagogy", 
         "Educational planning and evaluation"
@@ -324,6 +324,7 @@
         "es_MX": "Hayde\u00e9 Quijano"
       }, 
       "gender": "F", 
+      "id": 2, 
       "last_degree_of_studies": "HIGH SCHOOL", 
       "last_name": {
         "en_US": "Quijano", 
@@ -334,7 +335,6 @@
         "nickname": [], 
         "preferred": []
       }, 
-      "person_id": 2, 
       "professions": [
         "Educational planning and evaluation"
       ]
@@ -352,6 +352,7 @@
         "es_MX": "Jose Luis P\u00e9rez"
       }, 
       "gender": "M", 
+      "id": 3, 
       "last_degree_of_studies": "ASSOCIATE DEGREE", 
       "last_name": {
         "en_US": "P\u00e9rez", 
@@ -369,7 +370,6 @@
           }
         ]
       }, 
-      "person_id": 3, 
       "professions": []
     }, 
     {
@@ -385,6 +385,7 @@
         "es_MX": "David Ortiz"
       }, 
       "gender": "M", 
+      "id": 4, 
       "last_degree_of_studies": "ASSOCIATE DEGREE", 
       "last_name": {
         "en_US": "Ortiz", 
@@ -395,7 +396,6 @@
         "nickname": [], 
         "preferred": []
       }, 
-      "person_id": 4, 
       "professions": []
     }
   ], 
@@ -404,8 +404,8 @@
       "area_id": 1, 
       "chamber_id": 1, 
       "contest_id": 1, 
+      "id": 1, 
       "role": "governmentOfficer", 
-      "role_id": 1, 
       "title": {
         "en_US": "Gobernador"
       }
@@ -414,8 +414,8 @@
       "area_id": 2, 
       "chamber_id": 2, 
       "contest_id": 1, 
+      "id": 2, 
       "role": "legislatorUpperBody", 
-      "role_id": 2, 
       "title": {
         "en_US": "Diputado"
       }
@@ -424,8 +424,8 @@
       "area_id": 3, 
       "chamber_id": 3, 
       "contest_id": 2, 
+      "id": 3, 
       "role": "executiveCouncil", 
-      "role_id": 3, 
       "title": {
         "en_US": "Presidente Municipal"
       }

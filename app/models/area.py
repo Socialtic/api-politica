@@ -33,7 +33,7 @@ class Area(db.Model):
         result = []
         for area in areas:
             obj = {
-                'area_id': area.area_id,
+                'id': area.area_id,
                 'ocd_id': area.ocd_id,
                 'name': {
                     'en_US': area.name,

@@ -91,7 +91,7 @@ class Person(db.Model):
                     professions_val.append(profession.description)
 
             obj = {
-                'person_id': person.person_id,
+                'id': person.person_id,
                 'first_name': {
                     'en_US': person.first_name,
                     'es_MX': person.first_name

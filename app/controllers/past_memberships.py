@@ -91,7 +91,7 @@ def pastMembershipId(past_membership_id):
         construct = {
             'success': True,
             'past_membership': {
-                'past_membership_id': past_membership.past_membership_id,
+                'id': past_membership.past_membership_id,
                 'person_id': past_membership.person_id,
                 'start_date': past_membership.start_date.strftime('%Y-%m-%d'),
                 'end_date': past_membership.end_date.strftime('%Y-%m-%d'),

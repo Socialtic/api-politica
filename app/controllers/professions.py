@@ -79,7 +79,7 @@ def professionID(profession_id):
         construct = {
             'success': True,
             'area': {
-                'profession_id': profession.profession_id,
+                'id': profession.profession_id,
                 'description': profession.description
             }
         }

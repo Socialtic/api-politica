@@ -104,7 +104,7 @@ def membershipId(membership_id):
         construct = {
             'success': True,
             'membership': {
-                'membership_id': membership.membership_id,
+                'id': membership.membership_id,
                 'person_id': membership.person_id,
                 'role_id': membership.role_id,
                 'party_id': membership.party_id,

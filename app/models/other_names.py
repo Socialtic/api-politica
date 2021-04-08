@@ -26,7 +26,7 @@ class Other_Names(db.Model):
         result = []
         for other_name in other_names:
             obj = {
-                'other_name_id': other_name.other_name_id,
+                'id': other_name.other_name_id,
                 'other_name_type_id': Catalogues.OTHER_NAMES_TYPES[other_name.other_name_type_id],
                 'name': other_name.name,
                 'person_id': other_name.person_id

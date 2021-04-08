@@ -86,7 +86,7 @@ def partyId(party_id):
         construct = {
             'success': True,
             'parties': {
-                'party_id': party.party_id,
+                'id': party.party_id,
                 'name': {
                     'en_US': party.name,
                     'es_MX': party.name

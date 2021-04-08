@@ -81,7 +81,7 @@ def otherNameId(other_name_id):
         construct = {
             'success': True,
             'other_name': {
-                'other_name_id': other_name.other_name_id,
+                'id': other_name.other_name_id,
                 'other_name_type_id': Catalogues.OTHER_NAMES_TYPES[other_name.other_name_type_id],
                 'name': other_name.name,
                 'person_id': other_name.person_id

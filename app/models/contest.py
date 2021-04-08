@@ -45,7 +45,7 @@ class Contest(db.Model):
                 person_ids.append(person.person_id)
 
             obj = {
-                'contest_id': contest.contest_id,
+                'id': contest.contest_id,
                 'area_id': contest.area_id,
                 'title': {
                     'en_US': contest.title,

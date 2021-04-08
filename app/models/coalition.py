@@ -24,7 +24,7 @@ class Coalition(db.Model):
         result = []
         for coalition in coalitions:
             obj = {
-                'coalition_id': coalition.coalition_id,
+                'id': coalition.coalition_id,
                 'name': coalition.name,
                 'abbreviation': coalition.abbreviation,
                 'colors': coalition.colors

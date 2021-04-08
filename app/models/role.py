@@ -30,7 +30,7 @@ class Role(db.Model):
         result = []
         for role in roles:
             obj = {
-                'role_id': role.role_id,
+                'id': role.role_id,
                 'title': {
                     'en_US': role.title
                 },

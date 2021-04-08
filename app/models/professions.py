@@ -21,7 +21,7 @@ class Profession(db.Model):
         result = []
         for profession in professions:
             obj = {
-                'profession_id': profession.profession_id,
+                'id': profession.profession_id,
                 'description': profession.description
             }
             result.append(obj)
