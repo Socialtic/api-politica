@@ -1,14 +1,13 @@
 from app import db
-from app.const import Catalogues
 
-class Person_Professions(db.Model):
+class Person_Profession(db.Model):
     __tablename__ = 'person_professions'
     __table_args__ = {'sqlite_autoincrement': True}
 
     person_profession_id = db.Column(db.Integer, unique=True, primary_key=True, nullable=False, autoincrement=True)
-    #person_id = db.Column(db.Integer, db.ForeignKey('person.person_id'), nullable=False)
-    person_id = db.Column(db.Integer, nullable=False)
-    profession_id = db.Column(db.Integer, nullable=False)
+    person_id = db.Column(db.Integer, db.ForeignKey('person.person_id'), nullable=False)
+    #person_id = db.Column(db.Integer, nullable=False)
+    profession_id = db.Column(db.Integer, db.ForeignKey('profession.profession_id'), nullable=False)
 
 
     def __init__(self, person_id, profession_id):
@@ -21,13 +20,13 @@ class Person_Professions(db.Model):
 
     @staticmethod
     def getAll():
-        professions = Person_Professions.query.all()
+        person_professions = Person_Profession.query.all()
         result = []
-        for profession in professions:
+        for person_profession in person_professions:
             obj = {
-                'person_profession_id': profession.person_profession_id,
-                'person_id': profession.person_id,
-                'profession': Catalogues.PROFESSIONS[profession.profession_id]
+                'person_profession_id': person_profession.person_profession_id,
+                'person_id': person_profession.person_id,
+                'profession_id': person_profession.profession_id
             }
             result.append(obj)
         return result

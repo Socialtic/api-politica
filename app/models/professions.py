@@ -1,7 +1,7 @@
 from app import db
 
 class Profession(db.Model):
-    __tablename__ = 'professions'
+    __tablename__ = 'profession'
     __table_args__ = {'sqlite_autoincrement': True}
 
     profession_id = db.Column(db.Integer, unique=True, primary_key=True, nullable=False, autoincrement=True)

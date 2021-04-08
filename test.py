@@ -278,6 +278,30 @@ for i in range(len(data)):
 print('-----------------------------------------------------------------------')
 print()
 
+print('-----------------------------------------------------------------------')
+print('Inserting person professions')
+data = [
+	{
+		'person_id': 1,
+		'profession_id': 1
+	},
+	{
+		'person_id': 1,
+		'profession_id': 2
+	},
+	{
+		'person_id': 2,
+		'profession_id': 2
+	}
+]
+
+for i in range(len(data)):
+    print(data[i])
+    response = requests.post(BASE + 'person-profession', json=data[i])
+    print(response.json())
+print('-----------------------------------------------------------------------')
+print()
+
 """
 print('-----------------------------------------------------------------------')
 print('Inserting past memberships')
