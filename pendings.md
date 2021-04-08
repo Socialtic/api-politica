@@ -22,3 +22,8 @@ person
 party
 membership
 contest
+
+`memberships` failed validation
+Shape field `membership_type` failed validation
+Enum (officeholder, campaigning_politician, party_leader) value required
+value given: "officeholder_substitute"

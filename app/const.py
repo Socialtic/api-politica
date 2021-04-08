@@ -17,9 +17,10 @@ class OtherNames:
 class Catalogues:
     DEGREES_OF_STUDIES = ['', 'ELEMENTARY', 'HIGH SCHOOL', 'ASSOCIATE DEGREE', 'BACHELOR’S DEGREE', 'UNIVERSITY 1 ST PROFESSIONAL DEGREE', 'MASTER DEGREE', 'PHD DEGREE']
     #   GOBERNADOR, DIPUTADO , PRESIDENTE MUNICIPAL
-    DISTRICT_TYPES = ['', 'REGIONAL_EXECUTIVE', 'NATIONAL_LOWER', 'LOCAL_EXECUTIVE']
+    DISTRICT_TYPES = ['', 'REGIONAL_EXEC', 'NATIONAL_LOWER', 'LOCAL_EXEC']
     GENDERS = ['', 'M', 'F']
-    MEMBERSHIP_TYPES = ['', 'campaigning_politician', 'officeholder_substitute', 'officeholder']
+    #MEMBERSHIP_TYPES = ['', 'campaigning_politician', 'officeholder_substitute', 'officeholder']
+    MEMBERSHIP_TYPES = ['', 'campaigning_politician', 'campaigning_politician', 'officeholder']
     # privilegiado, apodo, nombre de la boleta
     OTHER_NAMES_TYPES = ['', 'preferred', 'nickname', 'ballot_name']
     PROFESSIONS = ['', 'INGENIEROS', 'ABOGADOS', 'MÉDICOS', 'ARQUITECTO', 'PERIODISTA', 'VETERINARIO', 'DENTISTA']

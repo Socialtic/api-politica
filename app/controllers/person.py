@@ -129,7 +129,7 @@ def personId(person_id):
             }
             other_names_ballot_name_val.append(other_name)
 
-        other_names = dict(preferred=other_names_preferred_val, nickname=other_names_nickname_val, ballot_name=other_names_ballot_name_val)
+        other_names = dict(preferred_name=other_names_preferred_val, nickname=other_names_nickname_val, ballot_name=other_names_ballot_name_val)
 
         #   Getting professions
         professions_val = []

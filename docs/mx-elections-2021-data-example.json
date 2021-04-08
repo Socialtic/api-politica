@@ -3,7 +3,7 @@
     {
       "city": "", 
       "country": "MX", 
-      "district_type": "REGIONAL_EXECUTIVE", 
+      "district_type": "REGIONAL_EXEC", 
       "id": 1, 
       "name": {
         "en_US": "Baja California", 
@@ -29,7 +29,7 @@
     {
       "city": "Tijuana", 
       "country": "MX", 
-      "district_type": "LOCAL_EXECUTIVE", 
+      "district_type": "LOCAL_EXEC", 
       "id": 3, 
       "name": {
         "en_US": "Tijuana", 
@@ -142,7 +142,7 @@
       "goes_for_reelection": false, 
       "id": 2, 
       "is_substitute": false, 
-      "membership_type": "officeholder_substitute", 
+      "membership_type": "campaigning_politician", 
       "parent_membership_id": "", 
       "party_id": 2, 
       "person_id": 2, 
@@ -297,7 +297,7 @@
             "es_MX": "Dr"
           }
         ], 
-        "preferred": [
+        "preferred_name": [
           {
             "en_US": "Pol"
           }, 
@@ -333,7 +333,7 @@
       "other_names": {
         "ballot_name": [], 
         "nickname": [], 
-        "preferred": []
+        "preferred_name": []
       }, 
       "professions": [
         "Educational planning and evaluation"
@@ -361,7 +361,7 @@
       "other_names": {
         "ballot_name": [], 
         "nickname": [], 
-        "preferred": [
+        "preferred_name": [
           {
             "en_US": "Luis"
           }, 
@@ -394,7 +394,7 @@
       "other_names": {
         "ballot_name": [], 
         "nickname": [], 
-        "preferred": []
+        "preferred_name": []
       }, 
       "professions": []
     }
