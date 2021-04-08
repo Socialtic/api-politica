@@ -257,6 +257,27 @@ for i in range(len(data)):
 print('-----------------------------------------------------------------------')
 print()
 
+print('-----------------------------------------------------------------------')
+print('Inserting professions')
+data = [
+	{
+		'description': 'Didactics and pedagogy'
+	},
+	{
+		'description': 'Educational planning and evaluation'
+	},
+	{
+		'description': 'Educational counseling and guidance'
+	}
+]
+
+for i in range(len(data)):
+    print(data[i])
+    response = requests.post(BASE + 'profession', json=data[i])
+    print(response.json())
+print('-----------------------------------------------------------------------')
+print()
+
 """
 print('-----------------------------------------------------------------------')
 print('Inserting past memberships')
