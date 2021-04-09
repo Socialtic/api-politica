@@ -415,6 +415,81 @@ for i in range(len(data)):
 print('-----------------------------------------------------------------------')
 print()
 
+print('-----------------------------------------------------------------------')
+print('Inserting urls')
+data = [
+	{
+		"url": "google.com",
+		"description": "Buscador de Google",
+		"url_type": 1,
+		"owner_type": 1,
+		"owner_id": 1
+	},
+	{
+		"url": "google.com",
+		"description": "Buscador de Google",
+		"url_type": 1,
+		"owner_type": 1,
+		"owner_id": 1
+	},
+	{
+		"url": "google.com",
+		"description": "Buscador de Google",
+		"url_type": 1,
+		"owner_type": 1,
+		"owner_id": 1
+	},
+	{
+		"url": "google.com",
+		"description": "Buscador de Google",
+		"url_type": 1,
+		"owner_type": 1,
+		"owner_id": 1
+	},
+	{
+		"url": "google.com",
+		"description": "Buscador de Google",
+		"url_type": 1,
+		"owner_type": 1,
+		"owner_id": 1
+	},
+	{
+		"url": "google.com",
+		"description": "Buscador de Google",
+		"url_type": 1,
+		"owner_type": 1,
+		"owner_id": 1
+	},
+	{
+		"url": "google.com",
+		"description": "Buscador de Google",
+		"url_type": 1,
+		"owner_type": 1,
+		"owner_id": 1
+	},
+	{
+		"url": "google.com",
+		"description": "Buscador de Google",
+		"url_type": 1,
+		"owner_type": 1,
+		"owner_id": 1
+	},
+	{
+		"url": "google.com",
+		"description": "Buscador de Google",
+		"url_type": 1,
+		"owner_type": 1,
+		"owner_id": 1
+	}
+]
+
+for i in range(len(data)):
+    print(data[i])
+    response = requests.post(BASE + 'url', json=data[i])
+    print(response.json())
+print('-----------------------------------------------------------------------')
+print()
+
 '''
 requests.get
 requests.post
