@@ -6,30 +6,39 @@ print('-----------------------------------------------------------------------')
 print('Inserting areas')
 data = [
     {
-    	'ocd_id': 'ocd-division/country:mx/state:bc',
-    	'name': 'Baja California',
+    	'ocd_id': 'ocd-division/country:mx',
+    	'name': 'MÉXICO',
     	'country': 'MX',
-    	'state': 'BC',
+    	'state': '',
     	'city': '',
-    	'district_type': 1,
+    	'district_type': 0,
     	'parent_area_id': ''
     },
     {
-    	'ocd_id': 'ocd-division/country:mx/state:bc/fed:4',
-    	'name': 'Tijuana',
+    	'ocd_id': 'ocd-division/country:mx/state:bc',
+    	'name': 'BAJA CALIFORNIA',
     	'country': 'MX',
-    	'state': 'BC',
-    	'city': 'Tijuana',
-    	'district_type': 2,
+    	'state': 'BCN',
+    	'city': 'BAJA CALIFORNIA',
+    	'district_type': 1,
     	'parent_area_id': '1'
     },
     {
-    	'ocd_id': 'ocd-division/country:mx/state:bc/city:4',
-    	'name': 'Tijuana',
+    	'ocd_id': 'ocd-division/country:mx/state:bs',
+    	'name': 'BAJA CALIFORNIA SUR',
     	'country': 'MX',
-    	'state': 'BC',
-    	'city': 'Tijuana',
-    	'district_type': 3,
+    	'state': 'BCS',
+    	'city': 'BAJA CALIFORNIA SUR',
+    	'district_type': 1,
+    	'parent_area_id': '1'
+    },
+    {
+    	'ocd_id': 'ocd-division/country:mx/state:cm',
+    	'name': 'CAMPECHE',
+    	'country': 'MX',
+    	'state': 'BCS',
+    	'city': 'CAM',
+    	'district_type': 1,
     	'parent_area_id': '1'
     }
 ]
@@ -45,16 +54,16 @@ print('-----------------------------------------------------------------------')
 print('Inserting chambers')
 data = [
     {
-    	'name': 'Gubernatura de Baja California',
-    	'area_id': '1'
-    },
-    {
-    	'name': 'Diputación del Distrito Federal IV de Baja California',
+    	'name': 'Gubernatura de BAJA CALIFORNIA',
     	'area_id': '2'
     },
     {
-    	'name': 'Presidencia del municipio 4 de Bajalifornia (Tijuana)',
+    	'name': 'Gubernatura de BAJA CALIFORNIA SUR',
     	'area_id': '3'
+    },
+    {
+    	'name': 'Gubernatura de CAMPECHE',
+    	'area_id': '4'
     }
 ]
 
@@ -69,25 +78,25 @@ print('-----------------------------------------------------------------------')
 print('Inserting roles')
 data = [
     {
-    	'title': 'Gobernador',
+    	'title': 'governmentOfficer',
     	'role': 1,
-    	'area_id': 1,
+    	'area_id': 2,
     	'chamber_id': 1,
     	'contest_id': 1
     },
     {
-    	'title': 'Diputado',
-    	'role': 2,
-    	'area_id': 2,
+    	'title': 'governmentOfficer',
+    	'role': 1,
+    	'area_id': 3,
     	'chamber_id': 2,
-    	'contest_id': 1
+    	'contest_id': 2
     },
     {
-    	'title': 'Presidente Municipal',
-    	'role': 3,
-    	'area_id': 3,
+    	'title': 'governmentOfficer',
+    	'role': 1,
+    	'area_id': 4,
     	'chamber_id': 3,
-    	'contest_id': 2
+    	'contest_id': 3
     }
 ]
 
@@ -102,13 +111,13 @@ print('-----------------------------------------------------------------------')
 print('Inserting coalitions')
 data = [
     {
-    	'name': 'Va por México',
-    	'abbreviation': 'VPM',
+    	'name': 'Candidatura común',
+    	'abbreviation': '',
     	'colors': ['BLUE', 'RED', 'YELLOW']
     },
     {
-    	'name': 'Juntos Hacemos Historia',
-    	'abbreviation': 'JHH',
+    	'name': 'Equipo por el bien de Nuevo León',
+    	'abbreviation': '',
     	'colors': ''
     }
 ]
@@ -125,39 +134,39 @@ print('-----------------------------------------------------------------------')
 print('Inserting parties')
 data = [
     {
-    	'name': 'Partido Revolucionario Institucional',
-    	'abbreviation': 'PRI',
-    	'colors': ['GREEN', 'WHITE', 'RED'],
+    	'name': 'Movimiento de Regeneración Nacional',
+    	'abbreviation': 'Morena',
+    	'colors': ['RED'],
     	'area_id': '1',
-    	'coalition_id': '1'
+    	'coalition_id': ''
+    },
+    {
+    	'name': 'Movimiento Ciudadano',
+    	'abbreviation': 'MC',
+    	'colors': ['ORANGE'],
+    	'area_id': '1',
+    	'coalition_id': ''
     },
     {
     	'name': 'Partido Acción Nacional',
     	'abbreviation': 'PAN',
     	'colors': ['BLUE', 'WHITE'],
     	'area_id': '1',
-    	'coalition_id': '1'
+    	'coalition_id': ''
     },
     {
     	'name': 'Partido de la Revolución Democrática',
-    	'abbreviation': 'PRD',
-    	'colors': ['YELLOW', 'BLACK', 'RED'],
+    	'abbreviation': 'prd',
+    	'colors': ['YELLOW', 'BLACK'],
     	'area_id': '1',
-    	'coalition_id': '1'
+    	'coalition_id': ''
     },
     {
-    	'name': 'Movimiento Regeneración Nacional',
-    	'abbreviation': 'Morena',
-    	'colors': ['RED'],
+    	'name': 'Partido Encuentro Social',
+    	'abbreviation': 'PES',
+    	'colors': ['BLUE', 'WHITE'],
     	'area_id': '1',
-    	'coalition_id': '2'
-    },
-    {
-    	'name': 'Partido del Trabajo',
-    	'abbreviation': 'PT',
-    	'colors': ['RED', 'YELLOW'],
-    	'area_id': '1',
-    	'coalition_id': '2'
+    	'coalition_id': ''
     }
 ]
 
@@ -172,43 +181,33 @@ print('-----------------------------------------------------------------------')
 print('Inserting persons')
 data = [
     {
-    	'full_name': 'Paul Aguilar',
-		'first_name': 'Paul',
-		'last_name': 'Aguilar',
-    	'date_birth': '1994-02-16',
-    	'gender': 1,
+    	'full_name': 'Marina del Pilar Ávila Olmeda',
+		'first_name': 'Marina del Pilar',
+		'last_name': 'Ávila',
+    	'date_birth': '1985-09-19',
+    	'gender': 2,
     	'dead_or_alive': True,
-    	'last_degree_of_studies': 1,
+    	'last_degree_of_studies': 6,
     	'contest_id': 1
     },
     {
-    	'full_name': 'Haydeé Quijano',
-		'first_name': 'Haydeé',
-		'last_name': 'Quijano',
-    	'date_birth': '1994-02-16',
-    	'gender': 2,
+    	'full_name': 'Francisco Alcibiades Garcia Lizardi',
+		'first_name': 'Franco',
+		'last_name': 'Garcia',
+    	'date_birth': '1941-12-17',
+    	'gender': 1,
     	'dead_or_alive': True,
-    	'last_degree_of_studies': 2,
+    	'last_degree_of_studies': 4,
     	'contest_id': 2
     },
     {
-    	'full_name': 'Jose Luis Pérez',
-		'first_name': 'Jose',
-		'last_name': 'Pérez',
-    	'date_birth': '1994-02-16',
-    	'gender': 1,
-    	'dead_or_alive': False,
-    	'last_degree_of_studies': 3,
-    	'contest_id': 3
-    },
-    {
-    	'full_name': 'David Ortiz',
-		'first_name': 'David',
-		'last_name': 'Ortiz',
-    	'date_birth': '1994-02-16',
+    	'full_name': 'María Guadalupe Jones Garay',
+		'first_name': 'María',
+		'last_name': 'Jones',
+    	'date_birth': '1967-09-06',
     	'gender': 1,
     	'dead_or_alive': True,
-    	'last_degree_of_studies': 3,
+    	'last_degree_of_studies': 6,
     	'contest_id': 3
     }
 ]
@@ -224,30 +223,10 @@ print('-----------------------------------------------------------------------')
 print('Inserting other names')
 data = [
 	{
-		'other_name_type': 1,
-		'name': 'Pol',
-		'person_id': 1
-	},
-	{
 		'other_name_type': 2,
-		'name': 'Penserbjorne',
-		'person_id': 1
-	},
-	{
-		'other_name_type': 2,
-		'name': 'Dr',
-		'person_id': 1
-	},
-	{
-		'other_name_type': 3,
-		'name': 'Dr Pol',
-		'person_id': 1
-	},
-	{
-		'other_name_type': 1,
-		'name': 'Luis',
+		'name': 'Lupita Jones',
 		'person_id': 3
-	},
+	}
 ]
 
 for i in range(len(data)):
@@ -345,14 +324,14 @@ print('Inserting memberships')
 data = [
 	{
 		'person_id': 1,
-		'role_id': 1,
-		'party_id': 1,
-		'coalition_id': 1,
-		'goes_for_coalition': False,
-		'membership_type': 1,
+		'role_id': 2,
+		'party_id': 4,
+		'coalition_id': '',
+		'goes_for_coalition': True,
+		'membership_type': 2,
 		'goes_for_reelection': False,
-		'start_date': '',
-		'end_date': '',
+		'start_date': '2020-04-04',
+		'end_date': '2020-06-02',
 		'is_substitute': False,
 		'parent_membership_id': '',
 		'changed_from_substitute': False,
@@ -362,12 +341,12 @@ data = [
 		'person_id': 2,
 		'role_id': 2,
 		'party_id': 2,
-		'coalition_id': 2,
-		'goes_for_coalition': False,
+		'coalition_id': '',
+		'goes_for_coalition': True,
 		'membership_type': 2,
 		'goes_for_reelection': False,
-		'start_date': '',
-		'end_date': '',
+		'start_date': '2020-04-05',
+		'end_date': '2020-06-02',
 		'is_substitute': False,
 		'parent_membership_id': '',
 		'changed_from_substitute': False,
@@ -375,14 +354,14 @@ data = [
 	},
 	{
 		'person_id': 3,
-		'role_id': 3,
-		'party_id': 3,
-		'coalition_id': 3,
-		'goes_for_coalition': False,
-		'membership_type': 3,
+		'role_id': 2,
+		'party_id': 1,
+		'coalition_id': '',
+		'goes_for_coalition': True,
+		'membership_type': 2,
 		'goes_for_reelection': False,
-		'start_date': '',
-		'end_date': '',
+		'start_date': '2020-04-06',
+		'end_date': '2020-06-02',
 		'is_substitute': False,
 		'parent_membership_id': '',
 		'changed_from_substitute': False,
@@ -401,28 +380,28 @@ print('-----------------------------------------------------------------------')
 print('Inserting contests')
 data = [
 	{
-		'area_id': 1,
-		'title': 'Gobernatura',
-		'membership_id_winner': 1,
+		'area_id': 2,
+		'title': 'Gubernatura de BAJA CALIFORNIA',
+		'membership_id_winner': '',
 		'start_date': '2020-04-05',
 		'end_date': '2020-06-06',
 		'election_identifier': 'election-identifier-01'
 	},
 	{
-		'area_id': 1,
-		'title': 'Gobernatura',
-		'membership_id_winner': 1,
+		'area_id': 2,
+		'title': 'Gubernatura de BAJA CALIFORNIA SUR',
+		'membership_id_winner': '',
 		'start_date': '2020-04-05',
 		'end_date': '2020-06-06',
-		'election_identifier': 'election-identifier-01'
+		'election_identifier': 'election-identifier-02'
 	},
 	{
-		'area_id': 1,
-		'title': 'Gobernatura',
-		'membership_id_winner': 1,
+		'area_id': 3,
+		'title': 'Gubernatura de CAMPECHE',
+		'membership_id_winner': '',
 		'start_date': '2020-04-05',
 		'end_date': '2020-06-06',
-		'election_identifier': 'election-identifier-01'
+		'election_identifier': 'election-identifier-03'
 	}
 ]
 
