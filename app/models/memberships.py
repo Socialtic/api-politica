@@ -54,7 +54,7 @@ class Membership(db.Model):
                 'id': membership.membership_id,
                 'person_id': membership.person_id,
                 'role_id': membership.role_id,
-                'party_id': membership.party_id,
+                'party_ids': [membership.party_id],
                 'coalition_id': "" if membership.coalition_id == EmptyValues.EMPTY_INT else membership.coalition_id,
                 'goes_for_coalition': membership.goes_for_coalition,
                 'membership_type': Catalogues.MEMBERSHIP_TYPES[membership.membership_type],
