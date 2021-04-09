@@ -46,7 +46,7 @@ class URL_TYPE:
 class Catalogues:
     DEGREES_OF_STUDIES = ['', 'ELEMENTARY', 'HIGH SCHOOL', 'ASSOCIATE DEGREE', 'BACHELOR’S DEGREE', 'UNIVERSITY 1 ST PROFESSIONAL DEGREE', 'MASTER DEGREE', 'PHD DEGREE']
     #   GOBERNADOR, DIPUTADO , PRESIDENTE MUNICIPAL
-    DISTRICT_TYPES = ['', 'REGIONAL_EXEC', 'NATIONAL_LOWER', 'LOCAL_EXEC']
+    DISTRICT_TYPES = ['NATIONAL_EXEC', 'REGIONAL_EXEC', 'NATIONAL_LOWER', 'LOCAL_EXEC']
     GENDERS = ['', 'M', 'F']
     MEMBERSHIP_TYPES = ['', 'officeholder', 'campaigning_politician', 'party_leader']
     # privilegiado, apodo, nombre de la boleta
