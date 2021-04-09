@@ -103,12 +103,12 @@ def contestId(contest_id):
         construct = {
             'success': True,
             'contest': {
-                'contest_id': contest.contest_id,
+                'id': contest.contest_id,
                 'area_id': contest.area_id,
                 'title': {
                     'en_US': contest.title,
                 },
-                'membership_id_winner': contest.membership_id_winner,
+                'membership_id_winner': '' if contest.membership_id_winner == EmptyValues.EMPTY_INT else contest.membership_id_winner,
                 'start_date': contest.start_date.strftime('%Y-%m-%d'),
                 'end_date': contest.end_date.strftime('%Y-%m-%d'),
                 'election_identifier': contest.election_identifier,

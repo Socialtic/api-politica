@@ -1,6 +1,7 @@
 from app import db
 from app.models.role import *
 from app.models.person import *
+from app.const import EmptyValues
 
 class Contest(db.Model):
     __tablename__ = 'contest'
@@ -50,7 +51,7 @@ class Contest(db.Model):
                 'title': {
                     'en_US': contest.title,
                 },
-                'membership_id_winner': contest.membership_id_winner,
+                'membership_id_winner': '' if contest.membership_id_winner == EmptyValues.EMPTY_INT else contest.membership_id_winner,
                 'start_date': contest.start_date.strftime('%Y-%m-%d'),
                 'end_date': contest.end_date.strftime('%Y-%m-%d'),
                 'election_identifier': contest.election_identifier,
