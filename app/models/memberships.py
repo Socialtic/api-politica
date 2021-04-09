@@ -11,6 +11,8 @@ class Membership(db.Model):
     role_id = db.Column(db.Integer, db.ForeignKey('role.role_id'), nullable=False)
     party_id = db.Column(db.Integer, db.ForeignKey('party.party_id'), nullable=False)
     coalition_id = db.Column(db.Integer, db.ForeignKey('coalition.coalition_id'), nullable=True)
+    #contest_id = db.Column(db.Integer, db.ForeignKey('contest.contest_id'), nullable=True)
+    contest_id = db.Column(db.Integer, nullable=True)
     goes_for_coalition = db.Column(db.Boolean, nullable=False)
     membership_type = db.Column(db.Integer, nullable=False)
     goes_for_reelection = db.Column(db.Boolean, nullable=False)
@@ -23,7 +25,7 @@ class Membership(db.Model):
 
 
     def __init__(
-            self, person_id, role_id, party_id, coalition_id, goes_for_coalition,
+            self, person_id, role_id, party_id, coalition_id, contest_id, goes_for_coalition,
             membership_type, goes_for_reelection, start_date, end_date, is_substitute,
             parent_membership_id, changed_from_substitute, date_changed_from_substitute
         ):
@@ -31,6 +33,7 @@ class Membership(db.Model):
         self.role_id = role_id
         self.party_id = party_id
         self.coalition_id = coalition_id
+        self.contest_id = contest_id
         self.goes_for_coalition = goes_for_coalition
         self.membership_type = membership_type
         self.goes_for_reelection = goes_for_reelection
@@ -56,6 +59,7 @@ class Membership(db.Model):
                 'role_id': membership.role_id,
                 'party_ids': [membership.party_id],
                 'coalition_id': "" if membership.coalition_id == EmptyValues.EMPTY_INT else membership.coalition_id,
+                'contest_id': "" if membership.contest_id == EmptyValues.EMPTY_INT else membership.contest_id,
                 'goes_for_coalition': membership.goes_for_coalition,
                 'membership_type': Catalogues.MEMBERSHIP_TYPES[membership.membership_type],
                 'goes_for_reelection': membership.goes_for_reelection,

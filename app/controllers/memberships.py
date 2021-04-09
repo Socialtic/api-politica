@@ -27,6 +27,7 @@ def Memberships():
             role_id = EmptyValues.EMPTY_INT if request.json['role_id'] == EmptyValues.EMPTY_STRING else request.json['role_id']
             party_id = EmptyValues.EMPTY_INT if request.json['party_id'] == EmptyValues.EMPTY_STRING else request.json['party_id']
             coalition_id = EmptyValues.EMPTY_INT if request.json['coalition_id'] == EmptyValues.EMPTY_STRING else request.json['coalition_id']
+            contest_id = EmptyValues.EMPTY_INT if request.json['contest_id'] == EmptyValues.EMPTY_STRING else request.json['contest_id']
             goes_for_coalition = EmptyValues.EMPTY_INT if request.json['goes_for_coalition'] == EmptyValues.EMPTY_STRING else request.json['goes_for_coalition']
             membership_type = EmptyValues.EMPTY_INT if request.json['membership_type'] == EmptyValues.EMPTY_STRING else request.json['membership_type']
             goes_for_reelection = EmptyValues.EMPTY_INT if request.json['goes_for_reelection'] == EmptyValues.EMPTY_STRING else request.json['goes_for_reelection']
@@ -53,7 +54,7 @@ def Memberships():
             try:
                 membership = Membership(
                     person_id=person_id, role_id=role_id, party_id=party_id, coalition_id=coalition_id,
-                    goes_for_coalition=goes_for_coalition, membership_type=membership_type,
+                    contest_id=contest_id, goes_for_coalition=goes_for_coalition, membership_type=membership_type,
                     goes_for_reelection=goes_for_reelection,
                     start_date=date.fromisoformat(start_date), end_date=date.fromisoformat(end_date),
                     is_substitute=is_substitute, parent_membership_id=parent_membership_id,
@@ -108,6 +109,7 @@ def membershipId(membership_id):
                 'person_id': membership.person_id,
                 'role_id': membership.role_id,
                 'party_ids': [membership.party_id],
+                'contest_id': "" if membership.contest_id == EmptyValues.EMPTY_INT else membership.contest_id,
                 'coalition_id': "" if membership.coalition_id == EmptyValues.EMPTY_INT else membership.coalition_id,
                 'goes_for_coalition': membership.goes_for_coalition,
                 'membership_type': Catalogues.MEMBERSHIP_TYPES[membership.membership_type],
@@ -133,6 +135,7 @@ def membershipId(membership_id):
             role_id = EmptyValues.EMPTY_INT if request.json['role_id'] == EmptyValues.EMPTY_STRING else request.json['role_id']
             party_id = EmptyValues.EMPTY_INT if request.json['party_id'] == EmptyValues.EMPTY_STRING else request.json['party_id']
             coalition_id = EmptyValues.EMPTY_INT if request.json['coalition_id'] == EmptyValues.EMPTY_STRING else request.json['coalition_id']
+            contest_id = EmptyValues.EMPTY_INT if request.json['contest_id'] == EmptyValues.EMPTY_STRING else request.json['contest_id']
             goes_for_coalition = EmptyValues.EMPTY_INT if request.json['goes_for_coalition'] == EmptyValues.EMPTY_STRING else request.json['goes_for_coalition']
             membership_type = EmptyValues.EMPTY_INT if request.json['membership_type'] == EmptyValues.EMPTY_STRING else request.json['membership_type']
             goes_for_reelection = EmptyValues.EMPTY_INT if request.json['goes_for_reelection'] == EmptyValues.EMPTY_STRING else request.json['goes_for_reelection']
@@ -160,6 +163,7 @@ def membershipId(membership_id):
                 membership.person_id = person_id
                 membership.role_id = role_id
                 membership.party_id = party_id
+                membership.contest_id = contest_id
                 membership.coalition_id = coalition_id
                 membership.goes_for_coalition = goes_for_coalition
                 membership.membership_type = membership_type

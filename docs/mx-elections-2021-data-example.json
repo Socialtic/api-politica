@@ -3,186 +3,222 @@
     {
       "city": "", 
       "country": "MX", 
-      "district_type": "REGIONAL_EXEC", 
+      "district_type": "NATIONAL_EXEC", 
       "id": 1, 
       "name": {
-        "en_US": "Baja California", 
-        "es_MX": "Baja California"
+        "en_US": "M\u00c9XICO", 
+        "es_MX": "M\u00c9XICO"
       }, 
-      "ocd_id": "ocd-division/country:mx/state:bc", 
+      "ocd_id": "ocd-division/country:mx", 
       "parent_area_id": "", 
-      "state": "BC"
+      "state": ""
     }, 
     {
-      "city": "Tijuana", 
+      "city": "BAJA CALIFORNIA", 
       "country": "MX", 
-      "district_type": "NATIONAL_LOWER", 
+      "district_type": "REGIONAL_EXEC", 
       "id": 2, 
       "name": {
-        "en_US": "Tijuana", 
-        "es_MX": "Tijuana"
+        "en_US": "BAJA CALIFORNIA", 
+        "es_MX": "BAJA CALIFORNIA"
       }, 
-      "ocd_id": "ocd-division/country:mx/state:bc/fed:4", 
+      "ocd_id": "ocd-division/country:mx/state:bc", 
       "parent_area_id": 1, 
-      "state": "BC"
+      "state": "BCN"
     }, 
     {
-      "city": "Tijuana", 
+      "city": "BAJA CALIFORNIA SUR", 
       "country": "MX", 
-      "district_type": "LOCAL_EXEC", 
+      "district_type": "REGIONAL_EXEC", 
       "id": 3, 
       "name": {
-        "en_US": "Tijuana", 
-        "es_MX": "Tijuana"
+        "en_US": "BAJA CALIFORNIA SUR", 
+        "es_MX": "BAJA CALIFORNIA SUR"
       }, 
-      "ocd_id": "ocd-division/country:mx/state:bc/city:4", 
+      "ocd_id": "ocd-division/country:mx/state:bs", 
       "parent_area_id": 1, 
-      "state": "BC"
+      "state": "BCS"
+    }, 
+    {
+      "city": "CAM", 
+      "country": "MX", 
+      "district_type": "REGIONAL_EXEC", 
+      "id": 4, 
+      "name": {
+        "en_US": "CAMPECHE", 
+        "es_MX": "CAMPECHE"
+      }, 
+      "ocd_id": "ocd-division/country:mx/state:cm", 
+      "parent_area_id": 1, 
+      "state": "BCS"
     }
   ], 
   "chambers": [
     {
-      "area_id": 1, 
+      "area_id": 2, 
       "id": 1, 
       "name": {
-        "en_US": "Gubernatura de Baja California"
-      }
-    }, 
-    {
-      "area_id": 2, 
-      "id": 2, 
-      "name": {
-        "en_US": "Diputaci\u00f3n del Distrito Federal IV de Baja California"
+        "en_US": "Gubernatura de BAJA CALIFORNIA"
       }
     }, 
     {
       "area_id": 3, 
+      "id": 2, 
+      "name": {
+        "en_US": "Gubernatura de BAJA CALIFORNIA SUR"
+      }
+    }, 
+    {
+      "area_id": 4, 
       "id": 3, 
       "name": {
-        "en_US": "Presidencia del municipio 4 de Bajalifornia (Tijuana)"
+        "en_US": "Gubernatura de CAMPECHE"
       }
     }
   ], 
   "contests": [
     {
-      "area_id": 1, 
+      "area_id": 2, 
       "election_identifier": "election-identifier-01", 
       "end_date": "2020-06-06", 
       "id": 1, 
-      "membership_id_winner": 1, 
+      "membership_id_winner": "", 
       "person_ids": [
         1
       ], 
       "role_ids": [
-        1, 
+        1
+      ], 
+      "start_date": "2020-04-05", 
+      "title": {
+        "en_US": "Gubernatura de BAJA CALIFORNIA"
+      }
+    }, 
+    {
+      "area_id": 2, 
+      "election_identifier": "election-identifier-02", 
+      "end_date": "2020-06-06", 
+      "id": 2, 
+      "membership_id_winner": "", 
+      "person_ids": [
+        2
+      ], 
+      "role_ids": [
         2
       ], 
       "start_date": "2020-04-05", 
       "title": {
-        "en_US": "Gobernatura"
+        "en_US": "Gubernatura de BAJA CALIFORNIA SUR"
       }
     }, 
     {
-      "area_id": 1, 
-      "election_identifier": "election-identifier-01", 
+      "area_id": 3, 
+      "election_identifier": "election-identifier-03", 
       "end_date": "2020-06-06", 
-      "id": 2, 
-      "membership_id_winner": 1, 
+      "id": 3, 
+      "membership_id_winner": "", 
       "person_ids": [
-        2
+        3
       ], 
       "role_ids": [
         3
       ], 
       "start_date": "2020-04-05", 
       "title": {
-        "en_US": "Gobernatura"
-      }
-    }, 
-    {
-      "area_id": 1, 
-      "election_identifier": "election-identifier-01", 
-      "end_date": "2020-06-06", 
-      "id": 3, 
-      "membership_id_winner": 1, 
-      "person_ids": [
-        3, 
-        4
-      ], 
-      "role_ids": [], 
-      "start_date": "2020-04-05", 
-      "title": {
-        "en_US": "Gobernatura"
+        "en_US": "Gubernatura de CAMPECHE"
       }
     }
   ], 
   "memberships": [
     {
       "changed_from_substitute": false, 
-      "coalition_id": 1, 
+      "coalition_id": "", 
+      "contest_id": 1, 
       "date_changed_from_substitute": "", 
-      "end_date": "", 
-      "goes_for_coalition": false, 
+      "end_date": "2020-06-02", 
+      "goes_for_coalition": true, 
       "goes_for_reelection": false, 
       "id": 1, 
       "is_substitute": false, 
       "membership_type": "campaigning_politician", 
       "parent_membership_id": "", 
-      "party_id": 1, 
+      "party_ids": [
+        4
+      ], 
       "person_id": 1, 
-      "role_id": 1, 
-      "start_date": ""
+      "role_id": 2, 
+      "start_date": "2020-04-04"
     }, 
     {
       "changed_from_substitute": false, 
-      "coalition_id": 2, 
+      "coalition_id": "", 
+      "contest_id": 2, 
       "date_changed_from_substitute": "", 
-      "end_date": "", 
-      "goes_for_coalition": false, 
+      "end_date": "2020-06-02", 
+      "goes_for_coalition": true, 
       "goes_for_reelection": false, 
       "id": 2, 
       "is_substitute": false, 
       "membership_type": "campaigning_politician", 
       "parent_membership_id": "", 
-      "party_id": 2, 
+      "party_ids": [
+        2
+      ], 
       "person_id": 2, 
       "role_id": 2, 
-      "start_date": ""
+      "start_date": "2020-04-05"
     }, 
     {
       "changed_from_substitute": false, 
-      "coalition_id": 3, 
+      "coalition_id": "", 
+      "contest_id": 3, 
       "date_changed_from_substitute": "", 
-      "end_date": "", 
-      "goes_for_coalition": false, 
+      "end_date": "2020-06-02", 
+      "goes_for_coalition": true, 
       "goes_for_reelection": false, 
       "id": 3, 
       "is_substitute": false, 
-      "membership_type": "officeholder", 
+      "membership_type": "campaigning_politician", 
       "parent_membership_id": "", 
-      "party_id": 3, 
+      "party_ids": [
+        1
+      ], 
       "person_id": 3, 
-      "role_id": 3, 
-      "start_date": ""
+      "role_id": 2, 
+      "start_date": "2020-04-06"
     }
   ], 
   "parties": [
     {
       "abbreviation": {
-        "en_US": "PRI", 
-        "es_MX": "PRI"
+        "en_US": "Morena", 
+        "es_MX": "Morena"
       }, 
       "area_id": 1, 
-      "coalition_id": 1, 
+      "coalition_id": "", 
       "colors": [
-        "GREEN", 
-        "WHITE", 
         "RED"
       ], 
       "id": 1, 
       "name": {
-        "en_US": "Partido Revolucionario Institucional", 
-        "es_MX": "Partido Revolucionario Institucional"
+        "en_US": "Movimiento de Regeneraci\u00f3n Nacional", 
+        "es_MX": "Movimiento de Regeneraci\u00f3n Nacional"
+      }
+    }, 
+    {
+      "abbreviation": {
+        "en_US": "MC", 
+        "es_MX": "MC"
+      }, 
+      "area_id": 1, 
+      "coalition_id": "", 
+      "colors": [
+        "ORANGE"
+      ], 
+      "id": 2, 
+      "name": {
+        "en_US": "Movimiento Ciudadano", 
+        "es_MX": "Movimiento Ciudadano"
       }
     }, 
     {
@@ -191,12 +227,12 @@
         "es_MX": "PAN"
       }, 
       "area_id": 1, 
-      "coalition_id": 1, 
+      "coalition_id": "", 
       "colors": [
         "BLUE", 
         "WHITE"
       ], 
-      "id": 2, 
+      "id": 3, 
       "name": {
         "en_US": "Partido Acci\u00f3n Nacional", 
         "es_MX": "Partido Acci\u00f3n Nacional"
@@ -204,17 +240,16 @@
     }, 
     {
       "abbreviation": {
-        "en_US": "PRD", 
-        "es_MX": "PRD"
+        "en_US": "prd", 
+        "es_MX": "prd"
       }, 
       "area_id": 1, 
-      "coalition_id": 1, 
+      "coalition_id": "", 
       "colors": [
         "YELLOW", 
-        "BLACK", 
-        "RED"
+        "BLACK"
       ], 
-      "id": 3, 
+      "id": 4, 
       "name": {
         "en_US": "Partido de la Revoluci\u00f3n Democr\u00e1tica", 
         "es_MX": "Partido de la Revoluci\u00f3n Democr\u00e1tica"
@@ -222,89 +257,46 @@
     }, 
     {
       "abbreviation": {
-        "en_US": "Morena", 
-        "es_MX": "Morena"
+        "en_US": "PES", 
+        "es_MX": "PES"
       }, 
       "area_id": 1, 
-      "coalition_id": 2, 
+      "coalition_id": "", 
       "colors": [
-        "RED"
-      ], 
-      "id": 4, 
-      "name": {
-        "en_US": "Movimiento Regeneraci\u00f3n Nacional", 
-        "es_MX": "Movimiento Regeneraci\u00f3n Nacional"
-      }
-    }, 
-    {
-      "abbreviation": {
-        "en_US": "PT", 
-        "es_MX": "PT"
-      }, 
-      "area_id": 1, 
-      "coalition_id": 2, 
-      "colors": [
-        "RED", 
-        "YELLOW"
+        "BLUE", 
+        "WHITE"
       ], 
       "id": 5, 
       "name": {
-        "en_US": "Partido del Trabajo", 
-        "es_MX": "Partido del Trabajo"
+        "en_US": "Partido Encuentro Social", 
+        "es_MX": "Partido Encuentro Social"
       }
     }
   ], 
   "persons": [
     {
       "contest_id": 1, 
-      "date_birth": "1994-02-16", 
+      "date_birth": "1985-09-19", 
       "dead_or_alive": true, 
       "first_name": {
-        "en_US": "Paul", 
-        "es_MX": "Paul"
+        "en_US": "Marina del Pilar", 
+        "es_MX": "Marina del Pilar"
       }, 
       "full_name": {
-        "en_US": "Paul Aguilar", 
-        "es_MX": "Paul Aguilar"
+        "en_US": "Marina del Pilar \u00c1vila Olmeda", 
+        "es_MX": "Marina del Pilar \u00c1vila Olmeda"
       }, 
-      "gender": "M", 
+      "gender": "F", 
       "id": 1, 
-      "last_degree_of_studies": "ELEMENTARY", 
+      "last_degree_of_studies": "MASTER DEGREE", 
       "last_name": {
-        "en_US": "Aguilar", 
-        "es_MX": "Aguilar"
+        "en_US": "\u00c1vila", 
+        "es_MX": "\u00c1vila"
       }, 
       "other_names": {
-        "ballot_name": [
-          {
-            "en_US": "Dr Pol"
-          }, 
-          {
-            "es_MX": "Dr Pol"
-          }
-        ], 
-        "nickname": [
-          {
-            "en_US": "Penserbjorne"
-          }, 
-          {
-            "es_MX": "Penserbjorne"
-          }, 
-          {
-            "en_US": "Dr"
-          }, 
-          {
-            "es_MX": "Dr"
-          }
-        ], 
-        "preferred_name": [
-          {
-            "en_US": "Pol"
-          }, 
-          {
-            "es_MX": "Pol"
-          }
-        ]
+        "ballot_name": [], 
+        "nickname": [], 
+        "preferred_name": []
       }, 
       "professions": [
         "Didactics and pedagogy", 
@@ -313,22 +305,22 @@
     }, 
     {
       "contest_id": 2, 
-      "date_birth": "1994-02-16", 
+      "date_birth": "1941-12-17", 
       "dead_or_alive": true, 
       "first_name": {
-        "en_US": "Hayde\u00e9", 
-        "es_MX": "Hayde\u00e9"
+        "en_US": "Franco", 
+        "es_MX": "Franco"
       }, 
       "full_name": {
-        "en_US": "Hayde\u00e9 Quijano", 
-        "es_MX": "Hayde\u00e9 Quijano"
+        "en_US": "Francisco Alcibiades Garcia Lizardi", 
+        "es_MX": "Francisco Alcibiades Garcia Lizardi"
       }, 
-      "gender": "F", 
+      "gender": "M", 
       "id": 2, 
-      "last_degree_of_studies": "HIGH SCHOOL", 
+      "last_degree_of_studies": "BACHELOR\u2019S DEGREE", 
       "last_name": {
-        "en_US": "Quijano", 
-        "es_MX": "Quijano"
+        "en_US": "Garcia", 
+        "es_MX": "Garcia"
       }, 
       "other_names": {
         "ballot_name": [], 
@@ -341,59 +333,33 @@
     }, 
     {
       "contest_id": 3, 
-      "date_birth": "1994-02-16", 
-      "dead_or_alive": false, 
+      "date_birth": "1967-09-06", 
+      "dead_or_alive": true, 
       "first_name": {
-        "en_US": "Jose", 
-        "es_MX": "Jose"
+        "en_US": "Mar\u00eda", 
+        "es_MX": "Mar\u00eda"
       }, 
       "full_name": {
-        "en_US": "Jose Luis P\u00e9rez", 
-        "es_MX": "Jose Luis P\u00e9rez"
+        "en_US": "Mar\u00eda Guadalupe Jones Garay", 
+        "es_MX": "Mar\u00eda Guadalupe Jones Garay"
       }, 
       "gender": "M", 
       "id": 3, 
-      "last_degree_of_studies": "ASSOCIATE DEGREE", 
+      "last_degree_of_studies": "MASTER DEGREE", 
       "last_name": {
-        "en_US": "P\u00e9rez", 
-        "es_MX": "P\u00e9rez"
+        "en_US": "Jones", 
+        "es_MX": "Jones"
       }, 
       "other_names": {
         "ballot_name": [], 
-        "nickname": [], 
-        "preferred_name": [
+        "nickname": [
           {
-            "en_US": "Luis"
+            "en_US": "Lupita Jones"
           }, 
           {
-            "es_MX": "Luis"
+            "es_MX": "Lupita Jones"
           }
-        ]
-      }, 
-      "professions": []
-    }, 
-    {
-      "contest_id": 3, 
-      "date_birth": "1994-02-16", 
-      "dead_or_alive": true, 
-      "first_name": {
-        "en_US": "David", 
-        "es_MX": "David"
-      }, 
-      "full_name": {
-        "en_US": "David Ortiz", 
-        "es_MX": "David Ortiz"
-      }, 
-      "gender": "M", 
-      "id": 4, 
-      "last_degree_of_studies": "ASSOCIATE DEGREE", 
-      "last_name": {
-        "en_US": "Ortiz", 
-        "es_MX": "Ortiz"
-      }, 
-      "other_names": {
-        "ballot_name": [], 
-        "nickname": [], 
+        ], 
         "preferred_name": []
       }, 
       "professions": []
@@ -401,33 +367,33 @@
   ], 
   "roles": [
     {
-      "area_id": 1, 
+      "area_id": 2, 
       "chamber_id": 1, 
       "contest_id": 1, 
       "id": 1, 
       "role": "governmentOfficer", 
       "title": {
-        "en_US": "Gobernador"
-      }
-    }, 
-    {
-      "area_id": 2, 
-      "chamber_id": 2, 
-      "contest_id": 1, 
-      "id": 2, 
-      "role": "legislatorUpperBody", 
-      "title": {
-        "en_US": "Diputado"
+        "en_US": "governmentOfficer"
       }
     }, 
     {
       "area_id": 3, 
-      "chamber_id": 3, 
+      "chamber_id": 2, 
       "contest_id": 2, 
-      "id": 3, 
-      "role": "executiveCouncil", 
+      "id": 2, 
+      "role": "governmentOfficer", 
       "title": {
-        "en_US": "Presidente Municipal"
+        "en_US": "governmentOfficer"
+      }
+    }, 
+    {
+      "area_id": 4, 
+      "chamber_id": 3, 
+      "contest_id": 3, 
+      "id": 3, 
+      "role": "governmentOfficer", 
+      "title": {
+        "en_US": "governmentOfficer"
       }
     }
   ]
