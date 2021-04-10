@@ -1,5 +1,6 @@
 from app import db
 from app.const import EmptyValues
+from app.controllers.url import *
 
 class Party(db.Model):
     __tablename__ = 'party'
@@ -40,7 +41,11 @@ class Party(db.Model):
                 },
                 'colors': party.colors,
                 'area_id': "" if party.area_id == EmptyValues.EMPTY_INT else party.area_id,
-                'coalition_id': "" if party.coalition_id == EmptyValues.EMPTY_INT else party.coalition_id
+                'coalition_id': "" if party.coalition_id == EmptyValues.EMPTY_INT else party.coalition_id,
+                'fb_urls': Url.get_party_fb_urls(party.party_id),
+                'ig_urls': Url.get_party_ig_urls(party.party_id),
+                'logo_urls': Url.get_party_logo_urls(party.party_id),
+                'websites': Url.get_party_websites_urls(party.party_id)
             }
             result.append(obj)
         return result

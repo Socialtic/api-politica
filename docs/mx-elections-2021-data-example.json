@@ -199,11 +199,38 @@
       "colors": [
         "RED"
       ], 
+      "fb_urls": [
+        "https://facebook.com/partido"
+      ], 
       "id": 1, 
+      "ig_urls": [
+        "https://instagram.com/partido"
+      ], 
+      "logo_urls": [
+        "https://partido.com/logo.png"
+      ], 
       "name": {
         "en_US": "Movimiento de Regeneraci\u00f3n Nacional", 
         "es_MX": "Movimiento de Regeneraci\u00f3n Nacional"
-      }
+      }, 
+      "websites": [
+        {
+          "note": "campaign", 
+          "url": "https://sitio-campania.com/"
+        }, 
+        {
+          "note": "official", 
+          "url": "https://sitio-oficial.com/"
+        }, 
+        {
+          "note": "personal", 
+          "url": "https://sitio-personal.com/"
+        }, 
+        {
+          "note": "wikipedia", 
+          "url": "https://sitio-wikipedia.com/"
+        }
+      ]
     }, 
     {
       "abbreviation": {
@@ -215,11 +242,15 @@
       "colors": [
         "ORANGE"
       ], 
+      "fb_urls": [], 
       "id": 2, 
+      "ig_urls": [], 
+      "logo_urls": [], 
       "name": {
         "en_US": "Movimiento Ciudadano", 
         "es_MX": "Movimiento Ciudadano"
-      }
+      }, 
+      "websites": []
     }, 
     {
       "abbreviation": {
@@ -232,11 +263,15 @@
         "BLUE", 
         "WHITE"
       ], 
+      "fb_urls": [], 
       "id": 3, 
+      "ig_urls": [], 
+      "logo_urls": [], 
       "name": {
         "en_US": "Partido Acci\u00f3n Nacional", 
         "es_MX": "Partido Acci\u00f3n Nacional"
-      }
+      }, 
+      "websites": []
     }, 
     {
       "abbreviation": {
@@ -249,11 +284,15 @@
         "YELLOW", 
         "BLACK"
       ], 
+      "fb_urls": [], 
       "id": 4, 
+      "ig_urls": [], 
+      "logo_urls": [], 
       "name": {
         "en_US": "Partido de la Revoluci\u00f3n Democr\u00e1tica", 
         "es_MX": "Partido de la Revoluci\u00f3n Democr\u00e1tica"
-      }
+      }, 
+      "websites": []
     }, 
     {
       "abbreviation": {
@@ -266,11 +305,15 @@
         "BLUE", 
         "WHITE"
       ], 
+      "fb_urls": [], 
       "id": 5, 
+      "ig_urls": [], 
+      "logo_urls": [], 
       "name": {
         "en_US": "Partido Encuentro Social", 
         "es_MX": "Partido Encuentro Social"
-      }
+      }, 
+      "websites": []
     }
   ], 
   "persons": [

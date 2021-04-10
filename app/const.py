@@ -24,24 +24,25 @@ class URL_TYPE:
     WEBSITE_CAMPAIGN = 1
     WEBSITE_OFFICIAL = 2
     WEBSITE_PERSONAL = 3
-    FACEBOOK_CAMPAIGN = 4
-    FACEBOOK_OFFICIAL = 5
-    FACEBOOK_PERSONAL = 6
-    INSTAGRAM_CAMPAIGN = 7
-    INSTAGRAM_OFFICIAL = 8
-    INSTAGRAM_PERSONAL = 9
-    WHATSAPP = 10
-    TWITTER = 11
-    YOUTUBE = 12
-    LINKEDIN = 13
-    FLICKR = 14
-    PINTEREST = 15
-    TUMBLR = 16
-    RSS = 17
-    EMAIL = 18
-    PHOTO = 19
-    LOGO = 20
-    SOURCE_OF_TRUTH = 21
+    WEBSITE_WIKIPEDIA = 4
+    FACEBOOK_CAMPAIGN = 5
+    FACEBOOK_OFFICIAL = 6
+    FACEBOOK_PERSONAL = 7
+    INSTAGRAM_CAMPAIGN = 8
+    INSTAGRAM_OFFICIAL = 9
+    INSTAGRAM_PERSONAL = 10
+    WHATSAPP = 11
+    TWITTER = 12
+    YOUTUBE = 13
+    LINKEDIN = 14
+    FLICKR = 15
+    PINTEREST = 16
+    TUMBLR = 17
+    RSS = 18
+    EMAIL = 19
+    PHOTO = 20
+    LOGO = 21
+    SOURCE_OF_TRUTH = 22
 
 class Catalogues:
     DEGREES_OF_STUDIES = ['', 'ELEMENTARY', 'HIGH SCHOOL', 'ASSOCIATE DEGREE', 'BACHELOR’S DEGREE', 'UNIVERSITY 1 ST PROFESSIONAL DEGREE', 'MASTER DEGREE', 'PHD DEGREE']
@@ -53,3 +54,4 @@ class Catalogues:
     OTHER_NAMES_TYPES = ['', 'preferred', 'nickname', 'ballot_name']
     #   GOBERNADOR, DIPUTADO , PRESIDENTE MUNICIPAL
     ROLE_TYPES = ['', 'governmentOfficer', 'legislatorLowerBody', 'executiveCouncil']
+    URL_TYPE_NAMES = ['', 'campaign', 'official', 'personal', 'wikipedia']

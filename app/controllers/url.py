@@ -86,6 +86,7 @@ def urlId(url_id):
             'success': True,
             'url': {
                 'id': url.url_id,
+                'url': url.url,
                 'description': url.description,
                 'url_type': url.url_type,
                 'owner_type': url.owner_type,

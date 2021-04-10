@@ -1,4 +1,5 @@
 import requests
+from app.const import URL_TYPE, URL_OWNER_TYPE
 
 BASE = 'http://127.0.0.1:8000/'
 
@@ -419,67 +420,53 @@ print('-----------------------------------------------------------------------')
 print('Inserting urls')
 data = [
 	{
-		"url": "google.com",
-		"description": "Buscador de Google",
-		"url_type": 1,
-		"owner_type": 1,
-		"owner_id": 1
+		'url': 'https://facebook.com/partido',
+		'description': 'Página de FB del partido',
+		'url_type': URL_TYPE.FACEBOOK_CAMPAIGN,
+		'owner_type': URL_OWNER_TYPE.PARTY,
+		'owner_id': 1
 	},
 	{
-		"url": "google.com",
-		"description": "Buscador de Google",
-		"url_type": 1,
-		"owner_type": 1,
-		"owner_id": 1
+		'url': 'https://instagram.com/partido',
+		'description': 'Página de IG del partido',
+		'url_type': URL_TYPE.INSTAGRAM_CAMPAIGN,
+		'owner_type': URL_OWNER_TYPE.PARTY,
+		'owner_id': 1
 	},
 	{
-		"url": "google.com",
-		"description": "Buscador de Google",
-		"url_type": 1,
-		"owner_type": 1,
-		"owner_id": 1
+		'url': 'https://partido.com/logo.png',
+		'description': 'Logo del partido',
+		'url_type': URL_TYPE.LOGO,
+		'owner_type': URL_OWNER_TYPE.PARTY,
+		'owner_id': 1
 	},
 	{
-		"url": "google.com",
-		"description": "Buscador de Google",
-		"url_type": 1,
-		"owner_type": 1,
-		"owner_id": 1
+		'url': 'https://sitio-campania.com/',
+		'description': 'Sitio de campaña del partido',
+		'url_type': URL_TYPE.WEBSITE_CAMPAIGN,
+		'owner_type': URL_OWNER_TYPE.PARTY,
+		'owner_id': 1
 	},
 	{
-		"url": "google.com",
-		"description": "Buscador de Google",
-		"url_type": 1,
-		"owner_type": 1,
-		"owner_id": 1
+		'url': 'https://sitio-oficial.com/',
+		'description': 'Sitio oficial del  partido',
+		'url_type': URL_TYPE.WEBSITE_OFFICIAL,
+		'owner_type': URL_OWNER_TYPE.PARTY,
+		'owner_id': 1
 	},
 	{
-		"url": "google.com",
-		"description": "Buscador de Google",
-		"url_type": 1,
-		"owner_type": 1,
-		"owner_id": 1
+		'url': 'https://sitio-personal.com/',
+		'description': 'Sitio personal del partido',
+		'url_type': URL_TYPE.WEBSITE_PERSONAL,
+		'owner_type': URL_OWNER_TYPE.PARTY,
+		'owner_id': 1
 	},
 	{
-		"url": "google.com",
-		"description": "Buscador de Google",
-		"url_type": 1,
-		"owner_type": 1,
-		"owner_id": 1
-	},
-	{
-		"url": "google.com",
-		"description": "Buscador de Google",
-		"url_type": 1,
-		"owner_type": 1,
-		"owner_id": 1
-	},
-	{
-		"url": "google.com",
-		"description": "Buscador de Google",
-		"url_type": 1,
-		"owner_type": 1,
-		"owner_id": 1
+		'url': 'https://sitio-wikipedia.com/',
+		'description': 'Sitio de wikipedoa del partido',
+		'url_type': URL_TYPE.WEBSITE_WIKIPEDIA,
+		'owner_type': URL_OWNER_TYPE.PARTY,
+		'owner_id': 1
 	}
 ]
 
