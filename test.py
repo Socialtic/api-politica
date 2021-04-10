@@ -571,6 +571,144 @@ for i in range(len(data)):
 print('-----------------------------------------------------------------------')
 print()
 
+print('-----------------------------------------------------------------------')
+print('Inserting urls for person')
+data = [
+	{
+		'url': 'https://facebook.com/person/campaign',
+		'description': 'Facebook Person 1 - campaign',
+		'url_type': URL_TYPE.FACEBOOK_CAMPAIGN,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://facebook.com/person/official',
+		'description': 'Facebook Person 1 - official',
+		'url_type': URL_TYPE.FACEBOOK_OFFICIAL,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://facebook.com/person/personal',
+		'description': 'Facebook Person 1 - personal',
+		'url_type': URL_TYPE.FACEBOOK_PERSONAL,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://instagram.com/person/campaign',
+		'description': 'Instagram Person 1 - campaign',
+		'url_type': URL_TYPE.INSTAGRAM_CAMPAIGN,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://instagram.com/person/official',
+		'description': 'Instagram Person 1 - official',
+		'url_type': URL_TYPE.INSTAGRAM_OFFICIAL,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://instagram.com/person/personal',
+		'description': 'Instagram Person 1 - personal',
+		'url_type': URL_TYPE.INSTAGRAM_PERSONAL,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://persona-campania.com/',
+		'description': 'Sitio de campaña de la persona',
+		'url_type': URL_TYPE.WEBSITE_CAMPAIGN,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://persona-oficial.com/',
+		'description': 'Sitio oficial de la persona',
+		'url_type': URL_TYPE.WEBSITE_OFFICIAL,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://persona-personal.com/',
+		'description': 'Sitio personal de la persona',
+		'url_type': URL_TYPE.WEBSITE_PERSONAL,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://persona-wikipedia.com/',
+		'description': 'Sitio de wikipedia de la persona',
+		'url_type': URL_TYPE.WEBSITE_WIKIPEDIA,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://persona-sitio.com/foto.png',
+		'description': 'Foto de la persona',
+		'url_type': URL_TYPE.PHOTO,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://persona-youtube.com/',
+		'description': 'Youtube de la persona',
+		'url_type': URL_TYPE.YOUTUBE,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://persona-linkedin.com/',
+		'description': 'LinkedIn de la persona',
+		'url_type': URL_TYPE.LINKEDIN,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://persona-flickr.com/',
+		'description': 'Flickr de la persona',
+		'url_type': URL_TYPE.FLICKR,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://persona-pinterest.com/',
+		'description': 'Pinterest de la persona',
+		'url_type': URL_TYPE.PINTEREST,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://persona-twitter.com/',
+		'description': 'Twitter de la persona',
+		'url_type': URL_TYPE.TWITTER,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://persona-tumblr.com/',
+		'description': 'tumblr de la persona',
+		'url_type': URL_TYPE.TUMBLR,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://persona-rss.com/',
+		'description': 'RSS de la persona',
+		'url_type': URL_TYPE.RSS,
+		'owner_type': URL_OWNER_TYPE.PERSON,
+		'owner_id': 1
+	}
+]
+
+for i in range(len(data)):
+    print(data[i])
+    response = requests.post(BASE + 'url', json=data[i])
+    print(response.json())
+print('-----------------------------------------------------------------------')
+print()
+
 '''
 requests.get
 requests.post

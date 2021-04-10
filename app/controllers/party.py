@@ -102,7 +102,7 @@ def partyId(party_id):
                 'fb_urls': Url.get_party_or_coalition_fb_urls(party.party_id, URL_OWNER_TYPE.PARTY),
                 'ig_urls': Url.get_party_or_coalition_ig_urls(party.party_id, URL_OWNER_TYPE.PARTY),
                 'logo_urls': Url.get_party_or_coalition_logo_urls(party.party_id, URL_OWNER_TYPE.PARTY),
-                'websites': Url.get_party_or_coalition_websites_urls(party.party_id, URL_OWNER_TYPE.PARTY)
+                'websites': Url.get_party_or_coalition_or_person_websites_urls(party.party_id, URL_OWNER_TYPE.PARTY)
             }
         }
         response = jsonify(construct)

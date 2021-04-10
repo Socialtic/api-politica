@@ -54,4 +54,9 @@ class Catalogues:
     OTHER_NAMES_TYPES = ['', 'preferred', 'nickname', 'ballot_name']
     #   GOBERNADOR, DIPUTADO , PRESIDENTE MUNICIPAL
     ROLE_TYPES = ['', 'governmentOfficer', 'legislatorLowerBody', 'executiveCouncil']
-    URL_TYPE_NAMES = ['', 'campaign', 'official', 'personal', 'wikipedia']
+    URL_TYPE_NAMES = ['',
+                      'campaign', 'official', 'personal', 'wikipedia',
+                      'campaign', 'official', 'personal',
+                      'campaign', 'official', 'personal',
+                      'WhatsApp', 'Twitter', 'YouTube', 'LinkedIn', 'Flickr', 'Pinterest', 'Tumblr', 'RSS',
+                      ]

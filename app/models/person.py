@@ -4,6 +4,7 @@ from datetime import date
 from app.controllers.other_names import *
 from app.controllers.professions import *
 from app.controllers.person_professions import *
+from app.controllers.url import *
 
 class Person(db.Model):
     __tablename__ = 'person'
@@ -110,7 +111,12 @@ class Person(db.Model):
                 'last_degree_of_studies': "" if person.last_degree_of_studies_id == EmptyValues.EMPTY_INT else Catalogues.DEGREES_OF_STUDIES[person.last_degree_of_studies_id],
                 'contest_id': "" if person.contest_id == EmptyValues.EMPTY_INT else person.contest_id,
                 'other_names': other_names,
-                'professions': professions_val
+                'professions': professions_val,
+                'fb_urls': Url.get_person_fb_urls(person.person_id),
+                'ig_urls': Url.get_person_ig_urls(person.person_id),
+                'websites': Url.get_party_or_coalition_or_person_websites_urls(person.person_id, URL_OWNER_TYPE.PERSON),
+                'photo_urls': Url.get_person_photo_urls(person.person_id),
+                'social_network_accounts': Url.get_person_social_networks_urls(person.person_id)
             }
             result.append(obj)
         return result

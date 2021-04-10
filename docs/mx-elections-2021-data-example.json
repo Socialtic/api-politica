@@ -329,6 +329,20 @@
       "contest_id": 1, 
       "date_birth": "1985-09-19", 
       "dead_or_alive": true, 
+      "fb_urls": [
+        {
+          "note": "campaign", 
+          "url": "https://facebook.com/person/campaign"
+        }, 
+        {
+          "note": "official", 
+          "url": "https://facebook.com/person/official"
+        }, 
+        {
+          "note": "personal", 
+          "url": "https://facebook.com/person/personal"
+        }
+      ], 
       "first_name": {
         "en_US": "Marina del Pilar", 
         "es_MX": "Marina del Pilar"
@@ -339,6 +353,20 @@
       }, 
       "gender": "F", 
       "id": 1, 
+      "ig_urls": [
+        {
+          "note": "campaign", 
+          "url": "https://instagram.com/person/campaign"
+        }, 
+        {
+          "note": "official", 
+          "url": "https://instagram.com/person/official"
+        }, 
+        {
+          "note": "personal", 
+          "url": "https://instagram.com/person/personal"
+        }
+      ], 
       "last_degree_of_studies": "MASTER DEGREE", 
       "last_name": {
         "en_US": "\u00c1vila", 
@@ -349,15 +377,67 @@
         "nickname": [], 
         "preferred_name": []
       }, 
+      "photo_urls": [
+        "https://persona-sitio.com/foto.png"
+      ], 
       "professions": [
         "Didactics and pedagogy", 
         "Educational planning and evaluation"
+      ], 
+      "social_network_accounts": [
+        {
+          "type": "YouTube", 
+          "value": "https://persona-youtube.com/"
+        }, 
+        {
+          "type": "LinkedIn", 
+          "value": "https://persona-linkedin.com/"
+        }, 
+        {
+          "type": "Flickr", 
+          "value": "https://persona-flickr.com/"
+        }, 
+        {
+          "type": "Pinterest", 
+          "value": "https://persona-pinterest.com/"
+        }, 
+        {
+          "type": "Twitter", 
+          "value": "https://persona-twitter.com/"
+        }, 
+        {
+          "type": "Tumblr", 
+          "value": "https://persona-tumblr.com/"
+        }, 
+        {
+          "type": "RSS", 
+          "value": "https://persona-rss.com/"
+        }
+      ], 
+      "websites": [
+        {
+          "note": "campaign", 
+          "url": "https://persona-campania.com/"
+        }, 
+        {
+          "note": "official", 
+          "url": "https://persona-oficial.com/"
+        }, 
+        {
+          "note": "personal", 
+          "url": "https://persona-personal.com/"
+        }, 
+        {
+          "note": "wikipedia", 
+          "url": "https://persona-wikipedia.com/"
+        }
       ]
     }, 
     {
       "contest_id": 2, 
       "date_birth": "1941-12-17", 
       "dead_or_alive": true, 
+      "fb_urls": [], 
       "first_name": {
         "en_US": "Franco", 
         "es_MX": "Franco"
@@ -368,6 +448,7 @@
       }, 
       "gender": "M", 
       "id": 2, 
+      "ig_urls": [], 
       "last_degree_of_studies": "BACHELOR\u2019S DEGREE", 
       "last_name": {
         "en_US": "Garcia", 
@@ -378,14 +459,18 @@
         "nickname": [], 
         "preferred_name": []
       }, 
+      "photo_urls": [], 
       "professions": [
         "Educational planning and evaluation"
-      ]
+      ], 
+      "social_network_accounts": [], 
+      "websites": []
     }, 
     {
       "contest_id": 3, 
       "date_birth": "1967-09-06", 
       "dead_or_alive": true, 
+      "fb_urls": [], 
       "first_name": {
         "en_US": "Mar\u00eda", 
         "es_MX": "Mar\u00eda"
@@ -396,6 +481,7 @@
       }, 
       "gender": "M", 
       "id": 3, 
+      "ig_urls": [], 
       "last_degree_of_studies": "MASTER DEGREE", 
       "last_name": {
         "en_US": "Jones", 
@@ -413,7 +499,10 @@
         ], 
         "preferred_name": []
       }, 
-      "professions": []
+      "photo_urls": [], 
+      "professions": [], 
+      "social_network_accounts": [], 
+      "websites": []
     }
   ], 
   "roles": [
