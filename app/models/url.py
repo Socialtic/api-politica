@@ -40,45 +40,45 @@ class Url(db.Model):
         return result
 
     @staticmethod
-    def get_party_fb_urls(party_id):
-        urls = Url.query.filter_by(url_type=URL_TYPE.FACEBOOK_CAMPAIGN, owner_type=URL_OWNER_TYPE.PARTY,
-                                   owner_id=party_id)
+    def get_party_or_coalition_fb_urls(id, owner_type):
+        urls = Url.query.filter_by(url_type=URL_TYPE.FACEBOOK_CAMPAIGN, owner_type=owner_type,
+                                   owner_id=id)
         result = []
         for url in urls:
             result.append(url.url)
         return result
 
     @staticmethod
-    def get_party_ig_urls(party_id):
-        urls = Url.query.filter_by(url_type=URL_TYPE.INSTAGRAM_CAMPAIGN, owner_type=URL_OWNER_TYPE.PARTY,
-                                   owner_id=party_id)
+    def get_party_or_coalition_ig_urls(id, owner_type):
+        urls = Url.query.filter_by(url_type=URL_TYPE.INSTAGRAM_CAMPAIGN, owner_type=owner_type,
+                                   owner_id=id)
         result = []
         for url in urls:
             result.append(url.url)
         return result
 
     @staticmethod
-    def get_party_logo_urls(party_id):
-        urls = Url.query.filter_by(url_type=URL_TYPE.LOGO, owner_type=URL_OWNER_TYPE.PARTY,
-                                   owner_id=party_id)
+    def get_party_or_coalition_logo_urls(id, owner_type):
+        urls = Url.query.filter_by(url_type=URL_TYPE.LOGO, owner_type=owner_type,
+                                   owner_id=id)
         result = []
         for url in urls:
             result.append(url.url)
         return result
 
     @staticmethod
-    def get_party_websites_urls(party_id):
-        urls_campaign = Url.query.filter_by(url_type=URL_TYPE.WEBSITE_CAMPAIGN, owner_type=URL_OWNER_TYPE.PARTY,
-                                            owner_id=party_id)
+    def get_party_or_coalition_websites_urls(id, owner_type):
+        urls_campaign = Url.query.filter_by(url_type=URL_TYPE.WEBSITE_CAMPAIGN, owner_type=owner_type,
+                                            owner_id=id)
 
-        urls_official = Url.query.filter_by(url_type=URL_TYPE.WEBSITE_OFFICIAL, owner_type=URL_OWNER_TYPE.PARTY,
-                                            owner_id=party_id)
+        urls_official = Url.query.filter_by(url_type=URL_TYPE.WEBSITE_OFFICIAL, owner_type=owner_type,
+                                            owner_id=id)
 
-        urls_personal = Url.query.filter_by(url_type=URL_TYPE.WEBSITE_PERSONAL, owner_type=URL_OWNER_TYPE.PARTY,
-                                            owner_id=party_id)
+        urls_personal = Url.query.filter_by(url_type=URL_TYPE.WEBSITE_PERSONAL, owner_type=owner_type,
+                                            owner_id=id)
 
-        urls_wikipedia = Url.query.filter_by(url_type=URL_TYPE.WEBSITE_WIKIPEDIA, owner_type=URL_OWNER_TYPE.PARTY,
-                                            owner_id=party_id)
+        urls_wikipedia = Url.query.filter_by(url_type=URL_TYPE.WEBSITE_WIKIPEDIA, owner_type=owner_type,
+                                            owner_id=id)
 
         result = []
 

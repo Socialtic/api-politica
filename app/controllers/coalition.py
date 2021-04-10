@@ -2,6 +2,7 @@ from flask import request, jsonify
 from app import app
 from app.models.coalition import *
 from app.const import *
+from app.controllers.url import *
 
 @app.route('/coalition', methods=['GET', 'POST'])
 def coalition():
@@ -86,7 +87,11 @@ def coalitionId(coalition_id):
                 'id': coalition.coalition_id,
                 'name': coalition.name,
                 'abbreviation': coalition.abbreviation,
-                'colors': coalition.colors
+                'colors': coalition.colors,
+                'fb_urls': Url.get_party_or_coalition_fb_urls(coalition.coalition_id, URL_OWNER_TYPE.COALITION),
+                'ig_urls': Url.get_party_or_coalition_ig_urls(coalition.coalition_id, URL_OWNER_TYPE.COALITION),
+                'logo_urls': Url.get_party_or_coalition_logo_urls(coalition.coalition_id, URL_OWNER_TYPE.COALITION),
+                'websites': Url.get_party_or_coalition_websites_urls(coalition.coalition_id, URL_OWNER_TYPE.COALITION)
             }
         }
         response = jsonify(construct)

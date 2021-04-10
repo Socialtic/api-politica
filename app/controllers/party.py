@@ -2,6 +2,7 @@ from flask import request, jsonify
 from app import app
 from app.models.party import *
 from app.const import *
+from app.controllers.url import *
 
 @app.route('/party', methods=['GET', 'POST'])
 def party():
@@ -97,7 +98,11 @@ def partyId(party_id):
                 },
                 'colors': party.colors,
                 'area_id': "" if party.area_id == EmptyValues.EMPTY_INT else party.area_id,
-                'coalition_id': "" if party.coalition_id == EmptyValues.EMPTY_INT else party.coalition_id
+                'coalition_id': "" if party.coalition_id == EmptyValues.EMPTY_INT else party.coalition_id,
+                'fb_urls': Url.get_party_or_coalition_fb_urls(party.party_id, URL_OWNER_TYPE.PARTY),
+                'ig_urls': Url.get_party_or_coalition_ig_urls(party.party_id, URL_OWNER_TYPE.PARTY),
+                'logo_urls': Url.get_party_or_coalition_logo_urls(party.party_id, URL_OWNER_TYPE.PARTY),
+                'websites': Url.get_party_or_coalition_websites_urls(party.party_id, URL_OWNER_TYPE.PARTY)
             }
         }
         response = jsonify(construct)

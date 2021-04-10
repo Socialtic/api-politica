@@ -1,5 +1,5 @@
 from app import db
-from app.const import EmptyValues
+from app.const import EmptyValues, URL_OWNER_TYPE
 from app.controllers.url import *
 
 class Party(db.Model):
@@ -42,10 +42,10 @@ class Party(db.Model):
                 'colors': party.colors,
                 'area_id': "" if party.area_id == EmptyValues.EMPTY_INT else party.area_id,
                 'coalition_id': "" if party.coalition_id == EmptyValues.EMPTY_INT else party.coalition_id,
-                'fb_urls': Url.get_party_fb_urls(party.party_id),
-                'ig_urls': Url.get_party_ig_urls(party.party_id),
-                'logo_urls': Url.get_party_logo_urls(party.party_id),
-                'websites': Url.get_party_websites_urls(party.party_id)
+                'fb_urls': Url.get_party_or_coalition_fb_urls(party.party_id, URL_OWNER_TYPE.PARTY),
+                'ig_urls': Url.get_party_or_coalition_ig_urls(party.party_id, URL_OWNER_TYPE.PARTY),
+                'logo_urls': Url.get_party_or_coalition_logo_urls(party.party_id, URL_OWNER_TYPE.PARTY),
+                'websites': Url.get_party_or_coalition_websites_urls(party.party_id, URL_OWNER_TYPE.PARTY)
             }
             result.append(obj)
         return result

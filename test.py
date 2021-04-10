@@ -417,7 +417,7 @@ print('-----------------------------------------------------------------------')
 print()
 
 print('-----------------------------------------------------------------------')
-print('Inserting urls')
+print('Inserting urls for party')
 data = [
 	{
 		'url': 'https://facebook.com/partido',
@@ -441,31 +441,92 @@ data = [
 		'owner_id': 1
 	},
 	{
-		'url': 'https://sitio-campania.com/',
+		'url': 'https://partido-campania.com/',
 		'description': 'Sitio de campaña del partido',
 		'url_type': URL_TYPE.WEBSITE_CAMPAIGN,
 		'owner_type': URL_OWNER_TYPE.PARTY,
 		'owner_id': 1
 	},
 	{
-		'url': 'https://sitio-oficial.com/',
+		'url': 'https://partido-oficial.com/',
 		'description': 'Sitio oficial del  partido',
 		'url_type': URL_TYPE.WEBSITE_OFFICIAL,
 		'owner_type': URL_OWNER_TYPE.PARTY,
 		'owner_id': 1
 	},
 	{
-		'url': 'https://sitio-personal.com/',
+		'url': 'https://partido-personal.com/',
 		'description': 'Sitio personal del partido',
 		'url_type': URL_TYPE.WEBSITE_PERSONAL,
 		'owner_type': URL_OWNER_TYPE.PARTY,
 		'owner_id': 1
 	},
 	{
-		'url': 'https://sitio-wikipedia.com/',
+		'url': 'https://partido-wikipedia.com/',
 		'description': 'Sitio de wikipedoa del partido',
 		'url_type': URL_TYPE.WEBSITE_WIKIPEDIA,
 		'owner_type': URL_OWNER_TYPE.PARTY,
+		'owner_id': 1
+	}
+]
+
+for i in range(len(data)):
+    print(data[i])
+    response = requests.post(BASE + 'url', json=data[i])
+    print(response.json())
+print('-----------------------------------------------------------------------')
+print()
+
+print('-----------------------------------------------------------------------')
+print('Inserting urls for coalition')
+data = [
+	{
+		'url': 'https://facebook.com/coalicion',
+		'description': 'Página de FB de la coalicion',
+		'url_type': URL_TYPE.FACEBOOK_CAMPAIGN,
+		'owner_type': URL_OWNER_TYPE.COALITION,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://instagram.com/coalicion',
+		'description': 'Página de IG de la coalicion',
+		'url_type': URL_TYPE.INSTAGRAM_CAMPAIGN,
+		'owner_type': URL_OWNER_TYPE.COALITION,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://coalicion.com/logo.png',
+		'description': 'Logo de la coalicion',
+		'url_type': URL_TYPE.LOGO,
+		'owner_type': URL_OWNER_TYPE.COALITION,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://coalicion-campania.com/',
+		'description': 'Sitio de campaña de la coalicion',
+		'url_type': URL_TYPE.WEBSITE_CAMPAIGN,
+		'owner_type': URL_OWNER_TYPE.COALITION,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://coalicion-oficial.com/',
+		'description': 'Sitio oficial de la coalicion',
+		'url_type': URL_TYPE.WEBSITE_OFFICIAL,
+		'owner_type': URL_OWNER_TYPE.COALITION,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://coalicion-personal.com/',
+		'description': 'Sitio personal de la coalicion',
+		'url_type': URL_TYPE.WEBSITE_PERSONAL,
+		'owner_type': URL_OWNER_TYPE.COALITION,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://coalicion-wikipedia.com/',
+		'description': 'Sitio de wikipedoa de la coalicion',
+		'url_type': URL_TYPE.WEBSITE_WIKIPEDIA,
+		'owner_type': URL_OWNER_TYPE.COALITION,
 		'owner_id': 1
 	}
 ]
