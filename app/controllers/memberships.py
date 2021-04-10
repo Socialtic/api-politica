@@ -119,7 +119,8 @@ def membershipId(membership_id):
                 'is_substitute': membership.is_substitute,
                 'parent_membership_id': "" if membership.parent_membership_id == EmptyValues.EMPTY_INT else membership.parent_membership_id,
                 'changed_from_substitute': "" if membership.changed_from_substitute == EmptyValues.EMPTY_INT else membership.changed_from_substitute,
-                'date_changed_from_substitute': "" if membership.date_changed_from_substitute.strftime('%Y-%m-%d') == date.fromisoformat(EmptyValues.EMPTY_DATE).strftime('%Y-%m-%d') else membership.date_changed_from_substitute.strftime('%Y-%m-%d')
+                'date_changed_from_substitute': "" if membership.date_changed_from_substitute.strftime('%Y-%m-%d') == date.fromisoformat(EmptyValues.EMPTY_DATE).strftime('%Y-%m-%d') else membership.date_changed_from_substitute.strftime('%Y-%m-%d'),
+                'source_urls': Url.get_membership_source_urls(membership.membership_id)
             }
         }
         response = jsonify(construct)

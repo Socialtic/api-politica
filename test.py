@@ -538,6 +538,39 @@ for i in range(len(data)):
 print('-----------------------------------------------------------------------')
 print()
 
+print('-----------------------------------------------------------------------')
+print('Inserting urls for membership')
+data = [
+	{
+		'url': 'https://source_of_truth.com/1',
+		'description': 'Source of truth 1',
+		'url_type': URL_TYPE.SOURCE_OF_TRUTH,
+		'owner_type': URL_OWNER_TYPE.MEMBERSHIP,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://source_of_truth.com/2',
+		'description': 'Source of truth 2',
+		'url_type': URL_TYPE.SOURCE_OF_TRUTH,
+		'owner_type': URL_OWNER_TYPE.MEMBERSHIP,
+		'owner_id': 1
+	},
+	{
+		'url': 'https://source_of_truth.com/3',
+		'description': 'Source of truth 3',
+		'url_type': URL_TYPE.SOURCE_OF_TRUTH,
+		'owner_type': URL_OWNER_TYPE.MEMBERSHIP,
+		'owner_id': 2
+	}
+]
+
+for i in range(len(data)):
+    print(data[i])
+    response = requests.post(BASE + 'url', json=data[i])
+    print(response.json())
+print('-----------------------------------------------------------------------')
+print()
+
 '''
 requests.get
 requests.post

@@ -147,6 +147,10 @@
       ], 
       "person_id": 1, 
       "role_id": 2, 
+      "source_urls": [
+        "https://source_of_truth.com/1", 
+        "https://source_of_truth.com/2"
+      ], 
       "start_date": "2020-04-04"
     }, 
     {
@@ -166,6 +170,9 @@
       ], 
       "person_id": 2, 
       "role_id": 2, 
+      "source_urls": [
+        "https://source_of_truth.com/3"
+      ], 
       "start_date": "2020-04-05"
     }, 
     {
@@ -185,6 +192,7 @@
       ], 
       "person_id": 3, 
       "role_id": 2, 
+      "source_urls": [], 
       "start_date": "2020-04-06"
     }
   ], 
@@ -216,19 +224,19 @@
       "websites": [
         {
           "note": "campaign", 
-          "url": "https://sitio-campania.com/"
+          "url": "https://partido-campania.com/"
         }, 
         {
           "note": "official", 
-          "url": "https://sitio-oficial.com/"
+          "url": "https://partido-oficial.com/"
         }, 
         {
           "note": "personal", 
-          "url": "https://sitio-personal.com/"
+          "url": "https://partido-personal.com/"
         }, 
         {
           "note": "wikipedia", 
-          "url": "https://sitio-wikipedia.com/"
+          "url": "https://partido-wikipedia.com/"
         }
       ]
     }, 

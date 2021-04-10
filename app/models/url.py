@@ -112,6 +112,15 @@ class Url(db.Model):
 
         return result
 
+    @staticmethod
+    def get_membership_source_urls(id):
+        urls = Url.query.filter_by(url_type=URL_TYPE.SOURCE_OF_TRUTH, owner_type=URL_OWNER_TYPE.MEMBERSHIP,
+                                   owner_id=id)
+        result = []
+        for url in urls:
+            result.append(url.url)
+        return result
+
     def delete(self):
         db.session.delete(self)
         db.session.commit()
