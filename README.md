@@ -48,5 +48,5 @@ pip install -r ./requirements.txt
 
 ```bash
 # Running app
-python ./app.py
+python ./application.py
 ```

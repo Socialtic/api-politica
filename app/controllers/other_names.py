@@ -1,5 +1,5 @@
 from flask import request, jsonify
-from app import app
+from app import application as app
 from app.models.other_names import *
 from app.const import *
 

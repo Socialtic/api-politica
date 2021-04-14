@@ -1,7 +1,7 @@
 from flask import request, jsonify
-from app import app
 from app.models.area import *
 from app.const import *
+from app import application as app
 
 @app.route('/area', methods=['GET', 'POST'])
 def area():

@@ -8,7 +8,7 @@ from flask_migrate import Migrate
 project_dir = os.path.dirname(os.path.abspath(__file__))
 
 #   Configure for local test
-#database_file = "sqlite:///{}".format(os.path.join(project_dir, "db/database.db"))
+database_file = "sqlite:///{}".format(os.path.join(project_dir, "db/database.db"))
 
 #   Configure for RDS/AWS
 #   format: (user):(password)@(db_identifier).amazonaws.com:3306/(db_name)
@@ -16,12 +16,12 @@ project_dir = os.path.dirname(os.path.abspath(__file__))
 
 
 #   Config app
-app = Flask(__name__)
-CORS(app)
-app.config["SQLALCHEMY_DATABASE_URI"] = database_file
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
-db = SQLAlchemy(app)
-migrate = Migrate(app, db)
+application = Flask(__name__)
+CORS(application)
+application.config["SQLALCHEMY_DATABASE_URI"] = database_file
+application.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
+db = SQLAlchemy(application)
+migrate = Migrate(application, db)
 
 #   Functions for the app
 from app.controllers.frontend import *
@@ -34,7 +34,6 @@ from app.controllers.person import *
 from app.controllers.other_names import *
 from app.controllers.professions import *
 from app.controllers.person_professions import *
-#from app.controllers.past_memberships import *
 from app.controllers.memberships import *
 from app.controllers.contest import *
 from app.controllers.url import *

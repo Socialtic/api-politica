@@ -1,4 +1,4 @@
-from app import app
+from app import application as app
 
 @app.route('/', methods=['GET', 'POST'])
 def index():

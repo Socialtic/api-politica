@@ -1,8 +1,8 @@
 from flask import request, jsonify
-from app import app
 from app.models.coalition import *
 from app.const import *
 from app.controllers.url import *
+from app import application as app
 
 @app.route('/coalition', methods=['GET', 'POST'])
 def coalition():

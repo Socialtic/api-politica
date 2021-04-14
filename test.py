@@ -1,7 +1,8 @@
 import requests
 from app.const import URL_TYPE, URL_OWNER_TYPE
 
-BASE = 'http://localhost:8080/'
+BASE = 'http://localhost:5000/'
+#BASE = 'http://mx-elections.us-east-2.elasticbeanstalk.com/'
 
 print('-----------------------------------------------------------------------')
 print('Inserting areas')
@@ -48,6 +49,7 @@ for i in range(len(data)):
     print(data[i])
     response = requests.post(BASE + 'area', json=data[i])
     print(response.json())
+
 print('-----------------------------------------------------------------------')
 print()
 

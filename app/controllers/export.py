@@ -1,5 +1,5 @@
 from flask import request, jsonify
-from app import app
+from app import application as app
 from app.models.area import *
 from app.models.chamber import *
 from app.models.role import *
