@@ -7,8 +7,8 @@ class Coalition(db.Model):
     __table_args__ = {'sqlite_autoincrement': True}
 
     coalition_id = db.Column(db.Integer, unique=True, primary_key=True, nullable=False, autoincrement=True)
-    name = db.Column(db.String, nullable=False)
-    abbreviation = db.Column(db.String)
+    name = db.Column(db.String(100), nullable=False)
+    abbreviation = db.Column(db.String(25))
     colors = db.Column(db.JSON)
 
     def __init__(self, name, abbreviation, colors):

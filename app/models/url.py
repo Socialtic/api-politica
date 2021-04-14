@@ -6,8 +6,8 @@ class Url(db.Model):
     __table_args__ = {'sqlite_autoincrement': True}
 
     url_id = db.Column(db.Integer, unique=True, primary_key=True, nullable=False, autoincrement=True)
-    url = db.Column(db.String, nullable=False)
-    description = db.Column(db.String)
+    url = db.Column(db.String(500), nullable=False)
+    description = db.Column(db.String(500))
     url_type = db.Column(db.Integer, nullable=False)
     owner_type = db.Column(db.Integer, nullable=False)
     owner_id = db.Column(db.Integer, nullable=False)

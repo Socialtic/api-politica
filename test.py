@@ -1,7 +1,7 @@
 import requests
 from app.const import URL_TYPE, URL_OWNER_TYPE
 
-BASE = 'http://127.0.0.1:8000/'
+BASE = 'http://localhost:8080/'
 
 print('-----------------------------------------------------------------------')
 print('Inserting areas')

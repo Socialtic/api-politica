@@ -25,6 +25,7 @@ msgpack==0.6.2
 packaging==20.3
 pep517==0.8.2
 progress==1.5
+PyMySQL==1.0.2
 pyparsing==2.4.6
 python-dateutil==2.8.1
 python-editor==1.0.4

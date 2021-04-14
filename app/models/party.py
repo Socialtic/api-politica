@@ -7,11 +7,12 @@ class Party(db.Model):
     __table_args__ = {'sqlite_autoincrement': True}
 
     party_id = db.Column(db.Integer, unique=True, primary_key=True, nullable=False, autoincrement=True)
-    name = db.Column(db.String, nullable=False)
-    abbreviation = db.Column(db.String)
+    name = db.Column(db.String(100), nullable=False)
+    abbreviation = db.Column(db.String(50))
     colors = db.Column(db.JSON)
     area_id = db.Column(db.Integer, db.ForeignKey('area.area_id'), nullable=True)
-    coalition_id = db.Column(db.Integer, db.ForeignKey('coalition.coalition_id'), nullable=True)
+    #coalition_id = db.Column(db.Integer, db.ForeignKey('coalition.coalition_id'), nullable=True)
+    coalition_id = db.Column(db.Integer, nullable=True)
 
     def __init__(self, name, abbreviation, colors, area_id, coalition_id):
         self.name = name

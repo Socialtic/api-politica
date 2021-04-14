@@ -9,9 +9,9 @@ class Past_Memberships(db.Model):
     person_id = db.Column(db.Integer, db.ForeignKey('person.person_id'), nullable=False)
     start_date = db.Column(db.Date)
     end_date = db.Column(db.Date)
-    party_name = db.Column(db.String, nullable=False)
-    coalition_name = db.Column(db.String)
-    role_name = db.Column(db.String, nullable=False)
+    party_name = db.Column(db.String(100), nullable=False)
+    coalition_name = db.Column(db.String(100))
+    role_name = db.Column(db.String(100), nullable=False)
 
     def __init__(self, person_id, start_date, end_date, party_name, coalition_name, role_name):
         self.person_id = person_id
