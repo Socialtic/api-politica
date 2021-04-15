@@ -2,11 +2,17 @@ from flask import request, jsonify
 from app import application as app
 from app.models.professions import *
 from app.const import *
+from app import isOnDev
 
 @app.route('/profession', methods=['GET', 'POST'])
 def profession_fun():
 
-    construct = {}
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
 
     #   Get all from table professions
     if request.method == 'GET':
@@ -18,7 +24,7 @@ def profession_fun():
         response.status_code = HttpStatus.OK
 
     #   Trying to insert into the table
-    elif request.method == 'POST':
+    elif request.method == 'POST' and isOnDev:
 
         #   Trying to get parameters from the POST method
         try:
@@ -60,6 +66,13 @@ def profession_fun():
 @app.route('/profession/<int:profession_id>', methods=['GET', 'PUT', 'DELETE'])
 def professionID(profession_id):
 
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
+
     #   Trying to get the area with profession_id
     profession = Profession.query.filter_by(profession_id=profession_id).first()
 
@@ -87,8 +100,7 @@ def professionID(profession_id):
         response.status_code = HttpStatus.OK
 
     #   Update their data
-    elif request.method == 'PUT':
-        construct = {}
+    elif request.method == 'PUT' and isOnDev:
 
         #   Trying to get parameters from the PUT method
         try:
@@ -127,8 +139,8 @@ def professionID(profession_id):
             response.status_code = HttpStatus.BAD_REQUEST
 
     #   Delete it from the database
-    elif request.method == 'DELETE':
-        construct = {}
+    elif request.method == 'DELETE' and isOnDev:
+
         try:
             profession.delete()
             construct['success'] = True
@@ -140,4 +152,5 @@ def professionID(profession_id):
             construct['error'] = str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
+
     return response
