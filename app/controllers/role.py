@@ -2,10 +2,17 @@ from flask import request, jsonify
 from app import application as app
 from app.models.role import *
 from app.const import *
+from app import isOnDev
 
 @app.route('/role', methods=['GET', 'POST'])
 def role():
-    construct = {}
+
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
 
     #   Get all from table role
     if request.method == 'GET':
@@ -17,7 +24,7 @@ def role():
         response.status_code = HttpStatus.OK
 
     #   Trying to insert into the table
-    elif request.method == 'POST':
+    elif request.method == 'POST' and isOnDev:
 
         #   Trying to get parameters from the POST method
         try:
@@ -66,6 +73,13 @@ def role():
 @app.route('/role/<int:role_id>', methods=['GET', 'PUT', 'DELETE'])
 def roleId(role_id):
 
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
+
     #   Trying to get the role with role_id
     role = Role.query.filter_by(role_id=role_id).first()
 
@@ -99,8 +113,7 @@ def roleId(role_id):
         response.status_code = HttpStatus.OK
 
     #   Update their data
-    elif request.method == 'PUT':
-        construct = {}
+    elif request.method == 'PUT' and isOnDev:
 
         #   Trying to get parameters from the PUT method
         try:
@@ -146,8 +159,8 @@ def roleId(role_id):
             response.status_code = HttpStatus.BAD_REQUEST
 
     #   Delete it from the database
-    elif request.method == 'DELETE':
-        construct = {}
+    elif request.method == 'DELETE' and isOnDev:
+
         try:
             role.delete()
             construct['success'] = True
@@ -159,4 +172,5 @@ def roleId(role_id):
             construct['error'] = str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
+
     return response

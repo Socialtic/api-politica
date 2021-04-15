@@ -2,11 +2,17 @@ from flask import request, jsonify
 from app import application as app
 from app.models.url import *
 from app.const import *
+from app import isOnDev
 
 @app.route('/url', methods=['GET', 'POST'])
 def url_fun():
 
-    construct = {}
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
 
     #   Get all from table url
     if request.method == 'GET':
@@ -18,7 +24,7 @@ def url_fun():
         response.status_code = HttpStatus.OK
 
     #   Trying to insert into the table
-    elif request.method == 'POST':
+    elif request.method == 'POST' and isOnDev:
 
         #   Trying to get parameters from the POST method
         try:
@@ -66,6 +72,13 @@ def url_fun():
 @app.route('/url/<int:url_id>', methods=['GET', 'PUT', 'DELETE'])
 def urlId(url_id):
 
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
+
     #   Trying to get the area with area_id
     url = Url.query.filter_by(url_id=url_id).first()
 
@@ -97,8 +110,7 @@ def urlId(url_id):
         response.status_code = HttpStatus.OK
 
     #   Update their data
-    elif request.method == 'PUT':
-        construct = {}
+    elif request.method == 'PUT' and isOnDev:
 
         #   Trying to get parameters from the PUT method
         try:
@@ -144,8 +156,8 @@ def urlId(url_id):
             response.status_code = HttpStatus.BAD_REQUEST
 
     #   Delete it from the database
-    elif request.method == 'DELETE':
-        construct = {}
+    elif request.method == 'DELETE' and isOnDev:
+
         try:
             url.delete()
             construct['success'] = True
@@ -157,4 +169,5 @@ def urlId(url_id):
             construct['error'] = str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
+
     return response
