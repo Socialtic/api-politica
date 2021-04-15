@@ -4,11 +4,17 @@ from app.const import *
 from app.models.contest import *
 from app.models.role import *
 from app.models.person import *
+from app import isOnDev
 
 @app.route('/contest', methods=['GET', 'POST'])
 def contest_fun():
 
-    construct = {}
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
 
     #   Get all from table contest
     if request.method == 'GET':
@@ -20,7 +26,7 @@ def contest_fun():
         response.status_code = HttpStatus.OK
 
     #   Trying to insert into the table
-    elif request.method == 'POST':
+    elif request.method == 'POST' and isOnDev:
 
         #   Trying to get parameters from the POST method
         try:
@@ -71,6 +77,13 @@ def contest_fun():
 @app.route('/contest/<int:contest_id>', methods=['GET', 'PUT', 'DELETE'])
 def contestId(contest_id):
 
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
+
     #   Trying to get the area with area_id
     contest = Contest.query.filter_by(contest_id=contest_id).first()
 
@@ -120,7 +133,7 @@ def contestId(contest_id):
         response.status_code = HttpStatus.OK
 
     #   Update their data
-    elif request.method == 'PUT':
+    elif request.method == 'PUT' and isOnDev:
         construct = {}
 
         #   Trying to get parameters from the PUT method
@@ -169,7 +182,7 @@ def contestId(contest_id):
             response.status_code = HttpStatus.BAD_REQUEST
 
     #   Delete it from the database
-    elif request.method == 'DELETE':
+    elif request.method == 'DELETE' and isOnDev:
         construct = {}
         try:
             contest.delete()
@@ -182,4 +195,5 @@ def contestId(contest_id):
             construct['error'] = str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
+
     return response

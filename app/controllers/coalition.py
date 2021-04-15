@@ -3,11 +3,17 @@ from app.models.coalition import *
 from app.const import *
 from app.controllers.url import *
 from app import application as app
+from app import isOnDev
 
 @app.route('/coalition', methods=['GET', 'POST'])
 def coalition():
 
-    construct = {}
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
 
     #   Get all from table coalition
     if request.method == 'GET':
@@ -19,7 +25,7 @@ def coalition():
         response.status_code = HttpStatus.OK
 
     #   Trying to insert into the table
-    elif request.method == 'POST':
+    elif request.method == 'POST' and isOnDev:
 
         #   Trying to get parameters from the POST method
         try:
@@ -65,6 +71,13 @@ def coalition():
 @app.route('/coalition/<int:coalition_id>', methods=['GET', 'PUT', 'DELETE'])
 def coalitionId(coalition_id):
 
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
+
     #   Trying to get the area with area_id
     coalition = Coalition.query.filter_by(coalition_id=coalition_id).first()
 
@@ -99,7 +112,7 @@ def coalitionId(coalition_id):
         response.status_code = HttpStatus.OK
 
     #   Update their data
-    elif request.method == 'PUT':
+    elif request.method == 'PUT' and isOnDev:
         construct = {}
 
         #   Trying to get parameters from the PUT method
@@ -142,7 +155,7 @@ def coalitionId(coalition_id):
             response.status_code = HttpStatus.BAD_REQUEST
 
     #   Delete it from the database
-    elif request.method == 'DELETE':
+    elif request.method == 'DELETE' and isOnDev:
         construct = {}
         try:
             coalition.delete()
@@ -155,4 +168,5 @@ def coalitionId(coalition_id):
             construct['error'] = str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
+
     return response
