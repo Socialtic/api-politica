@@ -4,11 +4,17 @@ from app.models.person_professions import *
 from app.models.person import *
 from app.const import *
 from datetime import date
+from app import isOnDev
 
 @app.route('/person', methods=['GET', 'POST'])
 def person():
 
-    construct = {}
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
 
     #   Get all from table person
     if request.method == 'GET':
@@ -20,7 +26,7 @@ def person():
         response.status_code = HttpStatus.OK
 
     #   Trying to insert into the table
-    elif request.method == 'POST':
+    elif request.method == 'POST' and isOnDev:
 
         #   Trying to get parameters from the POST method
         try:
@@ -72,6 +78,13 @@ def person():
 
 @app.route('/person/<int:person_id>', methods=['GET', 'PUT', 'DELETE'])
 def personId(person_id):
+
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
 
     #   Trying to get the area with person_id
     person = Person.query.filter_by(person_id=person_id).first()
@@ -173,8 +186,7 @@ def personId(person_id):
         response.status_code = HttpStatus.OK
 
     #   Update their data
-    elif request.method == 'PUT':
-        construct = {}
+    elif request.method == 'PUT' and isOnDev:
 
         #   Trying to get parameters from the PUT method
         try:
@@ -226,8 +238,8 @@ def personId(person_id):
             response.status_code = HttpStatus.BAD_REQUEST
 
     #   Delete it from the database
-    elif request.method == 'DELETE':
-        construct = {}
+    elif request.method == 'DELETE' and isOnDev:
+
         try:
             person.delete()
             construct['success'] = True
@@ -239,4 +251,5 @@ def personId(person_id):
             construct['error'] = str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
+
     return response

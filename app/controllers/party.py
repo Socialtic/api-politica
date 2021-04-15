@@ -3,11 +3,17 @@ from app import application as app
 from app.models.party import *
 from app.const import *
 from app.controllers.url import *
+from app import isOnDev
 
 @app.route('/party', methods=['GET', 'POST'])
 def party():
 
-    construct = {}
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
 
     #   Get all from table party
     if request.method == 'GET':
@@ -19,7 +25,7 @@ def party():
         response.status_code = HttpStatus.OK
 
     #   Trying to insert into the table
-    elif request.method == 'POST':
+    elif request.method == 'POST' and isOnDev:
 
         #   Trying to get parameters from the POST method
         try:
@@ -68,6 +74,13 @@ def party():
 @app.route('/party/<int:party_id>', methods=['GET', 'PUT', 'DELETE'])
 def partyId(party_id):
 
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
+
     #   Trying to get the area with area_id
     party = Party.query.filter_by(party_id=party_id).first()
 
@@ -109,8 +122,7 @@ def partyId(party_id):
         response.status_code = HttpStatus.OK
 
     #   Update their data
-    elif request.method == 'PUT':
-        construct = {}
+    elif request.method == 'PUT' and isOnDev:
 
         #   Trying to get parameters from the PUT method
         try:
@@ -156,8 +168,8 @@ def partyId(party_id):
             response.status_code = HttpStatus.BAD_REQUEST
 
     #   Delete it from the database
-    elif request.method == 'DELETE':
-        construct = {}
+    elif request.method == 'DELETE' and isOnDev:
+
         try:
             party.delete()
             construct['success'] = True
@@ -169,4 +181,5 @@ def partyId(party_id):
             construct['error'] = str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
+            
     return response
