@@ -1,8 +1,10 @@
 class HttpStatus:
     OK = 200
     CREATED = 201
-    NOT_FOUND = 404
     BAD_REQUEST = 400
+    FORBIDDEN = 403
+    NOT_FOUND = 404
+    NOT_ALLOWED = 405
 
 class EmptyValues:
     EMPTY_INT = (-1)

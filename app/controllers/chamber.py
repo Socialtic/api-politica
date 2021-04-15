@@ -2,10 +2,17 @@ from flask import request, jsonify
 from app import application as app
 from app.models.chamber import *
 from app.const import *
+from app import isOnDev
 
 @app.route('/chamber', methods=['GET', 'POST'])
 def chamber():
-    construct = {}
+
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
 
     #   Get all from table chamber
     if request.method == 'GET':
@@ -17,7 +24,7 @@ def chamber():
         response.status_code = HttpStatus.OK
 
     #   Trying to insert into the table
-    elif request.method == 'POST':
+    elif request.method == 'POST' and isOnDev:
 
         #   Trying to get parameters from the POST method
         try:
@@ -60,6 +67,13 @@ def chamber():
 @app.route('/chamber/<int:chamber_id>', methods=['GET', 'PUT', 'DELETE'])
 def chamberId(chamber_id):
 
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
+
     #   Trying to get the chamber with chamber_id
     chamber = Chamber.query.filter_by(chamber_id=chamber_id).first()
 
@@ -90,7 +104,7 @@ def chamberId(chamber_id):
         response.status_code = HttpStatus.OK
 
     #   Update their data
-    elif request.method == 'PUT':
+    elif request.method == 'PUT' and isOnDev:
         construct = {}
 
         #   Trying to get parameters from the PUT method
@@ -131,7 +145,7 @@ def chamberId(chamber_id):
             response.status_code = HttpStatus.BAD_REQUEST
 
     #   Delete it from the database
-    elif request.method == 'DELETE':
+    elif request.method == 'DELETE' and isOnDev:
         construct = {}
         try:
             chamber.delete()
@@ -144,4 +158,5 @@ def chamberId(chamber_id):
             construct['error'] = str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
+
     return response

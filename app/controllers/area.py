@@ -2,11 +2,17 @@ from flask import request, jsonify
 from app.models.area import *
 from app.const import *
 from app import application as app
+from app import isOnDev
 
 @app.route('/area', methods=['GET', 'POST'])
 def area():
 
-    construct = {}
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
 
     #   Get all from table area
     if request.method == 'GET':
@@ -18,7 +24,7 @@ def area():
         response.status_code = HttpStatus.OK
 
     #   Trying to insert into the table
-    elif request.method == 'POST':
+    elif request.method == 'POST' and isOnDev:
 
         #   Trying to get parameters from the POST method
         try:
@@ -70,6 +76,13 @@ def area():
 @app.route('/area/<int:area_id>', methods=['GET', 'PUT', 'DELETE'])
 def areaId(area_id):
 
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
+
     #   Trying to get the area with area_id
     area = Area.query.filter_by(area_id=area_id).first()
 
@@ -106,8 +119,7 @@ def areaId(area_id):
         response.status_code = HttpStatus.OK
 
     #   Update their data
-    elif request.method == 'PUT':
-        construct = {}
+    elif request.method == 'PUT' and isOnDev:
 
         #   Trying to get parameters from the PUT method
         try:
@@ -157,8 +169,8 @@ def areaId(area_id):
             response.status_code = HttpStatus.BAD_REQUEST
 
     #   Delete it from the database
-    elif request.method == 'DELETE':
-        construct = {}
+    elif request.method == 'DELETE' and isOnDev:
+
         try:
             area.delete()
             construct['success'] = True
@@ -170,4 +182,5 @@ def areaId(area_id):
             construct['error'] = str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
+
     return response

@@ -4,10 +4,8 @@ from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 
-#   Config paths
-project_dir = os.path.dirname(os.path.abspath(__file__))
-
 #   Configure for local test
+project_dir = os.path.dirname(os.path.abspath(__file__))
 database_file = "sqlite:///{}".format(os.path.join(project_dir, "db/database.db"))
 
 #   Configure for RDS/AWS
@@ -22,6 +20,8 @@ application.config["SQLALCHEMY_DATABASE_URI"] = database_file
 application.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
 db = SQLAlchemy(application)
 migrate = Migrate(application, db)
+isOnDev = False
+application.debug = isOnDev
 
 #   Functions for the app
 from app.controllers.frontend import *
