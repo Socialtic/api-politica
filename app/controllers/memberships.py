@@ -3,11 +3,17 @@ from app import application as app
 from app.models.memberships import *
 from app.const import *
 from datetime import date
+from app import isOnDev
 
 @app.route('/membership', methods=['GET', 'POST'])
 def Memberships():
 
-    construct = {}
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
 
     #   Get all from table memberships
     if request.method == 'GET':
@@ -19,7 +25,7 @@ def Memberships():
         response.status_code = HttpStatus.OK
 
     #   Trying to insert into the table
-    elif request.method == 'POST':
+    elif request.method == 'POST' and isOnDev:
 
         #   Trying to get parameters from the POST method
         try:
@@ -86,6 +92,13 @@ def Memberships():
 @app.route('/membership/<int:membership_id>', methods=['GET', 'PUT', 'DELETE'])
 def membershipId(membership_id):
 
+    construct = {
+        'success': False,
+        'message': 'Method not allowed :)'
+    }
+    response = jsonify(construct)
+    response.status_code = HttpStatus.NOT_ALLOWED
+
     #   Trying to get the past_membership with membership_id
     membership = Membership.query.filter_by(membership_id=membership_id).first()
 
@@ -127,7 +140,7 @@ def membershipId(membership_id):
         response.status_code = HttpStatus.OK
 
     #   Update their data
-    elif request.method == 'PUT':
+    elif request.method == 'PUT' and isOnDev:
         construct = {}
 
         #   Trying to get parameters from the PUT method
@@ -196,8 +209,8 @@ def membershipId(membership_id):
             response.status_code = HttpStatus.BAD_REQUEST
 
     #   Delete it from the database
-    elif request.method == 'DELETE':
-        construct = {}
+    elif request.method == 'DELETE' and isOnDev:
+
         try:
             membership.delete()
             construct['success'] = True
@@ -209,4 +222,5 @@ def membershipId(membership_id):
             construct['error'] = str(e)
             response = jsonify(construct)
             response.status_code = HttpStatus.BAD_REQUEST
+
     return response
