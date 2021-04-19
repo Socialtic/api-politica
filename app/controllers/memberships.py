@@ -51,7 +51,7 @@ def Memberships():
                     or goes_for_reelection == EmptyValues.EMPTY_INT or is_substitute == EmptyValues.EMPTY_INT:
                 construct['success'] = False
                 construct['error'] = 'Missing data. Required values for person_id, role_id, party_id, ' \
-                                     'goes_for_coalition, membership_type, goes_for_coalition and is_substitute. '
+                                     'goes_for_coalition, membership_type, goes_for_reelection and is_substitute. '
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
@@ -167,7 +167,7 @@ def membershipId(membership_id):
                     or goes_for_reelection == EmptyValues.EMPTY_INT or is_substitute == EmptyValues.EMPTY_INT:
                 construct['success'] = False
                 construct['error'] = 'Missing data. Required values for person_id, role_id, party_id, ' \
-                                     'goes_for_coalition, membership_type, goes_for_coalition and is_substitute. '
+                                     'goes_for_coalition, membership_type, goes_for_reelection and is_substitute. '
                 response = jsonify(construct)
                 response.status_code = HttpStatus.BAD_REQUEST
                 return response
