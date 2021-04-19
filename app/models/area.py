@@ -10,7 +10,7 @@ class Area(db.Model):
     name = db.Column(db.String(50), nullable=False)
     country = db.Column(db.String(2), nullable=False)
     state = db.Column(db.String(5))
-    city = db.Column(db.String(50))
+    city = db.Column(db.String(250))
     district_type = db.Column(db.Integer, nullable=False)
     #parent_area_id = db.Column(db.Integer, db.ForeignKey('area.area_id'), nullable=True)
     parent_area_id = db.Column(db.Integer, nullable=True)
