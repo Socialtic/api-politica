@@ -53,8 +53,8 @@ class Contest(db.Model):
                     'en_US': contest.title,
                 },
                 'membership_id_winner': '' if contest.membership_id_winner == EmptyValues.EMPTY_INT else contest.membership_id_winner,
-                'start_date': contest.start_date.strftime('%Y-%m-%d'),
-                'end_date': contest.end_date.strftime('%Y-%m-%d'),
+                'start_date': '' if contest.start_date.strftime('%Y-%m-%d') == date.fromisoformat(EmptyValues.EMPTY_DATE).strftime('%Y-%m-%d') else contest.start_date.strftime('%Y-%m-%d'),
+                'end_date': '' if contest.end_date.strftime('%Y-%m-%d') == date.fromisoformat(EmptyValues.EMPTY_DATE).strftime('%Y-%m-%d') else contest.end_date.strftime('%Y-%m-%d'),
                 'election_identifier': contest.election_identifier,
                 'role_ids': role_ids,
                 'person_ids': person_ids
