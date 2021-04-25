@@ -221,11 +221,49 @@ Diagrams can be found in [docs folder](./docs).
 
 ##### Fields
 
+|field_name          |require for input?|type           |description                                  |input value example                                  |output value example                                             |notes                                                                                          |
+|--------------------|------------------|---------------|---------------------------------------------|-----------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+|contest_id          |no                |int            |Unique identifier                            |301                                                  |301                                                              |On query the name of the field is id                                                           |
+|area_id             |yes               |int            |id of the associated area to the contest.    |16                                                   |16                                                               |id should exist on area endpoint.                                                              |
+|title               |yes               |string(50)     |Title of the contest.                        |Gubernatura de BAJA CALIFORNIA                       |{<br/>&emsp;"en_US": "Gubernatura de BAJA CALIFORNIA"<br/>}              |The output is on en_US locales.                                                        |
+|membership_id_winner|no                |int            |id of the membership winner.                 |                                                     |                                                                 |id should exist on membership endpoint.                                                        |
+|start_date          |no                |date           |Start date of polling.                       |2021-06-06                                           |2021-06-06                                                       |Date format is YYYY-MM-DD                                                                      |
+|end_date            |no                |date           |End date of polling.                         |                                                     |                                                                 |Date format is YYYY-MM-DD                                                                      |
+|election_identifier |yes               |string(100)    |Key that identifies an election.             |MX-BCN-BAJA CALIFORNIA-REGIONAL_EXECUTIVE-runoff-2021|MX-BCN-BAJA CALIFORNIA-REGIONAL_EXECUTIVE-runoff-2021            |Valid format is COUNTRY-[REGION]-[CITY]-HIGHEST_LEGISLATIVE_DISTRICT-[ELECTION_TYPE]-YYYY-INDEX|
+|role_ids            |no                |array of string|List of role ids associated with the contest.|Info available on role endpoint                      |[<br/>&emsp;301 <br/> ]                                                    |ids should exists on role endpoint.                                                  |
+|person_id           |no                |int            |id of the associated person to the contest.  |Info available on person endpoint                    |[<br/>&emsp;1,<br/>&emsp;2,<br/>&emsp;3,<br/>&emsp;4,<br/>&emsp;5,<br/>&emsp;6,<br/>&emsp;7 <br/> ]|ids should exists on person endpoint.                        |
+
 ##### Output example
 
 [https://www.apielectoral.mx/contest/1](https://www.apielectoral.mx/contest/1)
 
 ```json
+{
+  "contest": {
+    "area_id": 16,
+    "election_identifier": "MX-BCN-BAJA CALIFORNIA-REGIONAL_EXECUTIVE-runoff-2021",
+    "end_date": "",
+    "id": 301,
+    "membership_id_winner": "",
+    "person_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "role_ids": [
+      301
+    ],
+    "start_date": "",
+    "title": {
+      "en_US": "Gubernatura de BAJA CALIFORNIA"
+    }
+  },
+  "success": true
+}
 ```
 
 ---
