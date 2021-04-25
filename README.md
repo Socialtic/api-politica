@@ -163,17 +163,17 @@ Diagrams can be found in [docs folder](./docs).
 |field_name                  |require for input?|type            |description                                                                                  |input value example           |output value example                                                            |notes                                                                                                                                                            |
 |----------------------------|------------------|----------------|---------------------------------------------------------------------------------------------|------------------------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |membership_id               |no                |int             |Unique identifier                                                                            |1                             |1                                                                               |On query the name of the field is id                                                                                                                             |
-|role_id                     |yes               |int             |The id of the role that the member fulfills in the organization                              |1                             |1                                                                               |id should exist on role endpoint.                                                                                                                                |
-|person_id                   |yes               |int             |The id of the person that this membership is associated with                                 |1                             |1                                                                               |id should exist on person endpoint.                                                                                                                              |
-|party_id                    |yes               |int             |The id of the party that this is associated with                                             |39                            |39                                                                              |id should exist on party endpoint.                                                                                                                               |
+|role_id                     |**yes**           |int             |The id of the role that the member fulfills in the organization                              |1                             |1                                                                               |id should exist on role endpoint.                                                                                                                                |
+|person_id                   |**yes**           |int             |The id of the person that this membership is associated with                                 |1                             |1                                                                               |id should exist on person endpoint.                                                                                                                              |
+|party_id                    |**yes**           |int             |The id of the party that this is associated with                                             |39                            |39                                                                              |id should exist on party endpoint.                                                                                                                               |
 |coalition_id                |no                |int             |The id of the coalition that this is associated with                                         |7                             |7                                                                               |id should exist on coalition endpoint.                                                                                                                           |
 |contest_id                  |no                |int             |If this membership is for a contest, specify the contest id here.                            |301                           |301                                                                             |id should exists on contest endpoint.                                                                                                                            |
-|goes_for_coalition          |yes               |boolean         |True if the membership represents a coalition contest.                                       |true                          |true                                                                       |-                                                                                                                                                                |
-|membership_type             |yes               |int             |The type of relationship between the office and the figure.                                  |2                             |campaigning_politician                                                          |On input, the id should exists as a valid type in range between [1,3].<br/>On ouput, the valid values are ['officeholder', 'campaigning_politician', 'party_leader']|
-|goes_for_reelection         |yes               |boolean         |True if the memberships goes for a reelection contest.                                       |false                         |false                                                                           |-                                                                                                                                                                |
+|goes_for_coalition          |**yes**           |boolean         |True if the membership represents a coalition contest.                                       |true                          |true                                                                       |-                                                                                                                                                                |
+|membership_type             |**yes**           |int             |The type of relationship between the office and the figure.                                  |2                             |campaigning_politician                                                          |On input, the id should exists as a valid type in range between [1,3].<br/>On ouput, the valid values are ['officeholder', 'campaigning_politician', 'party_leader']|
+|goes_for_reelection         |**yes**           |boolean         |True if the memberships goes for a reelection contest.                                       |false                         |false                                                                           |-                                                                                                                                                                |
 |start_date                  |no                |date            |Start date of the membership.                                                                |2021-04-04                    |2021-04-04                                                                      |Date format is YYYY-MM-DD                                                                                                                                        |
 |end_date                    |no                |date            |End date of the membership.                                                                  |2021-06-02                    |2021-06-02                                                                      |Date format is YYYY-MM-DD                                                                                                                                        |
-|is_substitute               |yes               |boolean         |True if membership is for substitute candidate. False if membership is for primary candidate.|false                         |false                                                                           |-                                                                                                                                                                |
+|is_substitute               |**yes**           |boolean         |True if membership is for substitute candidate. False if membership is for primary candidate.|false                         |false                                                                           |-                                                                                                                                                                |
 |parent_membership_id        |no                |int             |id of the membership associated to the candidate for whom is substitute.                     |                              |                                                                                |id should exist on membership endpoint.                                                                                                                          |
 |changed_from_substitute     |no                |boolean         |True if membership changed from substitute to primary.                                       |false                         |false                                                                           |-                                                                                                                                                                |
 |date_changed_from_substitute|no                |date            |Date when the substitute changed from substitute to primary.                                 |                              |                                                                                |Date format is YYYY-MM-DD                                                                                                                                        |
@@ -215,41 +215,171 @@ Diagrams can be found in [docs folder](./docs).
 
 ####    contest
 
+##### URL
+
+[https://www.apielectoral.mx/contest/< id >](https://www.apielectoral.mx/contest)
+
+##### Fields
+
+##### Output example
+
+[https://www.apielectoral.mx/contest/1](https://www.apielectoral.mx/contest/1)
+
+```json
+```
+
 ---
 
 ####    party
 
+##### URL
+
+[https://www.apielectoral.mx/party/< id >](https://www.apielectoral.mx/party)
+
+##### Fields
+
+##### Output example
+
+[https://www.apielectoral.mx/party/1](https://www.apielectoral.mx/party/1)
+
+```json
+```
+
 ---
 
-####    coalition  
+####    coalition
+
+##### URL
+
+[https://www.apielectoral.mx/coalition/< id >](https://www.apielectoral.mx/coalition)
+
+##### Fields
+
+##### Output example
+
+[https://www.apielectoral.mx/coalition/1](https://www.apielectoral.mx/coalition/1)
+
+```json
+```
 
 ---
 
 ####    chamber
 
+##### URL
+
+[https://www.apielectoral.mx/chamber/< id >](https://www.apielectoral.mx/chamber)
+
+##### Fields
+
+##### Output example
+
+[https://www.apielectoral.mx/chamber/1](https://www.apielectoral.mx/chamber/1)
+
+```json
+```
+
 ---
 
 ####    role
+
+##### URL
+
+[https://www.apielectoral.mx/role/< id >](https://www.apielectoral.mx/role)
+
+##### Fields
+
+##### Output example
+
+[https://www.apielectoral.mx/role/1](https://www.apielectoral.mx/role/1)
+
+```json
+```
 
 ---
 
 ####    area
 
+##### URL
+
+[https://www.apielectoral.mx/area/< id >](https://www.apielectoral.mx/area)
+
+##### Fields
+
+##### Output example
+
+[https://www.apielectoral.mx/area/1](https://www.apielectoral.mx/area/1)
+
+```json
+```
+
 ---
 
 ####    other-name
+
+##### URL
+
+[https://www.apielectoral.mx/other-name/< id >](https://www.apielectoral.mx/other-name)
+
+##### Fields
+
+##### Output example
+
+[https://www.apielectoral.mx/other-name/1](https://www.apielectoral.mx/other-name/1)
+
+```json
+```
 
 ---
 
 ####    profession
 
+##### URL
+
+[https://www.apielectoral.mx/profession/< id >](https://www.apielectoral.mx/profession)
+
+##### Fields
+
+##### Output example
+
+[https://www.apielectoral.mx/profession/1](https://www.apielectoral.mx/profession/1)
+
+```json
+```
+
 ---
 
 ####    person-profession
 
+##### URL
+
+[https://www.apielectoral.mx/person-profession/< id >](https://www.apielectoral.mx/person-profession)
+
+##### Fields
+
+##### Output example
+
+[https://www.apielectoral.mx/person-profession/1](https://www.apielectoral.mx/person-profession/1)
+
+```json
+```
+
 ---
 
 ####    url
+
+##### URL
+
+[https://www.apielectoral.mx/url/< id >](https://www.apielectoral.mx/url)
+
+##### Fields
+
+##### Output example
+
+[https://www.apielectoral.mx/url/1](https://www.apielectoral.mx/url/1)
+
+```json
+```
 
 ##  Running app
 
@@ -259,7 +389,6 @@ Diagrams can be found in [docs folder](./docs).
 - `pip3`
 - `virtualenv`
 - `flask`
-
 
 ### Setup environment
 
