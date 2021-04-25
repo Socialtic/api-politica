@@ -57,6 +57,12 @@ Diagrams can be found in [docs folder](./docs).
 
 ####    person
 
+##### URL
+
+[https://www.apielectoral.mx/person/< id >](https://www.apielectoral.mx/person)
+
+##### Fields
+
 |field_name             |require for input?|type            |description                                     |input value example                         |output value example                                                                                                                                                                                                |notes                                                                                                            |
 |-----------------------|------------------|----------------|------------------------------------------------|--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 |person_id              |no                |int             |Unique identifier                               |1                                           |1                                                                                                                                                                                                                   |On query the name of the field is id                                                                             |
@@ -76,9 +82,123 @@ Diagrams can be found in [docs folder](./docs).
 |websites               |no                |array of object |Official/Campaign websites of the person.       |Info available on url endpoint              |[<br/>&emsp;{<br/>&emsp;&emsp;"note": "official",<br/>&emsp;&emsp;"url": "https://www.official.com"<br/>&emsp;},<br/>&emsp;{<br/>&emsp;&emsp;"note": "campaign",<br/>&emsp;&emsp;"url": "https://www.campaign.com"<br/>&emsp;}<br/>] |Valid note values are ["campaign", "personal", "wikipedia"]  Valid URL format.                  |
 |photo_urls             |no                |array of strings|URLs to person photos.                          |Info available on url endpoint              |[<br/>&emsp;"https://www.example.com/pub/photos/p1.jpg",<br/>&emsp;"https://www.example.com/pub/photos/p2.png" ]                                                                                                    |Valid URL format.                                                                                                |
 
+##### Output
+
+[https://www.apielectoral.mx/person/1](https://www.apielectoral.mx/person/1)
+
+```json
+{
+  "person": {
+    "contest_id": 301,
+    "date_birth": "1985-09-19",
+    "dead_or_alive": true,
+    "fb_urls": [
+      {
+        "note": "campaign",
+        "url": "https://www.facebook.com/MarinadelpilarBc"
+      }
+    ],
+    "first_name": {
+      "en_US": "Marina del Pilar",
+      "es_MX": "Marina del Pilar"
+    },
+    "full_name": {
+      "en_US": "Marina del Pilar Ávila Olmeda",
+      "es_MX": "Marina del Pilar Ávila Olmeda"
+    },
+    "gender": "F",
+    "id": 1,
+    "ig_urls": [
+      {
+        "note": "campaign",
+        "url": "https://www.instagram.com/marinadelpilar_ao"
+      }
+    ],
+    "last_degree_of_studies": "MASTER DEGREE",
+    "last_name": {
+      "en_US": "Ávila Olmeda",
+      "es_MX": "Ávila Olmeda"
+    },
+    "other_names": {
+      "ballot_name": [],
+      "nickname": [],
+      "preferred_name": []
+    },
+    "photo_urls": [],
+    "professions": [
+      "Law",
+      "Public administration",
+      "Educational planning and evaluation"
+    ],
+    "social_network_accounts": [],
+    "websites": [
+      {
+        "note": "official",
+        "url": "https://www.marinadelpilar.mx"
+      }
+    ]
+  },
+  "success": true
+}
+```
 ####    membership
 
----
+##### URL
+
+[https://www.apielectoral.mx/membership/< id >](https://www.apielectoral.mx/membership)
+
+##### Fields
+
+|field_name                  |require for input?|type            |description                                                                                  |input value example           |output value example                                                            |notes                                                                                                                                                            |
+|----------------------------|------------------|----------------|---------------------------------------------------------------------------------------------|------------------------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|membership_id               |no                |int             |Unique identifier                                                                            |1                             |1                                                                               |On query the name of the field is id                                                                                                                             |
+|role_id                     |yes               |int             |The id of the role that the member fulfills in the organization                              |1                             |1                                                                               |id should exist on role endpoint.                                                                                                                                |
+|person_id                   |yes               |int             |The id of the person that this membership is associated with                                 |1                             |1                                                                               |id should exist on person endpoint.                                                                                                                              |
+|party_id                    |yes               |int             |The id of the party that this is associated with                                             |39                            |39                                                                              |id should exist on party endpoint.                                                                                                                               |
+|coalition_id                |no                |int             |The id of the coalition that this is associated with                                         |7                             |7                                                                               |id should exist on coalition endpoint.                                                                                                                           |
+|contest_id                  |no                |int             |If this membership is for a contest, specify the contest id here.                            |301                           |301                                                                             |id should exists on contest endpoint.                                                                                                                            |
+|goes_for_coalition          |yes               |boolean         |True if the membership represents a coalition contest.                                       |true                          |true                                                                       |-                                                                                                                                                                |
+|membership_type             |yes               |int             |The type of relationship between the office and the figure.                                  |2                             |campaigning_politician                                                          |On input, the id should exists as a valid type in range between [1,3].<br/>On ouput, the valid values are ['officeholder', 'campaigning_politician', 'party_leader']|
+|goes_for_reelection         |yes               |boolean         |True if the memberships goes for a reelection contest.                                       |false                         |false                                                                           |-                                                                                                                                                                |
+|start_date                  |no                |date            |Start date of the membership.                                                                |2021-04-04                    |2021-04-04                                                                      |Date format is YYYY-MM-DD                                                                                                                                        |
+|end_date                    |no                |date            |End date of the membership.                                                                  |2021-06-02                    |2021-06-02                                                                      |Date format is YYYY-MM-DD                                                                                                                                        |
+|is_substitute               |yes               |boolean         |True if membership is for substitute candidate. False if membership is for primary candidate.|false                         |false                                                                           |-                                                                                                                                                                |
+|parent_membership_id        |no                |int             |id of the membership associated to the candidate for whom is substitute.                     |                              |                                                                                |id should exist on membership endpoint.                                                                                                                          |
+|changed_from_substitute     |no                |boolean         |True if membership changed from substitute to primary.                                       |false                         |false                                                                           |-                                                                                                                                                                |
+|date_changed_from_substitute|no                |date            |Date when the substitute changed from substitute to primary.                                 |                              |                                                                                |Date format is YYYY-MM-DD                                                                                                                                        |
+|source_urls                 |no                |array of strings|Source of truth.                                                                             |Info available on url endpoint|[<br/>&emsp;"https://www.example.com/pub/1",<br/>&emsp;"https://www.example.com/pub/2" ]|Valid URL format.                                                                                                                                                |
+
+
+##### Output example
+
+[https://www.apielectoral.mx/membership/1](https://www.apielectoral.mx/membership/1)
+
+```json
+{
+  "membership": {
+    "changed_from_substitute": false,
+    "coalition_id": 7,
+    "contest_id": 301,
+    "date_changed_from_substitute": "",
+    "end_date": "2021-06-02",
+    "goes_for_coalition": true,
+    "goes_for_reelection": false,
+    "id": 1,
+    "is_substitute": false,
+    "membership_type": "campaigning_politician",
+    "parent_membership_id": "",
+    "party_ids": [
+      39
+    ],
+    "person_id": 1,
+    "role_id": 1,
+    "source_urls": [],
+    "start_date": "2021-04-04"
+  },
+  "success": true
+}
+
+```
 
 ####    contest
 
