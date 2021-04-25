@@ -224,18 +224,18 @@ Diagrams can be found in [docs folder](./docs).
 |field_name          |require for input?|type           |description                                  |input value example                                  |output value example                                             |notes                                                                                          |
 |--------------------|------------------|---------------|---------------------------------------------|-----------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 |contest_id          |no                |int            |Unique identifier                            |301                                                  |301                                                              |On query the name of the field is id                                                           |
-|area_id             |yes               |int            |id of the associated area to the contest.    |16                                                   |16                                                               |id should exist on area endpoint.                                                              |
-|title               |yes               |string(50)     |Title of the contest.                        |Gubernatura de BAJA CALIFORNIA                       |{<br/>&emsp;"en_US": "Gubernatura de BAJA CALIFORNIA"<br/>}              |The output is on en_US locales.                                                        |
+|area_id             |**yes**           |int            |id of the associated area to the contest.    |16                                                   |16                                                               |id should exist on area endpoint.                                                              |
+|title               |**yes**           |string(50)     |Title of the contest.                        |Gubernatura de BAJA CALIFORNIA                       |{<br/>&emsp;"en_US": "Gubernatura de BAJA CALIFORNIA"<br/>}              |The output is on en_US locales.                                                        |
 |membership_id_winner|no                |int            |id of the membership winner.                 |                                                     |                                                                 |id should exist on membership endpoint.                                                        |
 |start_date          |no                |date           |Start date of polling.                       |2021-06-06                                           |2021-06-06                                                       |Date format is YYYY-MM-DD                                                                      |
 |end_date            |no                |date           |End date of polling.                         |                                                     |                                                                 |Date format is YYYY-MM-DD                                                                      |
-|election_identifier |yes               |string(100)    |Key that identifies an election.             |MX-BCN-BAJA CALIFORNIA-REGIONAL_EXECUTIVE-runoff-2021|MX-BCN-BAJA CALIFORNIA-REGIONAL_EXECUTIVE-runoff-2021            |Valid format is COUNTRY-[REGION]-[CITY]-HIGHEST_LEGISLATIVE_DISTRICT-[ELECTION_TYPE]-YYYY-INDEX|
+|election_identifier |**yes**           |string(100)    |Key that identifies an election.             |MX-BCN-BAJA CALIFORNIA-REGIONAL_EXECUTIVE-runoff-2021|MX-BCN-BAJA CALIFORNIA-REGIONAL_EXECUTIVE-runoff-2021            |Valid format is COUNTRY-[REGION]-[CITY]-HIGHEST_LEGISLATIVE_DISTRICT-[ELECTION_TYPE]-YYYY-INDEX|
 |role_ids            |no                |array of string|List of role ids associated with the contest.|Info available on role endpoint                      |[<br/>&emsp;301 <br/> ]                                                    |ids should exists on role endpoint.                                                  |
 |person_id           |no                |int            |id of the associated person to the contest.  |Info available on person endpoint                    |[<br/>&emsp;1,<br/>&emsp;2,<br/>&emsp;3,<br/>&emsp;4,<br/>&emsp;5,<br/>&emsp;6,<br/>&emsp;7 <br/> ]|ids should exists on person endpoint.                        |
 
 ##### Output example
 
-[https://www.apielectoral.mx/contest/1](https://www.apielectoral.mx/contest/1)
+[https://www.apielectoral.mx/contest/301](https://www.apielectoral.mx/contest/301)
 
 ```json
 {
@@ -276,11 +276,49 @@ Diagrams can be found in [docs folder](./docs).
 
 ##### Fields
 
+|field_name  |require for input?|type           |description                                    |input value example                 |output value example                                                                                            |
+|------------|------------------|---------------|-----------------------------------------------|------------------------------------|----------------------------------------------------------------------------------------------------------------|
+|party_id    |no                |int            |Unique identifier                              |79                                  |79                                                                                                              |
+|name        |**yes**           |string(100)    |Party name.                                    |Partido Revolucionario Institucional|{<br/>&emsp;"en_US": "Partido Revolucionario Institucional",<br/>&emsp;"es_MX": "Partido Revolucionario Institucional" <br/> }|
+|abbreviation|no                |string(50)     |Party abbreviation.                            |PRI                                 |{<br/>&emsp;"en_US": "PRI",<br/>&emsp;"es_MX": "PRI" <br/> }                                                    |
+|colors      |no                |JSON           |Color(s) of the party.                         |RED                                 |[<br/>&emsp;"RED",<br/>&emsp;"WHITE",<br/>&emsp;"GREEN" <br/> ]                                                 |
+|area_id     |no                |int            |id of the area associated to the party.        |1                                   |1                                                                                                               |
+|coalition_id|no                |int            |id of the coalition to which the party belongs.|26                                  |26                                                                                                              |
+|websites    |no                |array of string|Party websites.                                |Info available on url endpoint      |[<br/>&emsp;"https://www.site-a.com",<br/>&emsp;"https://www.site-b.com" <br/>]                                 |
+|logo_urls   |no                |array of string|URLs to party's logo.                          |Info available on url endpoint      |[<br/>&emsp;"https://www.site-a.com/logo.png",<br/>&emsp;"https://www.site-b.com/logo.jpg" <br/> ]              |
+|fb_urls     |no                |array of string|URLs of the FB page.                           |Info available on url endpoint      |[<br/>&emsp;"https://www.facebook.com/facebook" <br/> ]                                                         |
+|ig_urls     |no                |array of string|URLs of the IG page.                           |Info available on url endpoint      |[<br/>&emsp;"https://www.instagram.com" <br/> ]                                                                 |
+
+
 ##### Output example
 
-[https://www.apielectoral.mx/party/1](https://www.apielectoral.mx/party/1)
+[https://www.apielectoral.mx/party/79](https://www.apielectoral.mx/party/79)
 
 ```json
+{
+  "parties": {
+    "abbreviation": {
+      "en_US": "PRI",
+      "es_MX": "PRI"
+    },
+    "area_id": 1,
+    "coalition_id": 26,
+    "colors": [
+      "RED",
+      "WHITE','GREEN"
+    ],
+    "fb_urls": [],
+    "id": 79,
+    "ig_urls": [],
+    "logo_urls": [],
+    "name": {
+      "en_US": "Partido Revolucionario Institucional",
+      "es_MX": "Partido Revolucionario Institucional"
+    },
+    "websites": []
+  },
+  "success": true
+}
 ```
 
 ---
