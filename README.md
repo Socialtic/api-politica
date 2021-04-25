@@ -4,11 +4,15 @@ API to manage information from the candidates for the 2021 mexican elections.
 
 This API is partially based on the [Popolo JSON specification](https://www.popoloproject.com/specs/)
 
+---
+
 ##  Documentation
 
 -   [General structure](general)
 -   [Endpoints description](endpoints)
 -   [Running app](run)
+
+---
 
 ##  General structure
 
@@ -42,6 +46,8 @@ The available endpoints are:
 - `export`: Gets all the information from the endpoints.
 - `export-min`: Gets the minimum necessary information from the endpoints to represent the electoral race in process.
 
+---
+
 ##  Endpoints description
 
 ###  ER model
@@ -52,6 +58,8 @@ Diagrams can be found in [docs folder](./docs).
 - [PNG version](./docs/mx-elections-2021-db-er-diagram.png)
 
 ![ER model](./docs/mx-elections-2021-db-er-diagram.png)
+
+---
 
 ### Endpoints
 
@@ -80,7 +88,7 @@ Diagrams can be found in [docs folder](./docs).
 |ig_urls                |no                |array of object |A list of IG urls belong to this person.        |Info available on url endpoint              |[<br/>&emsp;{<br/>&emsp;&emsp;"note": "campaign",<br/>&emsp;&emsp;"url": "https://www.instagram.com/instagram/"<br/>&emsp;} <br/> ]                                                                                 |Valid note values are ["campaign", "official", "personal"]  Valid URL format.                                   |
 |social_network_accounts|no                |array of object |Other non-FB social media accounts.             |Info available on url endpoint              |[<br/>&emsp;{<br/>&emsp;&emsp;"type": "Twitter",<br/>&emsp;&emsp;"value": "exampletwitter"<br/>&emsp;},<br/>&emsp;{<br/>&emsp;&emsp;"type": "YouTube",<br/>&emsp;&emsp;"value": "exampleyoutube"<br/>&emsp;&emsp;}<br/>] |Valid type values are ["Twitter", "YouTube", "LinkedIn", "Flickr", "Pinterest", "Tumblr", "RSS"]            |
 |websites               |no                |array of object |Official/Campaign websites of the person.       |Info available on url endpoint              |[<br/>&emsp;{<br/>&emsp;&emsp;"note": "official",<br/>&emsp;&emsp;"url": "https://www.official.com"<br/>&emsp;},<br/>&emsp;{<br/>&emsp;&emsp;"note": "campaign",<br/>&emsp;&emsp;"url": "https://www.campaign.com"<br/>&emsp;}<br/>] |Valid note values are ["campaign", "personal", "wikipedia"]  Valid URL format.                  |
-|photo_urls             |no                |array of strings|URLs to person photos.                          |Info available on url endpoint              |[<br/>&emsp;"https://www.example.com/pub/photos/p1.jpg",<br/>&emsp;"https://www.example.com/pub/photos/p2.png" ]                                                                                                    |Valid URL format.                                                                                                |
+|photo_urls             |no                |array of strings|URLs to person photos.                          |Info available on url endpoint              |[<br/>&emsp;"https://www.example.com/pub/photos/p1.jpg",<br/>&emsp;"https://www.example.com/pub/photos/p2.png" <br/> ]                                                                                                    |Valid URL format.                                                                                                |
 
 ##### Output
 
@@ -141,6 +149,9 @@ Diagrams can be found in [docs folder](./docs).
   "success": true
 }
 ```
+
+---
+
 ####    membership
 
 ##### URL
@@ -166,7 +177,7 @@ Diagrams can be found in [docs folder](./docs).
 |parent_membership_id        |no                |int             |id of the membership associated to the candidate for whom is substitute.                     |                              |                                                                                |id should exist on membership endpoint.                                                                                                                          |
 |changed_from_substitute     |no                |boolean         |True if membership changed from substitute to primary.                                       |false                         |false                                                                           |-                                                                                                                                                                |
 |date_changed_from_substitute|no                |date            |Date when the substitute changed from substitute to primary.                                 |                              |                                                                                |Date format is YYYY-MM-DD                                                                                                                                        |
-|source_urls                 |no                |array of strings|Source of truth.                                                                             |Info available on url endpoint|[<br/>&emsp;"https://www.example.com/pub/1",<br/>&emsp;"https://www.example.com/pub/2" ]|Valid URL format.                                                                                                                                                |
+|source_urls                 |no                |array of strings|Source of truth.                                                                             |Info available on url endpoint|[<br/>&emsp;"https://www.example.com/pub/1",<br/>&emsp;"https://www.example.com/pub/2" <br/> ]|Valid URL format.                                                                                                                                                |
 
 
 ##### Output example
@@ -199,6 +210,8 @@ Diagrams can be found in [docs folder](./docs).
 }
 
 ```
+
+---
 
 ####    contest
 
