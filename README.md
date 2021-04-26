@@ -296,7 +296,7 @@ Diagrams can be found in [docs folder](./docs).
 
 ```json
 {
-  "parties": {
+  "party": {
     "abbreviation": {
       "en_US": "PRI",
       "es_MX": "PRI"
@@ -331,11 +331,41 @@ Diagrams can be found in [docs folder](./docs).
 
 ##### Fields
 
+|field_name  |require for input?|type           |description               |input value example           |output value example                                                                |notes                                    |
+|------------|------------------|---------------|--------------------------|------------------------------|------------------------------------------------------------------------------------|-----------------------------------------|
+|coalition_id|no                |int            |Unique identifier         |26                            |26                                                                                  |On query the name of the field is id     |
+|name        |yes               |string(100)    |Coalition name            |Va por México                 |{<br/>&emsp;"en_US": "Va por México",<br/>&emsp;"es_MX": "Va por México" <br/> }    |The output is on en_US and es_MX locales.|
+|abbreviation|no                |string(50)     |Coalition abbreviation    |VPM                           |{<br/>&emsp;"en_US": "VPM",<br/>&emsp;"es_MX": "VPM" <br/> }                        |The output is on en_US and es_MX locales.|
+|colors      |no                |JSON           |Color(s) of the coalition.|RED                           |[<br/>&emsp;"BLUE",<br/>&emsp;"WHITE",<br/>&emsp;"RED",<br/>&emsp;"YELLOW" <br/> ]  | The output is on en_US locale.          |
+|websites    |no                |array of string|Coalition websites.       |Info available on url endpoint|[<br/>&emsp;"https://www.site-a.com",<br/>&emsp;"https://www.site-b.com" <br/> ]    |Valid URL format.                        |
+|logo_urls   |no                |array of string|URLs to party's logo.     |Info available on url endpoint|[<br/>&emsp;"https://www.site-a.com/logo.png",<br/>&emsp;"https://www.site-b.com/logo.jpg" <br/> ] |Valid URL format.         |
+|fb_urls     |no                |array of string|URLs of the FB page.      |Info available on url endpoint|[<br/>&emsp;"https://www.facebook.com/facebook" <br/> ]                             |Valid URL format.                        |
+|ig_urls     |no                |array of string|URLs of the IG page.      |Info available on url endpoint|[<br/>&emsp;"https://www.instagram.com" <br/> ]                                     |Valid URL format.                        |
+
+
 ##### Output example
 
-[https://www.apielectoral.mx/coalition/1](https://www.apielectoral.mx/coalition/1)
+[https://www.apielectoral.mx/coalition/26](https://www.apielectoral.mx/coalition/26)
 
 ```json
+{
+  "coalition": {
+    "abbreviation": "VPM",
+    "colors": [
+      "BLUE",
+      "WHITE",
+      "RED",
+      "YELLOW"
+    ],
+    "fb_urls": [],
+    "id": 26,
+    "ig_urls": [],
+    "logo_urls": [],
+    "name": "Va por México",
+    "websites": []
+  },
+  "success": true
+}
 ```
 
 ---
