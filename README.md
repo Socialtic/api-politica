@@ -496,11 +496,28 @@ Diagrams can be found in [docs folder](./docs).
 
 ##### Fields
 
+|field_name        |require for input?|type      |description                   |input value example|output value example|notes                                                                                                                            |
+|------------------|------------------|----------|------------------------------|-------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------|
+|other_name_id     |no                |int       |Unique identifier             |1                  |1                   |On query the name of the field is id                                                                                             |
+|other_name_type_id|yes               |int       |Other name type               |2                  |nickname            |The id should exists as a valid role type in range between [1,3].  <br/> Valid keys values are ['preferred', 'nickname', 'ballot_name']|
+|name              |yes               |string(50)|Alternative name of the person|Lupita Jones       |Lupita Jones        |-                                                                                                                                |
+|person_id         |yes               |int       |id of the associated person   |3                  |3                   |The id should exists on person endpoint.                                                                                         |
+
+
 ##### Output example
 
 [https://www.apielectoral.mx/other-name/1](https://www.apielectoral.mx/other-name/1)
 
 ```json
+{
+  "other_name": {
+    "id": 1,
+    "name": "Lupita Jones",
+    "other_name_type_id": "nickname",
+    "person_id": 3
+  },
+  "success": true
+}
 ```
 
 ---
@@ -513,11 +530,24 @@ Diagrams can be found in [docs folder](./docs).
 
 ##### Fields
 
+|field_name   |require for input?|type       |description                          |input value example   |output value example  |notes                               |
+|-------------|------------------|-----------|-------------------------------------|----------------------|----------------------|------------------------------------|
+|profession_id|no                |int        |Unique identifier                    |1                     |1                     |On query the name of the field is id|
+|description  |yes               |string(100)|Name or description of the profession|Didactics and pedagogy|Didactics and pedagogy|-                                   |
+
+
 ##### Output example
 
 [https://www.apielectoral.mx/profession/1](https://www.apielectoral.mx/profession/1)
 
 ```json
+{
+  "profession": {
+    "description": "Didactics and pedagogy",
+    "id": 1
+  },
+  "success": true
+}
 ```
 
 ---
