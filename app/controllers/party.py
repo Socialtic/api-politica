@@ -99,7 +99,7 @@ def partyId(party_id):
     if request.method == 'GET':
         construct = {
             'success': True,
-            'parties': {
+            'party': {
                 'id': party.party_id,
                 'name': {
                     'en_US': party.name,

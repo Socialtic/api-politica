@@ -27,8 +27,14 @@ class Coalition(db.Model):
         for coalition in coalitions:
             obj = {
                 'id': coalition.coalition_id,
-                'name': coalition.name,
-                'abbreviation': coalition.abbreviation,
+                'name': {
+                    'en_US': coalition.name,
+                    'es_MX': coalition.name
+                },
+                'abbreviation': {
+                    'en_US': coalition.abbreviation,
+                    'es_MX': coalition.abbreviation
+                },
                 'colors': coalition.colors,
                 'fb_urls': Url.get_party_or_coalition_fb_urls(coalition.coalition_id, URL_OWNER_TYPE.COALITION),
                 'ig_urls': Url.get_party_or_coalition_ig_urls(coalition.coalition_id, URL_OWNER_TYPE.COALITION),
