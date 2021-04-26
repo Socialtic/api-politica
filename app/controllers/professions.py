@@ -73,7 +73,7 @@ def professionID(profession_id):
     response = jsonify(construct)
     response.status_code = HttpStatus.NOT_ALLOWED
 
-    #   Trying to get the area with profession_id
+    #   Trying to get the profession with profession_id
     profession = Profession.query.filter_by(profession_id=profession_id).first()
 
     #   If theres no result from the above query
@@ -91,7 +91,7 @@ def professionID(profession_id):
     if request.method == 'GET':
         construct = {
             'success': True,
-            'area': {
+            'profession': {
                 'id': profession.profession_id,
                 'description': profession.description
             }
