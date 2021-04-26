@@ -10,4 +10,4 @@ This API is partially based on the [Popolo JSON specification](https://www.popol
 
 -   [General structure](./docs/01-structure.md)
 -   [Endpoints description](./docs/02-endpoints.md)
--   [Running app](run)
+-   [Running app](./docs/03-dev-and-run.md)

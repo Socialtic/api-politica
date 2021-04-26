@@ -5,13 +5,13 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 
 #   Configure for local test
+#   This works with SQLite3
 project_dir = os.path.dirname(os.path.abspath(__file__))
 database_file = "sqlite:///{}".format(os.path.join(project_dir, "db/database.db"))
 
-#   Configure for RDS/AWS
+#   Configure for RDS/AWS MySQL
 #   format: (user):(password)@(db_identifier).amazonaws.com:3306/(db_name)
 #database_file = 'mysql+pymysql://user:password@db_identifier.aws_zone.amazonaws.com:3306/db_name'
-
 
 #   Config app
 application = Flask(__name__)
