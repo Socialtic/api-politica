@@ -5,7 +5,7 @@ The API has endpoints with different methods enabled.
 **For clients**, the `get` method is available.
 
 **For developers**, the `get` and `post` methods are available on any endpoint.
-And for any instance or entity on the endpoints the `get`, `put` and `delete` methods area available.
+And for any instance or entity on the endpoints the `get`, `put` and `delete` methods are available.
 
 The available endpoints are:
 
