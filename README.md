@@ -334,7 +334,7 @@ Diagrams can be found in [docs folder](./docs).
 |field_name  |require for input?|type           |description               |input value example           |output value example                                                                |notes                                    |
 |------------|------------------|---------------|--------------------------|------------------------------|------------------------------------------------------------------------------------|-----------------------------------------|
 |coalition_id|no                |int            |Unique identifier         |26                            |26                                                                                  |On query the name of the field is id     |
-|name        |yes               |string(100)    |Coalition name            |Va por México                 |{<br/>&emsp;"en_US": "Va por México",<br/>&emsp;"es_MX": "Va por México" <br/> }    |The output is on en_US and es_MX locales.|
+|name        |**yes**           |string(100)    |Coalition name            |Va por México                 |{<br/>&emsp;"en_US": "Va por México",<br/>&emsp;"es_MX": "Va por México" <br/> }    |The output is on en_US and es_MX locales.|
 |abbreviation|no                |string(50)     |Coalition abbreviation    |VPM                           |{<br/>&emsp;"en_US": "VPM",<br/>&emsp;"es_MX": "VPM" <br/> }                        |The output is on en_US and es_MX locales.|
 |colors      |no                |JSON           |Color(s) of the coalition.|RED                           |[<br/>&emsp;"BLUE",<br/>&emsp;"WHITE",<br/>&emsp;"RED",<br/>&emsp;"YELLOW" <br/> ]  | The output is on en_US locale.          |
 |websites    |no                |array of string|Coalition websites.       |Info available on url endpoint|[<br/>&emsp;"https://www.site-a.com",<br/>&emsp;"https://www.site-b.com" <br/> ]    |Valid URL format.                        |
@@ -378,11 +378,28 @@ Diagrams can be found in [docs folder](./docs).
 
 ##### Fields
 
+|field_name|require for input?|type       |description                             |input value example                                |output value example                                                    |notes                               |
+|----------|------------------|-----------|----------------------------------------|---------------------------------------------------|------------------------------------------------------------------------|------------------------------------|
+|chamber_id|no                |int        |Unique identifier                       |1                                                  |1                                                                       |On query the name of the field is id|
+|name      |**yes**           |string(100)|Name of the chamber                     |Diputación del Distrito Federal 1 de AGUASCALIENTES|{<br/>&emsp;"en_US": "Diputación del Distrito Federal 1 de AGUASCALIENTES" <br/> }|The output is on en_US locale.      |
+|area_id   |yes               |int        |id of the area associated to the chamber|4                                                  |4                                                                       |id should exist on area endpoint.   |
+
+
 ##### Output example
 
 [https://www.apielectoral.mx/chamber/1](https://www.apielectoral.mx/chamber/1)
 
 ```json
+{
+  "chamber": {
+    "area_id": 4,
+    "id": 1,
+    "name": {
+      "en_US": "Diputación del Distrito Federal 1 de AGUASCALIENTES"
+    }
+  },
+  "success": true
+}
 ```
 
 ---
