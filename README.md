@@ -560,11 +560,26 @@ Diagrams can be found in [docs folder](./docs).
 
 ##### Fields
 
+|field_name   |require for input?|type       |description                          |input value example   |output value example  |notes                               |
+|-------------|------------------|-----------|-------------------------------------|----------------------|----------------------|------------------------------------|
+|person_professions_id|no                |int        |Unique identifier                    |1                     |1                     |On query the name of the field is id|
+|person_id    |yes               |int        |id of the associated person to the profession|1                     |1                     |The id should exists on person endpoint.|
+|profession_id|yes               |int        |id of the associated profession to the person|50                    |50                    |The id should exists on profession endpoint.|
+
+
 ##### Output example
 
 [https://www.apielectoral.mx/person-profession/1](https://www.apielectoral.mx/person-profession/1)
 
 ```json
+{
+  "person_profession": {
+    "id": 1,
+    "person_id": 1,
+    "profession_id": 50
+  },
+  "success": true
+}
 ```
 
 ---
