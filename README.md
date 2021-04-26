@@ -412,11 +412,33 @@ Diagrams can be found in [docs folder](./docs).
 
 ##### Fields
 
+|field_name|require for input?|type       |description                             |input value example|output value example              |notes                                                                                                                                             |
+|----------|------------------|-----------|----------------------------------------|-------------------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+|role_id   |no                |int        |Unique identifier                       |1                  |1                                 |On query the name of the field is id                                                                                                              |
+|title     |yes               |string(100)|Title of the role                       |Diputado de X      |{<br/>&emsp;"en_US": "Diputado de X" <br/> }|The output is on en_US locale.                                                                                                          |
+|role      |yes               |int        |Role type                               |2                  |legislatorLowerBody               |The id should exists as a valid role type in range between [1,3].  <br/> Valid keys are ['governmentOfficer', 'legislatorLowerBody', 'executiveCouncil']|
+|area_id   |yes               |int        |id of the associated area to the role   |4                  |4                                 |The id should exists on area endpoint.                                                                                                            |
+|chamber_id|yes               |int        |id of the chamber associated to the role|1                  |1                                 |The id should exists on chamber endpoint.                                                                                                         |
+|contest_id|no                |int        |id of the contest associated to the role|1                  |1                                 |The id should exists on contest endpoint.                                                                                                         |
+
 ##### Output example
 
 [https://www.apielectoral.mx/role/1](https://www.apielectoral.mx/role/1)
 
 ```json
+{
+  "role": {
+    "area_id": 4,
+    "chamber_id": 1,
+    "contest_id": 1,
+    "id": 1,
+    "role": "legislatorLowerBody",
+    "title": {
+      "en_US": "Diputado de X"
+    }
+  },
+  "success": true
+}
 ```
 
 ---
@@ -429,11 +451,39 @@ Diagrams can be found in [docs folder](./docs).
 
 ##### Fields
 
+|field_name    |require for input?|type      |description               |input value example                                                                                                                             |output value example                                                                                                                            |notes                                                                                                                                                                                                                                                                                                                                         |
+|--------------|------------------|----------|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|area_id       |no                |int       |Unique identifier         |4                                                                                                                                               |4                                                                                                                                               |On query the name of the field is id                                                                                                                                                                                                                                                                                                          |
+|ocd_id        |**yes**           |string(50)|Open Civic Data identifier|ocd-division/country:mx/state:ag/fed:1                                                                                                          |ocd-division/country:mx/state:ag/fed:1                                                                                                          |As specifies in: https://github.com/opencivicdata/ocd-division-ids/tree/master/identifiers/country-mx  <br/>example for state: ocd-division/country:mx/state:bc <br/>example for district: ocd-division/country:mx/state:bc/fed:4 <br/>example for city: ocd-division/country:mx/state:df/city:3  <br/>For city, the id is the number of the city inside the state.|
+|name          |**yes**           |string(50)|Name of the area          |DISTRITO I DE AGUASCALIENTES                                                                                                                    |{<br/>&emsp;"en_US": "DISTRITO I DE AGUASCALIENTES",<br/>&emsp;"es_MX": "DISTRITO I DE AGUASCALIENTES" <br/> }                                  |The output is on en_US and es_MX locales.                                                                                                                                                                                                                                                                                                     |
+|country       |**yes**           |string(2) |Country of the area       |MX                                                                                                                                              |MX                                                                                                                                              |-                                                                                                                                                                                                                                                                                                                                             |
+|state         |no                |string(5) |State of the area         |AGU                                                                                                                                             |AGU                                                                                                                                             |-                                                                                                                                                                                                                                                                                                                                             |
+|city          |no                |cirty(250)|City or cities of the area|ASIENTESO, CALVILLO, COSIO, JESUS MARIA, PABELLON DE ARTEAGA, RINCON DE ROMOS, SAN JOSE DE GRACIA, TEPEZALA, SAN FRANCISCO DE LOS ROMO, EL LLANO|ASIENTESO, CALVILLO, COSIO, JESUS MARIA, PABELLON DE ARTEAGA, RINCON DE ROMOS, SAN JOSE DE GRACIA, TEPEZALA, SAN FRANCISCO DE LOS ROMO, EL LLANO|-                                                                                                                                                                                                                                                                                                                                             |
+|district_type |**yes**           |int       |District type of the area |3                                                                                                                                               |NATIONAL_LOWER                                                                                                                                  |The id should exists as a valid role type in range between [1,4].  <br/> Valid keys values are ['NATIONAL_EXEC', 'REGIONAL_EXEC', 'NATIONAL_LOWER', 'LOCAL_EXEC']                                                                                                                                                                                   |
+|parent_area_id|no                |int       |id of the parent area     |2                                                                                                                                               |2                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                              |
+
+
 ##### Output example
 
-[https://www.apielectoral.mx/area/1](https://www.apielectoral.mx/area/1)
+[https://www.apielectoral.mx/area/4](https://www.apielectoral.mx/area/4)
 
 ```json
+{
+  "area": {
+    "city": "ASIENTESO, CALVILLO, COSIO, JESUS MARIA, PABELLON DE ARTEAGA, RINCON DE ROMOS, SAN JOSE DE GRACIA, TEPEZALA, SAN FRANCISCO DE LOS ROMO, EL LLANO",
+    "country": "MX",
+    "district_type": "NATIONAL_LOWER",
+    "id": 4,
+    "name": {
+      "en_US": "DISTRITO I DE AGUASCALIENTES",
+      "es_MX": "DISTRITO I DE AGUASCALIENTES"
+    },
+    "ocd_id": "ocd-division/country:mx/state:ag/fed:1",
+    "parent_area_id": 2,
+    "state": "AGU"
+  },
+  "success": true
+}
 ```
 
 ---
