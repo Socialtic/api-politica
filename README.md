@@ -592,11 +592,32 @@ Diagrams can be found in [docs folder](./docs).
 
 ##### Fields
 
+|field_name |require for input?|type       |description                          |input value example    |output value example   |notes                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|-----------|------------------|-----------|-------------------------------------|-----------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|url_id     |no                |int        |Unique identifier                    |1                      |1                      |On query the name of the field is id                                                                                                                                                                                                                                                                                                                                                                                                    |
+|url        |yes               |string(500)|URL                                  |https://www.example.com|https://www.example.com|Valid URL format.                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|description|no                |string(500)|Description of the URL               |Description            |Description            |-                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|url_type   |yes               |int        |URL type                             |2                      |Website official       |The id should exists as a valid role type in range between [1,22]. <br/> Valid keys are ['WEBSITE_CAMPAIGN', 'WEBSITE_OFFICIAL', 'WEBSITE_PERSONAL', 'WEBSITE_WIKIPEDIA', 'FACEBOOK_CAMPAIGN', 'FACEBOOK_OFFICIAL', 'FACEBOOK_PERSONAL', 'INSTAGRAM_CAMPAIGN', 'INSTAGRAM_OFFICIAL', 'INSTAGRAM_PERSONAL', 'WHATSAPP', 'TWITTER', 'YOUTUBE', 'LINKEDIN', 'FLICKR', 'PINTEREST', 'TUMBLR', 'RSS', 'EMAIL', 'PHOTO', 'LOGO', 'SOURCE_OF_TRUTH']|
+|owner_type |yes               |int        |Owner type                           |1                      |PERSON                 |The id should exists as a valid role type in range between [1,4].  <br/> Valid keys are ['PERSON', 'PARTY', 'COALITION','MEMBERSHIP']                                                                                                                                                                                                                                                                                                         |
+|owner_id   |yes               |int        |id of the owner associated to the URL|1                      |1                      |id should exist on person, party, coalition or membership endpoint.                                                                                                                                                                                                                                                                                                                                                                     |
+
+
 ##### Output example
 
 [https://www.apielectoral.mx/url/1](https://www.apielectoral.mx/url/1)
 
 ```json
+{
+  "success": true,
+  "url": {
+    "description": "",
+    "id": 1,
+    "owner_id": 1,
+    "owner_type": "PERSON",
+    "url": "https://www.marinadelpilar.mx",
+    "url_type": "Website official"
+  }
+}
 ```
 
 ##  Running app
