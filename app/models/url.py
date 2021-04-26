@@ -32,8 +32,8 @@ class Url(db.Model):
                 'id': url.url_id,
                 'url': url.url,
                 'description': url.description,
-                'url_type': url.url_type,
-                'owner_type': url.owner_type,
+                'url_type': Catalogues.URL_TYPE_NAMES[url.url_type],
+                'owner_type': Catalogues.URL_OWNER_TYPE_NAMES[url.owner_type],
                 'owner_id': url.owner_id
             }
             result.append(obj)
