@@ -34,7 +34,6 @@ def area():
             state = EmptyValues.EMPTY_STRING if request.json['state'] == EmptyValues.EMPTY_STRING else request.json['state']
             city = EmptyValues.EMPTY_STRING if request.json['city'] == EmptyValues.EMPTY_STRING else request.json['city']
             district_type = EmptyValues.EMPTY_INT if request.json['district_type'] == EmptyValues.EMPTY_STRING else request.json['district_type']
-            parent_area_id = EmptyValues.EMPTY_INT if request.json['parent_area_id'] == EmptyValues.EMPTY_STRING else request.json['parent_area_id']
 
             #   Verifying REQUIRED values
             if ocd_id == EmptyValues.EMPTY_STRING or name == EmptyValues.EMPTY_STRING or country == EmptyValues.EMPTY_STRING or district_type == EmptyValues.EMPTY_INT:
