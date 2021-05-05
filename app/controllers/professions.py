@@ -1,156 +1,86 @@
-from flask import request, jsonify
-from app import application as app
-from app.models.professions import *
+from flask import request
+from flask_restx import Resource, fields
+
+from app import api
+from app.models.professions import ProfessionModel
+from app.schemas.professions import ProfessionSchema
 from app.const import *
-from app import isOnDev
 
-@app.route('/profession', methods=['GET', 'POST'])
-def profession_fun():
+#   Namespace to route
+local_ns = api.namespace('profession', description='Profession related operations')
 
-    construct = {
-        'success': False,
-        'message': 'Method not allowed :)'
-    }
-    response = jsonify(construct)
-    response.status_code = HttpStatus.NOT_ALLOWED
+#   Database schemas
+local_schema = ProfessionSchema()
 
-    #   Get all from table professions
-    if request.method == 'GET':
-        construct = {
-            'success': True,
-            'professions': Profession.getAll()
-        }
-        response = jsonify(construct)
-        response.status_code = HttpStatus.OK
+#   Model required by flask_restx for expect on POST and PUT methods
+profession = local_ns.model('Profession', {
+    'description': fields.String
+})
 
-    #   Trying to insert into the table
-    elif request.method == 'POST' and isOnDev:
-
-        #   Trying to get parameters from the POST method
+@local_ns.route('/')
+class ProfessionList(Resource):
+    @local_ns.doc('Get all the Professions')
+    def get(self):
         try:
-            description = EmptyValues.EMPTY_STRING if request.json['description'] == EmptyValues.EMPTY_STRING else request.json['description']
-
-            #   Verifying REQUIRED values
-            if description == EmptyValues.EMPTY_STRING:
-                construct['success'] = False
-                construct['error'] = 'Missing data. Required value for description.'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-                return response
-
-            #   Trying to INSERT into the DB
-            try:
-                profession = Profession(description=description)
-                profession.save()
-                construct['success'] = True
-                construct['message'] = 'Data saved'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.CREATED
-
-            #   Falling while INSERTING into the DB
-            except Exception as e:
-                construct['success'] = False
-                construct['error'] = str(e)
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-
-        #   Missing parameters from the POST method
+            return ProfessionModel.find_all(), HttpStatus.OK
         except Exception as e:
-            construct['success'] = False
-            construct['error'] = 'Missing data. Missing value ' + str(e)
-            response = jsonify(construct)
-            response.status_code = HttpStatus.BAD_REQUEST
+            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
 
-    return response
-
-@app.route('/profession/<int:profession_id>', methods=['GET', 'PUT', 'DELETE'])
-def professionID(profession_id):
-
-    construct = {
-        'success': False,
-        'message': 'Method not allowed :)'
-    }
-    response = jsonify(construct)
-    response.status_code = HttpStatus.NOT_ALLOWED
-
-    #   Trying to get the profession with profession_id
-    profession = Profession.query.filter_by(profession_id=profession_id).first()
-
-    #   If theres no result from the above query
-    if not profession:
-        construct = {
-            'success': False,
-            'message': 'Theres no data for that profession_id'
-        }
-        response = jsonify(construct)
-        response.status_code = HttpStatus.OK
-        return response
-
-    #   If theres a result, then ...
-    #   Get their data
-    if request.method == 'GET':
-        construct = {
-            'success': True,
-            'profession': {
-                'id': profession.profession_id,
-                'description': profession.description
-            }
-        }
-        response = jsonify(construct)
-        response.status_code = HttpStatus.OK
-
-    #   Update their data
-    elif request.method == 'PUT' and isOnDev:
-
-        #   Trying to get parameters from the PUT method
+    @local_ns.doc('Create a Profession')
+    @local_ns.expect(profession)
+    def post(self):
         try:
-            description = EmptyValues.EMPTY_STRING if request.json['description'] == EmptyValues.EMPTY_STRING else \
-            request.json['description']
-
-            #   Verifying REQUIRED values
-            if description == EmptyValues.EMPTY_STRING:
-                construct['success'] = False
-                construct['error'] = 'Missing data. Required value for description.'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-                return response
-
-            #   Trying to UPDATE into the DB
-            try:
-                profession.description = description
-                db.session.commit()
-                construct['success'] = True
-                construct['message'] = 'Data saved'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.CREATED
-
-            #   Falling while UPDATING into the DB
-            except Exception as e:
-                construct['success'] = False
-                construct['error'] = str(e)
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-
-        #   Missing parameters from the PUT method
+            element_json = request.get_json()
+            element_data = local_schema.load(element_json)
+            element_data.save()
+            return element_data.json(), HttpStatus.CREATED
         except Exception as e:
-            construct['success'] = False
-            construct['error'] = 'Missing data. Missing value ' + str(e)
-            response = jsonify(construct)
-            response.status_code = HttpStatus.BAD_REQUEST
+            return {'message': e.__str__()}, HttpStatus.BAD_REQUEST
 
-    #   Delete it from the database
-    elif request.method == 'DELETE' and isOnDev:
-
+@local_ns.route('/<int:id>')
+class Profession(Resource):
+    @local_ns.doc('Get the Profession with the specified id',
+                  params={
+                    'id': 'id of the Profession to get'
+                })
+    def get(self, id):
         try:
-            profession.delete()
-            construct['success'] = True
-            construct['message'] = 'Data has been delete.'
-            response = jsonify(construct)
-            response.status_code = HttpStatus.OK
+            element_data = ProfessionModel.find_by_id(id)
+            if element_data:
+                return element_data.json()
+            return {'message': 'Profession not found.'}, HttpStatus.NOT_FOUND
         except Exception as e:
-            construct['success'] = False
-            construct['error'] = str(e)
-            response = jsonify(construct)
-            response.status_code = HttpStatus.BAD_REQUEST
+            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
 
-    return response
+    @local_ns.doc('Update a Profession with the specified id',
+                  params={
+                    'id': 'id of the Profession to update'
+                })
+    @local_ns.expect(profession)
+    def put(self, id):
+        try:
+            element_data = ProfessionModel.find_by_id(id)
+
+            if element_data:
+                element_data.description = EmptyValues.EMPTY_STRING if request.json['description'] == EmptyValues.EMPTY_STRING else request.json['description']
+            else:
+                return {'message': 'Profession not found.'}, HttpStatus.NOT_FOUND
+
+            element_data.save()
+            return element_data.json(), HttpStatus.CREATED
+        except Exception as e:
+            return {'message': e.__str__()}, HttpStatus.BAD_REQUEST
+
+    @local_ns.doc('Delete a Profession with the specified id',
+                  params={
+                    'id': 'id of the Profession to delete'
+                })
+    def delete(self, id):
+        try:
+            element_data = ProfessionModel.find_by_id(id)
+            if element_data:
+                element_data.delete()
+                return {'message': 'Profession deleted.'}, HttpStatus.OK
+            return {'message': 'Profession not found.'}, HttpStatus.NOT_FOUND
+        except Exception as e:
+            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
