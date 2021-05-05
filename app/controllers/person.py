@@ -146,7 +146,7 @@ def personId(person_id):
 
         #   Getting professions
         professions_val = []
-        person_professions = Person_Profession.query.filter_by(person_id=person.person_id)
+        person_professions = PersonProfessionModel.query.filter_by(person_id=person.person_id)
         for person_profession in person_professions:
             professions = Profession.query.filter_by(profession_id=person_profession.profession_id)
             for profession in professions:

@@ -50,7 +50,7 @@ def export():
         'persons': Person.getAll(),
         'other-names': Other_Names.getAll(),
         'professions': Profession.getAll(),
-        'person-professions': Person_Profession.getAll(),
+        'person-professions': PersonProfessionModel.getAll(),
         'parties': Party.getAll(),
         'memberships': Membership.getAll(),
         'contests': Contest.getAll(),
