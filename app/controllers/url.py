@@ -1,173 +1,94 @@
-from flask import request, jsonify
-from app import application as app
+from flask import request
+from flask_restx import Resource, fields
+
+from app import api
 from app.models.url import *
+from app.schemas.url import *
 from app.const import *
-from app import isOnDev
 
-@app.route('/url', methods=['GET', 'POST'])
-def url_fun():
+#   Namespace to route
+url_ns = api.namespace('url', description='URL related operations')
 
-    construct = {
-        'success': False,
-        'message': 'Method not allowed :)'
-    }
-    response = jsonify(construct)
-    response.status_code = HttpStatus.NOT_ALLOWED
+#   Database schemas
+url_schema = UrlSchema()
 
-    #   Get all from table url
-    if request.method == 'GET':
-        construct = {
-            'success': True,
-            'urls': Url.getAll()
-        }
-        response = jsonify(construct)
-        response.status_code = HttpStatus.OK
+#   Model required by flask_restx for expect on POST and PUT methods
+url = url_ns.model('URL',{
+    'url': fields.String,
+    'description': fields.String,
+    'url_type': fields.Integer,
+    'owner_type': fields.Integer,
+    'owner_id': fields.Integer
+})
 
-    #   Trying to insert into the table
-    elif request.method == 'POST' and isOnDev:
-
-        #   Trying to get parameters from the POST method
+@url_ns.route('/')
+class UrlList(Resource):
+    @url_ns.doc('Get all the URLs')
+    def get(self):
         try:
-            url_val = EmptyValues.EMPTY_STRING if request.json['url'] == EmptyValues.EMPTY_STRING else request.json['url']
-            description = EmptyValues.EMPTY_STRING if request.json['description'] == EmptyValues.EMPTY_STRING else request.json['description']
-            url_type = EmptyValues.EMPTY_INT if request.json['url_type'] == EmptyValues.EMPTY_STRING else request.json['url_type']
-            owner_type = EmptyValues.EMPTY_INT if request.json['owner_type'] == EmptyValues.EMPTY_STRING else request.json['owner_type']
-            owner_id = EmptyValues.EMPTY_INT if request.json['owner_id'] == EmptyValues.EMPTY_STRING else request.json['owner_id']
-
-            #   Verifying REQUIRED values
-            if url_val == EmptyValues.EMPTY_STRING or url_type == EmptyValues.EMPTY_INT or owner_type == EmptyValues.EMPTY_INT or owner_id == EmptyValues.EMPTY_INT:
-                construct['success'] = False
-                construct['error'] = 'Missing data. Required values for url, url_type, owner_type and owner_id.'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-                return response
-
-            #   Trying to INSERT into the DB
-            try:
-                url = Url(
-                    url=url_val, description=description, url_type=url_type, owner_type=owner_type, owner_id=owner_id
-                )
-                url.save()
-                construct['success'] = True
-                construct['message'] = 'Data saved'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.CREATED
-
-            #   Falling while INSERTING into the DB
-            except Exception as e:
-                construct['success'] = False
-                construct['error'] = str(e)
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-
-        #   Missing parameters from the POST method
+            return UrlModel.find_all(), HttpStatus.OK
         except Exception as e:
-            construct['success'] = False
-            construct['error'] = 'Missing data. Missing value ' + str(e)
-            response = jsonify(construct)
-            response.status_code = HttpStatus.BAD_REQUEST
+            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
 
-    return response
-
-@app.route('/url/<int:url_id>', methods=['GET', 'PUT', 'DELETE'])
-def urlId(url_id):
-
-    construct = {
-        'success': False,
-        'message': 'Method not allowed :)'
-    }
-    response = jsonify(construct)
-    response.status_code = HttpStatus.NOT_ALLOWED
-
-    #   Trying to get the area with area_id
-    url = Url.query.filter_by(url_id=url_id).first()
-
-    #   If theres no result from the above query
-    if not url:
-        construct = {
-            'success': False,
-            'message': 'Theres no data for that url_id'
-        }
-        response = jsonify(construct)
-        response.status_code = HttpStatus.OK
-        return response
-
-    #   If theres a result, then ...
-    #   Get their data
-    if request.method == 'GET':
-        construct = {
-            'success': True,
-            'url': {
-                'id': url.url_id,
-                'url': url.url,
-                'description': url.description,
-                'url_type': Catalogues.URL_TYPE_FULL_NAMES[url.url_type],
-                'owner_type': Catalogues.URL_OWNER_TYPE_NAMES[url.owner_type],
-                'owner_id': url.owner_id
-            }
-        }
-        response = jsonify(construct)
-        response.status_code = HttpStatus.OK
-
-    #   Update their data
-    elif request.method == 'PUT' and isOnDev:
-
-        #   Trying to get parameters from the PUT method
+    @url_ns.doc('Create an URL')
+    @url_ns.expect(url)
+    def post(self):
         try:
-            url_val = EmptyValues.EMPTY_STRING if request.json['url'] == EmptyValues.EMPTY_STRING else request.json['url']
-            description = EmptyValues.EMPTY_STRING if request.json['description'] == EmptyValues.EMPTY_STRING else request.json['description']
-            url_type = EmptyValues.EMPTY_INT if request.json['url_type'] == EmptyValues.EMPTY_STRING else request.json['url_type']
-            owner_type = EmptyValues.EMPTY_INT if request.json['owner_type'] == EmptyValues.EMPTY_STRING else request.json['owner_type']
-            owner_id = EmptyValues.EMPTY_INT if request.json['owner_id'] == EmptyValues.EMPTY_STRING else request.json['owner_id']
-
-            #   Verifying REQUIRED values
-            if url_val == EmptyValues.EMPTY_STRING or url_type == EmptyValues.EMPTY_INT or owner_type == EmptyValues.EMPTY_INT or owner_id == EmptyValues.EMPTY_INT:
-                construct['success'] = False
-                construct['error'] = 'Missing data. Required values for url, url_type, owner_type and owner_id.'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-                return response
-
-            #   Trying to UPDATE into the DB
-            try:
-                url.url = url_val
-                url.description = description
-                url.url_type = url_type
-                url.owner_type = owner_type
-                url.owner_id = owner_id
-                db.session.commit()
-                construct['success'] = True
-                construct['message'] = 'Data saved'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.CREATED
-
-            #   Falling while UPDATING into the DB
-            except Exception as e:
-                construct['success'] = False
-                construct['error'] = str(e)
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-
-        #   Missing parameters from the PUT method
+            url_json = request.get_json()
+            url_data = url_schema.load(url_json)
+            url_data.save()
+            return url_data.json(), HttpStatus.CREATED
         except Exception as e:
-            construct['success'] = False
-            construct['error'] = 'Missing data. Missing value ' + str(e)
-            response = jsonify(construct)
-            response.status_code = HttpStatus.BAD_REQUEST
+            return {'message': e.__str__()}, HttpStatus.BAD_REQUEST
 
-    #   Delete it from the database
-    elif request.method == 'DELETE' and isOnDev:
-
+@url_ns.route('/<int:id>')
+class Url(Resource):
+    @url_ns.doc('Get the URL with the specified id',
+                params={
+                    'id': 'id of the URL to get'
+                })
+    def get(self, id):
         try:
-            url.delete()
-            construct['success'] = True
-            construct['message'] = 'Data has been delete.'
-            response = jsonify(construct)
-            response.status_code = HttpStatus.OK
+            url_data = UrlModel.find_by_id(id)
+            if url_data:
+                return url_data.json()
+            return {'message': 'URL not found.'}, HttpStatus.NOT_FOUND
         except Exception as e:
-            construct['success'] = False
-            construct['error'] = str(e)
-            response = jsonify(construct)
-            response.status_code = HttpStatus.BAD_REQUEST
+            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
 
-    return response
+    @url_ns.doc('Update an URL with the specified id',
+                params={
+                    'id': 'id of the URL to update'
+                })
+    @url_ns.expect(url)
+    def put(self, id):
+        try:
+            url_data = UrlModel.find_by_id(id)
+
+            if url_data:
+                url_data.url = EmptyValues.EMPTY_STRING if request.json['url'] == EmptyValues.EMPTY_STRING else request.json['url']
+                url_data.description = EmptyValues.EMPTY_STRING if request.json['description'] == EmptyValues.EMPTY_STRING else request.json['description']
+                url_data.url_type = EmptyValues.EMPTY_INT if request.json['url_type'] == EmptyValues.EMPTY_STRING else request.json['url_type']
+                url_data.owner_type = EmptyValues.EMPTY_INT if request.json['owner_type'] == EmptyValues.EMPTY_STRING else request.json['owner_type']
+                url_data.owner_id = EmptyValues.EMPTY_INT if request.json['owner_id'] == EmptyValues.EMPTY_STRING else request.json['owner_id']
+            else:
+                return {'message': 'URL not found.'}, HttpStatus.NOT_FOUND
+
+            url_data.save()
+            return url_data.json(), HttpStatus.CREATED
+        except Exception as e:
+            return {'message': e.__str__()}, HttpStatus.BAD_REQUEST
+
+    @url_ns.doc('Delete an URL with the specified id',
+                params={
+                    'id': 'id of the URL to delete'
+                })
+    def delete(self, id):
+        try:
+            url_data = UrlModel.find_by_id(id)
+            if url_data:
+                url_data.delete()
+                return {'message': 'URL deleted.'}, HttpStatus.OK
+            return {'message': 'URL not found.'}, HttpStatus.NOT_FOUND
+        except Exception as e:
+            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
