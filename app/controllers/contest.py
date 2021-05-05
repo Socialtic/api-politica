@@ -102,7 +102,7 @@ def contestId(contest_id):
     if request.method == 'GET':
 
         roles = Role.query.filter_by(contest_id=contest.contest_id)
-        persons = Person.query.filter_by(contest_id=contest.contest_id)
+        persons = PersonModel.query.filter_by(contest_id=contest.contest_id)
 
         role_ids = []
         person_ids = []

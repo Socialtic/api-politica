@@ -28,7 +28,7 @@ def export_min():
         'areas': Area.getAll(),
         'chambers': Chamber.getAll(),
         'roles': Role.getAll(),
-        'persons': Person.getAll(),
+        'persons': PersonModel.getAll(),
         'parties': Party.getAll(),
         'memberships': Membership.getAll(),
         'contests': Contest.getAll()
@@ -47,7 +47,7 @@ def export():
         'chambers': Chamber.getAll(),
         'roles': Role.getAll(),
         'coalitions': Coalition.getAll(),
-        'persons': Person.getAll(),
+        'persons': PersonModel.getAll(),
         'other-names': Other_Names.getAll(),
         'professions': Profession.getAll(),
         'person-professions': PersonProfessionModel.getAll(),
