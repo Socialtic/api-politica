@@ -474,7 +474,7 @@ data = [
 
 for i in range(len(data)):
     print(data[i])
-    response = requests.post(BASE + 'url', json=data[i])
+    response = requests.post(BASE + 'url/', json=data[i])
     print(response.json())
 print('-----------------------------------------------------------------------')
 print()
@@ -535,7 +535,7 @@ data = [
 
 for i in range(len(data)):
     print(data[i])
-    response = requests.post(BASE + 'url', json=data[i])
+    response = requests.post(BASE + 'url/', json=data[i])
     print(response.json())
 print('-----------------------------------------------------------------------')
 print()
@@ -568,7 +568,7 @@ data = [
 
 for i in range(len(data)):
     print(data[i])
-    response = requests.post(BASE + 'url', json=data[i])
+    response = requests.post(BASE + 'url/', json=data[i])
     print(response.json())
 print('-----------------------------------------------------------------------')
 print()
@@ -706,7 +706,7 @@ data = [
 
 for i in range(len(data)):
     print(data[i])
-    response = requests.post(BASE + 'url', json=data[i])
+    response = requests.post(BASE + 'url/', json=data[i])
     print(response.json())
 print('-----------------------------------------------------------------------')
 print()
