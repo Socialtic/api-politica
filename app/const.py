@@ -64,8 +64,9 @@ class Catalogues:
                       'WhatsApp', 'Twitter', 'YouTube', 'LinkedIn', 'Flickr', 'Pinterest', 'Tumblr', 'RSS',
                       ]
     URL_TYPE_FULL_NAMES = ['',
-                      'Website campaign', 'Website official', 'Website personal', 'Website Wikipedia',
-                      'Facebook campaign', 'Facebook official', 'Facebook personal',
-                      'Instagram campaign', 'Instagram official', 'Instagram personal',
-                      'WhatsApp', 'Twitter', 'YouTube', 'LinkedIn', 'Flickr', 'Pinterest', 'Tumblr', 'RSS',
+                           'Website campaign', 'Website official', 'Website personal', 'Website Wikipedia',
+                           'Facebook campaign', 'Facebook official', 'Facebook personal',
+                           'Instagram campaign', 'Instagram official', 'Instagram personal',
+                           'WhatsApp', 'Twitter', 'YouTube', 'LinkedIn', 'Flickr', 'Pinterest', 'Tumblr', 'RSS',
+                           'Email', 'Photo', 'Logo', 'source_of_truth'
                       ]
