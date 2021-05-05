@@ -2,18 +2,21 @@ from flask import request
 from flask_restx import Resource, fields
 
 from app import api
-from app.models.role import RoleModel
-from app.schemas.role import RoleSchema
+from app.models.role import RoleModel as TheModel
+from app.schemas.role import RoleSchema as TheSchema
 from app.const import *
 
+#   Name of the current item/element
+CURRENT_NAME = 'Role'
+
 #   Namespace to route
-local_ns = api.namespace('role', description='Role related operations')
+local_ns = api.namespace('role', description=CURRENT_NAME + ' related operations')
 
 #   Database schemas
-local_schema = RoleSchema()
+local_schema = TheSchema()
 
 #   Model required by flask_restx for expect on POST and PUT methods
-role = local_ns.model('Role', {
+model_validator = local_ns.model(CURRENT_NAME, {
     'title': fields.String,
     'role': fields.Integer,
     'area_id': fields.Integer,
@@ -22,16 +25,16 @@ role = local_ns.model('Role', {
 })
 
 @local_ns.route('/')
-class RoleList(Resource):
-    @local_ns.doc('Get all the Roles')
+class UrlList(Resource):
+    @local_ns.doc('Get all the ' + CURRENT_NAME + 's')
     def get(self):
         try:
-            return RoleModel.find_all(), HttpStatus.OK
+            return TheModel.find_all(), HttpStatus.OK
         except Exception as e:
             return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
 
-    @local_ns.doc('Create a Role')
-    @local_ns.expect(role)
+    @local_ns.doc('Create a ' + CURRENT_NAME)
+    @local_ns.expect(model_validator)
     def post(self):
         try:
             element_json = request.get_json()
@@ -42,28 +45,28 @@ class RoleList(Resource):
             return {'message': e.__str__()}, HttpStatus.BAD_REQUEST
 
 @local_ns.route('/<int:id>')
-class Role(Resource):
-    @local_ns.doc('Get the Role with the specified id',
+class Url(Resource):
+    @local_ns.doc('Get the ' + CURRENT_NAME + ' with the specified id',
                   params={
-                    'id': 'id of the Role to get'
+                    'id': 'id of the ' + CURRENT_NAME + ' to get'
                 })
     def get(self, id):
         try:
-            element_data = RoleModel.find_by_id(id)
+            element_data = TheModel.find_by_id(id)
             if element_data:
                 return element_data.json()
-            return {'message': 'Role not found.'}, HttpStatus.NOT_FOUND
+            return {'message': CURRENT_NAME + ' not found.'}, HttpStatus.NOT_FOUND
         except Exception as e:
             return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
 
-    @local_ns.doc('Update an Role with the specified id',
+    @local_ns.doc('Update a ' + CURRENT_NAME + ' with the specified id',
                   params={
-                    'id': 'id of the Role to update'
+                    'id': 'id of the ' + CURRENT_NAME + ' to update'
                 })
-    @local_ns.expect(role)
+    @local_ns.expect(model_validator)
     def put(self, id):
         try:
-            element_data = RoleModel.find_by_id(id)
+            element_data = TheModel.find_by_id(id)
 
             if element_data:
                 element_data.title = EmptyValues.EMPTY_STRING if request.json['title'] == EmptyValues.EMPTY_STRING else request.json['title']
@@ -72,23 +75,23 @@ class Role(Resource):
                 element_data.chamber_id = EmptyValues.EMPTY_INT if request.json['chamber_id'] == EmptyValues.EMPTY_STRING else request.json['chamber_id']
                 element_data.contest_id = EmptyValues.EMPTY_INT if request.json['contest_id'] == EmptyValues.EMPTY_STRING else request.json['contest_id']
             else:
-                return {'message': 'Role not found.'}, HttpStatus.NOT_FOUND
+                return {'message': CURRENT_NAME + ' not found.'}, HttpStatus.NOT_FOUND
 
             element_data.save()
             return element_data.json(), HttpStatus.CREATED
         except Exception as e:
             return {'message': e.__str__()}, HttpStatus.BAD_REQUEST
 
-    @local_ns.doc('Delete a Role with the specified id',
+    @local_ns.doc('Delete a ' + CURRENT_NAME + ' with the specified id',
                   params={
-                    'id': 'id of the Role to delete'
+                    'id': 'id of the ' + CURRENT_NAME + ' to delete'
                 })
     def delete(self, id):
         try:
-            element_data = RoleModel.find_by_id(id)
+            element_data = TheModel.find_by_id(id)
             if element_data:
                 element_data.delete()
-                return {'message': 'Role deleted.'}, HttpStatus.OK
-            return {'message': 'Role not found.'}, HttpStatus.NOT_FOUND
+                return {'message': CURRENT_NAME + ' deleted.'}, HttpStatus.OK
+            return {'message': CURRENT_NAME + ' not found.'}, HttpStatus.NOT_FOUND
         except Exception as e:
             return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
