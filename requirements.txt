@@ -11,6 +11,7 @@ distro==1.4.0
 Flask==1.1.2
 Flask-Cors==3.0.10
 Flask-Migrate==2.7.0
+flask-restx==0.3.0
 Flask-SQLAlchemy==2.5.1
 greenlet==1.0.0
 html5lib==1.0.1
