@@ -31,7 +31,7 @@
 -   Column:		person_id
 -   Pending:	Change to FK
 ---
--   Table:		Person
+-   Table:		PersonModel
 -   Column:		contest_id
 -   Pending:	Change to FK
 ---

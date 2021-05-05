@@ -35,7 +35,7 @@ class Contest(db.Model):
         for contest in contests:
 
             roles = Role.query.filter_by(contest_id=contest.contest_id)
-            persons = Person.query.filter_by(contest_id=contest.contest_id)
+            persons = PersonModel.query.filter_by(contest_id=contest.contest_id)
 
             role_ids = []
             person_ids = []

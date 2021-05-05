@@ -217,7 +217,7 @@ data = [
 
 for i in range(len(data)):
     print(data[i])
-    response = requests.post(BASE + 'person', json=data[i])
+    response = requests.post(BASE + 'person/', json=data[i])
     print(response.json())
 print('-----------------------------------------------------------------------')
 print()
@@ -578,42 +578,42 @@ print('Inserting urls for person')
 data = [
 	{
 		'url': 'https://facebook.com/person/campaign',
-		'description': 'Facebook Person 1 - campaign',
+		'description': 'Facebook PersonModel 1 - campaign',
 		'url_type': URL_TYPE.FACEBOOK_CAMPAIGN,
 		'owner_type': URL_OWNER_TYPE.PERSON,
 		'owner_id': 1
 	},
 	{
 		'url': 'https://facebook.com/person/official',
-		'description': 'Facebook Person 1 - official',
+		'description': 'Facebook PersonModel 1 - official',
 		'url_type': URL_TYPE.FACEBOOK_OFFICIAL,
 		'owner_type': URL_OWNER_TYPE.PERSON,
 		'owner_id': 1
 	},
 	{
 		'url': 'https://facebook.com/person/personal',
-		'description': 'Facebook Person 1 - personal',
+		'description': 'Facebook PersonModel 1 - personal',
 		'url_type': URL_TYPE.FACEBOOK_PERSONAL,
 		'owner_type': URL_OWNER_TYPE.PERSON,
 		'owner_id': 1
 	},
 	{
 		'url': 'https://instagram.com/person/campaign',
-		'description': 'Instagram Person 1 - campaign',
+		'description': 'Instagram PersonModel 1 - campaign',
 		'url_type': URL_TYPE.INSTAGRAM_CAMPAIGN,
 		'owner_type': URL_OWNER_TYPE.PERSON,
 		'owner_id': 1
 	},
 	{
 		'url': 'https://instagram.com/person/official',
-		'description': 'Instagram Person 1 - official',
+		'description': 'Instagram PersonModel 1 - official',
 		'url_type': URL_TYPE.INSTAGRAM_OFFICIAL,
 		'owner_type': URL_OWNER_TYPE.PERSON,
 		'owner_id': 1
 	},
 	{
 		'url': 'https://instagram.com/person/personal',
-		'description': 'Instagram Person 1 - personal',
+		'description': 'Instagram PersonModel 1 - personal',
 		'url_type': URL_TYPE.INSTAGRAM_PERSONAL,
 		'owner_type': URL_OWNER_TYPE.PERSON,
 		'owner_id': 1
