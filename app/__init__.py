@@ -1,8 +1,8 @@
 import os
 from flask import Flask
-from flask_cors import CORS
+from flask_marshmallow import Marshmallow
 from flask_sqlalchemy import SQLAlchemy
-from flask_migrate import Migrate
+from flask_restx import Api
 
 #   Configure for local test
 #   This works with SQLite3
@@ -20,12 +20,11 @@ application.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
 application.config['JSON_AS_ASCII'] = False
 isOnDev = True
 application.debug = isOnDev
-CORS(application)
+ma = Marshmallow(application)
 db = SQLAlchemy(application)
-migrate = Migrate(application, db)
+api = Api(application, title='MX Elections 2021')
 
 #   Functions for the app
-from app.controllers.frontend import *
 from app.controllers.area import *
 from app.controllers.chamber import *
 from app.controllers.role import *
