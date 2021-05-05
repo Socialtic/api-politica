@@ -5,6 +5,7 @@ class HttpStatus:
     FORBIDDEN = 403
     NOT_FOUND = 404
     NOT_ALLOWED = 405
+    INTERNAL_ERROR = 500
 
 class EmptyValues:
     EMPTY_INT = (-1)
