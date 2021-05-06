@@ -14,7 +14,7 @@ data = [
     	'state': '',
     	'city': '',
     	'district_type': 0,
-    	'parent_area_id': ''
+    	'parent_area_id': -1
     },
     {
     	'ocd_id': 'ocd-division/country:mx/state:bc',
@@ -23,7 +23,7 @@ data = [
     	'state': 'BCN',
     	'city': 'BAJA CALIFORNIA',
     	'district_type': 1,
-    	'parent_area_id': '1'
+    	'parent_area_id': 1
     },
     {
     	'ocd_id': 'ocd-division/country:mx/state:bs',
@@ -32,7 +32,7 @@ data = [
     	'state': 'BCS',
     	'city': 'BAJA CALIFORNIA SUR',
     	'district_type': 1,
-    	'parent_area_id': '1'
+    	'parent_area_id': 1
     },
     {
     	'ocd_id': 'ocd-division/country:mx/state:cm',
@@ -47,7 +47,7 @@ data = [
 
 for i in range(len(data)):
     print(data[i])
-    response = requests.post(BASE + 'area', json=data[i])
+    response = requests.post(BASE + 'area/', json=data[i])
     print(response.json())
 
 print('-----------------------------------------------------------------------')
