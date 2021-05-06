@@ -351,7 +351,7 @@ data = [
 	{
 		'area_id': 2,
 		'title': 'Gubernatura de BAJA CALIFORNIA',
-		'membership_id_winner': '',
+		'membership_id_winner': -1,
 		'start_date': '2020-04-05',
 		'end_date': '2020-06-06',
 		'election_identifier': 'election-identifier-01'
@@ -359,7 +359,7 @@ data = [
 	{
 		'area_id': 2,
 		'title': 'Gubernatura de BAJA CALIFORNIA SUR',
-		'membership_id_winner': '',
+		'membership_id_winner': -1,
 		'start_date': '2020-04-05',
 		'end_date': '2020-06-06',
 		'election_identifier': 'election-identifier-02'
@@ -367,7 +367,7 @@ data = [
 	{
 		'area_id': 3,
 		'title': 'Gubernatura de CAMPECHE',
-		'membership_id_winner': '',
+		'membership_id_winner': -1,
 		'start_date': '2020-04-05',
 		'end_date': '2020-06-06',
 		'election_identifier': 'election-identifier-03'
@@ -376,7 +376,7 @@ data = [
 
 for i in range(len(data)):
     print(data[i])
-    response = requests.post(BASE + 'contest', json=data[i])
+    response = requests.post(BASE + 'contest/', json=data[i])
     print(response.json())
 print('-----------------------------------------------------------------------')
 print()
