@@ -141,41 +141,41 @@ data = [
     	'abbreviation': 'Morena',
     	'colors': ['RED'],
     	'area_id': '1',
-    	'coalition_id': ''
+    	'coalition_id': '-1'
     },
     {
     	'name': 'Movimiento Ciudadano',
     	'abbreviation': 'MC',
     	'colors': ['ORANGE'],
     	'area_id': '1',
-    	'coalition_id': ''
+    	'coalition_id': '-1'
     },
     {
     	'name': 'Partido Acción Nacional',
     	'abbreviation': 'PAN',
     	'colors': ['BLUE', 'WHITE'],
     	'area_id': '1',
-    	'coalition_id': ''
+    	'coalition_id': '-1'
     },
     {
     	'name': 'Partido de la Revolución Democrática',
     	'abbreviation': 'prd',
     	'colors': ['YELLOW', 'BLACK'],
     	'area_id': '1',
-    	'coalition_id': ''
+    	'coalition_id': '-1'
     },
     {
     	'name': 'Partido Encuentro Social',
     	'abbreviation': 'PES',
     	'colors': ['BLUE', 'WHITE'],
     	'area_id': '1',
-    	'coalition_id': ''
+    	'coalition_id': '-1'
     }
 ]
 
 for i in range(len(data)):
     print(data[i])
-    response = requests.post(BASE + 'party', json=data[i])
+    response = requests.post(BASE + 'party/', json=data[i])
     print(response.json())
 print('-----------------------------------------------------------------------')
 print()
