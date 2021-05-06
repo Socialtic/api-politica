@@ -18,14 +18,14 @@ application = Flask(__name__)
 application.config["SQLALCHEMY_DATABASE_URI"] = database_file
 application.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
 application.config['JSON_AS_ASCII'] = False
-isOnDev = True
+isOnDev = False
 application.debug = isOnDev
 ma = Marshmallow(application)
 db = SQLAlchemy(application)
 api = Api(application, doc='/docs',
           title='MX Elections 2021',
           description='API of information on the Mexican elections of 2021',
-          version=1.1)
+          version='1.1')
 
 #   Functions for the app
 from app.controllers.area import *
