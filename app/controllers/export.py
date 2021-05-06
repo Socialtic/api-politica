@@ -1,61 +1,65 @@
-from flask import request, jsonify
-from app import application as app
+from flask_restx import Resource, fields
+from app import api
 
 #   Min
-from app.models.area import *
-from app.models.chamber import *
-from app.models.role import *
-from app.models.person import *
-from app.models.party import *
-from app.models.memberships import *
-from app.models.contest import *
+from app.models.area import AreaModel
+from app.models.chamber import ChamberModel
+from app.models.role import RoleModel
+from app.models.person import PersonModel
+from app.models.party import PartyModel
+from app.models.memberships import MembershipModel
+from app.models.contest import ContestModel
 
 #   Extended
-from app.models.coalition import *
-from app.models.other_names import *
-from app.models.professions import *
-from app.models.person_professions import *
-from app.models.url import *
+from app.models.coalition import CoalitionModel
+from app.models.other_names import OtherNamesModel
+from app.models.professions import ProfessionModel
+from app.models.person_professions import PersonProfessionModel
+from app.models.url import UrlModel
 
-from app.const import *
+from app.const import HttpStatus, EmptyValues
 
-@app.route('/export-min', methods=['GET'])
-def export_min():
+#   Namespace to route
+export_ns = api.namespace('export', description='Get all information')
+export_min_ns = api.namespace('export-min', description='Get minimum necessary information')
 
-    construct = {}
+@export_min_ns.route('/')
+class ExportMin(Resource):
+    @export_min_ns.doc('Get all information')
+    def get(self):
+        try:
+            obj = {
+                'areas': AreaModel.find_all(),
+                'chambers': ChamberModel.find_all(),
+                'roles': RoleModel.find_all(),
+                'persons': PersonModel.find_all(),
+                'parties': PartyModel.find_all(),
+                'memberships': MembershipModel.find_all(),
+                'contests': ContestModel.find_all()
+            }
+            return obj, HttpStatus.OK
+        except Exception as e:
+            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
 
-    construct = {
-        'areas': Area.getAll(),
-        'chambers': Chamber.getAll(),
-        'roles': Role.getAll(),
-        'persons': PersonModel.getAll(),
-        'parties': Party.getAll(),
-        'memberships': Membership.getAll(),
-        'contests': Contest.getAll()
-    }
-    response = jsonify(construct)
-    response.status_code = HttpStatus.OK
-    return response
-
-@app.route('/export', methods=['GET'])
-def export():
-
-    construct = {}
-
-    construct = {
-        'areas': Area.getAll(),
-        'chambers': Chamber.getAll(),
-        'roles': Role.getAll(),
-        'coalitions': Coalition.getAll(),
-        'persons': PersonModel.getAll(),
-        'other-names': Other_Names.getAll(),
-        'professions': Profession.getAll(),
-        'person-professions': PersonProfessionModel.getAll(),
-        'parties': Party.getAll(),
-        'memberships': Membership.getAll(),
-        'contests': Contest.getAll(),
-        'urls': Url.getAll()
-    }
-    response = jsonify(construct)
-    response.status_code = HttpStatus.OK
-    return response
+@export_ns.route('/')
+class Export(Resource):
+    @export_ns.doc('Get minimum necessary information')
+    def get(self):
+        try:
+            obj = {
+                'areas': AreaModel.find_all(),
+                'chambers': ChamberModel.find_all(),
+                'roles': RoleModel.find_all(),
+                'coalitions': CoalitionModel.find_all(),
+                'persons': PersonModel.find_all(),
+                'other-names': OtherNamesModel.find_all(),
+                'professions': ProfessionModel.find_all(),
+                'person-professions': PersonProfessionModel.find_all(),
+                'parties': PartyModel.find_all(),
+                'memberships': MembershipModel.find_all(),
+                'contests': ContestModel.find_all(),
+                'urls': UrlModel.find_all()
+            }
+            return obj, HttpStatus.OK
+        except Exception as e:
+            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
