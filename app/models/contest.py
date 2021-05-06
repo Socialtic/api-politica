@@ -11,12 +11,12 @@ class ContestModel(db.Model):
 
     contest_id = db.Column(db.Integer, unique=True, primary_key=True, nullable=False, autoincrement=True)
     area_id = db.Column(db.Integer, db.ForeignKey('area.area_id'), nullable=True)
-    title = db.Column(db.String(50), nullable=False)
+    title = db.Column(db.String(100), nullable=False)
     membership_id_winner = db.Column(db.Integer, db.ForeignKey('membership.membership_id'), nullable=True)
     #membership_id_winner = db.Column(db.Integer, nullable=True)
     start_date = db.Column(db.Date)
     end_date = db.Column(db.Date)
-    election_identifier = db.Column(db.String(100), nullable=False)
+    election_identifier = db.Column(db.String(1000), nullable=False)
 
     def __init__(self, area_id, title, membership_id_winner, start_date, end_date, election_identifier):
         self.area_id = area_id
