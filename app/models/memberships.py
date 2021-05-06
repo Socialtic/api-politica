@@ -1,9 +1,10 @@
 from app import db
+from typing import List
 from app.const import Catalogues, EmptyValues
 from datetime import date
-from app.controllers.url import *
+from app.models.url import UrlModel
 
-class Membership(db.Model):
+class MembershipModel(db.Model):
     __tablename__ = 'membership'
     __table_args__ = {'sqlite_autoincrement': True}
 
@@ -11,18 +12,18 @@ class Membership(db.Model):
     person_id = db.Column(db.Integer, db.ForeignKey('person.person_id'), nullable=False)
     role_id = db.Column(db.Integer, db.ForeignKey('role.role_id'), nullable=False)
     party_id = db.Column(db.Integer, db.ForeignKey('party.party_id'), nullable=False)
-    #coalition_id = db.Column(db.Integer, db.ForeignKey('coalition.coalition_id'), nullable=True)
-    coalition_id = db.Column(db.Integer, nullable=True)
-    #contest_id = db.Column(db.Integer, db.ForeignKey('contest.contest_id'), nullable=True)
-    contest_id = db.Column(db.Integer, nullable=True)
+    coalition_id = db.Column(db.Integer, db.ForeignKey('coalition.coalition_id'), nullable=True)
+    #coalition_id = db.Column(db.Integer, nullable=True)
+    contest_id = db.Column(db.Integer, db.ForeignKey('contest.contest_id'), nullable=True)
+    #contest_id = db.Column(db.Integer, nullable=True)
     goes_for_coalition = db.Column(db.Boolean, nullable=False)
     membership_type = db.Column(db.Integer, nullable=False)
     goes_for_reelection = db.Column(db.Boolean, nullable=False)
     start_date = db.Column(db.Date)
     end_date = db.Column(db.Date)
     is_substitute = db.Column(db.Boolean, nullable=False)
-    #parent_membership_id = db.Column(db.Integer, db.ForeignKey('membership.membership_id'), nullable=True)
-    parent_membership_id = db.Column(db.Integer, nullable=True)
+    parent_membership_id = db.Column(db.Integer, db.ForeignKey('membership.membership_id'), nullable=True)
+    #parent_membership_id = db.Column(db.Integer, nullable=True)
     changed_from_substitute = db.Column(db.Boolean)
     date_changed_from_substitute = db.Column(db.Date)
 
@@ -47,35 +48,46 @@ class Membership(db.Model):
         self.changed_from_substitute = changed_from_substitute
         self.date_changed_from_substitute = date_changed_from_substitute
 
+    def json(self):
+        obj = {
+            'id': self.membership_id,
+            'person_id': self.person_id,
+            'role_id': self.role_id,
+            'party_ids': [self.party_id],
+            'coalition_id': "" if self.coalition_id == EmptyValues.EMPTY_INT else self.coalition_id,
+            'contest_id': "" if self.contest_id == EmptyValues.EMPTY_INT else self.contest_id,
+            'goes_for_coalition': self.goes_for_coalition,
+            'membership_type': Catalogues.MEMBERSHIP_TYPES[self.membership_type],
+            'goes_for_reelection': self.goes_for_reelection,
+            'start_date': "" if self.start_date.strftime('%Y-%m-%d') == date.fromisoformat(
+                EmptyValues.EMPTY_DATE).strftime('%Y-%m-%d') else self.start_date.strftime('%Y-%m-%d'),
+            'end_date': "" if self.end_date.strftime('%Y-%m-%d') == date.fromisoformat(
+                EmptyValues.EMPTY_DATE).strftime('%Y-%m-%d') else self.end_date.strftime('%Y-%m-%d'),
+            'is_substitute': self.is_substitute,
+            'parent_membership_id': "" if self.parent_membership_id == EmptyValues.EMPTY_INT else self.parent_membership_id,
+            'changed_from_substitute': "" if self.changed_from_substitute == EmptyValues.EMPTY_INT else self.changed_from_substitute,
+            'date_changed_from_substitute': "" if self.date_changed_from_substitute.strftime(
+                '%Y-%m-%d') == date.fromisoformat(EmptyValues.EMPTY_DATE).strftime(
+                '%Y-%m-%d') else self.date_changed_from_substitute.strftime('%Y-%m-%d'),
+            'source_urls': UrlModel.get_membership_source_urls(self.membership_id)
+        }
+        return obj
+
+    @classmethod
+    def find_by_id(cls, _id) -> "MembershipModel":
+        return cls.query.filter_by(membership_id=_id).first()
+
+    @classmethod
+    def find_all(cls) -> List["MembershipModel"]:
+        query_all = cls.query.all()
+        result = []
+        for one_element in query_all:
+            result.append(one_element.json())
+        return result
+
     def save(self):
         db.session.add(self)
         db.session.commit()
-
-    @staticmethod
-    def getAll():
-        memberships = Membership.query.all()
-        result = []
-        for membership in memberships:
-            obj = {
-                'id': membership.membership_id,
-                'person_id': membership.person_id,
-                'role_id': membership.role_id,
-                'party_ids': [membership.party_id],
-                'coalition_id': "" if membership.coalition_id == EmptyValues.EMPTY_INT else membership.coalition_id,
-                'contest_id': "" if membership.contest_id == EmptyValues.EMPTY_INT else membership.contest_id,
-                'goes_for_coalition': membership.goes_for_coalition,
-                'membership_type': Catalogues.MEMBERSHIP_TYPES[membership.membership_type],
-                'goes_for_reelection': membership.goes_for_reelection,
-                'start_date': "" if membership.start_date.strftime('%Y-%m-%d') == date.fromisoformat(EmptyValues.EMPTY_DATE).strftime('%Y-%m-%d') else membership.start_date.strftime('%Y-%m-%d'),
-                'end_date': "" if membership.end_date.strftime('%Y-%m-%d') == date.fromisoformat(EmptyValues.EMPTY_DATE).strftime('%Y-%m-%d') else membership.end_date.strftime('%Y-%m-%d'),
-                'is_substitute': membership.is_substitute,
-                'parent_membership_id': "" if membership.parent_membership_id == EmptyValues.EMPTY_INT else membership.parent_membership_id,
-                'changed_from_substitute': "" if membership.changed_from_substitute == EmptyValues.EMPTY_INT else membership.changed_from_substitute,
-                'date_changed_from_substitute': "" if membership.date_changed_from_substitute.strftime('%Y-%m-%d') == date.fromisoformat(EmptyValues.EMPTY_DATE).strftime('%Y-%m-%d') else membership.date_changed_from_substitute.strftime('%Y-%m-%d'),
-                'source_urls': Url.get_membership_source_urls(membership.membership_id)
-            }
-            result.append(obj)
-        return result
 
     def delete(self):
         db.session.delete(self)
