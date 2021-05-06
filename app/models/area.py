@@ -7,8 +7,8 @@ class AreaModel(db.Model):
     __table_args__ = {'sqlite_autoincrement': True}
 
     area_id = db.Column(db.Integer, unique=True, primary_key=True, nullable=False, autoincrement=True)
-    ocd_id = db.Column(db.String(50), nullable=False)
-    name = db.Column(db.String(50), nullable=False)
+    ocd_id = db.Column(db.String(100), nullable=False)
+    name = db.Column(db.String(100), nullable=False)
     country = db.Column(db.String(2), nullable=False)
     state = db.Column(db.String(5))
     city = db.Column(db.String(250))
