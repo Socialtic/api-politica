@@ -7,7 +7,7 @@ from app.const import Catalogues, EmptyValues, URL_OWNER_TYPE, OtherNames
 from app.models.person_professions import PersonProfessionModel
 from app.models.professions import ProfessionModel
 from app.models.url import UrlModel
-from app.models.other_names import Other_Names
+from app.models.other_names import OtherNamesModel
 
 class PersonModel(db.Model):
     __tablename__ = 'person'
@@ -36,9 +36,9 @@ class PersonModel(db.Model):
 
     def json(self):
         #   Getting other_names
-        other_names_preferred = Other_Names.query.filter_by(other_name_type_id=OtherNames.PREFERRED, person_id=self.person_id)
-        other_names_nickname = Other_Names.query.filter_by(other_name_type_id=OtherNames.NICKNAME, person_id=self.person_id)
-        other_names_ballot_name = Other_Names.query.filter_by(other_name_type_id=OtherNames.BALLOT_NAME, person_id=self.person_id)
+        other_names_preferred = OtherNamesModel.query.filter_by(other_name_type=OtherNames.PREFERRED, person_id=self.person_id)
+        other_names_nickname = OtherNamesModel.query.filter_by(other_name_type=OtherNames.NICKNAME, person_id=self.person_id)
+        other_names_ballot_name = OtherNamesModel.query.filter_by(other_name_type=OtherNames.BALLOT_NAME, person_id=self.person_id)
 
         other_names_preferred_val = []
         other_names_nickname_val = []

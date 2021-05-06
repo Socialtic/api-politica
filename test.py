@@ -234,7 +234,7 @@ data = [
 
 for i in range(len(data)):
     print(data[i])
-    response = requests.post(BASE + 'other-name', json=data[i])
+    response = requests.post(BASE + 'other-name/', json=data[i])
     print(response.json())
 print('-----------------------------------------------------------------------')
 print()
