@@ -12,6 +12,7 @@ jsonschema==3.2.0
 MarkupSafe==1.1.1
 marshmallow==3.11.1
 marshmallow-sqlalchemy==0.25.0
+PyMySQL==1.0.2
 pyrsistent==0.17.3
 pytz==2021.1
 requests==2.25.1
