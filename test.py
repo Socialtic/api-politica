@@ -284,43 +284,6 @@ for i in range(len(data)):
 print('-----------------------------------------------------------------------')
 print()
 
-"""
-print('-----------------------------------------------------------------------')
-print('Inserting past memberships')
-data = [
-    {
-    	'person_id': 1,
-    	'start_date': '2004-06-01',
-    	'end_date': '2008-12-01',
-    	'party_name': 'PRI',
-    	'coalition_name': '',
-    	'role_name': 'Presidente Municipal de Zapopan'
-    },
-    {
-    	'person_id': 1,
-    	'start_date': '2008-06-01',
-    	'end_date': '2012-12-01',
-    	'party_name': 'PRI',
-    	'coalition_name': '',
-    	'role_name': 'Gobernador de Jalisco'
-    },
-    {
-    	'person_id': 1,
-    	'start_date': '2012-06-01',
-    	'end_date': '2018-12-01',
-    	'party_name': 'PRI',
-    	'coalition_name': '',
-    	'role_name': 'Presidente de México'
-    }
-]
-
-for i in range(len(data)):
-    print(data[i])
-    response = requests.post(BASE + 'past-membership', json=data[i])
-    print(response.json())
-print('-----------------------------------------------------------------------')
-print()
-"""
 
 print('-----------------------------------------------------------------------')
 print('Inserting memberships')
@@ -329,7 +292,7 @@ data = [
 		'person_id': 1,
 		'role_id': 2,
 		'party_id': 4,
-		'coalition_id': '',
+		'coalition_id': -1,
 		'contest_id': 1,
 		'goes_for_coalition': True,
 		'membership_type': 2,
@@ -337,15 +300,15 @@ data = [
 		'start_date': '2020-04-04',
 		'end_date': '2020-06-02',
 		'is_substitute': False,
-		'parent_membership_id': '',
+		'parent_membership_id': -1,
 		'changed_from_substitute': False,
-		'date_changed_from_substitute': ''
+		'date_changed_from_substitute': '0001-01-01'
 	},
 	{
 		'person_id': 2,
 		'role_id': 2,
 		'party_id': 2,
-		'coalition_id': '',
+		'coalition_id': -1,
 		'contest_id': 2,
 		'goes_for_coalition': True,
 		'membership_type': 2,
@@ -353,15 +316,15 @@ data = [
 		'start_date': '2020-04-05',
 		'end_date': '2020-06-02',
 		'is_substitute': False,
-		'parent_membership_id': '',
+		'parent_membership_id': -1,
 		'changed_from_substitute': False,
-		'date_changed_from_substitute': ''
+		'date_changed_from_substitute': '0001-01-01'
 	},
 	{
 		'person_id': 3,
 		'role_id': 2,
 		'party_id': 1,
-		'coalition_id': '',
+		'coalition_id': -1,
 		'contest_id': 3,
 		'goes_for_coalition': True,
 		'membership_type': 2,
@@ -369,15 +332,15 @@ data = [
 		'start_date': '2020-04-06',
 		'end_date': '2020-06-02',
 		'is_substitute': False,
-		'parent_membership_id': '',
+		'parent_membership_id': -1,
 		'changed_from_substitute': False,
-		'date_changed_from_substitute': ''
+		'date_changed_from_substitute': '0001-01-01'
 	}
 ]
 
 for i in range(len(data)):
     print(data[i])
-    response = requests.post(BASE + 'membership', json=data[i])
+    response = requests.post(BASE + 'membership/', json=data[i])
     print(response.json())
 print('-----------------------------------------------------------------------')
 print()
