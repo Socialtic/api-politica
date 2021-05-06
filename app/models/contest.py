@@ -16,7 +16,7 @@ class ContestModel(db.Model):
     #membership_id_winner = db.Column(db.Integer, nullable=True)
     start_date = db.Column(db.Date)
     end_date = db.Column(db.Date)
-    election_identifier = db.Column(db.String(2000), nullable=False)
+    election_identifier = db.Column(db.String(3000), nullable=False)
 
     def __init__(self, area_id, title, membership_id_winner, start_date, end_date, election_identifier):
         self.area_id = area_id
