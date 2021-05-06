@@ -1,8 +1,9 @@
 from app import db
-from app.controllers.url import *
+from typing import List
 from app.const import URL_OWNER_TYPE
+from app.models.url import UrlModel
 
-class Coalition(db.Model):
+class CoalitionModel(db.Model):
     __tablename__ = 'coalition'
     __table_args__ = {'sqlite_autoincrement': True}
 
@@ -16,34 +17,40 @@ class Coalition(db.Model):
         self.abbreviation = abbreviation
         self.colors = colors
 
+    def json(self):
+        obj = {
+            'id': self.coalition_id,
+            'name': {
+                'en_US': self.name,
+                'es_MX': self.name
+            },
+            'abbreviation': {
+                'en_US': self.abbreviation,
+                'es_MX': self.abbreviation
+            },
+            'colors': self.colors,
+            'fb_urls': UrlModel.get_party_or_coalition_fb_urls(self.coalition_id, URL_OWNER_TYPE.COALITION),
+            'ig_urls': UrlModel.get_party_or_coalition_ig_urls(self.coalition_id, URL_OWNER_TYPE.COALITION),
+            'logo_urls': UrlModel.get_party_or_coalition_logo_urls(self.coalition_id, URL_OWNER_TYPE.COALITION),
+            'websites': UrlModel.get_party_or_coalition_or_person_websites_urls(self.coalition_id,URL_OWNER_TYPE.COALITION)
+        }
+        return obj
+
+    @classmethod
+    def find_by_id(cls, _id) -> "CoalitionModel":
+        return cls.query.filter_by(coalition_id=_id).first()
+
+    @classmethod
+    def find_all(cls) -> List["CoalitionModel"]:
+        query_all = cls.query.all()
+        result = []
+        for one_element in query_all:
+            result.append(one_element.json())
+        return result
+
     def save(self):
         db.session.add(self)
         db.session.commit()
-
-    @staticmethod
-    def getAll():
-        coalitions = Coalition.query.all()
-        result = []
-        for coalition in coalitions:
-            obj = {
-                'id': coalition.coalition_id,
-                'name': {
-                    'en_US': coalition.name,
-                    'es_MX': coalition.name
-                },
-                'abbreviation': {
-                    'en_US': coalition.abbreviation,
-                    'es_MX': coalition.abbreviation
-                },
-                'colors': coalition.colors,
-                'fb_urls': Url.get_party_or_coalition_fb_urls(coalition.coalition_id, URL_OWNER_TYPE.COALITION),
-                'ig_urls': Url.get_party_or_coalition_ig_urls(coalition.coalition_id, URL_OWNER_TYPE.COALITION),
-                'logo_urls': Url.get_party_or_coalition_logo_urls(coalition.coalition_id, URL_OWNER_TYPE.COALITION),
-                'websites': Url.get_party_or_coalition_or_person_websites_urls(coalition.coalition_id,
-                                                                               URL_OWNER_TYPE.COALITION)
-            }
-            result.append(obj)
-        return result
 
     def delete(self):
         db.session.delete(self)

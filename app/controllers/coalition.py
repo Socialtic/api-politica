@@ -1,172 +1,93 @@
-from flask import request, jsonify
-from app.models.coalition import *
-from app.const import *
-from app.controllers.url import *
-from app import application as app
-from app import isOnDev
+from flask import request
+from flask_restx import Resource, fields
 
-@app.route('/coalition', methods=['GET', 'POST'])
-def coalition():
+from app import api
+from app.models.coalition import CoalitionModel as TheModel
+from app.schemas.coalition import CoalitionSchema as TheSchema
+from app.const import HttpStatus, EmptyValues
 
-    construct = {
-        'success': False,
-        'message': 'Method not allowed :)'
-    }
-    response = jsonify(construct)
-    response.status_code = HttpStatus.NOT_ALLOWED
+#   Name of the current item/element
+CURRENT_NAME = 'Coalition'
 
-    #   Get all from table coalition
-    if request.method == 'GET':
-        construct = {
-            'success': True,
-            'coalitions': Coalition.getAll()
-        }
-        response = jsonify(construct)
-        response.status_code = HttpStatus.OK
+#   Namespace to route
+local_ns = api.namespace('coalition', description=CURRENT_NAME + ' related operations')
 
-    #   Trying to insert into the table
-    elif request.method == 'POST' and isOnDev:
+#   Database schemas
+local_schema = TheSchema()
 
-        #   Trying to get parameters from the POST method
+#   Model required by flask_restx for expect on POST and PUT methods
+model_validator = local_ns.model(CURRENT_NAME, {
+    'name': fields.String,
+    'abbreviation': fields.String,
+    'colors': fields.List(fields.String)
+})
+
+@local_ns.route('/')
+class CoalitionList(Resource):
+    @local_ns.doc('Get all the ' + CURRENT_NAME + 's')
+    def get(self):
         try:
-            name = EmptyValues.EMPTY_STRING if request.json['name'] == EmptyValues.EMPTY_STRING else request.json['name']
-            abbreviation = EmptyValues.EMPTY_STRING if request.json['abbreviation'] == EmptyValues.EMPTY_STRING else request.json['abbreviation']
-            colors = EmptyValues.EMPTY_STRING if request.json['colors'] == EmptyValues.EMPTY_STRING else request.json['colors']
-
-            #   Verifying REQUIRED values
-            if name == EmptyValues.EMPTY_STRING:
-                construct['success'] = False
-                construct['error'] = 'Missing data. Required values for name.'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-                return response
-
-            #   Trying to INSERT into the DB
-            try:
-                coalition = Coalition(
-                    name=name, abbreviation=abbreviation, colors=colors
-                )
-                coalition.save()
-                construct['success'] = True
-                construct['message'] = 'Data saved'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.CREATED
-
-            #   Falling while INSERTING into the DB
-            except Exception as e:
-                construct['success'] = False
-                construct['error'] = str(e)
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-
-        #   Missing parameters from the POST method
+            return TheModel.find_all(), HttpStatus.OK
         except Exception as e:
-            construct['success'] = False
-            construct['error'] = 'Missing data. Missing value ' + str(e)
-            response = jsonify(construct)
-            response.status_code = HttpStatus.BAD_REQUEST
+            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
 
-    return response
-
-@app.route('/coalition/<int:coalition_id>', methods=['GET', 'PUT', 'DELETE'])
-def coalitionId(coalition_id):
-
-    construct = {
-        'success': False,
-        'message': 'Method not allowed :)'
-    }
-    response = jsonify(construct)
-    response.status_code = HttpStatus.NOT_ALLOWED
-
-    #   Trying to get the area with area_id
-    coalition = Coalition.query.filter_by(coalition_id=coalition_id).first()
-
-    #   If theres no result from the above query
-    if not coalition:
-        construct = {
-            'success': False,
-            'message': 'Theres no data for that coalition_id'
-        }
-        response = jsonify(construct)
-        response.status_code = HttpStatus.OK
-        return response
-
-    #   If theres a result, then ...
-    #   Get their data
-    if request.method == 'GET':
-        construct = {
-            'success': True,
-            'coalition': {
-                'id': coalition.coalition_id,
-                'name': coalition.name,
-                'abbreviation': coalition.abbreviation,
-                'colors': coalition.colors,
-                'fb_urls': Url.get_party_or_coalition_fb_urls(coalition.coalition_id, URL_OWNER_TYPE.COALITION),
-                'ig_urls': Url.get_party_or_coalition_ig_urls(coalition.coalition_id, URL_OWNER_TYPE.COALITION),
-                'logo_urls': Url.get_party_or_coalition_logo_urls(coalition.coalition_id, URL_OWNER_TYPE.COALITION),
-                'websites': Url.get_party_or_coalition_or_person_websites_urls(coalition.coalition_id,
-                                                                               URL_OWNER_TYPE.COALITION)
-            }
-        }
-        response = jsonify(construct)
-        response.status_code = HttpStatus.OK
-
-    #   Update their data
-    elif request.method == 'PUT' and isOnDev:
-        construct = {}
-
-        #   Trying to get parameters from the PUT method
+    @local_ns.doc('Create a ' + CURRENT_NAME)
+    @local_ns.expect(model_validator)
+    def post(self):
         try:
-            name = EmptyValues.EMPTY_STRING if request.json['name'] == EmptyValues.EMPTY_STRING else request.json['name']
-            abbreviation = EmptyValues.EMPTY_STRING if request.json['abbreviation'] == EmptyValues.EMPTY_STRING else request.json['abbreviation']
-            colors = EmptyValues.EMPTY_STRING if request.json['colors'] == EmptyValues.EMPTY_STRING else request.json['colors']
-
-            #   Verifying REQUIRED values
-            if name == EmptyValues.EMPTY_STRING:
-                construct['success'] = False
-                construct['error'] = 'Missing data. Required values for name.'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-                return response
-
-            #   Trying to UPDATE into the DB
-            try:
-                coalition.name = name
-                coalition.abbreviation = abbreviation
-                coalition.colors = colors
-                db.session.commit()
-                construct['success'] = True
-                construct['message'] = 'Data saved'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.CREATED
-
-            #   Falling while UPDATING into the DB
-            except Exception as e:
-                construct['success'] = False
-                construct['error'] = str(e)
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-
-        #   Missing parameters from the PUT method
+            element_json = request.get_json()
+            element_data = local_schema.load(element_json)
+            element_data.save()
+            return element_data.json(), HttpStatus.CREATED
         except Exception as e:
-            construct['success'] = False
-            construct['error'] = 'Missing data. Missing value ' + str(e)
-            response = jsonify(construct)
-            response.status_code = HttpStatus.BAD_REQUEST
+            return {'message': e.__str__()}, HttpStatus.BAD_REQUEST
 
-    #   Delete it from the database
-    elif request.method == 'DELETE' and isOnDev:
-        construct = {}
+@local_ns.route('/<int:id>')
+class Coalition(Resource):
+    @local_ns.doc('Get the ' + CURRENT_NAME + ' with the specified id',
+                  params={
+                    'id': 'id of the ' + CURRENT_NAME + ' to get'
+                })
+    def get(self, id):
         try:
-            coalition.delete()
-            construct['success'] = True
-            construct['message'] = 'Data has been delete.'
-            response = jsonify(construct)
-            response.status_code = HttpStatus.OK
+            element_data = TheModel.find_by_id(id)
+            if element_data:
+                return element_data.json()
+            return {'message': CURRENT_NAME + ' not found.'}, HttpStatus.NOT_FOUND
         except Exception as e:
-            construct['success'] = False
-            construct['error'] = str(e)
-            response = jsonify(construct)
-            response.status_code = HttpStatus.BAD_REQUEST
+            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
 
-    return response
+    @local_ns.doc('Update a ' + CURRENT_NAME + ' with the specified id',
+                  params={
+                    'id': 'id of the ' + CURRENT_NAME + ' to update'
+                })
+    @local_ns.expect(model_validator)
+    def put(self, id):
+        try:
+            element_data = TheModel.find_by_id(id)
+
+            if element_data:
+                element_data.name = EmptyValues.EMPTY_STRING if request.json['name'] == EmptyValues.EMPTY_STRING else request.json['name']
+                element_data.abbreviation = EmptyValues.EMPTY_STRING if request.json['abbreviation'] == EmptyValues.EMPTY_STRING else request.json['abbreviation']
+                element_data.colors = EmptyValues.EMPTY_STRING if request.json['colors'] == EmptyValues.EMPTY_STRING else request.json['colors']
+            else:
+                return {'message': CURRENT_NAME + ' not found.'}, HttpStatus.NOT_FOUND
+
+            element_data.save()
+            return element_data.json(), HttpStatus.CREATED
+        except Exception as e:
+            return {'message': e.__str__()}, HttpStatus.BAD_REQUEST
+
+    @local_ns.doc('Delete a ' + CURRENT_NAME + ' with the specified id',
+                  params={
+                    'id': 'id of the ' + CURRENT_NAME + ' to delete'
+                })
+    def delete(self, id):
+        try:
+            element_data = TheModel.find_by_id(id)
+            if element_data:
+                element_data.delete()
+                return {'message': CURRENT_NAME + ' deleted.'}, HttpStatus.OK
+            return {'message': CURRENT_NAME + ' not found.'}, HttpStatus.NOT_FOUND
+        except Exception as e:
+            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
