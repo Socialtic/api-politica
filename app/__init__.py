@@ -23,7 +23,7 @@ isOnDev = False
 application.debug = isOnDev
 ma = Marshmallow(application)
 db = SQLAlchemy(application)
-api = Api(application, doc='/docs',
+api = Api(application, doc='/',
           title='MX Elections 2021',
           description='API of information on the Mexican elections of 2021',
           version='1.1')

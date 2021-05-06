@@ -1,10 +1,7 @@
 branch-defaults:
   main:
-    environment: mx-elections-2021-dev
-environment-defaults:
-  mx-elections-2021-dev:
-    branch: null
-    repository: null
+    environment: mx-elections-2021
+    group_suffix: null
 global:
   application_name: mx-elections-2021
   branch: null
