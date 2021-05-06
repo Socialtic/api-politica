@@ -7,7 +7,7 @@ from app.schemas.person_professions import PersonProfessionSchema as TheSchema
 from app.const import *
 
 #   Name of the current item/element
-CURRENT_NAME = 'PersonModel-Profession'
+CURRENT_NAME = 'Person-Profession'
 
 #   Namespace to route
 local_ns = api.namespace('person-profession', description=CURRENT_NAME + ' related operations')
