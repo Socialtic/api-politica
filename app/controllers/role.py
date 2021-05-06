@@ -25,7 +25,7 @@ model_validator = local_ns.model(CURRENT_NAME, {
 })
 
 @local_ns.route('/')
-class UrlList(Resource):
+class RoleList(Resource):
     @local_ns.doc('Get all the ' + CURRENT_NAME + 's')
     def get(self):
         try:
@@ -45,7 +45,7 @@ class UrlList(Resource):
             return {'message': e.__str__()}, HttpStatus.BAD_REQUEST
 
 @local_ns.route('/<int:id>')
-class Url(Resource):
+class Role(Resource):
     @local_ns.doc('Get the ' + CURRENT_NAME + ' with the specified id',
                   params={
                     'id': 'id of the ' + CURRENT_NAME + ' to get'
