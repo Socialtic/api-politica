@@ -72,7 +72,7 @@ data = [
 
 for i in range(len(data)):
     print(data[i])
-    response = requests.post(BASE + 'chamber', json=data[i])
+    response = requests.post(BASE + 'chamber/', json=data[i])
     print(response.json())
 print('-----------------------------------------------------------------------')
 print()

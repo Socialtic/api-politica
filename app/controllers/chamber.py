@@ -1,162 +1,91 @@
-from flask import request, jsonify
-from app import application as app
-from app.models.chamber import *
-from app.const import *
-from app import isOnDev
+from flask import request
+from flask_restx import Resource, fields
 
-@app.route('/chamber', methods=['GET', 'POST'])
-def chamber():
+from app import api
+from app.models.chamber import ChamberModel as TheModel
+from app.schemas.chamber import ChamberSchema as TheSchema
+from app.const import HttpStatus, EmptyValues
 
-    construct = {
-        'success': False,
-        'message': 'Method not allowed :)'
-    }
-    response = jsonify(construct)
-    response.status_code = HttpStatus.NOT_ALLOWED
+#   Name of the current item/element
+CURRENT_NAME = 'Chamber'
 
-    #   Get all from table chamber
-    if request.method == 'GET':
-        construct = {
-            'success': True,
-            'chambers': Chamber.getAll()
-        }
-        response = jsonify(construct)
-        response.status_code = HttpStatus.OK
+#   Namespace to route
+local_ns = api.namespace('chamber', description=CURRENT_NAME + ' related operations')
 
-    #   Trying to insert into the table
-    elif request.method == 'POST' and isOnDev:
+#   Database schemas
+local_schema = TheSchema()
 
-        #   Trying to get parameters from the POST method
+#   Model required by flask_restx for expect on POST and PUT methods
+model_validator = local_ns.model(CURRENT_NAME, {
+    'name': fields.String,
+    'area_id': fields.Integer
+})
+
+@local_ns.route('/')
+class ChamberList(Resource):
+    @local_ns.doc('Get all the ' + CURRENT_NAME + 's')
+    def get(self):
         try:
-            name = EmptyValues.EMPTY_STRING if request.json['name'] == EmptyValues.EMPTY_STRING else request.json['name']
-            area_id = EmptyValues.EMPTY_INT if request.json['area_id'] == EmptyValues.EMPTY_STRING else request.json['area_id']
-
-            #   Verifying REQUIRED values
-            if name == EmptyValues.EMPTY_STRING or area_id == EmptyValues.EMPTY_INT:
-                construct['success'] = False
-                construct['error'] = 'Missing data. Required values for name and area_id.'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-                return response
-
-            #   Trying to INSERT into the DB
-            try:
-                chamber = Chamber(name=name, area_id=area_id)
-                chamber.save()
-                construct['success'] = True
-                construct['message'] = 'Data saved'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.CREATED
-
-            #   Falling while INSERTING into the DB
-            except Exception as e:
-                construct['success'] = False
-                construct['error'] = str(e)
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-
-        #   Missing parameters from the POST method
+            return TheModel.find_all(), HttpStatus.OK
         except Exception as e:
-            construct['success'] = False
-            construct['error'] = 'Missing data. Missing value ' + str(e)
-            response = jsonify(construct)
-            response.status_code = HttpStatus.BAD_REQUEST
+            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
 
-    return response
-
-@app.route('/chamber/<int:chamber_id>', methods=['GET', 'PUT', 'DELETE'])
-def chamberId(chamber_id):
-
-    construct = {
-        'success': False,
-        'message': 'Method not allowed :)'
-    }
-    response = jsonify(construct)
-    response.status_code = HttpStatus.NOT_ALLOWED
-
-    #   Trying to get the chamber with chamber_id
-    chamber = Chamber.query.filter_by(chamber_id=chamber_id).first()
-
-    #   If theres no result from the above query
-    if not chamber:
-        construct = {
-            'success': False,
-            'message': 'Theres no data for that chamber_id'
-        }
-        response = jsonify(construct)
-        response.status_code = HttpStatus.OK
-        return response
-
-    #   If theres a result, then ...
-    #   Get their data
-    if request.method == 'GET':
-        construct = {
-            'success': True,
-            'chamber': {
-                'id': chamber.chamber_id,
-                'name': {
-                    'en_US': chamber.name
-                },
-                'area_id': chamber.area_id
-            }
-        }
-        response = jsonify(construct)
-        response.status_code = HttpStatus.OK
-
-    #   Update their data
-    elif request.method == 'PUT' and isOnDev:
-        construct = {}
-
-        #   Trying to get parameters from the PUT method
+    @local_ns.doc('Create a ' + CURRENT_NAME)
+    @local_ns.expect(model_validator)
+    def post(self):
         try:
-            name = EmptyValues.EMPTY_STRING if request.json['name'] == EmptyValues.EMPTY_STRING else request.json['name']
-            area_id = EmptyValues.EMPTY_INT if request.json['area_id'] == EmptyValues.EMPTY_STRING else request.json['area_id']
-
-            #   Verifying REQUIRED values
-            if name == EmptyValues.EMPTY_STRING or area_id == EmptyValues.EMPTY_INT:
-                construct['success'] = False
-                construct['error'] = 'Missing data. Required values for name and area_id.'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-                return response
-
-            #   Trying to UPDATE into the DB
-            try:
-                chamber.name = name
-                chamber.area_id = area_id
-                db.session.commit()
-                construct['success'] = True
-                construct['message'] = 'Data saved'
-                response = jsonify(construct)
-                response.status_code = HttpStatus.CREATED
-
-            #   Falling while UPDATING into the DB
-            except Exception as e:
-                construct['success'] = False
-                construct['error'] = str(e)
-                response = jsonify(construct)
-                response.status_code = HttpStatus.BAD_REQUEST
-
-        #   Missing parameters from the PUT method
+            element_json = request.get_json()
+            element_data = local_schema.load(element_json)
+            element_data.save()
+            return element_data.json(), HttpStatus.CREATED
         except Exception as e:
-            construct['success'] = False
-            construct['error'] = 'Missing data. Missing value ' + str(e)
-            response = jsonify(construct)
-            response.status_code = HttpStatus.BAD_REQUEST
+            return {'message': e.__str__()}, HttpStatus.BAD_REQUEST
 
-    #   Delete it from the database
-    elif request.method == 'DELETE' and isOnDev:
-        construct = {}
+@local_ns.route('/<int:id>')
+class Chamber(Resource):
+    @local_ns.doc('Get the ' + CURRENT_NAME + ' with the specified id',
+                  params={
+                    'id': 'id of the ' + CURRENT_NAME + ' to get'
+                })
+    def get(self, id):
         try:
-            chamber.delete()
-            construct['success'] = True
-            construct['message'] = 'Data has been delete.'
-            response = jsonify(construct)
-            response.status_code = HttpStatus.OK
+            element_data = TheModel.find_by_id(id)
+            if element_data:
+                return element_data.json()
+            return {'message': CURRENT_NAME + ' not found.'}, HttpStatus.NOT_FOUND
         except Exception as e:
-            construct['success'] = False
-            construct['error'] = str(e)
-            response = jsonify(construct)
-            response.status_code = HttpStatus.BAD_REQUEST
+            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
 
-    return response
+    @local_ns.doc('Update a ' + CURRENT_NAME + ' with the specified id',
+                  params={
+                    'id': 'id of the ' + CURRENT_NAME + ' to update'
+                })
+    @local_ns.expect(model_validator)
+    def put(self, id):
+        try:
+            element_data = TheModel.find_by_id(id)
+
+            if element_data:
+                element_data.name = EmptyValues.EMPTY_STRING if request.json['name'] == EmptyValues.EMPTY_STRING else request.json['name']
+                element_data.area_id = EmptyValues.EMPTY_INT if request.json['area_id'] == EmptyValues.EMPTY_STRING else request.json['area_id']
+            else:
+                return {'message': CURRENT_NAME + ' not found.'}, HttpStatus.NOT_FOUND
+
+            element_data.save()
+            return element_data.json(), HttpStatus.CREATED
+        except Exception as e:
+            return {'message': e.__str__()}, HttpStatus.BAD_REQUEST
+
+    @local_ns.doc('Delete a ' + CURRENT_NAME + ' with the specified id',
+                  params={
+                    'id': 'id of the ' + CURRENT_NAME + ' to delete'
+                })
+    def delete(self, id):
+        try:
+            element_data = TheModel.find_by_id(id)
+            if element_data:
+                element_data.delete()
+                return {'message': CURRENT_NAME + ' deleted.'}, HttpStatus.OK
+            return {'message': CURRENT_NAME + ' not found.'}, HttpStatus.NOT_FOUND
+        except Exception as e:
+            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
