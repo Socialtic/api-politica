@@ -4,7 +4,7 @@ from flask_restx import Resource, fields
 from app import api
 from app.models.role import RoleModel as TheModel
 from app.schemas.role import RoleSchema as TheSchema
-from app.const import *
+from app.const import HttpStatus, EmptyValues
 
 #   Name of the current item/element
 CURRENT_NAME = 'Role'
