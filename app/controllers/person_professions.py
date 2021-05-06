@@ -30,7 +30,7 @@ class UrlList(Resource):
         except Exception as e:
             return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
 
-    @local_ns.doc('Create an ' + CURRENT_NAME)
+    @local_ns.doc('Create a ' + CURRENT_NAME)
     @local_ns.expect(model_validator)
     def post(self):
         try:
@@ -56,7 +56,7 @@ class Url(Resource):
         except Exception as e:
             return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
 
-    @local_ns.doc('Update an ' + CURRENT_NAME + ' with the specified id',
+    @local_ns.doc('Update a ' + CURRENT_NAME + ' with the specified id',
                   params={
                     'id': 'id of the ' + CURRENT_NAME + ' to update'
                 })
@@ -76,7 +76,7 @@ class Url(Resource):
         except Exception as e:
             return {'message': e.__str__()}, HttpStatus.BAD_REQUEST
 
-    @local_ns.doc('Delete an ' + CURRENT_NAME + ' with the specified id',
+    @local_ns.doc('Delete a ' + CURRENT_NAME + ' with the specified id',
                   params={
                     'id': 'id of the ' + CURRENT_NAME + ' to delete'
                 })
