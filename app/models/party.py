@@ -1,8 +1,9 @@
 from app import db
+from typing import List
 from app.const import EmptyValues, URL_OWNER_TYPE
-from app.controllers.url import *
+from app.models.url import UrlModel
 
-class Party(db.Model):
+class PartyModel(db.Model):
     __tablename__ = 'party'
     __table_args__ = {'sqlite_autoincrement': True}
 
@@ -11,8 +12,8 @@ class Party(db.Model):
     abbreviation = db.Column(db.String(50))
     colors = db.Column(db.JSON)
     area_id = db.Column(db.Integer, db.ForeignKey('area.area_id'), nullable=True)
-    #coalition_id = db.Column(db.Integer, db.ForeignKey('coalition.coalition_id'), nullable=True)
-    coalition_id = db.Column(db.Integer, nullable=True)
+    coalition_id = db.Column(db.Integer, db.ForeignKey('coalition.coalition_id'), nullable=True)
+    #coalition_id = db.Column(db.Integer, nullable=True)
 
     def __init__(self, name, abbreviation, colors, area_id, coalition_id):
         self.name = name
@@ -21,36 +22,43 @@ class Party(db.Model):
         self.area_id = area_id
         self.coalition_id = coalition_id
 
-    def save(self):
+    def json(self):
+        obj = {
+            'id': self.party_id,
+            'name': {
+                'en_US': self.name,
+                'es_MX': self.name
+            },
+            'abbreviation': {
+                'en_US': self.abbreviation,
+                'es_MX': self.abbreviation
+            },
+            'colors': self.colors,
+            'area_id': "" if self.area_id == EmptyValues.EMPTY_INT else self.area_id,
+            'coalition_id': "" if self.coalition_id == EmptyValues.EMPTY_INT else self.coalition_id,
+            'fb_urls': UrlModel.get_party_or_coalition_fb_urls(self.party_id, URL_OWNER_TYPE.PARTY),
+            'ig_urls': UrlModel.get_party_or_coalition_ig_urls(self.party_id, URL_OWNER_TYPE.PARTY),
+            'logo_urls': UrlModel.get_party_or_coalition_logo_urls(self.party_id, URL_OWNER_TYPE.PARTY),
+            'websites': UrlModel.get_party_or_coalition_or_person_websites_urls(self.party_id, URL_OWNER_TYPE.PARTY)
+        }
+        return obj
+
+    @classmethod
+    def find_by_id(cls, _id) -> "PartyModel":
+        return cls.query.filter_by(party_id=_id).first()
+
+    @classmethod
+    def find_all(cls) -> List["PartyModel"]:
+        query_all = cls.query.all()
+        result = []
+        for one_element in query_all:
+            result.append(one_element.json())
+        return result
+
+    def save(self) -> None:
         db.session.add(self)
         db.session.commit()
 
-    @staticmethod
-    def getAll():
-        parties = Party.query.all()
-        result = []
-        for party in parties:
-            obj = {
-                'id': party.party_id,
-                'name': {
-                    'en_US': party.name,
-                    'es_MX': party.name
-                },
-                'abbreviation': {
-                    'en_US': party.abbreviation,
-                    'es_MX': party.abbreviation
-                },
-                'colors': party.colors,
-                'area_id': "" if party.area_id == EmptyValues.EMPTY_INT else party.area_id,
-                'coalition_id': "" if party.coalition_id == EmptyValues.EMPTY_INT else party.coalition_id,
-                'fb_urls': Url.get_party_or_coalition_fb_urls(party.party_id, URL_OWNER_TYPE.PARTY),
-                'ig_urls': Url.get_party_or_coalition_ig_urls(party.party_id, URL_OWNER_TYPE.PARTY),
-                'logo_urls': Url.get_party_or_coalition_logo_urls(party.party_id, URL_OWNER_TYPE.PARTY),
-                'websites': Url.get_party_or_coalition_or_person_websites_urls(party.party_id, URL_OWNER_TYPE.PARTY)
-            }
-            result.append(obj)
-        return result
-
-    def delete(self):
+    def delete(self) -> None:
         db.session.delete(self)
         db.session.commit()
