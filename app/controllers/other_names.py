@@ -7,10 +7,10 @@ from app.schemas.other_names import OtherNamesSchema as TheSchema
 from app.const import HttpStatus, EmptyValues
 
 #   Name of the current item/element
-CURRENT_NAME = 'Other-Name'
+CURRENT_NAME = 'OtherName'
 
 #   Namespace to route
-local_ns = api.namespace('other-name', description=CURRENT_NAME + ' related operations')
+local_ns = api.namespace('other_name', description=CURRENT_NAME + ' related operations')
 
 #   Database schemas
 local_schema = TheSchema()
