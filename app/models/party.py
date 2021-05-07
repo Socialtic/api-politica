@@ -12,8 +12,8 @@ class PartyModel(db.Model):
     abbreviation = db.Column(db.String(50))
     colors = db.Column(db.JSON)
     area_id = db.Column(db.Integer, db.ForeignKey('area.area_id'), nullable=True)
-    coalition_id = db.Column(db.Integer, db.ForeignKey('coalition.coalition_id'), nullable=True)
-    #coalition_id = db.Column(db.Integer, nullable=True)
+    #coalition_id = db.Column(db.Integer, db.ForeignKey('coalition.coalition_id'), nullable=True)
+    coalition_id = db.Column(db.Integer, nullable=True)
 
     def __init__(self, name, abbreviation, colors, area_id, coalition_id):
         self.name = name

@@ -21,8 +21,8 @@ class PersonModel(db.Model):
     gender = db.Column(db.Integer, nullable=False) #gender_ir
     dead_or_alive = db.Column(db.Boolean, nullable=False)
     last_degree_of_studies = db.Column(db.Integer) #last_degree_of_studies_id
-    contest_id = db.Column(db.Integer, db.ForeignKey('contest.contest_id'), nullable=True)
-    #contest_id = db.Column(db.Integer, nullable=True)
+    #contest_id = db.Column(db.Integer, db.ForeignKey('contest.contest_id'), nullable=True)
+    contest_id = db.Column(db.Integer, nullable=True)
 
     def __init__(self, first_name, last_name, full_name, date_birth, gender, dead_or_alive, last_degree_of_studies, contest_id):
         self.first_name = first_name

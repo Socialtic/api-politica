@@ -7,7 +7,8 @@ class ChamberModel(db.Model):
 
     chamber_id = db.Column(db.Integer, unique=True, primary_key=True, nullable=False, autoincrement=True)
     name = db.Column(db.String(100), nullable=False)
-    area_id = db.Column(db.Integer, db.ForeignKey('area.area_id'), nullable=False)
+    #area_id = db.Column(db.Integer, db.ForeignKey('area.area_id'), nullable=False)
+    area_id = db.Column(db.Integer, nullable=False)
 
     def __init__(self, name, area_id):
         self.name = name

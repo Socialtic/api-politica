@@ -7,8 +7,8 @@ class PersonProfessionModel(db.Model):
 
     person_profession_id = db.Column(db.Integer, unique=True, primary_key=True, nullable=False, autoincrement=True)
     person_id = db.Column(db.Integer, db.ForeignKey('person.person_id'), nullable=False)
-    #person_id = db.Column(db.Integer, nullable=False)
-    profession_id = db.Column(db.Integer, db.ForeignKey('profession.profession_id'), nullable=False)
+    person_id = db.Column(db.Integer, nullable=False)
+    #profession_id = db.Column(db.Integer, db.ForeignKey('profession.profession_id'), nullable=False)
 
     def __init__(self, person_id, profession_id):
         self.person_id = person_id

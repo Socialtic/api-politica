@@ -11,9 +11,8 @@ class RoleModel(db.Model):
     role = db.Column(db.Integer, nullable=False)
     area_id = db.Column(db.Integer, db.ForeignKey('area.area_id'), nullable=False)
     chamber_id = db.Column(db.Integer, db.ForeignKey('chamber.chamber_id'), nullable=False)
-    contest_id = db.Column(db.Integer, db.ForeignKey('contest.contest_id'), nullable=True)
-    #contest_id = db.Column(db.Integer, nullable=True) # Change it to ForeignKey
-    #contest = db.relationship("ContestModel",)
+    #contest_id = db.Column(db.Integer, db.ForeignKey('contest.contest_id'), nullable=True)
+    contest_id = db.Column(db.Integer, nullable=True) # Change it to ForeignKey
 
     def __init__(self, title, role, area_id, chamber_id, contest_id):
         self.title = title
