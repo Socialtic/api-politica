@@ -3,6 +3,7 @@ from flask import Flask
 from flask_marshmallow import Marshmallow
 from flask_sqlalchemy import SQLAlchemy
 from flask_restx import Api
+from app.controllers.frontend import *
 
 #   Configure for local test
 #   This works with SQLite3
@@ -21,9 +22,10 @@ application.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
 application.config['JSON_AS_ASCII'] = False
 isOnDev = False
 application.debug = isOnDev
+application.register_blueprint(bp_frontend)
 ma = Marshmallow(application)
 db = SQLAlchemy(application)
-api = Api(application, doc='/',
+api = Api(application, doc='/docs',
           title='MX Elections 2021',
           description='API of information on the Mexican elections of 2021',
           version='1.1')
