@@ -10,7 +10,7 @@ from app.const import HttpStatus, EmptyValues
 CURRENT_NAME = 'OtherName'
 
 #   Namespace to route
-local_ns = api.namespace('other_name', description=CURRENT_NAME + ' related operations')
+local_ns = api.namespace('other-name', description=CURRENT_NAME + ' related operations')
 
 #   Database schemas
 local_schema = TheSchema()
