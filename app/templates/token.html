@@ -6,7 +6,7 @@
 </head>
 <body>
 
-    <h1>Aquí tienes tu token.</h1>
+    <h1>Aquí tienes tu token. Anótalo, cópialo, guárdalo.</h1>
     </br>
     <pre>
                __________
@@ -24,14 +24,16 @@
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     </pre>
     </br>
-    <h2>Detalles</h2>
-    <ul>
-        <li><b>Token:</b> {{id_token}}</li>
-        <li><b>Duración:</b> 4 horas (después de las cuales deberás volverte a firmar <a href="https://mx-elections-2021-api.auth.us-east-2.amazoncognito.com/login?client_id=6db6blllaim1ebqnefoe61bn9l&response_type=token&scope=email+openid&redirect_uri=https://www.candidaturas.mx/token">aquí</a></li>
-
-    </ul>
+    <h2>Instrucciones</h2>
+    <ol>
+        <li>Busca y copia el elemento <pre>id_token</pre> en el diccionario de abajo</li>
+        <li>Asigna este <pre>id_token</pre> a un header con nombre <pre>Authorization</pre></li>
+        <li>Llama a nuestra API con este header que armaste</li>
+        <li>Si el token expira, vuelve a firmarte <a href="https://mx-elections-2021-api.auth.us-east-2.amazoncognito.com/login?client_id=6db6blllaim1ebqnefoe61bn9l&response_type=code&scope=email+openid&redirect_uri=https://www.candidaturas.mx/token">aquí</a></li>
+    </ol>
+    <h2>Diccionario</h2>
     <pre>
-        Asigna este token a un header con nombre <b><code>Authorization</code></b></pre>
+        {{response_json}}
     </pre>
 
 </body>
