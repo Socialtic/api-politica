@@ -4,6 +4,7 @@ from flask_marshmallow import Marshmallow
 from flask_sqlalchemy import SQLAlchemy
 from flask_restx import Api
 from app.controllers.frontend import *
+from app.controllers.token import *
 
 #   Configure for local test
 #   This works with SQLite3
@@ -23,6 +24,7 @@ application.config['JSON_AS_ASCII'] = False
 isOnDev = False
 application.debug = isOnDev
 application.register_blueprint(bp_frontend)
+application.register_blueprint(bp_token)
 ma = Marshmallow(application)
 db = SQLAlchemy(application)
 api = Api(application, doc='/docs',
