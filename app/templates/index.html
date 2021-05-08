@@ -26,13 +26,12 @@
     </br>
     <h2>Instrucciones</h2>
     <ol>
-        <li>Crea un usuario en <a href="https://mx-elections-2021-api.auth.us-east-2.amazoncognito.com/login?client_id=6db6blllaim1ebqnefoe61bn9l&response_type=code&scope=email+openid&redirect_uri=https://www.candidaturas.mx/token">esta página, haz login si ya te registraste.</a></li>
+        <li>Crea un usuario en <a href="https://mx-elections-2021-api.auth.us-east-2.amazoncognito.com/login?client_id=6db6blllaim1ebqnefoe61bn9l&response_type=code&scope=email+openid&redirect_uri=https://www.apielectoral.mx/token">esta página, haz login si ya te registraste.</a></li>
         <li>Te presentaremos una tabla con 3 tokens de acceso. Copia el <code><b>id_token</b></code>. El token tiene una vigencia de 4 horas.</li>
         <li>Usa ese <code><b>id_token</b></code> y asígnalo al campo <code>Authorization</code> como parte de los <code>headers</code> de la petición HTTP.</li>
         <li>Cuando tu token expire, repite los pasos desde 1.</li>
     </ol>
     <h2>Endpoints disponibles</h2>
-    <p>Puedes ver la documentación de OpenAPI v3 <a href="http://www.candidaturas.mx/docs">aquí</a></p>
     <ul>
         <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/export/">Toda la información</a></li>
         <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/export-min/">Información mínima necesaria</a></li>
