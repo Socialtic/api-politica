@@ -1,7 +1,7 @@
 from flask import request
 from flask_restx import Resource, fields
 
-from app import api
+from app import api, isOnDev
 from app.models.url import UrlModel as TheModel
 from app.schemas.url import UrlSchema as TheSchema
 from app.const import HttpStatus, EmptyValues
@@ -36,6 +36,8 @@ class UrlList(Resource):
     @local_ns.doc('Create an ' + CURRENT_NAME)
     @local_ns.expect(model_validator)
     def post(self):
+        if not isOnDev:
+            return {'message': 'Not allowed'}, HttpStatus.NOT_ALLOWED
         try:
             element_json = request.get_json()
             element_data = local_schema.load(element_json)
@@ -65,6 +67,8 @@ class Url(Resource):
                 })
     @local_ns.expect(model_validator)
     def put(self, id):
+        if not isOnDev:
+            return {'message': 'Not allowed'}, HttpStatus.NOT_ALLOWED
         try:
             element_data = TheModel.find_by_id(id)
 
@@ -87,6 +91,8 @@ class Url(Resource):
                     'id': 'id of the ' + CURRENT_NAME + ' to delete'
                 })
     def delete(self, id):
+        if not isOnDev:
+            return {'message': 'Not allowed'}, HttpStatus.NOT_ALLOWED
         try:
             element_data = TheModel.find_by_id(id)
             if element_data:

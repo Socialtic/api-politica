@@ -2,11 +2,10 @@ from flask import request
 from flask_restx import Resource, fields
 from datetime import datetime
 
-from app import api
+from app import api, isOnDev
 from app.models.memberships import MembershipModel as TheModel
 from app.schemas.membserhips import MembershipSchema as TheSchema
 from app.const import HttpStatus, EmptyValues
-from datetime import date
 
 #   Name of the current item/element
 CURRENT_NAME = 'Membership'
@@ -47,6 +46,8 @@ class MembershipList(Resource):
     @local_ns.doc('Create a ' + CURRENT_NAME)
     @local_ns.expect(model_validator)
     def post(self):
+        if not isOnDev:
+            return {'message': 'Not allowed'}, HttpStatus.NOT_ALLOWED
         try:
             element_json = request.get_json()
             element_data = local_schema.load(element_json)
@@ -76,6 +77,8 @@ class Membership(Resource):
                 })
     @local_ns.expect(model_validator)
     def put(self, id):
+        if not isOnDev:
+            return {'message': 'Not allowed'}, HttpStatus.NOT_ALLOWED
         try:
             element_data = TheModel.find_by_id(id)
 
@@ -110,6 +113,8 @@ class Membership(Resource):
                     'id': 'id of the ' + CURRENT_NAME + ' to delete'
                 })
     def delete(self, id):
+        if not isOnDev:
+            return {'message': 'Not allowed'}, HttpStatus.NOT_ALLOWED
         try:
             element_data = TheModel.find_by_id(id)
             if element_data:

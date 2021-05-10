@@ -1,7 +1,7 @@
 from flask import request
 from flask_restx import Resource, fields
 
-from app import api
+from app import api, isOnDev
 from app.models.area import AreaModel as TheModel
 from app.schemas.area import AreaSchema as TheSchema
 from app.const import HttpStatus, EmptyValues
@@ -38,6 +38,8 @@ class AreaList(Resource):
     @local_ns.doc('Create an ' + CURRENT_NAME)
     @local_ns.expect(model_validator)
     def post(self):
+        if not isOnDev:
+            return {'message': 'Not allowed'}, HttpStatus.NOT_ALLOWED
         try:
             element_json = request.get_json()
             element_data = local_schema.load(element_json)
@@ -67,6 +69,8 @@ class Area(Resource):
                 })
     @local_ns.expect(model_validator)
     def put(self, id):
+        if not isOnDev:
+            return {'message': 'Not allowed'}, HttpStatus.NOT_ALLOWED
         try:
             element_data = TheModel.find_by_id(id)
 
@@ -91,6 +95,8 @@ class Area(Resource):
                     'id': 'id of the ' + CURRENT_NAME + ' to delete'
                 })
     def delete(self, id):
+        if not isOnDev:
+            return {'message': 'Not allowed'}, HttpStatus.NOT_ALLOWED
         try:
             element_data = TheModel.find_by_id(id)
             if element_data:

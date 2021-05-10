@@ -1,8 +1,7 @@
 from flask import request
 from flask_restx import Resource, fields
 
-from app import db
-from app import api
+from app import api, isOnDev
 from app.models.party import PartyModel as TheModel
 from app.schemas.party import PartySchema as TheSchema
 from app.const import HttpStatus, EmptyValues
@@ -37,6 +36,8 @@ class PartyList(Resource):
     @local_ns.doc('Create a ' + CURRENT_NAME)
     @local_ns.expect(model_validator)
     def post(self):
+        if not isOnDev:
+            return {'message': 'Not allowed'}, HttpStatus.NOT_ALLOWED
         try:
             element_json = request.get_json()
             element_data = local_schema.load(element_json)
@@ -66,6 +67,8 @@ class Party(Resource):
                 })
     @local_ns.expect(model_validator)
     def put(self, id):
+        if not isOnDev:
+            return {'message': 'Not allowed'}, HttpStatus.NOT_ALLOWED
         try:
             element_data = TheModel.find_by_id(id)
 
@@ -88,6 +91,8 @@ class Party(Resource):
                     'id': 'id of the ' + CURRENT_NAME + ' to delete'
                 })
     def delete(self, id):
+        if not isOnDev:
+            return {'message': 'Not allowed'}, HttpStatus.NOT_ALLOWED
         try:
             element_data = TheModel.find_by_id(id)
             if element_data:

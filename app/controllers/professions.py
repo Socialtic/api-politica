@@ -1,7 +1,7 @@
 from flask import request
 from flask_restx import Resource, fields
 
-from app import api
+from app import api, isOnDev
 from app.models.professions import ProfessionModel as TheModel
 from app.schemas.professions import ProfessionSchema as TheSchema
 from app.const import HttpStatus, EmptyValues
@@ -32,6 +32,8 @@ class ProfessionList(Resource):
     @local_ns.doc('Create a ' + CURRENT_NAME)
     @local_ns.expect(model_validator)
     def post(self):
+        if not isOnDev:
+            return {'message': 'Not allowed'}, HttpStatus.NOT_ALLOWED
         try:
             element_json = request.get_json()
             element_data = local_schema.load(element_json)
@@ -61,6 +63,8 @@ class Profession(Resource):
                 })
     @local_ns.expect(model_validator)
     def put(self, id):
+        if not isOnDev:
+            return {'message': 'Not allowed'}, HttpStatus.NOT_ALLOWED
         try:
             element_data = TheModel.find_by_id(id)
 
@@ -79,6 +83,8 @@ class Profession(Resource):
                     'id': 'id of the ' + CURRENT_NAME + ' to delete'
                 })
     def delete(self, id):
+        if not isOnDev:
+            return {'message': 'Not allowed'}, HttpStatus.NOT_ALLOWED
         try:
             element_data = TheModel.find_by_id(id)
             if element_data:
