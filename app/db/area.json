@@ -1,0 +1,4877 @@
+[
+    {
+        "id": 1,
+        "ocd_id": "ocd-division/country:mx",
+        "name": {
+            "en_US": "M\u00c9XICO",
+            "es_MX": "M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "",
+        "city": "",
+        "district_type": "NATIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 2,
+        "ocd_id": "ocd-division/country:mx/state:ag",
+        "name": {
+            "en_US": "AGUASCALIENTES",
+            "es_MX": "AGUASCALIENTES"
+        },
+        "country": "MX",
+        "state": "AGU",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 3,
+        "ocd_id": "ocd-division/country:mx/state:ag/city:1",
+        "name": {
+            "en_US": "AGUASCALIENTES",
+            "es_MX": "AGUASCALIENTES"
+        },
+        "country": "MX",
+        "state": "AGU",
+        "city": "AGUASCALIENTES",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 4,
+        "ocd_id": "ocd-division/country:mx/state:ag/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de AGUASCALIENTES",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de AGUASCALIENTES"
+        },
+        "country": "MX",
+        "state": "AGU",
+        "city": "ASIENTOS, CALVILLO, COSIO, JESUS MARIA, PABELLON DE ARTEAGA, RINCON DE ROMOS, SAN JOSE DE GRACIA, TEPEZALA, SAN FRANCISCO DE LOS ROMO, EL LLANO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 5,
+        "ocd_id": "ocd-division/country:mx/state:ag/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de AGUASCALIENTES",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de AGUASCALIENTES"
+        },
+        "country": "MX",
+        "state": "AGU",
+        "city": "AGUASCALIENTES",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 6,
+        "ocd_id": "ocd-division/country:mx/state:ag/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de AGUASCALIENTES",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de AGUASCALIENTES"
+        },
+        "country": "MX",
+        "state": "AGU",
+        "city": "AGUASCALIENTES",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 7,
+        "ocd_id": "ocd-division/country:mx/state:bc",
+        "name": {
+            "en_US": "BAJA CALIFORNIA",
+            "es_MX": "BAJA CALIFORNIA"
+        },
+        "country": "MX",
+        "state": "BCN",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 8,
+        "ocd_id": "ocd-division/country:mx/state:bc/city:4",
+        "name": {
+            "en_US": "TIJUANA",
+            "es_MX": "TIJUANA"
+        },
+        "country": "MX",
+        "state": "BCN",
+        "city": "TIJUANA",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 9,
+        "ocd_id": "ocd-division/country:mx/state:bc/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de BAJA CALIFORNIA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de BAJA CALIFORNIA"
+        },
+        "country": "MX",
+        "state": "BCN",
+        "city": "MEXICALI",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 10,
+        "ocd_id": "ocd-division/country:mx/state:bc/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de BAJA CALIFORNIA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de BAJA CALIFORNIA"
+        },
+        "country": "MX",
+        "state": "BCN",
+        "city": "MEXICALI",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 11,
+        "ocd_id": "ocd-division/country:mx/state:bc/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de BAJA CALIFORNIA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de BAJA CALIFORNIA"
+        },
+        "country": "MX",
+        "state": "BCN",
+        "city": "ENSENADA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 12,
+        "ocd_id": "ocd-division/country:mx/state:bc/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de BAJA CALIFORNIA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de BAJA CALIFORNIA"
+        },
+        "country": "MX",
+        "state": "BCN",
+        "city": "TECATE, TIJUANA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 13,
+        "ocd_id": "ocd-division/country:mx/state:bc/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de BAJA CALIFORNIA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de BAJA CALIFORNIA"
+        },
+        "country": "MX",
+        "state": "BCN",
+        "city": "TIJUANA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 14,
+        "ocd_id": "ocd-division/country:mx/state:bc/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de BAJA CALIFORNIA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de BAJA CALIFORNIA"
+        },
+        "country": "MX",
+        "state": "BCN",
+        "city": "TIJUANA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 15,
+        "ocd_id": "ocd-division/country:mx/state:bc/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de BAJA CALIFORNIA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de BAJA CALIFORNIA"
+        },
+        "country": "MX",
+        "state": "BCN",
+        "city": "ENSENADA, MEXICALI, TECATE, PLAYAS DE ROSARITO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 16,
+        "ocd_id": "ocd-division/country:mx/state:bc/fed:8",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 8 de BAJA CALIFORNIA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 8 de BAJA CALIFORNIA"
+        },
+        "country": "MX",
+        "state": "BCN",
+        "city": "TIJUANA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 17,
+        "ocd_id": "ocd-division/country:mx/state:bs",
+        "name": {
+            "en_US": "BAJA CALIFORNIA SUR",
+            "es_MX": "BAJA CALIFORNIA SUR"
+        },
+        "country": "MX",
+        "state": "BCS",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 18,
+        "ocd_id": "ocd-division/country:mx/state:bs/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de BAJA CALIFORNIA SUR",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de BAJA CALIFORNIA SUR"
+        },
+        "country": "MX",
+        "state": "BCS",
+        "city": "COMONDU, MULEGE, LA PAZ, LORETO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 19,
+        "ocd_id": "ocd-division/country:mx/state:bs/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de BAJA CALIFORNIA SUR",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de BAJA CALIFORNIA SUR"
+        },
+        "country": "MX",
+        "state": "BCS",
+        "city": "LA PAZ, LOS CABOS",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 20,
+        "ocd_id": "ocd-division/country:mx/state:ch",
+        "name": {
+            "en_US": "CAMPECHE",
+            "es_MX": "CAMPECHE"
+        },
+        "country": "MX",
+        "state": "CHH",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 21,
+        "ocd_id": "ocd-division/country:mx/state:ch/city:19",
+        "name": {
+            "en_US": "CHIHUAHUA",
+            "es_MX": "CHIHUAHUA"
+        },
+        "country": "MX",
+        "state": "CHH",
+        "city": "CHIHUAHUA",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 22,
+        "ocd_id": "ocd-division/country:mx/state:ch/city:37",
+        "name": {
+            "en_US": "JU\u00c1REZ",
+            "es_MX": "JU\u00c1REZ"
+        },
+        "country": "MX",
+        "state": "CHH",
+        "city": "JU\u00c1REZ",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 23,
+        "ocd_id": "ocd-division/country:mx/state:ch/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de CHIHUAHUA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de CHIHUAHUA"
+        },
+        "country": "MX",
+        "state": "CHH",
+        "city": "JUAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 24,
+        "ocd_id": "ocd-division/country:mx/state:ch/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de CHIHUAHUA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de CHIHUAHUA"
+        },
+        "country": "MX",
+        "state": "CHH",
+        "city": "AHUMADA, ASCENSION, BUENAVENTURA, CASAS GRANDES, GALEANA, GUADALUPE, IGNACIO ZARAGOZA, JANOS, JUAREZ, NUEVO CASAS GRANDES, PRAXEDIS G. GUERRERO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 25,
+        "ocd_id": "ocd-division/country:mx/state:ch/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de CHIHUAHUA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de CHIHUAHUA"
+        },
+        "country": "MX",
+        "state": "CHH",
+        "city": "JUAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 26,
+        "ocd_id": "ocd-division/country:mx/state:ch/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de CHIHUAHUA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de CHIHUAHUA"
+        },
+        "country": "MX",
+        "state": "CHH",
+        "city": "JUAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 27,
+        "ocd_id": "ocd-division/country:mx/state:ch/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de CHIHUAHUA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de CHIHUAHUA"
+        },
+        "country": "MX",
+        "state": "CHH",
+        "city": "ALDAMA, AQUILES SERDAN, CAMARGO, COYAME DEL SOTOL, LA CRUZ, DELICIAS, JIMENEZ, JULIMES, MANUEL BENAVIDES, MEOQUI, OJINAGA, ROSALES, SAN FRANCISCO DE CONCHOS, SAUCILLO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 28,
+        "ocd_id": "ocd-division/country:mx/state:ch/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de CHIHUAHUA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de CHIHUAHUA"
+        },
+        "country": "MX",
+        "state": "CHH",
+        "city": "CHIHUAHUA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 29,
+        "ocd_id": "ocd-division/country:mx/state:ch/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de CHIHUAHUA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de CHIHUAHUA"
+        },
+        "country": "MX",
+        "state": "CHH",
+        "city": "MATACHI, MORIS, NAMIQUIPA, OCAMPO, RIVA PALACIO, TEMOSACHIC, URUACHI, BACHINIVA, BOCOYNA, CUAUHTEMOC, CUSIHUIRIACHI, CHINIPAS, SANTA ISABEL, GOMEZ FARIAS, GRAN MORELOS, GUAZAPARES, GUERRERO, MADERA, MAGUARICHI",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 30,
+        "ocd_id": "ocd-division/country:mx/state:ch/fed:8",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 8 de CHIHUAHUA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 8 de CHIHUAHUA"
+        },
+        "country": "MX",
+        "state": "CHH",
+        "city": "CHIHUAHUA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 31,
+        "ocd_id": "ocd-division/country:mx/state:ch/fed:9",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 9 de CHIHUAHUA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 9 de CHIHUAHUA"
+        },
+        "country": "MX",
+        "state": "CHH",
+        "city": "SATEVO, EL TULE, URIQUE, VALLE DE ZARAGOZA, ALLENDE, BALLEZA, BATOPILAS DE MANUEL GOMEZ MORIN, CARICHI, CORONADO, DR. BELISARIO DOMINGUEZ, GUACHOCHI, GUADALUPE Y CALVO, HIDALGO DEL PARRAL, HUEJOTITAN, LOPEZ, MATAMOROS, MORELOS, NONOAVA, ROSARIO, SAN FRANCISCO DE BORJA, SAN FRANCISCO DEL ORO, SANTA BARBARA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 32,
+        "ocd_id": "ocd-division/country:mx/state:cl",
+        "name": {
+            "en_US": "CHIAPAS",
+            "es_MX": "CHIAPAS"
+        },
+        "country": "MX",
+        "state": "COL",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 33,
+        "ocd_id": "ocd-division/country:mx/state:cl/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de COLIMA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de COLIMA"
+        },
+        "country": "MX",
+        "state": "COL",
+        "city": "COLIMA, COMALA, COQUIMATLAN, CUAUHTEMOC, VILLA DE ALVAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 34,
+        "ocd_id": "ocd-division/country:mx/state:cl/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de COLIMA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de COLIMA"
+        },
+        "country": "MX",
+        "state": "COL",
+        "city": "ARMERIA, IXTLAHUACAN, MANZANILLO, MINATITLAN, TECOMAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 35,
+        "ocd_id": "ocd-division/country:mx/state:cm",
+        "name": {
+            "en_US": "CHIHUAHUA",
+            "es_MX": "CHIHUAHUA"
+        },
+        "country": "MX",
+        "state": "CAM",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 36,
+        "ocd_id": "ocd-division/country:mx/state:cm/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de CAMPECHE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de CAMPECHE"
+        },
+        "country": "MX",
+        "state": "CAM",
+        "city": "CAMPECHE, CALKINI, HECELCHAKAN, HOPELCHEN, TENABO, CALAKMUL, DZITBALCHE",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 37,
+        "ocd_id": "ocd-division/country:mx/state:cm/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de CAMPECHE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de CAMPECHE"
+        },
+        "country": "MX",
+        "state": "CAM",
+        "city": "CARMEN, CHAMPOTON, PALIZADA, ESCARCEGA, CANDELARIA, SEYBAPLAYA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 38,
+        "ocd_id": "ocd-division/country:mx/state:co",
+        "name": {
+            "en_US": "CIUDAD DE M\u00c9XICO",
+            "es_MX": "CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "COA",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 39,
+        "ocd_id": "ocd-division/country:mx/state:co/city:30",
+        "name": {
+            "en_US": "SALTILLO",
+            "es_MX": "SALTILLO"
+        },
+        "country": "MX",
+        "state": "COA",
+        "city": "SALTILLO",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 40,
+        "ocd_id": "ocd-division/country:mx/state:co/city:35",
+        "name": {
+            "en_US": "TORRE\u00d3N",
+            "es_MX": "TORRE\u00d3N"
+        },
+        "country": "MX",
+        "state": "COA",
+        "city": "TORRE\u00d3N",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 41,
+        "ocd_id": "ocd-division/country:mx/state:co/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de COAHUILA DE ZARAGOZA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de COAHUILA DE ZARAGOZA"
+        },
+        "country": "MX",
+        "state": "COA",
+        "city": "ACU?A, JIMENEZ, MORELOS, NAVA, PIEDRAS NEGRAS, SAN JUAN DE SABINAS, ZARAGOZA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 42,
+        "ocd_id": "ocd-division/country:mx/state:co/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de COAHUILA DE ZARAGOZA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de COAHUILA DE ZARAGOZA"
+        },
+        "country": "MX",
+        "state": "COA",
+        "city": "CASTA\u00d1OS, CUATROCIENEGAS, FRANCISCO I. MADERO, LAMADRID, MUZQUIZ, NADADORES, OCAMPO, RAMOS ARIZPE, SACRAMENTO, SAN BUENAVENTURA, SAN PEDRO, SIERRA MOJADA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 43,
+        "ocd_id": "ocd-division/country:mx/state:co/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de COAHUILA DE ZARAGOZA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de COAHUILA DE ZARAGOZA"
+        },
+        "country": "MX",
+        "state": "COA",
+        "city": "ABASOLO, ALLENDE, CANDELA, ESCOBEDO, FRONTERA, GUERRERO, HIDALGO, JUAREZ, MONCLOVA, PROGRESO, SABINAS, SAN JUAN DE SABINAS, VILLA UNION",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 44,
+        "ocd_id": "ocd-division/country:mx/state:co/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de COAHUILA DE ZARAGOZA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de COAHUILA DE ZARAGOZA"
+        },
+        "country": "MX",
+        "state": "COA",
+        "city": "ARTEAGA, SALTILLO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 45,
+        "ocd_id": "ocd-division/country:mx/state:co/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de COAHUILA DE ZARAGOZA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de COAHUILA DE ZARAGOZA"
+        },
+        "country": "MX",
+        "state": "COA",
+        "city": "TORREON",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 46,
+        "ocd_id": "ocd-division/country:mx/state:co/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de COAHUILA DE ZARAGOZA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de COAHUILA DE ZARAGOZA"
+        },
+        "country": "MX",
+        "state": "COA",
+        "city": "MATAMOROS, TORREON, VIESCA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 47,
+        "ocd_id": "ocd-division/country:mx/state:co/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de COAHUILA DE ZARAGOZA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de COAHUILA DE ZARAGOZA"
+        },
+        "country": "MX",
+        "state": "COA",
+        "city": "GENERAL CEPEDA, PARRAS, SALTILLO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 48,
+        "ocd_id": "ocd-division/country:mx/state:cs",
+        "name": {
+            "en_US": "COAHUILA",
+            "es_MX": "COAHUILA"
+        },
+        "country": "MX",
+        "state": "CHP",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 49,
+        "ocd_id": "ocd-division/country:mx/state:cs/city:102",
+        "name": {
+            "en_US": "TUXTLA GUTI\u00c9RREZ",
+            "es_MX": "TUXTLA GUTI\u00c9RREZ"
+        },
+        "country": "MX",
+        "state": "CHP",
+        "city": "TUXTLA GUTI\u00c9RREZ",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 50,
+        "ocd_id": "ocd-division/country:mx/state:cs/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de CHIAPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de CHIAPAS"
+        },
+        "country": "MX",
+        "state": "CHP",
+        "city": "SABANILLA, SALTO DE AGUA, TILA, TUMBALA, YAJALON, CATAZAJA, LA LIBERTAD, PALENQUE",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 51,
+        "ocd_id": "ocd-division/country:mx/state:cs/fed:10",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 10 de CHIAPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 10 de CHIAPAS"
+        },
+        "country": "MX",
+        "state": "CHP",
+        "city": "JIQUIPILAS, VILLA CORZO, VILLAFLORES, MONTECRISTO DE GUERRERO, EL PARRAL, ANGEL ALBINO CORZO, CINTALAPA, LA CONCORDIA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 52,
+        "ocd_id": "ocd-division/country:mx/state:cs/fed:11",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 11 de CHIAPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 11 de CHIAPAS"
+        },
+        "country": "MX",
+        "state": "CHP",
+        "city": "ALTAMIRANO, AMATENANGO DEL VALLE, CHANAL, HUIXTAN, LA INDEPENDENCIA, LAS MARGARITAS, OXCHUC, SAN CRISTOBAL DE LAS CASAS, TEOPISCA, MARAVILLA TENEJAPA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 53,
+        "ocd_id": "ocd-division/country:mx/state:cs/fed:12",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 12 de CHIAPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 12 de CHIAPAS"
+        },
+        "country": "MX",
+        "state": "CHP",
+        "city": "CACAHOATAN, FRONTERA HIDALGO, METAPA, SUCHIATE, TAPACHULA, TUXTLA CHICO, UNION JUAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 54,
+        "ocd_id": "ocd-division/country:mx/state:cs/fed:13",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 13 de CHIAPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 13 de CHIAPAS"
+        },
+        "country": "MX",
+        "state": "CHP",
+        "city": "AMATENANGO DE LA FRONTERA, BEJUCAL DE OCAMPO, BELLA VISTA, CHICOMUSELO, LA GRANDEZA, HUEHUETAN, MAZAPA DE MADERO, MAZATAN, MOTOZINTLA, EL PORVENIR, SILTEPEC, TAPACHULA, TUZANTAN, CAPITAN LUIS ANGEL VIDAL, HONDURAS DE LA SIERRA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 55,
+        "ocd_id": "ocd-division/country:mx/state:cs/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de CHIAPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de CHIAPAS"
+        },
+        "country": "MX",
+        "state": "CHP",
+        "city": "AMATAN, BOCHIL, EL BOSQUE, CHALCHIHUITAN, CHENALHO, HUITIUPAN, IXHUATAN, IXTAPA, JITOTOL, LARRAINZAR, MITONTIC, PANTELHO, PUEBLO NUEVO SOLISTAHUACAN, SIMOJOVEL, SOYALO, ALDAMA, SAN ANDRES DURAZNAL, SANTIAGO EL PINAR, RINCON CHAMULA SAN PEDRO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 56,
+        "ocd_id": "ocd-division/country:mx/state:cs/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de CHIAPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de CHIAPAS"
+        },
+        "country": "MX",
+        "state": "CHP",
+        "city": "CHILON, OCOSINGO, SITALA, BENEMERITO DE LAS AMERICAS, MARQUES DE COMILLAS",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 57,
+        "ocd_id": "ocd-division/country:mx/state:cs/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de CHIAPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de CHIAPAS"
+        },
+        "country": "MX",
+        "state": "CHP",
+        "city": "BERRIOZABAL, COAPILLA, COPAINALA, CHAPULTENANGO, CHICOASEN, FRANCISCO LEON, IXTACOMITAN, IXTAPANGAJOYA, JUAREZ, OCOTEPEC, OSTUACAN, OSUMACINTA, PANTEPEC, PICHUCALCO, RAYON, REFORMA, SAN FERNANDO, SOLOSUCHIAPA, SUNUAPA, TAPALAPA, TAPILULA, TECPATAN, MEZCALAPA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 58,
+        "ocd_id": "ocd-division/country:mx/state:cs/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de CHIAPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de CHIAPAS"
+        },
+        "country": "MX",
+        "state": "CHP",
+        "city": "CHAMULA, SAN CRISTOBAL DE LAS CASAS, SAN JUAN CANCUC, SAN LUCAS, TENEJAPA, ZINACANTAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 59,
+        "ocd_id": "ocd-division/country:mx/state:cs/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de CHIAPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de CHIAPAS"
+        },
+        "country": "MX",
+        "state": "CHP",
+        "city": "ACALA, CHIAPA DE CORZO, CHIAPILLA, OCOZOCOAUTLA DE ESPINOSA, SUCHIAPA, TOTOLAPA, TUXTLA GUTIERREZ, EMILIANO ZAPATA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 60,
+        "ocd_id": "ocd-division/country:mx/state:cs/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de CHIAPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de CHIAPAS"
+        },
+        "country": "MX",
+        "state": "CHP",
+        "city": "ACACOYAGUA, ACAPETAHUA, ARRIAGA, ESCUINTLA, HUIXTLA, MAPASTEPEC, PIJIJIAPAN, TONALA, VILLACOMALTITLAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 61,
+        "ocd_id": "ocd-division/country:mx/state:cs/fed:8",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 8 de CHIAPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 8 de CHIAPAS"
+        },
+        "country": "MX",
+        "state": "CHP",
+        "city": "COMITAN DE DOMINGUEZ, FRONTERA COMALAPA, NICOLAS RUIZ, LAS ROSAS, SOCOLTENANGO, LA TRINITARIA, TZIMOL, VENUSTIANO CARRANZA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 62,
+        "ocd_id": "ocd-division/country:mx/state:cs/fed:9",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 9 de CHIAPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 9 de CHIAPAS"
+        },
+        "country": "MX",
+        "state": "CHP",
+        "city": "TUXTLA GUTIERREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 63,
+        "ocd_id": "ocd-division/country:mx/state:df",
+        "name": {
+            "en_US": "COLIMA",
+            "es_MX": "COLIMA"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "COLIMA",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 64,
+        "ocd_id": "ocd-division/country:mx/state:df/city:10",
+        "name": {
+            "en_US": "\u00c1LVARO OBREG\u00d3N",
+            "es_MX": "\u00c1LVARO OBREG\u00d3N"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "\u00c1LVARO OBREG\u00d3N",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 65,
+        "ocd_id": "ocd-division/country:mx/state:df/city:11",
+        "name": {
+            "en_US": "TL\u00c1HUAC",
+            "es_MX": "TL\u00c1HUAC"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "TL\u00c1HUAC",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 66,
+        "ocd_id": "ocd-division/country:mx/state:df/city:12",
+        "name": {
+            "en_US": "TLALPAN",
+            "es_MX": "TLALPAN"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "TLALPAN",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 67,
+        "ocd_id": "ocd-division/country:mx/state:df/city:13",
+        "name": {
+            "en_US": "XOCHIMILCO",
+            "es_MX": "XOCHIMILCO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "XOCHIMILCO",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 68,
+        "ocd_id": "ocd-division/country:mx/state:df/city:14",
+        "name": {
+            "en_US": "BENITO JU\u00c1REZ",
+            "es_MX": "BENITO JU\u00c1REZ"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "BENITO JU\u00c1REZ",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 69,
+        "ocd_id": "ocd-division/country:mx/state:df/city:15",
+        "name": {
+            "en_US": "CUAUHT\u00c9MOC",
+            "es_MX": "CUAUHT\u00c9MOC"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "CUAUHT\u00c9MOC",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 70,
+        "ocd_id": "ocd-division/country:mx/state:df/city:16",
+        "name": {
+            "en_US": "MIGUEL HIDALGO",
+            "es_MX": "MIGUEL HIDALGO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "MIGUEL HIDALGO",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 71,
+        "ocd_id": "ocd-division/country:mx/state:df/city:9",
+        "name": {
+            "en_US": "MILPA ALTA",
+            "es_MX": "MILPA ALTA"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "MILPA ALTA",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 72,
+        "ocd_id": "ocd-division/country:mx/state:df/city:17",
+        "name": {
+            "en_US": "VENUSTIANO CARRANZA",
+            "es_MX": "VENUSTIANO CARRANZA"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "VENUSTIANO CARRANZA",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 73,
+        "ocd_id": "ocd-division/country:mx/state:df/city:2",
+        "name": {
+            "en_US": "AZCAPOTZALCO",
+            "es_MX": "AZCAPOTZALCO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "AZCAPOTZALCO",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 74,
+        "ocd_id": "ocd-division/country:mx/state:df/city:3",
+        "name": {
+            "en_US": "COYOAC\u00c1N",
+            "es_MX": "COYOAC\u00c1N"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "COYOAC\u00c1N",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 75,
+        "ocd_id": "ocd-division/country:mx/state:df/city:4",
+        "name": {
+            "en_US": "CUAJIMALPA DE MORELOS",
+            "es_MX": "CUAJIMALPA DE MORELOS"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "CUAJIMALPA DE MORELOS",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 76,
+        "ocd_id": "ocd-division/country:mx/state:df/city:5",
+        "name": {
+            "en_US": "GUSTAVO A. MADERO",
+            "es_MX": "GUSTAVO A. MADERO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "GUSTAVO A. MADERO",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 77,
+        "ocd_id": "ocd-division/country:mx/state:df/city:6",
+        "name": {
+            "en_US": "IZTACALCO",
+            "es_MX": "IZTACALCO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "IZTACALCO",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 78,
+        "ocd_id": "ocd-division/country:mx/state:df/city:7",
+        "name": {
+            "en_US": "IZTAPALAPA",
+            "es_MX": "IZTAPALAPA"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "IZTAPALAPA",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 79,
+        "ocd_id": "ocd-division/country:mx/state:df/city:8",
+        "name": {
+            "en_US": "LA MAGDALENA CONTRERAS",
+            "es_MX": "LA MAGDALENA CONTRERAS"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "LA MAGDALENA CONTRERAS",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 80,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "GUSTAVO A. MADERO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 81,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:10",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 10 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 10 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "MIGUEL HIDALGO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 82,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:11",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 11 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 11 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "VENUSTIANO CARRANZA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 83,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:12",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 12 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 12 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "CUAUHTEMOC",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 84,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:13",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 13 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 13 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "IZTACALCO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 85,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:14",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 14 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 14 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "TLALPAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 86,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:15",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 15 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 15 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "BENITO JUAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 87,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:16",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 16 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 16 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "ALVARO OBREGON",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 88,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:17",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 17 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 17 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "ALVARO OBREGON, CUAJIMALPA DE MORELOS",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 89,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:18",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 18 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 18 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "IZTAPALAPA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 90,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:19",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 19 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 19 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "IZTAPALAPA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 91,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "GUSTAVO A. MADERO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 92,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:20",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 20 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 20 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "IZTAPALAPA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 93,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:21",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 21 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 21 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "XOCHIMILCO, MILPA ALTA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 94,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:22",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 22 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 22 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "IZTAPALAPA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 95,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:23",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 23 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 23 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "COYOACAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 96,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:24",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 24 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 24 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "COYOACAN, XOCHIMILCO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 97,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "AZCAPOTZALCO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 98,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "IZTAPALAPA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 99,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "TLALPAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 100,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "LA MAGDALENA CONTRERAS, ALVARO OBREGON",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 101,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "GUSTAVO A. MADERO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 102,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:8",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 8 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 8 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "CUAUHTEMOC, VENUSTIANO CARRANZA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 103,
+        "ocd_id": "ocd-division/country:mx/state:df/fed:9",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 9 de CIUDAD DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 9 de CIUDAD DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "CMX",
+        "city": "TLAHUAC",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 104,
+        "ocd_id": "ocd-division/country:mx/state:dg",
+        "name": {
+            "en_US": "DURANGO",
+            "es_MX": "DURANGO"
+        },
+        "country": "MX",
+        "state": "DUR",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 105,
+        "ocd_id": "ocd-division/country:mx/state:dg/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de DURANGO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de DURANGO"
+        },
+        "country": "MX",
+        "state": "DUR",
+        "city": "CANELAS, DURANGO, MEZQUITAL, OTAEZ, PUEBLO NUEVO, SAN DIMAS, SANTIAGO PAPASQUIARO, SUCHIL, TAMAZULA, TEPEHUANES, TOPIA, VICENTE GUERRERO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 106,
+        "ocd_id": "ocd-division/country:mx/state:dg/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de DURANGO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de DURANGO"
+        },
+        "country": "MX",
+        "state": "DUR",
+        "city": "GOMEZ PALACIO, GUANACEVI, HIDALGO, INDE, MAPIMI, OCAMPO, EL ORO, SAN BERNARDO, SAN PEDRO DEL GALLO, TLAHUALILO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 107,
+        "ocd_id": "ocd-division/country:mx/state:dg/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de DURANGO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de DURANGO"
+        },
+        "country": "MX",
+        "state": "DUR",
+        "city": "CANATLAN, CONETO DE COMONFORT, CUENCAME, SIMON BOLIVAR, GUADALUPE VICTORIA, LERDO, NAZAS, NOMBRE DE DIOS, NUEVO IDEAL, PANUCO DE CORONADO, PE?ON BLANCO, POANAS, RODEO, SAN JUAN DE GUADALUPE, SAN JUAN DEL RIO, SAN LUIS DEL CORDERO, SANTA CLARA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 108,
+        "ocd_id": "ocd-division/country:mx/state:dg/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de DURANGO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de DURANGO"
+        },
+        "country": "MX",
+        "state": "DUR",
+        "city": "DURANGO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 109,
+        "ocd_id": "ocd-division/country:mx/state:em",
+        "name": {
+            "en_US": "M\u00c9XICO",
+            "es_MX": "M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 110,
+        "ocd_id": "ocd-division/country:mx/state:em/city:105",
+        "name": {
+            "en_US": "TLALNEPANTLA DE BAZ",
+            "es_MX": "TLALNEPANTLA DE BAZ"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "TLALNEPANTLA DE BAZ",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 111,
+        "ocd_id": "ocd-division/country:mx/state:em/city:107",
+        "name": {
+            "en_US": "TOLUCA",
+            "es_MX": "TOLUCA"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "TOLUCA",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 112,
+        "ocd_id": "ocd-division/country:mx/state:em/city:110",
+        "name": {
+            "en_US": "TULTITL\u00c1N",
+            "es_MX": "TULTITL\u00c1N"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "TULTITL\u00c1N",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 113,
+        "ocd_id": "ocd-division/country:mx/state:em/city:13",
+        "name": {
+            "en_US": "ATIZAP\u00c1N DE ZARAGOZA",
+            "es_MX": "ATIZAP\u00c1N DE ZARAGOZA"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ATIZAP\u00c1N DE ZARAGOZA",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 114,
+        "ocd_id": "ocd-division/country:mx/state:em/city:25",
+        "name": {
+            "en_US": "CUAUTITL\u00c1N IZCALLI",
+            "es_MX": "CUAUTITL\u00c1N IZCALLI"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "CUAUTITL\u00c1N IZCALLI",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 115,
+        "ocd_id": "ocd-division/country:mx/state:em/city:32",
+        "name": {
+            "en_US": "CHIMALHUAC\u00c1N",
+            "es_MX": "CHIMALHUAC\u00c1N"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "CHIMALHUAC\u00c1N",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 116,
+        "ocd_id": "ocd-division/country:mx/state:em/city:34",
+        "name": {
+            "en_US": "ECATEPEC DE MORELOS",
+            "es_MX": "ECATEPEC DE MORELOS"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ECATEPEC DE MORELOS",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 117,
+        "ocd_id": "ocd-division/country:mx/state:em/city:40",
+        "name": {
+            "en_US": "IXTAPALUCA",
+            "es_MX": "IXTAPALUCA"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "IXTAPALUCA",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 118,
+        "ocd_id": "ocd-division/country:mx/state:em/city:58",
+        "name": {
+            "en_US": "NAUCALPAN",
+            "es_MX": "NAUCALPAN"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "NAUCALPAN",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 119,
+        "ocd_id": "ocd-division/country:mx/state:em/city:60",
+        "name": {
+            "en_US": "NEZAHUALC\u00d3YOTL",
+            "es_MX": "NEZAHUALC\u00d3YOTL"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "NEZAHUALC\u00d3YOTL",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 120,
+        "ocd_id": "ocd-division/country:mx/state:em/city:82",
+        "name": {
+            "en_US": "TEC\u00c1MAC",
+            "es_MX": "TEC\u00c1MAC"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "TEC\u00c1MAC",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 121,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ACAMBAY DE RUIZ CASTA?EDA, ACULCO, CHAPA DE MOTA, JILOTEPEC, MORELOS, POLOTITLAN, SOYANIQUILPAN DE JUAREZ, TEMASCALCINGO, TIMILPAN, VILLA DEL CARBON",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 122,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:10",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 10 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 10 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ECATEPEC DE MORELOS",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 123,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:11",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 11 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 11 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ECATEPEC DE MORELOS",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 124,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:12",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 12 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 12 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "IXTAPALUCA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 125,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:13",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 13 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 13 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ECATEPEC DE MORELOS",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 126,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:14",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 14 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 14 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ATIZAPAN DE ZARAGOZA, CUAUTITLAN IZCALLI, TLALNEPANTLA DE BAZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 127,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:15",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 15 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 15 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ATIZAPAN DE ZARAGOZA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 128,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:16",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 16 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 16 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ECATEPEC DE MORELOS, TLALNEPANTLA DE BAZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 129,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:17",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 17 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 17 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ECATEPEC DE MORELOS",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 130,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:18",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 18 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 18 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "HUIXQUILUCAN, JILOTZINGO, OTZOLOTEPEC, TOLUCA, XONACATLAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 131,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:19",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 19 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 19 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "TLALNEPANTLA DE BAZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 132,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "JALTENCO, NEXTLALPAN, TULTEPEC, TULTITLAN, TONANITLA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 133,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:20",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 20 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 20 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "NEZAHUALCOYOTL",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 134,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:21",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 21 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 21 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "IXTAPALUCA, JUCHITEPEC, OZUMBA, TENANGO DEL AIRE, TEPETLIXPA, TLALMANALCO, AMECAMECA, ATLAUTLA, AYAPANGO, ECATZINGO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 135,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:22",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 22 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 22 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "NAUCALPAN DE JUAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 136,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:23",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 23 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 23 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ALMOLOYA DEL RIO, ATIZAPAN, CAPULHUAC, XALATLACO, LERMA, OCOYOACAC, OCUILAN, TEXCALYACAC, TIANGUISTENCO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 137,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:24",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 24 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 24 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "NAUCALPAN DE JUAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 138,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:25",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 25 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 25 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "CHIMALHUACAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 139,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:26",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 26 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 26 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "OTZOLOTEPEC, TOLUCA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 140,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:27",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 27 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 27 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "CALIMAYA, CHAPULTEPEC, METEPEC, MEXICALTZINGO, SAN ANTONIO LA ISLA, SAN MATEO ATENCO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 141,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:28",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 28 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 28 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "APAXCO, HUEHUETOCA, HUEYPOXTLA, TEQUIXQUIAC, ZUMPANGO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 142,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:29",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 29 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 29 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "NEZAHUALCOYOTL",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 143,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ATLACOMULCO, IXTLAHUACA, JIQUIPILCO, JOCOTITLAN, EL ORO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 144,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:30",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 30 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 30 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "CHICOLOAPAN, CHIMALHUACAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 145,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:31",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 31 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 31 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "NEZAHUALCOYOTL",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 146,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:32",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 32 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 32 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "VALLE DE CHALCO SOLIDARIDAD",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 147,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:33",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 33 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 33 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "COCOTITLAN, CHALCO, TEMAMATLA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 148,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:34",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 34 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 34 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "TOLUCA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 149,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:35",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 35 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 35 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "COATEPEC HARINAS, IXTAPAN DE LA SAL, JOQUICINGO, MALINALCO, RAYON, TENANCINGO, TENANGO DEL VALLE, TONATICO, VILLA GUERRERO, ZUMPAHUACAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 150,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:36",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 36 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 36 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "TEJUPILCO, TEMASCALTEPEC, TEXCALTITLAN, TLATLAYA, VALLE DE BRAVO, ZACAZONAPAN, ZACUALPAN, LUVIANOS, ALMOLOYA DE ALQUISIRAS, AMANALCO, AMATEPEC, IXTAPAN DEL ORO, OTZOLOAPAN, SAN SIMON DE GUERRERO, SANTO TOMAS, SULTEPEC",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 151,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:37",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 37 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 37 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "COYOTEPEC, CUAUTITLAN, MELCHOR OCAMPO, TEOLOYUCAN, TEPOTZOTLAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 152,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:38",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 38 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 38 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ATENCO, CHICONCUAC, TEXCOCO, TEZOYUCA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 153,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:39",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 39 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 39 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "CHIMALHUACAN, LA PAZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 154,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ISIDRO FABELA, NICOLAS ROMERO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 155,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:40",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 40 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 40 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ALMOLOYA DE JUAREZ, TEMOAYA, ZINACANTEPEC",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 156,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:41",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 41 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 41 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "TECAMAC",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 157,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "ACOLMAN, AXAPUSCO, CHIAUTLA, NOPALTEPEC, OTUMBA, PAPALOTLA, SAN MARTIN DE LAS PIRAMIDES, TEMASCALAPA, TEOTIHUACAN, TEPETLAOXTOC, TEZOYUCA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 158,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "COACALCO DE BERRIOZABAL, ECATEPEC DE MORELOS, JALTENCO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 159,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "CUAUTITLAN IZCALLI",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 160,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:8",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 8 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 8 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "TULTITLAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 161,
+        "ocd_id": "ocd-division/country:mx/state:em/fed:9",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 9 de ESTADO DE M\u00c9XICO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 9 de ESTADO DE M\u00c9XICO"
+        },
+        "country": "MX",
+        "state": "MEX",
+        "city": "SAN FELIPE DEL PROGRESO, VILLA DE ALLENDE, VILLA VICTORIA, SAN JOSE DEL RINCON, DONATO GUERRA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 162,
+        "ocd_id": "ocd-division/country:mx/state:gr",
+        "name": {
+            "en_US": "GUANAJUATO",
+            "es_MX": "GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GRO",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 163,
+        "ocd_id": "ocd-division/country:mx/state:gr/city:1",
+        "name": {
+            "en_US": "ACAPULCO DE JU\u00c1REZ",
+            "es_MX": "ACAPULCO DE JU\u00c1REZ"
+        },
+        "country": "MX",
+        "state": "GRO",
+        "city": "ACAPULCO DE JU\u00c1REZ",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 164,
+        "ocd_id": "ocd-division/country:mx/state:gr/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de GUERRERO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de GUERRERO"
+        },
+        "country": "MX",
+        "state": "GRO",
+        "city": "GENERAL CANUTO A. NERI, IXCATEOPAN DE CUAUHTEMOC, PEDRO ASCENCIO ALQUISIRAS, PUNGARABATO, SAN MIGUEL TOTOLAPAN, TELOLOAPAN, TLALCHAPA, TLAPEHUALA, ZIRANDARO, AJUCHITLAN DEL PROGRESO, APAXTLA, ARCELIA, COCULA, COYUCA DE CATALAN, CUETZALA DEL PROGRESO, CUTZAMALA DE PINZON",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 165,
+        "ocd_id": "ocd-division/country:mx/state:gr/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de GUERRERO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de GUERRERO"
+        },
+        "country": "MX",
+        "state": "GRO",
+        "city": "ATENANGO DEL RIO, BUENAVISTA DE CUELLAR, COPALILLO, HUITZUCO DE LOS FIGUEROA, IGUALA DE LA INDEPENDENCIA, PILCAYA, TAXCO DE ALARCON, TEPECOACUILCO DE TRUJANO, TETIPAC",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 166,
+        "ocd_id": "ocd-division/country:mx/state:gr/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de GUERRERO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de GUERRERO"
+        },
+        "country": "MX",
+        "state": "GRO",
+        "city": "PETATLAN, TECPAN DE GALEANA, LA UNION DE ISIDORO MONTES DE OCA, ATOYAC DE ALVAREZ, BENITO JUAREZ, COAHUAYUTLA DE JOSE MARIA IZAZAGA, COYUCA DE BENITEZ, ZIHUATANEJO DE AZUETA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 167,
+        "ocd_id": "ocd-division/country:mx/state:gr/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de GUERRERO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de GUERRERO"
+        },
+        "country": "MX",
+        "state": "GRO",
+        "city": "ACAPULCO DE JUAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 168,
+        "ocd_id": "ocd-division/country:mx/state:gr/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de GUERRERO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de GUERRERO"
+        },
+        "country": "MX",
+        "state": "GRO",
+        "city": "ALCOZAUCA DE GUERRERO, ALPOYECA, ATLAMAJALCINGO DEL MONTE, CUALAC, HUAMUXTITLAN, IGUALAPA, MALINALTEPEC, METLATONOC, OLINALA, SAN LUIS ACATLAN, TLACOACHISTLAHUACA, TLALIXTAQUILLA DE MALDONADO, TLAPA DE COMONFORT, XALPATLAHUAC, XOCHIHUEHUETLAN, XOCHISTLAHUACA, ILIATENCO, COCHOAPA EL GRANDE",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 169,
+        "ocd_id": "ocd-division/country:mx/state:gr/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de GUERRERO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de GUERRERO"
+        },
+        "country": "MX",
+        "state": "GRO",
+        "city": "AHUACUOTZINGO, ATLIXTAC, COPANATOYAC, CHILAPA DE ALVAREZ, MARTIR DE CUILAPAN, MOCHITLAN, QUECHULTENANGO, TIXTLA DE GUERRERO, TLACOAPA, ZAPOTITLAN TABLAS, ZITLALA, ACATEPEC, JOSE JOAQUIN DE HERRERA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 170,
+        "ocd_id": "ocd-division/country:mx/state:gr/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de GUERRERO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de GUERRERO"
+        },
+        "country": "MX",
+        "state": "GRO",
+        "city": "CHILPANCINGO DE LOS BRAVO, EDUARDO NERI, GENERAL HELIODORO CASTILLO, LEONARDO BRAVO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 171,
+        "ocd_id": "ocd-division/country:mx/state:gr/fed:8",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 8 de GUERRERO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 8 de GUERRERO"
+        },
+        "country": "MX",
+        "state": "GRO",
+        "city": "AYUTLA DE LOS LIBRES, AZOYU, COPALA, CUAJINICUILAPA, CUAUTEPEC, FLORENCIO VILLARREAL, JUAN R. ESCUDERO, OMETEPEC, SAN MARCOS, TECOANAPA, MARQUELIA, JUCHITAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 172,
+        "ocd_id": "ocd-division/country:mx/state:gr/fed:9",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 9 de GUERRERO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 9 de GUERRERO"
+        },
+        "country": "MX",
+        "state": "GRO",
+        "city": "ACAPULCO DE JUAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 173,
+        "ocd_id": "ocd-division/country:mx/state:gt",
+        "name": {
+            "en_US": "GUERRERO",
+            "es_MX": "GUERRERO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 174,
+        "ocd_id": "ocd-division/country:mx/state:gt/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de GUANAJUATO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "DOLORES HIDALGO CUNA DE LA INDEPENDENCIA NACIONAL, SAN LUIS DE LA PAZ, SANTA CATARINA, TIERRA BLANCA, VICTORIA, XICHU, ATARJEA, DOCTOR MORA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 175,
+        "ocd_id": "ocd-division/country:mx/state:gt/fed:10",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 10 de GUANAJUATO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 10 de GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "CORTAZAR, MOROLEON, SALVATIERRA, SANTIAGO MARAVATIO, URIANGATO, YURIRIA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 176,
+        "ocd_id": "ocd-division/country:mx/state:gt/fed:11",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 11 de GUANAJUATO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 11 de GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "LEON",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 177,
+        "ocd_id": "ocd-division/country:mx/state:gt/fed:12",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 12 de GUANAJUATO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 12 de GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "CELAYA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 178,
+        "ocd_id": "ocd-division/country:mx/state:gt/fed:13",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 13 de GUANAJUATO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 13 de GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "ABASOLO, CUERAMARO, HUANIMARO, JARAL DEL PROGRESO, PUEBLO NUEVO, ROMITA, VALLE DE SANTIAGO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 179,
+        "ocd_id": "ocd-division/country:mx/state:gt/fed:14",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 14 de GUANAJUATO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 14 de GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "ACAMBARO, APASEO EL ALTO, APASEO EL GRANDE, CORONEO, JERECUARO, TARANDACUAO, TARIMORO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 180,
+        "ocd_id": "ocd-division/country:mx/state:gt/fed:15",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 15 de GUANAJUATO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 15 de GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "IRAPUATO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 181,
+        "ocd_id": "ocd-division/country:mx/state:gt/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de GUANAJUATO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "SAN MIGUEL DE ALLENDE, CELAYA, COMONFORT, SAN JOSE ITURBIDE",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 182,
+        "ocd_id": "ocd-division/country:mx/state:gt/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de GUANAJUATO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "LEON",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 183,
+        "ocd_id": "ocd-division/country:mx/state:gt/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de GUANAJUATO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "GUANAJUATO, OCAMPO, SAN DIEGO DE LA UNION, SAN FELIPE",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 184,
+        "ocd_id": "ocd-division/country:mx/state:gt/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de GUANAJUATO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "LEON",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 185,
+        "ocd_id": "ocd-division/country:mx/state:gt/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de GUANAJUATO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "LEON",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 186,
+        "ocd_id": "ocd-division/country:mx/state:gt/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de GUANAJUATO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "MANUEL DOBLADO, PENJAMO, PURISIMA DEL RINCON, SAN FRANCISCO DEL RINCON",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 187,
+        "ocd_id": "ocd-division/country:mx/state:gt/fed:8",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 8 de GUANAJUATO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 8 de GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "SALAMANCA, SANTA CRUZ DE JUVENTINO ROSAS, VILLAGRAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 188,
+        "ocd_id": "ocd-division/country:mx/state:gt/fed:9",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 9 de GUANAJUATO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 9 de GUANAJUATO"
+        },
+        "country": "MX",
+        "state": "GUA",
+        "city": "IRAPUATO, SILAO DE LA VICTORIA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 189,
+        "ocd_id": "ocd-division/country:mx/state:hg",
+        "name": {
+            "en_US": "HIDALGO",
+            "es_MX": "HIDALGO"
+        },
+        "country": "MX",
+        "state": "HID",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 190,
+        "ocd_id": "ocd-division/country:mx/state:hg/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de HIDALGO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de HIDALGO"
+        },
+        "country": "MX",
+        "state": "HID",
+        "city": "CALNALI, HUAUTLA, HUAZALINGO, HUEJUTLA DE REYES, JALTOCAN, LOLOTLA, MOLANGO DE ESCAMILLA, SAN FELIPE ORIZATLAN, TEPEHUACAN DE GUERRERO, TIANGUISTENGO, TLANCHINOL, XOCHIATIPAN, XOCHICOATLAN, YAHUALICA, ATLAPEXCO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 191,
+        "ocd_id": "ocd-division/country:mx/state:hg/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de HIDALGO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de HIDALGO"
+        },
+        "country": "MX",
+        "state": "HID",
+        "city": "ALFAJAYUCAN, CARDONAL, CHAPULHUACAN, CHILCUAUTLA, IXMIQUILPAN, JACALA DE LEDEZMA, LA MISION, NICOLAS FLORES, PACULA, PISAFLORES, PROGRESO DE OBREGON, SAN SALVADOR, SANTIAGO DE ANAYA, TASQUILLO, TECOZAUTLA, ZIMAPAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 192,
+        "ocd_id": "ocd-division/country:mx/state:hg/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de HIDALGO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de HIDALGO"
+        },
+        "country": "MX",
+        "state": "HID",
+        "city": "ACTOPAN, AJACUBA, ATOTONILCO EL GRANDE, EL ARENAL, ELOXOCHITLAN, FRANCISCO I. MADERO, HUASCA DE OCAMPO, JUAREZ HIDALGO, METZTITLAN, MINERAL DEL CHICO, MINERAL DEL MONTE, MIXQUIAHUALA DE JUAREZ, OMITLAN DE JUAREZ, SAN AGUSTIN METZQUITITLAN, SAN AGUSTIN TLAXIACA, TETEPANGO, TLAHUELILPAN, TLAHUILTEPA, ZACUALTIPAN DE ANGELES",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 193,
+        "ocd_id": "ocd-division/country:mx/state:hg/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de HIDALGO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de HIDALGO"
+        },
+        "country": "MX",
+        "state": "HID",
+        "city": "ACATLAN, ACAXOCHITLAN, AGUA BLANCA DE ITURBIDE, CUAUTEPEC DE HINOJOSA, HUEHUETLA, METEPEC, SAN BARTOLO TUTOTEPEC, SANTIAGO TULANTEPEC DE LUGO GUERRERO, TENANGO DE DORIA, TULANCINGO DE BRAVO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 194,
+        "ocd_id": "ocd-division/country:mx/state:hg/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de HIDALGO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de HIDALGO"
+        },
+        "country": "MX",
+        "state": "HID",
+        "city": "NOPALA DE VILLAGRAN, TEPEJI DEL RIO DE OCAMPO, TEPETITLAN, TEZONTEPEC DE ALDAMA, TLAXCOAPAN, TULA DE ALLENDE, ATITALAQUIA, ATOTONILCO DE TULA, CHAPANTONGO, HUICHAPAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 195,
+        "ocd_id": "ocd-division/country:mx/state:hg/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de HIDALGO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de HIDALGO"
+        },
+        "country": "MX",
+        "state": "HID",
+        "city": "PACHUCA DE SOTO, TIZAYUCA, TOLCAYUCA, ZAPOTLAN DE JUAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 196,
+        "ocd_id": "ocd-division/country:mx/state:hg/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de HIDALGO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de HIDALGO"
+        },
+        "country": "MX",
+        "state": "HID",
+        "city": "ALMOLOYA, APAN, EMILIANO ZAPATA, EPAZOYUCAN, MINERAL DE LA REFORMA, SINGUILUCAN, TEPEAPULCO, TLANALAPA, VILLA DE TEZONTEPEC, ZEMPOALA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 197,
+        "ocd_id": "ocd-division/country:mx/state:ja",
+        "name": {
+            "en_US": "JALISCO",
+            "es_MX": "JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 198,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "AHUALULCO DE MERCADO, AMATITAN, SAN JUANITO DE ESCOBEDO, EL ARENAL, BOLA?OS, COLOTLAN, CUQUIO, CHIMALTITAN, ETZATLAN, HOSTOTIPAQUILLO, HUEJUCAR, HUEJUQUILLA EL ALTO, IXTLAHUACAN DEL RIO, MAGDALENA, MEZQUITIC, SAN CRISTOBAL DE LA BARRANCA, SAN MARCOS, SAN MARTIN DE BOLA?OS, SANTA MARIA DE LOS ANGELES, TALA, TEQUILA, TEUCHITLAN, TOTATICHE, VILLA GUERRERO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 199,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:10",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 10 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 10 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "ZAPOPAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 200,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:11",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 11 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 11 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "GUADALAJARA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 201,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:12",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 12 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 12 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "TLAJOMULCO DE ZU?IGA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 202,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:13",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 13 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 13 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "SAN PEDRO TLAQUEPAQUE, ZAPOPAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 203,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:14",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 14 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 14 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "GUADALAJARA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 204,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:15",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 15 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 15 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "DEGOLLADO, JAMAY, OCOTLAN, PONCITLAN, TOTOTLAN, ZAPOTLAN DEL REY, ATOTONILCO EL ALTO, AYOTLAN, LA BARCA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 205,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:16",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 16 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 16 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "SAN PEDRO TLAQUEPAQUE",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 206,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:17",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 17 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 17 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "ACATLAN DE JUAREZ, ATEMAJAC DE BRIZUELA, COCULA, CONCEPCION DE BUENOS AIRES, CHAPALA, IXTLAHUACAN DE LOS MEMBRILLOS, JOCOTEPEC, LA MANZANILLA DE LA PAZ, MAZAMITLA, SAN MARTIN HIDALGO, TEOCUITATLAN DE CORONA, TIZAPAN EL ALTO, TUXCUECA, VILLA CORONA, ZACOALCO DE TORRES",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 207,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:18",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 18 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 18 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "AMECA, ATENGO, AUTLAN DE NAVARRO, AYUTLA, CASIMIRO CASTILLO, CIHUATLAN, CUAUTITLAN DE GARCIA BARRAGAN, CUAUTLA, CHIQUILISTLAN, EJUTLA, EL GRULLO, LA HUERTA, JUCHITLAN, EL LIMON, VILLA PURIFICACION, TECOLOTLAN, TENAMAXTLAN, TOLIMAN, TONAYA, TUXCACUESCO, UNION DE TULA, ZAPOTITLAN DE VADILLO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 208,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:19",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 19 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 19 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "AMACUECA, ATOYAC, ZAPOTLAN EL GRANDE, SAN GABRIEL, GOMEZ FARIAS, JILOTLAN DE LOS DOLORES, SANTA MARIA DEL ORO, PIHUAMO, QUITUPAN, SAYULA, TAMAZULA DE GORDIANO, TAPALPA, TECALITLAN, TECHALUTA DE MONTENEGRO, TONILA, TUXPAN, VALLE DE JUAREZ, ZAPOTILTIC",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 209,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "ENCARNACION DE DIAZ, LAGOS DE MORENO, OJUELOS DE JALISCO, SAN DIEGO DE ALEJANDRIA, SAN JUAN DE LOS LAGOS, SAN JULIAN, UNION DE SAN ANTONIO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 210,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:20",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 20 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 20 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "TONALA, ZAPOTLANEJO, ACATIC, JUANACATLAN, EL SALTO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 211,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "MEXTICACAN, SAN MIGUEL EL ALTO, TEOCALTICHE, TEPATITLAN DE MORELOS, VALLE DE GUADALUPE, VILLA HIDALGO, CA?ADAS DE OBREGON, YAHUALICA DE GONZALEZ GALLO, SAN IGNACIO CERRO GORDO, ARANDAS, JALOSTOTITLAN, JESUS MARIA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 212,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "ZAPOPAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 213,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "ATENGUILLO, CABO CORRIENTES, GUACHINANGO, MASCOTA, MIXTLAN, PUERTO VALLARTA, SAN SEBASTIAN DEL OESTE, TALPA DE ALLENDE, TOMATLAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 214,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "ZAPOPAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 215,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "TONALA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 216,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:8",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 8 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 8 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "GUADALAJARA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 217,
+        "ocd_id": "ocd-division/country:mx/state:ja/fed:9",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 9 de JALISCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 9 de JALISCO"
+        },
+        "country": "MX",
+        "state": "JAL",
+        "city": "GUADALAJARA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 218,
+        "ocd_id": "ocd-division/country:mx/state:mi",
+        "name": {
+            "en_US": "MICHOAC\u00c1N",
+            "es_MX": "MICHOAC\u00c1N"
+        },
+        "country": "MX",
+        "state": "MIC",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 219,
+        "ocd_id": "ocd-division/country:mx/state:mi/city:54",
+        "name": {
+            "en_US": "MORELIA",
+            "es_MX": "MORELIA"
+        },
+        "country": "MX",
+        "state": "MIC",
+        "city": "MORELIA",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 220,
+        "ocd_id": "ocd-division/country:mx/state:mi/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de MICHOAC\u00c1N DE OCAMPO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de MICHOAC\u00c1N DE OCAMPO"
+        },
+        "country": "MX",
+        "state": "MIC",
+        "city": "ARTEAGA, CHURUMUCO, GABRIEL ZAMORA, LA HUACANA, LAZARO CARDENAS, MUGICA, NUEVO URECHO, PARACUARO, TUMBISCATIO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 221,
+        "ocd_id": "ocd-division/country:mx/state:mi/fed:10",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 10 de MICHOAC\u00c1N DE OCAMPO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 10 de MICHOAC\u00c1N DE OCAMPO"
+        },
+        "country": "MX",
+        "state": "MIC",
+        "city": "MORELIA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 222,
+        "ocd_id": "ocd-division/country:mx/state:mi/fed:11",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 11 de MICHOAC\u00c1N DE OCAMPO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 11 de MICHOAC\u00c1N DE OCAMPO"
+        },
+        "country": "MX",
+        "state": "MIC",
+        "city": "ACUITZIO, ARIO, HUIRAMBA, LAGUNILLAS, MADERO, NOCUPETARO, PATZCUARO, SALVADOR ESCALANTE, TACAMBARO, TARETAN, TINGAMBATO, TURICATO, TZINTZUNTZAN, ZIRACUARETIRO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 223,
+        "ocd_id": "ocd-division/country:mx/state:mi/fed:12",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 12 de MICHOAC\u00c1N DE OCAMPO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 12 de MICHOAC\u00c1N DE OCAMPO"
+        },
+        "country": "MX",
+        "state": "MIC",
+        "city": "AGUILILLA, APATZINGAN, AQUILA, BUENAVISTA, COAHUAYANA, COALCOMAN DE VAZQUEZ PALLARES, CHINICUILA, NUEVO PARANGARICUTIRO, PERIBAN, TANCITARO, TEPALCATEPEC",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 224,
+        "ocd_id": "ocd-division/country:mx/state:mi/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de MICHOAC\u00c1N DE OCAMPO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de MICHOAC\u00c1N DE OCAMPO"
+        },
+        "country": "MX",
+        "state": "MIC",
+        "city": "HUANDACAREO, HUANIQUEO, INDAPARAPEO, JIMENEZ, JOSE SIXTO VERDUZCO, MORELOS, PANINDICUARO, PENJAMILLO, PURUANDIRO, SANTA ANA MAYA, TARIMBARO, ALVARO OBREGON, ANGAMACUTIRO, COPANDARO, CUITZEO, CHARO, CHUCANDIRO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 225,
+        "ocd_id": "ocd-division/country:mx/state:mi/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de MICHOAC\u00c1N DE OCAMPO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de MICHOAC\u00c1N DE OCAMPO"
+        },
+        "country": "MX",
+        "state": "MIC",
+        "city": "ANGANGUEO, CARACUARO, HUETAMO, JUAREZ, JUNGAPEO, OCAMPO, SAN LUCAS, SUSUPUATO, TIQUICHEO DE NICOLAS ROMERO, TUXPAN, TUZANTLA, TZITZIO, ZITACUARO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 226,
+        "ocd_id": "ocd-division/country:mx/state:mi/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de MICHOAC\u00c1N DE OCAMPO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de MICHOAC\u00c1N DE OCAMPO"
+        },
+        "country": "MX",
+        "state": "MIC",
+        "city": "BRISE?AS, COTIJA, CHAVINDA, JIQUILPAN, MARCOS CASTELLANOS, PAJACUARAN, COJUMATLAN DE REGULES, LOS REYES, SAHUAYO, TANGAMANDAPIO, TING?INDIN, TOCUMBO, VENUSTIANO CARRANZA, VILLAMAR, VISTA HERMOSA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 227,
+        "ocd_id": "ocd-division/country:mx/state:mi/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de MICHOAC\u00c1N DE OCAMPO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de MICHOAC\u00c1N DE OCAMPO"
+        },
+        "country": "MX",
+        "state": "MIC",
+        "city": "CHURINTZIO, ECUANDUREO, IXTLAN, NUMARAN, LA PIEDAD, TANHUATO, YURECUARO, ZAMORA, ZINAPARO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 228,
+        "ocd_id": "ocd-division/country:mx/state:mi/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de MICHOAC\u00c1N DE OCAMPO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de MICHOAC\u00c1N DE OCAMPO"
+        },
+        "country": "MX",
+        "state": "MIC",
+        "city": "APORO, CONTEPEC, EPITACIO HUERTA, HIDALGO, IRIMBO, MARAVATIO, QUERENDARO, SENGUIO, TLALPUJAHUA, ZINAPECUARO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 229,
+        "ocd_id": "ocd-division/country:mx/state:mi/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de MICHOAC\u00c1N DE OCAMPO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de MICHOAC\u00c1N DE OCAMPO"
+        },
+        "country": "MX",
+        "state": "MIC",
+        "city": "TANGANCICUARO, TLAZAZALCA, ZACAPU, COENEO, CHARAPAN, CHERAN, CHILCHOTA, ERONGARICUARO, JACONA, NAHUATZEN, PARACHO, PUREPERO, QUIROGA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 230,
+        "ocd_id": "ocd-division/country:mx/state:mi/fed:8",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 8 de MICHOAC\u00c1N DE OCAMPO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 8 de MICHOAC\u00c1N DE OCAMPO"
+        },
+        "country": "MX",
+        "state": "MIC",
+        "city": "MORELIA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 231,
+        "ocd_id": "ocd-division/country:mx/state:mi/fed:9",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 9 de MICHOAC\u00c1N DE OCAMPO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 9 de MICHOAC\u00c1N DE OCAMPO"
+        },
+        "country": "MX",
+        "state": "MIC",
+        "city": "URUAPAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 232,
+        "ocd_id": "ocd-division/country:mx/state:mo",
+        "name": {
+            "en_US": "MORELOS",
+            "es_MX": "MORELOS"
+        },
+        "country": "MX",
+        "state": "MOR",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 233,
+        "ocd_id": "ocd-division/country:mx/state:mo/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de MORELOS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de MORELOS"
+        },
+        "country": "MX",
+        "state": "MOR",
+        "city": "CUERNAVACA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 234,
+        "ocd_id": "ocd-division/country:mx/state:mo/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de MORELOS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de MORELOS"
+        },
+        "country": "MX",
+        "state": "MOR",
+        "city": "CUERNAVACA, EMILIANO ZAPATA, JIUTEPEC, XOCHITEPEC",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 235,
+        "ocd_id": "ocd-division/country:mx/state:mo/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de MORELOS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de MORELOS"
+        },
+        "country": "MX",
+        "state": "MOR",
+        "city": "AXOCHIAPAN, AYALA, CUAUTLA, TEPALCINGO, TLALTIZAPAN DE ZAPATA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 236,
+        "ocd_id": "ocd-division/country:mx/state:mo/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de MORELOS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de MORELOS"
+        },
+        "country": "MX",
+        "state": "MOR",
+        "city": "AMACUZAC, COATLAN DEL RIO, JOJUTLA, MAZATEPEC, MIACATLAN, PUENTE DE IXTLA, TEMIXCO, TETECALA, TLAQUILTENANGO, ZACATEPEC, COATETELCO, XOXOCOTLA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 237,
+        "ocd_id": "ocd-division/country:mx/state:mo/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de MORELOS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de MORELOS"
+        },
+        "country": "MX",
+        "state": "MOR",
+        "city": "ATLATLAHUCAN, HUITZILAC, JANTETELCO, JONACATEPEC, OCUITUCO, TEPOZTLAN, TETELA DEL VOLCAN, TLALNEPANTLA, TLAYACAPAN, TOTOLAPAN, YAUTEPEC, YECAPIXTLA, ZACUALPAN DE AMILPAS, TEMOAC",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 238,
+        "ocd_id": "ocd-division/country:mx/state:na",
+        "name": {
+            "en_US": "NAYARIT",
+            "es_MX": "NAYARIT"
+        },
+        "country": "MX",
+        "state": "NAY",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 239,
+        "ocd_id": "ocd-division/country:mx/state:na/city:17",
+        "name": {
+            "en_US": "TEPIC",
+            "es_MX": "TEPIC"
+        },
+        "country": "MX",
+        "state": "NAY",
+        "city": "TEPIC",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 240,
+        "ocd_id": "ocd-division/country:mx/state:na/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de NAYARIT",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de NAYARIT"
+        },
+        "country": "MX",
+        "state": "NAY",
+        "city": "ACAPONETA, HUAJICORI, DEL NAYAR, ROSAMORADA, RUIZ, SAN BLAS, SANTIAGO IXCUINTLA, TECUALA, TUXPAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 241,
+        "ocd_id": "ocd-division/country:mx/state:na/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de NAYARIT",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de NAYARIT"
+        },
+        "country": "MX",
+        "state": "NAY",
+        "city": "TEPIC, XALISCO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 242,
+        "ocd_id": "ocd-division/country:mx/state:na/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de NAYARIT",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de NAYARIT"
+        },
+        "country": "MX",
+        "state": "NAY",
+        "city": "SAN PEDRO LAGUNILLAS, SANTA MARIA DEL ORO, XALISCO, LA YESCA, AHUACATLAN, AMATLAN DE CA?AS, BAHIA DE BANDERAS, COMPOSTELA, IXTLAN DEL RIO, JALA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 243,
+        "ocd_id": "ocd-division/country:mx/state:nl",
+        "name": {
+            "en_US": "NUEVO LE\u00d3N",
+            "es_MX": "NUEVO LE\u00d3N"
+        },
+        "country": "MX",
+        "state": "NLE",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 244,
+        "ocd_id": "ocd-division/country:mx/state:nl/city:40",
+        "name": {
+            "en_US": "MONTERREY",
+            "es_MX": "MONTERREY"
+        },
+        "country": "MX",
+        "state": "NLE",
+        "city": "MONTERREY",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 245,
+        "ocd_id": "ocd-division/country:mx/state:nl/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de NUEVO LE\u00d3N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de NUEVO LE\u00d3N"
+        },
+        "country": "MX",
+        "state": "NLE",
+        "city": "SAN PEDRO GARZA GARCIA, SANTA CATARINA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 246,
+        "ocd_id": "ocd-division/country:mx/state:nl/fed:10",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 10 de NUEVO LE\u00d3N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 10 de NUEVO LE\u00d3N"
+        },
+        "country": "MX",
+        "state": "NLE",
+        "city": "MONTERREY",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 247,
+        "ocd_id": "ocd-division/country:mx/state:nl/fed:11",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 11 de NUEVO LE\u00d3N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 11 de NUEVO LE\u00d3N"
+        },
+        "country": "MX",
+        "state": "NLE",
+        "city": "GUADALUPE, JUAREZ, MONTERREY",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 248,
+        "ocd_id": "ocd-division/country:mx/state:nl/fed:12",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 12 de NUEVO LE\u00d3N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 12 de NUEVO LE\u00d3N"
+        },
+        "country": "MX",
+        "state": "NLE",
+        "city": "CADEREYTA JIMENEZ, JUAREZ, MARIN, PESQUERIA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 249,
+        "ocd_id": "ocd-division/country:mx/state:nl/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de NUEVO LE\u00d3N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de NUEVO LE\u00d3N"
+        },
+        "country": "MX",
+        "state": "NLE",
+        "city": "APODACA, GRAL. ESCOBEDO, GRAL. ZUAZUA, PESQUERIA, SAN NICOLAS DE LOS GARZA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 250,
+        "ocd_id": "ocd-division/country:mx/state:nl/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de NUEVO LE\u00d3N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de NUEVO LE\u00d3N"
+        },
+        "country": "MX",
+        "state": "NLE",
+        "city": "GRAL. ESCOBEDO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 251,
+        "ocd_id": "ocd-division/country:mx/state:nl/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de NUEVO LE\u00d3N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de NUEVO LE\u00d3N"
+        },
+        "country": "MX",
+        "state": "NLE",
+        "city": "APODACA, SAN NICOLAS DE LOS GARZA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 252,
+        "ocd_id": "ocd-division/country:mx/state:nl/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de NUEVO LE\u00d3N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de NUEVO LE\u00d3N"
+        },
+        "country": "MX",
+        "state": "NLE",
+        "city": "MONTERREY",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 253,
+        "ocd_id": "ocd-division/country:mx/state:nl/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de NUEVO LE\u00d3N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de NUEVO LE\u00d3N"
+        },
+        "country": "MX",
+        "state": "NLE",
+        "city": "MONTERREY",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 254,
+        "ocd_id": "ocd-division/country:mx/state:nl/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de NUEVO LE\u00d3N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de NUEVO LE\u00d3N"
+        },
+        "country": "MX",
+        "state": "NLE",
+        "city": "ABASOLO, AGUALEGUAS, ANAHUAC, BUSTAMANTE, CARMEN, CIENEGA DE FLORES, GARCIA, GRAL. ZUAZUA, HIDALGO, HIGUERAS, LAMPAZOS DE NARANJO, MINA, MONTERREY, PARAS, SABINAS HIDALGO, SALINAS VICTORIA, VALLECILLO, VILLALDAMA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 255,
+        "ocd_id": "ocd-division/country:mx/state:nl/fed:8",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 8 de NUEVO LE\u00d3N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 8 de NUEVO LE\u00d3N"
+        },
+        "country": "MX",
+        "state": "NLE",
+        "city": "APODACA, GUADALUPE, PESQUERIA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 256,
+        "ocd_id": "ocd-division/country:mx/state:nl/fed:9",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 9 de NUEVO LE\u00d3N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 9 de NUEVO LE\u00d3N"
+        },
+        "country": "MX",
+        "state": "NLE",
+        "city": "LOS ALDAMAS, ALLENDE, ARAMBERRI, CERRALVO, CHINA, DR. ARROYO, DR. COSS, DR. GONZALEZ, GALEANA, GRAL. BRAVO, GRAL. TERAN, GRAL. TREVI?O, GRAL. ZARAGOZA, LOS HERRERAS, HUALAHUISES, ITURBIDE, LINARES, MELCHOR OCAMPO, MIER Y NORIEGA, MONTEMORELOS, LOS RAMONES, RAYONES, SANTIAGO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 257,
+        "ocd_id": "ocd-division/country:mx/state:oa",
+        "name": {
+            "en_US": "OAXACA",
+            "es_MX": "OAXACA"
+        },
+        "country": "MX",
+        "state": "OAX",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 258,
+        "ocd_id": "ocd-division/country:mx/state:oa/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de OAXACA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de OAXACA"
+        },
+        "country": "MX",
+        "state": "OAX",
+        "city": "ACATLAN DE PEREZ FIGUEROA, AYOTZINTEPEC, COSOLAPA, LOMA BONITA, SAN JOSE CHILTEPEC, SAN JUAN BAUTISTA TUXTEPEC, SAN JUAN BAUTISTA VALLE NACIONAL, SAN LUCAS OJITLAN, SAN MIGUEL SOYALTEPEC, SANTA MARIA JACATEPEC, SANTIAGO JOCOTEPEC",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 259,
+        "ocd_id": "ocd-division/country:mx/state:oa/fed:10",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 10 de OAXACA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 10 de OAXACA"
+        },
+        "country": "MX",
+        "state": "OAX",
+        "city": "HEROICA CIUDAD DE EJUTLA DE CRESPO, MAGDALENA MIXTEPEC, MIAHUATLAN DE PORFIRIO DIAZ, MONJAS, LA PE, PLUMA HIDALGO, SAN AGUSTIN AMATENGO, SAN AGUSTIN LOXICHA, SAN ANDRES PAXTLAN, SAN ANDRES ZABACHE, SAN BALTAZAR LOXICHA, SAN BARTOLOME LOXICHA, SAN BERNARDO MIXTEPEC, SAN CRISTOBAL AMATLAN, SAN FRANCISCO LOGUECHE, SAN FRANCISCO SOLA, SAN ILDEFONSO AMATLAN, SAN ILDEFONSO SOLA, SAN JERONIMO COATLAN, SAN JOSE DEL PE?ASCO, SAN JUAN LACHIGALLA, SAN LUIS AMATLAN, SAN MARCIAL OZOLOTEPEC, SAN MARTIN DE LOS CANSECOS, SAN MARTIN LACHILA, SAN MATEO PI?AS, SAN MATEO RIO HONDO, SAN MIGUEL COATLAN, SAN MIGUEL EJUTLA, SAN MIGUEL MIXTEPEC, SAN MIGUEL SUCHIXTEPEC, SAN NICOLAS, SAN PABLO COATLAN, SAN PEDRO EL ALTO, SAN PEDRO POCHUTLA, AYOQUEZCO DE ALDAMA, CANDELARIA LOXICHA, COATECAS ALTAS, LA COMPA?IA, SAN SEBASTIAN COATLAN, SAN SEBASTIAN RIO HONDO, SAN SIMON ALMOLONGAS, SAN VICENTE COATLAN, SAN VICENTE LACHIXIO, SANTA ANA, SANTA ANA TLAPACOYAN, SANTA CATARINA CUIXTLA, SANTA CATARINA LOXICHA, SANTA CRUZ MIXTEPEC, SANTA CRUZ XITLA, SANTA LUCIA MIAHUATLAN, SANTA MARIA COLOTEPEC, SANTA MARIA HUATULCO, SANTA MARIA LACHIXIO, SANTA MARIA OZOLOTEPEC, SANTA MARIA SOLA, SANTA MARIA TONAMECA, SANTO DOMINGO DE MORELOS, SANTO DOMINGO OZOLOTEPEC, SANTO TOMAS TAMAZULAPAN, SITIO DE XITLAPEHUA, VILLA SOLA DE VEGA, TANICHE, YOGANA, ZIMATLAN DE ALVAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 260,
+        "ocd_id": "ocd-division/country:mx/state:oa/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de OAXACA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de OAXACA"
+        },
+        "country": "MX",
+        "state": "OAX",
+        "city": "SAN JUAN DE LOS CUES, SAN JUAN DEL ESTADO, SAN JUAN QUIOTEPEC, SAN JUAN TEPEUXILA, SAN LORENZO CACAOTEPEC, SAN LORENZO CUAUNECUILTITLA, SAN LUCAS ZOQUIAPAM, SAN MARTIN TOXPALAN, SAN MATEO YOLOXOCHITLAN, SAN MIGUEL ALOAPAM, SAN MIGUEL CHICAHUA, SAN MIGUEL HUAUTLA, SAN MIGUEL SANTA FLOR, SAN PABLO HUITZO, SAN PEDRO COXCALTEPEC CANTAROS, SAN PEDRO IXCATLAN, SAN PEDRO JALTEPETONGO, SAN PEDRO JOCOTIPAC, SAN PEDRO OCOPETATILLO, SAN PEDRO SOCHIAPAM, SAN PEDRO TEUTILA, SANTA ANA ATEIXTLAHUACA, SANTA ANA CUAUHTEMOC, SANTA CRUZ ACATEPEC, SANTA MARIA APAZCO, SANTA MARIA LA ASUNCION, SANTA MARIA CHILCHOTLA, SANTA MARIA IXCATLAN, SANTA MARIA PAPALO, SANTA MARIA TECOMAVACA, SANTA MARIA TEOPOXCO, SANTA MARIA TEXCATITLAN, SANTA MARIA TLALIXTAC, SANTIAGO APOALA, SANTIAGO HUAUCLILLA, SANTIAGO NACALTEPEC, ASUNCION NOCHIXTLAN, CONCEPCION PAPALO, CUYAMECALCO VILLA DE ZARAGOZA, ELOXOCHITLAN DE FLORES MAGON, GUADALUPE ETLA, HUAUTEPEC, HUAUTLA DE JIMENEZ, MAGDALENA APASCO, MAZATLAN VILLA DE FLORES, NAZARENO ETLA, REYES ETLA, SAN AGUSTIN ETLA, SAN ANDRES TEOTILALPAM, SAN ANDRES ZAUTLA, SAN ANTONIO NANAHUATIPAM, SAN BARTOLOME AYAUTLA, SAN FELIPE JALAPA DE DIAZ, SAN FELIPE USILA, SAN FRANCISCO CHAPULAPA, SAN FRANCISCO HUEHUETLAN, SAN FRANCISCO TELIXTLAHUACA, SAN JERONIMO SOSOLA, SAN JERONIMO TECOATL, SAN JOSE INDEPENDENCIA, SAN JOSE TENANGO, SAN JUAN BAUTISTA ATATLAHUCA, SAN JUAN BAUTISTA CUICATLAN, SAN JUAN BAUTISTA GUELACHE, SAN JUAN BAUTISTA JAYACATLAN, SAN JUAN BAUTISTA TLACOATZINTEPEC, CHIQUIHUITLAN DE BENITO JUAREZ, SAN JUAN COATZOSPAM, SANTIAGO SUCHILQUITONGO, SANTIAGO TENANGO, SANTIAGO TEXCALCINGO, SANTOS REYES PAPALO, SOLEDAD ETLA, TEOTITLAN DE FLORES MAGON, VALERIO TRUJANO, VILLA DE ETLA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 261,
+        "ocd_id": "ocd-division/country:mx/state:oa/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de OAXACA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de OAXACA"
+        },
+        "country": "MX",
+        "state": "OAX",
+        "city": "SAN BARTOLOME YUCUA?E, SAN CRISTOBAL SUCHIXTLAHUACA, SAN FELIPE TEJALAPAM, SAN FRANCISCO CHINDUA, SAN FRANCISCO JALTEPETONGO, SAN FRANCISCO NUXA?O, SAN FRANCISCO TEOPAN, SAN JERONIMO SILACAYOAPILLA, SAN JOSE AYUQUILA, SAN JUAN ACHIUTLA, SAN JUAN BAUTISTA COIXTLAHUACA, SAN JUAN BAUTISTA SUCHITEPEC, SAN JUAN DIUXI, SAN JUAN SAYULTEPEC, SAN JUAN TAMAZOLA, SAN JUAN TEPOSCOLULA, SAN JUAN YUCUITA, SAN MATEO ETLATONGO, SAN MATEO SINDIHUI, SAN MATEO TLAPILTEPEC, SAN MIGUEL ACHIUTLA, SAN MIGUEL PERAS, SAN MIGUEL PIEDRAS, SAN MIGUEL TECOMATLAN, SAN MIGUEL TEQUIXTEPEC, SAN MIGUEL TULANCINGO, SAN PABLO CUATRO VENADOS, SAN PEDRO IXTLAHUACA, SAN PEDRO NOPALA, SAN PEDRO TEOZACOALCO, SAN PEDRO TIDAA, SAN PEDRO TOPILTEPEC, SAN PEDRO Y SAN PABLO TEPOSCOLULA, SAN PEDRO Y SAN PABLO TEQUIXTEPEC, SAN PEDRO YUCUNAMA, SANTO DOMINGO YODOHINO, SANTO TOMAS MAZALTEPEC, VILLA DE TAMAZULAPAM DEL PROGRESO, VILLA TEJUPAM DE LA UNION, TEOTONGO, TEPELMEME VILLA DE MORELOS, TLACOTEPEC PLUMAS, TRINIDAD ZAACHILA, LA TRINIDAD VISTA HERMOSA, YUTANDUCHI DE GUERRERO, VILLA DE ZAACHILA, ZAPOTITLAN PALMAS, ASUNCION CUYOTEPEJI, ASUNCION NOCHIXTLAN, CIENEGA DE ZIMATLAN, CONCEPCION BUENAVISTA, COSOLTEPEC, CUILAPAM DE GUERRERO, HEROICA CIUDAD DE HUAJUAPAN DE LEON, MAGDALENA JALTEPEC, MAGDALENA YODOCONO DE PORFIRIO DIAZ, MAGDALENA ZAHUATLAN, SAN ANDRES DINICUITI, SAN ANDRES IXTLAHUACA, SAN ANDRES LAGUNAS, SAN ANDRES NUXI?O, SAN ANDRES SINAXTLA, SAN ANTONINO EL ALTO, SAN ANTONIO ACUTLA, SAN ANTONIO HUITEPEC, SAN BARTOLO COYOTEPEC, SAN BARTOLO SOYALTEPEC, SAN RAYMUNDO JALPAN, SAN VICENTE NU?U, SANTA CATARINA QUIANE, SANTA CATARINA TAYATA, SANTA CATARINA ZAPOQUILA, SANTA CRUZ TAYATA, SANTA CRUZ XOXOCOTLAN, SANTA INES DEL MONTE, SANTA INES DE ZARAGOZA, SANTA MAGDALENA JICOTLAN, SANTA MARIA CAMOTLAN, SANTA MARIA CHACHOAPAM, VILLA DE CHILAPA DE DIAZ, SANTA MARIA NATIVITAS, SANTA MARIA NDUAYACO, SANTA MARIA PE?OLES, SANTA MARIA TATALTEPEC, SANTIAGO AYUQUILILLA, SANTIAGO CACALOXTEPEC, SANTIAGO CHAZUMBA, SANTIAGO HUAJOLOTITLAN, SANTIAGO IHUITLAN PLUMAS, SANTIAGO MILTEPEC, SANTIAGO NEJAPILLA, SANTIAGO TEPETLAPA, SANTIAGO TILANTONGO, SANTIAGO TILLO, SANTIAGO TLAZOYALTEPEC, SANTIAGO YOLOMECATL, SANTO DOMINGO NUXAA, SANTO DOMINGO TLATAYAPAM, SANTO DOMINGO TONALTEPEC, SANTO DOMINGO YANHUITLAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 262,
+        "ocd_id": "ocd-division/country:mx/state:oa/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de OAXACA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de OAXACA"
+        },
+        "country": "MX",
+        "state": "OAX",
+        "city": "ABEJONES, ANIMAS TRUJANO, ASUNCION CACALOTEPEC, ASUNCION OCOTLAN, GUELATAO DE JUAREZ, IXTLAN DE JUAREZ, MAGDALENA OCOTLAN, MAGDALENA TEITIPAC, MIXISTLAN DE LA REFORMA, NATIVIDAD, NUEVO ZOQUIAPAM, OCOTLAN DE MORELOS, ROJAS DE CUAUHTEMOC, SAN AGUSTIN DE LAS JUNTAS, SAN ANDRES SOLAGA, SAN ANDRES YAA, SAN ANTONINO CASTILLO VELASCO, SAN ANTONIO DE LA CAL, SAN BALTAZAR CHICHICAPAM, SAN BALTAZAR YATZACHI EL BAJO, SAN BARTOLOME QUIALANA, SAN BARTOLOME ZOOGOCHO, SAN CRISTOBAL LACHIRIOAG, SAN DIONISIO OCOTEPEC, SAN PABLO YAGANIZA, SAN PEDRO APOSTOL, SAN PEDRO CAJONOS, SAN PEDRO MARTIR, SAN PEDRO OCOTEPEC, SAN PEDRO TAVICHE, SAN PEDRO Y SAN PABLO AYUTLA, SAN PEDRO YANERI, SAN PEDRO YOLOX, SAN SEBASTIAN ABASOLO, SAN SEBASTIAN TEITIPAC, SAN SEBASTIAN TUTLA, SANTA ANA DEL VALLE, SANTA ANA YARENI, SANTA ANA ZEGACHE, SANTA CATARINA IXTEPEJI, SANTA CATARINA LACHATAO, SANTA CATARINA MINAS, SANTA CRUZ AMILPAS, SANTA CRUZ PAPALUTLA, SANTA GERTRUDIS, SANTA INES YATZECHE, SANTA LUCIA OCOTLAN, SANTA MARIA ALOTEPEC, SANTA MARIA COYOTEPEC, SANTA MARIA DEL TULE, SANTA MARIA GUELACE, SANTA MARIA JALTIANGUIS, SANTA MARIA TEMAXCALAPA, SANTA MARIA TEPANTLALI, SANTA MARIA TLAHUITOLTEPEC, SANTA MARIA YALINA, SANTA MARIA YAVESIA, SANTIAGO APOSTOL, SANTIAGO ATITLAN, SANTIAGO CAMOTLAN, SAN DIONISIO OCOTLAN, SAN FRANCISCO CAJONOS, SAN FRANCISCO LACHIGOLO, SAN ILDEFONSO VILLA ALTA, SAN JERONIMO TAVICHE, SAN JERONIMO TLACOCHAHUAYA, SAN JOSE DEL PROGRESO, SAN JUAN ATEPEC, SAN JUAN CHICOMEZUCHIL, SAN JUAN CHILATECA, SAN JUAN COMALTEPEC, SAN JUAN DEL RIO, SAN JUAN EVANGELISTA ANALCO, SAN JUAN GUELAVIA, SAN JUAN JUQUILA MIXES, SAN JUAN JUQUILA VIJANOS, SAN JUAN PETLAPA, SAN JUAN TABAA, SAN JUAN TEITIPAC, SAN JUAN YAEE, SAN JUAN YATZONA, SAN LORENZO ALBARRADAS, SAN LUCAS CAMOTLAN, SAN LUCAS QUIAVINI, SAN MARTIN TILCAJETE, SAN MATEO CAJONOS, SAN MELCHOR BETAZA, SAN MIGUEL AMATLAN, SAN MIGUEL DEL RIO, SAN MIGUEL QUETZALTEPEC, VILLA TALEA DE CASTRO, SAN MIGUEL TILQUIAPAM, SAN MIGUEL YOTAO, SAN PABLO HUIXTEPEC, SAN PABLO MACUILTIANGUIS, SAN PABLO VILLA DE MITLA, SANTIAGO COMALTEPEC, SANTIAGO LALOPA, SANTIAGO LAXOPA, SANTIAGO MATATLAN, SANTIAGO XIACUI, SANTIAGO ZACATEPEC, SANTIAGO ZOOCHILA, SANTO DOMINGO ALBARRADAS, SANTO DOMINGO ROAYAGA, SANTO DOMINGO TEPUXTEPEC, SANTO DOMINGO TOMALTEPEC, SANTO DOMINGO XAGACIA, SANTO TOMAS JALIEZA, TAMAZULAPAM DEL ESPIRITU SANTO, TANETZE DE ZARAGOZA, TEOCOCUILCO DE MARCOS PEREZ, TEOTITLAN DEL VALLE, TLACOLULA DE MATAMOROS, TLALIXTAC DE CABRERA, TOTONTEPEC VILLA DE MORELOS, CAPULALPAM DE MENDEZ, VILLA DIAZ ORDAZ, VILLA HIDALGO, YAXE, ZIMATLAN DE ALVAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 263,
+        "ocd_id": "ocd-division/country:mx/state:oa/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de OAXACA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de OAXACA"
+        },
+        "country": "MX",
+        "state": "OAX",
+        "city": "SAN CARLOS YAUTEPEC, SAN FRANCISCO OZOLOTEPEC, SAN JOSE LACHIGUIRI, SAN JUAN COTZOCON, SAN JUAN LAJARCIA, SAN JUAN LALANA, SAN JUAN MAZATLAN, SAN JUAN MIXTEPEC, SAN JUAN OZOLOTEPEC, SAN MIGUEL DEL PUERTO, SAN MIGUEL TENANGO, SAN PEDRO COMITANCILLO, SAN PEDRO HUAMELULA, SAN PEDRO HUILOTEPEC, SAN PEDRO MARTIR QUIECHAPA, SAN PEDRO MIXTEPEC, SAN PEDRO QUIATONI, SAN PEDRO TOTOLAPAM, SANTA ANA TAVELA, SANTA CATALINA QUIERI, SANTA CATARINA QUIOQUITANI, SANTA MARIA ECATEPEC, SANTA MARIA GUIENAGATI, SANTA MARIA JALAPA DEL MARQUES, SANTA MARIA MIXTEQUILLA, SANTA MARIA QUIEGOLANI, SANTA MARIA TOTOLAPILLA, SANTA MARIA ZOQUITLAN, SANTIAGO ASTATA, SANTIAGO CHOAPAM, SANTIAGO IXCUINTEPEC, SANTIAGO LACHIGUIRI, SANTIAGO LAOLLAGA, ASUNCION TLACOLULITA, GUEVEA DE HUMBOLDT, MAGDALENA TEQUISISTLAN, MAGDALENA TLACOTEPEC, NEJAPA DE MADERO, SALINA CRUZ, SAN BARTOLO YAUTEPEC, SAN BLAS ATEMPA, SANTIAGO XANICA, SANTIAGO YAVEO, SANTO DOMINGO CHIHUITAN, SANTO DOMINGO TEHUANTEPEC",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 264,
+        "ocd_id": "ocd-division/country:mx/state:oa/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de OAXACA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de OAXACA"
+        },
+        "country": "MX",
+        "state": "OAX",
+        "city": "SAN MARCOS ARTEAGA, SAN MARTIN HUAMELULPAM, SAN MARTIN ITUNYOSO, SAN MARTIN PERAS, SAN MARTIN ZACATEPEC, SAN MATEO NEJAPAM, SAN MATEO PE?ASCO, SAN MIGUEL AHUEHUETITLAN, SAN MIGUEL AMATITLAN, SAN MIGUEL EL GRANDE, SAN MIGUEL TLACOTEPEC, SAN NICOLAS HIDALGO, SAN PABLO TIJALTEPEC, SAN PEDRO MARTIR YUCUXACO, SAN PEDRO MOLINOS, SAN SEBASTIAN NICANANDUTA, SAN SEBASTIAN TECOMAXTLAHUACA, SAN SIMON ZAHUATLAN, SANTA CATARINA TICUA, SANTA CATARINA YOSONOTU, SANTA CRUZ DE BRAVO, SANTA CRUZ ITUNDUJIA, SANTA CRUZ NUNDACO, SANTA CRUZ TACACHE DE MINA, SANTA CRUZ TACAHUA, SANTA LUCIA MONTEVERDE, SANTA MARIA DEL ROSARIO, SANTA MARIA YOLOTEPEC, SANTA MARIA YOSOYUA, SANTA MARIA YUCUHITI, SANTA MARIA ZACATEPEC, SANTA MARIA ZANIZA, SANTIAGO AMOLTEPEC, SANTIAGO DEL RIO, SANTIAGO JUXTLAHUACA, CALIHUALA, CHALCATONGO DE HIDALGO, COICOYAN DE LAS FLORES, CONSTANCIA DEL ROSARIO, FRESNILLO DE TRUJANO, GUADALUPE DE RAMIREZ, MESONES HIDALGO, IXPANTEPEC NIEVES, MAGDALENA PE?ASCO, MARISCALA DE JUAREZ, PUTLA VILLA DE GUERRERO, SAN AGUSTIN ATENANGO, SAN AGUSTIN TLACOTEPEC, SAN ANDRES CABECERA NUEVA, SAN ANDRES TEPETLAPA, SAN ANTONINO MONTE VERDE, SAN ANTONIO SINICAHUA, SAN CRISTOBAL AMOLTEPEC, SAN ESTEBAN ATATLAHUCA, SAN FRANCISCO CAHUACUA, SAN FRANCISCO TLAPANCINGO, SAN JORGE NUCHITA, SAN JUAN BAUTISTA TLACHICHILCO, SAN JUAN CIENEGUILLA, SAN JUAN IHUALTEPEC, SAN JUAN MIXTEPEC, SAN JUAN ?UMI, SAN JUAN TEITA, SAN LORENZO TEXMELUCAN, SAN LORENZO VICTORIA, SANTIAGO NUNDICHE, SANTIAGO NUYOO, SANTIAGO TAMAZOLA, SANTIAGO TEXTITLAN, SANTIAGO YOSONDUA, SANTIAGO YUCUYACHI, SANTO DOMINGO IXCATLAN, SANTO DOMINGO TEOJOMULCO, SANTO DOMINGO TONALA, SANTO TOMAS OCOTEPEC, SANTOS REYES TEPEJILLO, SANTOS REYES YUCUNA, SILACAYOAPAM, H VILLA TEZOATLAN SEGURA Y LUNA CUNA IND OAX, HEROICA CIUDAD DE TLAXIACO, SAN MATEO YUCUTINDOO, ZAPOTITLAN LAGUNAS",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 265,
+        "ocd_id": "ocd-division/country:mx/state:oa/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de OAXACA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de OAXACA"
+        },
+        "country": "MX",
+        "state": "OAX",
+        "city": "ASUNCION IXTALTEPEC, EL BARRIO DE LA SOLEDAD, CHAHUITES, EL ESPINAL, CIUDAD IXTEPEC, HEROICA CIUDAD DE JUCHITAN DE ZARAGOZA, MATIAS ROMERO AVENDA?O, REFORMA DE PINEDA, SAN DIONISIO DEL MAR, SAN FRANCISCO DEL MAR, SAN FRANCISCO IXHUATAN, SAN JUAN GUICHICOVI, SAN JUAN MAZATLAN, SAN MATEO DEL MAR, SAN MIGUEL CHIMALAPA, SAN PEDRO TAPANATEPEC, SANTA MARIA CHIMALAPA, SANTA MARIA PETAPA, SANTA MARIA XADANI, SANTIAGO NILTEPEC, SANTO DOMINGO INGENIO, SANTO DOMINGO PETAPA, SANTO DOMINGO ZANATEPEC, UNION HIDALGO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 266,
+        "ocd_id": "ocd-division/country:mx/state:oa/fed:8",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 8 de OAXACA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 8 de OAXACA"
+        },
+        "country": "MX",
+        "state": "OAX",
+        "city": "OAXACA DE JUAREZ, SAN AGUSTIN YATARENI, SAN ANDRES HUAYAPAM, SAN JACINTO AMILPAS, SAN PABLO ETLA, SANTA LUCIA DEL CAMINO, SANTA MARIA ATZOMPA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 267,
+        "ocd_id": "ocd-division/country:mx/state:oa/fed:9",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 9 de OAXACA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 9 de OAXACA"
+        },
+        "country": "MX",
+        "state": "OAX",
+        "city": "MARTIRES DE TACUBAYA, PINOTEPA DE DON LUIS, LA REFORMA, SAN AGUSTIN CHAYUCO, SAN ANDRES HUAXPALTEPEC, SAN ANTONIO TEPETLAPA, SAN GABRIEL MIXTEPEC, SAN JACINTO TLACOTEPEC, SAN JOSE ESTANCIA GRANDE, SAN JUAN BAUTISTA LO DE SOTO, SAN JUAN CACAHUATEPEC, SAN JUAN COLORADO, SAN JUAN LACHAO, SAN JUAN QUIAHIJE, SAN LORENZO, SAN MIGUEL PANIXTLAHUACA, SAN MIGUEL TLACAMAMA, SAN PEDRO AMUZGOS, SAN PEDRO ATOYAC, SAN PEDRO JICAYAN, SAN PEDRO JUCHATENGO, SAN PEDRO MIXTEPEC, VILLA DE TUTUTEPEC, SAN SEBASTIAN IXCAPA, SANTA CATARINA JUQUILA, SANTA CATARINA MECHOACAN, SANTA CRUZ ZENZONTEPEC, SANTA MARIA CORTIJO, SANTA MARIA HUAZOLOTITLAN, SANTA MARIA IPALAPA, SANTA MARIA TEMAXCALTEPEC, SANTIAGO IXTAYUTLA, SANTIAGO JAMILTEPEC, SANTIAGO LLANO GRANDE, SANTIAGO MINAS, SANTIAGO PINOTEPA NACIONAL, SANTIAGO TAPEXTLA, SANTIAGO TETEPEC, SANTIAGO YAITEPEC, SANTO DOMINGO ARMENTA, SANTOS REYES NOPALA, TATALTEPEC DE VALDES",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 268,
+        "ocd_id": "ocd-division/country:mx/state:pu",
+        "name": {
+            "en_US": "PUEBLA",
+            "es_MX": "PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 269,
+        "ocd_id": "ocd-division/country:mx/state:pu/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de PUEBLA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "JUAN GALINDO, NAUPAN, PAHUATLAN, PANTEPEC, SAN FELIPE TEPATLAN, TLACUILOTEPEC, TLAOLA, TLAPACOYA, TLAXCO, VENUSTIANO CARRANZA, XICOTEPEC, ZIHUATEUTLA, AMIXTLAN, HONEY, FRANCISCO Z. MENA, HERMENEGILDO GALEANA, HUAUCHINANGO, JALPAN, JOPALA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 270,
+        "ocd_id": "ocd-division/country:mx/state:pu/fed:10",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 10 de PUEBLA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 10 de PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "CORONANGO, CUAUTLANCINGO, JUAN C. BONILLA, SAN ANDRES CHOLULA, SAN GREGORIO ATZOMPA, SAN JERONIMO TECUANIPAN, SAN PEDRO CHOLULA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 271,
+        "ocd_id": "ocd-division/country:mx/state:pu/fed:11",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 11 de PUEBLA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 11 de PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "PUEBLA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 272,
+        "ocd_id": "ocd-division/country:mx/state:pu/fed:12",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 12 de PUEBLA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 12 de PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "PUEBLA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 273,
+        "ocd_id": "ocd-division/country:mx/state:pu/fed:13",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 13 de PUEBLA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 13 de PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "ACTEOPAN, ATLIXCO, ATZALA, ATZITZIHUACAN, COHUECAN, CHIETLA, EPATLAN, HUAQUECHULA, IZUCAR DE MATAMOROS, OCOYUCAN, SAN DIEGO LA MESA TOCHIMILTZINGO, SAN MARTIN TOTOLTEPEC, SANTA ISABEL CHOLULA, TEPEMAXALCO, TEPEOJUMA, TEPEXCO, TIANGUISMANALCO, TILAPA, TLAPANALA, TOCHIMILCO, XOCHILTEPEC",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 274,
+        "ocd_id": "ocd-division/country:mx/state:pu/fed:14",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 14 de PUEBLA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 14 de PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "COATZINGO, COHETZALA, CUAYUCA DE ANDRADE, CHIAUTLA, CHIGMECATITLAN, CHILA, CHILA DE LA SAL, CHINANTLA, GUADALUPE, HUATLATLAUCA, HUEHUETLAN EL CHICO, HUEHUETLAN EL GRANDE, HUITZILTEPEC, IXCAMILPA DE GUERRERO, JOLALPAN, LA MAGDALENA TLATLAUQUITEPEC, MOLCAXAC, PETLALCINGO, PIAXTLA, SAN JERONIMO XAYACATLAN, SAN JUAN ATZOMPA, SAN MIGUEL IXITLAN, SAN PABLO ANICANO, SAN PEDRO YELOIXTLAHUACA, SAN SALVADOR HUIXCOLOTLA, SANTA CATARINA TLALTEMPAN, SANTA INES AHUATEMPAN, SANTO TOMAS HUEYOTLIPAN, TECAMACHALCO, TECOMATLAN, TEHUITZINGO, TEOPANTLAN, TEOTLALCO, TEPEXI DE RODRIGUEZ, TEPEYAHUALCO DE CUAUHTEMOC, TLANEPANTLA, TOCHTEPEC, ACATLAN, AHUATLAN, AHUEHUETITLA, ALBINO ZERTUCHE, ATOYATEMPAN, AXUTLA, TOTOLTEPEC DE GUERRERO, TULCINGO, TZICATLACOYAN, XAYACATLAN DE BRAVO, XICOTLAN, XOCHITLAN TODOS SANTOS, YEHUALTEPEC, ZACAPALA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 275,
+        "ocd_id": "ocd-division/country:mx/state:pu/fed:15",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 15 de PUEBLA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 15 de PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "ATEXCAL, COYOTEPEC, IXCAQUIXTLA, JUAN N. MENDEZ, SANTIAGO MIAHUATLAN, TEHUACAN, TEPANCO DE LOPEZ, TLACOTEPEC DE BENITO JUAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 276,
+        "ocd_id": "ocd-division/country:mx/state:pu/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de PUEBLA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "AHUACATLAN, AHUAZOTEPEC, AQUIXTLA, CAMOCUAUTLA, CAXHUACAN, COATEPEC, CUAUTEMPAN, CHICONCUAUTLA, CHIGNAHUAPAN, HUEHUETLA, HUEYTLALPAN, HUITZILAN DE SERDAN, ATLEQUIZAYAN, IXTACAMAXTITLAN, IXTEPEC, JONOTLA, NAUZONTLA, OLINTLA, TEPANGO DE RODRIGUEZ, TEPETZINTLA, TETELA DE OCAMPO, TUZAMAPAN DE GALEANA, XOCHIAPULCO, XOCHITLAN DE VICENTE SUAREZ, ZACATLAN, ZAPOTITLAN DE MENDEZ, ZAUTLA, ZONGOZOTLA, ZOQUIAPAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 277,
+        "ocd_id": "ocd-division/country:mx/state:pu/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de PUEBLA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "ACATENO, ATEMPAN, AYOTOXCO DE GUERRERO, CUETZALAN DEL PROGRESO, CHIGNAUTLA, HUEYAPAN, HUEYTAMALCO, TENAMPULCO, TETELES DE AVILA CASTILLO, TEZIUTLAN, TLATLAUQUITEPEC, YAONAHUAC, ZACAPOAXTLA, ZARAGOZA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 278,
+        "ocd_id": "ocd-division/country:mx/state:pu/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de PUEBLA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "ZINACATEPEC, ZOQUITLAN, AJALPAN, ALTEPEXI, CALTEPEC, CA?ADA MORELOS, COXCATLAN, COYOMEAPAN, CHAPULCO, ELOXOCHITLAN, GENERAL FELIPE ANGELES, NICOLAS BRAVO, PALMAR DE BRAVO, QUECHOLAC, SAN ANTONIO CA?ADA, SAN GABRIEL CHILAC, SAN JOSE MIAHUATLAN, SAN SEBASTIAN TLACOTEPEC, VICENTE GUERRERO, ZAPOTITLAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 279,
+        "ocd_id": "ocd-division/country:mx/state:pu/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de PUEBLA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "CALPAN, CHIAUTZINGO, DOMINGO ARENAS, HUEJOTZINGO, NEALTICAN, SAN FELIPE TEOTLALCINGO, SAN MARTIN TEXMELUCAN, SAN MATIAS TLALANCALECA, SAN MIGUEL XOXTLA, SAN NICOLAS DE LOS RANCHOS, SAN SALVADOR EL VERDE, TLAHUAPAN, TLALTENANGO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 280,
+        "ocd_id": "ocd-division/country:mx/state:pu/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de PUEBLA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "PUEBLA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 281,
+        "ocd_id": "ocd-division/country:mx/state:pu/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de PUEBLA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "ACAJETE, ACATZINGO, AMOZOC, CUAPIAXTLA DE MADERO, CUAUTINCHAN, MIXTLA, NOPALUCAN, PUEBLA, LOS REYES DE JUAREZ, SOLTEPEC, TECALI DE HERRERA, TEPATLAXCO DE HIDALGO, TEPEACA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 282,
+        "ocd_id": "ocd-division/country:mx/state:pu/fed:8",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 8 de PUEBLA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 8 de PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "ALJOJUCA, ATZITZINTLA, CUYOACO, CHALCHICOMULA DE SESMA, CHICHIQUILA, CHILCHOTLA, ESPERANZA, GUADALUPE VICTORIA, LAFRAGUA, LIBRES, MAZAPILTEPEC DE JUAREZ, OCOTEPEC, ORIENTAL, QUIMIXTLAN, RAFAEL LARA GRAJALES, SAN JOSE CHIAPA, SAN JUAN ATENCO, SAN NICOLAS BUENOS AIRES, SAN SALVADOR EL SECO, TEPEYAHUALCO, TLACHICHUCA, XIUTETELCO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 283,
+        "ocd_id": "ocd-division/country:mx/state:pu/fed:9",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 9 de PUEBLA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 9 de PUEBLA"
+        },
+        "country": "MX",
+        "state": "PUE",
+        "city": "PUEBLA, CUAUTLANCINGO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 284,
+        "ocd_id": "ocd-division/country:mx/state:qr",
+        "name": {
+            "en_US": "QUER\u00c9TARO",
+            "es_MX": "QUER\u00c9TARO"
+        },
+        "country": "MX",
+        "state": "ROO",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 285,
+        "ocd_id": "ocd-division/country:mx/state:qr/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de QUINTANA ROO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de QUINTANA ROO"
+        },
+        "country": "MX",
+        "state": "ROO",
+        "city": "BENITO JUAREZ, COZUMEL, ISLA MUJERES, LAZARO CARDENAS, SOLIDARIDAD, TULUM, PUERTO MORELOS",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 286,
+        "ocd_id": "ocd-division/country:mx/state:qr/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de QUINTANA ROO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de QUINTANA ROO"
+        },
+        "country": "MX",
+        "state": "ROO",
+        "city": "FELIPE CARRILLO PUERTO, JOSE MARIA MORELOS, OTHON P. BLANCO, BACALAR",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 287,
+        "ocd_id": "ocd-division/country:mx/state:qr/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de QUINTANA ROO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de QUINTANA ROO"
+        },
+        "country": "MX",
+        "state": "ROO",
+        "city": "BENITO JUAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 288,
+        "ocd_id": "ocd-division/country:mx/state:qr/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de QUINTANA ROO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de QUINTANA ROO"
+        },
+        "country": "MX",
+        "state": "ROO",
+        "city": "BENITO JUAREZ, PUERTO MORELOS",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 289,
+        "ocd_id": "ocd-division/country:mx/state:qt",
+        "name": {
+            "en_US": "QUINTANA ROO",
+            "es_MX": "QUINTANA ROO"
+        },
+        "country": "MX",
+        "state": "QUE",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 290,
+        "ocd_id": "ocd-division/country:mx/state:qt/city:14",
+        "name": {
+            "en_US": "QUER\u00c9TARO",
+            "es_MX": "QUER\u00c9TARO"
+        },
+        "country": "MX",
+        "state": "QUE",
+        "city": "QUER\u00c9TARO",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 291,
+        "ocd_id": "ocd-division/country:mx/state:qt/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de QUER\u00c9TARO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de QUER\u00c9TARO"
+        },
+        "country": "MX",
+        "state": "QUE",
+        "city": "ARROYO SECO, CADEREYTA DE MONTES, COLON, JALPAN DE SERRA, LANDA DE MATAMOROS, PEDRO ESCOBEDO, PE?AMILLER, PINAL DE AMOLES, SAN JOAQUIN, TOLIMAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 292,
+        "ocd_id": "ocd-division/country:mx/state:qt/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de QUER\u00c9TARO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de QUER\u00c9TARO"
+        },
+        "country": "MX",
+        "state": "QUE",
+        "city": "SAN JUAN DEL RIO, TEQUISQUIAPAN, EZEQUIEL MONTES",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 293,
+        "ocd_id": "ocd-division/country:mx/state:qt/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de QUER\u00c9TARO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de QUER\u00c9TARO"
+        },
+        "country": "MX",
+        "state": "QUE",
+        "city": "QUER\u00c9TARO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 294,
+        "ocd_id": "ocd-division/country:mx/state:qt/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de QUER\u00c9TARO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de QUER\u00c9TARO"
+        },
+        "country": "MX",
+        "state": "QUE",
+        "city": "QUER\u00c9TARO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 295,
+        "ocd_id": "ocd-division/country:mx/state:qt/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de QUER\u00c9TARO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de QUER\u00c9TARO"
+        },
+        "country": "MX",
+        "state": "QUE",
+        "city": "AMEALCO DE BONFIL, CORREGIDORA, HUIMILPAN, EL MARQUES",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 296,
+        "ocd_id": "ocd-division/country:mx/state:si",
+        "name": {
+            "en_US": "SAN LUIS POTOS\u00cd",
+            "es_MX": "SAN LUIS POTOS\u00cd"
+        },
+        "country": "MX",
+        "state": "SIN",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 297,
+        "ocd_id": "ocd-division/country:mx/state:si/city:6",
+        "name": {
+            "en_US": "CULIAC\u00c1N",
+            "es_MX": "CULIAC\u00c1N"
+        },
+        "country": "MX",
+        "state": "SIN",
+        "city": "CULIAC\u00c1N",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 298,
+        "ocd_id": "ocd-division/country:mx/state:si/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de SINALOA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de SINALOA"
+        },
+        "country": "MX",
+        "state": "SIN",
+        "city": "CONCORDIA, ESCUINAPA, MAZATLAN, ROSARIO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 299,
+        "ocd_id": "ocd-division/country:mx/state:si/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de SINALOA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de SINALOA"
+        },
+        "country": "MX",
+        "state": "SIN",
+        "city": "AHOME",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 300,
+        "ocd_id": "ocd-division/country:mx/state:si/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de SINALOA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de SINALOA"
+        },
+        "country": "MX",
+        "state": "SIN",
+        "city": "BADIRAGUATO, MOCORITO, SALVADOR ALVARADO, SINALOA, ANGOSTURA, NAVOLATO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 301,
+        "ocd_id": "ocd-division/country:mx/state:si/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de SINALOA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de SINALOA"
+        },
+        "country": "MX",
+        "state": "SIN",
+        "city": "CHOIX, EL FUERTE, GUASAVE",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 302,
+        "ocd_id": "ocd-division/country:mx/state:si/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de SINALOA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de SINALOA"
+        },
+        "country": "MX",
+        "state": "SIN",
+        "city": "CULIAC\u00c1N",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 303,
+        "ocd_id": "ocd-division/country:mx/state:si/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de SINALOA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de SINALOA"
+        },
+        "country": "MX",
+        "state": "SIN",
+        "city": "CULIAC\u00c1N, ELOTA, MAZATLAN, SAN IGNACIO, COSALA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 304,
+        "ocd_id": "ocd-division/country:mx/state:si/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de SINALOA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de SINALOA"
+        },
+        "country": "MX",
+        "state": "SIN",
+        "city": "CULIAC\u00c1N",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 305,
+        "ocd_id": "ocd-division/country:mx/state:sl",
+        "name": {
+            "en_US": "SINALOA",
+            "es_MX": "SINALOA"
+        },
+        "country": "MX",
+        "state": "SLP",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 306,
+        "ocd_id": "ocd-division/country:mx/state:sl/city:28",
+        "name": {
+            "en_US": "SAN LUIS POTOS\u00cd",
+            "es_MX": "SAN LUIS POTOS\u00cd"
+        },
+        "country": "MX",
+        "state": "SLP",
+        "city": "SAN LUIS POTOS\u00cd",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 307,
+        "ocd_id": "ocd-division/country:mx/state:sl/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de SAN LUIS POTOS\u00cd",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de SAN LUIS POTOS\u00cd"
+        },
+        "country": "MX",
+        "state": "SLP",
+        "city": "AHUALULCO, CATORCE, CEDRAL, CHARCAS, MATEHUALA, MEXQUITIC DE CARMONA, MOCTEZUMA, SALINAS, SANTO DOMINGO, VANEGAS, VENADO, VILLA DE GUADALUPE, VILLA DE LA PAZ, VILLA DE RAMOS",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 308,
+        "ocd_id": "ocd-division/country:mx/state:sl/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de SAN LUIS POTOS\u00cd",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de SAN LUIS POTOS\u00cd"
+        },
+        "country": "MX",
+        "state": "SLP",
+        "city": "CERRO DE SAN PEDRO, SANTA MARIA DEL RIO, SOLEDAD DE GRACIANO SANCHEZ, TIERRA NUEVA, VILLA DE ARRIAGA, VILLA DE REYES, ZARAGOZA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 309,
+        "ocd_id": "ocd-division/country:mx/state:sl/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de SAN LUIS POTOS\u00cd",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de SAN LUIS POTOS\u00cd"
+        },
+        "country": "MX",
+        "state": "SLP",
+        "city": "ALAQUINES, ARMADILLO DE LOS INFANTE, CARDENAS, CERRITOS, CIUDAD DEL MAIZ, CIUDAD FERNANDEZ, GUADALCAZAR, LAGUNILLAS, RAYON, RIOVERDE, SAN CIRO DE ACOSTA, SAN NICOLAS TOLENTINO, SANTA CATARINA, VILLA DE ARISTA, VILLA HIDALGO, VILLA JUAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 310,
+        "ocd_id": "ocd-division/country:mx/state:sl/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de SAN LUIS POTOS\u00cd",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de SAN LUIS POTOS\u00cd"
+        },
+        "country": "MX",
+        "state": "SLP",
+        "city": "CIUDAD VALLES, EBANO, SAN VICENTE TANCUAYALAB, TAMASOPO, TAMUIN, TANQUIAN DE ESCOBEDO, EL NARANJO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 311,
+        "ocd_id": "ocd-division/country:mx/state:sl/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de SAN LUIS POTOS\u00cd",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de SAN LUIS POTOS\u00cd"
+        },
+        "country": "MX",
+        "state": "SLP",
+        "city": "SAN LUIS POTOSI",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 312,
+        "ocd_id": "ocd-division/country:mx/state:sl/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de SAN LUIS POTOS\u00cd",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de SAN LUIS POTOS\u00cd"
+        },
+        "country": "MX",
+        "state": "SLP",
+        "city": "SAN LUIS POTOSI",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 313,
+        "ocd_id": "ocd-division/country:mx/state:sl/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de SAN LUIS POTOS\u00cd",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de SAN LUIS POTOS\u00cd"
+        },
+        "country": "MX",
+        "state": "SLP",
+        "city": "AQUISMON, TANCANHUITZ, COXCATLAN, HUEHUETLAN, SAN ANTONIO, SAN MARTIN CHALCHICUAUTLA, TAMAZUNCHALE, TAMPACAN, TAMPAMOLON CORONA, TANLAJAS, AXTLA DE TERRAZAS, XILITLA, MATLAPA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 314,
+        "ocd_id": "ocd-division/country:mx/state:so",
+        "name": {
+            "en_US": "SONORA",
+            "es_MX": "SONORA"
+        },
+        "country": "MX",
+        "state": "SON",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 315,
+        "ocd_id": "ocd-division/country:mx/state:so/city:49",
+        "name": {
+            "en_US": "HERMOSILLO",
+            "es_MX": "HERMOSILLO"
+        },
+        "country": "MX",
+        "state": "SON",
+        "city": "HERMOSILLO",
+        "district_type": "LOCAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 316,
+        "ocd_id": "ocd-division/country:mx/state:so/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de SONORA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de SONORA"
+        },
+        "country": "MX",
+        "state": "SON",
+        "city": "ALTAR, ATIL, OQUITOA, SARIC, TRINCHERAS, TUBUTAMA, CABORCA, PITIQUITO, PUERTO PE?ASCO, SAN LUIS RIO COLORADO, GENERAL PLUTARCO ELIAS CALLES",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 317,
+        "ocd_id": "ocd-division/country:mx/state:so/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de SONORA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de SONORA"
+        },
+        "country": "MX",
+        "state": "SON",
+        "city": "AGUA PRIETA, ARIZPE, BACOACHI, CANANEA, CUCURPE, FRONTERAS, IMURIS, MAGDALENA, NACO, NOGALES, SANTA CRUZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 318,
+        "ocd_id": "ocd-division/country:mx/state:so/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de SONORA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de SONORA"
+        },
+        "country": "MX",
+        "state": "SON",
+        "city": "HERMOSILLO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 319,
+        "ocd_id": "ocd-division/country:mx/state:so/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de SONORA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de SONORA"
+        },
+        "country": "MX",
+        "state": "SON",
+        "city": "ACONCHI, ARIVECHI, BACADEHUACHI, BACANORA, BACERAC, BANAMICHI, BAVIACORA, BAVISPE, BENJAMIN HILL, CUMPAS, DIVISADEROS, GRANADOS, HUACHINERA, HUASABAS, HUEPAC, MOCTEZUMA, NACORI CHICO, NACOZARI DE GARCIA, SAHUARIPA, SAN FELIPE DE JESUS, SAN JAVIER, SAN PEDRO DE LA CUEVA, SANTA ANA, SOYOPA, SUAQUI GRANDE, TEPACHE, VILLA HIDALGO, VILLA PESQUEIRA, CARBO, LA COLORADA, MAZATAN, OPODEPE, RAYON, SAN MIGUEL DE HORCASITAS, URES, BACUM, EMPALME, GUAYMAS, ONAVAS, YECORA, SAN IGNACIO RIO MUERTO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 320,
+        "ocd_id": "ocd-division/country:mx/state:so/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de SONORA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de SONORA"
+        },
+        "country": "MX",
+        "state": "SON",
+        "city": "HERMOSILLO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 321,
+        "ocd_id": "ocd-division/country:mx/state:so/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de SONORA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de SONORA"
+        },
+        "country": "MX",
+        "state": "SON",
+        "city": "CAJEME",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 322,
+        "ocd_id": "ocd-division/country:mx/state:so/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de SONORA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de SONORA"
+        },
+        "country": "MX",
+        "state": "SON",
+        "city": "HUATABAMPO, NAVOJOA, QUIRIEGO, ROSARIO, BENITO JUAREZ, ALAMOS, ETCHOJOA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 323,
+        "ocd_id": "ocd-division/country:mx/state:tb",
+        "name": {
+            "en_US": "TABASCO",
+            "es_MX": "TABASCO"
+        },
+        "country": "MX",
+        "state": "TAB",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 324,
+        "ocd_id": "ocd-division/country:mx/state:tb/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de TABASCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de TABASCO"
+        },
+        "country": "MX",
+        "state": "TAB",
+        "city": "BALANCAN, EMILIANO ZAPATA, JONUTA, MACUSPANA, TENOSIQUE",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 325,
+        "ocd_id": "ocd-division/country:mx/state:tb/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de TABASCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de TABASCO"
+        },
+        "country": "MX",
+        "state": "TAB",
+        "city": "CARDENAS, HUIMANGUILLO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 326,
+        "ocd_id": "ocd-division/country:mx/state:tb/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de TABASCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de TABASCO"
+        },
+        "country": "MX",
+        "state": "TAB",
+        "city": "COMALCALCO, CUNDUACAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 327,
+        "ocd_id": "ocd-division/country:mx/state:tb/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de TABASCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de TABASCO"
+        },
+        "country": "MX",
+        "state": "TAB",
+        "city": "CENTRO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 328,
+        "ocd_id": "ocd-division/country:mx/state:tb/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de TABASCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de TABASCO"
+        },
+        "country": "MX",
+        "state": "TAB",
+        "city": "CENTLA, JALPA DE MENDEZ, NACAJUCA, PARAISO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 329,
+        "ocd_id": "ocd-division/country:mx/state:tb/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de TABASCO",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de TABASCO"
+        },
+        "country": "MX",
+        "state": "TAB",
+        "city": "CENTRO, JALAPA, TACOTALPA, TEAPA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 330,
+        "ocd_id": "ocd-division/country:mx/state:tl",
+        "name": {
+            "en_US": "TAMAULIPAS",
+            "es_MX": "TAMAULIPAS"
+        },
+        "country": "MX",
+        "state": "TLA",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 331,
+        "ocd_id": "ocd-division/country:mx/state:tl/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de TLAXCALA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de TLAXCALA"
+        },
+        "country": "MX",
+        "state": "TLA",
+        "city": "ATLANGATEPEC, ATLTZAYANCA, EL CARMEN TEQUEXQUITLA, CUAPIAXTLA, CUAXOMULCO, HUAMANTLA, IXTENCO, SANTA CRUZ TLAXCALA, TERRENATE, TETLA DE LA SOLIDARIDAD, TLAXCO, TOCATLAN, ZITLALTEPEC DE TRINIDAD SANCHEZ SANTOS, TZOMPANTEPEC, XALOZTOC, SAN JOSE TEACALCO, EMILIANO ZAPATA, LAZARO CARDENAS, APIZACO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 332,
+        "ocd_id": "ocd-division/country:mx/state:tl/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de TLAXCALA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de TLAXCALA"
+        },
+        "country": "MX",
+        "state": "TLA",
+        "city": "APETATITLAN DE ANTONIO CARVAJAL, CHIAUTEMPAN, MAZATECOCHCO DE JOSE MARIA MORELOS, CONTLA DE JUAN CUAMATZI, ACUAMANALA DE MIGUEL HIDALGO, SAN PABLO DEL MONTE, TENANCINGO, TEOLOCHOLCO, TEPEYANCO, TLAXCALA, TOTOLAC, PAPALOTLA DE XICOHTENCATL, SANTA CRUZ QUILEHTLA, SANTA ISABEL XILOXOXTLA, SAN FRANCISCO TETLANOHCAN, LA MAGDALENA TLALTELULCO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 333,
+        "ocd_id": "ocd-division/country:mx/state:tl/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de TLAXCALA",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de TLAXCALA"
+        },
+        "country": "MX",
+        "state": "TLA",
+        "city": "AMAXAC DE GUERRERO, APIZACO, CALPULALPAN, MU?OZ DE DOMINGO ARENAS, ESPA?ITA, HUEYOTLIPAN, IXTACUIXTLA DE MARIANO MATAMOROS, TEPETITLA DE LARDIZABAL, SANCTORUM DE LAZARO CARDENAS, NANACAMILPA DE MARIANO ARISTA, NATIVITAS, PANOTLA, TETLATLAHUCA, TLAXCALA, TOTOLAC, XALTOCAN, XICOHTZINCO, YAUHQUEMEHCAN, ZACATELCO, SANTA APOLONIA TEACALCO, SANTA CRUZ QUILEHTLA, SAN JUAN HUACTZINCO, SANTA CATARINA AYOMETLA, SAN DAMIAN TEXOLOC, SAN JERONIMO ZACUALPAN, SAN LUCAS TECOPILCO, SANTA ANA NOPALUCAN, SAN LORENZO AXOCOMANITLA, BENITO JUAREZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 334,
+        "ocd_id": "ocd-division/country:mx/state:tm",
+        "name": {
+            "en_US": "TLAXCALA",
+            "es_MX": "TLAXCALA"
+        },
+        "country": "MX",
+        "state": "TAM",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 335,
+        "ocd_id": "ocd-division/country:mx/state:tm/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de TAMAULIPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de TAMAULIPAS"
+        },
+        "country": "MX",
+        "state": "TAM",
+        "city": "NUEVO LAREDO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 336,
+        "ocd_id": "ocd-division/country:mx/state:tm/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de TAMAULIPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de TAMAULIPAS"
+        },
+        "country": "MX",
+        "state": "TAM",
+        "city": "CAMARGO, GUERRERO, GUSTAVO DIAZ ORDAZ, MIER, MIGUEL ALEMAN, REYNOSA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 337,
+        "ocd_id": "ocd-division/country:mx/state:tm/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de TAMAULIPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de TAMAULIPAS"
+        },
+        "country": "MX",
+        "state": "TAM",
+        "city": "SAN FERNANDO, VALLE HERMOSO, BURGOS, CRUILLAS, MATAMOROS, MENDEZ, RIO BRAVO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 338,
+        "ocd_id": "ocd-division/country:mx/state:tm/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de TAMAULIPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de TAMAULIPAS"
+        },
+        "country": "MX",
+        "state": "TAM",
+        "city": "MATAMOROS",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 339,
+        "ocd_id": "ocd-division/country:mx/state:tm/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de TAMAULIPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de TAMAULIPAS"
+        },
+        "country": "MX",
+        "state": "TAM",
+        "city": "G?EMEZ, HIDALGO, MAINERO, PADILLA, SAN CARLOS, SAN NICOLAS, VICTORIA, VILLAGRAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 340,
+        "ocd_id": "ocd-division/country:mx/state:tm/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de TAMAULIPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de TAMAULIPAS"
+        },
+        "country": "MX",
+        "state": "TAM",
+        "city": "ABASOLO, ALDAMA, ANTIGUO MORELOS, BUSTAMANTE, CASAS, GOMEZ FARIAS, GONZALEZ, JAUMAVE, JIMENEZ, LLERA, EL MANTE, MIQUIHUANA, NUEVO MORELOS, OCAMPO, PALMILLAS, SOTO LA MARINA, TULA, XICOTENCATL",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 341,
+        "ocd_id": "ocd-division/country:mx/state:tm/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de TAMAULIPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de TAMAULIPAS"
+        },
+        "country": "MX",
+        "state": "TAM",
+        "city": "ALTAMIRA, CIUDAD MADERO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 342,
+        "ocd_id": "ocd-division/country:mx/state:tm/fed:8",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 8 de TAMAULIPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 8 de TAMAULIPAS"
+        },
+        "country": "MX",
+        "state": "TAM",
+        "city": "CIUDAD MADERO, TAMPICO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 343,
+        "ocd_id": "ocd-division/country:mx/state:tm/fed:9",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 9 de TAMAULIPAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 9 de TAMAULIPAS"
+        },
+        "country": "MX",
+        "state": "TAM",
+        "city": "REYNOSA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 344,
+        "ocd_id": "ocd-division/country:mx/state:ve",
+        "name": {
+            "en_US": "VERACRUZ",
+            "es_MX": "VERACRUZ"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 345,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "NARANJOS AMATLAN, CITLALTEPETL, CHINAMPA DE GOROSTIZA, OZULUAMA, PANUCO, PUEBLO VIEJO, TAMALIN, TAMIAHUA, TAMPICO ALTO, TANCOCO, TANTIMA, TEMPOAL, EL HIGO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 346,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:10",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 10 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 10 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "XALAPA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 347,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:11",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 11 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 11 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "COATZACOALCOS, IXHUATLAN DEL SURESTE, MOLOACAN, AGUA DULCE",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 348,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:12",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 12 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 12 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "BOCA DEL RIO, JAMAPA, MANLIO FABIO ALTAMIRANO, MEDELLIN DE BRAVO, VERACRUZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 349,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:13",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 13 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 13 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "CAMARON DE TEJEDA, CARRILLO PUERTO, COMAPA, COTAXTLA, CUITLAHUAC, HUATUSCO, IGNACIO DE LA LLAVE, PASO DEL MACHO, PASO DE OVEJAS, SOCHIAPA, SOLEDAD DE DOBLADO, TIERRA BLANCA, TLALIXCOYAN, ZENTLA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 350,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:14",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 14 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 14 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "LAS CHOAPAS, HIDALGOTITLAN, JESUS CARRANZA, MINATITLAN, SAN JUAN EVANGELISTA, SAYULA DE ALEMAN, UXPANAPA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 351,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:15",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 15 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 15 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "ALPATLAHUAC, ATZACAN, CALCAHUALCO, COSCOMATEPEC, IXHUATLANCILLO, IXTACZOQUITLAN, MARIANO ESCOBEDO, ORIZABA, LA PERLA, RIO BLANCO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 352,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:16",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 16 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 16 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "IXHUATLAN DEL CAFE, TEPATLAXCO, TOMATLAN, YANGA, AMATLAN DE LOS REYES, ATOYAC, CORDOBA, CHOCAMAN, FORTIN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 353,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:17",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 17 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 17 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "ACAYUCAN, COSAMALOAPAN, CHACALTIANGUIS, ISLA, IXMATLAHUACAN, JUAN RODRIGUEZ CLARA, OTATITLAN, PLAYA VICENTE, JOSE AZUETA, TLACOJALPAN, TUXTILLA, TRES VALLES, CARLOS A. CARRILLO, SANTIAGO SOCHIAPAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 354,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:18",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 18 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 18 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "ACULTZINGO, AQUILA, ASTACINGA, ATLAHUILCO, CAMERINO Z. MENDOZA, COETZALA, CUICHAPA, HUILOAPAN DE CUAUHTEMOC, MAGDALENA, MALTRATA, MIXTLA DE ALTAMIRANO, NARANJAL, NOGALES, OMEALCA, RAFAEL DELGADO, LOS REYES, SAN ANDRES TENEJAPAN, SOLEDAD ATZOMPA, TEHUIPANGO, TEQUILA, TEXHUACAN, TEZONAPA, TLAQUILPA, TLILAPAN, XOXOCOTLA, ZONGOLICA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 355,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:19",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 19 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 19 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "ACULA, ALVARADO, AMATITLAN, ANGEL R. CABADA, CATEMACO, LERDO DE TEJADA, SALTABARRANCA, SAN ANDRES TUXTLA, SANTIAGO TUXTLA, TLACOTALPAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 356,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "BENITO JUAREZ, CHALMA, CHICONAMEL, CHICONTEPEC, CHONTLA, HUAYACOCOTLA, ILAMATLAN, IXCATEPEC, IXHUATLAN DE MADERO, PLATON SANCHEZ, TANTOYUCA, TEXCATEPEC, TLACHICHILCO, ZACUALPAN, ZONTECOMATLAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 357,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:20",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 20 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 20 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "TEXISTEPEC, ZARAGOZA, NANCHITAL DE LAZARO CARDENAS DEL RIO, TATAHUICAPAN DE JUAREZ, COSOLEACAQUE, CHINAMECA, HUEYAPAN DE OCAMPO, JALTIPAN, MECAYAPAN, OLUTA, OTEAPAN, PAJAPAN, SOCONUSCO, SOTEAPAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 358,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "ALAMO TEMAPACHE, CASTILLO DE TEAYO, CAZONES DE HERRERA, CERRO AZUL, TEPETZINTLA, TUXPAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 359,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "VERACRUZ",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 360,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "COATZINTLA, POZA RICA DE HIDALGO, TIHUATLAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 361,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:6",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 6 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 6 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "VEGA DE ALATORRE, ZOZOCOLCO DE HIDALGO, SAN RAFAEL, COAHUITLAN, COLIPA, COXQUIHUI, COYUTLA, CHUMATLAN, ESPINAL, FILOMENO MATA, GUTIERREZ ZAMORA, MECATLAN, NAUTLA, PAPANTLA, TECOLUTLA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 362,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:7",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 7 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 7 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "ALTOTONGA, ATZALAN, JALACINGO, MARTINEZ DE LA TORRE, LAS MINAS, MISANTLA, TENOCHTITLAN, TLAPACOYAN, VILLA ALDAMA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 363,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:8",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 8 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 8 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "ACATLAN, ACTOPAN, ALTO LUCERO DE GUTIERREZ BARRIOS, LA ANTIGUA, APAZAPAN, TLALTETELA, CHICONQUIACO, EMILIANO ZAPATA, XALAPA, JALCOMULCO, JUCHIQUE DE FERRER, LANDERO Y COSS, MIAHUATLAN, NAOLINCO, PUENTE NACIONAL, TENAMPA, TEPETLAN, TLACOTEPEC DE MEJIA, TONAYAN, TOTUTLA, URSULO GALVAN, YECUATLA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 364,
+        "ocd_id": "ocd-division/country:mx/state:ve/fed:9",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 9 de VERACRUZ DE IGNACIO DE LA LLAVE",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 9 de VERACRUZ DE IGNACIO DE LA LLAVE"
+        },
+        "country": "MX",
+        "state": "VER",
+        "city": "ACAJETE, AYAHUALULCO, BANDERILLA, COACOATZINTLA, COATEPEC, COSAUTLAN DE CARVAJAL, IXHUACAN DE LOS REYES, JILOTEPEC, PEROTE, RAFAEL LUCIO, LAS VIGAS DE RAMIREZ, TATATILA, TEOCELO, TLACOLULAN, TLALNELHUAYOCAN, XICO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 365,
+        "ocd_id": "ocd-division/country:mx/state:yu",
+        "name": {
+            "en_US": "YUCAT\u00c1N",
+            "es_MX": "YUCAT\u00c1N"
+        },
+        "country": "MX",
+        "state": "YUC",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 366,
+        "ocd_id": "ocd-division/country:mx/state:yu/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de YUCAT\u00c1N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de YUCAT\u00c1N"
+        },
+        "country": "MX",
+        "state": "YUC",
+        "city": "BUCTZOTZ, CALOTMUL, CENOTILLO, CUNCUNUL, CHANKOM, CHEMAX, CHICHIMILA, CHIKINDZONOT, DZIDZANTUN, DZILAM DE BRAVO, DZILAM GONZALEZ, DZITAS, DZONCAUICH, ESPITA, IZAMAL, KANTUNIL, KAUA, PANABA, QUINTANA ROO, RIO LAGARTOS, SAN FELIPE, SUCILA, SUDZAL, TEKAL DE VENEGAS, TEKOM, TEMAX, TEMOZON, TEPAKAN, TINUM, TIXCACALCUPUL, TIZIMIN, TUNKAS, UAYMA, VALLADOLID, YAXCABA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 367,
+        "ocd_id": "ocd-division/country:mx/state:yu/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de YUCAT\u00c1N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de YUCAT\u00c1N"
+        },
+        "country": "MX",
+        "state": "YUC",
+        "city": "ACANCEH, BACA, BOKOBA, CACALCHEN, CANSAHCAB, CELESTUN, CONKAL, CHICXULUB PUEBLO, DZEMUL, HOCABA, HOCTUN, HUNUCMA, IXIL, KANASIN, KINCHIL, MERIDA, MOCOCHA, MOTUL, MUXUPIP, PROGRESO, SAMAHIL, SEYE, SINANCHE, SUMA, TAHMEK, TEKANTO, TELCHAC PUEBLO, TELCHAC PUERTO, TETIZ, TEYA, TIMUCUY, TIXKOKOB, TIXPEHUAL, UCU, XOCCHEL, YAXKUKUL, YOBAIN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 368,
+        "ocd_id": "ocd-division/country:mx/state:yu/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de YUCAT\u00c1N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de YUCAT\u00c1N"
+        },
+        "country": "MX",
+        "state": "YUC",
+        "city": "MERIDA, KANASIN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 369,
+        "ocd_id": "ocd-division/country:mx/state:yu/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de YUCAT\u00c1N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de YUCAT\u00c1N"
+        },
+        "country": "MX",
+        "state": "YUC",
+        "city": "MERIDA",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 370,
+        "ocd_id": "ocd-division/country:mx/state:yu/fed:5",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 5 de YUCAT\u00c1N",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 5 de YUCAT\u00c1N"
+        },
+        "country": "MX",
+        "state": "YUC",
+        "city": "ABALA, AKIL, CANTAMAYEC, CUZAMA, CHACSINKIN, CHAPAB, CHOCHOLA, CHUMAYEL, DZAN, HALACHO, HOMUN, HUHI, KOPOMA, MAMA, MANI, MAXCANU, MAYAPAN, MERIDA, MUNA, OPICHEN, OXKUTZCAB, PETO, SACALUM, SANAHCAT, SANTA ELENA, SOTUTA, TAHDZIU, TEABO, TECOH, TEKAX, TEKIT, TICUL, TIXMEHUAC, TZUCACAB, UMAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 371,
+        "ocd_id": "ocd-division/country:mx/state:za",
+        "name": {
+            "en_US": "ZACATECAS",
+            "es_MX": "ZACATECAS"
+        },
+        "country": "MX",
+        "state": "ZAC",
+        "city": "",
+        "district_type": "REGIONAL_EXEC",
+        "parent_area_id": ""
+    },
+    {
+        "id": 372,
+        "ocd_id": "ocd-division/country:mx/state:za/fed:1",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 1 de ZACATECAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 1 de ZACATECAS"
+        },
+        "country": "MX",
+        "state": "ZAC",
+        "city": "CALERA, CA?ITAS DE FELIPE PESCADOR, CHALCHIHUITES, FRESNILLO, GENERAL ENRIQUE ESTRADA, JIMENEZ DEL TEUL, SAIN ALTO, SOMBRERETE",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 373,
+        "ocd_id": "ocd-division/country:mx/state:za/fed:2",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 2 de ZACATECAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 2 de ZACATECAS"
+        },
+        "country": "MX",
+        "state": "ZAC",
+        "city": "TRINIDAD GARCIA DE LA CADENA, GENARO CODINA, EL PLATEADO DE JOAQUIN AMARO, HUANUSCO, JALPA, JEREZ, JUCHIPILA, LUIS MOYA, MEZQUITAL DEL ORO, MOMAX, MONTE ESCOBEDO, MOYAHUA DE ESTRADA, NOCHISTLAN DE MEJIA, VALPARAISO, VILLANUEVA, SANTA MARIA DE LA PAZ, APOZOL, APULCO, ATOLINGA, BENITO JUAREZ, CUAUHTEMOC, OJOCALIENTE, SUSTICACAN, TABASCO, TEPECHITLAN, TEPETONGO, TEUL DE GONZALEZ ORTEGA, TLALTENANGO DE SANCHEZ ROMAN",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 374,
+        "ocd_id": "ocd-division/country:mx/state:za/fed:3",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 3 de ZACATECAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 3 de ZACATECAS"
+        },
+        "country": "MX",
+        "state": "ZAC",
+        "city": "CONCEPCION DEL ORO, GENERAL FRANCISCO R. MURGUIA, JUAN ALDAMA, MAZAPIL, MELCHOR OCAMPO, MIGUEL AUZA, MORELOS, PANUCO, RIO GRANDE, EL SALVADOR, VETAGRANDE, VILLA DE COS, ZACATECAS",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    },
+    {
+        "id": 375,
+        "ocd_id": "ocd-division/country:mx/state:za/fed:4",
+        "name": {
+            "en_US": "Diputaci\u00f3n del Distrito Federal 4 de ZACATECAS",
+            "es_MX": "Diputaci\u00f3n del Distrito Federal 4 de ZACATECAS"
+        },
+        "country": "MX",
+        "state": "ZAC",
+        "city": "GENERAL PANFILO NATERA, GUADALUPE, LORETO, NORIA DE ANGELES, PINOS, VILLA GARCIA, VILLA GONZALEZ ORTEGA, VILLA HIDALGO",
+        "district_type": "NATIONAL_LOWER",
+        "parent_area_id": ""
+    }
+]

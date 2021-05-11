@@ -1,0 +1,813 @@
+[
+    {
+        "id": 1,
+        "name": {
+            "en_US": "Candidatura com\u00fan",
+            "es_MX": "Candidatura com\u00fan"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [],
+        "websites": []
+    },
+    {
+        "id": 2,
+        "name": {
+            "en_US": "Candidatura com\u00fan PAN, QI",
+            "es_MX": "Candidatura com\u00fan PAN, QI"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "PURPLE",
+            "BLUE",
+            "WHITE"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [],
+        "websites": []
+    },
+    {
+        "id": 3,
+        "name": {
+            "en_US": "Candidatura com\u00fan PRI, PRD",
+            "es_MX": "Candidatura com\u00fan PRI, PRD"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [],
+        "websites": []
+    },
+    {
+        "id": 4,
+        "name": {
+            "en_US": "Equipo por el bien de Nuevo Le\u00f3n",
+            "es_MX": "Equipo por el bien de Nuevo Le\u00f3n"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "ORANGE"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [],
+        "websites": []
+    },
+    {
+        "id": 5,
+        "name": {
+            "en_US": "Equipo por Michoac\u00e1n",
+            "es_MX": "Equipo por Michoac\u00e1n"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE"
+        ],
+        "fb_urls": [
+            "https://www.facebook.com/EqPorMichoacan"
+        ],
+        "ig_urls": [
+            "https://www.instagram.com/equipopormichoacan"
+        ],
+        "logo_urls": [],
+        "websites": [
+            {
+                "note": "official",
+                "url": "https://www.equipopormichoacan.mx"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": {
+            "en_US": "Juntos Hacemos Historia",
+            "es_MX": "Juntos Hacemos Historia"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED",
+            "GREEN",
+            "BLUE"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 7,
+        "name": {
+            "en_US": "Juntos hacemos historia Ciudad de M\u00e9xico",
+            "es_MX": "Juntos hacemos historia Ciudad de M\u00e9xico"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED",
+            "GREEN",
+            "BLUE"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 8,
+        "name": {
+            "en_US": "Juntos hacemos historia en Baja California ",
+            "es_MX": "Juntos hacemos historia en Baja California "
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED",
+            "GREEN",
+            "BLUE"
+        ],
+        "fb_urls": [
+            "https://www.facebook.com/Bonilla2019"
+        ],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 9,
+        "name": {
+            "en_US": "Juntos hacemos historia en Baja California Sur ",
+            "es_MX": "Juntos hacemos historia en Baja California Sur "
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED",
+            "GREEN",
+            "BLUE"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 10,
+        "name": {
+            "en_US": "Juntos hacemos historia en Campeche",
+            "es_MX": "Juntos hacemos historia en Campeche"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED",
+            "GREEN",
+            "BLUE"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 11,
+        "name": {
+            "en_US": "Juntos hacemos historia en Chihuahua",
+            "es_MX": "Juntos hacemos historia en Chihuahua"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED",
+            "GREEN",
+            "BLUE"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 12,
+        "name": {
+            "en_US": "Juntos hacemos historia en Colima",
+            "es_MX": "Juntos hacemos historia en Colima"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED",
+            "GREEN",
+            "BLUE"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 13,
+        "name": {
+            "en_US": "Juntos hacemos historia en Guerrero",
+            "es_MX": "Juntos hacemos historia en Guerrero"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED",
+            "GREEN",
+            "BLUE"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 14,
+        "name": {
+            "en_US": "Juntos hacemos historia en Michoac\u00e1n",
+            "es_MX": "Juntos hacemos historia en Michoac\u00e1n"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED",
+            "GREEN",
+            "BLUE"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 15,
+        "name": {
+            "en_US": "Juntos hacemos historia en Nayarit",
+            "es_MX": "Juntos hacemos historia en Nayarit"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED",
+            "GREEN",
+            "BLUE"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 16,
+        "name": {
+            "en_US": "Juntos hacemos historia en San Luis Potos\u00ed",
+            "es_MX": "Juntos hacemos historia en San Luis Potos\u00ed"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED",
+            "GREEN",
+            "BLUE"
+        ],
+        "fb_urls": [
+            "https://www.facebook.com/juntosharemoshistoriaenslp"
+        ],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 17,
+        "name": {
+            "en_US": "Juntos hacemos historia en Sinaloa ",
+            "es_MX": "Juntos hacemos historia en Sinaloa "
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED",
+            "GREEN",
+            "BLUE"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 18,
+        "name": {
+            "en_US": "Juntos hacemos historia en Sonora",
+            "es_MX": "Juntos hacemos historia en Sonora"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED",
+            "GREEN",
+            "BLUE"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 19,
+        "name": {
+            "en_US": "Juntos hacemos historia en Tlaxcala",
+            "es_MX": "Juntos hacemos historia en Tlaxcala"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED",
+            "GREEN",
+            "BLUE"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 20,
+        "name": {
+            "en_US": "Juntos hacemos historia en Zacatecas",
+            "es_MX": "Juntos hacemos historia en Zacatecas"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "RED",
+            "GREEN",
+            "BLUE"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 21,
+        "name": {
+            "en_US": "Nos Une Chihuahua",
+            "es_MX": "Nos Une Chihuahua"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [],
+        "websites": []
+    },
+    {
+        "id": 22,
+        "name": {
+            "en_US": "S\u00ed por Colima",
+            "es_MX": "S\u00ed por Colima"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [],
+        "websites": []
+    },
+    {
+        "id": 23,
+        "name": {
+            "en_US": "Si por San Luis Potos\u00ed",
+            "es_MX": "Si por San Luis Potos\u00ed"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [
+            "https://www.facebook.com/SiPorSanLuisPotosi"
+        ],
+        "ig_urls": [
+            "https://www.instagram.com/siporsanluispotosi"
+        ],
+        "logo_urls": [],
+        "websites": []
+    },
+    {
+        "id": 24,
+        "name": {
+            "en_US": "Unidos Contigo Baja California Sur",
+            "es_MX": "Unidos Contigo Baja California Sur"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [],
+        "websites": []
+    },
+    {
+        "id": 25,
+        "name": {
+            "en_US": "Unidos por Tlaxcala",
+            "es_MX": "Unidos por Tlaxcala"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [
+            "https://www.facebook.com/UnidosXTlaxcala"
+        ],
+        "ig_urls": [
+            "https://www.instagram.com/unidosportlaxcala"
+        ],
+        "logo_urls": [],
+        "websites": []
+    },
+    {
+        "id": 26,
+        "name": {
+            "en_US": "Va fuerte por Nuevo Le\u00f3n",
+            "es_MX": "Va fuerte por Nuevo Le\u00f3n"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pan_pri_prd.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 27,
+        "name": {
+            "en_US": "Va por M\u00e9xico",
+            "es_MX": "Va por M\u00e9xico"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [
+            "https://www.facebook.com/Va-por-M%C3%A9xico-105075121575557"
+        ],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pan_pri_prd.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 28,
+        "name": {
+            "en_US": "Va por Baja California",
+            "es_MX": "Va por Baja California"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pan_pri_prd.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 29,
+        "name": {
+            "en_US": "Va por Baja California Sur ",
+            "es_MX": "Va por Baja California Sur "
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [],
+        "websites": []
+    },
+    {
+        "id": 30,
+        "name": {
+            "en_US": "Va por Campeche",
+            "es_MX": "Va por Campeche"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [
+            "https://www.facebook.com/vaxcampeche"
+        ],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pan_pri_prd.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 31,
+        "name": {
+            "en_US": "Va por Guerrero",
+            "es_MX": "Va por Guerrero"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [
+            "https://www.facebook.com/vaporguerrero"
+        ],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pan_pri_prd.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 32,
+        "name": {
+            "en_US": "Va por M\u00e9xico",
+            "es_MX": "Va por M\u00e9xico"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [],
+        "websites": []
+    },
+    {
+        "id": 33,
+        "name": {
+            "en_US": "Va por Nayarit",
+            "es_MX": "Va por Nayarit"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pan_pri_prd.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 34,
+        "name": {
+            "en_US": "Va por Sinaloa",
+            "es_MX": "Va por Sinaloa"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pan_pri_prd.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 35,
+        "name": {
+            "en_US": "Va por Sonora",
+            "es_MX": "Va por Sonora"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [
+            "https://www.facebook.com/Va-por-Sonora-282583112115230"
+        ],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pan_pri_prd.png"
+        ],
+        "websites": []
+    },
+    {
+        "id": 36,
+        "name": {
+            "en_US": "Va por Zacatecas",
+            "es_MX": "Va por Zacatecas"
+        },
+        "abbreviation": {
+            "en_US": "",
+            "es_MX": ""
+        },
+        "colors": [
+            "BLUE",
+            "WHITE",
+            "RED",
+            "YELLOW"
+        ],
+        "fb_urls": [
+            "https://www.facebook.com/vaporzacatecasoficial"
+        ],
+        "ig_urls": [],
+        "logo_urls": [
+            "https://candidaturas.ine.mx/img/emblemasPartidos/pan_pri_prd.png"
+        ],
+        "websites": []
+    }
+]

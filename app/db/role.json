@@ -1,0 +1,3572 @@
+[
+    {
+        "id": 1,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 4,
+        "chamber_id": 1,
+        "contest_id": 1
+    },
+    {
+        "id": 2,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 5,
+        "chamber_id": 2,
+        "contest_id": 2
+    },
+    {
+        "id": 3,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 6,
+        "chamber_id": 3,
+        "contest_id": 3
+    },
+    {
+        "id": 4,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 9,
+        "chamber_id": 4,
+        "contest_id": 4
+    },
+    {
+        "id": 5,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 10,
+        "chamber_id": 5,
+        "contest_id": 5
+    },
+    {
+        "id": 6,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 11,
+        "chamber_id": 6,
+        "contest_id": 6
+    },
+    {
+        "id": 7,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 12,
+        "chamber_id": 7,
+        "contest_id": 7
+    },
+    {
+        "id": 8,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 13,
+        "chamber_id": 8,
+        "contest_id": 8
+    },
+    {
+        "id": 9,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 14,
+        "chamber_id": 9,
+        "contest_id": 9
+    },
+    {
+        "id": 10,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 15,
+        "chamber_id": 10,
+        "contest_id": 10
+    },
+    {
+        "id": 11,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 16,
+        "chamber_id": 11,
+        "contest_id": 11
+    },
+    {
+        "id": 12,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 18,
+        "chamber_id": 12,
+        "contest_id": 12
+    },
+    {
+        "id": 13,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 19,
+        "chamber_id": 13,
+        "contest_id": 13
+    },
+    {
+        "id": 14,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 23,
+        "chamber_id": 14,
+        "contest_id": 14
+    },
+    {
+        "id": 15,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 24,
+        "chamber_id": 15,
+        "contest_id": 15
+    },
+    {
+        "id": 16,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 25,
+        "chamber_id": 16,
+        "contest_id": 16
+    },
+    {
+        "id": 17,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 26,
+        "chamber_id": 17,
+        "contest_id": 17
+    },
+    {
+        "id": 18,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 27,
+        "chamber_id": 18,
+        "contest_id": 18
+    },
+    {
+        "id": 19,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 28,
+        "chamber_id": 19,
+        "contest_id": 19
+    },
+    {
+        "id": 20,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 29,
+        "chamber_id": 20,
+        "contest_id": 20
+    },
+    {
+        "id": 21,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 30,
+        "chamber_id": 21,
+        "contest_id": 21
+    },
+    {
+        "id": 22,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 31,
+        "chamber_id": 22,
+        "contest_id": 22
+    },
+    {
+        "id": 23,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 33,
+        "chamber_id": 23,
+        "contest_id": 23
+    },
+    {
+        "id": 24,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 34,
+        "chamber_id": 24,
+        "contest_id": 24
+    },
+    {
+        "id": 25,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 36,
+        "chamber_id": 25,
+        "contest_id": 25
+    },
+    {
+        "id": 26,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 37,
+        "chamber_id": 26,
+        "contest_id": 26
+    },
+    {
+        "id": 27,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 41,
+        "chamber_id": 27,
+        "contest_id": 27
+    },
+    {
+        "id": 28,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 42,
+        "chamber_id": 28,
+        "contest_id": 28
+    },
+    {
+        "id": 29,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 43,
+        "chamber_id": 29,
+        "contest_id": 29
+    },
+    {
+        "id": 30,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 44,
+        "chamber_id": 30,
+        "contest_id": 30
+    },
+    {
+        "id": 31,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 45,
+        "chamber_id": 31,
+        "contest_id": 31
+    },
+    {
+        "id": 32,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 46,
+        "chamber_id": 32,
+        "contest_id": 32
+    },
+    {
+        "id": 33,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 47,
+        "chamber_id": 33,
+        "contest_id": 33
+    },
+    {
+        "id": 34,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 50,
+        "chamber_id": 34,
+        "contest_id": 34
+    },
+    {
+        "id": 35,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 51,
+        "chamber_id": 35,
+        "contest_id": 35
+    },
+    {
+        "id": 36,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 52,
+        "chamber_id": 36,
+        "contest_id": 36
+    },
+    {
+        "id": 37,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 53,
+        "chamber_id": 37,
+        "contest_id": 37
+    },
+    {
+        "id": 38,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 54,
+        "chamber_id": 38,
+        "contest_id": 38
+    },
+    {
+        "id": 39,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 55,
+        "chamber_id": 39,
+        "contest_id": 39
+    },
+    {
+        "id": 40,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 56,
+        "chamber_id": 40,
+        "contest_id": 40
+    },
+    {
+        "id": 41,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 57,
+        "chamber_id": 41,
+        "contest_id": 41
+    },
+    {
+        "id": 42,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 58,
+        "chamber_id": 42,
+        "contest_id": 42
+    },
+    {
+        "id": 43,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 59,
+        "chamber_id": 43,
+        "contest_id": 43
+    },
+    {
+        "id": 44,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 60,
+        "chamber_id": 44,
+        "contest_id": 44
+    },
+    {
+        "id": 45,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 61,
+        "chamber_id": 45,
+        "contest_id": 45
+    },
+    {
+        "id": 46,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 62,
+        "chamber_id": 46,
+        "contest_id": 46
+    },
+    {
+        "id": 47,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 80,
+        "chamber_id": 47,
+        "contest_id": 47
+    },
+    {
+        "id": 48,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 81,
+        "chamber_id": 48,
+        "contest_id": 48
+    },
+    {
+        "id": 49,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 82,
+        "chamber_id": 49,
+        "contest_id": 49
+    },
+    {
+        "id": 50,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 83,
+        "chamber_id": 50,
+        "contest_id": 50
+    },
+    {
+        "id": 51,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 84,
+        "chamber_id": 51,
+        "contest_id": 51
+    },
+    {
+        "id": 52,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 85,
+        "chamber_id": 52,
+        "contest_id": 52
+    },
+    {
+        "id": 53,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 86,
+        "chamber_id": 53,
+        "contest_id": 53
+    },
+    {
+        "id": 54,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 87,
+        "chamber_id": 54,
+        "contest_id": 54
+    },
+    {
+        "id": 55,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 88,
+        "chamber_id": 55,
+        "contest_id": 55
+    },
+    {
+        "id": 56,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 89,
+        "chamber_id": 56,
+        "contest_id": 56
+    },
+    {
+        "id": 57,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 90,
+        "chamber_id": 57,
+        "contest_id": 57
+    },
+    {
+        "id": 58,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 91,
+        "chamber_id": 58,
+        "contest_id": 58
+    },
+    {
+        "id": 59,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 92,
+        "chamber_id": 59,
+        "contest_id": 59
+    },
+    {
+        "id": 60,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 93,
+        "chamber_id": 60,
+        "contest_id": 60
+    },
+    {
+        "id": 61,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 94,
+        "chamber_id": 61,
+        "contest_id": 61
+    },
+    {
+        "id": 62,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 95,
+        "chamber_id": 62,
+        "contest_id": 62
+    },
+    {
+        "id": 63,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 96,
+        "chamber_id": 63,
+        "contest_id": 63
+    },
+    {
+        "id": 64,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 97,
+        "chamber_id": 64,
+        "contest_id": 64
+    },
+    {
+        "id": 65,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 98,
+        "chamber_id": 65,
+        "contest_id": 65
+    },
+    {
+        "id": 66,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 99,
+        "chamber_id": 66,
+        "contest_id": 66
+    },
+    {
+        "id": 67,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 100,
+        "chamber_id": 67,
+        "contest_id": 67
+    },
+    {
+        "id": 68,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 101,
+        "chamber_id": 68,
+        "contest_id": 68
+    },
+    {
+        "id": 69,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 102,
+        "chamber_id": 69,
+        "contest_id": 69
+    },
+    {
+        "id": 70,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 103,
+        "chamber_id": 70,
+        "contest_id": 70
+    },
+    {
+        "id": 71,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 105,
+        "chamber_id": 71,
+        "contest_id": 71
+    },
+    {
+        "id": 72,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 106,
+        "chamber_id": 72,
+        "contest_id": 72
+    },
+    {
+        "id": 73,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 107,
+        "chamber_id": 73,
+        "contest_id": 73
+    },
+    {
+        "id": 74,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 108,
+        "chamber_id": 74,
+        "contest_id": 74
+    },
+    {
+        "id": 75,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 121,
+        "chamber_id": 75,
+        "contest_id": 75
+    },
+    {
+        "id": 76,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 122,
+        "chamber_id": 76,
+        "contest_id": 76
+    },
+    {
+        "id": 77,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 123,
+        "chamber_id": 77,
+        "contest_id": 77
+    },
+    {
+        "id": 78,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 124,
+        "chamber_id": 78,
+        "contest_id": 78
+    },
+    {
+        "id": 79,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 125,
+        "chamber_id": 79,
+        "contest_id": 79
+    },
+    {
+        "id": 80,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 126,
+        "chamber_id": 80,
+        "contest_id": 80
+    },
+    {
+        "id": 81,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 127,
+        "chamber_id": 81,
+        "contest_id": 81
+    },
+    {
+        "id": 82,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 128,
+        "chamber_id": 82,
+        "contest_id": 82
+    },
+    {
+        "id": 83,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 129,
+        "chamber_id": 83,
+        "contest_id": 83
+    },
+    {
+        "id": 84,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 130,
+        "chamber_id": 84,
+        "contest_id": 84
+    },
+    {
+        "id": 85,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 131,
+        "chamber_id": 85,
+        "contest_id": 85
+    },
+    {
+        "id": 86,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 132,
+        "chamber_id": 86,
+        "contest_id": 86
+    },
+    {
+        "id": 87,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 133,
+        "chamber_id": 87,
+        "contest_id": 87
+    },
+    {
+        "id": 88,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 134,
+        "chamber_id": 88,
+        "contest_id": 88
+    },
+    {
+        "id": 89,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 135,
+        "chamber_id": 89,
+        "contest_id": 89
+    },
+    {
+        "id": 90,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 136,
+        "chamber_id": 90,
+        "contest_id": 90
+    },
+    {
+        "id": 91,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 137,
+        "chamber_id": 91,
+        "contest_id": 91
+    },
+    {
+        "id": 92,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 138,
+        "chamber_id": 92,
+        "contest_id": 92
+    },
+    {
+        "id": 93,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 139,
+        "chamber_id": 93,
+        "contest_id": 93
+    },
+    {
+        "id": 94,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 140,
+        "chamber_id": 94,
+        "contest_id": 94
+    },
+    {
+        "id": 95,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 141,
+        "chamber_id": 95,
+        "contest_id": 95
+    },
+    {
+        "id": 96,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 142,
+        "chamber_id": 96,
+        "contest_id": 96
+    },
+    {
+        "id": 97,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 143,
+        "chamber_id": 97,
+        "contest_id": 97
+    },
+    {
+        "id": 98,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 144,
+        "chamber_id": 98,
+        "contest_id": 98
+    },
+    {
+        "id": 99,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 145,
+        "chamber_id": 99,
+        "contest_id": 99
+    },
+    {
+        "id": 100,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 146,
+        "chamber_id": 100,
+        "contest_id": 100
+    },
+    {
+        "id": 101,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 147,
+        "chamber_id": 101,
+        "contest_id": 101
+    },
+    {
+        "id": 102,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 148,
+        "chamber_id": 102,
+        "contest_id": 102
+    },
+    {
+        "id": 103,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 149,
+        "chamber_id": 103,
+        "contest_id": 103
+    },
+    {
+        "id": 104,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 150,
+        "chamber_id": 104,
+        "contest_id": 104
+    },
+    {
+        "id": 105,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 151,
+        "chamber_id": 105,
+        "contest_id": 105
+    },
+    {
+        "id": 106,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 152,
+        "chamber_id": 106,
+        "contest_id": 106
+    },
+    {
+        "id": 107,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 153,
+        "chamber_id": 107,
+        "contest_id": 107
+    },
+    {
+        "id": 108,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 154,
+        "chamber_id": 108,
+        "contest_id": 108
+    },
+    {
+        "id": 109,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 155,
+        "chamber_id": 109,
+        "contest_id": 109
+    },
+    {
+        "id": 110,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 156,
+        "chamber_id": 110,
+        "contest_id": 110
+    },
+    {
+        "id": 111,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 157,
+        "chamber_id": 111,
+        "contest_id": 111
+    },
+    {
+        "id": 112,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 158,
+        "chamber_id": 112,
+        "contest_id": 112
+    },
+    {
+        "id": 113,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 159,
+        "chamber_id": 113,
+        "contest_id": 113
+    },
+    {
+        "id": 114,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 160,
+        "chamber_id": 114,
+        "contest_id": 114
+    },
+    {
+        "id": 115,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 161,
+        "chamber_id": 115,
+        "contest_id": 115
+    },
+    {
+        "id": 116,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 164,
+        "chamber_id": 116,
+        "contest_id": 116
+    },
+    {
+        "id": 117,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 165,
+        "chamber_id": 117,
+        "contest_id": 117
+    },
+    {
+        "id": 118,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 166,
+        "chamber_id": 118,
+        "contest_id": 118
+    },
+    {
+        "id": 119,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 167,
+        "chamber_id": 119,
+        "contest_id": 119
+    },
+    {
+        "id": 120,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 168,
+        "chamber_id": 120,
+        "contest_id": 120
+    },
+    {
+        "id": 121,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 169,
+        "chamber_id": 121,
+        "contest_id": 121
+    },
+    {
+        "id": 122,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 170,
+        "chamber_id": 122,
+        "contest_id": 122
+    },
+    {
+        "id": 123,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 171,
+        "chamber_id": 123,
+        "contest_id": 123
+    },
+    {
+        "id": 124,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 172,
+        "chamber_id": 124,
+        "contest_id": 124
+    },
+    {
+        "id": 125,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 174,
+        "chamber_id": 125,
+        "contest_id": 125
+    },
+    {
+        "id": 126,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 175,
+        "chamber_id": 126,
+        "contest_id": 126
+    },
+    {
+        "id": 127,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 176,
+        "chamber_id": 127,
+        "contest_id": 127
+    },
+    {
+        "id": 128,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 177,
+        "chamber_id": 128,
+        "contest_id": 128
+    },
+    {
+        "id": 129,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 178,
+        "chamber_id": 129,
+        "contest_id": 129
+    },
+    {
+        "id": 130,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 179,
+        "chamber_id": 130,
+        "contest_id": 130
+    },
+    {
+        "id": 131,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 180,
+        "chamber_id": 131,
+        "contest_id": 131
+    },
+    {
+        "id": 132,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 181,
+        "chamber_id": 132,
+        "contest_id": 132
+    },
+    {
+        "id": 133,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 182,
+        "chamber_id": 133,
+        "contest_id": 133
+    },
+    {
+        "id": 134,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 183,
+        "chamber_id": 134,
+        "contest_id": 134
+    },
+    {
+        "id": 135,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 184,
+        "chamber_id": 135,
+        "contest_id": 135
+    },
+    {
+        "id": 136,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 185,
+        "chamber_id": 136,
+        "contest_id": 136
+    },
+    {
+        "id": 137,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 186,
+        "chamber_id": 137,
+        "contest_id": 137
+    },
+    {
+        "id": 138,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 187,
+        "chamber_id": 138,
+        "contest_id": 138
+    },
+    {
+        "id": 139,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 188,
+        "chamber_id": 139,
+        "contest_id": 139
+    },
+    {
+        "id": 140,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 190,
+        "chamber_id": 140,
+        "contest_id": 140
+    },
+    {
+        "id": 141,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 191,
+        "chamber_id": 141,
+        "contest_id": 141
+    },
+    {
+        "id": 142,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 192,
+        "chamber_id": 142,
+        "contest_id": 142
+    },
+    {
+        "id": 143,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 193,
+        "chamber_id": 143,
+        "contest_id": 143
+    },
+    {
+        "id": 144,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 194,
+        "chamber_id": 144,
+        "contest_id": 144
+    },
+    {
+        "id": 145,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 195,
+        "chamber_id": 145,
+        "contest_id": 145
+    },
+    {
+        "id": 146,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 196,
+        "chamber_id": 146,
+        "contest_id": 146
+    },
+    {
+        "id": 147,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 198,
+        "chamber_id": 147,
+        "contest_id": 147
+    },
+    {
+        "id": 148,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 199,
+        "chamber_id": 148,
+        "contest_id": 148
+    },
+    {
+        "id": 149,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 200,
+        "chamber_id": 149,
+        "contest_id": 149
+    },
+    {
+        "id": 150,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 201,
+        "chamber_id": 150,
+        "contest_id": 150
+    },
+    {
+        "id": 151,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 202,
+        "chamber_id": 151,
+        "contest_id": 151
+    },
+    {
+        "id": 152,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 203,
+        "chamber_id": 152,
+        "contest_id": 152
+    },
+    {
+        "id": 153,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 204,
+        "chamber_id": 153,
+        "contest_id": 153
+    },
+    {
+        "id": 154,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 205,
+        "chamber_id": 154,
+        "contest_id": 154
+    },
+    {
+        "id": 155,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 206,
+        "chamber_id": 155,
+        "contest_id": 155
+    },
+    {
+        "id": 156,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 207,
+        "chamber_id": 156,
+        "contest_id": 156
+    },
+    {
+        "id": 157,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 208,
+        "chamber_id": 157,
+        "contest_id": 157
+    },
+    {
+        "id": 158,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 209,
+        "chamber_id": 158,
+        "contest_id": 158
+    },
+    {
+        "id": 159,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 210,
+        "chamber_id": 159,
+        "contest_id": 159
+    },
+    {
+        "id": 160,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 211,
+        "chamber_id": 160,
+        "contest_id": 160
+    },
+    {
+        "id": 161,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 212,
+        "chamber_id": 161,
+        "contest_id": 161
+    },
+    {
+        "id": 162,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 213,
+        "chamber_id": 162,
+        "contest_id": 162
+    },
+    {
+        "id": 163,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 214,
+        "chamber_id": 163,
+        "contest_id": 163
+    },
+    {
+        "id": 164,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 215,
+        "chamber_id": 164,
+        "contest_id": 164
+    },
+    {
+        "id": 165,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 216,
+        "chamber_id": 165,
+        "contest_id": 165
+    },
+    {
+        "id": 166,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 217,
+        "chamber_id": 166,
+        "contest_id": 166
+    },
+    {
+        "id": 167,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 220,
+        "chamber_id": 167,
+        "contest_id": 167
+    },
+    {
+        "id": 168,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 221,
+        "chamber_id": 168,
+        "contest_id": 168
+    },
+    {
+        "id": 169,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 222,
+        "chamber_id": 169,
+        "contest_id": 169
+    },
+    {
+        "id": 170,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 223,
+        "chamber_id": 170,
+        "contest_id": 170
+    },
+    {
+        "id": 171,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 224,
+        "chamber_id": 171,
+        "contest_id": 171
+    },
+    {
+        "id": 172,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 225,
+        "chamber_id": 172,
+        "contest_id": 172
+    },
+    {
+        "id": 173,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 226,
+        "chamber_id": 173,
+        "contest_id": 173
+    },
+    {
+        "id": 174,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 227,
+        "chamber_id": 174,
+        "contest_id": 174
+    },
+    {
+        "id": 175,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 228,
+        "chamber_id": 175,
+        "contest_id": 175
+    },
+    {
+        "id": 176,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 229,
+        "chamber_id": 176,
+        "contest_id": 176
+    },
+    {
+        "id": 177,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 230,
+        "chamber_id": 177,
+        "contest_id": 177
+    },
+    {
+        "id": 178,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 231,
+        "chamber_id": 178,
+        "contest_id": 178
+    },
+    {
+        "id": 179,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 233,
+        "chamber_id": 179,
+        "contest_id": 179
+    },
+    {
+        "id": 180,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 234,
+        "chamber_id": 180,
+        "contest_id": 180
+    },
+    {
+        "id": 181,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 235,
+        "chamber_id": 181,
+        "contest_id": 181
+    },
+    {
+        "id": 182,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 236,
+        "chamber_id": 182,
+        "contest_id": 182
+    },
+    {
+        "id": 183,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 237,
+        "chamber_id": 183,
+        "contest_id": 183
+    },
+    {
+        "id": 184,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 240,
+        "chamber_id": 184,
+        "contest_id": 184
+    },
+    {
+        "id": 185,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 241,
+        "chamber_id": 185,
+        "contest_id": 185
+    },
+    {
+        "id": 186,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 242,
+        "chamber_id": 186,
+        "contest_id": 186
+    },
+    {
+        "id": 187,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 245,
+        "chamber_id": 187,
+        "contest_id": 187
+    },
+    {
+        "id": 188,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 246,
+        "chamber_id": 188,
+        "contest_id": 188
+    },
+    {
+        "id": 189,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 247,
+        "chamber_id": 189,
+        "contest_id": 189
+    },
+    {
+        "id": 190,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 248,
+        "chamber_id": 190,
+        "contest_id": 190
+    },
+    {
+        "id": 191,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 249,
+        "chamber_id": 191,
+        "contest_id": 191
+    },
+    {
+        "id": 192,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 250,
+        "chamber_id": 192,
+        "contest_id": 192
+    },
+    {
+        "id": 193,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 251,
+        "chamber_id": 193,
+        "contest_id": 193
+    },
+    {
+        "id": 194,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 252,
+        "chamber_id": 194,
+        "contest_id": 194
+    },
+    {
+        "id": 195,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 253,
+        "chamber_id": 195,
+        "contest_id": 195
+    },
+    {
+        "id": 196,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 254,
+        "chamber_id": 196,
+        "contest_id": 196
+    },
+    {
+        "id": 197,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 255,
+        "chamber_id": 197,
+        "contest_id": 197
+    },
+    {
+        "id": 198,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 256,
+        "chamber_id": 198,
+        "contest_id": 198
+    },
+    {
+        "id": 199,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 258,
+        "chamber_id": 199,
+        "contest_id": 199
+    },
+    {
+        "id": 200,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 259,
+        "chamber_id": 200,
+        "contest_id": 200
+    },
+    {
+        "id": 201,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 260,
+        "chamber_id": 201,
+        "contest_id": 201
+    },
+    {
+        "id": 202,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 261,
+        "chamber_id": 202,
+        "contest_id": 202
+    },
+    {
+        "id": 203,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 262,
+        "chamber_id": 203,
+        "contest_id": 203
+    },
+    {
+        "id": 204,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 263,
+        "chamber_id": 204,
+        "contest_id": 204
+    },
+    {
+        "id": 205,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 264,
+        "chamber_id": 205,
+        "contest_id": 205
+    },
+    {
+        "id": 206,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 265,
+        "chamber_id": 206,
+        "contest_id": 206
+    },
+    {
+        "id": 207,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 266,
+        "chamber_id": 207,
+        "contest_id": 207
+    },
+    {
+        "id": 208,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 267,
+        "chamber_id": 208,
+        "contest_id": 208
+    },
+    {
+        "id": 209,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 269,
+        "chamber_id": 209,
+        "contest_id": 209
+    },
+    {
+        "id": 210,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 270,
+        "chamber_id": 210,
+        "contest_id": 210
+    },
+    {
+        "id": 211,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 271,
+        "chamber_id": 211,
+        "contest_id": 211
+    },
+    {
+        "id": 212,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 272,
+        "chamber_id": 212,
+        "contest_id": 212
+    },
+    {
+        "id": 213,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 273,
+        "chamber_id": 213,
+        "contest_id": 213
+    },
+    {
+        "id": 214,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 274,
+        "chamber_id": 214,
+        "contest_id": 214
+    },
+    {
+        "id": 215,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 275,
+        "chamber_id": 215,
+        "contest_id": 215
+    },
+    {
+        "id": 216,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 276,
+        "chamber_id": 216,
+        "contest_id": 216
+    },
+    {
+        "id": 217,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 277,
+        "chamber_id": 217,
+        "contest_id": 217
+    },
+    {
+        "id": 218,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 278,
+        "chamber_id": 218,
+        "contest_id": 218
+    },
+    {
+        "id": 219,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 279,
+        "chamber_id": 219,
+        "contest_id": 219
+    },
+    {
+        "id": 220,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 280,
+        "chamber_id": 220,
+        "contest_id": 220
+    },
+    {
+        "id": 221,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 281,
+        "chamber_id": 221,
+        "contest_id": 221
+    },
+    {
+        "id": 222,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 282,
+        "chamber_id": 222,
+        "contest_id": 222
+    },
+    {
+        "id": 223,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 283,
+        "chamber_id": 223,
+        "contest_id": 223
+    },
+    {
+        "id": 224,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 285,
+        "chamber_id": 224,
+        "contest_id": 224
+    },
+    {
+        "id": 225,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 286,
+        "chamber_id": 225,
+        "contest_id": 225
+    },
+    {
+        "id": 226,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 287,
+        "chamber_id": 226,
+        "contest_id": 226
+    },
+    {
+        "id": 227,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 288,
+        "chamber_id": 227,
+        "contest_id": 227
+    },
+    {
+        "id": 228,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 291,
+        "chamber_id": 228,
+        "contest_id": 228
+    },
+    {
+        "id": 229,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 292,
+        "chamber_id": 229,
+        "contest_id": 229
+    },
+    {
+        "id": 230,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 293,
+        "chamber_id": 230,
+        "contest_id": 230
+    },
+    {
+        "id": 231,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 294,
+        "chamber_id": 231,
+        "contest_id": 231
+    },
+    {
+        "id": 232,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 295,
+        "chamber_id": 232,
+        "contest_id": 232
+    },
+    {
+        "id": 233,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 298,
+        "chamber_id": 233,
+        "contest_id": 233
+    },
+    {
+        "id": 234,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 299,
+        "chamber_id": 234,
+        "contest_id": 234
+    },
+    {
+        "id": 235,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 300,
+        "chamber_id": 235,
+        "contest_id": 235
+    },
+    {
+        "id": 236,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 301,
+        "chamber_id": 236,
+        "contest_id": 236
+    },
+    {
+        "id": 237,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 302,
+        "chamber_id": 237,
+        "contest_id": 237
+    },
+    {
+        "id": 238,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 303,
+        "chamber_id": 238,
+        "contest_id": 238
+    },
+    {
+        "id": 239,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 304,
+        "chamber_id": 239,
+        "contest_id": 239
+    },
+    {
+        "id": 240,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 307,
+        "chamber_id": 240,
+        "contest_id": 240
+    },
+    {
+        "id": 241,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 308,
+        "chamber_id": 241,
+        "contest_id": 241
+    },
+    {
+        "id": 242,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 309,
+        "chamber_id": 242,
+        "contest_id": 242
+    },
+    {
+        "id": 243,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 310,
+        "chamber_id": 243,
+        "contest_id": 243
+    },
+    {
+        "id": 244,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 311,
+        "chamber_id": 244,
+        "contest_id": 244
+    },
+    {
+        "id": 245,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 312,
+        "chamber_id": 245,
+        "contest_id": 245
+    },
+    {
+        "id": 246,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 313,
+        "chamber_id": 246,
+        "contest_id": 246
+    },
+    {
+        "id": 247,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 316,
+        "chamber_id": 247,
+        "contest_id": 247
+    },
+    {
+        "id": 248,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 317,
+        "chamber_id": 248,
+        "contest_id": 248
+    },
+    {
+        "id": 249,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 318,
+        "chamber_id": 249,
+        "contest_id": 249
+    },
+    {
+        "id": 250,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 319,
+        "chamber_id": 250,
+        "contest_id": 250
+    },
+    {
+        "id": 251,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 320,
+        "chamber_id": 251,
+        "contest_id": 251
+    },
+    {
+        "id": 252,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 321,
+        "chamber_id": 252,
+        "contest_id": 252
+    },
+    {
+        "id": 253,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 322,
+        "chamber_id": 253,
+        "contest_id": 253
+    },
+    {
+        "id": 254,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 324,
+        "chamber_id": 254,
+        "contest_id": 254
+    },
+    {
+        "id": 255,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 325,
+        "chamber_id": 255,
+        "contest_id": 255
+    },
+    {
+        "id": 256,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 326,
+        "chamber_id": 256,
+        "contest_id": 256
+    },
+    {
+        "id": 257,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 327,
+        "chamber_id": 257,
+        "contest_id": 257
+    },
+    {
+        "id": 258,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 328,
+        "chamber_id": 258,
+        "contest_id": 258
+    },
+    {
+        "id": 259,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 329,
+        "chamber_id": 259,
+        "contest_id": 259
+    },
+    {
+        "id": 260,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 331,
+        "chamber_id": 260,
+        "contest_id": 260
+    },
+    {
+        "id": 261,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 332,
+        "chamber_id": 261,
+        "contest_id": 261
+    },
+    {
+        "id": 262,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 333,
+        "chamber_id": 262,
+        "contest_id": 262
+    },
+    {
+        "id": 263,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 335,
+        "chamber_id": 263,
+        "contest_id": 263
+    },
+    {
+        "id": 264,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 336,
+        "chamber_id": 264,
+        "contest_id": 264
+    },
+    {
+        "id": 265,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 337,
+        "chamber_id": 265,
+        "contest_id": 265
+    },
+    {
+        "id": 266,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 338,
+        "chamber_id": 266,
+        "contest_id": 266
+    },
+    {
+        "id": 267,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 339,
+        "chamber_id": 267,
+        "contest_id": 267
+    },
+    {
+        "id": 268,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 340,
+        "chamber_id": 268,
+        "contest_id": 268
+    },
+    {
+        "id": 269,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 341,
+        "chamber_id": 269,
+        "contest_id": 269
+    },
+    {
+        "id": 270,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 342,
+        "chamber_id": 270,
+        "contest_id": 270
+    },
+    {
+        "id": 271,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 343,
+        "chamber_id": 271,
+        "contest_id": 271
+    },
+    {
+        "id": 272,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 345,
+        "chamber_id": 272,
+        "contest_id": 272
+    },
+    {
+        "id": 273,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 346,
+        "chamber_id": 273,
+        "contest_id": 273
+    },
+    {
+        "id": 274,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 347,
+        "chamber_id": 274,
+        "contest_id": 274
+    },
+    {
+        "id": 275,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 348,
+        "chamber_id": 275,
+        "contest_id": 275
+    },
+    {
+        "id": 276,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 349,
+        "chamber_id": 276,
+        "contest_id": 276
+    },
+    {
+        "id": 277,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 350,
+        "chamber_id": 277,
+        "contest_id": 277
+    },
+    {
+        "id": 278,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 351,
+        "chamber_id": 278,
+        "contest_id": 278
+    },
+    {
+        "id": 279,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 352,
+        "chamber_id": 279,
+        "contest_id": 279
+    },
+    {
+        "id": 280,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 353,
+        "chamber_id": 280,
+        "contest_id": 280
+    },
+    {
+        "id": 281,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 354,
+        "chamber_id": 281,
+        "contest_id": 281
+    },
+    {
+        "id": 282,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 355,
+        "chamber_id": 282,
+        "contest_id": 282
+    },
+    {
+        "id": 283,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 356,
+        "chamber_id": 283,
+        "contest_id": 283
+    },
+    {
+        "id": 284,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 357,
+        "chamber_id": 284,
+        "contest_id": 284
+    },
+    {
+        "id": 285,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 358,
+        "chamber_id": 285,
+        "contest_id": 285
+    },
+    {
+        "id": 286,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 359,
+        "chamber_id": 286,
+        "contest_id": 286
+    },
+    {
+        "id": 287,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 360,
+        "chamber_id": 287,
+        "contest_id": 287
+    },
+    {
+        "id": 288,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 361,
+        "chamber_id": 288,
+        "contest_id": 288
+    },
+    {
+        "id": 289,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 362,
+        "chamber_id": 289,
+        "contest_id": 289
+    },
+    {
+        "id": 290,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 363,
+        "chamber_id": 290,
+        "contest_id": 290
+    },
+    {
+        "id": 291,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 364,
+        "chamber_id": 291,
+        "contest_id": 291
+    },
+    {
+        "id": 292,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 366,
+        "chamber_id": 292,
+        "contest_id": 292
+    },
+    {
+        "id": 293,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 367,
+        "chamber_id": 293,
+        "contest_id": 293
+    },
+    {
+        "id": 294,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 368,
+        "chamber_id": 294,
+        "contest_id": 294
+    },
+    {
+        "id": 295,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 369,
+        "chamber_id": 295,
+        "contest_id": 295
+    },
+    {
+        "id": 296,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 370,
+        "chamber_id": 296,
+        "contest_id": 296
+    },
+    {
+        "id": 297,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 372,
+        "chamber_id": 297,
+        "contest_id": 297
+    },
+    {
+        "id": 298,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 373,
+        "chamber_id": 298,
+        "contest_id": 298
+    },
+    {
+        "id": 299,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 374,
+        "chamber_id": 299,
+        "contest_id": 299
+    },
+    {
+        "id": 300,
+        "title": {
+            "en_US": "Deputy"
+        },
+        "role": "legislatorLowerBody",
+        "area_id": 375,
+        "chamber_id": 300,
+        "contest_id": 300
+    },
+    {
+        "id": 301,
+        "title": {
+            "en_US": "Governor"
+        },
+        "role": "governmentOfficer",
+        "area_id": 7,
+        "chamber_id": 301,
+        "contest_id": 301
+    },
+    {
+        "id": 302,
+        "title": {
+            "en_US": "Governor"
+        },
+        "role": "governmentOfficer",
+        "area_id": 17,
+        "chamber_id": 302,
+        "contest_id": 302
+    },
+    {
+        "id": 303,
+        "title": {
+            "en_US": "Governor"
+        },
+        "role": "governmentOfficer",
+        "area_id": 35,
+        "chamber_id": 303,
+        "contest_id": 303
+    },
+    {
+        "id": 304,
+        "title": {
+            "en_US": "Governor"
+        },
+        "role": "governmentOfficer",
+        "area_id": 20,
+        "chamber_id": 304,
+        "contest_id": 304
+    },
+    {
+        "id": 305,
+        "title": {
+            "en_US": "Governor"
+        },
+        "role": "governmentOfficer",
+        "area_id": 32,
+        "chamber_id": 305,
+        "contest_id": 305
+    },
+    {
+        "id": 306,
+        "title": {
+            "en_US": "Governor"
+        },
+        "role": "governmentOfficer",
+        "area_id": 162,
+        "chamber_id": 306,
+        "contest_id": 306
+    },
+    {
+        "id": 307,
+        "title": {
+            "en_US": "Governor"
+        },
+        "role": "governmentOfficer",
+        "area_id": 218,
+        "chamber_id": 307,
+        "contest_id": 307
+    },
+    {
+        "id": 308,
+        "title": {
+            "en_US": "Governor"
+        },
+        "role": "governmentOfficer",
+        "area_id": 238,
+        "chamber_id": 308,
+        "contest_id": 308
+    },
+    {
+        "id": 309,
+        "title": {
+            "en_US": "Governor"
+        },
+        "role": "governmentOfficer",
+        "area_id": 243,
+        "chamber_id": 309,
+        "contest_id": 309
+    },
+    {
+        "id": 310,
+        "title": {
+            "en_US": "Governor"
+        },
+        "role": "governmentOfficer",
+        "area_id": 284,
+        "chamber_id": 310,
+        "contest_id": 310
+    },
+    {
+        "id": 311,
+        "title": {
+            "en_US": "Governor"
+        },
+        "role": "governmentOfficer",
+        "area_id": 305,
+        "chamber_id": 311,
+        "contest_id": 311
+    },
+    {
+        "id": 312,
+        "title": {
+            "en_US": "Governor"
+        },
+        "role": "governmentOfficer",
+        "area_id": 296,
+        "chamber_id": 312,
+        "contest_id": 312
+    },
+    {
+        "id": 313,
+        "title": {
+            "en_US": "Governor"
+        },
+        "role": "governmentOfficer",
+        "area_id": 314,
+        "chamber_id": 313,
+        "contest_id": 313
+    },
+    {
+        "id": 314,
+        "title": {
+            "en_US": "Governor"
+        },
+        "role": "governmentOfficer",
+        "area_id": 330,
+        "chamber_id": 314,
+        "contest_id": 314
+    },
+    {
+        "id": 315,
+        "title": {
+            "en_US": "Governor"
+        },
+        "role": "governmentOfficer",
+        "area_id": 371,
+        "chamber_id": 315,
+        "contest_id": 315
+    },
+    {
+        "id": 316,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 163,
+        "chamber_id": 316,
+        "contest_id": 316
+    },
+    {
+        "id": 317,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 3,
+        "chamber_id": 317,
+        "contest_id": 317
+    },
+    {
+        "id": 318,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 64,
+        "chamber_id": 318,
+        "contest_id": 318
+    },
+    {
+        "id": 319,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 113,
+        "chamber_id": 319,
+        "contest_id": 319
+    },
+    {
+        "id": 320,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 73,
+        "chamber_id": 320,
+        "contest_id": 320
+    },
+    {
+        "id": 321,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 68,
+        "chamber_id": 321,
+        "contest_id": 321
+    },
+    {
+        "id": 322,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 21,
+        "chamber_id": 322,
+        "contest_id": 322
+    },
+    {
+        "id": 323,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 115,
+        "chamber_id": 323,
+        "contest_id": 323
+    },
+    {
+        "id": 324,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 74,
+        "chamber_id": 324,
+        "contest_id": 324
+    },
+    {
+        "id": 325,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 75,
+        "chamber_id": 325,
+        "contest_id": 325
+    },
+    {
+        "id": 326,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 69,
+        "chamber_id": 326,
+        "contest_id": 326
+    },
+    {
+        "id": 327,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 114,
+        "chamber_id": 327,
+        "contest_id": 327
+    },
+    {
+        "id": 328,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 297,
+        "chamber_id": 328,
+        "contest_id": 328
+    },
+    {
+        "id": 329,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 116,
+        "chamber_id": 329,
+        "contest_id": 329
+    },
+    {
+        "id": 330,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 76,
+        "chamber_id": 330,
+        "contest_id": 330
+    },
+    {
+        "id": 331,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 315,
+        "chamber_id": 331,
+        "contest_id": 331
+    },
+    {
+        "id": 332,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 117,
+        "chamber_id": 332,
+        "contest_id": 332
+    },
+    {
+        "id": 333,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 77,
+        "chamber_id": 333,
+        "contest_id": 333
+    },
+    {
+        "id": 334,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 78,
+        "chamber_id": 334,
+        "contest_id": 334
+    },
+    {
+        "id": 335,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 22,
+        "chamber_id": 335,
+        "contest_id": 335
+    },
+    {
+        "id": 336,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 79,
+        "chamber_id": 336,
+        "contest_id": 336
+    },
+    {
+        "id": 337,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 70,
+        "chamber_id": 337,
+        "contest_id": 337
+    },
+    {
+        "id": 338,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 71,
+        "chamber_id": 338,
+        "contest_id": 338
+    },
+    {
+        "id": 339,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 244,
+        "chamber_id": 339,
+        "contest_id": 339
+    },
+    {
+        "id": 340,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 219,
+        "chamber_id": 340,
+        "contest_id": 340
+    },
+    {
+        "id": 341,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 118,
+        "chamber_id": 341,
+        "contest_id": 341
+    },
+    {
+        "id": 342,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 119,
+        "chamber_id": 342,
+        "contest_id": 342
+    },
+    {
+        "id": 343,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 290,
+        "chamber_id": 343,
+        "contest_id": 343
+    },
+    {
+        "id": 344,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 39,
+        "chamber_id": 344,
+        "contest_id": 344
+    },
+    {
+        "id": 345,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 306,
+        "chamber_id": 345,
+        "contest_id": 345
+    },
+    {
+        "id": 346,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 120,
+        "chamber_id": 346,
+        "contest_id": 346
+    },
+    {
+        "id": 347,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 239,
+        "chamber_id": 347,
+        "contest_id": 347
+    },
+    {
+        "id": 348,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 8,
+        "chamber_id": 348,
+        "contest_id": 348
+    },
+    {
+        "id": 349,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 65,
+        "chamber_id": 349,
+        "contest_id": 349
+    },
+    {
+        "id": 350,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 110,
+        "chamber_id": 350,
+        "contest_id": 350
+    },
+    {
+        "id": 351,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 66,
+        "chamber_id": 351,
+        "contest_id": 351
+    },
+    {
+        "id": 352,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 111,
+        "chamber_id": 352,
+        "contest_id": 352
+    },
+    {
+        "id": 353,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 40,
+        "chamber_id": 353,
+        "contest_id": 353
+    },
+    {
+        "id": 354,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 112,
+        "chamber_id": 354,
+        "contest_id": 354
+    },
+    {
+        "id": 355,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 49,
+        "chamber_id": 355,
+        "contest_id": 355
+    },
+    {
+        "id": 356,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 72,
+        "chamber_id": 356,
+        "contest_id": 356
+    },
+    {
+        "id": 357,
+        "title": {
+            "en_US": "Mayor"
+        },
+        "role": "executiveCouncil",
+        "area_id": 67,
+        "chamber_id": 357,
+        "contest_id": 357
+    }
+]
