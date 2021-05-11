@@ -1,5 +1,4 @@
 from app import db
-from typing import List
 
 class ChamberModel(db.Model):
     __tablename__ = 'chamber'
@@ -29,7 +28,7 @@ class ChamberModel(db.Model):
         return cls.query.filter_by(chamber_id=_id).first()
 
     @classmethod
-    def find_all(cls) -> List["ChamberModel"]:
+    def find_all(cls):
         query_all = cls.query.all()
         result = []
         for one_element in query_all:

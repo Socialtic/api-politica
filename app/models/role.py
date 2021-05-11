@@ -1,5 +1,4 @@
 from app import db
-from typing import List
 from app.const import Catalogues, EmptyValues
 
 class RoleModel(db.Model):
@@ -39,7 +38,7 @@ class RoleModel(db.Model):
         return cls.query.filter_by(role_id=_id).first()
 
     @classmethod
-    def find_all(cls) -> List["RoleModel"]:
+    def find_all(cls):
         query_all = cls.query.all()
         result = []
         for one_element in query_all:

@@ -1,5 +1,4 @@
 from app import db
-from typing import List
 from datetime import date
 from app.const import EmptyValues
 from app.models.role import RoleModel
@@ -59,7 +58,7 @@ class ContestModel(db.Model):
         return cls.query.filter_by(contest_id=_id).first()
 
     @classmethod
-    def find_all(cls) -> List["ContestModel"]:
+    def find_all(cls):
         query_all = cls.query.all()
         result = []
         for one_element in query_all:

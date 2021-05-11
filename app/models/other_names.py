@@ -1,5 +1,4 @@
 from app import db
-from typing import List
 from app.const import Catalogues
 
 class OtherNamesModel(db.Model):
@@ -31,7 +30,7 @@ class OtherNamesModel(db.Model):
         return cls.query.filter_by(other_name_id=_id).first()
 
     @classmethod
-    def find_all(cls) -> List["OtherNamesModel"]:
+    def find_all(cls):
         query_all = cls.query.all()
         result = []
         for one_element in query_all:

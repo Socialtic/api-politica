@@ -1,5 +1,4 @@
 from app import db
-from typing import List
 
 class PersonProfessionModel(db.Model):
     __tablename__ = 'person_professions'
@@ -28,7 +27,7 @@ class PersonProfessionModel(db.Model):
         return cls.query.filter_by(person_profession_id=_id).first()
 
     @classmethod
-    def find_all(cls) -> List["PersonProfessionModel"]:
+    def find_all(cls):
         query_all = cls.query.all()
         result = []
         for one_element in query_all:

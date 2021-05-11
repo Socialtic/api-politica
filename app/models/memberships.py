@@ -1,5 +1,4 @@
 from app import db
-from typing import List
 from app.const import Catalogues, EmptyValues
 from datetime import date
 from app.models.url import UrlModel
@@ -78,7 +77,7 @@ class MembershipModel(db.Model):
         return cls.query.filter_by(membership_id=_id).first()
 
     @classmethod
-    def find_all(cls) -> List["MembershipModel"]:
+    def find_all(cls):
         query_all = cls.query.all()
         result = []
         for one_element in query_all:

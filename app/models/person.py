@@ -1,5 +1,4 @@
 from app import db
-from typing import List
 from datetime import date
 
 from app.const import Catalogues, EmptyValues, URL_OWNER_TYPE, OtherNames
@@ -121,7 +120,7 @@ class PersonModel(db.Model):
         return cls.query.filter_by(person_id=_id).first()
 
     @classmethod
-    def find_all(cls) -> List["PersonModel"]:
+    def find_all(cls):
         query_all = cls.query.all()
         result = []
         for one_element in query_all:

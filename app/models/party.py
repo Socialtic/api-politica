@@ -1,5 +1,4 @@
 from app import db
-from typing import List
 from app.const import EmptyValues, URL_OWNER_TYPE
 from app.models.url import UrlModel
 
@@ -48,7 +47,7 @@ class PartyModel(db.Model):
         return cls.query.filter_by(party_id=_id).first()
 
     @classmethod
-    def find_all(cls) -> List["PartyModel"]:
+    def find_all(cls):
         query_all = cls.query.all()
         result = []
         for one_element in query_all:

@@ -1,5 +1,4 @@
 from app import db
-from typing import List
 from app.const import URL_OWNER_TYPE
 from app.models.url import UrlModel
 
@@ -41,7 +40,7 @@ class CoalitionModel(db.Model):
         return cls.query.filter_by(coalition_id=_id).first()
 
     @classmethod
-    def find_all(cls) -> List["CoalitionModel"]:
+    def find_all(cls):
         query_all = cls.query.all()
         result = []
         for one_element in query_all:

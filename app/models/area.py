@@ -1,5 +1,4 @@
 from app import db
-from typing import List
 from app.const import Catalogues, EmptyValues
 
 class AreaModel(db.Model):
@@ -46,7 +45,7 @@ class AreaModel(db.Model):
         return cls.query.filter_by(area_id=_id).first()
 
     @classmethod
-    def find_all(cls) -> List["AreaModel"]:
+    def find_all(cls):
         query_all = cls.query.all()
         result = []
         for one_element in query_all:

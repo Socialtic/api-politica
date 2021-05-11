@@ -1,5 +1,4 @@
 from app import db
-from typing import List
 from app.const import URL_TYPE, URL_OWNER_TYPE, Catalogues
 
 class UrlModel(db.Model):
@@ -36,7 +35,7 @@ class UrlModel(db.Model):
         return cls.query.filter_by(url_id=_id).first()
 
     @classmethod
-    def find_all(cls) -> List["UrlModel"]:
+    def find_all(cls):
         query_all = cls.query.all()
         result = []
         for one_element in query_all:
