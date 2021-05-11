@@ -1,14 +1,16 @@
 from flask import request
 from flask_restx import Resource, fields
 from datetime import datetime
+import json
 
-from app import api, isOnDev
+from app import api, isOnDev, project_dir
 from app.models.person import PersonModel as TheModel
 from app.schemas.person import PersonSchema as TheSchema
 from app.const import HttpStatus, EmptyValues
 
 #   Name of the current item/element
 CURRENT_NAME = 'Person'
+CACHE_FILE = "/db/person.json"
 
 #   Namespace to route
 local_ns = api.namespace('person', description=CURRENT_NAME + ' related operations')
@@ -33,7 +35,13 @@ class PersonList(Resource):
     @local_ns.doc('Get all the ' + CURRENT_NAME + 's')
     def get(self):
         try:
-            return TheModel.find_all(), HttpStatus.OK
+            if isOnDev:
+                return TheModel.find_all(), HttpStatus.OK
+            else:
+                f = open(project_dir + CACHE_FILE, "r")
+                data_json = json.loads(f.read())
+                f.close()
+                return data_json, HttpStatus.OK
         except Exception as e:
             return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
 

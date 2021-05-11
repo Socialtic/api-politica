@@ -1,5 +1,6 @@
-from flask_restx import Resource, fields
-from app import api
+from flask_restx import Resource
+from app import api, isOnDev, project_dir
+import json
 
 #   Min
 from app.models.area import AreaModel
@@ -19,6 +20,9 @@ from app.models.url import UrlModel
 
 from app.const import HttpStatus, EmptyValues
 
+CACHE_FILE = "/db/export.json"
+CACHE_FILE_MIN = "/db/export-min.json"
+
 #   Namespace to route
 export_ns = api.namespace('export', description='Get all information')
 export_min_ns = api.namespace('export-min', description='Get minimum necessary information')
@@ -28,16 +32,22 @@ class ExportMin(Resource):
     @export_min_ns.doc('Get all information')
     def get(self):
         try:
-            obj = {
-                'areas': AreaModel.find_all(),
-                'chambers': ChamberModel.find_all(),
-                'roles': RoleModel.find_all(),
-                'persons': PersonModel.find_all(),
-                'parties': PartyModel.find_all(),
-                'memberships': MembershipModel.find_all(),
-                'contests': ContestModel.find_all()
-            }
-            return obj, HttpStatus.OK
+            if isOnDev:
+                obj = {
+                    'areas': AreaModel.find_all(),
+                    'chambers': ChamberModel.find_all(),
+                    'roles': RoleModel.find_all(),
+                    'persons': PersonModel.find_all(),
+                    'parties': PartyModel.find_all(),
+                    'memberships': MembershipModel.find_all(),
+                    'contests': ContestModel.find_all()
+                }
+                return obj, HttpStatus.OK
+            else:
+                f = open(project_dir + CACHE_FILE, "r")
+                data_json = json.loads(f.read())
+                f.close()
+                return data_json, HttpStatus.OK
         except Exception as e:
             return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
 
@@ -46,20 +56,26 @@ class Export(Resource):
     @export_ns.doc('Get minimum necessary information')
     def get(self):
         try:
-            obj = {
-                'areas': AreaModel.find_all(),
-                'chambers': ChamberModel.find_all(),
-                'roles': RoleModel.find_all(),
-                'coalitions': CoalitionModel.find_all(),
-                'persons': PersonModel.find_all(),
-                'other-names': OtherNamesModel.find_all(),
-                'professions': ProfessionModel.find_all(),
-                'person-professions': PersonProfessionModel.find_all(),
-                'parties': PartyModel.find_all(),
-                'memberships': MembershipModel.find_all(),
-                'contests': ContestModel.find_all(),
-                'urls': UrlModel.find_all()
-            }
-            return obj, HttpStatus.OK
+            if isOnDev:
+                obj = {
+                    'areas': AreaModel.find_all(),
+                    'chambers': ChamberModel.find_all(),
+                    'roles': RoleModel.find_all(),
+                    'coalitions': CoalitionModel.find_all(),
+                    'persons': PersonModel.find_all(),
+                    'other-names': OtherNamesModel.find_all(),
+                    'professions': ProfessionModel.find_all(),
+                    'person-professions': PersonProfessionModel.find_all(),
+                    'parties': PartyModel.find_all(),
+                    'memberships': MembershipModel.find_all(),
+                    'contests': ContestModel.find_all(),
+                    'urls': UrlModel.find_all()
+                }
+                return obj, HttpStatus.OK
+            else:
+                f = open(project_dir + CACHE_FILE, "r")
+                data_json = json.loads(f.read())
+                f.close()
+                return data_json, HttpStatus.OK
         except Exception as e:
             return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
