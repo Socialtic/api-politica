@@ -57,7 +57,7 @@ class MembershipList(Resource):
             return response
         else:
             response = jsonify({'message': 'Not allowed'})
-            response.status_code = HttpStatus.NOT_ALLOWED
+            response.status_code = HttpStatus.UNAUTHORIZED
             return response
 
     @local_ns.doc('Create a ' + CURRENT_NAME)
@@ -80,7 +80,7 @@ class MembershipList(Resource):
             return response
         else:
             response = jsonify({'message': 'Not allowed'})
-            response.status_code = HttpStatus.NOT_ALLOWED
+            response.status_code = HttpStatus.UNAUTHORIZED
             return response
 
 @local_ns.route('/<int:id>')
@@ -105,7 +105,7 @@ class Membership(Resource):
             return response
         else:
             response = jsonify({'message': 'Not allowed'})
-            response.status_code = HttpStatus.NOT_ALLOWED
+            response.status_code = HttpStatus.UNAUTHORIZED
             return response
 
     @local_ns.doc('Update a ' + CURRENT_NAME + ' with the specified id',
@@ -152,7 +152,7 @@ class Membership(Resource):
             return response
         else:
             response = jsonify({'message': 'Not allowed'})
-            response.status_code = HttpStatus.NOT_ALLOWED
+            response.status_code = HttpStatus.UNAUTHORIZED
             return response
 
     @local_ns.doc('Delete a ' + CURRENT_NAME + ' with the specified id',
@@ -180,5 +180,5 @@ class Membership(Resource):
             return response
         else:
             response = jsonify({'message': 'Not allowed'})
-            response.status_code = HttpStatus.NOT_ALLOWED
+            response.status_code = HttpStatus.UNAUTHORIZED
             return response

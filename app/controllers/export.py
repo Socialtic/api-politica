@@ -58,7 +58,7 @@ class ExportMin(Resource):
             return response
         else:
             response = jsonify({'message': 'Not allowed'})
-            response.status_code = HttpStatus.NOT_ALLOWED
+            response.status_code = HttpStatus.UNAUTHORIZED
             return response
 
 @export_ns.route('/')
@@ -96,5 +96,5 @@ class Export(Resource):
             return response
         else:
             response = jsonify({'message': 'Not allowed'})
-            response.status_code = HttpStatus.NOT_ALLOWED
+            response.status_code = HttpStatus.UNAUTHORIZED
             return response

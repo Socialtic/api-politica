@@ -50,7 +50,7 @@ class AreaList(Resource):
             return response
         else:
             response = jsonify({'message': 'Not allowed'})
-            response.status_code = HttpStatus.NOT_ALLOWED
+            response.status_code = HttpStatus.UNAUTHORIZED
             return response
 
     @local_ns.doc('Create an ' + CURRENT_NAME)
@@ -73,7 +73,7 @@ class AreaList(Resource):
             return response
         else:
             response = jsonify({'message': 'Not allowed'})
-            response.status_code = HttpStatus.NOT_ALLOWED
+            response.status_code = HttpStatus.UNAUTHORIZED
             return response
 
 @local_ns.route('/<int:id>')
@@ -98,7 +98,7 @@ class Area(Resource):
             return response
         else:
             response = jsonify({'message': 'Not allowed'})
-            response.status_code = HttpStatus.NOT_ALLOWED
+            response.status_code = HttpStatus.UNAUTHORIZED
             return response
 
     @local_ns.doc('Update an ' + CURRENT_NAME + ' with the specified id',
@@ -135,7 +135,7 @@ class Area(Resource):
             return response
         else:
             response = jsonify({'message': 'Not allowed'})
-            response.status_code = HttpStatus.NOT_ALLOWED
+            response.status_code = HttpStatus.UNAUTHORIZED
             return response
 
     @local_ns.doc('Delete an ' + CURRENT_NAME + ' with the specified id',
@@ -163,5 +163,5 @@ class Area(Resource):
             return response
         else:
             response = jsonify({'message': 'Not allowed'})
-            response.status_code = HttpStatus.NOT_ALLOWED
+            response.status_code = HttpStatus.UNAUTHORIZED
             return response
