@@ -1,3 +1,4 @@
+from flask import jsonify
 from flask_restx import Resource
 from app import api, isOnDev, project_dir
 import json
@@ -42,14 +43,18 @@ class ExportMin(Resource):
                     'memberships': MembershipModel.find_all(),
                     'contests': ContestModel.find_all()
                 }
-                return obj, HttpStatus.OK
+                response = jsonify(obj)
+                response.status_code = HttpStatus.OK
             else:
                 f = open(project_dir + CACHE_FILE, "r")
                 data_json = json.loads(f.read())
                 f.close()
-                return data_json, HttpStatus.OK
+                response = jsonify(data_json)
+                response.status_code = HttpStatus.OK
         except Exception as e:
-            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
+            response = jsonify({'message': e.__str__()})
+            response.status_code = HttpStatus.INTERNAL_ERROR
+        return response
 
 @export_ns.route('/')
 class Export(Resource):
@@ -71,11 +76,15 @@ class Export(Resource):
                     'contests': ContestModel.find_all(),
                     'urls': UrlModel.find_all()
                 }
-                return obj, HttpStatus.OK
+                response = jsonify(obj)
+                response.status_code = HttpStatus.OK
             else:
                 f = open(project_dir + CACHE_FILE, "r")
                 data_json = json.loads(f.read())
                 f.close()
-                return data_json, HttpStatus.OK
+                response = jsonify(data_json)
+                response.status_code = HttpStatus.OK
         except Exception as e:
-            return {'message': e.__str__()}, HttpStatus.INTERNAL_ERROR
+            response = jsonify({'message': e.__str__()})
+            response.status_code = HttpStatus.INTERNAL_ERROR
+        return response
