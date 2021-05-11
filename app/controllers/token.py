@@ -22,8 +22,8 @@ def token():
     body='grant_type=' + grant_type + '&client_id=' + client_id + '&code=' + authorization_code + '&redirect_uri=https://www.apielectoral.mx/token'
 
     response = requests.request('POST', url, headers=headers, data=body)
-    print(response.request.url)
-    print(response.request.body)
-    print(response.request.headers)
+    #print(response.request.url)
+    #print(response.request.body)
+    #print(response.request.headers)
 
     return render_template('token.html', authorization_code=authorization_code, response=json2html.convert(json=response.json()))

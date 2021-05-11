@@ -32,6 +32,10 @@ api = Api(application, doc='/docs',
           description='API of information on the Mexican elections of 2021',
           version='1.1')
 
+#   Some kind of internal token
+from app.models.token_auth import *
+INTERNAL_TOKEN = TokenAuth.find_by_id(1)
+
 #   Functions for the app
 from app.controllers.area import *
 from app.controllers.chamber import *
