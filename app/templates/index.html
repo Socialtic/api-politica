@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-MX">
 <head>
     <meta charset="UTF-8">
     <title>API de candidatas y candidatos a elecciones de México 2021</title>
@@ -24,12 +24,20 @@
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     </pre>
     </br>
-    <h2>Instrucciones</h2>
+    <h2>Obten un token de consulta para la API</h2>
     <ol>
-        <li>Crea un usuario en <a href="https://mx-elections-2021-api.auth.us-east-2.amazoncognito.com/login?client_id=6db6blllaim1ebqnefoe61bn9l&response_type=code&scope=email+openid&redirect_uri=https://www.apielectoral.mx/token">esta página, haz login si ya te registraste.</a></li>
-        <li>Te presentaremos una tabla con 3 tokens de acceso. Copia el <code><b>id_token</b></code>. El token tiene una vigencia de 4 horas.</li>
-        <li>Usa ese <code><b>id_token</b></code> y asígnalo al campo <code>Authorization</code> como parte de los <code>headers</code> de la petición HTTP.</li>
-        <li>Cuando tu token expire, repite los pasos desde 1.</li>
+        <li>Obten tu token de acceso creando un usuario o iniciando sesión <a href="https://mx-elections-2021-api.auth.us-east-2.amazoncognito.com/login?client_id=6db6blllaim1ebqnefoe61bn9l&response_type=code&scope=email+openid&redirect_uri=https://www.apielectoral.mx/token/">aquí</a></li>
+        <li>El token que generes en el paso anterior tiene una vigencia de 4 horas. Recuerda solicitar uno nuevo después de ese tiempo.</li>
+        <li>Con el token podrás conectarte a los endpoints disponibles</li>
+    </ol>
+    <h2>Accede o descarga la información</h2>
+    <ol>
+        <li>Puedes consultar información de la API con el token que obtuviste en la sección anterior.</li>
+        <ol>
+            <li>Busca el valor de <b><code>id_token</code></b></li>
+            <li>Asignalo a tu petición un header con nombre <b><code>Authorization</code></b></li>
+        </ol>
+        <li>Tambien puedes descargar directamente la información de los endpoints en formato JSON y CSV <a href="https://github.com/Socialtic/mx-elections-2021/releases/">aquí</a></li>
     </ol>
     <h2>Endpoints disponibles</h2>
     <ul>
@@ -48,8 +56,8 @@
         <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/profession/">Listado de profesiones</a></li>
         <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/url/">URLs</a></li>
     </ul>
-    <h2>Enlaces útiles</h2>
-    Para conocer más acerca del proyecto, te recomendamos visitar el repositorio de GitHhub o nuestras redes sociales.
+    <h2>¡Más enlaces!</h2>
+    Para conocer más acerca del proyecto, te recomendamos visitar el repositorio de GitHhub y nuestras redes sociales.
     </br>
     <ul>
         <li><a href="https://github.com/SocialTIC/mx-elections-2021">Repositorio de GitHub</a></li>

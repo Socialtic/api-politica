@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-MX">
 <head>
     <meta charset="UTF-8">
-    <title>Tu token para acceder a la API Electoral</title>
+    <title>Token | API de candidatas y candidatos a elecciones de México 2021</title>
 </head>
 <body>
-
     <h1>Aquí tienes tu token. Anótalo, cópialo, guárdalo.</h1>
     </br>
     <pre>
@@ -28,13 +27,40 @@
     <pre>{{authorization_code}}</pre>
     <h2>Instrucciones</h2>
     <ol>
-        <li>Busca y copia el elemento <code>id_token</code> en el diccionario de abajo</li>
-        <li>Asigna este <code>id_token</code> a un header con nombre <b><code>Authorization</code></b></li>
-        <li>Llama a nuestra API con este header que armaste</li>
-        <li>El token expira después de <b>4 horas</b>. Vuelve a firmarte <a href="https://mx-elections-2021-api.auth.us-east-2.amazoncognito.com/login?client_id=6db6blllaim1ebqnefoe61bn9l&response_type=code&scope=email+openid&redirect_uri=https://www.apielectoral.mx/token">aquí</a></li>
+        <li>Busca el valor de <b><code>id_token</code></b></li>
+        <li>Asignalo a tu petición un header con nombre <b><code>Authorization</code></b></li>
+        <li>El token expira después de <b>4 horas</b>. Obten uno nuevo <a href="https://mx-elections-2021-api.auth.us-east-2.amazoncognito.com/login?client_id=6db6blllaim1ebqnefoe61bn9l&response_type=code&scope=email+openid&redirect_uri=https://www.apielectoral.mx/token/">aquí</a></li>
     </ol>
-    <h2>Diccionario</h2>
+    <h2>Datos del token</h2>
      {{response | safe}}
+
+    <h2>Endpoints disponibles</h2>
+    <ul>
+        <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/export/">Toda la información</a></li>
+        <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/export-min/">Información mínima necesaria</a></li>
+        <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/person/">Personas</a></li>
+        <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/membership/">Adscripciones politicas</a></li>
+        <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/contest/">Contiendas politicas</a></li>
+        <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/party/">Partidos Politicos</a></li>
+        <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/coalition/">Coaliciones</a></li>
+        <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/area/">Áreas</a></li>
+        <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/chamber/">Cámaras</a></li>
+        <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/role/">Roles</a></li>
+        <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/other-name/">Listado de otros nombres por persona</a></li>
+        <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/person-profession/">Listado de profesiones por persona</a></li>
+        <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/profession/">Listado de profesiones</a></li>
+        <li><a href="https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/url/">URLs</a></li>
+    </ul>
+    <h2>¡Más enlaces!</h2>
+    Para conocer más acerca del proyecto, te recomendamos visitar el repositorio de GitHhub y nuestras redes sociales.
+    </br>
+    <ul>
+        <li><a href="https://github.com/SocialTIC/mx-elections-2021">Repositorio de GitHub</a></li>
+        <li><a href="https://socialtic.org">Sitio de SocialTIC</a></li>
+        <li><a href="https://www.facebook.com/Socialtic/">Facebook de SocialTIC</a></li>
+        <li><a href="https://twitter.com/socialtic/">Twitter de SocialTIC</a></li>
+        <li><a href="https://www.instagram.com/socialtic/">Instagram de SocialTIC</a></li>
+    </ul>
 
 </body>
 </html>
