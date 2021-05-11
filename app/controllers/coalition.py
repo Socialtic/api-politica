@@ -44,7 +44,7 @@ class CoalitionList(Resource):
                 response.status_code = HttpStatus.INTERNAL_ERROR
             return response
         else:
-            response = jsonify({'message': 'Not allowed'})
+            response = jsonify({'message': 'Unauthorized'})
             response.status_code = HttpStatus.UNAUTHORIZED
             return response
 
@@ -67,7 +67,7 @@ class CoalitionList(Resource):
                 response.status_code = HttpStatus.BAD_REQUEST
             return response
         else:
-            response = jsonify({'message': 'Not allowed'})
+            response = jsonify({'message': 'Unauthorized'})
             response.status_code = HttpStatus.UNAUTHORIZED
             return response
 
@@ -92,7 +92,7 @@ class Coalition(Resource):
                 response.status_code = HttpStatus.INTERNAL_ERROR
             return response
         else:
-            response = jsonify({'message': 'Not allowed'})
+            response = jsonify({'message': 'Unauthorized'})
             response.status_code = HttpStatus.UNAUTHORIZED
             return response
 
@@ -125,7 +125,7 @@ class Coalition(Resource):
                 response.status_code = HttpStatus.BAD_REQUEST
             return response
         else:
-            response = jsonify({'message': 'Not allowed'})
+            response = jsonify({'message': 'Unauthorized'})
             response.status_code = HttpStatus.UNAUTHORIZED
             return response
 
@@ -153,6 +153,6 @@ class Coalition(Resource):
                 response.status_code = HttpStatus.INTERNAL_ERROR
             return response
         else:
-            response = jsonify({'message': 'Not allowed'})
+            response = jsonify({'message': 'Unauthorized'})
             response.status_code = HttpStatus.UNAUTHORIZED
             return response
