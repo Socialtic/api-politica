@@ -1,5 +1,6 @@
 import os
 from flask import Flask
+from flask_cors import CORS
 from flask_marshmallow import Marshmallow
 from flask_sqlalchemy import SQLAlchemy
 from flask_restx import Api
@@ -25,6 +26,7 @@ isOnDev = False
 application.debug = isOnDev
 application.register_blueprint(bp_frontend)
 application.register_blueprint(bp_token)
+CORS(application)
 ma = Marshmallow(application)
 db = SQLAlchemy(application)
 api = Api(application, doc='/docs',
