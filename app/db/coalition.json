@@ -809,5 +809,24 @@
 			"es_MX": "Va por Zacatecas"
 		},
 		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "",
+			"es_MX": ""
+		},
+		"colors": [
+			"YELLOW",
+			"BLACK"
+		],
+		"fb_urls": [],
+		"id": 37,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición PRD-PAC",
+			"es_MX": "Coalición PRD-PAC"
+		},
+		"websites": []
 	}
 ]

@@ -3568,5 +3568,135 @@
 		"title": {
 			"en_US": "Mayor"
 		}
+	},
+	{
+		"area_id": 376,
+		"chamber_id": 358,
+		"contest_id": 358,
+		"id": 358,
+		"role": "executiveCouncil",
+		"title": {
+			"en_US": "Mayor"
+		}
+	},
+	{
+		"area_id": 377,
+		"chamber_id": 359,
+		"contest_id": 359,
+		"id": 359,
+		"role": "executiveCouncil",
+		"title": {
+			"en_US": "Mayor"
+		}
+	},
+	{
+		"area_id": 378,
+		"chamber_id": 360,
+		"contest_id": 360,
+		"id": 360,
+		"role": "executiveCouncil",
+		"title": {
+			"en_US": "Mayor"
+		}
+	},
+	{
+		"area_id": 379,
+		"chamber_id": 361,
+		"contest_id": 361,
+		"id": 361,
+		"role": "executiveCouncil",
+		"title": {
+			"en_US": "Mayor"
+		}
+	},
+	{
+		"area_id": 380,
+		"chamber_id": 362,
+		"contest_id": 362,
+		"id": 362,
+		"role": "executiveCouncil",
+		"title": {
+			"en_US": "Mayor"
+		}
+	},
+	{
+		"area_id": 381,
+		"chamber_id": 363,
+		"contest_id": 363,
+		"id": 363,
+		"role": "executiveCouncil",
+		"title": {
+			"en_US": "Mayor"
+		}
+	},
+	{
+		"area_id": 382,
+		"chamber_id": 364,
+		"contest_id": 364,
+		"id": 364,
+		"role": "executiveCouncil",
+		"title": {
+			"en_US": "Mayor"
+		}
+	},
+	{
+		"area_id": 383,
+		"chamber_id": 365,
+		"contest_id": 365,
+		"id": 365,
+		"role": "executiveCouncil",
+		"title": {
+			"en_US": "Mayor"
+		}
+	},
+	{
+		"area_id": 384,
+		"chamber_id": 366,
+		"contest_id": 366,
+		"id": 366,
+		"role": "executiveCouncil",
+		"title": {
+			"en_US": "Mayor"
+		}
+	},
+	{
+		"area_id": 385,
+		"chamber_id": 367,
+		"contest_id": 367,
+		"id": 367,
+		"role": "executiveCouncil",
+		"title": {
+			"en_US": "Mayor"
+		}
+	},
+	{
+		"area_id": 386,
+		"chamber_id": 368,
+		"contest_id": 368,
+		"id": 368,
+		"role": "executiveCouncil",
+		"title": {
+			"en_US": "Mayor"
+		}
+	},
+	{
+		"area_id": 387,
+		"chamber_id": 369,
+		"contest_id": 369,
+		"id": 369,
+		"role": "executiveCouncil",
+		"title": {
+			"en_US": "Mayor"
+		}
+	},
+	{
+		"area_id": 388,
+		"chamber_id": 370,
+		"contest_id": 370,
+		"id": 370,
+		"role": "executiveCouncil",
+		"title": {
+			"en_US": "Mayor"
+		}
 	}
 ]

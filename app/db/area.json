@@ -486,8 +486,8 @@
 		"district_type": "REGIONAL_EXEC",
 		"id": 38,
 		"name": {
-			"en_US": "CIUDAD DE MÉXICO",
-			"es_MX": "CIUDAD DE MÉXICO"
+			"en_US": "COLIMA",
+			"es_MX": "COLIMA"
 		},
 		"ocd_id": "ocd-division/country:mx/state:co",
 		"parent_area_id": "",
@@ -806,13 +806,13 @@
 		"state": "CHP"
 	},
 	{
-		"city": "COLIMA",
+		"city": "",
 		"country": "MX",
 		"district_type": "REGIONAL_EXEC",
 		"id": 63,
 		"name": {
-			"en_US": "COLIMA",
-			"es_MX": "COLIMA"
+			"en_US": "CIUDAD DE MÉXICO",
+			"es_MX": "CIUDAD DE MÉXICO"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df",
 		"parent_area_id": "",
@@ -4871,6 +4871,175 @@
 			"es_MX": "Diputación del Distrito Federal 4 de ZACATECAS"
 		},
 		"ocd_id": "ocd-division/country:mx/state:za/fed:4",
+		"parent_area_id": "",
+		"state": "ZAC"
+	},
+	{
+		"city": "CAMPECHE",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 376,
+		"name": {
+			"en_US": "CAMPECHE",
+			"es_MX": "CAMPECHE"
+		},
+		"ocd_id": "ocd-division/country:mx/state:cm/city:1",
+		"parent_area_id": "",
+		"state": "CAM"
+	},
+	{
+		"city": "CHETUMAL",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 377,
+		"name": {
+			"en_US": "CHETUMAL",
+			"es_MX": "CHETUMAL"
+		},
+		"ocd_id": "ocd-division/country:mx/state:qr/city:1",
+		"parent_area_id": "",
+		"state": "ROO"
+	},
+	{
+		"city": "COLIMA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 378,
+		"name": {
+			"en_US": "COLIMA",
+			"es_MX": "COLIMA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:cl/city:1",
+		"parent_area_id": "",
+		"state": "COL"
+	},
+	{
+		"city": "GUADALAJARA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 379,
+		"name": {
+			"en_US": "GUADALAJARA",
+			"es_MX": "GUADALAJARA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:ja/city:11",
+		"parent_area_id": "",
+		"state": "JAL"
+	},
+	{
+		"city": "GUANAJUATO",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 380,
+		"name": {
+			"en_US": "GUANAJUATO",
+			"es_MX": "GUANAJUATO"
+		},
+		"ocd_id": "ocd-division/country:mx/state:gt/city:4",
+		"parent_area_id": "",
+		"state": "GUA"
+	},
+	{
+		"city": "LA PAZ",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 381,
+		"name": {
+			"en_US": "LA PAZ",
+			"es_MX": "LA PAZ"
+		},
+		"ocd_id": "ocd-division/country:mx/state:bs/city:1",
+		"parent_area_id": "",
+		"state": "BCS"
+	},
+	{
+		"city": "MÉRIDA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 382,
+		"name": {
+			"en_US": "MÉRIDA",
+			"es_MX": "MÉRIDA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:yu/city:2",
+		"parent_area_id": "",
+		"state": "YUC"
+	},
+	{
+		"city": "MEXICALI",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 383,
+		"name": {
+			"en_US": "MEXICALI",
+			"es_MX": "MEXICALI"
+		},
+		"ocd_id": "ocd-division/country:mx/state:bc/city:1",
+		"parent_area_id": "",
+		"state": "BCN"
+	},
+	{
+		"city": "OAXACA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 384,
+		"name": {
+			"en_US": "OAXACA",
+			"es_MX": "OAXACA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:oa/city:8",
+		"parent_area_id": "",
+		"state": "OAX"
+	},
+	{
+		"city": "PUEBLA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 385,
+		"name": {
+			"en_US": "PUEBLA",
+			"es_MX": "PUEBLA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:pu/city:11",
+		"parent_area_id": "",
+		"state": "PUE"
+	},
+	{
+		"city": "TLAXCALA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 386,
+		"name": {
+			"en_US": "TLAXCALA",
+			"es_MX": "TLAXCALA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:tl/city:1",
+		"parent_area_id": "",
+		"state": "TLA"
+	},
+	{
+		"city": "XALAPA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 387,
+		"name": {
+			"en_US": "XALAPA",
+			"es_MX": "XALAPA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:ve/city:10",
+		"parent_area_id": "",
+		"state": "VER"
+	},
+	{
+		"city": "ZACATECAS",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 388,
+		"name": {
+			"en_US": "ZACATECAS",
+			"es_MX": "ZACATECAS"
+		},
+		"ocd_id": "ocd-division/country:mx/state:za/city:3",
 		"parent_area_id": "",
 		"state": "ZAC"
 	}

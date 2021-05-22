@@ -2497,5 +2497,96 @@
 		"name": {
 			"en_US": "Presidencia del municipio de XOCHIMILCO"
 		}
+	},
+	{
+		"area_id": 376,
+		"id": 358,
+		"name": {
+			"en_US": "Presidencia del municipio de CAMPECHE"
+		}
+	},
+	{
+		"area_id": 377,
+		"id": 359,
+		"name": {
+			"en_US": "Presidencia del municipio de CHETUMAL"
+		}
+	},
+	{
+		"area_id": 378,
+		"id": 360,
+		"name": {
+			"en_US": "Presidencia del municipio de COLIMA"
+		}
+	},
+	{
+		"area_id": 379,
+		"id": 361,
+		"name": {
+			"en_US": "Presidencia del municipio de GUADALAJARA"
+		}
+	},
+	{
+		"area_id": 380,
+		"id": 362,
+		"name": {
+			"en_US": "Presidencia del municipio de GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 381,
+		"id": 363,
+		"name": {
+			"en_US": "Presidencia del municipio de LA PAZ"
+		}
+	},
+	{
+		"area_id": 382,
+		"id": 364,
+		"name": {
+			"en_US": "Presidencia del municipio de MÉRIDA"
+		}
+	},
+	{
+		"area_id": 383,
+		"id": 365,
+		"name": {
+			"en_US": "Presidencia del municipio de MEXICALI"
+		}
+	},
+	{
+		"area_id": 384,
+		"id": 366,
+		"name": {
+			"en_US": "Presidencia del municipio de OAXACA"
+		}
+	},
+	{
+		"area_id": 385,
+		"id": 367,
+		"name": {
+			"en_US": "Presidencia del municipio de PUEBLA"
+		}
+	},
+	{
+		"area_id": 386,
+		"id": 368,
+		"name": {
+			"en_US": "Presidencia del municipio de TLAXCALA"
+		}
+	},
+	{
+		"area_id": 387,
+		"id": 369,
+		"name": {
+			"en_US": "Presidencia del municipio de XALAPA"
+		}
+	},
+	{
+		"area_id": 388,
+		"id": 370,
+		"name": {
+			"en_US": "Presidencia del municipio de ZACATECAS"
+		}
 	}
 ]
