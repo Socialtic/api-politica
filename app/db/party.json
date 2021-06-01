@@ -2093,5 +2093,27 @@
 				"url": "https://www.visionyvalores.org"
 			}
 		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "PH",
+			"es_MX": "PH"
+		},
+		"area_id": 232,
+		"coalition_id": "",
+		"colors": [
+			"Purple"
+		],
+		"fb_urls": [
+			"https://www.facebook.com/partidohumanista.mx"
+		],
+		"id": 78,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Partido Humanista de Morelos",
+			"es_MX": "Partido Humanista de Morelos"
+		},
+		"websites": []
 	}
 ]

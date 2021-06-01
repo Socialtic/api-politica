@@ -8684,5 +8684,635 @@
 		"title": {
 			"en_US": "Presidencia del municipio de ZACATECAS"
 		}
+	},
+	{
+		"area_id": 371,
+		"election_identifier": "MX-CMX-CUAUTLA-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 371,
+		"membership_id_winner": "",
+		"person_ids": [
+			2784,
+			2785,
+			2786,
+			2787,
+			2788,
+			2789,
+			2790,
+			2791,
+			2792,
+			2793,
+			2794,
+			2795,
+			2796,
+			2797,
+			2798,
+			2799,
+			2800,
+			2801,
+			2802,
+			2803,
+			2804
+		],
+		"role_ids": [
+			371
+		],
+		"start_date": "2021-04-19",
+		"title": {
+			"en_US": "Presidencia del municipio de CUAUTLA"
+		}
+	},
+	{
+		"area_id": 372,
+		"election_identifier": "MX-CMX-CUERNAVACA-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 372,
+		"membership_id_winner": "",
+		"person_ids": [
+			2805,
+			2806,
+			2807,
+			2808,
+			2809,
+			2810,
+			2811,
+			2812,
+			2813,
+			2814,
+			2815,
+			2816,
+			2817,
+			2818,
+			2819,
+			2820,
+			2821,
+			2822
+		],
+		"role_ids": [
+			372
+		],
+		"start_date": "2021-04-19",
+		"title": {
+			"en_US": "Presidencia del municipio de CUERNAVACA"
+		}
+	},
+	{
+		"area_id": 373,
+		"election_identifier": "MX-CMX-EMILIANO ZAPATA-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 373,
+		"membership_id_winner": "",
+		"person_ids": [
+			2823,
+			2824,
+			2825,
+			2826,
+			2827,
+			2828,
+			2829,
+			2830,
+			2831,
+			2832,
+			2833,
+			2834,
+			2835,
+			2836,
+			2837,
+			2838,
+			2839,
+			2840,
+			2841,
+			2842,
+			2843
+		],
+		"role_ids": [
+			373
+		],
+		"start_date": "2021-04-19",
+		"title": {
+			"en_US": "Presidencia del municipio de EMILIANO ZAPATA"
+		}
+	},
+	{
+		"area_id": 374,
+		"election_identifier": "MX-CMX-JIUTEPEC-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 374,
+		"membership_id_winner": "",
+		"person_ids": [
+			2844,
+			2845,
+			2846,
+			2847,
+			2848,
+			2849,
+			2850,
+			2851,
+			2852,
+			2853,
+			2854,
+			2855,
+			2856,
+			2857,
+			2858,
+			2859,
+			2860,
+			2861,
+			2862,
+			2863
+		],
+		"role_ids": [
+			374
+		],
+		"start_date": "2021-04-19",
+		"title": {
+			"en_US": "Presidencia del municipio de JIUTEPEC"
+		}
+	},
+	{
+		"area_id": 375,
+		"election_identifier": "MX-CMX-TEMIXCO-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 375,
+		"membership_id_winner": "",
+		"person_ids": [
+			2864,
+			2865,
+			2866,
+			2867,
+			2868,
+			2869,
+			2870,
+			2871,
+			2872,
+			2873,
+			2874,
+			2875,
+			2876,
+			2877,
+			2878,
+			2879,
+			2880,
+			2881,
+			2882,
+			2883
+		],
+		"role_ids": [
+			375
+		],
+		"start_date": "2021-04-19",
+		"title": {
+			"en_US": "Presidencia del municipio de TEMIXCO"
+		}
+	},
+	{
+		"area_id": 376,
+		"election_identifier": "MX-CMX-ZAPOPAN-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 376,
+		"membership_id_winner": "",
+		"person_ids": [
+			2884,
+			2885,
+			2886,
+			2887,
+			2888,
+			2889,
+			2890,
+			2891,
+			2892,
+			2893,
+			2894,
+			2895,
+			2896
+		],
+		"role_ids": [
+			376
+		],
+		"start_date": "2021-04-04",
+		"title": {
+			"en_US": "Presidencia del municipio de ZAPOPAN"
+		}
+	},
+	{
+		"area_id": 377,
+		"election_identifier": "MX-CMX-PUERTO VALLARTA-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 377,
+		"membership_id_winner": "",
+		"person_ids": [
+			2897,
+			2898,
+			2899,
+			2900,
+			2901,
+			2902,
+			2903,
+			2904,
+			2905
+		],
+		"role_ids": [
+			377
+		],
+		"start_date": "2021-04-04",
+		"title": {
+			"en_US": "Presidencia del municipio de PUERTO VALLARTA"
+		}
+	},
+	{
+		"area_id": 378,
+		"election_identifier": "MX-CMX-TLAJOMULCO DE ZÚÑIGA-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 378,
+		"membership_id_winner": "",
+		"person_ids": [
+			2906,
+			2907,
+			2908,
+			2909,
+			2910,
+			2911,
+			2912,
+			2913,
+			2914
+		],
+		"role_ids": [
+			378
+		],
+		"start_date": "2021-04-04",
+		"title": {
+			"en_US": "Presidencia del municipio de TLAJOMULCO DE ZÚÑIGA"
+		}
+	},
+	{
+		"area_id": 379,
+		"election_identifier": "MX-CMX-SAN PEDRO TLAQUEPAQUE-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 379,
+		"membership_id_winner": "",
+		"person_ids": [
+			2915,
+			2916,
+			2917,
+			2918,
+			2919,
+			2920,
+			2921,
+			2922,
+			2923,
+			2924,
+			2925
+		],
+		"role_ids": [
+			379
+		],
+		"start_date": "2021-04-04",
+		"title": {
+			"en_US": "Presidencia del municipio de SAN PEDRO TLAQUEPAQUE"
+		}
+	},
+	{
+		"area_id": 380,
+		"election_identifier": "MX-CMX-TONALÁ-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 380,
+		"membership_id_winner": "",
+		"person_ids": [
+			2926,
+			2927,
+			2928,
+			2929,
+			2930,
+			2931,
+			2932,
+			2933,
+			2934,
+			2935,
+			2936
+		],
+		"role_ids": [
+			380
+		],
+		"start_date": "2021-04-04",
+		"title": {
+			"en_US": "Presidencia del municipio de TONALÁ"
+		}
+	},
+	{
+		"area_id": 381,
+		"election_identifier": "MX-CMX-CAJEME-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 381,
+		"membership_id_winner": "",
+		"person_ids": [
+			2937,
+			2938,
+			2939,
+			2940,
+			2941,
+			2942,
+			2943,
+			2944,
+			2945,
+			2946
+		],
+		"role_ids": [
+			381
+		],
+		"start_date": "2021-04-24",
+		"title": {
+			"en_US": "Presidencia del municipio de CAJEME"
+		}
+	},
+	{
+		"area_id": 382,
+		"election_identifier": "MX-CMX-NOGALES-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 382,
+		"membership_id_winner": "",
+		"person_ids": [
+			2947,
+			2948,
+			2949,
+			2950,
+			2951,
+			2952,
+			2953,
+			2954
+		],
+		"role_ids": [
+			382
+		],
+		"start_date": "2021-04-24",
+		"title": {
+			"en_US": "Presidencia del municipio de NOGALES"
+		}
+	},
+	{
+		"area_id": 383,
+		"election_identifier": "MX-CMX-SAN LUIS RÍO COLORADO-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 383,
+		"membership_id_winner": "",
+		"person_ids": [
+			2955,
+			2956,
+			2957,
+			2958,
+			2959,
+			2960,
+			2961
+		],
+		"role_ids": [
+			383
+		],
+		"start_date": "2021-04-24",
+		"title": {
+			"en_US": "Presidencia del municipio de SAN LUIS RÍO COLORADO"
+		}
+	},
+	{
+		"area_id": 384,
+		"election_identifier": "MX-CMX-NAVOJOA-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 384,
+		"membership_id_winner": "",
+		"person_ids": [
+			2962,
+			2963,
+			2964,
+			2965,
+			2966,
+			2967,
+			2968,
+			2969,
+			2970
+		],
+		"role_ids": [
+			384
+		],
+		"start_date": "2021-04-24",
+		"title": {
+			"en_US": "Presidencia del municipio de NAVOJOA"
+		}
+	},
+	{
+		"area_id": 385,
+		"election_identifier": "MX-CMX-GUAYMAS-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 385,
+		"membership_id_winner": "",
+		"person_ids": [
+			2971,
+			2972,
+			2973,
+			2974,
+			2975,
+			2976,
+			2977,
+			2978,
+			2979,
+			2980
+		],
+		"role_ids": [
+			385
+		],
+		"start_date": "2021-04-24",
+		"title": {
+			"en_US": "Presidencia del municipio de GUAYMAS"
+		}
+	},
+	{
+		"area_id": 386,
+		"election_identifier": "MX-CMX-CALPULALPAN-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 386,
+		"membership_id_winner": "",
+		"person_ids": [
+			2981,
+			2982,
+			2983,
+			2984,
+			2985,
+			2986,
+			2987,
+			2988,
+			2989,
+			2990,
+			2991,
+			2992,
+			2993
+		],
+		"role_ids": [
+			386
+		],
+		"start_date": "2021-05-04",
+		"title": {
+			"en_US": "Presidencia del municipio de CALPULALPAN"
+		}
+	},
+	{
+		"area_id": 387,
+		"election_identifier": "MX-CMX-HUAMANTLA-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 387,
+		"membership_id_winner": "",
+		"person_ids": [
+			2994,
+			2995,
+			2996,
+			2997,
+			2998,
+			2999,
+			3000,
+			3001,
+			3002,
+			3003,
+			3004
+		],
+		"role_ids": [
+			387
+		],
+		"start_date": "2021-05-04",
+		"title": {
+			"en_US": "Presidencia del municipio de HUAMANTLA"
+		}
+	},
+	{
+		"area_id": 388,
+		"election_identifier": "MX-CMX-SAN PABLO DEL MONTE-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 388,
+		"membership_id_winner": "",
+		"person_ids": [
+			3005,
+			3006,
+			3007,
+			3008,
+			3009,
+			3010,
+			3011,
+			3012,
+			3013,
+			3014,
+			3015,
+			3016,
+			3017,
+			3018
+		],
+		"role_ids": [
+			388
+		],
+		"start_date": "2021-05-04",
+		"title": {
+			"en_US": "Presidencia del municipio de SAN PABLO DEL MONTE"
+		}
+	},
+	{
+		"area_id": 389,
+		"election_identifier": "MX-CMX-APIZACO-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 389,
+		"membership_id_winner": "",
+		"person_ids": [
+			3019,
+			3020,
+			3021,
+			3022,
+			3023,
+			3024,
+			3025,
+			3026,
+			3027,
+			3028,
+			3029,
+			3030,
+			3031
+		],
+		"role_ids": [
+			389
+		],
+		"start_date": "2021-05-04",
+		"title": {
+			"en_US": "Presidencia del municipio de APIZACO"
+		}
+	},
+	{
+		"area_id": 390,
+		"election_identifier": "MX-CMX-CHIAUTEMPAN-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 390,
+		"membership_id_winner": "",
+		"person_ids": [
+			3032,
+			3033,
+			3034,
+			3035,
+			3036,
+			3037,
+			3038,
+			3039,
+			3040,
+			3041,
+			3042,
+			3043,
+			3044,
+			3045
+		],
+		"role_ids": [
+			390
+		],
+		"start_date": "2021-05-04",
+		"title": {
+			"en_US": "Presidencia del municipio de CHIAUTEMPAN"
+		}
+	},
+	{
+		"area_id": 391,
+		"election_identifier": "MX-CMX-FRESNILLO-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 391,
+		"membership_id_winner": "",
+		"person_ids": [
+			3046,
+			3047,
+			3048,
+			3049,
+			3050,
+			3051,
+			3052,
+			3053
+		],
+		"role_ids": [
+			391
+		],
+		"start_date": "2021-04-04",
+		"title": {
+			"en_US": "Presidencia del municipio de FRESNILLO"
+		}
+	},
+	{
+		"area_id": 392,
+		"election_identifier": "MX-CMX-RÍO GRANDE-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 392,
+		"membership_id_winner": "",
+		"person_ids": [
+			3054,
+			3055,
+			3056,
+			3057,
+			3058,
+			3059,
+			3060,
+			3061
+		],
+		"role_ids": [
+			392
+		],
+		"start_date": "2021-04-04",
+		"title": {
+			"en_US": "Presidencia del municipio de RÍO GRANDE"
+		}
 	}
 ]

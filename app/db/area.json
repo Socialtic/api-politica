@@ -4282,10 +4282,10 @@
 		"district_type": "REGIONAL_EXEC",
 		"id": 330,
 		"name": {
-			"en_US": "TAMAULIPAS",
-			"es_MX": "TAMAULIPAS"
+			"en_US": "TLAXCALA",
+			"es_MX": "TLAXCALA"
 		},
-		"ocd_id": "ocd-division/country:mx/state:tl",
+		"ocd_id": "ocd-division/country:mx/state:tm",
 		"parent_area_id": "",
 		"state": "TLA"
 	},
@@ -4334,10 +4334,10 @@
 		"district_type": "REGIONAL_EXEC",
 		"id": 334,
 		"name": {
-			"en_US": "TLAXCALA",
-			"es_MX": "TLAXCALA"
+			"en_US": "TAMAULIPAS",
+			"es_MX": "TAMAULIPAS"
 		},
-		"ocd_id": "ocd-division/country:mx/state:tm",
+		"ocd_id": "ocd-division/country:mx/state:tl",
 		"parent_area_id": "",
 		"state": "TAM"
 	},
@@ -5040,6 +5040,292 @@
 			"es_MX": "ZACATECAS"
 		},
 		"ocd_id": "ocd-division/country:mx/state:za/city:3",
+		"parent_area_id": "",
+		"state": "ZAC"
+	},
+	{
+		"city": "CUAUTLA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 389,
+		"name": {
+			"en_US": "CUAUTLA",
+			"es_MX": "CUAUTLA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:mo/city:3",
+		"parent_area_id": "",
+		"state": "MOR"
+	},
+	{
+		"city": "CUERNAVACA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 390,
+		"name": {
+			"en_US": "CUERNAVACA",
+			"es_MX": "CUERNAVACA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:mo/city:1",
+		"parent_area_id": "",
+		"state": "MOR"
+	},
+	{
+		"city": "EMILIANO ZAPATA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 391,
+		"name": {
+			"en_US": "EMILIANO ZAPATA",
+			"es_MX": "EMILIANO ZAPATA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:mo/city:2",
+		"parent_area_id": "",
+		"state": "MOR"
+	},
+	{
+		"city": "JIUTEPEC",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 392,
+		"name": {
+			"en_US": "JIUTEPEC",
+			"es_MX": "JIUTEPEC"
+		},
+		"ocd_id": "ocd-division/country:mx/state:mo/city:4",
+		"parent_area_id": "",
+		"state": "MOR"
+	},
+	{
+		"city": "TEMIXCO",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 393,
+		"name": {
+			"en_US": "TEMIXCO",
+			"es_MX": "TEMIXCO"
+		},
+		"ocd_id": "ocd-division/country:mx/state:mo/city:5",
+		"parent_area_id": "",
+		"state": "MOR"
+	},
+	{
+		"city": "ZAPOPAN",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 394,
+		"name": {
+			"en_US": "ZAPOPAN",
+			"es_MX": "ZAPOPAN"
+		},
+		"ocd_id": "ocd-division/country:mx/state:ja/city:10",
+		"parent_area_id": "",
+		"state": "JAL"
+	},
+	{
+		"city": "PUERTO VALLARTA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 395,
+		"name": {
+			"en_US": "PUERTO VALLARTA",
+			"es_MX": "PUERTO VALLARTA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:ja/city:5",
+		"parent_area_id": "",
+		"state": "JAL"
+	},
+	{
+		"city": "TLAJOMULCO DE ZÚÑIGA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 396,
+		"name": {
+			"en_US": "TLAJOMULCO DE ZÚÑIGA",
+			"es_MX": "TLAJOMULCO DE ZÚÑIGA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:ja/city:12",
+		"parent_area_id": "",
+		"state": "JAL"
+	},
+	{
+		"city": "SAN PEDRO TLAQUEPAQUE",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 397,
+		"name": {
+			"en_US": "SAN PEDRO TLAQUEPAQUE",
+			"es_MX": "SAN PEDRO TLAQUEPAQUE"
+		},
+		"ocd_id": "ocd-division/country:mx/state:ja/city:13",
+		"parent_area_id": "",
+		"state": "JAL"
+	},
+	{
+		"city": "TONALÁ",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 398,
+		"name": {
+			"en_US": "TONALÁ",
+			"es_MX": "TONALÁ"
+		},
+		"ocd_id": "ocd-division/country:mx/state:ja/city:7",
+		"parent_area_id": "",
+		"state": "JAL"
+	},
+	{
+		"city": "CAJEME",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 399,
+		"name": {
+			"en_US": "CAJEME",
+			"es_MX": "CAJEME"
+		},
+		"ocd_id": "ocd-division/country:mx/state:so/city:5",
+		"parent_area_id": "",
+		"state": "SON"
+	},
+	{
+		"city": "NOGALES",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 400,
+		"name": {
+			"en_US": "NOGALES",
+			"es_MX": "NOGALES"
+		},
+		"ocd_id": "ocd-division/country:mx/state:so/city:2",
+		"parent_area_id": "",
+		"state": "SON"
+	},
+	{
+		"city": "SAN LUIS RÍO COLORADO",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 401,
+		"name": {
+			"en_US": "SAN LUIS RÍO COLORADO",
+			"es_MX": "SAN LUIS RÍO COLORADO"
+		},
+		"ocd_id": "ocd-division/country:mx/state:so/city:1",
+		"parent_area_id": "",
+		"state": "SON"
+	},
+	{
+		"city": "NAVOJOA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 402,
+		"name": {
+			"en_US": "NAVOJOA",
+			"es_MX": "NAVOJOA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:so/city:3",
+		"parent_area_id": "",
+		"state": "SON"
+	},
+	{
+		"city": "GUAYMAS",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 403,
+		"name": {
+			"en_US": "GUAYMAS",
+			"es_MX": "GUAYMAS"
+		},
+		"ocd_id": "ocd-division/country:mx/state:so/city:4",
+		"parent_area_id": "",
+		"state": "SON"
+	},
+	{
+		"city": "CALPULALPAN",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 404,
+		"name": {
+			"en_US": "CALPULALPAN",
+			"es_MX": "CALPULALPAN"
+		},
+		"ocd_id": "ocd-division/country:mx/state:tl/city:2",
+		"parent_area_id": "",
+		"state": "TLA"
+	},
+	{
+		"city": "HUAMANTLA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 405,
+		"name": {
+			"en_US": "HUAMANTLA",
+			"es_MX": "HUAMANTLA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:tl/city:3",
+		"parent_area_id": "",
+		"state": "TLA"
+	},
+	{
+		"city": "SAN PABLO DEL MONTE",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 406,
+		"name": {
+			"en_US": "SAN PABLO DEL MONTE",
+			"es_MX": "SAN PABLO DEL MONTE"
+		},
+		"ocd_id": "ocd-division/country:mx/state:tl/city:4",
+		"parent_area_id": "",
+		"state": "TLA"
+	},
+	{
+		"city": "APIZACO",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 407,
+		"name": {
+			"en_US": "APIZACO",
+			"es_MX": "APIZACO"
+		},
+		"ocd_id": "ocd-division/country:mx/state:tl/city:5",
+		"parent_area_id": "",
+		"state": "TLA"
+	},
+	{
+		"city": "CHIAUTEMPAN",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 408,
+		"name": {
+			"en_US": "CHIAUTEMPAN",
+			"es_MX": "CHIAUTEMPAN"
+		},
+		"ocd_id": "ocd-division/country:mx/state:tl/city:6",
+		"parent_area_id": "",
+		"state": "TLA"
+	},
+	{
+		"city": "FRESNILLO",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 409,
+		"name": {
+			"en_US": "FRESNILLO",
+			"es_MX": "FRESNILLO"
+		},
+		"ocd_id": "ocd-division/country:mx/state:za/city:2",
+		"parent_area_id": "",
+		"state": "ZAC"
+	},
+	{
+		"city": "RÍO GRANDE",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 410,
+		"name": {
+			"en_US": "RÍO GRANDE",
+			"es_MX": "RÍO GRANDE"
+		},
+		"ocd_id": "ocd-division/country:mx/state:za/city:4",
 		"parent_area_id": "",
 		"state": "ZAC"
 	}

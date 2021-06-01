@@ -2588,5 +2588,159 @@
 		"name": {
 			"en_US": "Presidencia del municipio de ZACATECAS"
 		}
+	},
+	{
+		"area_id": 389,
+		"id": 371,
+		"name": {
+			"en_US": "Presidencia del municipio de CUAUTLA"
+		}
+	},
+	{
+		"area_id": 390,
+		"id": 372,
+		"name": {
+			"en_US": "Presidencia del municipio de CUERNAVACA"
+		}
+	},
+	{
+		"area_id": 391,
+		"id": 373,
+		"name": {
+			"en_US": "Presidencia del municipio de EMILIANO ZAPATA"
+		}
+	},
+	{
+		"area_id": 392,
+		"id": 374,
+		"name": {
+			"en_US": "Presidencia del municipio de JIUTEPEC"
+		}
+	},
+	{
+		"area_id": 393,
+		"id": 375,
+		"name": {
+			"en_US": "Presidencia del municipio de TEMIXCO"
+		}
+	},
+	{
+		"area_id": 394,
+		"id": 376,
+		"name": {
+			"en_US": "Presidencia del municipio de ZAPOPAN"
+		}
+	},
+	{
+		"area_id": 395,
+		"id": 377,
+		"name": {
+			"en_US": "Presidencia del municipio de PUERTO VALLARTA"
+		}
+	},
+	{
+		"area_id": 396,
+		"id": 378,
+		"name": {
+			"en_US": "Presidencia del municipio de TLAJOMULCO DE ZÚÑIGA"
+		}
+	},
+	{
+		"area_id": 397,
+		"id": 379,
+		"name": {
+			"en_US": "Presidencia del municipio de SAN PEDRO TLAQUEPAQUE"
+		}
+	},
+	{
+		"area_id": 398,
+		"id": 380,
+		"name": {
+			"en_US": "Presidencia del municipio de TONALÁ"
+		}
+	},
+	{
+		"area_id": 399,
+		"id": 381,
+		"name": {
+			"en_US": "Presidencia del municipio de CAJEME"
+		}
+	},
+	{
+		"area_id": 400,
+		"id": 382,
+		"name": {
+			"en_US": "Presidencia del municipio de NOGALES"
+		}
+	},
+	{
+		"area_id": 401,
+		"id": 383,
+		"name": {
+			"en_US": "Presidencia del municipio de SAN LUIS RÍO COLORADO"
+		}
+	},
+	{
+		"area_id": 402,
+		"id": 384,
+		"name": {
+			"en_US": "Presidencia del municipio de NAVOJOA"
+		}
+	},
+	{
+		"area_id": 403,
+		"id": 385,
+		"name": {
+			"en_US": "Presidencia del municipio de GUAYMAS"
+		}
+	},
+	{
+		"area_id": 404,
+		"id": 386,
+		"name": {
+			"en_US": "Presidencia del municipio de CALPULALPAN"
+		}
+	},
+	{
+		"area_id": 405,
+		"id": 387,
+		"name": {
+			"en_US": "Presidencia del municipio de HUAMANTLA"
+		}
+	},
+	{
+		"area_id": 406,
+		"id": 388,
+		"name": {
+			"en_US": "Presidencia del municipio de SAN PABLO DEL MONTE"
+		}
+	},
+	{
+		"area_id": 407,
+		"id": 389,
+		"name": {
+			"en_US": "Presidencia del municipio de APIZACO"
+		}
+	},
+	{
+		"area_id": 408,
+		"id": 390,
+		"name": {
+			"en_US": "Presidencia del municipio de CHIAUTEMPAN"
+		}
+	},
+	{
+		"area_id": 409,
+		"id": 391,
+		"name": {
+			"en_US": "Presidencia del municipio de FRESNILLO"
+		}
+	},
+	{
+		"area_id": 410,
+		"id": 392,
+		"name": {
+			"en_US": "Presidencia del municipio de RÍO GRANDE"
+		}
 	}
 ]

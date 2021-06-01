@@ -828,5 +828,84 @@
 			"es_MX": "Coalición PRD-PAC"
 		},
 		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "",
+			"es_MX": ""
+		},
+		"colors": [
+			"BLUE",
+			"PURPLE"
+		],
+		"fb_urls": [],
+		"id": 38,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "PAN-Humanista",
+			"es_MX": "PAN-Humanista"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "",
+			"es_MX": ""
+		},
+		"colors": [
+			"BLUE",
+			"WHITE"
+		],
+		"fb_urls": [],
+		"id": 39,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "PAN-PSD",
+			"es_MX": "PAN-PSD"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "",
+			"es_MX": ""
+		},
+		"colors": [
+			"RED",
+			"GREEN",
+			"BLUE"
+		],
+		"fb_urls": [],
+		"id": 40,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Juntos hacemos historia por Morelos",
+			"es_MX": "Juntos hacemos historia por Morelos"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "",
+			"es_MX": ""
+		},
+		"colors": [
+			"BLUE",
+			"WHITE",
+			"RED",
+			"YELLOW"
+		],
+		"fb_urls": [],
+		"id": 41,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Va por Morelos",
+			"es_MX": "Va por Morelos"
+		},
+		"websites": []
 	}
 ]
