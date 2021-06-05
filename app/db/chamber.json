@@ -2742,5 +2742,124 @@
 		"name": {
 			"en_US": "Presidencia del municipio de RÍO GRANDE"
 		}
+	},
+	{
+		"area_id": 411,
+		"id": 393,
+		"name": {
+			"en_US": "Presidencia del municipio de ENSENADA"
+		}
+	},
+	{
+		"area_id": 412,
+		"id": 394,
+		"name": {
+			"en_US": "Presidencia del municipio de BOCOYNA"
+		}
+	},
+	{
+		"area_id": 413,
+		"id": 395,
+		"name": {
+			"en_US": "Presidencia del municipio de GUERRERO"
+		}
+	},
+	{
+		"area_id": 414,
+		"id": 396,
+		"name": {
+			"en_US": "Presidencia del municipio de MANZANILLO"
+		}
+	},
+	{
+		"area_id": 415,
+		"id": 397,
+		"name": {
+			"en_US": "Presidencia del municipio de CELAYA"
+		}
+	},
+	{
+		"area_id": 416,
+		"id": 398,
+		"name": {
+			"en_US": "Presidencia del municipio de IRAPUATO"
+		}
+	},
+	{
+		"area_id": 417,
+		"id": 399,
+		"name": {
+			"en_US": "Presidencia del municipio de LEÓN"
+		}
+	},
+	{
+		"area_id": 418,
+		"id": 400,
+		"name": {
+			"en_US": "Presidencia del municipio de SALAMANCA"
+		}
+	},
+	{
+		"area_id": 419,
+		"id": 401,
+		"name": {
+			"en_US": "Presidencia del municipio de SANTIAGO MARAVATÍO"
+		}
+	},
+	{
+		"area_id": 420,
+		"id": 402,
+		"name": {
+			"en_US": "Presidencia del municipio de TLAQUEPAQUE"
+		}
+	},
+	{
+		"area_id": 421,
+		"id": 403,
+		"name": {
+			"en_US": "Presidencia del municipio de MORELIA"
+		}
+	},
+	{
+		"area_id": 422,
+		"id": 404,
+		"name": {
+			"en_US": "Presidencia del municipio de URUAPAN"
+		}
+	},
+	{
+		"area_id": 423,
+		"id": 405,
+		"name": {
+			"en_US": "Presidencia del municipio de ZAMORA"
+		}
+	},
+	{
+		"area_id": 424,
+		"id": 406,
+		"name": {
+			"en_US": "Presidencia del municipio de SAN JUAN IHUALTEPEC"
+		}
+	},
+	{
+		"area_id": 425,
+		"id": 407,
+		"name": {
+			"en_US": "Presidencia del municipio de BENITO JUÁREZ"
+		}
+	},
+	{
+		"area_id": 426,
+		"id": 408,
+		"name": {
+			"en_US": "Presidencia del municipio de YÉCORA"
+		}
+	},
+	{
+		"area_id": 427,
+		"id": 409,
+		"name": {
+			"en_US": "Presidencia del municipio de GENERAL ENRIQUE ESTRADA"
+		}
 	}
 ]

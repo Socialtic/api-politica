@@ -1192,8 +1192,7 @@
 			386,
 			398,
 			422,
-			423,
-			2583
+			423
 		],
 		"role_ids": [
 			52
@@ -7496,7 +7495,15 @@
 			133,
 			134,
 			135,
-			136
+			136,
+			3106,
+			3107,
+			3108,
+			3109,
+			3110,
+			3111,
+			3112,
+			3113
 		],
 		"role_ids": [
 			321
@@ -7941,7 +7948,14 @@
 			2532,
 			2533,
 			2534,
-			2535
+			2535,
+			3099,
+			3100,
+			3101,
+			3102,
+			3103,
+			3104,
+			3105
 		],
 		"role_ids": [
 			340
@@ -8961,7 +8975,8 @@
 			2922,
 			2923,
 			2924,
-			2925
+			2925,
+			3139
 		],
 		"role_ids": [
 			379
@@ -9313,6 +9328,380 @@
 		"start_date": "2021-04-04",
 		"title": {
 			"en_US": "Presidencia del municipio de RÍO GRANDE"
+		}
+	},
+	{
+		"area_id": 411,
+		"election_identifier": "MX-CMX-ENSENADA-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 393,
+		"membership_id_winner": "",
+		"person_ids": [
+			3091,
+			3092,
+			3093,
+			3094,
+			3095,
+			3096,
+			3097
+		],
+		"role_ids": [
+			393
+		],
+		"start_date": "2021-04-19",
+		"title": {
+			"en_US": "Presidencia del municipio de ENSENADA"
+		}
+	},
+	{
+		"area_id": 412,
+		"election_identifier": "MX-CMX-BOCOYNA-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 394,
+		"membership_id_winner": "",
+		"person_ids": [
+			3189,
+			3190,
+			3191,
+			3192,
+			3193,
+			3194,
+			3195
+		],
+		"role_ids": [
+			394
+		],
+		"start_date": "2021-04-04",
+		"title": {
+			"en_US": "Presidencia del municipio de BOCOYNA"
+		}
+	},
+	{
+		"area_id": 413,
+		"election_identifier": "MX-CMX-GUERRERO-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 395,
+		"membership_id_winner": "",
+		"person_ids": [
+			3174,
+			3175
+		],
+		"role_ids": [
+			395
+		],
+		"start_date": "2021-04-04",
+		"title": {
+			"en_US": "Presidencia del municipio de GUERRERO"
+		}
+	},
+	{
+		"area_id": 414,
+		"election_identifier": "MX-CMX-MANZANILLO-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 396,
+		"membership_id_winner": "",
+		"person_ids": [
+			3149,
+			3150,
+			3151,
+			3152,
+			3153,
+			3154,
+			3155,
+			3156,
+			3157
+		],
+		"role_ids": [
+			396
+		],
+		"start_date": "2021-04-05",
+		"title": {
+			"en_US": "Presidencia del municipio de MANZANILLO"
+		}
+	},
+	{
+		"area_id": 415,
+		"election_identifier": "MX-CMX-CELAYA-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 397,
+		"membership_id_winner": "",
+		"person_ids": [
+			3073,
+			3074,
+			3075,
+			3076,
+			3077,
+			3078,
+			3079,
+			3080,
+			3081,
+			3082,
+			3083
+		],
+		"role_ids": [
+			397
+		],
+		"start_date": "2021-04-05",
+		"title": {
+			"en_US": "Presidencia del municipio de CELAYA"
+		}
+	},
+	{
+		"area_id": 416,
+		"election_identifier": "MX-CMX-IRAPUATO-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 398,
+		"membership_id_winner": "",
+		"person_ids": [
+			3125,
+			3126,
+			3127,
+			3128,
+			3129,
+			3130,
+			3131,
+			3132,
+			3133,
+			3134,
+			3135
+		],
+		"role_ids": [
+			398
+		],
+		"start_date": "2021-04-05",
+		"title": {
+			"en_US": "Presidencia del municipio de IRAPUATO"
+		}
+	},
+	{
+		"area_id": 417,
+		"election_identifier": "MX-CMX-LEÓN-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 399,
+		"membership_id_winner": "",
+		"person_ids": [
+			3062,
+			3063,
+			3064,
+			3065,
+			3066,
+			3067,
+			3068,
+			3069,
+			3070,
+			3071,
+			3072
+		],
+		"role_ids": [
+			399
+		],
+		"start_date": "2021-04-05",
+		"title": {
+			"en_US": "Presidencia del municipio de LEÓN"
+		}
+	},
+	{
+		"area_id": 418,
+		"election_identifier": "MX-CMX-SALAMANCA-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 400,
+		"membership_id_winner": "",
+		"person_ids": [
+			3114,
+			3115,
+			3116,
+			3117,
+			3118,
+			3119,
+			3120,
+			3121,
+			3122,
+			3123,
+			3124
+		],
+		"role_ids": [
+			400
+		],
+		"start_date": "2021-04-05",
+		"title": {
+			"en_US": "Presidencia del municipio de SALAMANCA"
+		}
+	},
+	{
+		"area_id": 419,
+		"election_identifier": "MX-CMX-SANTIAGO MARAVATÍO-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 401,
+		"membership_id_winner": "",
+		"person_ids": [
+			3180,
+			3181,
+			3182,
+			3183,
+			3184
+		],
+		"role_ids": [
+			401
+		],
+		"start_date": "2021-04-05",
+		"title": {
+			"en_US": "Presidencia del municipio de SANTIAGO MARAVATÍO"
+		}
+	},
+	{
+		"area_id": 420,
+		"election_identifier": "MX-CMX-TLAQUEPAQUE-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 402,
+		"membership_id_winner": "",
+		"person_ids": [],
+		"role_ids": [
+			402
+		],
+		"start_date": "2021-04-04",
+		"title": {
+			"en_US": "Presidencia del municipio de TLAQUEPAQUE"
+		}
+	},
+	{
+		"area_id": 421,
+		"election_identifier": "MX-CMX-MORELIA-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 403,
+		"membership_id_winner": "",
+		"person_ids": [],
+		"role_ids": [
+			403
+		],
+		"start_date": "2021-04-19",
+		"title": {
+			"en_US": "Presidencia del municipio de MORELIA"
+		}
+	},
+	{
+		"area_id": 422,
+		"election_identifier": "MX-CMX-URUAPAN-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 404,
+		"membership_id_winner": "",
+		"person_ids": [
+			3158,
+			3159,
+			3160,
+			3161,
+			3162,
+			3163,
+			3164
+		],
+		"role_ids": [
+			404
+		],
+		"start_date": "2021-04-19",
+		"title": {
+			"en_US": "Presidencia del municipio de URUAPAN"
+		}
+	},
+	{
+		"area_id": 423,
+		"election_identifier": "MX-CMX-ZAMORA-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 405,
+		"membership_id_winner": "",
+		"person_ids": [
+			3084,
+			3085,
+			3086,
+			3087,
+			3088,
+			3089,
+			3090
+		],
+		"role_ids": [
+			405
+		],
+		"start_date": "2021-04-19",
+		"title": {
+			"en_US": "Presidencia del municipio de ZAMORA"
+		}
+	},
+	{
+		"area_id": 424,
+		"election_identifier": "MX-CMX-SAN JUAN IHUALTEPEC-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 406,
+		"membership_id_winner": "",
+		"person_ids": [
+			3185,
+			3186,
+			3187,
+			3188
+		],
+		"role_ids": [
+			406
+		],
+		"start_date": "2021-05-02",
+		"title": {
+			"en_US": "Presidencia del municipio de SAN JUAN IHUALTEPEC"
+		}
+	},
+	{
+		"area_id": 425,
+		"election_identifier": "MX-CMX-BENITO JUÁREZ-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 407,
+		"membership_id_winner": "",
+		"person_ids": [],
+		"role_ids": [
+			407
+		],
+		"start_date": "2021-04-19",
+		"title": {
+			"en_US": "Presidencia del municipio de BENITO JUÁREZ"
+		}
+	},
+	{
+		"area_id": 426,
+		"election_identifier": "MX-CMX-YÉCORA-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 408,
+		"membership_id_winner": "",
+		"person_ids": [
+			3176,
+			3177,
+			3178,
+			3179
+		],
+		"role_ids": [
+			408
+		],
+		"start_date": "2021-04-24",
+		"title": {
+			"en_US": "Presidencia del municipio de YÉCORA"
+		}
+	},
+	{
+		"area_id": 427,
+		"election_identifier": "MX-CMX-GENERAL ENRIQUE ESTRADA-LOCAL_EXECUTIVE-runoff-2021",
+		"end_date": "2021-06-02",
+		"id": 409,
+		"membership_id_winner": "",
+		"person_ids": [
+			3165,
+			3166,
+			3167,
+			3168,
+			3169,
+			3170,
+			3171,
+			3172,
+			3173
+		],
+		"role_ids": [
+			409
+		],
+		"start_date": "2021-04-04",
+		"title": {
+			"en_US": "Presidencia del municipio de GENERAL ENRIQUE ESTRADA"
 		}
 	}
 ]

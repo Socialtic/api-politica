@@ -907,5 +907,67 @@
 			"es_MX": "Va por Morelos"
 		},
 		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "",
+			"es_MX": ""
+		},
+		"colors": [
+			"BLUE",
+			"WHITE",
+			"RED",
+			"YELLOW"
+		],
+		"fb_urls": [],
+		"id": 42,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Va por Colima",
+			"es_MX": "Va por Colima"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "",
+			"es_MX": ""
+		},
+		"colors": [
+			"BLUE",
+			"WHITE",
+			"RED",
+			"YELLOW"
+		],
+		"fb_urls": [],
+		"id": 43,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Candidatura Común PAN,PRD,CQRoo",
+			"es_MX": "Candidatura Común PAN,PRD,CQRoo"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "",
+			"es_MX": ""
+		},
+		"colors": [
+			"RED",
+			"GREEN",
+			"BLUE"
+		],
+		"fb_urls": [],
+		"id": 44,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Juntos Haremos Historia por Quintana Roo",
+			"es_MX": "Juntos Haremos Historia por Quintana Roo"
+		},
+		"websites": []
 	}
 ]

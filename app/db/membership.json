@@ -51321,26 +51321,6 @@
 	},
 	{
 		"changed_from_substitute": false,
-		"coalition_id": 27,
-		"contest_id": 52,
-		"date_changed_from_substitute": "",
-		"end_date": "2021-06-02",
-		"goes_for_coalition": true,
-		"goes_for_reelection": false,
-		"id": 2583,
-		"is_substitute": true,
-		"membership_type": "campaigning_politician",
-		"parent_membership_id": 2583,
-		"party_ids": [
-			61
-		],
-		"person_id": 2583,
-		"role_id": 52,
-		"source_urls": [],
-		"start_date": "2021-04-13"
-	},
-	{
-		"changed_from_substitute": false,
 		"coalition_id": "",
 		"contest_id": 69,
 		"date_changed_from_substitute": "",
@@ -60896,6 +60876,2426 @@
 		],
 		"person_id": 3061,
 		"role_id": 392,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 399,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3062,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			27
+		],
+		"person_id": 3062,
+		"role_id": 399,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 399,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3063,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			61
+		],
+		"person_id": 3063,
+		"role_id": 399,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 399,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3064,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			37
+		],
+		"person_id": 3064,
+		"role_id": 399,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 399,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3065,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			40
+		],
+		"person_id": 3065,
+		"role_id": 399,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 399,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3066,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			69
+		],
+		"person_id": 3066,
+		"role_id": 399,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 399,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3067,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			21
+		],
+		"person_id": 3067,
+		"role_id": 399,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 399,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3068,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			22
+		],
+		"person_id": 3068,
+		"role_id": 399,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 399,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3069,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			25
+		],
+		"person_id": 3069,
+		"role_id": 399,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 399,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3070,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			44
+		],
+		"person_id": 3070,
+		"role_id": 399,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 399,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3071,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			47
+		],
+		"person_id": 3071,
+		"role_id": 399,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 399,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3072,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			60
+		],
+		"person_id": 3072,
+		"role_id": 399,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 397,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3073,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			27
+		],
+		"person_id": 3073,
+		"role_id": 397,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 397,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3074,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			61
+		],
+		"person_id": 3074,
+		"role_id": 397,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 397,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3075,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			37
+		],
+		"person_id": 3075,
+		"role_id": 397,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 397,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3076,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			40
+		],
+		"person_id": 3076,
+		"role_id": 397,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 397,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3077,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			69
+		],
+		"person_id": 3077,
+		"role_id": 397,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 397,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3078,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			21
+		],
+		"person_id": 3078,
+		"role_id": 397,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 397,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3079,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			22
+		],
+		"person_id": 3079,
+		"role_id": 397,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 397,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3080,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			25
+		],
+		"person_id": 3080,
+		"role_id": 397,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 397,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3081,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			44
+		],
+		"person_id": 3081,
+		"role_id": 397,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 397,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3082,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			47
+		],
+		"person_id": 3082,
+		"role_id": 397,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 397,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3083,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			60
+		],
+		"person_id": 3083,
+		"role_id": 397,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 405,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3084,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			61
+		],
+		"person_id": 3084,
+		"role_id": 405,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 405,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3085,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			69
+		],
+		"person_id": 3085,
+		"role_id": 405,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 405,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3086,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			70
+		],
+		"person_id": 3086,
+		"role_id": 405,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 405,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3087,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			44
+		],
+		"person_id": 3087,
+		"role_id": 405,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 405,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3088,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			27
+		],
+		"person_id": 3088,
+		"role_id": 405,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 14,
+		"contest_id": 405,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3089,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			40
+		],
+		"person_id": 3089,
+		"role_id": 405,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 405,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3090,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			5
+		],
+		"person_id": 3090,
+		"role_id": 405,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 28,
+		"contest_id": 393,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3091,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			61
+		],
+		"person_id": 3091,
+		"role_id": 393,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 393,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3092,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			47
+		],
+		"person_id": 3092,
+		"role_id": 393,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 8,
+		"contest_id": 393,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3093,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			22
+		],
+		"person_id": 3093,
+		"role_id": 393,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 393,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3094,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			21
+		],
+		"person_id": 3094,
+		"role_id": 393,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 393,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3095,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			31
+		],
+		"person_id": 3095,
+		"role_id": 393,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 393,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3096,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			44
+		],
+		"person_id": 3096,
+		"role_id": 393,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 393,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3097,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			5
+		],
+		"person_id": 3097,
+		"role_id": 393,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 340,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3099,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			61
+		],
+		"person_id": 3099,
+		"role_id": 340,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 340,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3100,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			69
+		],
+		"person_id": 3100,
+		"role_id": 340,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 14,
+		"contest_id": 340,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3101,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			22
+		],
+		"person_id": 3101,
+		"role_id": 340,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 340,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3102,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			21
+		],
+		"person_id": 3102,
+		"role_id": 340,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 340,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3103,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			44
+		],
+		"person_id": 3103,
+		"role_id": 340,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 340,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3104,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			60
+		],
+		"person_id": 3104,
+		"role_id": 340,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 340,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3105,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			47
+		],
+		"person_id": 3105,
+		"role_id": 340,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 43,
+		"contest_id": 321,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3106,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			27
+		],
+		"person_id": 3106,
+		"role_id": 321,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 321,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3107,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			61
+		],
+		"person_id": 3107,
+		"role_id": 321,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 44,
+		"contest_id": 321,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3108,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			22
+		],
+		"person_id": 3108,
+		"role_id": 321,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 321,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3109,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			21
+		],
+		"person_id": 3109,
+		"role_id": 321,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 321,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3110,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			44
+		],
+		"person_id": 3110,
+		"role_id": 321,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 321,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3111,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			60
+		],
+		"person_id": 3111,
+		"role_id": 321,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 321,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3112,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			47
+		],
+		"person_id": 3112,
+		"role_id": 321,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 321,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3113,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			5
+		],
+		"person_id": 3113,
+		"role_id": 321,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 400,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3114,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			27
+		],
+		"person_id": 3114,
+		"role_id": 400,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 3,
+		"contest_id": 400,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3115,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			61
+		],
+		"person_id": 3115,
+		"role_id": 400,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 400,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3116,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			40
+		],
+		"person_id": 3116,
+		"role_id": 400,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 400,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3117,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			69
+		],
+		"person_id": 3117,
+		"role_id": 400,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 400,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3118,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			21
+		],
+		"person_id": 3118,
+		"role_id": 400,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 400,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3119,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			22
+		],
+		"person_id": 3119,
+		"role_id": 400,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 400,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3120,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			25
+		],
+		"person_id": 3120,
+		"role_id": 400,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 400,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3121,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			44
+		],
+		"person_id": 3121,
+		"role_id": 400,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 400,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3122,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			47
+		],
+		"person_id": 3122,
+		"role_id": 400,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 400,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3123,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			5
+		],
+		"person_id": 3123,
+		"role_id": 400,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 400,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3124,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			6
+		],
+		"person_id": 3124,
+		"role_id": 400,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 398,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3125,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			27
+		],
+		"person_id": 3125,
+		"role_id": 398,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 398,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3126,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			61
+		],
+		"person_id": 3126,
+		"role_id": 398,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 398,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3127,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			37
+		],
+		"person_id": 3127,
+		"role_id": 398,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 398,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3128,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			40
+		],
+		"person_id": 3128,
+		"role_id": 398,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 398,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3129,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			69
+		],
+		"person_id": 3129,
+		"role_id": 398,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 398,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3130,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			21
+		],
+		"person_id": 3130,
+		"role_id": 398,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 398,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3131,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			22
+		],
+		"person_id": 3131,
+		"role_id": 398,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 398,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3132,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			25
+		],
+		"person_id": 3132,
+		"role_id": 398,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 398,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3133,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			44
+		],
+		"person_id": 3133,
+		"role_id": 398,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 398,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3134,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			60
+		],
+		"person_id": 3134,
+		"role_id": 398,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 398,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3135,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			5
+		],
+		"person_id": 3135,
+		"role_id": 398,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 379,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3139,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			40
+		],
+		"person_id": 3139,
+		"role_id": 379,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 42,
+		"contest_id": 396,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3149,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			27
+		],
+		"person_id": 3149,
+		"role_id": 396,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 396,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3150,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			40
+		],
+		"person_id": 3150,
+		"role_id": 396,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 396,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3151,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			69
+		],
+		"person_id": 3151,
+		"role_id": 396,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 396,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3152,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			21
+		],
+		"person_id": 3152,
+		"role_id": 396,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 396,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3153,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			22
+		],
+		"person_id": 3153,
+		"role_id": 396,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 396,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3154,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			25
+		],
+		"person_id": 3154,
+		"role_id": 396,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 396,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3155,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			44
+		],
+		"person_id": 3155,
+		"role_id": 396,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 396,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3156,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			60
+		],
+		"person_id": 3156,
+		"role_id": 396,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 396,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3157,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			47
+		],
+		"person_id": 3157,
+		"role_id": 396,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 27,
+		"contest_id": 404,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3158,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			37
+		],
+		"person_id": 3158,
+		"role_id": 404,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 404,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3159,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			69
+		],
+		"person_id": 3159,
+		"role_id": 404,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 404,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3160,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			21
+		],
+		"person_id": 3160,
+		"role_id": 404,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 14,
+		"contest_id": 404,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3161,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			22
+		],
+		"person_id": 3161,
+		"role_id": 404,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 404,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3162,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			44
+		],
+		"person_id": 3162,
+		"role_id": 404,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 404,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3163,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			60
+		],
+		"person_id": 3163,
+		"role_id": 404,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 404,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3164,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			47
+		],
+		"person_id": 3164,
+		"role_id": 404,
+		"source_urls": [],
+		"start_date": "2021-04-19"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 409,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3165,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			40
+		],
+		"person_id": 3165,
+		"role_id": 409,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 409,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3166,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			69
+		],
+		"person_id": 3166,
+		"role_id": 409,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 409,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3167,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			21
+		],
+		"person_id": 3167,
+		"role_id": 409,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 409,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3168,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			22
+		],
+		"person_id": 3168,
+		"role_id": 409,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 409,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3169,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			25
+		],
+		"person_id": 3169,
+		"role_id": 409,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 409,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3170,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			39
+		],
+		"person_id": 3170,
+		"role_id": 409,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 409,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3171,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			44
+		],
+		"person_id": 3171,
+		"role_id": 409,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 409,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3172,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			47
+		],
+		"person_id": 3172,
+		"role_id": 409,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 36,
+		"contest_id": 409,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3173,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			37
+		],
+		"person_id": 3173,
+		"role_id": 409,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 395,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3174,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			27
+		],
+		"person_id": 3174,
+		"role_id": 395,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 3,
+		"contest_id": 395,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3175,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			61
+		],
+		"person_id": 3175,
+		"role_id": 395,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 35,
+		"contest_id": 408,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3176,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			61
+		],
+		"person_id": 3176,
+		"role_id": 408,
+		"source_urls": [],
+		"start_date": "2021-04-24"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 408,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3177,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			40
+		],
+		"person_id": 3177,
+		"role_id": 408,
+		"source_urls": [],
+		"start_date": "2021-04-24"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 408,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3178,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			21
+		],
+		"person_id": 3178,
+		"role_id": 408,
+		"source_urls": [],
+		"start_date": "2021-04-24"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 408,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3179,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			25
+		],
+		"person_id": 3179,
+		"role_id": 408,
+		"source_urls": [],
+		"start_date": "2021-04-24"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 401,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3180,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			27
+		],
+		"person_id": 3180,
+		"role_id": 401,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 3,
+		"contest_id": 401,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3181,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			61
+		],
+		"person_id": 3181,
+		"role_id": 401,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 401,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3182,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			21
+		],
+		"person_id": 3182,
+		"role_id": 401,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 401,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3183,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			22
+		],
+		"person_id": 3183,
+		"role_id": 401,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 401,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3184,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			5
+		],
+		"person_id": 3184,
+		"role_id": 401,
+		"source_urls": [],
+		"start_date": "2021-04-05"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 27,
+		"contest_id": 406,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3185,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			61
+		],
+		"person_id": 3185,
+		"role_id": 406,
+		"source_urls": [],
+		"start_date": "2021-05-02"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 406,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3186,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			22
+		],
+		"person_id": 3186,
+		"role_id": 406,
+		"source_urls": [],
+		"start_date": "2021-05-02"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 406,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3187,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			43
+		],
+		"person_id": 3187,
+		"role_id": 406,
+		"source_urls": [],
+		"start_date": "2021-05-02"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 406,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3188,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			40
+		],
+		"person_id": 3188,
+		"role_id": 406,
+		"source_urls": [],
+		"start_date": "2021-05-02"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 394,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3189,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			27
+		],
+		"person_id": 3189,
+		"role_id": 394,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 394,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3190,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			61
+		],
+		"person_id": 3190,
+		"role_id": 394,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 394,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3191,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			69
+		],
+		"person_id": 3191,
+		"role_id": 394,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 394,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3192,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			21
+		],
+		"person_id": 3192,
+		"role_id": 394,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 394,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3193,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			43
+		],
+		"person_id": 3193,
+		"role_id": 394,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": "",
+		"contest_id": 394,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": false,
+		"goes_for_reelection": false,
+		"id": 3194,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			47
+		],
+		"person_id": 3194,
+		"role_id": 394,
+		"source_urls": [],
+		"start_date": "2021-04-04"
+	},
+	{
+		"changed_from_substitute": false,
+		"coalition_id": 11,
+		"contest_id": 394,
+		"date_changed_from_substitute": "",
+		"end_date": "2021-06-02",
+		"goes_for_coalition": true,
+		"goes_for_reelection": false,
+		"id": 3195,
+		"is_substitute": false,
+		"membership_type": "campaigning_politician",
+		"parent_membership_id": "",
+		"party_ids": [
+			22
+		],
+		"person_id": 3195,
+		"role_id": 394,
 		"source_urls": [],
 		"start_date": "2021-04-04"
 	}

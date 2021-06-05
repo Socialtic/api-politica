@@ -5328,5 +5328,226 @@
 		"ocd_id": "ocd-division/country:mx/state:za/city:4",
 		"parent_area_id": "",
 		"state": "ZAC"
+	},
+	{
+		"city": "ENSENADA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 411,
+		"name": {
+			"en_US": "ENSENADA",
+			"es_MX": "ENSENADA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:bc/city:3",
+		"parent_area_id": "",
+		"state": "BCN"
+	},
+	{
+		"city": "BOCOYNA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 412,
+		"name": {
+			"en_US": "BOCOYNA",
+			"es_MX": "BOCOYNA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:ch/city:7",
+		"parent_area_id": "",
+		"state": "CHH"
+	},
+	{
+		"city": "GUERRERO",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 413,
+		"name": {
+			"en_US": "GUERRERO",
+			"es_MX": "GUERRERO"
+		},
+		"ocd_id": "ocd-division/country:mx/state:gr/city:3",
+		"parent_area_id": "",
+		"state": "COA"
+	},
+	{
+		"city": "MANZANILLO",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 414,
+		"name": {
+			"en_US": "MANZANILLO",
+			"es_MX": "MANZANILLO"
+		},
+		"ocd_id": "ocd-division/country:mx/state:cl/city:2",
+		"parent_area_id": "",
+		"state": "COL"
+	},
+	{
+		"city": "CELAYA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 415,
+		"name": {
+			"en_US": "CELAYA",
+			"es_MX": "CELAYA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:gt/city:2",
+		"parent_area_id": "",
+		"state": "GUA"
+	},
+	{
+		"city": "IRAPUATO",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 416,
+		"name": {
+			"en_US": "IRAPUATO",
+			"es_MX": "IRAPUATO"
+		},
+		"ocd_id": "ocd-division/country:mx/state:gt/city:5",
+		"parent_area_id": "",
+		"state": "GUA"
+	},
+	{
+		"city": "LEÓN",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 417,
+		"name": {
+			"en_US": "LEÓN",
+			"es_MX": "LEÓN"
+		},
+		"ocd_id": "ocd-division/country:mx/state:gt/city:3",
+		"parent_area_id": "",
+		"state": "GUA"
+	},
+	{
+		"city": "SALAMANCA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 418,
+		"name": {
+			"en_US": "SALAMANCA",
+			"es_MX": "SALAMANCA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:gt/city:1",
+		"parent_area_id": "",
+		"state": "GUA"
+	},
+	{
+		"city": "SANTIAGO MARAVATÍO",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 419,
+		"name": {
+			"en_US": "SANTIAGO MARAVATÍO",
+			"es_MX": "SANTIAGO MARAVATÍO"
+		},
+		"ocd_id": "ocd-division/country:mx/state:gt/city:6",
+		"parent_area_id": "",
+		"state": "GUA"
+	},
+	{
+		"city": "TLAQUEPAQUE",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 420,
+		"name": {
+			"en_US": "TLAQUEPAQUE",
+			"es_MX": "TLAQUEPAQUE"
+		},
+		"ocd_id": "ocd-division/country:mx/state:ja/city:8",
+		"parent_area_id": "",
+		"state": "JAL"
+	},
+	{
+		"city": "MORELIA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 421,
+		"name": {
+			"en_US": "MORELIA",
+			"es_MX": "MORELIA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:mi/city:2",
+		"parent_area_id": "",
+		"state": "MIC"
+	},
+	{
+		"city": "URUAPAN",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 422,
+		"name": {
+			"en_US": "URUAPAN",
+			"es_MX": "URUAPAN"
+		},
+		"ocd_id": "ocd-division/country:mx/state:mi/city:3",
+		"parent_area_id": "",
+		"state": "MIC"
+	},
+	{
+		"city": "ZAMORA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 423,
+		"name": {
+			"en_US": "ZAMORA",
+			"es_MX": "ZAMORA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:mi/city:1",
+		"parent_area_id": "",
+		"state": "MIC"
+	},
+	{
+		"city": "SAN JUAN IHUALTEPEC",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 424,
+		"name": {
+			"en_US": "SAN JUAN IHUALTEPEC",
+			"es_MX": "SAN JUAN IHUALTEPEC"
+		},
+		"ocd_id": "ocd-division/country:mx/state:oa/city:1",
+		"parent_area_id": "",
+		"state": "OAX"
+	},
+	{
+		"city": "BENITO JUÁREZ",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 425,
+		"name": {
+			"en_US": "BENITO JUÁREZ",
+			"es_MX": "BENITO JUÁREZ"
+		},
+		"ocd_id": "ocd-division/country:mx/state:qr/city:2",
+		"parent_area_id": "",
+		"state": "ROO"
+	},
+	{
+		"city": "YÉCORA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 426,
+		"name": {
+			"en_US": "YÉCORA",
+			"es_MX": "YÉCORA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:so/city:6",
+		"parent_area_id": "",
+		"state": "SON"
+	},
+	{
+		"city": "GENERAL ENRIQUE ESTRADA",
+		"country": "MX",
+		"district_type": "LOCAL_EXEC",
+		"id": 427,
+		"name": {
+			"en_US": "GENERAL ENRIQUE ESTRADA",
+			"es_MX": "GENERAL ENRIQUE ESTRADA"
+		},
+		"ocd_id": "ocd-division/country:mx/state:za/city:1",
+		"parent_area_id": "",
+		"state": "ZAC"
 	}
 ]

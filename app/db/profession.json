@@ -1,474 +1,474 @@
 [
-	{
-		"description": "Didactics and pedagogy",
-		"id": 1
-	},
-	{
-		"description": "Educational planning and evaluation",
-		"id": 2
-	},
-	{
-		"description": "Educational counseling and guidance",
-		"id": 3
-	},
-	{
-		"description": "Educative technology",
-		"id": 4
-	},
-	{
-		"description": "Educational sciences, multidisciplinary or general programs",
-		"id": 5
-	},
-	{
-		"description": "Teacher training in basic education, preschool level",
-		"id": 6
-	},
-	{
-		"description": "Teacher training in basic education, primary level",
-		"id": 7
-	},
-	{
-		"description": "Teacher training in basic education, secondary level",
-		"id": 8
-	},
-	{
-		"description": "Teacher training in upper secondary education",
-		"id": 9
-	},
-	{
-		"description": "Teacher training in higher education",
-		"id": 10
-	},
-	{
-		"description": "Teacher training in physical, artistic or technological education",
-		"id": 11
-	},
-	{
-		"description": "Teacher training in other educational services",
-		"id": 12
-	},
-	{
-		"description": "Initial education",
-		"id": 13
-	},
-	{
-		"description": "Special education",
-		"id": 14
-	},
-	{
-		"description": "Basic education for adults",
-		"id": 15
-	},
-	{
-		"description": "Teacher training, multidisciplinary or general programs",
-		"id": 16
-	},
-	{
-		"description": "Fine arts",
-		"id": 17
-	},
-	{
-		"description": "Music and performing arts",
-		"id": 18
-	},
-	{
-		"description": "Audio-visual techniques and media production",
-		"id": 19
-	},
-	{
-		"description": "Design",
-		"id": 20
-	},
-	{
-		"description": "Craft techniques and skills",
-		"id": 21
-	},
-	{
-		"description": "Arts, multidisciplinary or general programs",
-		"id": 22
-	},
-	{
-		"description": "Theology",
-		"id": 23
-	},
-	{
-		"description": "Foreign languages",
-		"id": 24
-	},
-	{
-		"description": "Literature",
-		"id": 25
-	},
-	{
-		"description": "History and archeology",
-		"id": 26
-	},
-	{
-		"description": "Philosophy and ethics",
-		"id": 27
-	},
-	{
-		"description": "Humanities, multidisciplinary or general programs",
-		"id": 28
-	},
-	{
-		"description": "Psychology",
-		"id": 29
-	},
-	{
-		"description": "Sociology and Anthropology",
-		"id": 30
-	},
-	{
-		"description": "Political Sciences",
-		"id": 31
-	},
-	{
-		"description": "Economy",
-		"id": 32
-	},
-	{
-		"description": "Social work and care",
-		"id": 33
-	},
-	{
-		"description": "Social sciences and behavioral studies, multidisciplinary or general programs",
-		"id": 34
-	},
-	{
-		"description": "Communication and journalism",
-		"id": 35
-	},
-	{
-		"description": "Librarianship",
-		"id": 36
-	},
-	{
-		"description": "Trade strudies",
-		"id": 37
-	},
-	{
-		"description": "Marketing and publicity",
-		"id": 38
-	},
-	{
-		"description": "Finance, banking and insurance",
-		"id": 39
-	},
-	{
-		"description": "Accounting and auditing",
-		"id": 40
-	},
-	{
-		"description": "Business administration and management",
-		"id": 41
-	},
-	{
-		"description": "Administration in the field of education",
-		"id": 42
-	},
-	{
-		"description": "Public administration",
-		"id": 43
-	},
-	{
-		"description": "Administration in the field of engineering and construction",
-		"id": 44
-	},
-	{
-		"description": "Administration in the field of agronomy",
-		"id": 45
-	},
-	{
-		"description": "Administration in the field of health",
-		"id": 46
-	},
-	{
-		"description": "Tourist Administration",
-		"id": 47
-	},
-	{
-		"description": "Restaurant and gastronomy management",
-		"id": 48
-	},
-	{
-		"description": "Business and management, multidisciplinary or general programs",
-		"id": 49
-	},
-	{
-		"description": "Law",
-		"id": 50
-	},
-	{
-		"description": "Criminology",
-		"id": 51
-	},
-	{
-		"description": "Biology and biochemistry",
-		"id": 52
-	},
-	{
-		"description": "Environmental sciences",
-		"id": 53
-	},
-	{
-		"description": "Physical",
-		"id": 54
-	},
-	{
-		"description": "Chemistry",
-		"id": 55
-	},
-	{
-		"description": "Earth and Atmospheric Sciences",
-		"id": 56
-	},
-	{
-		"description": "Physical, chemical and earth sciences, multidisciplinary or general programs",
-		"id": 57
-	},
-	{
-		"description": "Math",
-		"id": 58
-	},
-	{
-		"description": "Statistics",
-		"id": 59
-	},
-	{
-		"description": "Computer's science",
-		"id": 60
-	},
-	{
-		"description": "Industrial, mechanical and metallurgical engineering",
-		"id": 61
-	},
-	{
-		"description": "Electricity and power generation",
-		"id": 62
-	},
-	{
-		"description": "Electronics and telecommunications technology",
-		"id": 63
-	},
-	{
-		"description": "Chemical engineering",
-		"id": 64
-	},
-	{
-		"description": "Motor vehicle, ship and aircraft engineering",
-		"id": 65
-	},
-	{
-		"description": "Technology and environmental protection",
-		"id": 66
-	},
-	{
-		"description": "Mechanical engineering, electronics and technology, multidisciplinary or general programs",
-		"id": 67
-	},
-	{
-		"description": "Food industry",
-		"id": 68
-	},
-	{
-		"description": "Textile, footwear and leather industry",
-		"id": 69
-	},
-	{
-		"description": "Industries of various materials (wood, paper, plastic and glass)",
-		"id": 70
-	},
-	{
-		"description": "Mining and extraction",
-		"id": 71
-	},
-	{
-		"description": "Manufacturing and processes, multidisciplinary or general programs",
-		"id": 72
-	},
-	{
-		"description": "Architecture and urbanism",
-		"id": 73
-	},
-	{
-		"description": "Construction and civil engineering",
-		"id": 74
-	},
-	{
-		"description": "Agricultural and livestock production and exploitation",
-		"id": 75
-	},
-	{
-		"description": "Horticulture",
-		"id": 76
-	},
-	{
-		"description": "Forestry",
-		"id": 77
-	},
-	{
-		"description": "Fishing",
-		"id": 78
-	},
-	{
-		"description": "Agronomy, forestry and fisheries, multidisciplinary or general programs",
-		"id": 79
-	},
-	{
-		"description": "Veterinary",
-		"id": 80
-	},
-	{
-		"description": "Medicine",
-		"id": 81
-	},
-	{
-		"description": "Cardiology",
-		"id": 82
-	},
-	{
-		"description": "General Surgery",
-		"id": 83
-	},
-	{
-		"description": "Specialty Surgery",
-		"id": 84
-	},
-	{
-		"description": "Dermatology",
-		"id": 85
-	},
-	{
-		"description": "Endocrinology",
-		"id": 86
-	},
-	{
-		"description": "Endoscopy",
-		"id": 87
-	},
-	{
-		"description": "Gastroenterology",
-		"id": 88
-	},
-	{
-		"description": "Geriatrics",
-		"id": 89
-	},
-	{
-		"description": "Gynecology and Obstetrics",
-		"id": 90
-	},
-	{
-		"description": "Hematology",
-		"id": 91
-	},
-	{
-		"description": "Homeopathy and Complementary Therapy Medicine",
-		"id": 92
-	},
-	{
-		"description": "Infectology",
-		"id": 93
-	},
-	{
-		"description": "Immunology",
-		"id": 94
-	},
-	{
-		"description": "Otorhinolaryngology",
-		"id": 95
-	},
-	{
-		"description": "Pediatrics and neonatology",
-		"id": 96
-	},
-	{
-		"description": "Pathology and pathological anatomy",
-		"id": 97
-	},
-	{
-		"description": "Proctology",
-		"id": 98
-	},
-	{
-		"description": "Psychiatry",
-		"id": 99
-	},
-	{
-		"description": "Radiology",
-		"id": 100
-	},
-	{
-		"description": "Rheumatology",
-		"id": 101
-	},
-	{
-		"description": "Traumatology and Physiatry",
-		"id": 102
-	},
-	{
-		"description": "Urology",
-		"id": 103
-	},
-	{
-		"description": "Nursing and care",
-		"id": 104
-	},
-	{
-		"description": "odontology",
-		"id": 105
-	},
-	{
-		"description": "Medical diagnosis and treatment technology",
-		"id": 106
-	},
-	{
-		"description": "Therapy and rehabilitation",
-		"id": 107
-	},
-	{
-		"description": "Pharmacy",
-		"id": 108
-	},
-	{
-		"description": "Public health",
-		"id": 109
-	},
-	{
-		"description": "Health, multidisciplinary or general programs",
-		"id": 110
-	},
-	{
-		"description": "Sports",
-		"id": 111
-	},
-	{
-		"description": "Embalming services",
-		"id": 112
-	},
-	{
-		"description": "Beauty services",
-		"id": 113
-	},
-	{
-		"description": "Secretariat and administrative assistance",
-		"id": 114
-	},
-	{
-		"description": "Transport services",
-		"id": 115
-	},
-	{
-		"description": "Public security",
-		"id": 116
-	},
-	{
-		"description": "Industrial Security",
-		"id": 117
-	},
-	{
-		"description": "Military services",
-		"id": 118
-	}
+  {
+    "description": "Didactics and pedagogy", 
+    "id": 1
+  }, 
+  {
+    "description": "Educational planning and evaluation", 
+    "id": 2
+  }, 
+  {
+    "description": "Educational counseling and guidance", 
+    "id": 3
+  }, 
+  {
+    "description": "Educative technology", 
+    "id": 4
+  }, 
+  {
+    "description": "Educational sciences, multidisciplinary or general programs", 
+    "id": 5
+  }, 
+  {
+    "description": "Teacher training in basic education, preschool level", 
+    "id": 6
+  }, 
+  {
+    "description": "Teacher training in basic education, primary level", 
+    "id": 7
+  }, 
+  {
+    "description": "Teacher training in basic education, secondary level", 
+    "id": 8
+  }, 
+  {
+    "description": "Teacher training in upper secondary education", 
+    "id": 9
+  }, 
+  {
+    "description": "Teacher training in higher education", 
+    "id": 10
+  }, 
+  {
+    "description": "Teacher training in physical, artistic or technological education", 
+    "id": 11
+  }, 
+  {
+    "description": "Teacher training in other educational services", 
+    "id": 12
+  }, 
+  {
+    "description": "Initial education", 
+    "id": 13
+  }, 
+  {
+    "description": "Special education", 
+    "id": 14
+  }, 
+  {
+    "description": "Basic education for adults", 
+    "id": 15
+  }, 
+  {
+    "description": "Teacher training, multidisciplinary or general programs", 
+    "id": 16
+  }, 
+  {
+    "description": "Fine arts", 
+    "id": 17
+  }, 
+  {
+    "description": "Music and performing arts", 
+    "id": 18
+  }, 
+  {
+    "description": "Audio-visual techniques and media production", 
+    "id": 19
+  }, 
+  {
+    "description": "Design", 
+    "id": 20
+  }, 
+  {
+    "description": "Craft techniques and skills", 
+    "id": 21
+  }, 
+  {
+    "description": "Arts, multidisciplinary or general programs", 
+    "id": 22
+  }, 
+  {
+    "description": "Theology", 
+    "id": 23
+  }, 
+  {
+    "description": "Foreign languages", 
+    "id": 24
+  }, 
+  {
+    "description": "Literature", 
+    "id": 25
+  }, 
+  {
+    "description": "History and archeology", 
+    "id": 26
+  }, 
+  {
+    "description": "Philosophy and ethics", 
+    "id": 27
+  }, 
+  {
+    "description": "Humanities, multidisciplinary or general programs", 
+    "id": 28
+  }, 
+  {
+    "description": "Psychology", 
+    "id": 29
+  }, 
+  {
+    "description": "Sociology and Anthropology", 
+    "id": 30
+  }, 
+  {
+    "description": "Political Sciences", 
+    "id": 31
+  }, 
+  {
+    "description": "Economy", 
+    "id": 32
+  }, 
+  {
+    "description": "Social work and care", 
+    "id": 33
+  }, 
+  {
+    "description": "Social sciences and behavioral studies, multidisciplinary or general programs", 
+    "id": 34
+  }, 
+  {
+    "description": "Communication and journalism", 
+    "id": 35
+  }, 
+  {
+    "description": "Librarianship", 
+    "id": 36
+  }, 
+  {
+    "description": "Trade strudies", 
+    "id": 37
+  }, 
+  {
+    "description": "Marketing and publicity", 
+    "id": 38
+  }, 
+  {
+    "description": "Finance, banking and insurance", 
+    "id": 39
+  }, 
+  {
+    "description": "Accounting and auditing", 
+    "id": 40
+  }, 
+  {
+    "description": "Business administration and management", 
+    "id": 41
+  }, 
+  {
+    "description": "Administration in the field of education", 
+    "id": 42
+  }, 
+  {
+    "description": "Public administration", 
+    "id": 43
+  }, 
+  {
+    "description": "Administration in the field of engineering and construction", 
+    "id": 44
+  }, 
+  {
+    "description": "Administration in the field of agronomy", 
+    "id": 45
+  }, 
+  {
+    "description": "Administration in the field of health", 
+    "id": 46
+  }, 
+  {
+    "description": "Tourist Administration", 
+    "id": 47
+  }, 
+  {
+    "description": "Restaurant and gastronomy management", 
+    "id": 48
+  }, 
+  {
+    "description": "Business and management, multidisciplinary or general programs", 
+    "id": 49
+  }, 
+  {
+    "description": "Law", 
+    "id": 50
+  }, 
+  {
+    "description": "Criminology", 
+    "id": 51
+  }, 
+  {
+    "description": "Biology and biochemistry", 
+    "id": 52
+  }, 
+  {
+    "description": "Environmental sciences", 
+    "id": 53
+  }, 
+  {
+    "description": "Physical", 
+    "id": 54
+  }, 
+  {
+    "description": "Chemistry", 
+    "id": 55
+  }, 
+  {
+    "description": "Earth and Atmospheric Sciences", 
+    "id": 56
+  }, 
+  {
+    "description": "Physical, chemical and earth sciences, multidisciplinary or general programs", 
+    "id": 57
+  }, 
+  {
+    "description": "Math", 
+    "id": 58
+  }, 
+  {
+    "description": "Statistics", 
+    "id": 59
+  }, 
+  {
+    "description": "Computer's science", 
+    "id": 60
+  }, 
+  {
+    "description": "Industrial, mechanical and metallurgical engineering", 
+    "id": 61
+  }, 
+  {
+    "description": "Electricity and power generation", 
+    "id": 62
+  }, 
+  {
+    "description": "Electronics and telecommunications technology", 
+    "id": 63
+  }, 
+  {
+    "description": "Chemical engineering", 
+    "id": 64
+  }, 
+  {
+    "description": "Motor vehicle, ship and aircraft engineering", 
+    "id": 65
+  }, 
+  {
+    "description": "Technology and environmental protection", 
+    "id": 66
+  }, 
+  {
+    "description": "Mechanical engineering, electronics and technology, multidisciplinary or general programs", 
+    "id": 67
+  }, 
+  {
+    "description": "Food industry", 
+    "id": 68
+  }, 
+  {
+    "description": "Textile, footwear and leather industry", 
+    "id": 69
+  }, 
+  {
+    "description": "Industries of various materials (wood, paper, plastic and glass)", 
+    "id": 70
+  }, 
+  {
+    "description": "Mining and extraction", 
+    "id": 71
+  }, 
+  {
+    "description": "Manufacturing and processes, multidisciplinary or general programs", 
+    "id": 72
+  }, 
+  {
+    "description": "Architecture and urbanism", 
+    "id": 73
+  }, 
+  {
+    "description": "Construction and civil engineering", 
+    "id": 74
+  }, 
+  {
+    "description": "Agricultural and livestock production and exploitation", 
+    "id": 75
+  }, 
+  {
+    "description": "Horticulture", 
+    "id": 76
+  }, 
+  {
+    "description": "Forestry", 
+    "id": 77
+  }, 
+  {
+    "description": "Fishing", 
+    "id": 78
+  }, 
+  {
+    "description": "Agronomy, forestry and fisheries, multidisciplinary or general programs", 
+    "id": 79
+  }, 
+  {
+    "description": "Veterinary", 
+    "id": 80
+  }, 
+  {
+    "description": "Medicine", 
+    "id": 81
+  }, 
+  {
+    "description": "Cardiology", 
+    "id": 82
+  }, 
+  {
+    "description": "General Surgery", 
+    "id": 83
+  }, 
+  {
+    "description": "Specialty Surgery", 
+    "id": 84
+  }, 
+  {
+    "description": "Dermatology", 
+    "id": 85
+  }, 
+  {
+    "description": "Endocrinology", 
+    "id": 86
+  }, 
+  {
+    "description": "Endoscopy", 
+    "id": 87
+  }, 
+  {
+    "description": "Gastroenterology", 
+    "id": 88
+  }, 
+  {
+    "description": "Geriatrics", 
+    "id": 89
+  }, 
+  {
+    "description": "Gynecology and Obstetrics", 
+    "id": 90
+  }, 
+  {
+    "description": "Hematology", 
+    "id": 91
+  }, 
+  {
+    "description": "Homeopathy and Complementary Therapy Medicine", 
+    "id": 92
+  }, 
+  {
+    "description": "Infectology", 
+    "id": 93
+  }, 
+  {
+    "description": "Immunology", 
+    "id": 94
+  }, 
+  {
+    "description": "Otorhinolaryngology", 
+    "id": 95
+  }, 
+  {
+    "description": "Pediatrics and neonatology", 
+    "id": 96
+  }, 
+  {
+    "description": "Pathology and pathological anatomy", 
+    "id": 97
+  }, 
+  {
+    "description": "Proctology", 
+    "id": 98
+  }, 
+  {
+    "description": "Psychiatry", 
+    "id": 99
+  }, 
+  {
+    "description": "Radiology", 
+    "id": 100
+  }, 
+  {
+    "description": "Rheumatology", 
+    "id": 101
+  }, 
+  {
+    "description": "Traumatology and Physiatry", 
+    "id": 102
+  }, 
+  {
+    "description": "Urology", 
+    "id": 103
+  }, 
+  {
+    "description": "Nursing and care", 
+    "id": 104
+  }, 
+  {
+    "description": "odontology", 
+    "id": 105
+  }, 
+  {
+    "description": "Medical diagnosis and treatment technology", 
+    "id": 106
+  }, 
+  {
+    "description": "Therapy and rehabilitation", 
+    "id": 107
+  }, 
+  {
+    "description": "Pharmacy", 
+    "id": 108
+  }, 
+  {
+    "description": "Public health", 
+    "id": 109
+  }, 
+  {
+    "description": "Health, multidisciplinary or general programs", 
+    "id": 110
+  }, 
+  {
+    "description": "Sports", 
+    "id": 111
+  }, 
+  {
+    "description": "Embalming services", 
+    "id": 112
+  }, 
+  {
+    "description": "Beauty services", 
+    "id": 113
+  }, 
+  {
+    "description": "Secretariat and administrative assistance", 
+    "id": 114
+  }, 
+  {
+    "description": "Transport services", 
+    "id": 115
+  }, 
+  {
+    "description": "Public security", 
+    "id": 116
+  }, 
+  {
+    "description": "Industrial Security", 
+    "id": 117
+  }, 
+  {
+    "description": "Military services", 
+    "id": 118
+  }
 ]
