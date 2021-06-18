@@ -4777,110 +4777,134 @@
 	},
 	{
 		"id": 802,
-		"name": "Candidatura comun pan-prd",
-		"other_name_type": "nickname",
-		"person_id": 3088
-	},
-	{
-		"id": 803,
 		"name": "Mara Lezama",
 		"other_name_type": "nickname",
 		"person_id": 3108
 	},
 	{
-		"id": 804,
+		"id": 803,
 		"name": "Lupita Alcocer",
 		"other_name_type": "nickname",
 		"person_id": 3110
 	},
 	{
-		"id": 805,
+		"id": 804,
 		"name": "El Waso",
 		"other_name_type": "nickname",
 		"person_id": 3111
 	},
 	{
-		"id": 806,
+		"id": 805,
 		"name": "Betty Hernandez",
 		"other_name_type": "nickname",
 		"person_id": 3116
 	},
 	{
-		"id": 807,
+		"id": 806,
 		"name": "Güero",
 		"other_name_type": "nickname",
 		"person_id": 3117
 	},
 	{
-		"id": 808,
+		"id": 807,
 		"name": "Ale Villagomez",
 		"other_name_type": "nickname",
 		"person_id": 3120
 	},
 	{
-		"id": 809,
+		"id": 808,
 		"name": "Paty Zitro",
 		"other_name_type": "nickname",
 		"person_id": 3129
 	},
 	{
-		"id": 810,
+		"id": 809,
 		"name": "Paco Martinez",
 		"other_name_type": "nickname",
 		"person_id": 3130
 	},
 	{
-		"id": 811,
+		"id": 810,
 		"name": "Pepe Aguirre",
 		"other_name_type": "nickname",
 		"person_id": 3131
 	},
 	{
-		"id": 819,
+		"id": 818,
 		"name": "Lupita Ruano",
 		"other_name_type": "nickname",
 		"person_id": 3152
 	},
 	{
-		"id": 820,
+		"id": 819,
 		"name": "Jana Téllez",
 		"other_name_type": "nickname",
 		"person_id": 3156
 	},
 	{
-		"id": 821,
+		"id": 820,
 		"name": "Nacho espinosa",
 		"other_name_type": "nickname",
 		"person_id": 3160
 	},
 	{
-		"id": 822,
+		"id": 821,
 		"name": "Poncho",
 		"other_name_type": "nickname",
 		"person_id": 3165
 	},
 	{
-		"id": 823,
+		"id": 822,
 		"name": "El profe",
 		"other_name_type": "nickname",
 		"person_id": 3179
 	},
 	{
-		"id": 824,
+		"id": 823,
 		"name": "Viry Ayala",
 		"other_name_type": "nickname",
 		"person_id": 3183
 	},
 	{
-		"id": 825,
+		"id": 824,
 		"name": "Lupe Paniagua",
 		"other_name_type": "nickname",
 		"person_id": 3184
 	},
 	{
-		"id": 826,
+		"id": 825,
 		"name": "Cande Veleta",
 		"other_name_type": "nickname",
 		"person_id": 3193
+	},
+	{
+		"id": 826,
+		"name": "Mtra. Adela Ramos",
+		"other_name_type": "nickname",
+		"person_id": 3197
+	},
+	{
+		"id": 827,
+		"name": "La Torita",
+		"other_name_type": "nickname",
+		"person_id": 3212
+	},
+	{
+		"id": 828,
+		"name": "Profe Michel",
+		"other_name_type": "nickname",
+		"person_id": 3215
+	},
+	{
+		"id": 829,
+		"name": "Sergio Chavez",
+		"other_name_type": "nickname",
+		"person_id": 3216
+	},
+	{
+		"id": 830,
+		"name": "Luisa Fontova",
+		"other_name_type": "nickname",
+		"person_id": 3218
 	}
 ]
