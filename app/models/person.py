@@ -13,6 +13,7 @@ class PersonModel(db.Model):
     __table_args__ = {'sqlite_autoincrement': True}
 
     person_id = db.Column(db.Integer, unique=True, primary_key=True, nullable=False, autoincrement=True)
+    dni = db.Column(db.String(50), nullable=True) # extra
     first_name = db.Column(db.String(50), nullable=False)
     last_name = db.Column(db.String(50), nullable=False)
     full_name = db.Column(db.String(100), nullable=False)
@@ -23,7 +24,9 @@ class PersonModel(db.Model):
     #contest_id = db.Column(db.Integer, db.ForeignKey('contest.contest_id'), nullable=True)
     contest_id = db.Column(db.Integer, nullable=True)
 
-    def __init__(self, first_name, last_name, full_name, date_birth, gender, dead_or_alive, last_degree_of_studies, contest_id):
+
+    def __init__(self, dni, first_name, last_name, full_name, date_birth, gender, dead_or_alive, last_degree_of_studies, contest_id):
+        self.dni = dni
         self.first_name = first_name
         self.last_name = last_name
         self.full_name = full_name
@@ -49,7 +52,7 @@ class PersonModel(db.Model):
             }
             other_names_preferred_val.append(other_name)
             other_name = {
-                'es_MX': other_name_preferred.name
+                'es_AR': other_name_preferred.name
             }
             other_names_preferred_val.append(other_name)
 
@@ -59,7 +62,7 @@ class PersonModel(db.Model):
             }
             other_names_nickname_val.append(other_name)
             other_name = {
-                'es_MX': other_name_nickname.name
+                'es_AR': other_name_nickname.name
             }
             other_names_nickname_val.append(other_name)
 
@@ -69,7 +72,7 @@ class PersonModel(db.Model):
             }
             other_names_ballot_name_val.append(other_name)
             other_name = {
-                'es_MX': other_name_ballot_name.name
+                'es_AR': other_name_ballot_name.name
             }
             other_names_ballot_name_val.append(other_name)
 
@@ -85,18 +88,19 @@ class PersonModel(db.Model):
                 professions_val.append(profession.description)
 
         obj = {
-            'id': self.person_id,
+            'id': "ar-" + str(self.person_id),
+            'dni': self.dni,
             'first_name': {
                 'en_US': self.first_name,
-                'es_MX': self.first_name
+                'es_AR': self.first_name
             },
             'last_name': {
                 'en_US': self.last_name,
-                'es_MX': self.last_name
+                'es_AR': self.last_name
             },
             'full_name': {
                 'en_US': self.full_name,
-                'es_MX': self.full_name
+                'es_AR': self.full_name
             },
             'date_birth': "" if self.date_birth.strftime('%Y-%m-%d') == date.fromisoformat(
                 EmptyValues.EMPTY_DATE).strftime('%Y-%m-%d') else self.date_birth.strftime('%Y-%m-%d'),
@@ -118,6 +122,10 @@ class PersonModel(db.Model):
     @classmethod
     def find_by_id(cls, _id) -> "PersonModel":
         return cls.query.filter_by(person_id=_id).first()
+
+    @classmethod
+    def find_by_dni(cls, _dni) -> "PersonModel":
+        return cls.query.filter_by(dni=_dni).first()
 
     @classmethod
     def find_all(cls):

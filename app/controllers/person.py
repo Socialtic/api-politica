@@ -20,6 +20,7 @@ local_schema = TheSchema()
 
 #   Model required by flask_restx for expect on POST and PUT methods
 model_validator = local_ns.model(CURRENT_NAME, {
+    'dni': fields.String,
     'first_name': fields.String,
     'last_name': fields.String,
     'full_name': fields.String,
