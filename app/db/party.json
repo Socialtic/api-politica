@@ -1,2118 +1,1841 @@
 [
 	{
 		"abbreviation": {
-			"en_US": "CPP",
-			"es_MX": "CPP"
+			"en_US": "N/A",
+			"es_AR": "ALIANZA + VALORES"
 		},
-		"area_id": 267,
+		"area_id": 2,
 		"coalition_id": "",
 		"colors": [
-			"BLUE",
-			"ORANGE",
-			"RED"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/CompromisoPorPueblaOficial"
-		],
+		"fb_urls": [],
 		"id": 1,
 		"ig_urls": [],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/01/compromiso-puebla.png"
-		],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Compromiso por Puebla",
-			"es_MX": "Compromiso por Puebla"
+			"en_US": "ALIANZA + VALORES",
+			"es_AR": "ALIANZA + VALORES"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.partidocompromisoporpuebla.org"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "CQRoo",
-			"es_MX": "CQRoo"
+			"en_US": "N/A",
+			"es_AR": "ALIANZA AVANZA LA LIBERTAD"
 		},
-		"area_id": 288,
-		"coalition_id": "",
+		"area_id": 6,
+		"coalition_id": 5,
 		"colors": [
-			"BLUE",
-			"PURPLE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/Confianzaqroo"
-		],
+		"fb_urls": [],
 		"id": 2,
-		"ig_urls": [
-			"https://www.instagram.com/confianzaqroo"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2019/08/quintanaroo-confianza.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Confianza por Quintana Roo",
-			"es_MX": "Confianza por Quintana Roo"
+			"en_US": "ALIANZA AVANZA LA LIBERTAD",
+			"es_AR": "ALIANZA AVANZA LA LIBERTAD"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.facebook.com/Confianzaqroo"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "FM",
-			"es_MX": "FM"
+			"en_US": "N/A",
+			"es_AR": "ALIANZA AVANZA LIBERTAD"
 		},
-		"area_id": 1,
-		"coalition_id": "",
+		"area_id": 2,
+		"coalition_id": 5,
 		"colors": [
-			"PINK",
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 3,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Frente por México",
-			"es_MX": "Frente por México"
+			"en_US": "ALIANZA AVANZA LIBERTAD",
+			"es_AR": "ALIANZA AVANZA LIBERTAD"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "FJ",
-			"es_MX": "FJ"
+			"en_US": "N/A",
+			"es_AR": "ALIANZA CHACO CAMBIA + JUNTOS POR EL CAMBIO"
 		},
-		"area_id": 196,
-		"coalition_id": "",
+		"area_id": 4,
+		"coalition_id": 2,
 		"colors": [
-			"DARK PURPLE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/FuturoJal"
-		],
+		"fb_urls": [],
 		"id": 4,
-		"ig_urls": [
-			"https://www.instagram.com/hayfuturojal"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/6Futuro.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Futuro Jalisco",
-			"es_MX": "Futuro Jalisco"
+			"en_US": "ALIANZA CHACO CAMBIA + JUNTOS POR EL CAMBIO",
+			"es_AR": "ALIANZA CHACO CAMBIA + JUNTOS POR EL CAMBIO"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.hayfuturo.mx"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "C1",
-			"es_MX": "C1"
+			"en_US": "N/A",
+			"es_AR": "ALIANZA FITU SAN LUIS"
 		},
-		"area_id": 7,
-		"coalition_id": "",
+		"area_id": 20,
+		"coalition_id": 3,
 		"colors": [
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 5,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Independiente 1",
-			"es_MX": "Independiente 1"
+			"en_US": "ALIANZA FITU SAN LUIS",
+			"es_AR": "ALIANZA FITU SAN LUIS"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "C2",
-			"es_MX": "C2"
+			"en_US": "N/A",
+			"es_AR": "ALIANZA FRENTE DE TODOS"
 		},
-		"area_id": 370,
-		"coalition_id": "",
+		"area_id": 1,
+		"coalition_id": 1,
 		"colors": [
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 6,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Independiente 2",
-			"es_MX": "Independiente 2"
+			"en_US": "ALIANZA FRENTE DE TODOS",
+			"es_AR": "ALIANZA FRENTE DE TODOS"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "C3",
-			"es_MX": "C3"
+			"en_US": "N/A",
+			"es_AR": "ALIANZA FRENTE VAMOS CON VOS"
 		},
-		"area_id": 172,
-		"coalition_id": "",
+		"area_id": 1,
+		"coalition_id": 4,
 		"colors": [
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 7,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Independiente 3",
-			"es_MX": "Independiente 3"
+			"en_US": "ALIANZA FRENTE VAMOS CON VOS",
+			"es_AR": "ALIANZA FRENTE VAMOS CON VOS"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "C4",
-			"es_MX": "C4"
+			"en_US": "N/A",
+			"es_AR": "ALIANZA FUERZA SAN LUIS"
 		},
-		"area_id": 295,
-		"coalition_id": "",
+		"area_id": 20,
+		"coalition_id": 6,
 		"colors": [
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 8,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Independiente 4",
-			"es_MX": "Independiente 4"
+			"en_US": "ALIANZA FUERZA SAN LUIS",
+			"es_AR": "ALIANZA FUERZA SAN LUIS"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "C5",
-			"es_MX": "C5"
+			"en_US": "N/A",
+			"es_AR": "ALIANZA JUNTOS"
 		},
-		"area_id": 304,
-		"coalition_id": "",
+		"area_id": 2,
+		"coalition_id": 2,
 		"colors": [
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 9,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Independiente 5",
-			"es_MX": "Independiente 5"
+			"en_US": "ALIANZA JUNTOS",
+			"es_AR": "ALIANZA JUNTOS"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "C6",
-			"es_MX": "C6"
+			"en_US": "N/A",
+			"es_AR": "ALIANZA UNIDOS POR SAN LUIS"
 		},
-		"area_id": 313,
-		"coalition_id": "",
+		"area_id": 20,
+		"coalition_id": 6,
 		"colors": [
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 10,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Independiente 6",
-			"es_MX": "Independiente 6"
+			"en_US": "ALIANZA UNIDOS POR SAN LUIS",
+			"es_AR": "ALIANZA UNIDOS POR SAN LUIS"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "C7",
-			"es_MX": "C7"
+			"en_US": "N/A",
+			"es_AR": "ALIANZA VAMOS CON VOS"
 		},
-		"area_id": 333,
-		"coalition_id": "",
+		"area_id": 8,
+		"coalition_id": 4,
 		"colors": [
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 11,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Independiente 7",
-			"es_MX": "Independiente 7"
+			"en_US": "ALIANZA VAMOS CON VOS",
+			"es_AR": "ALIANZA VAMOS CON VOS"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "C8",
-			"es_MX": "C8"
+			"en_US": "N/A",
+			"es_AR": "AUTODETERMINACIÓN Y LIBERTAD"
 		},
-		"area_id": 17,
-		"coalition_id": "",
+		"area_id": 6,
+		"coalition_id": 3,
 		"colors": [
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 12,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Independiente 8",
-			"es_MX": "Independiente 8"
+			"en_US": "AUTODETERMINACIÓN Y LIBERTAD",
+			"es_AR": "AUTODETERMINACIÓN Y LIBERTAD"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "C9",
-			"es_MX": "C9"
+			"en_US": "N/A",
+			"es_AR": "CAMBIA JUJUY"
 		},
-		"area_id": 20,
-		"coalition_id": "",
+		"area_id": 11,
+		"coalition_id": 2,
 		"colors": [
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 13,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Independiente 9",
-			"es_MX": "Independiente 9"
+			"en_US": "CAMBIA JUJUY",
+			"es_AR": "CAMBIA JUJUY"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "C10",
-			"es_MX": "C10"
+			"en_US": "N/A",
+			"es_AR": "CAMBIA MENDOZA - DISTRITO MENDOZA"
 		},
-		"area_id": 35,
-		"coalition_id": "",
+		"area_id": 14,
+		"coalition_id": 2,
 		"colors": [
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 14,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Independiente 10",
-			"es_MX": "Independiente 10"
+			"en_US": "CAMBIA MENDOZA - DISTRITO MENDOZA",
+			"es_AR": "CAMBIA MENDOZA - DISTRITO MENDOZA"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "C11",
-			"es_MX": "C11"
+			"en_US": "N/A",
+			"es_AR": "CAMBIA NEUQUÉN"
 		},
-		"area_id": 63,
-		"coalition_id": "",
+		"area_id": 16,
+		"coalition_id": 2,
 		"colors": [
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 15,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Independiente 11",
-			"es_MX": "Independiente 11"
+			"en_US": "CAMBIA NEUQUÉN",
+			"es_AR": "CAMBIA NEUQUÉN"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "C12",
-			"es_MX": "C12"
+			"en_US": "N/A",
+			"es_AR": "CAMBIA SANTA CRUZ"
 		},
-		"area_id": 172,
-		"coalition_id": "",
+		"area_id": 21,
+		"coalition_id": 2,
 		"colors": [
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 16,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Independiente 12",
-			"es_MX": "Independiente 12"
+			"en_US": "CAMBIA SANTA CRUZ",
+			"es_AR": "CAMBIA SANTA CRUZ"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "C13",
-			"es_MX": "C13"
+			"en_US": "N/A",
+			"es_AR": "CHUBUT SOMOS TODOS"
 		},
-		"area_id": 217,
-		"coalition_id": "",
+		"area_id": 5,
+		"coalition_id": 1,
 		"colors": [
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 17,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Independiente 13",
-			"es_MX": "Independiente 13"
+			"en_US": "CHUBUT SOMOS TODOS",
+			"es_AR": "CHUBUT SOMOS TODOS"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "C14",
-			"es_MX": "C14"
+			"en_US": "CC-ARI",
+			"es_AR": "COALICION CIVICA - ARI"
 		},
-		"area_id": 237,
-		"coalition_id": "",
+		"area_id": 16,
+		"coalition_id": 2,
 		"colors": [
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 18,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Independiente 14",
-			"es_MX": "Independiente 14"
+			"en_US": "COALICION CIVICA - ARI",
+			"es_AR": "COALICION CIVICA - ARI"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "C15",
-			"es_MX": "C15"
+			"en_US": "N/A",
+			"es_AR": "COMPROMISO FEDERAL"
 		},
-		"area_id": 242,
-		"coalition_id": "",
+		"area_id": 8,
+		"coalition_id": 1,
 		"colors": [
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 19,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Independiente 15",
-			"es_MX": "Independiente 15"
+			"en_US": "COMPROMISO FEDERAL",
+			"es_AR": "COMPROMISO FEDERAL"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "MAS",
-			"es_MX": "MAS"
+			"en_US": "N/A",
+			"es_AR": "COMPROMISO FEDERAL - DISTRITO MENDOZA"
 		},
-		"area_id": 288,
-		"coalition_id": "",
+		"area_id": 14,
+		"coalition_id": 1,
 		"colors": [
-			"PURPLE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/movautenticosocial"
-		],
+		"fb_urls": [],
 		"id": 20,
-		"ig_urls": [
-			"https://www.instagram.com/soyautentico"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/16MovAutenticoSoc.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Movimiento Auténtico Social",
-			"es_MX": "Movimiento Auténtico Social"
+			"en_US": "COMPROMISO FEDERAL - DISTRITO MENDOZA",
+			"es_AR": "COMPROMISO FEDERAL - DISTRITO MENDOZA"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://www.autenticosocial.org"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "MC",
-			"es_MX": "MC"
+			"en_US": "N/A",
+			"es_AR": "CORRIENTE DE PENSAMIENTO BONAERENSE"
 		},
-		"area_id": 1,
-		"coalition_id": "",
+		"area_id": 3,
+		"coalition_id": 6,
 		"colors": [
-			"ORANGE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/MovCiudadanoMX"
-		],
+		"fb_urls": [],
 		"id": 21,
-		"ig_urls": [
-			"https://www.instagram.com/movciudadanomx"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/01/movimiento-ciudadano.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Movimiento Ciudadano",
-			"es_MX": "Movimiento Ciudadano"
+			"en_US": "CORRIENTE DE PENSAMIENTO BONAERENSE",
+			"es_AR": "CORRIENTE DE PENSAMIENTO BONAERENSE"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.movimientociudadano.mx"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "Morena",
-			"es_MX": "Morena"
+			"en_US": "N/A",
+			"es_AR": "DEL OBRERO"
 		},
-		"area_id": 1,
-		"coalition_id": 7,
+		"area_id": 15,
+		"coalition_id": 3,
 		"colors": [
-			"RED"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/CENMorenaMX"
-		],
+		"fb_urls": [],
 		"id": 22,
 		"ig_urls": [],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/01/morena.png"
-		],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Movimiento de Regeneración Nacional",
-			"es_MX": "Movimiento de Regeneración Nacional"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.morena.si"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "MDZ",
-			"es_MX": "MDZ"
-		},
-		"area_id": 370,
-		"coalition_id": "",
-		"colors": [
-			"RED",
-			"GREEN"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/Movimiento-Dignidad-Zacatecas-106598081406051"
-		],
-		"id": 23,
-		"ig_urls": [],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/24MovDignidadZac.jpg"
-		],
-		"name": {
-			"en_US": "Movimiento Dignidad Zacatecas",
-			"es_MX": "Movimiento Dignidad Zacatecas"
+			"en_US": "DEL OBRERO",
+			"es_AR": "DEL OBRERO"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "MLN",
-			"es_MX": "MLN"
+			"en_US": "N/A",
+			"es_AR": "ECO + VAMOS CORRIENTES"
 		},
-		"area_id": 237,
-		"coalition_id": "",
+		"area_id": 8,
+		"coalition_id": 2,
 		"colors": [
-			"PINK",
-			"YELLOW"
+			""
+		],
+		"fb_urls": [],
+		"id": 23,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "ECO + VAMOS CORRIENTES",
+			"es_AR": "ECO + VAMOS CORRIENTES"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "ENCUENTRO VECINAL CORDOBA"
+		},
+		"area_id": 7,
+		"coalition_id": 6,
+		"colors": [
+			""
 		],
 		"fb_urls": [],
 		"id": 24,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Movimiento Levántate para Nayarit",
-			"es_MX": "Movimiento Levántate para Nayarit"
+			"en_US": "ENCUENTRO VECINAL CORDOBA",
+			"es_AR": "ENCUENTRO VECINAL CORDOBA"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PANAL",
-			"es_MX": "PANAL"
+			"en_US": "N/A",
+			"es_AR": "FELICIDAD"
 		},
-		"area_id": 1,
-		"coalition_id": "",
+		"area_id": 18,
+		"coalition_id": 6,
 		"colors": [
-			"BLUE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/naedomex"
-		],
+		"fb_urls": [],
 		"id": 25,
-		"ig_urls": [
-			"https://www.instagram.com/nuevaalianzaedomexoficial"
-		],
+		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Nueva Alianza",
-			"es_MX": "Nueva Alianza"
+			"en_US": "FELICIDAD",
+			"es_AR": "FELICIDAD"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PSI",
-			"es_MX": "PSI"
+			"en_US": "N/A",
+			"es_AR": "FRENTE AMPLIO CATAMARQUEÑO"
 		},
-		"area_id": 267,
-		"coalition_id": "",
+		"area_id": 3,
+		"coalition_id": 6,
 		"colors": [
-			"RED",
-			"ORANGE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/PSIOficialPuebla"
-		],
+		"fb_urls": [],
 		"id": 26,
-		"ig_urls": [
-			"https://www.instagram.com/psi_puebla"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/08/psi.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Pacto Social de Integración",
-			"es_MX": "Pacto Social de Integración"
+			"en_US": "FRENTE AMPLIO CATAMARQUEÑO",
+			"es_AR": "FRENTE AMPLIO CATAMARQUEÑO"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PAN",
-			"es_MX": "PAN"
+			"en_US": "N/A",
+			"es_AR": "FRENTE AMPLIO POR TUCUMAN"
 		},
-		"area_id": 1,
-		"coalition_id": 27,
+		"area_id": 25,
+		"coalition_id": 6,
 		"colors": [
-			"BLUE",
-			"WHITE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/PartidoAccionNacional"
-		],
+		"fb_urls": [],
 		"id": 27,
-		"ig_urls": [
-			"https://www.instagram.com/accionnacional"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/01/pan.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Acción Nacional",
-			"es_MX": "Partido Acción Nacional"
+			"en_US": "FRENTE AMPLIO POR TUCUMAN",
+			"es_AR": "FRENTE AMPLIO POR TUCUMAN"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.pan.org.mx"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PAC",
-			"es_MX": "PAC"
+			"en_US": "N/A",
+			"es_AR": "FRENTE AMPLIO PROGRESISTA"
 		},
-		"area_id": 333,
-		"coalition_id": "",
+		"area_id": 22,
+		"coalition_id": 6,
 		"colors": [
-			"GREEN",
-			"BLUE",
-			"WHITE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/alianzaciudadanatlaxcala"
-		],
+		"fb_urls": [],
 		"id": 28,
-		"ig_urls": [
-			"https://www.instagram.com/partidoalianzaciudadanapac"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/08/pac.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Alianza Ciudadana",
-			"es_MX": "Partido Alianza Ciudadana"
+			"en_US": "FRENTE AMPLIO PROGRESISTA",
+			"es_AR": "FRENTE AMPLIO PROGRESISTA"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.partidoalianzaciudadanatlax.com"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PA",
-			"es_MX": "PA"
+			"en_US": "N/A",
+			"es_AR": "FRENTE CIVICO POR SANTIAGO"
 		},
-		"area_id": 231,
-		"coalition_id": "",
+		"area_id": 23,
+		"coalition_id": 6,
 		"colors": [
-			"PURPLE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/Armon%C3%ADa-por-Morelos-532538333917991"
-		],
+		"fb_urls": [],
 		"id": 29,
-		"ig_urls": [
-			"https://www.instagram.com/armoniapormorelos"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/15ArmoniaporMorelos.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Armonía",
-			"es_MX": "Partido Armonía"
+			"en_US": "FRENTE CIVICO POR SANTIAGO",
+			"es_AR": "FRENTE CIVICO POR SANTIAGO"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.armoniapormorelos.com"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PBSC",
-			"es_MX": "PBSC"
+			"en_US": "N/A",
+			"es_AR": "FRENTE CONSENSO ISCHIGUALASTO (SAN JUAN)"
 		},
-		"area_id": 17,
-		"coalition_id": "",
+		"area_id": 19,
+		"coalition_id": 6,
 		"colors": [
-			"BROWN"
+			""
 		],
 		"fb_urls": [],
 		"id": 30,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Baja California Sur Coherente",
-			"es_MX": "Partido Baja California Sur Coherente"
+			"en_US": "FRENTE CONSENSO ISCHIGUALASTO (SAN JUAN)",
+			"es_AR": "FRENTE CONSENSO ISCHIGUALASTO (SAN JUAN)"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PBC",
-			"es_MX": "PBC"
+			"en_US": "FITU-T",
+			"es_AR": "FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES UNIDAD-TUC"
 		},
-		"area_id": 231,
-		"coalition_id": "",
+		"area_id": 25,
+		"coalition_id": 3,
 		"colors": [
-			"BLUE",
-			"PURPLE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/Partido-Bienestar-Ciudadano-Morelos-PBC-100255555156196"
-		],
+		"fb_urls": [],
 		"id": 31,
 		"ig_urls": [],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/10PartBienestarCiud.jpg"
-		],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Bienestar Ciudadano",
-			"es_MX": "Partido Bienestar Ciudadano"
+			"en_US": "FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES UNIDAD-TUC",
+			"es_AR": "FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES UNIDAD-TUC"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PC",
-			"es_MX": "PC"
+			"en_US": "FIT",
+			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES"
 		},
-		"area_id": 343,
-		"coalition_id": "",
+		"area_id": 2,
+		"coalition_id": 3,
 		"colors": [
-			"BLACK",
-			"RED"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/PartidoCardenistaVeracruz"
-		],
+		"fb_urls": [],
 		"id": 32,
 		"ig_urls": [],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/20PartidoCardenista.jpg"
-		],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Cardenista",
-			"es_MX": "Partido Cardenista"
+			"en_US": "FRENTE DE IZQUIERDA Y DE TRABAJADORES",
+			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PCU",
-			"es_MX": "PCU"
+			"en_US": "FITU",
+			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD"
 		},
-		"area_id": 32,
-		"coalition_id": "",
+		"area_id": 1,
+		"coalition_id": 3,
 		"colors": [
-			"YELLOW",
-			"GREEN",
-			"RED",
-			"BLUE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/partidochiapasunidooficial"
-		],
+		"fb_urls": [],
 		"id": 33,
-		"ig_urls": [
-			"https://www.instagram.com/pchiapasunido"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/08/chiapas-unido.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Chiapas Unido",
-			"es_MX": "Partido Chiapas Unido"
+			"en_US": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD",
+			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://www.partidochiapasunido.com.mx"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PCP",
-			"es_MX": "PCP"
+			"en_US": "N/A",
+			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD - DISTRITO MENDOZA"
 		},
-		"area_id": 295,
-		"coalition_id": "",
+		"area_id": 14,
+		"coalition_id": 3,
 		"colors": [
-			"ORANGE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/ConcienciaPopularSLP"
-		],
+		"fb_urls": [],
 		"id": 34,
-		"ig_urls": [
-			"https://www.instagram.com/concienciapopularslp"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/01/conciencia-popular.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Conciencia Popular",
-			"es_MX": "Partido Conciencia Popular"
+			"en_US": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD - DISTRITO MENDOZA",
+			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD - DISTRITO MENDOZA"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.concienciapopular-slp.org"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PBCal",
-			"es_MX": "PBCal"
+			"en_US": "N/A",
+			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD (SAN JUAN)"
 		},
-		"area_id": 7,
-		"coalition_id": "",
+		"area_id": 19,
+		"coalition_id": 3,
 		"colors": [
-			"ORANGE",
-			"GREEN"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/PartidodeBajaCalifornia"
-		],
+		"fb_urls": [],
 		"id": 35,
-		"ig_urls": [
-			"https://www.instagram.com/partidodebc"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/01/baja_california.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido de Baja California",
-			"es_MX": "Partido de Baja California"
+			"en_US": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD (SAN JUAN)",
+			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD (SAN JUAN)"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.partidodebc.org"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PRC",
-			"es_MX": "PRC"
+			"en_US": "FDT",
+			"es_AR": "FRENTE DE TODOS"
 		},
-		"area_id": 48,
-		"coalition_id": "",
+		"area_id": 1,
+		"coalition_id": 1,
 		"colors": [
-			"PINK",
-			"ORANGE"
+			""
 		],
 		"fb_urls": [],
 		"id": 36,
-		"ig_urls": [
-			"https://www.instagram.com/prc_78"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2020/01/prc-coahuila.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido de la Revolución Coahuilense",
-			"es_MX": "Partido de la Revolución Coahuilense"
+			"en_US": "FRENTE DE TODOS",
+			"es_AR": "FRENTE DE TODOS"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PRD",
-			"es_MX": "PRD"
+			"en_US": "N/A",
+			"es_AR": "FRENTE DE TODOS - DISTRITO MENDOZA"
 		},
-		"area_id": 1,
-		"coalition_id": 27,
+		"area_id": 14,
+		"coalition_id": 1,
 		"colors": [
-			"YELLOW",
-			"BLACK"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/PartidodelaRevolucionDemocratica"
-		],
+		"fb_urls": [],
 		"id": 37,
-		"ig_urls": [
-			"https://www.instagram.com/prdmexico"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/01/prd.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido de la Revolución Democrática",
-			"es_MX": "Partido de la Revolución Democrática"
+			"en_US": "FRENTE DE TODOS - DISTRITO MENDOZA",
+			"es_AR": "FRENTE DE TODOS - DISTRITO MENDOZA"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.prd.org.mx"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PRS",
-			"es_MX": "PRS"
+			"en_US": "N/A",
+			"es_AR": "FRENTE DE TODOS (SAN JUAN)"
 		},
-		"area_id": 17,
-		"coalition_id": "",
+		"area_id": 19,
+		"coalition_id": 1,
 		"colors": [
-			"RED",
-			"BLACK"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/renovacion.sudcaliforniana"
-		],
+		"fb_urls": [],
 		"id": 38,
 		"ig_urls": [],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/01/prs.png"
-		],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido de Renovación Sudcaliforniana",
-			"es_MX": "Partido de Renovación Sudcaliforniana"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://www.prsbcs.org.mx"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "PPu",
-			"es_MX": "PPu"
-		},
-		"area_id": 370,
-		"coalition_id": "",
-		"colors": [
-			"RED",
-			"WHITE",
-			"BLACK"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/Partido-del-Pueblo-Zacatecas-101595222062929"
-		],
-		"id": 39,
-		"ig_urls": [],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/25PartidodelPueblo-1.jpg"
-		],
-		"name": {
-			"en_US": "Partido del Pueblo",
-			"es_MX": "Partido del Pueblo"
+			"en_US": "FRENTE DE TODOS (SAN JUAN)",
+			"es_AR": "FRENTE DE TODOS (SAN JUAN)"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PT",
-			"es_MX": "PT"
+			"en_US": "N/A",
+			"es_AR": "FRENTE DE TODOS (TUC)"
 		},
-		"area_id": 1,
-		"coalition_id": 7,
+		"area_id": 25,
+		"coalition_id": 1,
 		"colors": [
-			"RED",
-			"YELLOW"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/PTNACIONALMX"
+		"fb_urls": [],
+		"id": 39,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "FRENTE DE TODOS (TUC)",
+			"es_AR": "FRENTE DE TODOS (TUC)"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FDT-PBA",
+			"es_AR": "FRENTE DE TODOS PBA"
+		},
+		"area_id": 2,
+		"coalition_id": 1,
+		"colors": [
+			""
 		],
+		"fb_urls": [],
 		"id": 40,
-		"ig_urls": [
-			"https://www.instagram.com/ptnacionalmx"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/01/pt.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido del Trabajo",
-			"es_MX": "Partido del Trabajo"
+			"en_US": "FRENTE DE TODOS PBA",
+			"es_AR": "FRENTE DE TODOS PBA"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.partidodeltrabajo.org.mx"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PD",
-			"es_MX": "PD"
+			"en_US": "N/A",
+			"es_AR": "FRENTE JUNTOS POR EL CAMBIO"
 		},
-		"area_id": 103,
-		"coalition_id": "",
+		"area_id": 15,
+		"coalition_id": 2,
 		"colors": [
-			"PINK",
-			"GREEN"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/PartidoDuranguense1"
-		],
+		"fb_urls": [],
 		"id": 41,
-		"ig_urls": [
-			"https://www.instagram.com/partidoduranguense1"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2019/08/durango-pd.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Duranguense",
-			"es_MX": "Partido Duranguense"
+			"en_US": "FRENTE JUNTOS POR EL CAMBIO",
+			"es_AR": "FRENTE JUNTOS POR EL CAMBIO"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://www.partidoduranguense.org.mx"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PEZ",
-			"es_MX": "PEZ"
+			"en_US": "N/A",
+			"es_AR": "FRENTE PATRIOTICO LABORISTA"
 		},
-		"area_id": 48,
-		"coalition_id": "",
+		"area_id": 23,
+		"coalition_id": 6,
 		"colors": [
-			"GREEN"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/PartidoEmilianoZapata"
-		],
+		"fb_urls": [],
 		"id": 42,
-		"ig_urls": [
-			"https://www.instagram.com/partido_emiliano_zapata"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2019/08/coahuila-emiliano-zapata.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Emiliano Zapata",
-			"es_MX": "Partido Emiliano Zapata"
+			"en_US": "FRENTE PATRIOTICO LABORISTA",
+			"es_AR": "FRENTE PATRIOTICO LABORISTA"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.partidoemilianozapata.com"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PES",
-			"es_MX": "PES"
+			"en_US": "FR",
+			"es_AR": "FRENTE RENOVADOR"
 		},
-		"area_id": 1,
-		"coalition_id": "",
+		"area_id": 23,
+		"coalition_id": 1,
 		"colors": [
-			"BLUE",
-			"WHITE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/PESnacionalMX"
-		],
+		"fb_urls": [],
 		"id": 43,
-		"ig_urls": [
-			"https://www.instagram.com/pesnacionalmx"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2020/09/peslogo-encuentro-social.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Encuentro Social",
-			"es_MX": "Partido Encuentro Social"
+			"en_US": "FRENTE RENOVADOR",
+			"es_AR": "FRENTE RENOVADOR"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.pesnacional.org"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PESol",
-			"es_MX": "PESol"
+			"en_US": "N/A",
+			"es_AR": "FRENTE RENOVADOR DE LA CONCORDIA SOCIAL"
 		},
-		"area_id": 1,
-		"coalition_id": 7,
+		"area_id": 15,
+		"coalition_id": 1,
 		"colors": [
-			"PURPLE",
-			"WHITE"
+			""
 		],
 		"fb_urls": [],
 		"id": 44,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Encuentro Solidario",
-			"es_MX": "Partido Encuentro Solidario"
+			"en_US": "FRENTE RENOVADOR DE LA CONCORDIA SOCIAL",
+			"es_AR": "FRENTE RENOVADOR DE LA CONCORDIA SOCIAL"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PELG",
-			"es_MX": "PELG"
+			"en_US": "N/A",
+			"es_AR": "FRENTE SI + PRS"
 		},
-		"area_id": 38,
-		"coalition_id": "",
+		"area_id": 18,
+		"coalition_id": 6,
 		"colors": [
-			"PINK",
-			"WHITE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/PartidoELIGE"
-		],
+		"fb_urls": [],
 		"id": 45,
-		"ig_urls": [
-			"https://www.instagram.com/partido_elige"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/04/emblema-pelg.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Equidad, Libertad y Género",
-			"es_MX": "Partido Equidad, Libertad y Género"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.partidoelige.org.mx"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "PFM",
-			"es_MX": "PFM"
-		},
-		"area_id": 231,
-		"coalition_id": "",
-		"colors": [
-			"RED",
-			"BLUE",
-			"YELLOW"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/fuerzamorelosoficial"
-		],
-		"id": 46,
-		"ig_urls": [
-			"https://www.instagram.com/fuerzamorelos"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/12FuerzaMorelosJoven.jpg"
-		],
-		"name": {
-			"en_US": "Partido Fuerza Morelos",
-			"es_MX": "Partido Fuerza Morelos"
+			"en_US": "FRENTE SI + PRS",
+			"es_AR": "FRENTE SI + PRS"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "FxM",
-			"es_MX": "FxM"
+			"en_US": "FDI",
+			"es_AR": "FRENTEDEIZQUIERDA"
 		},
-		"area_id": 1,
-		"coalition_id": "",
+		"area_id": 5,
+		"coalition_id": 3,
 		"colors": [
-			"RED",
-			"GREEN",
-			"BLUE",
-			"YELLOW"
+			""
+		],
+		"fb_urls": [],
+		"id": 46,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "FRENTEDEIZQUIERDA",
+			"es_AR": "FRENTEDEIZQUIERDA"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "FUERZA REPUBLICANA TUC"
+		},
+		"area_id": 25,
+		"coalition_id": 6,
+		"colors": [
+			""
 		],
 		"fb_urls": [],
 		"id": 47,
-		"ig_urls": [
-			"https://www.instagram.com/fuerzamexico_"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/01/Emblema_FMX2021-1.jpg"
-		],
-		"name": {
-			"en_US": "Partido Fuerza Social por México",
-			"es_MX": "Partido Fuerza Social por México"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.fuerzapormexico.org.mx"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "PF",
-			"es_MX": "PF"
-		},
-		"area_id": 231,
-		"coalition_id": "",
-		"colors": [
-			"PURPLE"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/Futuro-Morelos-464182274435467"
-		],
-		"id": 48,
 		"ig_urls": [],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/11FuturoFuerzaTrabajoyUnidad.jpg"
-		],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Futuro",
-			"es_MX": "Partido Futuro"
+			"en_US": "FUERZA REPUBLICANA TUC",
+			"es_AR": "FUERZA REPUBLICANA TUC"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "H",
-			"es_MX": "H"
+			"en_US": "N/A",
+			"es_AR": "HACEMOS POR CORDOBA"
 		},
-		"area_id": 196,
-		"coalition_id": "",
+		"area_id": 7,
+		"coalition_id": 6,
 		"colors": [
-			"PURPLE",
-			"WHITE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/HagamosJalisco"
-		],
-		"id": 49,
-		"ig_urls": [
-			"https://www.instagram.com/hagamosjalisco"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/04/emblema-hagamos.jpg"
-		],
+		"fb_urls": [],
+		"id": 48,
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Hagamos",
-			"es_MX": "Partido Hagamos"
+			"en_US": "HACEMOS POR CORDOBA",
+			"es_AR": "HACEMOS POR CORDOBA"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.hagamosjalisco.mx"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PHBCS",
-			"es_MX": "PHBCS"
+			"en_US": "JXC",
+			"es_AR": "JUNTOS POR EL CAMBIO"
 		},
-		"area_id": 17,
-		"coalition_id": "",
+		"area_id": 1,
+		"coalition_id": 2,
 		"colors": [
-			"PURPLE"
+			""
+		],
+		"fb_urls": [],
+		"id": 49,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "JUNTOS POR EL CAMBIO",
+			"es_AR": "JUNTOS POR EL CAMBIO"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "JUNTOS POR EL CAMBIO (SAN JUAN)"
+		},
+		"area_id": 19,
+		"coalition_id": 2,
+		"colors": [
+			""
 		],
 		"fb_urls": [],
 		"id": 50,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Humanista",
-			"es_MX": "Partido Humanista"
+			"en_US": "JUNTOS POR EL CAMBIO (SAN JUAN)",
+			"es_AR": "JUNTOS POR EL CAMBIO (SAN JUAN)"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "SI",
-			"es_MX": "SI"
+			"en_US": "N/A",
+			"es_AR": "JUNTOS POR EL CAMBIO +"
 		},
-		"area_id": 333,
-		"coalition_id": "",
+		"area_id": 18,
+		"coalition_id": 2,
 		"colors": [
-			"RED"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/Impacto-Social-Si-Comite-Estatal-376167066349559"
-		],
+		"fb_urls": [],
 		"id": 51,
 		"ig_urls": [],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/18ImpactoSocialSi.jpg"
-		],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Impacto Social SI",
-			"es_MX": "Partido Impacto Social SI"
+			"en_US": "JUNTOS POR EL CAMBIO +",
+			"es_AR": "JUNTOS POR EL CAMBIO +"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PFP",
-			"es_MX": "PFP"
+			"en_US": "N/A",
+			"es_AR": "JUNTOS POR EL CAMBIO CHUBUT"
 		},
-		"area_id": 370,
-		"coalition_id": "",
+		"area_id": 5,
+		"coalition_id": 2,
 		"colors": [
-			"GREEN",
-			"RED",
-			"PURPLE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/PartidoLFP"
-		],
+		"fb_urls": [],
 		"id": 52,
-		"ig_urls": [
-			"https://www.instagram.com/partidopoliticolfp"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/26LaFamiliaPrimero.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido la Familia Primero",
-			"es_MX": "Partido la Familia Primero"
+			"en_US": "JUNTOS POR EL CAMBIO CHUBUT",
+			"es_AR": "JUNTOS POR EL CAMBIO CHUBUT"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PLA",
-			"es_MX": "PLA"
+			"en_US": "N/A",
+			"es_AR": "JUNTOS POR EL CAMBIO TIERRA DEL FUEGO"
 		},
-		"area_id": 2,
-		"coalition_id": "",
+		"area_id": 24,
+		"coalition_id": 2,
 		"colors": [
-			"BLUE",
-			"GREEN"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/partidolibreags"
-		],
+		"fb_urls": [],
 		"id": 53,
-		"ig_urls": [
-			"https://www.instagram.com/partidolibredeaguascalientes"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2019/08/Aguascalientes-PLA.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Libre de Aguascalientes",
-			"es_MX": "Partido Libre de Aguascalientes"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.partidolibredeaguascalientes.com"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "PAS",
-			"es_MX": "PAS"
-		},
-		"area_id": 231,
-		"coalition_id": "",
-		"colors": [
-			"GREEN",
-			"YELLOW"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/PartidoApoyoSocial",
-			"https://www.facebook.com/PartidoSinaloense"
-		],
-		"id": 54,
-		"ig_urls": [
-			"https://www.instagram.com/partidoapoyosoc",
-			"https://www.instagram.com/pasmxoficial"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/13MasMasApoyoSoc.jpg",
-			"https://www.ine.mx/wp-content/uploads/2018/05/pas.png"
-		],
-		"name": {
-			"en_US": "Partido Más Apoyo Social",
-			"es_MX": "Partido Más Apoyo Social"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.masapoyosocial.com"
-			},
-			{
-				"note": "official",
-				"url": "https://www.partidosinaloense.mx"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "PMH",
-			"es_MX": "PMH"
-		},
-		"area_id": 188,
-		"coalition_id": "",
-		"colors": [
-			"BLACK",
-			"PURPLE",
-			"BLUE"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/PartidoMasPorHidalgo"
-		],
-		"id": 55,
-		"ig_urls": [
-			"https://www.instagram.com/masporhidalgo"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2019/08/hidalgo-masporhidalgo.png"
-		],
-		"name": {
-			"en_US": "Partido Más por Hidalgo",
-			"es_MX": "Partido Más por Hidalgo"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.partidomasporhidalgo.mx"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "PMP",
-			"es_MX": "PMP"
-		},
-		"area_id": 231,
-		"coalition_id": "",
-		"colors": [
-			"PURPLE",
-			"GREEN",
-			"PINK"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/Morelos-Progresa-1419911618149032"
-		],
-		"id": 56,
-		"ig_urls": [
-			"https://www.instagram.com/morelosprogresaoficial"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/9MorelosProgresa.jpg"
-		],
-		"name": {
-			"en_US": "Partido Morelos Progresa",
-			"es_MX": "Partido Morelos Progresa"
+			"en_US": "JUNTOS POR EL CAMBIO TIERRA DEL FUEGO",
+			"es_AR": "JUNTOS POR EL CAMBIO TIERRA DEL FUEGO"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PMAS",
-			"es_MX": "PMAS"
+			"en_US": "N/A",
+			"es_AR": "JUNTOS POR EL CAMBIO TUCUMAN"
 		},
-		"area_id": 231,
-		"coalition_id": "",
+		"area_id": 25,
+		"coalition_id": 2,
 		"colors": [
-			"PINK",
-			"WHITE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/AlternativaSocial"
+		"fb_urls": [],
+		"id": 54,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "JUNTOS POR EL CAMBIO TUCUMAN",
+			"es_AR": "JUNTOS POR EL CAMBIO TUCUMAN"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "JUNTOS POR ENTRE RIOS"
+		},
+		"area_id": 9,
+		"coalition_id": 2,
+		"colors": [
+			""
 		],
+		"fb_urls": [],
+		"id": 55,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "JUNTOS POR ENTRE RIOS",
+			"es_AR": "JUNTOS POR ENTRE RIOS"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "JUNTOS POR FORMOSA LIBRE"
+		},
+		"area_id": 10,
+		"coalition_id": 2,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 56,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "JUNTOS POR FORMOSA LIBRE",
+			"es_AR": "JUNTOS POR FORMOSA LIBRE"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "JUNTOS SOMOS RIO NEGRO"
+		},
+		"area_id": 17,
+		"coalition_id": 2,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
 		"id": 57,
 		"ig_urls": [],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/7MovAltSoc.jpg"
-		],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Movimiento Alternativa Social",
-			"es_MX": "Partido Movimiento Alternativa Social"
+			"en_US": "JUNTOS SOMOS RIO NEGRO",
+			"es_AR": "JUNTOS SOMOS RIO NEGRO"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PAZ",
-			"es_MX": "PAZ"
+			"en_US": "LLA",
+			"es_AR": "LA LIBERTAD AVANZA"
 		},
-		"area_id": 370,
-		"coalition_id": "",
+		"area_id": 7,
+		"coalition_id": 5,
 		"colors": [
-			"PINK",
-			"WHITE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/pazacatecas"
-		],
+		"fb_urls": [],
 		"id": 58,
-		"ig_urls": [
-			"https://www.instagram.com/partido_paz"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/23PAZparadesarrollarZac.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido para Desarrollar Zacatecas",
-			"es_MX": "Partido para Desarrollar Zacatecas"
+			"en_US": "LA LIBERTAD AVANZA",
+			"es_AR": "LA LIBERTAD AVANZA"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PP",
-			"es_MX": "PP"
+			"en_US": "N/A",
+			"es_AR": "LIBERTAD VALORES Y CAMBIO"
 		},
-		"area_id": 103,
-		"coalition_id": "",
+		"area_id": 15,
+		"coalition_id": 5,
 		"colors": [
-			"PURPLE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/podemosmorelos"
-		],
+		"fb_urls": [],
 		"id": 59,
 		"ig_urls": [],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/8PodemosporlademenMor.jpg"
-		],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Podemos",
-			"es_MX": "Partido Podemos"
+			"en_US": "LIBERTAD VALORES Y CAMBIO",
+			"es_AR": "LIBERTAD VALORES Y CAMBIO"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://www.podemosmorelos.org.mx"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "RSP",
-			"es_MX": "RSP"
+			"en_US": "N/A",
+			"es_AR": "MOVIMIENTO AL SOCIALISMO"
 		},
 		"area_id": 1,
-		"coalition_id": "",
+		"coalition_id": 3,
 		"colors": [
-			"RED",
-			"GRAY",
-			"Gray Black"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/RSP.org.mx"
-		],
+		"fb_urls": [],
 		"id": 60,
-		"ig_urls": [
-			"https://www.instagram.com/oficialrsp"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/01/RSP-emblema.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Redes Sociales Progresistas",
-			"es_MX": "Partido Redes Sociales Progresistas"
+			"en_US": "MOVIMIENTO AL SOCIALISMO",
+			"es_AR": "MOVIMIENTO AL SOCIALISMO"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.redessocialesprogresistas.org"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PRI",
-			"es_MX": "PRI"
+			"en_US": "MLS",
+			"es_AR": "MOVIMIENTO LIBRES DEL SUR"
 		},
 		"area_id": 1,
-		"coalition_id": 27,
+		"coalition_id": 1,
 		"colors": [
-			"RED",
-			"WHITE",
-			"GREEN"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/PRIoficial"
-		],
+		"fb_urls": [],
 		"id": 61,
-		"ig_urls": [
-			"https://www.instagram.com/pri_nacional/"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/01/pri.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Revolucionario Institucional",
-			"es_MX": "Partido Revolucionario Institucional"
+			"en_US": "MOVIMIENTO LIBRES DEL SUR",
+			"es_AR": "MOVIMIENTO LIBRES DEL SUR"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.pri.org.mx"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PAS",
-			"es_MX": "PAS"
+			"en_US": "MPF",
+			"es_AR": "MOVIMIENTO POPULAR FUEGUINO"
 		},
-		"area_id": 304,
-		"coalition_id": "",
+		"area_id": 24,
+		"coalition_id": 6,
 		"colors": [
-			"PURPLE"
+			""
 		],
 		"fb_urls": [],
 		"id": 62,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Sinaloense",
-			"es_MX": "Partido Sinaloense"
+			"en_US": "MOVIMIENTO POPULAR FUEGUINO",
+			"es_AR": "MOVIMIENTO POPULAR FUEGUINO"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PSD",
-			"es_MX": "PSD"
+			"en_US": "MPN",
+			"es_AR": "MOVIMIENTO POPULAR NEUQUINO"
 		},
-		"area_id": 231,
-		"coalition_id": "",
+		"area_id": 16,
+		"coalition_id": 6,
 		"colors": [
-			"ORANGE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/PSDMORELOS"
-		],
+		"fb_urls": [],
 		"id": 63,
-		"ig_urls": [
-			"https://www.instagram.com/psdmorelos"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2020/01/psd-morelos.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Socialdemócrata de Morelos",
-			"es_MX": "Partido Socialdemócrata de Morelos"
+			"en_US": "MOVIMIENTO POPULAR NEUQUINO",
+			"es_AR": "MOVIMIENTO POPULAR NEUQUINO"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://www.psd.org.mx"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PS",
-			"es_MX": "PS"
+			"en_US": "NI",
+			"es_AR": "NUEVA IZQUIERDA"
 		},
-		"area_id": 333,
-		"coalition_id": "",
+		"area_id": 9,
+		"coalition_id": 3,
 		"colors": [
-			"RED"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/JALISCOSOMOS",
-			"https://www.facebook.com/partidosocialsita"
-		],
+		"fb_urls": [],
 		"id": 64,
 		"ig_urls": [],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/04/emblema-pjalisco.jpg",
-			"https://www.ine.mx/wp-content/uploads/2018/08/ps.png"
-		],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Socialista",
-			"es_MX": "Partido Socialista"
+			"en_US": "NUEVA IZQUIERDA",
+			"es_AR": "NUEVA IZQUIERDA"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.somosjalisco.org.mx"
-			},
-			{
-				"note": "official",
-				"url": "https://www.partidosocialista-tlax.com"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PS",
-			"es_MX": "PS"
+			"en_US": "N/A",
+			"es_AR": "PARTIDO CONSERVADOR POPULAR"
 		},
-		"area_id": 196,
-		"coalition_id": "",
+		"area_id": 9,
+		"coalition_id": 6,
 		"colors": [
-			"YELLOW",
-			"PINK",
-			"BLUE"
+			""
 		],
 		"fb_urls": [],
 		"id": 65,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Somos",
-			"es_MX": "Partido Somos"
+			"en_US": "PARTIDO CONSERVADOR POPULAR",
+			"es_AR": "PARTIDO CONSERVADOR POPULAR"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PUP",
-			"es_MX": "PUP"
+			"en_US": "PDO",
+			"es_AR": "PARTIDO DEL OBRERO"
 		},
-		"area_id": 256,
-		"coalition_id": "",
+		"area_id": 4,
+		"coalition_id": 3,
 		"colors": [
-			"GREEN",
-			"RED"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/PartidoUnidadPopularOficial"
-		],
-		"id": 66,
-		"ig_urls": [
-			"https://www.instagram.com/partidounidadpopularoficial"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/01/unidad-popular.png"
-		],
-		"name": {
-			"en_US": "Partido Unidad Popular",
-			"es_MX": "Partido Unidad Popular"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.partidounidadpopular.org.mx"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "PU",
-			"es_MX": "PU"
-		},
-		"area_id": 48,
-		"coalition_id": "",
-		"colors": [
-			"PURPLE",
-			"YELLOW",
 			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/UNIDOS-1770991923195896"
-		],
-		"id": 67,
+		"fb_urls": [],
+		"id": 66,
 		"ig_urls": [],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/3UNIDOS.jpg"
-		],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Unido",
-			"es_MX": "Partido Unido"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.unidoscoahuila.org"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "UP",
-			"es_MX": "UP"
-		},
-		"area_id": 2,
-		"coalition_id": "",
-		"colors": [
-			"YELLOW",
-			"BLACK",
-			"BLUE",
-			"RED"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/Partido-Unidos-Podemos-Mas-2001805749934453"
-		],
-		"id": 68,
-		"ig_urls": [
-			"https://www.instagram.com/unidospodemosmasags"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2019/08/Aguascalientes-UPA.jpg"
-		],
-		"name": {
-			"en_US": "Partido Unidos Podemos Más",
-			"es_MX": "Partido Unidos Podemos Más"
+			"en_US": "PARTIDO DEL OBRERO",
+			"es_AR": "PARTIDO DEL OBRERO"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PVEM",
-			"es_MX": "PVEM"
+			"en_US": "N/A",
+			"es_AR": "PARTIDO FE"
 		},
-		"area_id": 1,
-		"coalition_id": "",
+		"area_id": 9,
+		"coalition_id": 6,
 		"colors": [
-			"GREEN"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/PartidoVerdeEcologistaMex"
-		],
-		"id": 69,
-		"ig_urls": [
-			"https://www.instagram.com/partidoverdemex"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/01/pvem.png"
-		],
+		"fb_urls": [],
+		"id": 67,
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Verde Ecologista de México",
-			"es_MX": "Partido Verde Ecologista de México"
+			"en_US": "PARTIDO FE",
+			"es_AR": "PARTIDO FE"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.partidoverde.org.mx"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PMC",
-			"es_MX": "PMC"
+			"en_US": "N/A",
+			"es_AR": "PARTIDO FEDERAL - DISTRITO MENDOZA"
 		},
-		"area_id": 32,
-		"coalition_id": "",
+		"area_id": 14,
+		"coalition_id": 6,
 		"colors": [
-			"PURPLE",
-			"YELLOW",
+			""
+		],
+		"fb_urls": [],
+		"id": 68,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "PARTIDO FEDERAL - DISTRITO MENDOZA",
+			"es_AR": "PARTIDO FEDERAL - DISTRITO MENDOZA"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "PARTIDO FRENTE INTEGRADOR"
+		},
+		"area_id": 4,
+		"coalition_id": 6,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 69,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "PARTIDO FRENTE INTEGRADOR",
+			"es_AR": "PARTIDO FRENTE INTEGRADOR"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "PARTIDO INDEPENDIENTE DEL CHUBUT"
+		},
+		"area_id": 5,
+		"coalition_id": 6,
+		"colors": [
 			""
 		],
 		"fb_urls": [],
 		"id": 70,
 		"ig_urls": [],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2020/01/podemos-mover-chiapas.jpg"
-		],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Podemos Mover a Chiapas",
-			"es_MX": "Podemos Mover a Chiapas"
+			"en_US": "PARTIDO INDEPENDIENTE DEL CHUBUT",
+			"es_AR": "PARTIDO INDEPENDIENTE DEL CHUBUT"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PPCH",
-			"es_MX": "PPCH"
+			"en_US": "PO",
+			"es_AR": "PARTIDO OBRERO"
 		},
-		"area_id": 32,
-		"coalition_id": "",
+		"area_id": 24,
+		"coalition_id": 3,
 		"colors": [
-			"RED",
-			"YELLOW"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/PensemosEnChiapasAC"
-		],
+		"fb_urls": [],
 		"id": 71,
-		"ig_urls": [
-			"https://www.instagram.com/partidopopularch"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/1PartidoPopularChiapaneco.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Popular Chiapaneco",
-			"es_MX": "Popular Chiapaneco"
+			"en_US": "PARTIDO OBRERO",
+			"es_AR": "PARTIDO OBRERO"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "QI",
-			"es_MX": "QI"
+			"en_US": "N/A",
+			"es_AR": "PARTIDO POR UN SANTIAGO OBRERO"
 		},
-		"area_id": 283,
+		"area_id": 23,
+		"coalition_id": 3,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 72,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "PARTIDO POR UN SANTIAGO OBRERO",
+			"es_AR": "PARTIDO POR UN SANTIAGO OBRERO"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "PARTIDO PRINCIPIOS Y CONVICCION"
+		},
+		"area_id": 10,
+		"coalition_id": 6,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 73,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "PARTIDO PRINCIPIOS Y CONVICCION",
+			"es_AR": "PARTIDO PRINCIPIOS Y CONVICCION"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "P.S",
+			"es_AR": "PARTIDO SOCIALISTA"
+		},
+		"area_id": 1,
 		"coalition_id": 2,
 		"colors": [
-			"PURPLE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/QueretaroIndependienteCH"
-		],
-		"id": 72,
-		"ig_urls": [
-			"https://www.instagram.com/queretaro_independiente"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2018/08/qi.png"
-		],
-		"name": {
-			"en_US": "Querétaro Independiente",
-			"es_MX": "Querétaro Independiente"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://www.queretaroindependiente.org"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "RPM",
-			"es_MX": "RPM"
-		},
-		"area_id": 231,
-		"coalition_id": "",
-		"colors": [
-			"GREEN",
-			"YELLOW"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/renovacionpoliticamorelenseoficial"
-		],
-		"id": 73,
-		"ig_urls": [
-			"https://www.instagram.com/rpm_renovacion"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/14RenovPolMorelense.jpg"
-		],
-		"name": {
-			"en_US": "Renovación Política Morelense",
-			"es_MX": "Renovación Política Morelense"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.renovacionpoliticamorelense.org"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "TV",
-			"es_MX": "TV"
-		},
-		"area_id": 343,
-		"coalition_id": "",
-		"colors": [
-			"PURPLE",
-			"PINK"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/TodosPorVeracruz"
-		],
+		"fb_urls": [],
 		"id": 74,
-		"ig_urls": [
-			"https://www.instagram.com/todosporveracruz"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/19TodosporVeracruz.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Todos por Veracruz",
-			"es_MX": "Todos por Veracruz"
+			"en_US": "PARTIDO SOCIALISTA",
+			"es_AR": "PARTIDO SOCIALISTA"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.todosporveracruz.org"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "UC",
-			"es_MX": "UC"
+			"en_US": "N/A",
+			"es_AR": "PARTIDO VERDE - DISTRITO MENDOZA"
 		},
-		"area_id": 343,
-		"coalition_id": "",
+		"area_id": 14,
+		"coalition_id": 6,
 		"colors": [
-			"PURPLE",
-			"PINK"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/UnidadCiudadanaVer"
-		],
+		"fb_urls": [],
 		"id": 75,
-		"ig_urls": [
-			"https://www.instagram.com/partidounidadciudadana"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2021/02/22UnidadCiudadana.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Unidad Ciudadana",
-			"es_MX": "Unidad Ciudadana"
+			"en_US": "PARTIDO VERDE - DISTRITO MENDOZA",
+			"es_AR": "PARTIDO VERDE - DISTRITO MENDOZA"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.partidounidadciudadana.org"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "UDC",
-			"es_MX": "UDC"
+			"en_US": "N/A",
+			"es_AR": "PODEMOS"
 		},
-		"area_id": 48,
-		"coalition_id": "",
+		"area_id": 22,
+		"coalition_id": 6,
 		"colors": [
-			"ORANGE"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/UDCCOAH"
-		],
+		"fb_urls": [],
 		"id": 76,
-		"ig_urls": [
-			"https://www.instagram.com/udccoah"
-		],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2019/10/udc-coahuila.png"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Unidad Democrática de Coahuila",
-			"es_MX": "Unidad Democrática de Coahuila"
+			"en_US": "PODEMOS",
+			"es_AR": "PODEMOS"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.udc.org.mx"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "VIVA",
-			"es_MX": "VIVA"
+			"en_US": "N/A",
+			"es_AR": "POLITICAOBRERA"
 		},
-		"area_id": 237,
-		"coalition_id": "",
+		"area_id": 18,
+		"coalition_id": 3,
 		"colors": [
-			"YELLOW"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/VIVApartidopolitico"
-		],
+		"fb_urls": [],
 		"id": 77,
 		"ig_urls": [],
-		"logo_urls": [
-			"https://www.ine.mx/wp-content/uploads/2019/08/nayarit-viva.png"
-		],
+		"logo_urls": [],
 		"name": {
-			"en_US": "Visión y Valores en Acción",
-			"es_MX": "Visión y Valores en Acción"
+			"en_US": "POLITICAOBRERA",
+			"es_AR": "POLITICAOBRERA"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.visionyvalores.org"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PH",
-			"es_MX": "PH"
+			"en_US": "N/A",
+			"es_AR": "PRIMERO SANTA FE"
 		},
-		"area_id": 232,
-		"coalition_id": "",
+		"area_id": 22,
+		"coalition_id": 6,
 		"colors": [
-			"Purple"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/partidohumanista.mx"
-		],
+		"fb_urls": [],
 		"id": 78,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Partido Humanista de Morelos",
-			"es_MX": "Partido Humanista de Morelos"
+			"en_US": "PRIMERO SANTA FE",
+			"es_AR": "PRIMERO SANTA FE"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "REPUBLICANOS UNIDOS"
+		},
+		"area_id": 24,
+		"coalition_id": 6,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 79,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "REPUBLICANOS UNIDOS",
+			"es_AR": "REPUBLICANOS UNIDOS"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "SOMOS ENERGIA PARA RENOVAR SANTA CRUZ - SER"
+		},
+		"area_id": 21,
+		"coalition_id": 6,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 80,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "SOMOS ENERGIA PARA RENOVAR SANTA CRUZ - SER",
+			"es_AR": "SOMOS ENERGIA PARA RENOVAR SANTA CRUZ - SER"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "SOMOS FUEGUINOS"
+		},
+		"area_id": 24,
+		"coalition_id": 6,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 81,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "SOMOS FUEGUINOS",
+			"es_AR": "SOMOS FUEGUINOS"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "SOMOS FUTURO"
+		},
+		"area_id": 22,
+		"coalition_id": 6,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 82,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "SOMOS FUTURO",
+			"es_AR": "SOMOS FUTURO"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "TODOS UNIDOS SAN LUIS"
+		},
+		"area_id": 20,
+		"coalition_id": 6,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 83,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "TODOS UNIDOS SAN LUIS",
+			"es_AR": "TODOS UNIDOS SAN LUIS"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "UNIDOS POR SALTA"
+		},
+		"area_id": 18,
+		"coalition_id": 6,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 84,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "UNIDOS POR SALTA",
+			"es_AR": "UNIDOS POR SALTA"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "UCR",
+			"es_AR": "UNION CIVICA RADICAL SAN LUIS"
+		},
+		"area_id": 20,
+		"coalition_id": 2,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 85,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "UNION CIVICA RADICAL SAN LUIS",
+			"es_AR": "UNION CIVICA RADICAL SAN LUIS"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "UNION POPULAR FEDERAL"
+		},
+		"area_id": 7,
+		"coalition_id": 6,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 86,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "UNION POPULAR FEDERAL",
+			"es_AR": "UNION POPULAR FEDERAL"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "UNITE POR LA LIBERTAD Y LA DIGNIDAD"
+		},
+		"area_id": 1,
+		"coalition_id": 6,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 87,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "UNITE POR LA LIBERTAD Y LA DIGNIDAD",
+			"es_AR": "UNITE POR LA LIBERTAD Y LA DIGNIDAD"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "VAMOS! MENDOCINOS - DISTRITO MENDOZA"
+		},
+		"area_id": 14,
+		"coalition_id": 6,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 88,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "VAMOS! MENDOCINOS - DISTRITO MENDOZA",
+			"es_AR": "VAMOS! MENDOCINOS - DISTRITO MENDOZA"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "UCEDE",
+			"es_AR": "UCEDE - UNION DEL CENTRO DEMOCRATICO"
+		},
+		"area_id": 13,
+		"coalition_id": 6,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 89,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "UCEDE - UNION DEL CENTRO DEMOCRATICO",
+			"es_AR": "UCEDE - UNION DEL CENTRO DEMOCRATICO"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "UNIDOS"
+		},
+		"area_id": 13,
+		"coalition_id": 6,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 90,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "UNIDOS",
+			"es_AR": "UNIDOS"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "VAMOS LA RIOJA - CAMBIA LA RIOJA"
+		},
+		"area_id": 13,
+		"coalition_id": 6,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 91,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "VAMOS LA RIOJA - CAMBIA LA RIOJA",
+			"es_AR": "VAMOS LA RIOJA - CAMBIA LA RIOJA"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "N/A",
+			"es_AR": "SOBERANIA POPULAR (1)"
+		},
+		"area_id": 22,
+		"coalition_id": 6,
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 92,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "SOBERANIA POPULAR (1)",
+			"es_AR": "SOBERANIA POPULAR (1)"
 		},
 		"websites": []
 	}
