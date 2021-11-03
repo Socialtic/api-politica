@@ -30,12 +30,12 @@ CORS(application)
 ma = Marshmallow(application)
 db = SQLAlchemy(application)
 api = Api(application, doc='/docs',
-          title='MX Elections 2021',
-          description='API of information on the Mexican elections of 2021',
+          title='AR Elections 2021',
+          description='API of information on the Argentinian elections of 2021',
           version='1.1')
 
 #   Some kind of internal token
-from app.models.token_auth import TokenAuth
+from app.models.token_auth import *
 
 try:
     INTERNAL_TOKEN = TokenAuth.find_by_id(1)
@@ -43,16 +43,16 @@ except:
     INTERNAL_TOKEN = True
 
 #   Functions for the app
-from app.controllers.area import Area, AreaList
-from app.controllers.chamber import Chamber, ChamberList
-from app.controllers.role import Role, RoleList
-from app.controllers.coalition import Coalition, CoalitionList
-from app.controllers.party import Party, PartyList
-from app.controllers.person import Person, PersonList
-from app.controllers.other_names import OtherNames, OtherNamesList
-from app.controllers.professions import Profession, ProfessionList
-from app.controllers.person_professions import PersonProfession, PersonProfessionList
-from app.controllers.memberships import Membership, MembershipList
-from app.controllers.contest import Contest, ContestList
-from app.controllers.url import Url, UrlList
-from app.controllers.export import Export, ExportMin
+from app.controllers.area import *
+from app.controllers.chamber import *
+from app.controllers.role import *
+from app.controllers.coalition import *
+from app.controllers.party import *
+from app.controllers.person import *
+from app.controllers.other_names import *
+from app.controllers.professions import *
+from app.controllers.person_professions import *
+from app.controllers.memberships import *
+from app.controllers.contest import *
+from app.controllers.url import *
+from app.controllers.export import *
