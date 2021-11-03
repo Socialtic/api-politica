@@ -26,11 +26,11 @@ class PartyModel(db.Model):
             'id': self.party_id,
             'name': {
                 'en_US': self.name,
-                'es_MX': self.name
+                'es_AR': self.name
             },
             'abbreviation': {
                 'en_US': self.abbreviation,
-                'es_MX': self.abbreviation
+                'es_AR': self.name
             },
             'colors': self.colors,
             'area_id': "" if self.area_id == EmptyValues.EMPTY_INT else self.area_id,

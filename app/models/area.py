@@ -30,7 +30,7 @@ class AreaModel(db.Model):
             'ocd_id': self.ocd_id,
             'name': {
                 'en_US': self.name,
-                'es_MX': self.name
+                'es_AR': self.name
             },
             'country': self.country,
             'state': self.state,
