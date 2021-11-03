@@ -1,17 +1,13 @@
 branch-defaults:
-  main:
-    environment: mx-elections-2021
+  argentina:
+    environment: ar-elections-2021
     group_suffix: null
-environment-defaults:
-  mx-elections-2021:
-    branch: null
-    repository: null
 global:
-  application_name: mx-elections-2021
+  application_name: ar-elections-2021
   branch: null
   default_ec2_keyname: null
   default_platform: Python 3.8 running on 64bit Amazon Linux 2
-  default_region: us-east-2
+  default_region: us-west-2
   include_git_submodules: true
   instance_profile: null
   platform_name: null
