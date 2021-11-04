@@ -13,7 +13,7 @@ def token():
         authorization_code = request.args.get('code')
         client_id = '26mcuibmjcn677ikq9b1endmj1'
         grant_type = 'authorization_code'
-        authorization = 'Basic MjZtY3VpYm1qY242Nzdpa3E5YjFlbmRtajEgMXMxN2hncDFkcXBhcHF1c2Q4NGo2N2xldTU1ajMybTkxdXBlYm1iMTRkc2ttZDlxOWdzOQ=='
+        authorization = 'Basic MjZtY3VpYm1qY242Nzdpa3E5YjFlbmRtajE6MXMxN2hncDFkcXBhcHF1c2Q4NGo2N2xldTU1ajMybTkxdXBlYm1iMTRkc2ttZDlxOWdzOQ=='
 
         headers = {
             'Content-Type': "application/x-www-form-urlencoded",
