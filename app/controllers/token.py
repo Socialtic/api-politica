@@ -28,5 +28,5 @@ def token():
         # print(response.request.headers)
 
         return render_template('token.html', authorization_code=authorization_code, response=json2html.convert(json=response.json()))
-    excempt:
+    except:
         return render_template('error.html')
