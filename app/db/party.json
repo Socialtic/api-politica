@@ -7,17 +7,28 @@
 		"area_id": 2,
 		"coalition_id": "",
 		"colors": [
-			""
+			"Dark Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/profile.php?id=100022757332085"
+		],
 		"id": 1,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/valoresprovinciadebuenosaires"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1261394342155075586/uFa2Kraf_400x400.jpg"
+		],
 		"name": {
 			"en_US": "ALIANZA + VALORES",
 			"es_AR": "ALIANZA + VALORES"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.valoresparamipais.com"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -27,17 +38,29 @@
 		"area_id": 6,
 		"coalition_id": 5,
 		"colors": [
-			""
+			"Blue",
+			"Black"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/LibertadAvanzaOficial"
+		],
 		"id": 2,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/lalibertadavanzaoficial"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1422950434751369222/njQmVapA_400x400.jpg"
+		],
 		"name": {
 			"en_US": "ALIANZA AVANZA LA LIBERTAD",
 			"es_AR": "ALIANZA AVANZA LA LIBERTAD"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://lalibertadavanza.com.ar"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -47,17 +70,29 @@
 		"area_id": 2,
 		"coalition_id": 5,
 		"colors": [
-			""
+			"Blue",
+			"Black"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/AvanzaLibertadArgentina"
+		],
 		"id": 3,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/avanzalibertad_"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1338113484303847425/OICbKc0P_400x400.jpg"
+		],
 		"name": {
 			"en_US": "ALIANZA AVANZA LIBERTAD",
 			"es_AR": "ALIANZA AVANZA LIBERTAD"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://avanzalibertad.com"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -67,17 +102,29 @@
 		"area_id": 4,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Orange",
+			"Green"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/chacocambia"
+		],
 		"id": 4,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/chacocambiaig"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1417617490868326408/WEm4DhDB_400x400.jpg"
+		],
 		"name": {
 			"en_US": "ALIANZA CHACO CAMBIA + JUNTOS POR EL CAMBIO",
 			"es_AR": "ALIANZA CHACO CAMBIA + JUNTOS POR EL CAMBIO"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://chacocambia.com.ar/?fbclid=IwAR0yfLZ-FtRfaQfxi8xYEbhdQqrsrblf3mFzxnuFCaqeGRkPCE4cLvEVMKE"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -87,17 +134,28 @@
 		"area_id": 20,
 		"coalition_id": 3,
 		"colors": [
-			""
+			"Red"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/pts.sanluis"
+		],
 		"id": 5,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/pts_sanluis"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1263986530818891776/6tVPdBBW_400x400.png"
+		],
 		"name": {
 			"en_US": "ALIANZA FITU SAN LUIS",
 			"es_AR": "ALIANZA FITU SAN LUIS"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.pts.org.ar/San-Luis"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -107,17 +165,28 @@
 		"area_id": 1,
 		"coalition_id": 1,
 		"colors": [
-			""
+			"Light Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/FrenteDeTodosdistritoSanLuis"
+		],
 		"id": 6,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentedetodosdistritosanluis"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1143274630918156291/Om9WHE3C_400x400.png"
+		],
 		"name": {
 			"en_US": "ALIANZA FRENTE DE TODOS",
 			"es_AR": "ALIANZA FRENTE DE TODOS"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://frentedetodosdistritosanluis.com"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -127,17 +196,28 @@
 		"area_id": 1,
 		"coalition_id": 4,
 		"colors": [
-			""
+			"Green"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/Frente-Vamos-Con-Vos-107253101641200"
+		],
 		"id": 7,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentevamosconvos"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1446097717390942216/ZTBbl-dv_400x400.jpg"
+		],
 		"name": {
 			"en_US": "ALIANZA FRENTE VAMOS CON VOS",
 			"es_AR": "ALIANZA FRENTE VAMOS CON VOS"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.vamosconvos.ar/?fbclid=IwAR0hfZboA0MqkBK2dVtqWxmo7xNP-BskUKkzsEvGmwvHA6Uv6fStuaYiG5g"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -147,17 +227,28 @@
 		"area_id": 20,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Cyan"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/FrenteFuerzaSanLuis"
+		],
 		"id": 8,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentefuerzasanluis"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1417132058447581184/2QOhPa_h_400x400.jpg"
+		],
 		"name": {
 			"en_US": "ALIANZA FUERZA SAN LUIS",
 			"es_AR": "ALIANZA FUERZA SAN LUIS"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://frentefuerzasanluis.com.ar/?fbclid=IwAR14gptdUTmjaK6Q9x6mk6eGPjjm21i9AlooD-jmX3cxgH9NsxvyqmK4IQU"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -187,12 +278,16 @@
 		"area_id": 20,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Dark Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/frentesanluisunido"
+		],
 		"id": 10,
 		"ig_urls": [],
-		"logo_urls": [],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/226077819_1026935161381531_6456446901423947323_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=kHC0_WiKJ_sAX8ODJJO&_nc_ht=scontent.faep9-2.fna&oh=6d373f3ad96c492ee28a52026f633e9f&oe=6197FD62"
+		],
 		"name": {
 			"en_US": "ALIANZA UNIDOS POR SAN LUIS",
 			"es_AR": "ALIANZA UNIDOS POR SAN LUIS"
@@ -207,17 +302,28 @@
 		"area_id": 8,
 		"coalition_id": 4,
 		"colors": [
-			""
+			"Green"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/Frente-Vamos-Con-Vos-107253101641200"
+		],
 		"id": 11,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentevamosconvos"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1446097717390942216/ZTBbl-dv_400x400.jpg"
+		],
 		"name": {
 			"en_US": "ALIANZA VAMOS CON VOS",
 			"es_AR": "ALIANZA VAMOS CON VOS"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.vamosconvos.ar/?fbclid=IwAR0hfZboA0MqkBK2dVtqWxmo7xNP-BskUKkzsEvGmwvHA6Uv6fStuaYiG5g"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -227,17 +333,28 @@
 		"area_id": 6,
 		"coalition_id": 3,
 		"colors": [
-			""
+			"Purple"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/Aylibertad"
+		],
 		"id": 12,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/aylibertadok"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1431414012957315073/ZLFuEIGz_400x400.jpg"
+		],
 		"name": {
 			"en_US": "AUTODETERMINACIÓN Y LIBERTAD",
 			"es_AR": "AUTODETERMINACIÓN Y LIBERTAD"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://aylibertad.com.ar"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -247,17 +364,28 @@
 		"area_id": 11,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Pink"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/FrenteCambiaJUJUY"
+		],
 		"id": 13,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentecambiajujuy"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1425829447207329797/r3WxRsbV_400x400.jpg"
+		],
 		"name": {
 			"en_US": "CAMBIA JUJUY",
 			"es_AR": "CAMBIA JUJUY"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://cambiajujuy.com/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -267,17 +395,28 @@
 		"area_id": 14,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/Frente-Cambia-Mendoza-1553614908244248"
+		],
 		"id": 14,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentecambiamza"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1415447571078828033/DOoKXLIl_400x400.jpg"
+		],
 		"name": {
 			"en_US": "CAMBIA MENDOZA - DISTRITO MENDOZA",
 			"es_AR": "CAMBIA MENDOZA - DISTRITO MENDOZA"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://cambiamendoza.com"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -287,17 +426,28 @@
 		"area_id": 16,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/cambianeuquen"
+		],
 		"id": 15,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/cambianeuquenok"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/218156253_124447899814664_3983360288842689691_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=wFkRCvZHb0kAX-hpsPL&_nc_ht=scontent.faep9-2.fna&oh=7ebdf7c7d76b00584047b3825e46b75b&oe=61982607"
+		],
 		"name": {
 			"en_US": "CAMBIA NEUQUÉN",
 			"es_AR": "CAMBIA NEUQUÉN"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "http://www.cambianeuquen.com"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -307,17 +457,26 @@
 		"area_id": 21,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/CambiaSantaCruz"
+		],
 		"id": 16,
 		"ig_urls": [],
-		"logo_urls": [],
+		"logo_urls": [
+			"https://scontent.feze7-1.fna.fbcdn.net/v/t39.30808-6/226823568_107456351617218_3699284219011968184_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=c7dUTa0r4-MAX8KGoiS&_nc_ht=scontent.feze7-1.fna&oh=ed72fc7bff763a444d9446cd19ee0466&oe=61884946"
+		],
 		"name": {
 			"en_US": "CAMBIA SANTA CRUZ",
 			"es_AR": "CAMBIA SANTA CRUZ"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.cambiasantacruz.com"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -327,17 +486,28 @@
 		"area_id": 5,
 		"coalition_id": 1,
 		"colors": [
-			""
+			"Purple"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/Chubut-Somos-Todos-104937981184498"
+		],
 		"id": 17,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/chsomostodos"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1249404584923201536/Pa6hDR1J_400x400.jpg"
+		],
 		"name": {
 			"en_US": "CHUBUT SOMOS TODOS",
 			"es_AR": "CHUBUT SOMOS TODOS"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "http://www.chubutsomostodos.org.ar"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -347,17 +517,28 @@
 		"area_id": 16,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/CoalicionCivicaAriNacional"
+		],
 		"id": 18,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/ccari_ok"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1249852621424340999/_KEoG5vr_400x400.jpg"
+		],
 		"name": {
 			"en_US": "COALICION CIVICA - ARI",
 			"es_AR": "COALICION CIVICA - ARI"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.ccaridiputados.com.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -367,12 +548,18 @@
 		"area_id": 8,
 		"coalition_id": 1,
 		"colors": [
-			""
+			"Cyan"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/juventudcompromisofederal"
+		],
 		"id": 19,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/compromiso_federal"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1283227110774050816/NeVZ_GD3_400x400.png"
+		],
 		"name": {
 			"en_US": "COMPROMISO FEDERAL",
 			"es_AR": "COMPROMISO FEDERAL"
@@ -387,17 +574,28 @@
 		"area_id": 14,
 		"coalition_id": 1,
 		"colors": [
-			""
+			"Dark Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/compromisofederal.mza"
+		],
 		"id": 20,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/compromisofederal.mza"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1424740492953194496/x1owWFT0_400x400.jpg"
+		],
 		"name": {
 			"en_US": "COMPROMISO FEDERAL - DISTRITO MENDOZA",
 			"es_AR": "COMPROMISO FEDERAL - DISTRITO MENDOZA"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.gestamendocina.com/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -407,17 +605,28 @@
 		"area_id": 3,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/CoPeBoARG"
+		],
 		"id": 21,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/copeboarg"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/61534127_371982156782282_3414419367331364864_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=OegwGgbEOUQAX_c8fUp&_nc_ht=scontent.faep9-1.fna&oh=d8bd30c51535371ba0693f33d7e3ddcd&oe=619A7084"
+		],
 		"name": {
 			"en_US": "CORRIENTE DE PENSAMIENTO BONAERENSE",
 			"es_AR": "CORRIENTE DE PENSAMIENTO BONAERENSE"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "http://copebo.com.ar/new"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -427,17 +636,28 @@
 		"area_id": 15,
 		"coalition_id": 3,
 		"colors": [
-			""
+			"Red"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/partidoobreroarg"
+		],
 		"id": 22,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/partidoobrero"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1041712502260817924/I6mgFMkh_400x400.jpg"
+		],
 		"name": {
 			"en_US": "DEL OBRERO",
 			"es_AR": "DEL OBRERO"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://po.org.ar/?fbclid=IwAR0HcJgS_qUZAnS3mYp4KxhXLLmPpDQQxjQ_1nYZennvBZM7pIVbcD7lOkA"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -447,17 +667,29 @@
 		"area_id": 8,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Lime",
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/ECO-M%C3%A1s-Vamos-Corrientes-106422871724660"
+		],
 		"id": 23,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/ecocorrientes"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1410039202989871105/_xrBuO2d_400x400.jpg"
+		],
 		"name": {
 			"en_US": "ECO + VAMOS CORRIENTES",
 			"es_AR": "ECO + VAMOS CORRIENTES"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.vamosvaldes.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -467,17 +699,29 @@
 		"area_id": 7,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Orange",
+			"Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/EncuentroVecinalCba"
+		],
 		"id": 24,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/encuentrovecinalcordoba"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/71472108_2441704692588361_4647877401433341952_n.png?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=KFuRQgfMPRsAX-L7S0f&_nc_ht=scontent.faep9-2.fna&oh=c321316321f7ee49bbfbdace12a52616&oe=61977530"
+		],
 		"name": {
 			"en_US": "ENCUENTRO VECINAL CORDOBA",
 			"es_AR": "ENCUENTRO VECINAL CORDOBA"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://evcba.com.ar/?fbclid=IwAR0yveqEJ57lKfhpBu8wIizAsuNf2uAZ14uJTVpLRelLIqc73luMcdgRA_g"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -487,17 +731,28 @@
 		"area_id": 18,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Orange"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/partidofelicidad.salta"
+		],
 		"id": 25,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/partido_felicidad"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/904767593533276160/U59IpGrn_400x400.jpg"
+		],
 		"name": {
 			"en_US": "FELICIDAD",
 			"es_AR": "FELICIDAD"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "http://www.partidofelicidad.com.ar"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -507,12 +762,18 @@
 		"area_id": 3,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Red"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/Frenteampliocatamarqueno"
+		],
 		"id": 26,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frente_amp.cat"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1433441374838345737/bFmVFfDu_400x400.jpg"
+		],
 		"name": {
 			"en_US": "FRENTE AMPLIO CATAMARQUEÑO",
 			"es_AR": "FRENTE AMPLIO CATAMARQUEÑO"
@@ -527,17 +788,28 @@
 		"area_id": 25,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/Frente-Amplio-por-Tucum%C3%A1n-166202015516298"
+		],
 		"id": 27,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frenteamplioportucuman"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/224908645_166328938836939_1557046132457320409_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=UzcchBvOAnEAX_iYAxw&_nc_ht=scontent.faep9-1.fna&oh=eea9ae13d30528cebe75f97a5d6d8787&oe=61979786"
+		],
 		"name": {
 			"en_US": "FRENTE AMPLIO POR TUCUMAN",
 			"es_AR": "FRENTE AMPLIO POR TUCUMAN"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://edicionldstuc.wixsite.com/frenteamplioxtucuman?fbclid=IwAR0Qgrd88MLA30qo4ezJ2csinffkMe4CsBGOZGJbuOUfmR48_cgyYb0_0as"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -547,12 +819,18 @@
 		"area_id": 22,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Orange"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/FrenteProgresistaCivicoYSocial"
+		],
 		"id": 28,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/fapiriondo"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/53305563_10156779720538964_1119804240148037632_n.png?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=iIhEVBT2tLIAX9W1W-p&_nc_ht=scontent.faep9-1.fna&oh=1816f3ad5c7f46fb227cac96913b64c0&oe=619869C5"
+		],
 		"name": {
 			"en_US": "FRENTE AMPLIO PROGRESISTA",
 			"es_AR": "FRENTE AMPLIO PROGRESISTA"
@@ -567,17 +845,29 @@
 		"area_id": 23,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Red",
+			"Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/FrenteCivico"
+		],
 		"id": 29,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentecivicoporsantiago"
+		],
+		"logo_urls": [
+			"https://www.elliberal.com.ar/fotos/cache/notas/2021/07/23/400x350_571675_20210723210540.jpg"
+		],
 		"name": {
 			"en_US": "FRENTE CIVICO POR SANTIAGO",
 			"es_AR": "FRENTE CIVICO POR SANTIAGO"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "http://www.frentecivicosgo.com.ar"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -587,17 +877,28 @@
 		"area_id": 19,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Dark Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/ConsensoIschigualasto.ok"
+		],
 		"id": 30,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/consensoischigualasto"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/246493949_1216626602155213_40669057754973059_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=6IL5l6gsmYEAX_o7C6l&_nc_ht=scontent.faep9-2.fna&oh=9c17a027e643977248e43054751bb4c5&oe=619A0219"
+		],
 		"name": {
 			"en_US": "FRENTE CONSENSO ISCHIGUALASTO (SAN JUAN)",
 			"es_AR": "FRENTE CONSENSO ISCHIGUALASTO (SAN JUAN)"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://consensoischigualasto.com/?fbclid=IwAR1y16U7Qwr0jhS_VolZa6JYN4r4kSXKOhqoqYobP_RlBj8uKhAaHDtXlZo"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -607,17 +908,28 @@
 		"area_id": 25,
 		"coalition_id": 3,
 		"colors": [
-			""
+			"Red"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/fte.izquierda"
+		],
 		"id": 31,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentedeizquierda"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1138872031984988160/afQKnnnz_400x400.png"
+		],
 		"name": {
 			"en_US": "FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES UNIDAD-TUC",
 			"es_AR": "FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES UNIDAD-TUC"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://po.org.ar"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -627,17 +939,28 @@
 		"area_id": 2,
 		"coalition_id": 3,
 		"colors": [
-			""
+			"Red"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/fte.izquierda"
+		],
 		"id": 32,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentedeizquierda"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1138872031984988160/afQKnnnz_400x400.png"
+		],
 		"name": {
 			"en_US": "FRENTE DE IZQUIERDA Y DE TRABAJADORES",
 			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://po.org.ar"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -647,17 +970,28 @@
 		"area_id": 1,
 		"coalition_id": 3,
 		"colors": [
-			""
+			"Red"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/fte.izquierda"
+		],
 		"id": 33,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentedeizquierda"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1138872031984988160/afQKnnnz_400x400.png"
+		],
 		"name": {
 			"en_US": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD",
 			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://po.org.ar"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -667,17 +1001,28 @@
 		"area_id": 14,
 		"coalition_id": 3,
 		"colors": [
-			""
+			"Red"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/PTS.FIT.Mendoza"
+		],
 		"id": 34,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentedeizquierda"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1138872031984988160/afQKnnnz_400x400.png"
+		],
 		"name": {
 			"en_US": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD - DISTRITO MENDOZA",
 			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD - DISTRITO MENDOZA"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://po.org.ar"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -687,17 +1032,28 @@
 		"area_id": 19,
 		"coalition_id": 3,
 		"colors": [
-			""
+			"Red"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/PTS-Frente-de-Izquierda-San-Juan-699803473498897"
+		],
 		"id": 35,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentedeizquierda"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1138872031984988160/afQKnnnz_400x400.png"
+		],
 		"name": {
 			"en_US": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD (SAN JUAN)",
 			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD (SAN JUAN)"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://po.org.ar"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -707,17 +1063,28 @@
 		"area_id": 1,
 		"coalition_id": 1,
 		"colors": [
-			""
+			"Light Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/frentedetodos"
+		],
 		"id": 36,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentedetodos"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1138931067346411520/0dvyWlnK_400x400.jpg"
+		],
 		"name": {
 			"en_US": "FRENTE DE TODOS",
 			"es_AR": "FRENTE DE TODOS"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://frentedetodos.org"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -727,17 +1094,28 @@
 		"area_id": 14,
 		"coalition_id": 1,
 		"colors": [
-			""
+			"Light Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/FrenteDeTodosMendoza"
+		],
 		"id": 37,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/todosmza"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1266001183937880065/FMvKcDtQ_400x400.jpg"
+		],
 		"name": {
 			"en_US": "FRENTE DE TODOS - DISTRITO MENDOZA",
 			"es_AR": "FRENTE DE TODOS - DISTRITO MENDOZA"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://frentedetodos.org"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -747,17 +1125,28 @@
 		"area_id": 19,
 		"coalition_id": 1,
 		"colors": [
-			""
+			"Light Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/TodosSanJuan"
+		],
 		"id": 38,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentedetodossanjuan"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1415098900638208009/dLNVsAFI_400x400.jpg"
+		],
 		"name": {
 			"en_US": "FRENTE DE TODOS (SAN JUAN)",
 			"es_AR": "FRENTE DE TODOS (SAN JUAN)"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://frentedetodos.org"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -767,17 +1156,28 @@
 		"area_id": 25,
 		"coalition_id": 1,
 		"colors": [
-			""
+			"Light Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/frentedetodos"
+		],
 		"id": 39,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentedetodos"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1266001183937880065/FMvKcDtQ_400x400.jpg"
+		],
 		"name": {
 			"en_US": "FRENTE DE TODOS (TUC)",
 			"es_AR": "FRENTE DE TODOS (TUC)"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://frentedetodos.org"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -787,17 +1187,28 @@
 		"area_id": 2,
 		"coalition_id": 1,
 		"colors": [
-			""
+			"Light Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/frentetodospba"
+		],
 		"id": 40,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentetodospba"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1329500928223875073/8B8Vhrqc_400x400.jpg"
+		],
 		"name": {
 			"en_US": "FRENTE DE TODOS PBA",
 			"es_AR": "FRENTE DE TODOS PBA"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://frentedetodos.org"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -807,17 +1218,28 @@
 		"area_id": 15,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/juntosporelcambio"
+		],
 		"id": 41,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/juntosporelcambio"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1189570680993538048/CwiTVjX3_400x400.jpg"
+		],
 		"name": {
 			"en_US": "FRENTE JUNTOS POR EL CAMBIO",
 			"es_AR": "FRENTE JUNTOS POR EL CAMBIO"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://jxc.com.ar"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -827,12 +1249,18 @@
 		"area_id": 23,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/frentepatrioticolaborista"
+		],
 		"id": 42,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frentepatrioticolaborista"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/239183194_109116634813893_3958622031709967311_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=HlKT5qNSE2EAX-MdCPI&_nc_ht=scontent.faep9-1.fna&oh=a1b88235123a9e27fb71a45e339369e5&oe=6198768A"
+		],
 		"name": {
 			"en_US": "FRENTE PATRIOTICO LABORISTA",
 			"es_AR": "FRENTE PATRIOTICO LABORISTA"
@@ -847,12 +1275,18 @@
 		"area_id": 23,
 		"coalition_id": 1,
 		"colors": [
-			""
+			"Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/frenterenovador"
+		],
 		"id": 43,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frenterenovadoroficial"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/182266479_1691052341105540_4089734619515929936_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGP7Lb5FCxeksqv9KhKVp1C5AuRJtAa78LkC5Em0BrvwqvgNXyt0rY61kqHftJPu5s-3Tshd3yfCFMCVrBUSpFE&_nc_ohc=Z6xhbhZVh68AX9TjP97&_nc_ht=scontent.faep9-1.fna&oh=89b8f2d9e2ce329c163c0f4ba51c3a46&oe=619DCCF5"
+		],
 		"name": {
 			"en_US": "FRENTE RENOVADOR",
 			"es_AR": "FRENTE RENOVADOR"
@@ -867,17 +1301,29 @@
 		"area_id": 15,
 		"coalition_id": 1,
 		"colors": [
-			""
+			"Red",
+			"Dark Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/FrenteRenovadorDeLaConcordia"
+		],
 		"id": 44,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frenterenovadordelaconcordia"
+		],
+		"logo_urls": [
+			"https://lh3.googleusercontent.com/proxy/ViFvB6BVas-poXo82nwiYbSJ2FaYkjJ65O0P5VQTAR-deVvll4nCg2UdaotZlk9EJGHt6egF2itJrI_4s8BY5N_teZ19TQwMdv9gBfVplzhxYSUF_AgN53c7sZY37CdCUDNbp_XWXA"
+		],
 		"name": {
 			"en_US": "FRENTE RENOVADOR DE LA CONCORDIA SOCIAL",
 			"es_AR": "FRENTE RENOVADOR DE LA CONCORDIA SOCIAL"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "http://www.concordiasocial.com.ar/concordia"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -927,17 +1373,28 @@
 		"area_id": 25,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Dark Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/FuerzaRepublicanaTucuman/"
+		],
 		"id": 47,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/fuerzarepublicana/"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/710102727355998208/MXXuZtLq_400x400.jpg"
+		],
 		"name": {
 			"en_US": "FUERZA REPUBLICANA TUC",
 			"es_AR": "FUERZA REPUBLICANA TUC"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://fuerzarepublicana.com.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -947,17 +1404,29 @@
 		"area_id": 7,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Red",
+			"Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/HacemosPorCordoba/"
+		],
 		"id": 48,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/hacemosporcba/"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/244100630_3131282600484345_2287444500514522344_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHybgFqvGHIFnOGmhVzE3tjP1eRChzNnb4_V5EKHM2dvljiuHCjYLPtxGkySL97Uccsu5UGpahvdAeVJA8cU4RY&_nc_ohc=pmLir_C5fn0AX9yGEgp&_nc_ht=scontent.faep9-2.fna&oh=e5454acc0a20667fd369224ef05a129e&oe=619BDBE5"
+		],
 		"name": {
 			"en_US": "HACEMOS POR CORDOBA",
 			"es_AR": "HACEMOS POR CORDOBA"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.hacemosporcordoba.com.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -967,17 +1436,28 @@
 		"area_id": 1,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/juntosporelcambio"
+		],
 		"id": 49,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/juntosporelcambio/"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/242542517_437035241119907_5043418134298708459_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEuQozrgufq2gYUhOZUEQtNBZ1tNFxOaygFnW00XE5rKBR1eXOrprUsAh_6Cc-_SCPHP4SyL7fl1t-vyUO2keRq&_nc_ohc=aMcll7QWXCEAX-6xC1h&_nc_ht=scontent.faep9-2.fna&oh=bd6e06ee3e429cee186b2dd70fa877ca&oe=619CDFC5"
+		],
 		"name": {
 			"en_US": "JUNTOS POR EL CAMBIO",
 			"es_AR": "JUNTOS POR EL CAMBIO"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://jxc.com.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -987,12 +1467,18 @@
 		"area_id": 19,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/JuntosXElCambioSanJuan/"
+		],
 		"id": 50,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/juntosxelcambiosj/"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/64558191_2202418596478120_4921677778392186880_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEM1KAXH_IfW1WW6X3NNJnvUkweLSaFdhRSTB4tJoV2FCfmoomBw_S9d6kzRs7PQYothRZWf6maiwUKzHuI7VSK&_nc_ohc=1dmssndYpzAAX93f7cW&_nc_ht=scontent.faep9-1.fna&oh=195be479be1d901f834c42dac69be3ac&oe=619CC198"
+		],
 		"name": {
 			"en_US": "JUNTOS POR EL CAMBIO (SAN JUAN)",
 			"es_AR": "JUNTOS POR EL CAMBIO (SAN JUAN)"
@@ -1027,12 +1513,18 @@
 		"area_id": 5,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/Juntos-Chubut-109341978141586/"
+		],
 		"id": 52,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/juntosporelcambiochubut/"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1139207590569742336/r6mtLrGm_400x400.jpg"
+		],
 		"name": {
 			"en_US": "JUNTOS POR EL CAMBIO CHUBUT",
 			"es_AR": "JUNTOS POR EL CAMBIO CHUBUT"
@@ -1047,12 +1539,18 @@
 		"area_id": 24,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/juntosporelcambiotdfaias/"
+		],
 		"id": 53,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/juntosxelcambiotdf/"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/64981494_342768186389166_6836857545978544128_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGOmHs06Mt09cvNixw7f8LDqELtaOGu2LGoQu1o4a7YsYPOdXsm_JNflb6jSehQ0nUmE7oJBQqf6r8ugwA1-p-C&_nc_ohc=EnJGlYDGOWQAX8Xh7OV&_nc_ht=scontent.faep9-1.fna&oh=e141f79869565745bcfd748239f0d789&oe=619C79AD"
+		],
 		"name": {
 			"en_US": "JUNTOS POR EL CAMBIO TIERRA DEL FUEGO",
 			"es_AR": "JUNTOS POR EL CAMBIO TIERRA DEL FUEGO"
@@ -1067,17 +1565,28 @@
 		"area_id": 25,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/juntosporelcambiotucuman/"
+		],
 		"id": 54,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/p/CUf6IR8LHZL/"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1418005882340847624/oE5T85_Y_400x400.jpg"
+		],
 		"name": {
 			"en_US": "JUNTOS POR EL CAMBIO TUCUMAN",
 			"es_AR": "JUNTOS POR EL CAMBIO TUCUMAN"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://juntosportucuman.com.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1087,12 +1596,18 @@
 		"area_id": 9,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/JuntosXEntreRios/"
+		],
 		"id": 55,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/juntosporentrerios/"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/218405498_2875266496068686_7567116973559227180_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHUoQBRYUuiK2z46OE3yKbH3LAE0t68r9rcsATS3ryv2oRFgqchqU9NDtYjUveVlWNGaChY1UrhXN5bkUlu1Zl3&_nc_ohc=SxJylBSPAiYAX-ajETf&tn=yD1-nAFkyoTa3jB6&_nc_ht=scontent.faep9-1.fna&oh=48236543749a8af5de42a7647bd1d33d&oe=619D5AE5"
+		],
 		"name": {
 			"en_US": "JUNTOS POR ENTRE RIOS",
 			"es_AR": "JUNTOS POR ENTRE RIOS"
@@ -1107,12 +1622,18 @@
 		"area_id": 10,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/librescentrodeestudio"
+		],
 		"id": 56,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/juntosporfsalibre/"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t39.30808-6/244361215_230880932397751_5495103339067552909_n.png?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHr5H8_jAbV0AZoWIaMRkynnfYGOdrNqa-d9gY52s2pryhfOnNXaJY2Fl1P7NiMm1Ga9ESyiIi9Kj1n3DvWHFRQ&_nc_ohc=22OBKmRcHdEAX8hCQrO&_nc_ht=scontent.faep9-1.fna&oh=b463cb7949d3802b220d908576180fa8&oe=617BEF5D"
+		],
 		"name": {
 			"en_US": "JUNTOS POR FORMOSA LIBRE",
 			"es_AR": "JUNTOS POR FORMOSA LIBRE"
@@ -1127,17 +1648,28 @@
 		"area_id": 17,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Green"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/juntossomosrionegro/"
+		],
 		"id": 57,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/juntossomosrionegro/"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/30715263_418944731850704_8728921584829464576_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEB00EcoxClb-_Ipx5Dgn_fb_FbxulfhNJv8VvG6V-E0ujZ3RoWqeQ-Sk1WYgMjwNDz1I_l9_TZQcK7ZauJABEC&_nc_ohc=lloSVsNQrOgAX_MRdDQ&tn=yD1-nAFkyoTa3jB6&_nc_ht=scontent.faep9-1.fna&oh=23bd46ef5928d4a46af4d7a7a12d8cd6&oe=619B2893"
+		],
 		"name": {
 			"en_US": "JUNTOS SOMOS RIO NEGRO",
 			"es_AR": "JUNTOS SOMOS RIO NEGRO"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://jsrn.com.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1147,17 +1679,29 @@
 		"area_id": 7,
 		"coalition_id": 5,
 		"colors": [
-			""
+			"Yellow",
+			"Orange"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/LibertadAvanzaOficial"
+		],
 		"id": 58,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/lalibertadavanzaoficial/"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t39.30808-6/231461021_123639179905881_2693856269908143400_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeExff1rlh1Ogkxa9gDWrBIY03baM0D9E9nTdtozQP0T2WlOiMG_QD3Ys5bC1gbvPVJCIBsaMI_cNbChJ-qXzaua&_nc_ohc=AENtVkOg9tIAX_ZUKdo&_nc_ht=scontent.faep9-2.fna&oh=cc817143bd301a46f6b6d29ab20c6481&oe=617BD2E1"
+		],
 		"name": {
 			"en_US": "LA LIBERTAD AVANZA",
 			"es_AR": "LA LIBERTAD AVANZA"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://lalibertadavanza.com.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1167,12 +1711,17 @@
 		"area_id": 15,
 		"coalition_id": 5,
 		"colors": [
-			""
+			"Light Blue",
+			"Green"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/Libertad-Valores-y-Cambio-938697842863557/"
+		],
 		"id": 59,
 		"ig_urls": [],
-		"logo_urls": [],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/53341341_2055990617800935_5867361205387001856_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEgK8Fjh6_1jVomVhyKC5TJBH8qSd0civoEfypJ3RyK-gHBHF1jE3sQNL5qtUXBjNoXPGN2W0BL3uefKKH7n37c&_nc_ohc=qyR_w_Q_FIgAX90sYg7&_nc_ht=scontent.faep9-2.fna&oh=16627a124f7f255af8386d0d7cfdc27c&oe=619D7F94"
+		],
 		"name": {
 			"en_US": "LIBERTAD VALORES Y CAMBIO",
 			"es_AR": "LIBERTAD VALORES Y CAMBIO"
@@ -1187,9 +1736,11 @@
 		"area_id": 1,
 		"coalition_id": 3,
 		"colors": [
-			""
+			"Red"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/izquierda.nuevomas"
+		],
 		"id": 60,
 		"ig_urls": [],
 		"logo_urls": [],
@@ -1207,17 +1758,27 @@
 		"area_id": 1,
 		"coalition_id": 1,
 		"colors": [
-			""
+			"Blue",
+			"Red"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/libresdelsurnacional/"
+		],
 		"id": 61,
 		"ig_urls": [],
-		"logo_urls": [],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t31.18172-8/28514808_1872869326066348_490245320583917339_o.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGjJ6o2u65I0W2VzmSU6uso_z9rHNWUKCD_P2sc1ZQoIA9e0dcQCXQYFOs_Arp_S375RImHjweYCyd4hCjtqD5A&_nc_ohc=hB0WjtnZrZYAX9p4rwZ&tn=yD1-nAFkyoTa3jB6&_nc_ht=scontent.faep9-1.fna&oh=17219ee5b1c22830d6d6e6e4b34d1085&oe=619C8801"
+		],
 		"name": {
 			"en_US": "MOVIMIENTO LIBRES DEL SUR",
 			"es_AR": "MOVIMIENTO LIBRES DEL SUR"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://libresdelsur.org.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1227,17 +1788,29 @@
 		"area_id": 24,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Blue",
+			"Orange"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/MOPOF54/"
+		],
 		"id": 62,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/mopof.54/"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/220410272_2934897860093398_1342230475371849344_n.png?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGryumjyP6VbsnTEXzUtYdqw9RIF8mYZrvD1EgXyZhmu2KtNPogWFyS97JUcoOWvspd13ggHE-TrLxjiP7f7q6a&_nc_ohc=qPhFimboFJMAX8nTRI9&_nc_ht=scontent.faep9-1.fna&oh=3b6a0f9de31fa25ebf2ad76f04a712c2&oe=619BD3E1"
+		],
 		"name": {
 			"en_US": "MOVIMIENTO POPULAR FUEGUINO",
 			"es_AR": "MOVIMIENTO POPULAR FUEGUINO"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://movimientopopularfueguino.com.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1247,17 +1820,28 @@
 		"area_id": 16,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Light Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/MPN.Movimiento.Popular.Neuquino"
+		],
 		"id": 63,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/mpn_ok/"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/136706007_1298929283827197_2418051988195695656_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEZ2xOSrj-oJcOK8d8k-QIljPe4dqB5Z_SM97h2oHln9Fu6XlTppw7C4QlfpOeYoZ21f9aYu29EYjUCHi7-suaI&_nc_ohc=vpI4NAhXfg0AX8IlBcQ&tn=yD1-nAFkyoTa3jB6&_nc_ht=scontent.faep9-1.fna&oh=e754d2b542f2a6e089981df89c2ccd75&oe=619BF5DB"
+		],
 		"name": {
 			"en_US": "MOVIMIENTO POPULAR NEUQUINO",
 			"es_AR": "MOVIMIENTO POPULAR NEUQUINO"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "http://www.movimientopopularneuquino.org/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1267,17 +1851,28 @@
 		"area_id": 9,
 		"coalition_id": 3,
 		"colors": [
-			""
+			"Red"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/MstArgentina/"
+		],
 		"id": 64,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/mst_arg/"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/107822140_4052641914808146_2363292395918611373_n.png?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHXnweV_4XrYU4N6w1ZUXpYC2TAYa_kOCELZMBhr-Q4IZqE0zLoa_bgUUPB-YKmoy9sipoflTupgHj5pC3v6GvS&_nc_ohc=IWfaHlMo5ucAX-PQcq_&_nc_ht=scontent.faep9-2.fna&oh=86c3f9e4642acebb88f8d7fc5fbf5dfc&oe=619DCF55"
+		],
 		"name": {
 			"en_US": "NUEVA IZQUIERDA",
 			"es_AR": "NUEVA IZQUIERDA"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://mst.org.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1287,12 +1882,18 @@
 		"area_id": 9,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Dark Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/pcpnacional"
+		],
 		"id": 65,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/partidoconservadorpopular/"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/209080724_4491260417585468_1138573883047009110_n.png?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHNbZcWg3AKfznzonZ8OoeHwq6XzBZCPJPCrpfMFkI8k0WSs1W43bScpOKCEy4CNOXz4q5v2GhnA7mIppMoezkT&_nc_ohc=47MqrnfoK6AAX-3mXon&_nc_ht=scontent.faep9-2.fna&oh=d1ae634368931d3ab507ae34f2a77acc&oe=619B28D7"
+		],
 		"name": {
 			"en_US": "PARTIDO CONSERVADOR POPULAR",
 			"es_AR": "PARTIDO CONSERVADOR POPULAR"
@@ -1327,17 +1928,29 @@
 		"area_id": 9,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Blue",
+			"Green"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/PartidoFe"
+		],
 		"id": 67,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/partidofe"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.18169-9/19884078_1512028715523849_6509430259028717568_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFejmRsFUTzuSGsG2CqbwI4jYXWauAYqNuNhdZq4Bio2wh46cYJSrhlh-eCAVLXW4rP7eix6Nj0_XoqeBm9DT7E&_nc_ohc=gcLx7K4XpnQAX9S8Zms&_nc_ht=scontent.faep9-1.fna&oh=c58646bac1e25da82e329fb1e6e6b003&oe=619CEC27"
+		],
 		"name": {
 			"en_US": "PARTIDO FE",
 			"es_AR": "PARTIDO FE"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "http://www.partidofe.org/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1347,17 +1960,29 @@
 		"area_id": 14,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Red",
+			"White"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/lista8Mendoza"
+		],
 		"id": 68,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/lista8mendoza/"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1424750873562030092/CEIrO-SU_400x400.jpg"
+		],
 		"name": {
 			"en_US": "PARTIDO FEDERAL - DISTRITO MENDOZA",
 			"es_AR": "PARTIDO FEDERAL - DISTRITO MENDOZA"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://lista8mendoza.com.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1367,12 +1992,19 @@
 		"area_id": 4,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Red",
+			"Green"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/frenteintegradorchaco"
+		],
 		"id": 69,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/frente.integrador/"
+		],
+		"logo_urls": [
+			"https://legislaturachaco.gov.ar/control/grandes/logofrente.jpeg"
+		],
 		"name": {
 			"en_US": "PARTIDO FRENTE INTEGRADOR",
 			"es_AR": "PARTIDO FRENTE INTEGRADOR"
@@ -1387,17 +2019,28 @@
 		"area_id": 5,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/pich.sumate"
+		],
 		"id": 70,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/pich.sumate"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/219222394_100437302344629_7926511706274744540_n.png?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFr4DcvXouBkcb0Dr72TaHT_JhmiZeSelT8mGaJl5J6VKPCF99CL8foBf5ijK4ponfIAKFzyzlbvdOADKJUoifF&_nc_ohc=ljyVBkJQGUwAX8CYvO5&_nc_ht=scontent.faep9-1.fna&oh=ff1733cde10e03b6526ea85f41fe8f44&oe=619C08B0"
+		],
 		"name": {
 			"en_US": "PARTIDO INDEPENDIENTE DEL CHUBUT",
 			"es_AR": "PARTIDO INDEPENDIENTE DEL CHUBUT"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.pich.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1407,17 +2050,29 @@
 		"area_id": 24,
 		"coalition_id": 3,
 		"colors": [
-			""
+			"Red",
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/partidoobreroarg"
+		],
 		"id": 71,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/partidoobrero"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.18169-9/10477891_776281005771721_4491008967869458542_n.png?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHE1lE8nbQ7Qxua9SHgLSvkIUBK5zNAi_QhQErnM0CL9EgE2qFA82ENMbaONJn-lKMxWiXhDN6mS8F1JpEvh2-n&_nc_ohc=mcjmi5MK6z8AX_95dsf&tn=yD1-nAFkyoTa3jB6&_nc_ht=scontent.faep9-2.fna&oh=e28a648395ce9d7b6b1b549ed16e1d43&oe=619B64E2"
+		],
 		"name": {
 			"en_US": "PARTIDO OBRERO",
 			"es_AR": "PARTIDO OBRERO"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://po.org.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1427,12 +2082,19 @@
 		"area_id": 23,
 		"coalition_id": 3,
 		"colors": [
-			""
+			"Red",
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/Po.SDE.Tendencia/"
+		],
 		"id": 72,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/po.sde.tendencia"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/228786716_291813606049102_7317581459364226092_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHXfqBP8rt_dNPnKKCwFIbsENk7eTZaXJUQ2Tt5NlpclQDAs9F7-3rY_cR6s6xyyt3okHV9Rfxbmn-UcBzq6Trw&_nc_ohc=MBqlUI3fhxsAX-_Knn2&_nc_oc=AQl8SSqOjZ_Y83ykZP2ZZRr5Bc8xKbL9aXJWbfgrcD1pjUNSpHSMZZmO7QoaD4SAKqikaWu7ekRwMRIyX9REDCXU&_nc_ht=scontent.faep9-2.fna&oh=26b2bed2af3f3eef8132582c9cd6d847&oe=619AE152"
+		],
 		"name": {
 			"en_US": "PARTIDO POR UN SANTIAGO OBRERO",
 			"es_AR": "PARTIDO POR UN SANTIAGO OBRERO"
@@ -1447,12 +2109,19 @@
 		"area_id": 10,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Light Blue",
+			"White"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/PartidoPrincipiosyConviccion"
+		],
 		"id": 73,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/principiosyconviccion.2021"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.18169-9/22140964_1854517131229637_3051451808850483350_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEcspKF8KHJK815I2sM-rgtk1E_6n2lpfaTUT_qfaWl9uC_x4qq8Rto7Q_nqTqKx8G65d7UN71AzNAaii8P8dgw&_nc_ohc=NirVGYvSvtwAX_tomkG&_nc_ht=scontent.faep9-2.fna&oh=59f9704f6f0c1b0436c04d047f226d51&oe=619C73DB"
+		],
 		"name": {
 			"en_US": "PARTIDO PRINCIPIOS Y CONVICCION",
 			"es_AR": "PARTIDO PRINCIPIOS Y CONVICCION"
@@ -1467,17 +2136,28 @@
 		"area_id": 1,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Red"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/psargentina/"
+		],
 		"id": 74,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/psargentinaok"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.18169-9/13412863_1175426039175799_1562677605889087745_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_eui2=AeHn4A5qck39Ko8Fu17AjWZiYuUAIwf56XRi5QAjB_npdFck9r9IYCANSNBRzIDCb60VN3_VdOSja_5pesl4U6Iy&_nc_ohc=CTsCR0GgrH4AX_JWP8G&_nc_ht=scontent.faep9-2.fna&oh=5a39ddf42478036a4126bf7559f1f6c4&oe=619CAA0D"
+		],
 		"name": {
 			"en_US": "PARTIDO SOCIALISTA",
 			"es_AR": "PARTIDO SOCIALISTA"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "http://www.partidosocialista.org.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1487,17 +2167,29 @@
 		"area_id": 14,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Green",
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/PartidoVerdeMza"
+		],
 		"id": 75,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/partidoverdemendoza"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/159523381_121494576649593_5743280624750799207_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHtZ2Rn6IkHoOTyUdzb-1QNx2fGSwnNJPTHZ8ZLCc0k9EqoRZyQJnK0fTlK4WJKDH3_Dw0v6xJGsODPVWBb3qRn&_nc_ohc=uyIrAQsBJDoAX-102Y8&_nc_ht=scontent.faep9-1.fna&oh=1a26082f4505160ce2a8a8d3dd8bcae0&oe=619AD8B3"
+		],
 		"name": {
 			"en_US": "PARTIDO VERDE - DISTRITO MENDOZA",
 			"es_AR": "PARTIDO VERDE - DISTRITO MENDOZA"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://partidoverde.com.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1507,17 +2199,28 @@
 		"area_id": 22,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Cyan"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/vidayfamiliaok"
+		],
 		"id": 76,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/vidayfamiliaok"
+		],
+		"logo_urls": [
+			"https://scontent.feze7-2.fna.fbcdn.net/v/t1.6435-9/240391374_220719603334747_4893466345268597988_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=9dXgtScuGXUAX98OY61&_nc_ht=scontent.feze7-2.fna&oh=e0bb3a3df3a065b14aa61844bae2be8a&oe=619BD68B"
+		],
 		"name": {
 			"en_US": "PODEMOS",
 			"es_AR": "PODEMOS"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://partidovidayfamilia.com"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1527,17 +2230,29 @@
 		"area_id": 18,
 		"coalition_id": 3,
 		"colors": [
-			""
+			"Red",
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/PoliticaObrera"
+		],
 		"id": 77,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/politicaobrera_"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/68834294_924673271212578_2852174686194761728_n.png?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEQEWb_Eh6BtLbXPBPvwv3gTfYxdJ0YFN9N9jF0nRgU374K_Uw_8DWoWFAl-_E66X9JeDMjQG7bymMxLpyELMFD&_nc_ohc=ZwKbnyRFEFAAX9PFhfu&_nc_ht=scontent.faep9-2.fna&oh=fea43090df1cd9efd2394fdf1bbea0be&oe=619D5116"
+		],
 		"name": {
 			"en_US": "POLITICAOBRERA",
 			"es_AR": "POLITICAOBRERA"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://politicaobrera.com/?fbclid=IwAR2mBVojdAO8sAOMV2M8fP5aqq4i1uvxGpfXVv_vAAxTAjcnCSKnhlaDl-U"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1547,12 +2262,19 @@
 		"area_id": 22,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Red",
+			"Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/primerosantafee"
+		],
 		"id": 78,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/primerosantafe"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/212534925_103007312079763_2567121067303212321_n.png?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHgUVofyNYs2cQ4PStwCOt05g7-XGx9J_TmDv5cbH0n9Ndo3yQ3WWzwx25SWqH2YCr0nDFX7oLwY1T3vw22l3Dg&_nc_ohc=aan1gNwHs2EAX8JcM5n&_nc_ht=scontent.faep9-1.fna&oh=cb9f744df66b24c733f890874f8bbff0&oe=619CC322"
+		],
 		"name": {
 			"en_US": "PRIMERO SANTA FE",
 			"es_AR": "PRIMERO SANTA FE"
@@ -1567,17 +2289,29 @@
 		"area_id": 24,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Purple",
+			"Orange"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/republicanos.unidos"
+		],
 		"id": 79,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/republicanosunidos_ar"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1339388010358599680/AHrXLmyE_400x400.jpg"
+		],
 		"name": {
 			"en_US": "REPUBLICANOS UNIDOS",
 			"es_AR": "REPUBLICANOS UNIDOS"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://afiliate.republicanosunidos.com.ar/afiliaciones/nueva"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1587,17 +2321,26 @@
 		"area_id": 21,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Light Blue"
 		],
 		"fb_urls": [],
 		"id": 80,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/ser_santa_cruz"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1140969967090839558/lqaRW0Ii_400x400.png"
+		],
 		"name": {
 			"en_US": "SOMOS ENERGIA PARA RENOVAR SANTA CRUZ - SER",
 			"es_AR": "SOMOS ENERGIA PARA RENOVAR SANTA CRUZ - SER"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://sersantacruz.org/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1607,17 +2350,29 @@
 		"area_id": 24,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Blue",
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/SOMOSFUEGUINOS"
+		],
 		"id": 81,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/somos.fueguinos/"
+		],
+		"logo_urls": [
+			"https://scontent.feze7-2.fna.fbcdn.net/v/t1.6435-9/169069079_1403404890040654_5144453910605379505_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=WSA1OWqHl2gAX8yJXIn&tn=C9TWi9PTtAjz_iHO&_nc_ht=scontent.feze7-2.fna&oh=aa7121c4417a65f08b229e13a12062f1&oe=61971DCC"
+		],
 		"name": {
 			"en_US": "SOMOS FUEGUINOS",
 			"es_AR": "SOMOS FUEGUINOS"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://somosfueguinos.com.ar/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1627,12 +2382,19 @@
 		"area_id": 22,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Purple",
+			"Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/somoscreo"
+		],
 		"id": 82,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/creo.santafe"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1438282611336548359/H_CiPX5n_400x400.jpg"
+		],
 		"name": {
 			"en_US": "SOMOS FUTURO",
 			"es_AR": "SOMOS FUTURO"
@@ -1647,12 +2409,18 @@
 		"area_id": 20,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Green"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/todosunidossl"
+		],
 		"id": 83,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/todos.unidos.belgrano/"
+		],
+		"logo_urls": [
+			"https://scontent.feze7-2.fna.fbcdn.net/v/t1.6435-9/86708781_105700241024105_6974993143145955328_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=5pupbfi9U7AAX_Bn8ZG&_nc_ht=scontent.feze7-2.fna&oh=91d3552ddd6531756f9cedddc133e100&oe=619A3865"
+		],
 		"name": {
 			"en_US": "TODOS UNIDOS SAN LUIS",
 			"es_AR": "TODOS UNIDOS SAN LUIS"
@@ -1667,12 +2435,18 @@
 		"area_id": 18,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Light Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/Unidos-por-Salta-110407154564794/"
+		],
 		"id": 84,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/unidosporsaltaok"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1430149146804211715/945Zk8dr_400x400.jpg"
+		],
 		"name": {
 			"en_US": "UNIDOS POR SALTA",
 			"es_AR": "UNIDOS POR SALTA"
@@ -1687,12 +2461,19 @@
 		"area_id": 20,
 		"coalition_id": 2,
 		"colors": [
-			""
+			"Blue",
+			"Red"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/ucr.sanluisargentina"
+		],
 		"id": 85,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/ucrsanluis/"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1302211249/ucr_san_luis_400x400.jpg"
+		],
 		"name": {
 			"en_US": "UNION CIVICA RADICAL SAN LUIS",
 			"es_AR": "UNION CIVICA RADICAL SAN LUIS"
@@ -1709,15 +2490,26 @@
 		"colors": [
 			""
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/partidoupf"
+		],
 		"id": 86,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/union.popular.federal"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1298339540332093440/OmS8iRTh_400x400.jpg"
+		],
 		"name": {
 			"en_US": "UNION POPULAR FEDERAL",
 			"es_AR": "UNION POPULAR FEDERAL"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.partidounionpopular.org/system/cont.php"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1727,9 +2519,12 @@
 		"area_id": 1,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Red",
+			"Black"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/Unite-por-la-Libertad-y-la-Dignidad-266969763774581"
+		],
 		"id": 87,
 		"ig_urls": [],
 		"logo_urls": [],
@@ -1747,12 +2542,19 @@
 		"area_id": 14,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Red",
+			"White"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/Vamos.Mendocinos.Oficial"
+		],
 		"id": 88,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/vamosmendocinos/"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1449123047215022081/xFSmDvEE_400x400.jpg"
+		],
 		"name": {
 			"en_US": "VAMOS! MENDOCINOS - DISTRITO MENDOZA",
 			"es_AR": "VAMOS! MENDOCINOS - DISTRITO MENDOZA"
@@ -1767,17 +2569,28 @@
 		"area_id": 13,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Dark Blue"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/UCEDEok"
+		],
 		"id": 89,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/ucede.sn"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1138197750326190085/tXCazH5j_400x400.png"
+		],
 		"name": {
 			"en_US": "UCEDE - UNION DEL CENTRO DEMOCRATICO",
 			"es_AR": "UCEDE - UNION DEL CENTRO DEMOCRATICO"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.ucede.ar"
+			}
+		]
 	},
 	{
 		"abbreviation": {
@@ -1787,7 +2600,7 @@
 		"area_id": 13,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Cyan"
 		],
 		"fb_urls": [],
 		"id": 90,
@@ -1807,12 +2620,18 @@
 		"area_id": 13,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Yellow"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/vamoslariojaOK"
+		],
 		"id": 91,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/vamoslarioja"
+		],
+		"logo_urls": [
+			"https://pbs.twimg.com/profile_images/1432891919739334658/YtoLVv7j_400x400.jpg"
+		],
 		"name": {
 			"en_US": "VAMOS LA RIOJA - CAMBIA LA RIOJA",
 			"es_AR": "VAMOS LA RIOJA - CAMBIA LA RIOJA"
@@ -1827,12 +2646,19 @@
 		"area_id": 22,
 		"coalition_id": 6,
 		"colors": [
-			""
+			"Blue",
+			"Red"
 		],
-		"fb_urls": [],
+		"fb_urls": [
+			"https://www.facebook.com/FSP.LaCapital"
+		],
 		"id": 92,
-		"ig_urls": [],
-		"logo_urls": [],
+		"ig_urls": [
+			"https://www.instagram.com/soberaniapopularok"
+		],
+		"logo_urls": [
+			"https://scontent.faep9-2.fna.fbcdn.net/v/t39.30808-6/240735956_2312952375506119_5581750270060703304_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEedJY6dydCOMwuvIrOoNAZCvLEXdE52V4K8sRd0TnZXnz3yLgeRtwDh2s-4zXM8-EQdBmgwEFK2LfSaMjELjeO&_nc_ohc=pkTQb510sZ8AX_zz8R0&_nc_ht=scontent.faep9-2.fna&oh=cd349b8e751b78423873fa47b66cdd6e&oe=617B2CD9"
+		],
 		"name": {
 			"en_US": "SOBERANIA POPULAR (1)",
 			"es_AR": "SOBERANIA POPULAR (1)"

@@ -741,7 +741,7 @@ person_id,dni,full_name,first_name,last_name,date_birth,gender,dead_or_alive,las
 740,24802609,Victor Manuel Santillan,Victor Manuel,Santillan,1975-08-28,1,False,-1,24,
 741,17614911,Rossana Elena Chahla,Rossana Elena,Chahla,1966-04-03,2,False,-1,24,
 742,17927666,Agustin Fernandez,Agustin,Fernandez,1967-03-16,1,False,-1,24,
-743,16735491,Elia Maria Fernandez,Elia Maria,Fernandez,1965-02-27,2,False,-1,24,
+743,16735491,Elia Maria Fernandez de Mansilla,Elia Maria,Fernandez de Mansilla,1965-02-27,2,False,-1,24,
 744,34958066,Oscar Alejandro Melo,Oscar Alejandro,Melo,1990-03-09,1,False,-1,24,
 745,29226563,Nadima Del Valle Pecci,Nadima Del Valle,Pecci,1982-01-20,2,False,-1,24,
 746,27961141,Mario Gerardo Huesen,Mario Gerardo,Huesen,1980-03-21,1,False,-1,24,
