@@ -27,6 +27,7 @@ CACHE_FILE_MIN = "/db/export-min.json"
 #   Namespace to route
 export_ns = api.namespace('export', description='Get all information')
 export_min_ns = api.namespace('export-min', description='Get minimum necessary information')
+export_min_officeholders_ns = api.namespace('export-min-officeholders', description='Get minimum necessary information from officeholders')
 
 @export_min_ns.route('/')
 class ExportMin(Resource):
@@ -43,6 +44,41 @@ class ExportMin(Resource):
                         'parties': PartyModel.find_all(),
                         'memberships': MembershipModel.find_all(),
                         'contests': ContestModel.find_all()
+                    }
+                    response = jsonify(obj)
+                    response.status_code = HttpStatus.OK
+                else:
+                    f = open(project_dir + CACHE_FILE, "r")
+                    data_json = json.loads(f.read())
+                    f.close()
+                    response = jsonify(data_json)
+                    response.status_code = HttpStatus.OK
+            except Exception as e:
+                response = jsonify({'message': e.__str__()})
+                response.status_code = HttpStatus.INTERNAL_ERROR
+            return response
+        else:
+            response = jsonify({'message': 'Unauthorized'})
+            response.status_code = HttpStatus.UNAUTHORIZED
+            return response
+
+@export_min_officeholders_ns.route('/')
+class ExportMinOfficeholders(Resource):
+    @export_min_officeholders_ns.doc('Get all information')
+    def get(self):
+        if INTERNAL_TOKEN.compare(request.headers.get('Authorization')):
+            try:
+                if isOnDev:
+                    persons, parties = MembershipModel.find_officeholders_persons_parties()
+                    #print("personas " + str(len(persons)) + ":" + str(persons))
+                    #print("partidos " + str(len(parties)) + ":" + str(parties))
+                    obj = {
+                        'areas': AreaModel.find_all(),
+                        'chambers': ChamberModel.find_all(),
+                        'roles': RoleModel.find_all(),
+                        'persons': PersonModel.find_officeholders(persons),
+                        'parties': PartyModel.find_officeholders(parties),
+                        'memberships': MembershipModel.find_officeholders()
                     }
                     response = jsonify(obj)
                     response.status_code = HttpStatus.OK
