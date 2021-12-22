@@ -53,7 +53,7 @@ class Catalogues:
     #   PRESIDENTE NACIONAL, GOBERNADOR, DIPUTADO , PRESIDENTE MUNICIPAL, SENADOR NACIONAL, DIPUTACIONES LOCALES
     DISTRICT_TYPES = ['NATIONAL_EXEC', 'REGIONAL_EXEC', 'NATIONAL_LOWER', 'LOCAL_EXEC', 'NATIONAL_UPPER', 'REGIONAL_LEGISLATIVE']
     GENDERS = ['', 'M', 'F']
-    MEMBERSHIP_TYPES = ['', 'officeholder', 'campaigning_politician', 'party_leader']
+    MEMBERSHIP_TYPES = ['', 'officeholder', 'campaigning_politician', 'party_leader', 'officeholder_substitute']
     # privilegiado, apodo, nombre de la boleta
     OTHER_NAMES_TYPES = ['', 'preferred', 'nickname', 'ballot_name']
     URL_OWNER_TYPE_NAMES = ['', 'PERSON', 'PARTY', 'COALITION', 'MEMBERSHIP']
