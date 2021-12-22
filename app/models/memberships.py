@@ -84,6 +84,24 @@ class MembershipModel(db.Model):
             result.append(one_element.json())
         return result
 
+    @classmethod
+    def find_officeholders(cls):
+        query_all = cls.query.filter_by(membership_type=1).all()
+        result = []
+        for one_element in query_all:
+            result.append(one_element.json())
+        return result
+
+    @classmethod
+    def find_officeholders_persons_parties(cls):
+        query_all = cls.query.filter_by(membership_type=1).all()
+        persons = []
+        parties = []
+        for one_element in query_all:
+            persons.append(one_element.person_id)
+            parties.append(one_element.party_id)
+        return sorted(persons), list(set(sorted(parties)))
+
     def save(self):
         db.session.add(self)
         db.session.commit()

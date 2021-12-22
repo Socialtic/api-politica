@@ -54,6 +54,13 @@ class PartyModel(db.Model):
             result.append(one_element.json())
         return result
 
+    @classmethod
+    def find_officeholders(cls, _parties):
+        result = []
+        for party in _parties:
+            result.append(cls.query.filter_by(party_id=party).first().json())
+        return result
+
     def save(self) -> None:
         db.session.add(self)
         db.session.commit()

@@ -127,6 +127,13 @@ class PersonModel(db.Model):
             result.append(one_element.json())
         return result
 
+    @classmethod
+    def find_officeholders(cls, _persons):
+        result = []
+        for person in _persons:
+            result.append(cls.query.filter_by(person_id=person).first().json())
+        return result
+
     def save(self):
         db.session.add(self)
         db.session.commit()
