@@ -52,7 +52,7 @@ class PersonModel(db.Model):
             }
             other_names_preferred_val.append(other_name)
             other_name = {
-                'es_AR': other_name_preferred.name
+                'es_CO': other_name_preferred.name
             }
             other_names_preferred_val.append(other_name)
 
@@ -62,7 +62,7 @@ class PersonModel(db.Model):
             }
             other_names_nickname_val.append(other_name)
             other_name = {
-                'es_AR': other_name_nickname.name
+                'es_CO': other_name_nickname.name
             }
             other_names_nickname_val.append(other_name)
 
@@ -72,7 +72,7 @@ class PersonModel(db.Model):
             }
             other_names_ballot_name_val.append(other_name)
             other_name = {
-                'es_AR': other_name_ballot_name.name
+                'es_CO': other_name_ballot_name.name
             }
             other_names_ballot_name_val.append(other_name)
 
@@ -88,19 +88,19 @@ class PersonModel(db.Model):
                 professions_val.append(profession.description)
 
         obj = {
-            'id': "ar-" + str(self.person_id),
+            'id': "co-" + str(self.person_id),
             'dni': self.dni,
             'first_name': {
                 'en_US': self.first_name,
-                'es_AR': self.first_name
+                'es_CO': self.first_name
             },
             'last_name': {
                 'en_US': self.last_name,
-                'es_AR': self.last_name
+                'es_CO': self.last_name
             },
             'full_name': {
                 'en_US': self.full_name,
-                'es_AR': self.full_name
+                'es_CO': self.full_name
             },
             'date_birth': "" if self.date_birth.strftime('%Y-%m-%d') == date.fromisoformat(
                 EmptyValues.EMPTY_DATE).strftime('%Y-%m-%d') else self.date_birth.strftime('%Y-%m-%d'),

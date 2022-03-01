@@ -21,11 +21,11 @@ class CoalitionModel(db.Model):
             'id': self.coalition_id,
             'name': {
                 'en_US': self.name,
-                'es_AR': self.name
+                'es_CO': self.name
             },
             'abbreviation': {
                 'en_US': self.abbreviation,
-                'es_AR': self.abbreviation
+                'es_CO': self.abbreviation
             },
             'colors': self.colors,
             'fb_urls': UrlModel.get_party_or_coalition_fb_urls(self.coalition_id, URL_OWNER_TYPE.COALITION),

@@ -17,7 +17,7 @@ class PersonProfessionModel(db.Model):
     def json(self):
         obj = {
             'id': self.person_profession_id,
-            'person_id': "ar-" + str(self.person_id),
+            'person_id': "co-" + str(self.person_id),
             'profession_id': self.profession_id
         }
         return obj

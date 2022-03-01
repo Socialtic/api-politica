@@ -50,7 +50,7 @@ class MembershipModel(db.Model):
     def json(self):
         obj = {
             'id': self.membership_id,
-            'person_id': "ar-" + str(self.person_id),
+            'person_id': "co-" + str(self.person_id),
             'role_id': self.role_id,
             'party_ids': [self.party_id],
             'coalition_id': "" if self.coalition_id == EmptyValues.EMPTY_INT else self.coalition_id,

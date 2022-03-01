@@ -21,7 +21,7 @@ class OtherNamesModel(db.Model):
             'id': self.other_name_id,
             'other_name_type': Catalogues.OTHER_NAMES_TYPES[self.other_name_type],
             'name': self.name,
-            'person_id': "ar-" + str(self.person_id)
+            'person_id': "co-" + str(self.person_id)
         }
         return obj
 

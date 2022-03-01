@@ -7,7 +7,7 @@ class PartyModel(db.Model):
     __table_args__ = {'sqlite_autoincrement': True}
 
     party_id = db.Column(db.Integer, unique=True, primary_key=True, nullable=False, autoincrement=True)
-    name = db.Column(db.String(100), nullable=False)
+    name = db.Column(db.String(200), nullable=False)
     abbreviation = db.Column(db.String(50))
     colors = db.Column(db.JSON)
     area_id = db.Column(db.Integer, db.ForeignKey('area.area_id'), nullable=True)
@@ -26,11 +26,11 @@ class PartyModel(db.Model):
             'id': self.party_id,
             'name': {
                 'en_US': self.name,
-                'es_AR': self.name
+                'es_CO': self.name
             },
             'abbreviation': {
                 'en_US': self.abbreviation,
-                'es_AR': self.name
+                'es_CO': self.name
             },
             'colors': self.colors,
             'area_id': "" if self.area_id == EmptyValues.EMPTY_INT else self.area_id,
