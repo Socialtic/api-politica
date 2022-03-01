@@ -30,8 +30,8 @@ CORS(application)
 ma = Marshmallow(application)
 db = SQLAlchemy(application)
 api = Api(application, doc='/docs',
-          title='AR Elections 2021',
-          description='API of information on the Argentinian elections of 2021',
+          title='COL Elections 2022',
+          description='API of information on the Colombian elections of 2022',
           version='1.1')
 
 #   Some kind of internal token
