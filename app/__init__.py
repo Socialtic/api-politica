@@ -21,7 +21,7 @@ application = Flask(__name__)
 application.config["SQLALCHEMY_DATABASE_URI"] = database_file
 application.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
 application.config['JSON_AS_ASCII'] = False
-isOnDev = True
+isOnDev = False
 application.debug = isOnDev
 application.register_blueprint(bp_frontend)
 application.register_blueprint(bp_token)

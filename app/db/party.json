@@ -2115,5 +2115,25 @@
 			"es_MX": "Partido Humanista de Morelos"
 		},
 		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "APC",
+			"es_MX": "APC"
+		},
+		"area_id": 63,
+		"coalition_id": "",
+		"colors": [
+			"PURPLE"
+		],
+		"fb_urls": [],
+		"id": 79,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación Parlamentaria Ciudadana",
+			"es_MX": "Asociación Parlamentaria Ciudadana"
+		},
+		"websites": []
 	}
 ]

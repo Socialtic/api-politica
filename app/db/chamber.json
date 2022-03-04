@@ -2163,7 +2163,7 @@
 		}
 	},
 	{
-		"area_id": 284,
+		"area_id": 289,
 		"id": 310,
 		"name": {
 			"en_US": "Gubernatura de QUERÉTARO"
@@ -2341,7 +2341,7 @@
 		"area_id": 22,
 		"id": 335,
 		"name": {
-			"en_US": "Presidencia del municipio de JUÁREZ"
+			"en_US": "Presidencia del municipio de CIUDAD JUÁREZ"
 		}
 	},
 	{
@@ -2817,49 +2817,5096 @@
 		"area_id": 421,
 		"id": 403,
 		"name": {
-			"en_US": "Presidencia del municipio de MORELIA"
+			"en_US": "Presidencia del municipio de URUAPAN"
 		}
 	},
 	{
 		"area_id": 422,
 		"id": 404,
 		"name": {
-			"en_US": "Presidencia del municipio de URUAPAN"
+			"en_US": "Presidencia del municipio de ZAMORA"
 		}
 	},
 	{
 		"area_id": 423,
 		"id": 405,
 		"name": {
-			"en_US": "Presidencia del municipio de ZAMORA"
+			"en_US": "Presidencia del municipio de SAN JUAN IHUALTEPEC"
 		}
 	},
 	{
 		"area_id": 424,
 		"id": 406,
 		"name": {
-			"en_US": "Presidencia del municipio de SAN JUAN IHUALTEPEC"
+			"en_US": "Presidencia del municipio de BENITO JUÁREZ"
 		}
 	},
 	{
 		"area_id": 425,
 		"id": 407,
 		"name": {
-			"en_US": "Presidencia del municipio de BENITO JUÁREZ"
-		}
-	},
-	{
-		"area_id": 426,
-		"id": 408,
-		"name": {
 			"en_US": "Presidencia del municipio de YÉCORA"
 		}
 	},
 	{
-		"area_id": 427,
+		"area_id": 365,
+		"id": 408,
+		"name": {
+			"en_US": "Gubernatura de YUCATÁN"
+		}
+	},
+	{
+		"area_id": 426,
 		"id": 409,
 		"name": {
 			"en_US": "Presidencia del municipio de GENERAL ENRIQUE ESTRADA"
+		}
+	},
+	{
+		"area_id": 2,
+		"id": 410,
+		"name": {
+			"en_US": "Gubernatura de AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 48,
+		"id": 411,
+		"name": {
+			"en_US": "Gubernatura de CHIAPAS"
+		}
+	},
+	{
+		"area_id": 38,
+		"id": 412,
+		"name": {
+			"en_US": "Gubernatura de COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 63,
+		"id": 413,
+		"name": {
+			"en_US": "Gubernatura de CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 104,
+		"id": 414,
+		"name": {
+			"en_US": "Gubernatura de DURANGO"
+		}
+	},
+	{
+		"area_id": 109,
+		"id": 415,
+		"name": {
+			"en_US": "Gubernatura de ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 173,
+		"id": 416,
+		"name": {
+			"en_US": "Gubernatura de GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 189,
+		"id": 417,
+		"name": {
+			"en_US": "Gubernatura de HIDALGO"
+		}
+	},
+	{
+		"area_id": 197,
+		"id": 418,
+		"name": {
+			"en_US": "Gubernatura de JALISCO"
+		}
+	},
+	{
+		"area_id": 232,
+		"id": 419,
+		"name": {
+			"en_US": "Gubernatura de MORELOS"
+		}
+	},
+	{
+		"area_id": 257,
+		"id": 420,
+		"name": {
+			"en_US": "Gubernatura de OAXACA"
+		}
+	},
+	{
+		"area_id": 268,
+		"id": 421,
+		"name": {
+			"en_US": "Gubernatura de PUEBLA"
+		}
+	},
+	{
+		"area_id": 284,
+		"id": 422,
+		"name": {
+			"en_US": "Gubernatura de QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 323,
+		"id": 423,
+		"name": {
+			"en_US": "Gubernatura de TABASCO"
+		}
+	},
+	{
+		"area_id": 334,
+		"id": 424,
+		"name": {
+			"en_US": "Gubernatura de TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 344,
+		"id": 425,
+		"name": {
+			"en_US": "Gubernatura de VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 427,
+		"id": 426,
+		"name": {
+			"en_US": "Senaduría de AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 428,
+		"id": 427,
+		"name": {
+			"en_US": "Senaduría de BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 429,
+		"id": 428,
+		"name": {
+			"en_US": "Senaduría de BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 430,
+		"id": 429,
+		"name": {
+			"en_US": "Senaduría de CAMPECHE"
+		}
+	},
+	{
+		"area_id": 431,
+		"id": 430,
+		"name": {
+			"en_US": "Senaduría de CHIAPAS"
+		}
+	},
+	{
+		"area_id": 432,
+		"id": 431,
+		"name": {
+			"en_US": "Senaduría de CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 433,
+		"id": 432,
+		"name": {
+			"en_US": "Senaduría de COLIMA"
+		}
+	},
+	{
+		"area_id": 434,
+		"id": 433,
+		"name": {
+			"en_US": "Senaduría de COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 435,
+		"id": 434,
+		"name": {
+			"en_US": "Senaduría de CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 436,
+		"id": 435,
+		"name": {
+			"en_US": "Senaduría de DURANGO"
+		}
+	},
+	{
+		"area_id": 437,
+		"id": 436,
+		"name": {
+			"en_US": "Senaduría de ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 438,
+		"id": 437,
+		"name": {
+			"en_US": "Senaduría de GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 439,
+		"id": 438,
+		"name": {
+			"en_US": "Senaduría de GUERRERO"
+		}
+	},
+	{
+		"area_id": 440,
+		"id": 439,
+		"name": {
+			"en_US": "Senaduría de HIDALGO"
+		}
+	},
+	{
+		"area_id": 441,
+		"id": 440,
+		"name": {
+			"en_US": "Senaduría de JALISCO"
+		}
+	},
+	{
+		"area_id": 442,
+		"id": 441,
+		"name": {
+			"en_US": "Senaduría de MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 443,
+		"id": 442,
+		"name": {
+			"en_US": "Senaduría de MORELOS"
+		}
+	},
+	{
+		"area_id": 444,
+		"id": 443,
+		"name": {
+			"en_US": "Senaduría de NAYARIT"
+		}
+	},
+	{
+		"area_id": 445,
+		"id": 444,
+		"name": {
+			"en_US": "Senaduría de NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 446,
+		"id": 445,
+		"name": {
+			"en_US": "Senaduría de OAXACA"
+		}
+	},
+	{
+		"area_id": 447,
+		"id": 446,
+		"name": {
+			"en_US": "Senaduría de PUEBLA"
+		}
+	},
+	{
+		"area_id": 448,
+		"id": 447,
+		"name": {
+			"en_US": "Senaduría de QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 449,
+		"id": 448,
+		"name": {
+			"en_US": "Senaduría de QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 450,
+		"id": 449,
+		"name": {
+			"en_US": "Senaduría de SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 451,
+		"id": 450,
+		"name": {
+			"en_US": "Senaduría de SINALOA"
+		}
+	},
+	{
+		"area_id": 452,
+		"id": 451,
+		"name": {
+			"en_US": "Senaduría de SONORA"
+		}
+	},
+	{
+		"area_id": 453,
+		"id": 452,
+		"name": {
+			"en_US": "Senaduría de TABASCO"
+		}
+	},
+	{
+		"area_id": 454,
+		"id": 453,
+		"name": {
+			"en_US": "Senaduría de TLAXCALA"
+		}
+	},
+	{
+		"area_id": 455,
+		"id": 454,
+		"name": {
+			"en_US": "Senaduría de TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 456,
+		"id": 455,
+		"name": {
+			"en_US": "Senaduría de VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 457,
+		"id": 456,
+		"name": {
+			"en_US": "Senaduría de YUCATÁN"
+		}
+	},
+	{
+		"area_id": 458,
+		"id": 457,
+		"name": {
+			"en_US": "Senaduría de ZACATECAS"
+		}
+	},
+	{
+		"area_id": 459,
+		"id": 458,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 460,
+		"id": 459,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 461,
+		"id": 460,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 462,
+		"id": 461,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 463,
+		"id": 462,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 464,
+		"id": 463,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 465,
+		"id": 464,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 466,
+		"id": 465,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 467,
+		"id": 466,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 468,
+		"id": 467,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 469,
+		"id": 468,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 470,
+		"id": 469,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 471,
+		"id": 470,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 472,
+		"id": 471,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 473,
+		"id": 472,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 474,
+		"id": 473,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 475,
+		"id": 474,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 476,
+		"id": 475,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 AGUASCALIENTES"
+		}
+	},
+	{
+		"area_id": 477,
+		"id": 476,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 478,
+		"id": 477,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 479,
+		"id": 478,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 480,
+		"id": 479,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 481,
+		"id": 480,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 482,
+		"id": 481,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 483,
+		"id": 482,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 484,
+		"id": 483,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 485,
+		"id": 484,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 486,
+		"id": 485,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 487,
+		"id": 486,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 488,
+		"id": 487,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 489,
+		"id": 488,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 490,
+		"id": 489,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 491,
+		"id": 490,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 492,
+		"id": 491,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 493,
+		"id": 492,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 BAJA CALIFORNIA"
+		}
+	},
+	{
+		"area_id": 494,
+		"id": 493,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 495,
+		"id": 494,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 496,
+		"id": 495,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 497,
+		"id": 496,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 498,
+		"id": 497,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 499,
+		"id": 498,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 500,
+		"id": 499,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 501,
+		"id": 500,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 502,
+		"id": 501,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 503,
+		"id": 502,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 504,
+		"id": 503,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 505,
+		"id": 504,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 506,
+		"id": 505,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 507,
+		"id": 506,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 508,
+		"id": 507,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 509,
+		"id": 508,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 BAJA CALIFORNIA SUR"
+		}
+	},
+	{
+		"area_id": 510,
+		"id": 509,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 511,
+		"id": 510,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 512,
+		"id": 511,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 513,
+		"id": 512,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 514,
+		"id": 513,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 515,
+		"id": 514,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 516,
+		"id": 515,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 517,
+		"id": 516,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 518,
+		"id": 517,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 519,
+		"id": 518,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 520,
+		"id": 519,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 521,
+		"id": 520,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 522,
+		"id": 521,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 523,
+		"id": 522,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 524,
+		"id": 523,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 525,
+		"id": 524,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 526,
+		"id": 525,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 527,
+		"id": 526,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 528,
+		"id": 527,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 529,
+		"id": 528,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 530,
+		"id": 529,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 CAMPECHE"
+		}
+	},
+	{
+		"area_id": 531,
+		"id": 530,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 532,
+		"id": 531,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 533,
+		"id": 532,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 534,
+		"id": 533,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 535,
+		"id": 534,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 536,
+		"id": 535,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 537,
+		"id": 536,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 538,
+		"id": 537,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 539,
+		"id": 538,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 540,
+		"id": 539,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 541,
+		"id": 540,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 542,
+		"id": 541,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 543,
+		"id": 542,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 544,
+		"id": 543,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 545,
+		"id": 544,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 546,
+		"id": 545,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 COAHUILA DE ZARAGOZA"
+		}
+	},
+	{
+		"area_id": 547,
+		"id": 546,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 COLIMA"
+		}
+	},
+	{
+		"area_id": 548,
+		"id": 547,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 COLIMA"
+		}
+	},
+	{
+		"area_id": 549,
+		"id": 548,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 COLIMA"
+		}
+	},
+	{
+		"area_id": 550,
+		"id": 549,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 COLIMA"
+		}
+	},
+	{
+		"area_id": 551,
+		"id": 550,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 COLIMA"
+		}
+	},
+	{
+		"area_id": 552,
+		"id": 551,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 COLIMA"
+		}
+	},
+	{
+		"area_id": 553,
+		"id": 552,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 COLIMA"
+		}
+	},
+	{
+		"area_id": 554,
+		"id": 553,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 COLIMA"
+		}
+	},
+	{
+		"area_id": 555,
+		"id": 554,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 COLIMA"
+		}
+	},
+	{
+		"area_id": 556,
+		"id": 555,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 COLIMA"
+		}
+	},
+	{
+		"area_id": 557,
+		"id": 556,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 COLIMA"
+		}
+	},
+	{
+		"area_id": 558,
+		"id": 557,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 COLIMA"
+		}
+	},
+	{
+		"area_id": 559,
+		"id": 558,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 COLIMA"
+		}
+	},
+	{
+		"area_id": 560,
+		"id": 559,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 COLIMA"
+		}
+	},
+	{
+		"area_id": 561,
+		"id": 560,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 COLIMA"
+		}
+	},
+	{
+		"area_id": 562,
+		"id": 561,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 COLIMA"
+		}
+	},
+	{
+		"area_id": 563,
+		"id": 562,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 564,
+		"id": 563,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 565,
+		"id": 564,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 566,
+		"id": 565,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 567,
+		"id": 566,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 568,
+		"id": 567,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 569,
+		"id": 568,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 570,
+		"id": 569,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 571,
+		"id": 570,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 572,
+		"id": 571,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 573,
+		"id": 572,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 574,
+		"id": 573,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 575,
+		"id": 574,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 576,
+		"id": 575,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 577,
+		"id": 576,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 578,
+		"id": 577,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 579,
+		"id": 578,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 580,
+		"id": 579,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 581,
+		"id": 580,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 582,
+		"id": 581,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 583,
+		"id": 582,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 584,
+		"id": 583,
+		"name": {
+			"en_US": "Diputación del Distrito Local 22 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 585,
+		"id": 584,
+		"name": {
+			"en_US": "Diputación del Distrito Local 23 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 586,
+		"id": 585,
+		"name": {
+			"en_US": "Diputación del Distrito Local 24 CHIAPAS"
+		}
+	},
+	{
+		"area_id": 587,
+		"id": 586,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 588,
+		"id": 587,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 589,
+		"id": 588,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 590,
+		"id": 589,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 591,
+		"id": 590,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 592,
+		"id": 591,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 593,
+		"id": 592,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 594,
+		"id": 593,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 595,
+		"id": 594,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 596,
+		"id": 595,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 597,
+		"id": 596,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 598,
+		"id": 597,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 599,
+		"id": 598,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 600,
+		"id": 599,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 601,
+		"id": 600,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 602,
+		"id": 601,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 603,
+		"id": 602,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 604,
+		"id": 603,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 605,
+		"id": 604,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 606,
+		"id": 605,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 607,
+		"id": 606,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 608,
+		"id": 607,
+		"name": {
+			"en_US": "Diputación del Distrito Local 22 CHIHUAHUA"
+		}
+	},
+	{
+		"area_id": 609,
+		"id": 608,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 610,
+		"id": 609,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 611,
+		"id": 610,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 612,
+		"id": 611,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 613,
+		"id": 612,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 614,
+		"id": 613,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 615,
+		"id": 614,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 616,
+		"id": 615,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 617,
+		"id": 616,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 618,
+		"id": 617,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 619,
+		"id": 618,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 620,
+		"id": 619,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 621,
+		"id": 620,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 622,
+		"id": 621,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 623,
+		"id": 622,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 624,
+		"id": 623,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 625,
+		"id": 624,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 626,
+		"id": 625,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 627,
+		"id": 626,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 628,
+		"id": 627,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 629,
+		"id": 628,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 630,
+		"id": 629,
+		"name": {
+			"en_US": "Diputación del Distrito Local 22 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 631,
+		"id": 630,
+		"name": {
+			"en_US": "Diputación del Distrito Local 23 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 632,
+		"id": 631,
+		"name": {
+			"en_US": "Diputación del Distrito Local 24 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 633,
+		"id": 632,
+		"name": {
+			"en_US": "Diputación del Distrito Local 25 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 634,
+		"id": 633,
+		"name": {
+			"en_US": "Diputación del Distrito Local 26 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 635,
+		"id": 634,
+		"name": {
+			"en_US": "Diputación del Distrito Local 27 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 636,
+		"id": 635,
+		"name": {
+			"en_US": "Diputación del Distrito Local 28 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 637,
+		"id": 636,
+		"name": {
+			"en_US": "Diputación del Distrito Local 29 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 638,
+		"id": 637,
+		"name": {
+			"en_US": "Diputación del Distrito Local 30 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 639,
+		"id": 638,
+		"name": {
+			"en_US": "Diputación del Distrito Local 31 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 640,
+		"id": 639,
+		"name": {
+			"en_US": "Diputación del Distrito Local 32 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 641,
+		"id": 640,
+		"name": {
+			"en_US": "Diputación del Distrito Local 33 CIUDAD DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 642,
+		"id": 641,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 DURANGO"
+		}
+	},
+	{
+		"area_id": 643,
+		"id": 642,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 DURANGO"
+		}
+	},
+	{
+		"area_id": 644,
+		"id": 643,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 DURANGO"
+		}
+	},
+	{
+		"area_id": 645,
+		"id": 644,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 DURANGO"
+		}
+	},
+	{
+		"area_id": 646,
+		"id": 645,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 DURANGO"
+		}
+	},
+	{
+		"area_id": 647,
+		"id": 646,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 DURANGO"
+		}
+	},
+	{
+		"area_id": 648,
+		"id": 647,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 DURANGO"
+		}
+	},
+	{
+		"area_id": 649,
+		"id": 648,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 DURANGO"
+		}
+	},
+	{
+		"area_id": 650,
+		"id": 649,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 DURANGO"
+		}
+	},
+	{
+		"area_id": 651,
+		"id": 650,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 DURANGO"
+		}
+	},
+	{
+		"area_id": 652,
+		"id": 651,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 DURANGO"
+		}
+	},
+	{
+		"area_id": 653,
+		"id": 652,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 DURANGO"
+		}
+	},
+	{
+		"area_id": 654,
+		"id": 653,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 DURANGO"
+		}
+	},
+	{
+		"area_id": 655,
+		"id": 654,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 DURANGO"
+		}
+	},
+	{
+		"area_id": 656,
+		"id": 655,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 DURANGO"
+		}
+	},
+	{
+		"area_id": 657,
+		"id": 656,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 658,
+		"id": 657,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 659,
+		"id": 658,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 660,
+		"id": 659,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 661,
+		"id": 660,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 662,
+		"id": 661,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 663,
+		"id": 662,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 664,
+		"id": 663,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 665,
+		"id": 664,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 666,
+		"id": 665,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 667,
+		"id": 666,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 668,
+		"id": 667,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 669,
+		"id": 668,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 670,
+		"id": 669,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 671,
+		"id": 670,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 672,
+		"id": 671,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 673,
+		"id": 672,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 674,
+		"id": 673,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 675,
+		"id": 674,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 676,
+		"id": 675,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 677,
+		"id": 676,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 678,
+		"id": 677,
+		"name": {
+			"en_US": "Diputación del Distrito Local 22 GUANAJUATO"
+		}
+	},
+	{
+		"area_id": 679,
+		"id": 678,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 GUERRERO"
+		}
+	},
+	{
+		"area_id": 680,
+		"id": 679,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 GUERRERO"
+		}
+	},
+	{
+		"area_id": 681,
+		"id": 680,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 GUERRERO"
+		}
+	},
+	{
+		"area_id": 682,
+		"id": 681,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 GUERRERO"
+		}
+	},
+	{
+		"area_id": 683,
+		"id": 682,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 GUERRERO"
+		}
+	},
+	{
+		"area_id": 684,
+		"id": 683,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 GUERRERO"
+		}
+	},
+	{
+		"area_id": 685,
+		"id": 684,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 GUERRERO"
+		}
+	},
+	{
+		"area_id": 686,
+		"id": 685,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 GUERRERO"
+		}
+	},
+	{
+		"area_id": 687,
+		"id": 686,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 GUERRERO"
+		}
+	},
+	{
+		"area_id": 688,
+		"id": 687,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 GUERRERO"
+		}
+	},
+	{
+		"area_id": 689,
+		"id": 688,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 GUERRERO"
+		}
+	},
+	{
+		"area_id": 690,
+		"id": 689,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 GUERRERO"
+		}
+	},
+	{
+		"area_id": 691,
+		"id": 690,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 GUERRERO"
+		}
+	},
+	{
+		"area_id": 692,
+		"id": 691,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 GUERRERO"
+		}
+	},
+	{
+		"area_id": 693,
+		"id": 692,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 GUERRERO"
+		}
+	},
+	{
+		"area_id": 694,
+		"id": 693,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 GUERRERO"
+		}
+	},
+	{
+		"area_id": 695,
+		"id": 694,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 GUERRERO"
+		}
+	},
+	{
+		"area_id": 696,
+		"id": 695,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 GUERRERO"
+		}
+	},
+	{
+		"area_id": 697,
+		"id": 696,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 GUERRERO"
+		}
+	},
+	{
+		"area_id": 698,
+		"id": 697,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 GUERRERO"
+		}
+	},
+	{
+		"area_id": 699,
+		"id": 698,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 GUERRERO"
+		}
+	},
+	{
+		"area_id": 700,
+		"id": 699,
+		"name": {
+			"en_US": "Diputación del Distrito Local 22 GUERRERO"
+		}
+	},
+	{
+		"area_id": 701,
+		"id": 700,
+		"name": {
+			"en_US": "Diputación del Distrito Local 23 GUERRERO"
+		}
+	},
+	{
+		"area_id": 702,
+		"id": 701,
+		"name": {
+			"en_US": "Diputación del Distrito Local 24 GUERRERO"
+		}
+	},
+	{
+		"area_id": 703,
+		"id": 702,
+		"name": {
+			"en_US": "Diputación del Distrito Local 25 GUERRERO"
+		}
+	},
+	{
+		"area_id": 704,
+		"id": 703,
+		"name": {
+			"en_US": "Diputación del Distrito Local 26 GUERRERO"
+		}
+	},
+	{
+		"area_id": 705,
+		"id": 704,
+		"name": {
+			"en_US": "Diputación del Distrito Local 27 GUERRERO"
+		}
+	},
+	{
+		"area_id": 706,
+		"id": 705,
+		"name": {
+			"en_US": "Diputación del Distrito Local 28 GUERRERO"
+		}
+	},
+	{
+		"area_id": 707,
+		"id": 706,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 HIDALGO"
+		}
+	},
+	{
+		"area_id": 708,
+		"id": 707,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 HIDALGO"
+		}
+	},
+	{
+		"area_id": 709,
+		"id": 708,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 HIDALGO"
+		}
+	},
+	{
+		"area_id": 710,
+		"id": 709,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 HIDALGO"
+		}
+	},
+	{
+		"area_id": 711,
+		"id": 710,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 HIDALGO"
+		}
+	},
+	{
+		"area_id": 712,
+		"id": 711,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 HIDALGO"
+		}
+	},
+	{
+		"area_id": 713,
+		"id": 712,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 HIDALGO"
+		}
+	},
+	{
+		"area_id": 714,
+		"id": 713,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 HIDALGO"
+		}
+	},
+	{
+		"area_id": 715,
+		"id": 714,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 HIDALGO"
+		}
+	},
+	{
+		"area_id": 716,
+		"id": 715,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 HIDALGO"
+		}
+	},
+	{
+		"area_id": 717,
+		"id": 716,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 HIDALGO"
+		}
+	},
+	{
+		"area_id": 718,
+		"id": 717,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 HIDALGO"
+		}
+	},
+	{
+		"area_id": 719,
+		"id": 718,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 HIDALGO"
+		}
+	},
+	{
+		"area_id": 720,
+		"id": 719,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 HIDALGO"
+		}
+	},
+	{
+		"area_id": 721,
+		"id": 720,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 HIDALGO"
+		}
+	},
+	{
+		"area_id": 722,
+		"id": 721,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 HIDALGO"
+		}
+	},
+	{
+		"area_id": 723,
+		"id": 722,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 HIDALGO"
+		}
+	},
+	{
+		"area_id": 724,
+		"id": 723,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 HIDALGO"
+		}
+	},
+	{
+		"area_id": 725,
+		"id": 724,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 JALISCO"
+		}
+	},
+	{
+		"area_id": 726,
+		"id": 725,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 JALISCO"
+		}
+	},
+	{
+		"area_id": 727,
+		"id": 726,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 JALISCO"
+		}
+	},
+	{
+		"area_id": 728,
+		"id": 727,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 JALISCO"
+		}
+	},
+	{
+		"area_id": 729,
+		"id": 728,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 JALISCO"
+		}
+	},
+	{
+		"area_id": 730,
+		"id": 729,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 JALISCO"
+		}
+	},
+	{
+		"area_id": 731,
+		"id": 730,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 JALISCO"
+		}
+	},
+	{
+		"area_id": 732,
+		"id": 731,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 JALISCO"
+		}
+	},
+	{
+		"area_id": 733,
+		"id": 732,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 JALISCO"
+		}
+	},
+	{
+		"area_id": 734,
+		"id": 733,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 JALISCO"
+		}
+	},
+	{
+		"area_id": 735,
+		"id": 734,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 JALISCO"
+		}
+	},
+	{
+		"area_id": 736,
+		"id": 735,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 JALISCO"
+		}
+	},
+	{
+		"area_id": 737,
+		"id": 736,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 JALISCO"
+		}
+	},
+	{
+		"area_id": 738,
+		"id": 737,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 JALISCO"
+		}
+	},
+	{
+		"area_id": 739,
+		"id": 738,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 JALISCO"
+		}
+	},
+	{
+		"area_id": 740,
+		"id": 739,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 JALISCO"
+		}
+	},
+	{
+		"area_id": 741,
+		"id": 740,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 JALISCO"
+		}
+	},
+	{
+		"area_id": 742,
+		"id": 741,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 JALISCO"
+		}
+	},
+	{
+		"area_id": 743,
+		"id": 742,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 JALISCO"
+		}
+	},
+	{
+		"area_id": 744,
+		"id": 743,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 JALISCO"
+		}
+	},
+	{
+		"area_id": 745,
+		"id": 744,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 746,
+		"id": 745,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 747,
+		"id": 746,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 748,
+		"id": 747,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 749,
+		"id": 748,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 750,
+		"id": 749,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 751,
+		"id": 750,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 752,
+		"id": 751,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 753,
+		"id": 752,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 754,
+		"id": 753,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 755,
+		"id": 754,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 756,
+		"id": 755,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 757,
+		"id": 756,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 758,
+		"id": 757,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 759,
+		"id": 758,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 760,
+		"id": 759,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 761,
+		"id": 760,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 762,
+		"id": 761,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 763,
+		"id": 762,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 764,
+		"id": 763,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 765,
+		"id": 764,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 766,
+		"id": 765,
+		"name": {
+			"en_US": "Diputación del Distrito Local 22 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 767,
+		"id": 766,
+		"name": {
+			"en_US": "Diputación del Distrito Local 23 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 768,
+		"id": 767,
+		"name": {
+			"en_US": "Diputación del Distrito Local 24 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 769,
+		"id": 768,
+		"name": {
+			"en_US": "Diputación del Distrito Local 25 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 770,
+		"id": 769,
+		"name": {
+			"en_US": "Diputación del Distrito Local 26 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 771,
+		"id": 770,
+		"name": {
+			"en_US": "Diputación del Distrito Local 27 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 772,
+		"id": 771,
+		"name": {
+			"en_US": "Diputación del Distrito Local 28 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 773,
+		"id": 772,
+		"name": {
+			"en_US": "Diputación del Distrito Local 29 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 774,
+		"id": 773,
+		"name": {
+			"en_US": "Diputación del Distrito Local 30 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 775,
+		"id": 774,
+		"name": {
+			"en_US": "Diputación del Distrito Local 31 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 776,
+		"id": 775,
+		"name": {
+			"en_US": "Diputación del Distrito Local 32 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 777,
+		"id": 776,
+		"name": {
+			"en_US": "Diputación del Distrito Local 33 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 778,
+		"id": 777,
+		"name": {
+			"en_US": "Diputación del Distrito Local 34 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 779,
+		"id": 778,
+		"name": {
+			"en_US": "Diputación del Distrito Local 35 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 780,
+		"id": 779,
+		"name": {
+			"en_US": "Diputación del Distrito Local 36 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 781,
+		"id": 780,
+		"name": {
+			"en_US": "Diputación del Distrito Local 37 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 782,
+		"id": 781,
+		"name": {
+			"en_US": "Diputación del Distrito Local 38 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 783,
+		"id": 782,
+		"name": {
+			"en_US": "Diputación del Distrito Local 39 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 784,
+		"id": 783,
+		"name": {
+			"en_US": "Diputación del Distrito Local 40 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 785,
+		"id": 784,
+		"name": {
+			"en_US": "Diputación del Distrito Local 41 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 786,
+		"id": 785,
+		"name": {
+			"en_US": "Diputación del Distrito Local 42 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 787,
+		"id": 786,
+		"name": {
+			"en_US": "Diputación del Distrito Local 43 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 788,
+		"id": 787,
+		"name": {
+			"en_US": "Diputación del Distrito Local 44 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 789,
+		"id": 788,
+		"name": {
+			"en_US": "Diputación del Distrito Local 45 ESTADO DE MÉXICO"
+		}
+	},
+	{
+		"area_id": 790,
+		"id": 789,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 791,
+		"id": 790,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 792,
+		"id": 791,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 793,
+		"id": 792,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 794,
+		"id": 793,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 795,
+		"id": 794,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 796,
+		"id": 795,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 797,
+		"id": 796,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 798,
+		"id": 797,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 799,
+		"id": 798,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 800,
+		"id": 799,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 801,
+		"id": 800,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 802,
+		"id": 801,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 803,
+		"id": 802,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 804,
+		"id": 803,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 805,
+		"id": 804,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 806,
+		"id": 805,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 807,
+		"id": 806,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 808,
+		"id": 807,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 809,
+		"id": 808,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 810,
+		"id": 809,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 811,
+		"id": 810,
+		"name": {
+			"en_US": "Diputación del Distrito Local 22 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 812,
+		"id": 811,
+		"name": {
+			"en_US": "Diputación del Distrito Local 23 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 813,
+		"id": 812,
+		"name": {
+			"en_US": "Diputación del Distrito Local 24 MICHOACÁN DE OCAMPO"
+		}
+	},
+	{
+		"area_id": 814,
+		"id": 813,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 MORELOS"
+		}
+	},
+	{
+		"area_id": 815,
+		"id": 814,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 MORELOS"
+		}
+	},
+	{
+		"area_id": 816,
+		"id": 815,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 MORELOS"
+		}
+	},
+	{
+		"area_id": 817,
+		"id": 816,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 MORELOS"
+		}
+	},
+	{
+		"area_id": 818,
+		"id": 817,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 MORELOS"
+		}
+	},
+	{
+		"area_id": 819,
+		"id": 818,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 MORELOS"
+		}
+	},
+	{
+		"area_id": 820,
+		"id": 819,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 MORELOS"
+		}
+	},
+	{
+		"area_id": 821,
+		"id": 820,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 MORELOS"
+		}
+	},
+	{
+		"area_id": 822,
+		"id": 821,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 MORELOS"
+		}
+	},
+	{
+		"area_id": 823,
+		"id": 822,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 MORELOS"
+		}
+	},
+	{
+		"area_id": 824,
+		"id": 823,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 MORELOS"
+		}
+	},
+	{
+		"area_id": 825,
+		"id": 824,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 MORELOS"
+		}
+	},
+	{
+		"area_id": 826,
+		"id": 825,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 NAYARIT"
+		}
+	},
+	{
+		"area_id": 827,
+		"id": 826,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 NAYARIT"
+		}
+	},
+	{
+		"area_id": 828,
+		"id": 827,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 NAYARIT"
+		}
+	},
+	{
+		"area_id": 829,
+		"id": 828,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 NAYARIT"
+		}
+	},
+	{
+		"area_id": 830,
+		"id": 829,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 NAYARIT"
+		}
+	},
+	{
+		"area_id": 831,
+		"id": 830,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 NAYARIT"
+		}
+	},
+	{
+		"area_id": 832,
+		"id": 831,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 NAYARIT"
+		}
+	},
+	{
+		"area_id": 833,
+		"id": 832,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 NAYARIT"
+		}
+	},
+	{
+		"area_id": 834,
+		"id": 833,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 NAYARIT"
+		}
+	},
+	{
+		"area_id": 835,
+		"id": 834,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 NAYARIT"
+		}
+	},
+	{
+		"area_id": 836,
+		"id": 835,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 NAYARIT"
+		}
+	},
+	{
+		"area_id": 837,
+		"id": 836,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 NAYARIT"
+		}
+	},
+	{
+		"area_id": 838,
+		"id": 837,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 NAYARIT"
+		}
+	},
+	{
+		"area_id": 839,
+		"id": 838,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 NAYARIT"
+		}
+	},
+	{
+		"area_id": 840,
+		"id": 839,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 NAYARIT"
+		}
+	},
+	{
+		"area_id": 841,
+		"id": 840,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 NAYARIT"
+		}
+	},
+	{
+		"area_id": 842,
+		"id": 841,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 NAYARIT"
+		}
+	},
+	{
+		"area_id": 843,
+		"id": 842,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 NAYARIT"
+		}
+	},
+	{
+		"area_id": 844,
+		"id": 843,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 845,
+		"id": 844,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 846,
+		"id": 845,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 847,
+		"id": 846,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 848,
+		"id": 847,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 849,
+		"id": 848,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 850,
+		"id": 849,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 851,
+		"id": 850,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 852,
+		"id": 851,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 853,
+		"id": 852,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 854,
+		"id": 853,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 855,
+		"id": 854,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 856,
+		"id": 855,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 857,
+		"id": 856,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 858,
+		"id": 857,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 859,
+		"id": 858,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 860,
+		"id": 859,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 861,
+		"id": 860,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 862,
+		"id": 861,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 863,
+		"id": 862,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 864,
+		"id": 863,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 865,
+		"id": 864,
+		"name": {
+			"en_US": "Diputación del Distrito Local 22 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 866,
+		"id": 865,
+		"name": {
+			"en_US": "Diputación del Distrito Local 23 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 867,
+		"id": 866,
+		"name": {
+			"en_US": "Diputación del Distrito Local 24 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 868,
+		"id": 867,
+		"name": {
+			"en_US": "Diputación del Distrito Local 25 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 869,
+		"id": 868,
+		"name": {
+			"en_US": "Diputación del Distrito Local 26 NUEVO LEÓN"
+		}
+	},
+	{
+		"area_id": 870,
+		"id": 869,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 OAXACA"
+		}
+	},
+	{
+		"area_id": 871,
+		"id": 870,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 OAXACA"
+		}
+	},
+	{
+		"area_id": 872,
+		"id": 871,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 OAXACA"
+		}
+	},
+	{
+		"area_id": 873,
+		"id": 872,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 OAXACA"
+		}
+	},
+	{
+		"area_id": 874,
+		"id": 873,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 OAXACA"
+		}
+	},
+	{
+		"area_id": 875,
+		"id": 874,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 OAXACA"
+		}
+	},
+	{
+		"area_id": 876,
+		"id": 875,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 OAXACA"
+		}
+	},
+	{
+		"area_id": 877,
+		"id": 876,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 OAXACA"
+		}
+	},
+	{
+		"area_id": 878,
+		"id": 877,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 OAXACA"
+		}
+	},
+	{
+		"area_id": 879,
+		"id": 878,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 OAXACA"
+		}
+	},
+	{
+		"area_id": 880,
+		"id": 879,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 OAXACA"
+		}
+	},
+	{
+		"area_id": 881,
+		"id": 880,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 OAXACA"
+		}
+	},
+	{
+		"area_id": 882,
+		"id": 881,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 OAXACA"
+		}
+	},
+	{
+		"area_id": 883,
+		"id": 882,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 OAXACA"
+		}
+	},
+	{
+		"area_id": 884,
+		"id": 883,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 OAXACA"
+		}
+	},
+	{
+		"area_id": 885,
+		"id": 884,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 OAXACA"
+		}
+	},
+	{
+		"area_id": 886,
+		"id": 885,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 OAXACA"
+		}
+	},
+	{
+		"area_id": 887,
+		"id": 886,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 OAXACA"
+		}
+	},
+	{
+		"area_id": 888,
+		"id": 887,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 OAXACA"
+		}
+	},
+	{
+		"area_id": 889,
+		"id": 888,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 OAXACA"
+		}
+	},
+	{
+		"area_id": 890,
+		"id": 889,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 OAXACA"
+		}
+	},
+	{
+		"area_id": 891,
+		"id": 890,
+		"name": {
+			"en_US": "Diputación del Distrito Local 22 OAXACA"
+		}
+	},
+	{
+		"area_id": 892,
+		"id": 891,
+		"name": {
+			"en_US": "Diputación del Distrito Local 23 OAXACA"
+		}
+	},
+	{
+		"area_id": 893,
+		"id": 892,
+		"name": {
+			"en_US": "Diputación del Distrito Local 24 OAXACA"
+		}
+	},
+	{
+		"area_id": 894,
+		"id": 893,
+		"name": {
+			"en_US": "Diputación del Distrito Local 25 OAXACA"
+		}
+	},
+	{
+		"area_id": 895,
+		"id": 894,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 PUEBLA"
+		}
+	},
+	{
+		"area_id": 896,
+		"id": 895,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 PUEBLA"
+		}
+	},
+	{
+		"area_id": 897,
+		"id": 896,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 PUEBLA"
+		}
+	},
+	{
+		"area_id": 898,
+		"id": 897,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 PUEBLA"
+		}
+	},
+	{
+		"area_id": 899,
+		"id": 898,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 PUEBLA"
+		}
+	},
+	{
+		"area_id": 900,
+		"id": 899,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 PUEBLA"
+		}
+	},
+	{
+		"area_id": 901,
+		"id": 900,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 PUEBLA"
+		}
+	},
+	{
+		"area_id": 902,
+		"id": 901,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 PUEBLA"
+		}
+	},
+	{
+		"area_id": 903,
+		"id": 902,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 PUEBLA"
+		}
+	},
+	{
+		"area_id": 904,
+		"id": 903,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 PUEBLA"
+		}
+	},
+	{
+		"area_id": 905,
+		"id": 904,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 PUEBLA"
+		}
+	},
+	{
+		"area_id": 906,
+		"id": 905,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 PUEBLA"
+		}
+	},
+	{
+		"area_id": 907,
+		"id": 906,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 PUEBLA"
+		}
+	},
+	{
+		"area_id": 908,
+		"id": 907,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 PUEBLA"
+		}
+	},
+	{
+		"area_id": 909,
+		"id": 908,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 PUEBLA"
+		}
+	},
+	{
+		"area_id": 910,
+		"id": 909,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 PUEBLA"
+		}
+	},
+	{
+		"area_id": 911,
+		"id": 910,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 PUEBLA"
+		}
+	},
+	{
+		"area_id": 912,
+		"id": 911,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 PUEBLA"
+		}
+	},
+	{
+		"area_id": 913,
+		"id": 912,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 PUEBLA"
+		}
+	},
+	{
+		"area_id": 914,
+		"id": 913,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 PUEBLA"
+		}
+	},
+	{
+		"area_id": 915,
+		"id": 914,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 PUEBLA"
+		}
+	},
+	{
+		"area_id": 916,
+		"id": 915,
+		"name": {
+			"en_US": "Diputación del Distrito Local 22 PUEBLA"
+		}
+	},
+	{
+		"area_id": 917,
+		"id": 916,
+		"name": {
+			"en_US": "Diputación del Distrito Local 23 PUEBLA"
+		}
+	},
+	{
+		"area_id": 918,
+		"id": 917,
+		"name": {
+			"en_US": "Diputación del Distrito Local 24 PUEBLA"
+		}
+	},
+	{
+		"area_id": 919,
+		"id": 918,
+		"name": {
+			"en_US": "Diputación del Distrito Local 25 PUEBLA"
+		}
+	},
+	{
+		"area_id": 920,
+		"id": 919,
+		"name": {
+			"en_US": "Diputación del Distrito Local 26 PUEBLA"
+		}
+	},
+	{
+		"area_id": 921,
+		"id": 920,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 922,
+		"id": 921,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 923,
+		"id": 922,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 924,
+		"id": 923,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 925,
+		"id": 924,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 926,
+		"id": 925,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 927,
+		"id": 926,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 928,
+		"id": 927,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 929,
+		"id": 928,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 930,
+		"id": 929,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 931,
+		"id": 930,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 932,
+		"id": 931,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 933,
+		"id": 932,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 934,
+		"id": 933,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 935,
+		"id": 934,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 QUERÉTARO"
+		}
+	},
+	{
+		"area_id": 936,
+		"id": 935,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 937,
+		"id": 936,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 938,
+		"id": 937,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 939,
+		"id": 938,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 940,
+		"id": 939,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 941,
+		"id": 940,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 942,
+		"id": 941,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 943,
+		"id": 942,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 944,
+		"id": 943,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 945,
+		"id": 944,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 946,
+		"id": 945,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 947,
+		"id": 946,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 948,
+		"id": 947,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 949,
+		"id": 948,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 950,
+		"id": 949,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 QUINTANA ROO"
+		}
+	},
+	{
+		"area_id": 951,
+		"id": 950,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 952,
+		"id": 951,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 953,
+		"id": 952,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 954,
+		"id": 953,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 955,
+		"id": 954,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 956,
+		"id": 955,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 957,
+		"id": 956,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 958,
+		"id": 957,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 959,
+		"id": 958,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 960,
+		"id": 959,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 961,
+		"id": 960,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 962,
+		"id": 961,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 963,
+		"id": 962,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 964,
+		"id": 963,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 965,
+		"id": 964,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 SAN LUIS POTOSÍ"
+		}
+	},
+	{
+		"area_id": 966,
+		"id": 965,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 SINALOA"
+		}
+	},
+	{
+		"area_id": 967,
+		"id": 966,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 SINALOA"
+		}
+	},
+	{
+		"area_id": 968,
+		"id": 967,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 SINALOA"
+		}
+	},
+	{
+		"area_id": 969,
+		"id": 968,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 SINALOA"
+		}
+	},
+	{
+		"area_id": 970,
+		"id": 969,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 SINALOA"
+		}
+	},
+	{
+		"area_id": 971,
+		"id": 970,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 SINALOA"
+		}
+	},
+	{
+		"area_id": 972,
+		"id": 971,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 SINALOA"
+		}
+	},
+	{
+		"area_id": 973,
+		"id": 972,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 SINALOA"
+		}
+	},
+	{
+		"area_id": 974,
+		"id": 973,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 SINALOA"
+		}
+	},
+	{
+		"area_id": 975,
+		"id": 974,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 SINALOA"
+		}
+	},
+	{
+		"area_id": 976,
+		"id": 975,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 SINALOA"
+		}
+	},
+	{
+		"area_id": 977,
+		"id": 976,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 SINALOA"
+		}
+	},
+	{
+		"area_id": 978,
+		"id": 977,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 SINALOA"
+		}
+	},
+	{
+		"area_id": 979,
+		"id": 978,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 SINALOA"
+		}
+	},
+	{
+		"area_id": 980,
+		"id": 979,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 SINALOA"
+		}
+	},
+	{
+		"area_id": 981,
+		"id": 980,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 SINALOA"
+		}
+	},
+	{
+		"area_id": 982,
+		"id": 981,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 SINALOA"
+		}
+	},
+	{
+		"area_id": 983,
+		"id": 982,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 SINALOA"
+		}
+	},
+	{
+		"area_id": 984,
+		"id": 983,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 SINALOA"
+		}
+	},
+	{
+		"area_id": 985,
+		"id": 984,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 SINALOA"
+		}
+	},
+	{
+		"area_id": 986,
+		"id": 985,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 SINALOA"
+		}
+	},
+	{
+		"area_id": 987,
+		"id": 986,
+		"name": {
+			"en_US": "Diputación del Distrito Local 22 SINALOA"
+		}
+	},
+	{
+		"area_id": 988,
+		"id": 987,
+		"name": {
+			"en_US": "Diputación del Distrito Local 23 SINALOA"
+		}
+	},
+	{
+		"area_id": 989,
+		"id": 988,
+		"name": {
+			"en_US": "Diputación del Distrito Local 24 SINALOA"
+		}
+	},
+	{
+		"area_id": 990,
+		"id": 989,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 SONORA"
+		}
+	},
+	{
+		"area_id": 991,
+		"id": 990,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 SONORA"
+		}
+	},
+	{
+		"area_id": 992,
+		"id": 991,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 SONORA"
+		}
+	},
+	{
+		"area_id": 993,
+		"id": 992,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 SONORA"
+		}
+	},
+	{
+		"area_id": 994,
+		"id": 993,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 SONORA"
+		}
+	},
+	{
+		"area_id": 995,
+		"id": 994,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 SONORA"
+		}
+	},
+	{
+		"area_id": 996,
+		"id": 995,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 SONORA"
+		}
+	},
+	{
+		"area_id": 997,
+		"id": 996,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 SONORA"
+		}
+	},
+	{
+		"area_id": 998,
+		"id": 997,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 SONORA"
+		}
+	},
+	{
+		"area_id": 999,
+		"id": 998,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 SONORA"
+		}
+	},
+	{
+		"area_id": 1000,
+		"id": 999,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 SONORA"
+		}
+	},
+	{
+		"area_id": 1001,
+		"id": 1000,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 SONORA"
+		}
+	},
+	{
+		"area_id": 1002,
+		"id": 1001,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 SONORA"
+		}
+	},
+	{
+		"area_id": 1003,
+		"id": 1002,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 SONORA"
+		}
+	},
+	{
+		"area_id": 1004,
+		"id": 1003,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 SONORA"
+		}
+	},
+	{
+		"area_id": 1005,
+		"id": 1004,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 SONORA"
+		}
+	},
+	{
+		"area_id": 1006,
+		"id": 1005,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 SONORA"
+		}
+	},
+	{
+		"area_id": 1007,
+		"id": 1006,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 SONORA"
+		}
+	},
+	{
+		"area_id": 1008,
+		"id": 1007,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 SONORA"
+		}
+	},
+	{
+		"area_id": 1009,
+		"id": 1008,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 SONORA"
+		}
+	},
+	{
+		"area_id": 1010,
+		"id": 1009,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 SONORA"
+		}
+	},
+	{
+		"area_id": 1011,
+		"id": 1010,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 TABASCO"
+		}
+	},
+	{
+		"area_id": 1012,
+		"id": 1011,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 TABASCO"
+		}
+	},
+	{
+		"area_id": 1013,
+		"id": 1012,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 TABASCO"
+		}
+	},
+	{
+		"area_id": 1014,
+		"id": 1013,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 TABASCO"
+		}
+	},
+	{
+		"area_id": 1015,
+		"id": 1014,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 TABASCO"
+		}
+	},
+	{
+		"area_id": 1016,
+		"id": 1015,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 TABASCO"
+		}
+	},
+	{
+		"area_id": 1017,
+		"id": 1016,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 TABASCO"
+		}
+	},
+	{
+		"area_id": 1018,
+		"id": 1017,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 TABASCO"
+		}
+	},
+	{
+		"area_id": 1019,
+		"id": 1018,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 TABASCO"
+		}
+	},
+	{
+		"area_id": 1020,
+		"id": 1019,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 TABASCO"
+		}
+	},
+	{
+		"area_id": 1021,
+		"id": 1020,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 TABASCO"
+		}
+	},
+	{
+		"area_id": 1022,
+		"id": 1021,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 TABASCO"
+		}
+	},
+	{
+		"area_id": 1023,
+		"id": 1022,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 TABASCO"
+		}
+	},
+	{
+		"area_id": 1024,
+		"id": 1023,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 TABASCO"
+		}
+	},
+	{
+		"area_id": 1025,
+		"id": 1024,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 TABASCO"
+		}
+	},
+	{
+		"area_id": 1026,
+		"id": 1025,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 TABASCO"
+		}
+	},
+	{
+		"area_id": 1027,
+		"id": 1026,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 TABASCO"
+		}
+	},
+	{
+		"area_id": 1028,
+		"id": 1027,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 TABASCO"
+		}
+	},
+	{
+		"area_id": 1029,
+		"id": 1028,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 TABASCO"
+		}
+	},
+	{
+		"area_id": 1030,
+		"id": 1029,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 TABASCO"
+		}
+	},
+	{
+		"area_id": 1031,
+		"id": 1030,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 TABASCO"
+		}
+	},
+	{
+		"area_id": 1032,
+		"id": 1031,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1033,
+		"id": 1032,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1034,
+		"id": 1033,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1035,
+		"id": 1034,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1036,
+		"id": 1035,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1037,
+		"id": 1036,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1038,
+		"id": 1037,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1039,
+		"id": 1038,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1040,
+		"id": 1039,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1041,
+		"id": 1040,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1042,
+		"id": 1041,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1043,
+		"id": 1042,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1044,
+		"id": 1043,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1045,
+		"id": 1044,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1046,
+		"id": 1045,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1047,
+		"id": 1046,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1048,
+		"id": 1047,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1049,
+		"id": 1048,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1050,
+		"id": 1049,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1051,
+		"id": 1050,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1052,
+		"id": 1051,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1053,
+		"id": 1052,
+		"name": {
+			"en_US": "Diputación del Distrito Local 22 TAMAULIPAS"
+		}
+	},
+	{
+		"area_id": 1054,
+		"id": 1053,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 TLAXCALA"
+		}
+	},
+	{
+		"area_id": 1055,
+		"id": 1054,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 TLAXCALA"
+		}
+	},
+	{
+		"area_id": 1056,
+		"id": 1055,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 TLAXCALA"
+		}
+	},
+	{
+		"area_id": 1057,
+		"id": 1056,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 TLAXCALA"
+		}
+	},
+	{
+		"area_id": 1058,
+		"id": 1057,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 TLAXCALA"
+		}
+	},
+	{
+		"area_id": 1059,
+		"id": 1058,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 TLAXCALA"
+		}
+	},
+	{
+		"area_id": 1060,
+		"id": 1059,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 TLAXCALA"
+		}
+	},
+	{
+		"area_id": 1061,
+		"id": 1060,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 TLAXCALA"
+		}
+	},
+	{
+		"area_id": 1062,
+		"id": 1061,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 TLAXCALA"
+		}
+	},
+	{
+		"area_id": 1063,
+		"id": 1062,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 TLAXCALA"
+		}
+	},
+	{
+		"area_id": 1064,
+		"id": 1063,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 TLAXCALA"
+		}
+	},
+	{
+		"area_id": 1065,
+		"id": 1064,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 TLAXCALA"
+		}
+	},
+	{
+		"area_id": 1066,
+		"id": 1065,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 TLAXCALA"
+		}
+	},
+	{
+		"area_id": 1067,
+		"id": 1066,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 TLAXCALA"
+		}
+	},
+	{
+		"area_id": 1068,
+		"id": 1067,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 TLAXCALA"
+		}
+	},
+	{
+		"area_id": 1069,
+		"id": 1068,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1070,
+		"id": 1069,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1071,
+		"id": 1070,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1072,
+		"id": 1071,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1073,
+		"id": 1072,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1074,
+		"id": 1073,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1075,
+		"id": 1074,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1076,
+		"id": 1075,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1077,
+		"id": 1076,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1078,
+		"id": 1077,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1079,
+		"id": 1078,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1080,
+		"id": 1079,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1081,
+		"id": 1080,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1082,
+		"id": 1081,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1083,
+		"id": 1082,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1084,
+		"id": 1083,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1085,
+		"id": 1084,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1086,
+		"id": 1085,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1087,
+		"id": 1086,
+		"name": {
+			"en_US": "Diputación del Distrito Local 19 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1088,
+		"id": 1087,
+		"name": {
+			"en_US": "Diputación del Distrito Local 20 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1089,
+		"id": 1088,
+		"name": {
+			"en_US": "Diputación del Distrito Local 21 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1090,
+		"id": 1089,
+		"name": {
+			"en_US": "Diputación del Distrito Local 22 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1091,
+		"id": 1090,
+		"name": {
+			"en_US": "Diputación del Distrito Local 23 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1092,
+		"id": 1091,
+		"name": {
+			"en_US": "Diputación del Distrito Local 24 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1093,
+		"id": 1092,
+		"name": {
+			"en_US": "Diputación del Distrito Local 25 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1094,
+		"id": 1093,
+		"name": {
+			"en_US": "Diputación del Distrito Local 26 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1095,
+		"id": 1094,
+		"name": {
+			"en_US": "Diputación del Distrito Local 27 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1096,
+		"id": 1095,
+		"name": {
+			"en_US": "Diputación del Distrito Local 28 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1097,
+		"id": 1096,
+		"name": {
+			"en_US": "Diputación del Distrito Local 29 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1098,
+		"id": 1097,
+		"name": {
+			"en_US": "Diputación del Distrito Local 30 VERACRUZ DE IGNACIO DE LA LLAVE"
+		}
+	},
+	{
+		"area_id": 1099,
+		"id": 1098,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 YUCATÁN"
+		}
+	},
+	{
+		"area_id": 1100,
+		"id": 1099,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 YUCATÁN"
+		}
+	},
+	{
+		"area_id": 1101,
+		"id": 1100,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 YUCATÁN"
+		}
+	},
+	{
+		"area_id": 1102,
+		"id": 1101,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 YUCATÁN"
+		}
+	},
+	{
+		"area_id": 1103,
+		"id": 1102,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 YUCATÁN"
+		}
+	},
+	{
+		"area_id": 1104,
+		"id": 1103,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 YUCATÁN"
+		}
+	},
+	{
+		"area_id": 1105,
+		"id": 1104,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 YUCATÁN"
+		}
+	},
+	{
+		"area_id": 1106,
+		"id": 1105,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 YUCATÁN"
+		}
+	},
+	{
+		"area_id": 1107,
+		"id": 1106,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 YUCATÁN"
+		}
+	},
+	{
+		"area_id": 1108,
+		"id": 1107,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 YUCATÁN"
+		}
+	},
+	{
+		"area_id": 1109,
+		"id": 1108,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 YUCATÁN"
+		}
+	},
+	{
+		"area_id": 1110,
+		"id": 1109,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 YUCATÁN"
+		}
+	},
+	{
+		"area_id": 1111,
+		"id": 1110,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 YUCATÁN"
+		}
+	},
+	{
+		"area_id": 1112,
+		"id": 1111,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 YUCATÁN"
+		}
+	},
+	{
+		"area_id": 1113,
+		"id": 1112,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 YUCATÁN"
+		}
+	},
+	{
+		"area_id": 1114,
+		"id": 1113,
+		"name": {
+			"en_US": "Diputación del Distrito Local 1 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1115,
+		"id": 1114,
+		"name": {
+			"en_US": "Diputación del Distrito Local 2 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1116,
+		"id": 1115,
+		"name": {
+			"en_US": "Diputación del Distrito Local 3 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1117,
+		"id": 1116,
+		"name": {
+			"en_US": "Diputación del Distrito Local 4 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1118,
+		"id": 1117,
+		"name": {
+			"en_US": "Diputación del Distrito Local 5 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1119,
+		"id": 1118,
+		"name": {
+			"en_US": "Diputación del Distrito Local 6 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1120,
+		"id": 1119,
+		"name": {
+			"en_US": "Diputación del Distrito Local 7 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1121,
+		"id": 1120,
+		"name": {
+			"en_US": "Diputación del Distrito Local 8 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1122,
+		"id": 1121,
+		"name": {
+			"en_US": "Diputación del Distrito Local 9 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1123,
+		"id": 1122,
+		"name": {
+			"en_US": "Diputación del Distrito Local 10 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1124,
+		"id": 1123,
+		"name": {
+			"en_US": "Diputación del Distrito Local 11 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1125,
+		"id": 1124,
+		"name": {
+			"en_US": "Diputación del Distrito Local 12 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1126,
+		"id": 1125,
+		"name": {
+			"en_US": "Diputación del Distrito Local 13 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1127,
+		"id": 1126,
+		"name": {
+			"en_US": "Diputación del Distrito Local 14 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1128,
+		"id": 1127,
+		"name": {
+			"en_US": "Diputación del Distrito Local 15 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1129,
+		"id": 1128,
+		"name": {
+			"en_US": "Diputación del Distrito Local 16 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1130,
+		"id": 1129,
+		"name": {
+			"en_US": "Diputación del Distrito Local 17 ZACATECAS"
+		}
+	},
+	{
+		"area_id": 1131,
+		"id": 1130,
+		"name": {
+			"en_US": "Diputación del Distrito Local 18 ZACATECAS"
 		}
 	}
 ]

@@ -2,6 +2,8 @@ branch-defaults:
   main:
     environment: mx-elections-2021
     group_suffix: null
+  mexico:
+    environment: mx-elections-2021
 environment-defaults:
   mx-elections-2021:
     branch: null

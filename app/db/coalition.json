@@ -969,5 +969,88 @@
 			"es_MX": "Juntos Haremos Historia por Quintana Roo"
 		},
 		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "",
+			"es_MX": ""
+		},
+		"colors": [
+			"BLUE",
+			"WHITE",
+			"RED",
+			"YELLOW"
+		],
+		"fb_urls": [],
+		"id": 45,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Por Aguascalientes",
+			"es_MX": "Por Aguascalientes"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "",
+			"es_MX": ""
+		},
+		"colors": [
+			"RED",
+			"GREEN",
+			"BLUE"
+		],
+		"fb_urls": [],
+		"id": 46,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Juntos hacemos historia en Puebla",
+			"es_MX": "Juntos hacemos historia en Puebla"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "",
+			"es_MX": ""
+		},
+		"colors": [
+			"RED",
+			"GREEN",
+			"BLUE"
+		],
+		"fb_urls": [],
+		"id": 47,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Juntos hacemos historia en Hidalgo",
+			"es_MX": "Juntos hacemos historia en Hidalgo"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "",
+			"es_MX": ""
+		},
+		"colors": [
+			"RED",
+			"GREEN",
+			"BLUE"
+		],
+		"fb_urls": [],
+		"id": 48,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://candidaturas.ine.mx/img/emblemasPartidos/pt_verde_morena.png"
+		],
+		"name": {
+			"en_US": "Juntos hacemos historia en Aguascalientes",
+			"es_MX": "Juntos hacemos historia en Aguascalientes"
+		},
+		"websites": []
 	}
 ]
