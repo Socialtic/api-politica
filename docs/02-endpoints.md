@@ -2,7 +2,7 @@
 
 ##  ER model
 
-Diagrams can be found in [docs folder](./docs).
+Diagrams can be found in [docs folder](./).
 
 - [XML version](./mx-elections-2021-db-er-diagram.xml) from [diagrams.net](diagrams.net)
 - [PNG version](./mx-elections-2021-db-er-diagram.png)
