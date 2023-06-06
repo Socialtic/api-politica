@@ -2222,7 +2222,7 @@
 		"area_id": 64,
 		"id": 318,
 		"name": {
-			"en_US": "Presidencia del municipio de ÁLVARO OBREGÓN"
+			"en_US": "Alcaldia de ÁLVARO OBREGÓN"
 		}
 	},
 	{
@@ -2236,14 +2236,14 @@
 		"area_id": 73,
 		"id": 320,
 		"name": {
-			"en_US": "Presidencia del municipio de AZCAPOTZALCO"
+			"en_US": "Alcaldia de AZCAPOTZALCO"
 		}
 	},
 	{
 		"area_id": 68,
 		"id": 321,
 		"name": {
-			"en_US": "Presidencia del municipio de BENITO JUÁREZ"
+			"en_US": "Alcaldia de BENITO JUÁREZ"
 		}
 	},
 	{
@@ -2264,21 +2264,21 @@
 		"area_id": 74,
 		"id": 324,
 		"name": {
-			"en_US": "Presidencia del municipio de COYOACÁN"
+			"en_US": "Alcaldia de COYOACÁN"
 		}
 	},
 	{
 		"area_id": 75,
 		"id": 325,
 		"name": {
-			"en_US": "Presidencia del municipio de CUAJIMALPA DE MORELOS"
+			"en_US": "Alcaldia de CUAJIMALPA DE MORELOS"
 		}
 	},
 	{
 		"area_id": 69,
 		"id": 326,
 		"name": {
-			"en_US": "Presidencia del municipio de CUAUHTÉMOC"
+			"en_US": "Alcaldia de CUAUHTÉMOC"
 		}
 	},
 	{
@@ -2306,7 +2306,7 @@
 		"area_id": 76,
 		"id": 330,
 		"name": {
-			"en_US": "Presidencia del municipio de GUSTAVO A. MADERO"
+			"en_US": "Alcaldia de GUSTAVO A. MADERO"
 		}
 	},
 	{
@@ -2327,14 +2327,14 @@
 		"area_id": 77,
 		"id": 333,
 		"name": {
-			"en_US": "Presidencia del municipio de IZTACALCO"
+			"en_US": "Alcaldia de IZTACALCO"
 		}
 	},
 	{
 		"area_id": 78,
 		"id": 334,
 		"name": {
-			"en_US": "Presidencia del municipio de IZTAPALAPA"
+			"en_US": "Alcaldia de IZTAPALAPA"
 		}
 	},
 	{
@@ -2348,21 +2348,21 @@
 		"area_id": 79,
 		"id": 336,
 		"name": {
-			"en_US": "Presidencia del municipio de LA MAGDALENA CONTRERAS"
+			"en_US": "Alcaldia de LA MAGDALENA CONTRERAS"
 		}
 	},
 	{
 		"area_id": 70,
 		"id": 337,
 		"name": {
-			"en_US": "Presidencia del municipio de MIGUEL HIDALGO"
+			"en_US": "Alcaldia de MIGUEL HIDALGO"
 		}
 	},
 	{
 		"area_id": 71,
 		"id": 338,
 		"name": {
-			"en_US": "Presidencia del municipio de MILPA ALTA"
+			"en_US": "Alcaldia de MILPA ALTA"
 		}
 	},
 	{
@@ -2439,7 +2439,7 @@
 		"area_id": 65,
 		"id": 349,
 		"name": {
-			"en_US": "Presidencia del municipio de TLÁHUAC"
+			"en_US": "Alcaldia de TLÁHUAC"
 		}
 	},
 	{
@@ -2453,7 +2453,7 @@
 		"area_id": 66,
 		"id": 351,
 		"name": {
-			"en_US": "Presidencia del municipio de TLALPAN"
+			"en_US": "Alcaldia de TLALPAN"
 		}
 	},
 	{
@@ -2488,14 +2488,14 @@
 		"area_id": 72,
 		"id": 356,
 		"name": {
-			"en_US": "Presidencia del municipio de VENUSTIANO CARRANZA"
+			"en_US": "Alcaldia de VENUSTIANO CARRANZA"
 		}
 	},
 	{
 		"area_id": 67,
 		"id": 357,
 		"name": {
-			"en_US": "Presidencia del municipio de XOCHIMILCO"
+			"en_US": "Alcaldia de XOCHIMILCO"
 		}
 	},
 	{
@@ -2804,13 +2804,6 @@
 		"id": 401,
 		"name": {
 			"en_US": "Presidencia del municipio de SANTIAGO MARAVATÍO"
-		}
-	},
-	{
-		"area_id": 420,
-		"id": 402,
-		"name": {
-			"en_US": "Presidencia del municipio de TLAQUEPAQUE"
 		}
 	},
 	{

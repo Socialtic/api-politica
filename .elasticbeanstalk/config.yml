@@ -1,15 +1,9 @@
 branch-defaults:
-  main:
-    environment: mx-elections-2021
-    group_suffix: null
   mexico:
-    environment: mx-elections-2021
-environment-defaults:
-  mx-elections-2021:
-    branch: null
-    repository: null
+    environment: api-gobernantes-mx
+    group_suffix: null
 global:
-  application_name: mx-elections-2021
+  application_name: api-gobernantes-mx
   branch: null
   default_ec2_keyname: null
   default_platform: Python 3.8 running on 64bit Amazon Linux 2

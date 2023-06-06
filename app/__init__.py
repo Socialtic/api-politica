@@ -10,7 +10,8 @@ from app.controllers.token import *
 #   Configure for local test
 #   This works with SQLite3
 project_dir = os.path.dirname(os.path.abspath(__file__))
-database_file = "sqlite:///{}".format(os.path.join(project_dir, "db/database.db"))
+#database_file = "sqlite:///{}".format(os.path.join(project_dir, "db/database_campaign.db"))
+database_file = "sqlite:///{}".format(os.path.join(project_dir, "db/database_officeholders.db"))
 
 #   Configure for RDS/AWS MySQL
 #   format: (user):(password)@(db_identifier).amazonaws.com:3306/(db_name)

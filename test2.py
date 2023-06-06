@@ -1,3 +1,25 @@
+'''
+# Importa el paquete request
+import requests
+# Define la URL base, esta es fija
+BASE = 'https://e7f1hlosbh.execute-api.us-east-2.amazonaws.com/staging/'
+
+# Crea el header y pon tu token, osea el valor de token_id
+auth_header = {
+	'Authorization': 'Aquí va el token, entre comillas, el valor de token_id'
+}
+
+# Haz tu consulta , recuerda incluir el nombre del endpoint
+response = requests.get(BASE + 'area', headers=auth_header, verify=True,  timeout=None)
+# Imprime el resultado  de la consulta
+print(response.json())
+print('Getting an area')
+response = requests.get(BASE + 'area/1', headers=auth_header, verify=True,  timeout=None)
+print(response.json())
+print('-----------------------------------------------------------------------')
+input('Presiona enter para continuar')
+'''
+
 import requests
 
 #BASE = 'http://localhost:5000/'

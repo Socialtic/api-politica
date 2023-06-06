@@ -824,8 +824,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 64,
 		"name": {
-			"en_US": "Presidencia del municipio de ÁLVARO OBREGÓN",
-			"es_MX": "Presidencia del municipio de ÁLVARO OBREGÓN"
+			"en_US": "Alcaldia de ÁLVARO OBREGÓN",
+			"es_MX": "Alcaldia de ÁLVARO OBREGÓN"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:10",
 		"parent_area_id": "",
@@ -837,8 +837,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 65,
 		"name": {
-			"en_US": "Presidencia del municipio de TLÁHUAC",
-			"es_MX": "Presidencia del municipio de TLÁHUAC"
+			"en_US": "Alcaldia de TLÁHUAC",
+			"es_MX": "Alcaldia de TLÁHUAC"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:11",
 		"parent_area_id": "",
@@ -850,8 +850,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 66,
 		"name": {
-			"en_US": "Presidencia del municipio de TLALPAN",
-			"es_MX": "Presidencia del municipio de TLALPAN"
+			"en_US": "Alcaldia de TLALPAN",
+			"es_MX": "Alcaldia de TLALPAN"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:12",
 		"parent_area_id": "",
@@ -863,8 +863,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 67,
 		"name": {
-			"en_US": "Presidencia del municipio de XOCHIMILCO",
-			"es_MX": "Presidencia del municipio de XOCHIMILCO"
+			"en_US": "Alcaldia de XOCHIMILCO",
+			"es_MX": "Alcaldia de XOCHIMILCO"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:13",
 		"parent_area_id": "",
@@ -876,8 +876,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 68,
 		"name": {
-			"en_US": "Presidencia del municipio de BENITO JUÁREZ",
-			"es_MX": "Presidencia del municipio de BENITO JUÁREZ"
+			"en_US": "Alcaldia de BENITO JUÁREZ",
+			"es_MX": "Alcaldia de BENITO JUÁREZ"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:14",
 		"parent_area_id": "",
@@ -889,8 +889,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 69,
 		"name": {
-			"en_US": "Presidencia del municipio de CUAUHTÉMOC",
-			"es_MX": "Presidencia del municipio de CUAUHTÉMOC"
+			"en_US": "Alcaldia de CUAUHTÉMOC",
+			"es_MX": "Alcaldia de CUAUHTÉMOC"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:15",
 		"parent_area_id": "",
@@ -902,8 +902,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 70,
 		"name": {
-			"en_US": "Presidencia del municipio de MIGUEL HIDALGO",
-			"es_MX": "Presidencia del municipio de MIGUEL HIDALGO"
+			"en_US": "Alcaldia de MIGUEL HIDALGO",
+			"es_MX": "Alcaldia de MIGUEL HIDALGO"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:16",
 		"parent_area_id": "",
@@ -915,8 +915,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 71,
 		"name": {
-			"en_US": "Presidencia del municipio de MILPA ALTA",
-			"es_MX": "Presidencia del municipio de MILPA ALTA"
+			"en_US": "Alcaldia de MILPA ALTA",
+			"es_MX": "Alcaldia de MILPA ALTA"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:9",
 		"parent_area_id": "",
@@ -928,8 +928,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 72,
 		"name": {
-			"en_US": "Presidencia del municipio de VENUSTIANO CARRANZA",
-			"es_MX": "Presidencia del municipio de VENUSTIANO CARRANZA"
+			"en_US": "Alcaldia de VENUSTIANO CARRANZA",
+			"es_MX": "Alcaldia de VENUSTIANO CARRANZA"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:17",
 		"parent_area_id": "",
@@ -941,8 +941,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 73,
 		"name": {
-			"en_US": "Presidencia del municipio de AZCAPOTZALCO",
-			"es_MX": "Presidencia del municipio de AZCAPOTZALCO"
+			"en_US": "Alcaldia de AZCAPOTZALCO",
+			"es_MX": "Alcaldia de AZCAPOTZALCO"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:2",
 		"parent_area_id": "",
@@ -954,8 +954,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 74,
 		"name": {
-			"en_US": "Presidencia del municipio de COYOACÁN",
-			"es_MX": "Presidencia del municipio de COYOACÁN"
+			"en_US": "Alcaldia de COYOACÁN",
+			"es_MX": "Alcaldia de COYOACÁN"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:3",
 		"parent_area_id": "",
@@ -967,8 +967,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 75,
 		"name": {
-			"en_US": "Presidencia del municipio de CUAJIMALPA DE MORELOS",
-			"es_MX": "Presidencia del municipio de CUAJIMALPA DE MORELOS"
+			"en_US": "Alcaldia de CUAJIMALPA DE MORELOS",
+			"es_MX": "Alcaldia de CUAJIMALPA DE MORELOS"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:4",
 		"parent_area_id": "",
@@ -980,8 +980,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 76,
 		"name": {
-			"en_US": "Presidencia del municipio de GUSTAVO A. MADERO",
-			"es_MX": "Presidencia del municipio de GUSTAVO A. MADERO"
+			"en_US": "Alcaldia de GUSTAVO A. MADERO",
+			"es_MX": "Alcaldia de GUSTAVO A. MADERO"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:5",
 		"parent_area_id": "",
@@ -993,8 +993,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 77,
 		"name": {
-			"en_US": "Presidencia del municipio de IZTACALCO",
-			"es_MX": "Presidencia del municipio de IZTACALCO"
+			"en_US": "Alcaldia de IZTACALCO",
+			"es_MX": "Alcaldia de IZTACALCO"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:6",
 		"parent_area_id": "",
@@ -1006,8 +1006,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 78,
 		"name": {
-			"en_US": "Presidencia del municipio de IZTAPALAPA",
-			"es_MX": "Presidencia del municipio de IZTAPALAPA"
+			"en_US": "Alcaldia de IZTAPALAPA",
+			"es_MX": "Alcaldia de IZTAPALAPA"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:7",
 		"parent_area_id": "",
@@ -1019,8 +1019,8 @@
 		"district_type": "LOCAL_EXEC",
 		"id": 79,
 		"name": {
-			"en_US": "Presidencia del municipio de LA MAGDALENA CONTRERAS",
-			"es_MX": "Presidencia del municipio de LA MAGDALENA CONTRERAS"
+			"en_US": "Alcaldia de LA MAGDALENA CONTRERAS",
+			"es_MX": "Alcaldia de LA MAGDALENA CONTRERAS"
 		},
 		"ocd_id": "ocd-division/country:mx/state:df/city:8",
 		"parent_area_id": "",
@@ -5445,19 +5445,6 @@
 		"ocd_id": "ocd-division/country:mx/state:gt/city:6",
 		"parent_area_id": "",
 		"state": "GUA"
-	},
-	{
-		"city": "TLAQUEPAQUE",
-		"country": "MX",
-		"district_type": "LOCAL_EXEC",
-		"id": 420,
-		"name": {
-			"en_US": "Presidencia del municipio de TLAQUEPAQUE",
-			"es_MX": "Presidencia del municipio de TLAQUEPAQUE"
-		},
-		"ocd_id": "ocd-division/country:mx/state:ja/city:8",
-		"parent_area_id": "",
-		"state": "JAL"
 	},
 	{
 		"city": "URUAPAN",
