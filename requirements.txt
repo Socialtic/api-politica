@@ -1,7 +1,7 @@
 aniso8601==9.0.1
 attrs==20.3.0
 click==7.1.2
-Flask==1.1.2
+Flask==2.3.2
 Flask-Cors==3.0.10
 flask-marshmallow==0.14.0
 flask-restx==0.5.1
@@ -17,7 +17,7 @@ marshmallow-sqlalchemy==0.25.0
 PyMySQL==1.0.2
 pyrsistent==0.17.3
 pytz==2021.1
-requests==2.25.1
+requests==2.31.0
 six==1.15.0
 SQLAlchemy==1.4.13
-Werkzeug==1.0.1
+Werkzeug==2.2.3
