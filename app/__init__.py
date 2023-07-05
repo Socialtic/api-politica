@@ -37,10 +37,15 @@ api = Api(application, doc='/docs',
 #   Some kind of internal token
 from app.models.token_auth import *
 
-try:
-    INTERNAL_TOKEN = TokenAuth.find_by_id(1)
-except:
-    INTERNAL_TOKEN = True
+application.app_context().push
+with application.app_context():
+	try:
+	    INTERNAL_TOKEN = TokenAuth.find_by_id(1)
+	except:
+	    INTERNAL_TOKEN = True
+	    
+	    
+	print("TOKEN: " + str(INTERNAL_TOKEN))
 
 #   Functions for the app
 from app.controllers.area import *
