@@ -31,7 +31,7 @@ ma = Marshmallow(application)
 db = SQLAlchemy(application)
 api = Api(application, doc='/docs',
           title='MX Elections 2021',
-          description='API of information on the Mexican elections of 2021',
+          description='API of information on the Colombian elections of 2022',
           version='1.1')
 
 #   Some kind of internal token
