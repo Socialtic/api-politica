@@ -1,13 +1,13 @@
 branch-defaults:
-  argentina:
-    environment: ar-elections-2021
+  colombia:
+    environment: api-elecciones-co-2022
     group_suffix: null
 global:
-  application_name: ar-elections-2021
+  application_name: api-elecciones-co-2022
   branch: null
   default_ec2_keyname: null
   default_platform: Python 3.8 running on 64bit Amazon Linux 2
-  default_region: us-west-2
+  default_region: us-east-2
   include_git_submodules: true
   instance_profile: null
   platform_name: null

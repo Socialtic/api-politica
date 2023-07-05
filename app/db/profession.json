@@ -1,350 +1,474 @@
 [
 	{
-		"description": "ATTORNEY",
+		"description": "Didactics and pedagogy",
 		"id": 1
 	},
 	{
-		"description": "ADMINISTRATIVE",
+		"description": "Educational planning and evaluation",
 		"id": 2
 	},
 	{
-		"description": "FARMER",
+		"description": "Educational counseling and guidance",
 		"id": 3
 	},
 	{
-		"description": "FOOTBALL REFEREE",
+		"description": "Educative technology",
 		"id": 4
 	},
 	{
-		"description": "ARCHITECT",
+		"description": "Educational sciences, multidisciplinary or general programs",
 		"id": 5
 	},
 	{
-		"description": "CRAFTSMAN",
+		"description": "Teacher training in basic education, preschool level",
 		"id": 6
 	},
 	{
-		"description": "ARTIST",
+		"description": "Teacher training in basic education, primary level",
 		"id": 7
 	},
 	{
-		"description": "biologist",
+		"description": "Teacher training in basic education, secondary level",
 		"id": 8
 	},
 	{
-		"description": "BIOCHEMICAL",
+		"description": "Teacher training in upper secondary education",
 		"id": 9
 	},
 	{
-		"description": "Biotechnology",
+		"description": "Teacher training in higher education",
 		"id": 10
 	},
 	{
-		"description": "BUTCHER",
+		"description": "Teacher training in physical, artistic or technological education",
 		"id": 11
 	},
 	{
-		"description": "CARPENTER",
+		"description": "Teacher training in other educational services",
 		"id": 12
 	},
 	{
-		"description": "CERAMIST",
+		"description": "Initial education",
 		"id": 13
 	},
 	{
-		"description": "CHEF",
+		"description": "Special education",
 		"id": 14
 	},
 	{
-		"description": "BUSINESSMAN",
+		"description": "Basic education for adults",
 		"id": 15
 	},
 	{
-		"description": "SOCIAL COMMUNICATOR",
+		"description": "Teacher training, multidisciplinary or general programs",
 		"id": 16
 	},
 	{
-		"description": "COUNCILOR",
+		"description": "Fine arts",
 		"id": 17
 	},
 	{
-		"description": "ACCOUNTANT",
+		"description": "Music and performing arts",
 		"id": 18
 	},
 	{
-		"description": "Bovine breeder",
+		"description": "Audio-visual techniques and media production",
 		"id": 19
 	},
 	{
-		"description": "Delegate",
+		"description": "Design",
 		"id": 20
 	},
 	{
-		"description": "ATHLETE",
+		"description": "Craft techniques and skills",
 		"id": 21
 	},
 	{
-		"description": "Diploma in Educational Management",
+		"description": "Arts, multidisciplinary or general programs",
 		"id": 22
 	},
 	{
-		"description": "Father of the SOC Rural Arg",
+		"description": "Theology",
 		"id": 23
 	},
 	{
-		"description": "Trade union leader",
+		"description": "Foreign languages",
 		"id": 24
 	},
 	{
-		"description": "Social leader",
+		"description": "Literature",
 		"id": 25
 	},
 	{
-		"description": "DESIGNER",
+		"description": "History and archeology",
 		"id": 26
 	},
 	{
-		"description": "TEACHER",
+		"description": "Philosophy and ethics",
 		"id": 27
 	},
 	{
-		"description": "ECONOMIST",
+		"description": "Humanities, multidisciplinary or general programs",
 		"id": 28
 	},
 	{
-		"description": "State Employee",
+		"description": "Psychology",
 		"id": 29
 	},
 	{
-		"description": "ENTREPRENEUR",
+		"description": "Sociology and Anthropology",
 		"id": 30
 	},
 	{
-		"description": "BUSINESSMAN",
+		"description": "Political Sciences",
 		"id": 31
 	},
 	{
-		"description": "NURSE",
+		"description": "Economy",
 		"id": 32
 	},
 	{
-		"description": "NOTARY",
+		"description": "Social work and care",
 		"id": 33
 	},
 	{
-		"description": "WRITER",
+		"description": "Social sciences and behavioral studies, multidisciplinary or general programs",
 		"id": 34
 	},
 	{
-		"description": "Public Policy Specialist",
+		"description": "Communication and journalism",
 		"id": 35
 	},
 	{
-		"description": "STUDENT",
+		"description": "Librarianship",
 		"id": 36
 	},
 	{
-		"description": "PHILOSOPHER",
+		"description": "Trade strudies",
 		"id": 37
 	},
 	{
-		"description": "PHYSICAL",
+		"description": "Marketing and publicity",
 		"id": 38
 	},
 	{
-		"description": "Phonoaudiologo.",
+		"description": "Finance, banking and insurance",
 		"id": 39
 	},
 	{
-		"description": "Management of public policies",
+		"description": "Accounting and auditing",
 		"id": 40
 	},
 	{
-		"description": "HISTORIAN",
+		"description": "Business administration and management",
 		"id": 41
 	},
 	{
-		"description": "CHEMICAL ENGINEER",
+		"description": "Administration in the field of education",
 		"id": 42
 	},
 	{
-		"description": "ENGINEER",
+		"description": "Public administration",
 		"id": 43
 	},
 	{
-		"description": "AGRICULTURAL ENGINEER",
+		"description": "Administration in the field of engineering and construction",
 		"id": 44
 	},
 	{
-		"description": "Surgical instrumentalist",
+		"description": "Administration in the field of agronomy",
 		"id": 45
 	},
 	{
-		"description": "LIC in Administration",
+		"description": "Administration in the field of health",
 		"id": 46
 	},
 	{
-		"description": "Lic. PUBLIC ADMINISTRATION",
+		"description": "Tourist Administration",
 		"id": 47
 	},
 	{
-		"description": "Lic. Rural Administration",
+		"description": "Restaurant and gastronomy management",
 		"id": 48
 	},
 	{
-		"description": "Lic. IN BUSINESS ADMINISTRATION",
+		"description": "Business and management, multidisciplinary or general programs",
 		"id": 49
 	},
 	{
-		"description": "Lic. In Pharmaceutical chemistry",
+		"description": "Law",
 		"id": 50
 	},
 	{
-		"description": "Lic. In social work",
+		"description": "Criminology",
 		"id": 51
 	},
 	{
-		"description": "Lic. In Tourism",
+		"description": "Biology and biochemistry",
 		"id": 52
 	},
 	{
-		"description": "GRADUATE",
+		"description": "Environmental sciences",
 		"id": 53
 	},
 	{
-		"description": "Bachelor of Art.",
+		"description": "Physical",
 		"id": 54
 	},
 	{
-		"description": "TEACHER",
+		"description": "Chemistry",
 		"id": 55
 	},
 	{
-		"description": "Major teacher",
+		"description": "Earth and Atmospheric Sciences",
 		"id": 56
 	},
 	{
-		"description": "Marketing and film direction",
+		"description": "Physical, chemical and earth sciences, multidisciplinary or general programs",
 		"id": 57
 	},
 	{
-		"description": "PUBLIC AUCTIONEER",
+		"description": "Math",
 		"id": 58
 	},
 	{
-		"description": "DOCTOR",
+		"description": "Statistics",
 		"id": 59
 	},
 	{
-		"description": "METALLURGICAL",
+		"description": "Computer's science",
 		"id": 60
 	},
 	{
-		"description": "MUSICIAN",
+		"description": "Industrial, mechanical and metallurgical engineering",
 		"id": 61
 	},
 	{
-		"description": "DOES NOT APPLY",
+		"description": "Electricity and power generation",
 		"id": 62
 	},
 	{
-		"description": "NUTRITIONIST",
+		"description": "Electronics and telecommunications technology",
 		"id": 63
 	},
 	{
-		"description": "WORKER",
+		"description": "Chemical engineering",
 		"id": 64
 	},
 	{
-		"description": "OCEANOGRAPHER",
+		"description": "Motor vehicle, ship and aircraft engineering",
 		"id": 65
 	},
 	{
-		"description": "JOURNALIST",
+		"description": "Technology and environmental protection",
 		"id": 66
 	},
 	{
-		"description": "Technical expert",
+		"description": "Mechanical engineering, electronics and technology, multidisciplinary or general programs",
 		"id": 67
 	},
 	{
-		"description": "Technical expert",
+		"description": "Food industry",
 		"id": 68
 	},
 	{
-		"description": "POLITICAL",
+		"description": "Textile, footwear and leather industry",
 		"id": 69
 	},
 	{
-		"description": "Polytologist",
+		"description": "Industries of various materials (wood, paper, plastic and glass)",
 		"id": 70
 	},
 	{
-		"description": "Agricultural producer",
+		"description": "Mining and extraction",
 		"id": 71
 	},
 	{
-		"description": "TEACHER",
+		"description": "Manufacturing and processes, multidisciplinary or general programs",
 		"id": 72
 	},
 	{
-		"description": "PSYCHOLOGIST",
+		"description": "Architecture and urbanism",
 		"id": 73
 	},
 	{
-		"description": "Psychopedagogue / O.",
+		"description": "Construction and civil engineering",
 		"id": 74
 	},
 	{
-		"description": "Filmmaker",
+		"description": "Agricultural and livestock production and exploitation",
 		"id": 75
 	},
 	{
-		"description": "INTERNATIONAL RELATIONS",
+		"description": "Horticulture",
 		"id": 76
 	},
 	{
-		"description": "SOCIOLOGIST",
+		"description": "Forestry",
 		"id": 77
 	},
 	{
-		"description": "Tec. In Business Administration",
+		"description": "Fishing",
 		"id": 78
 	},
 	{
-		"description": "TEC in electromcanica.",
+		"description": "Agronomy, forestry and fisheries, multidisciplinary or general programs",
 		"id": 79
 	},
 	{
-		"description": "Technique in economic and social information",
+		"description": "Veterinary",
 		"id": 80
 	},
 	{
-		"description": "Technique / or in Communication and Tourism",
+		"description": "Medicine",
 		"id": 81
 	},
 	{
-		"description": "TECHNICAL RADIOLO.",
+		"description": "Cardiology",
 		"id": 82
 	},
 	{
-		"description": "Agronomist technician",
+		"description": "General Surgery",
 		"id": 83
 	},
 	{
-		"description": "THERAPIST",
+		"description": "Specialty Surgery",
 		"id": 84
 	},
 	{
-		"description": "Collection worker",
+		"description": "Dermatology",
 		"id": 85
 	},
 	{
-		"description": "SOCIAL WORKER",
+		"description": "Endocrinology",
 		"id": 86
 	},
 	{
-		"description": "VET",
+		"description": "Endoscopy",
 		"id": 87
+	},
+	{
+		"description": "Gastroenterology",
+		"id": 88
+	},
+	{
+		"description": "Geriatrics",
+		"id": 89
+	},
+	{
+		"description": "Gynecology and Obstetrics",
+		"id": 90
+	},
+	{
+		"description": "Hematology",
+		"id": 91
+	},
+	{
+		"description": "Homeopathy and Complementary Therapy Medicine",
+		"id": 92
+	},
+	{
+		"description": "Infectology",
+		"id": 93
+	},
+	{
+		"description": "Immunology",
+		"id": 94
+	},
+	{
+		"description": "Otorhinolaryngology",
+		"id": 95
+	},
+	{
+		"description": "Pediatrics and neonatology",
+		"id": 96
+	},
+	{
+		"description": "Pathology and pathological anatomy",
+		"id": 97
+	},
+	{
+		"description": "Proctology",
+		"id": 98
+	},
+	{
+		"description": "Psychiatry",
+		"id": 99
+	},
+	{
+		"description": "Radiology",
+		"id": 100
+	},
+	{
+		"description": "Rheumatology",
+		"id": 101
+	},
+	{
+		"description": "Traumatology and Physiatry",
+		"id": 102
+	},
+	{
+		"description": "Urology",
+		"id": 103
+	},
+	{
+		"description": "Nursing and care",
+		"id": 104
+	},
+	{
+		"description": "odontology",
+		"id": 105
+	},
+	{
+		"description": "Medical diagnosis and treatment technology",
+		"id": 106
+	},
+	{
+		"description": "Therapy and rehabilitation",
+		"id": 107
+	},
+	{
+		"description": "Pharmacy",
+		"id": 108
+	},
+	{
+		"description": "Public health",
+		"id": 109
+	},
+	{
+		"description": "Health, multidisciplinary or general programs",
+		"id": 110
+	},
+	{
+		"description": "Sports",
+		"id": 111
+	},
+	{
+		"description": "Embalming services",
+		"id": 112
+	},
+	{
+		"description": "Beauty services",
+		"id": 113
+	},
+	{
+		"description": "Secretariat and administrative assistance",
+		"id": 114
+	},
+	{
+		"description": "Transport services",
+		"id": 115
+	},
+	{
+		"description": "Public security",
+		"id": 116
+	},
+	{
+		"description": "Industrial Security",
+		"id": 117
+	},
+	{
+		"description": "Military services",
+		"id": 118
 	}
 ]

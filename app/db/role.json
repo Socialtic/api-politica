@@ -1,322 +1,412 @@
 [
 	{
-		"area_id": 2,
+		"area_id": 1,
 		"chamber_id": 1,
 		"contest_id": 1,
 		"id": 1,
-		"role": "legislatorLowerBody",
+		"role": "headOfState",
 		"title": {
-			"en_US": "Diputado/a por Buenos Aires"
+			"en_US": "President"
 		}
 	},
 	{
-		"area_id": 3,
+		"area_id": 2,
 		"chamber_id": 2,
 		"contest_id": 2,
 		"id": 2,
-		"role": "legislatorLowerBody",
+		"role": "deputyHeadOfGovernment",
 		"title": {
-			"en_US": "Diputado/a por Catamarca"
+			"en_US": "Senator"
 		}
 	},
 	{
 		"area_id": 4,
-		"chamber_id": 3,
-		"contest_id": 3,
-		"id": 3,
-		"role": "legislatorLowerBody",
+		"chamber_id": 4,
+		"contest_id": 4,
+		"id": 4,
+		"role": "legislatorUpperBody",
 		"title": {
-			"en_US": "Diputado/a por Chaco"
+			"en_US": "Senator"
 		}
 	},
 	{
 		"area_id": 5,
-		"chamber_id": 4,
-		"contest_id": 4,
-		"id": 4,
-		"role": "legislatorLowerBody",
+		"chamber_id": 5,
+		"contest_id": 5,
+		"id": 5,
+		"role": "legislatorUpperBody",
 		"title": {
-			"en_US": "Diputado/a por Chubut"
+			"en_US": "Senator"
 		}
 	},
 	{
 		"area_id": 6,
-		"chamber_id": 5,
-		"contest_id": 5,
-		"id": 5,
-		"role": "legislatorLowerBody",
-		"title": {
-			"en_US": "Diputado/a por Ciudad Autónoma de Buenos Aires"
-		}
-	},
-	{
-		"area_id": 7,
 		"chamber_id": 6,
 		"contest_id": 6,
 		"id": 6,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por Córdoba"
-		}
-	},
-	{
-		"area_id": 8,
-		"chamber_id": 7,
-		"contest_id": 7,
-		"id": 7,
-		"role": "legislatorLowerBody",
-		"title": {
-			"en_US": "Diputado/a por Corrientes"
+			"en_US": "Deputy"
 		}
 	},
 	{
 		"area_id": 9,
-		"chamber_id": 8,
-		"contest_id": 8,
-		"id": 8,
-		"role": "legislatorLowerBody",
-		"title": {
-			"en_US": "Diputado/a por Entre Ríos"
-		}
-	},
-	{
-		"area_id": 10,
 		"chamber_id": 9,
 		"contest_id": 9,
 		"id": 9,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por Formosa"
+			"en_US": "Deputy"
 		}
 	},
 	{
 		"area_id": 11,
-		"chamber_id": 10,
-		"contest_id": 10,
-		"id": 10,
-		"role": "legislatorLowerBody",
-		"title": {
-			"en_US": "Diputado/a por Jujuy"
-		}
-	},
-	{
-		"area_id": 12,
 		"chamber_id": 11,
 		"contest_id": 11,
 		"id": 11,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por La Pampa"
+			"en_US": "Deputy"
 		}
 	},
 	{
-		"area_id": 13,
+		"area_id": 12,
 		"chamber_id": 12,
 		"contest_id": 12,
 		"id": 12,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por La Rioja"
+			"en_US": "Deputy"
 		}
 	},
 	{
-		"area_id": 14,
+		"area_id": 13,
 		"chamber_id": 13,
 		"contest_id": 13,
 		"id": 13,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por Mendoza"
+			"en_US": "Deputy"
 		}
 	},
 	{
-		"area_id": 15,
+		"area_id": 14,
 		"chamber_id": 14,
 		"contest_id": 14,
 		"id": 14,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por Misiones"
+			"en_US": "Deputy"
 		}
 	},
 	{
-		"area_id": 16,
+		"area_id": 15,
 		"chamber_id": 15,
 		"contest_id": 15,
 		"id": 15,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por Neuquén"
+			"en_US": "Deputy"
 		}
 	},
 	{
-		"area_id": 17,
+		"area_id": 16,
 		"chamber_id": 16,
 		"contest_id": 16,
 		"id": 16,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por Río Negro"
+			"en_US": "Deputy"
 		}
 	},
 	{
-		"area_id": 18,
+		"area_id": 17,
 		"chamber_id": 17,
 		"contest_id": 17,
 		"id": 17,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por Salta"
+			"en_US": "Deputy"
 		}
 	},
 	{
-		"area_id": 19,
+		"area_id": 18,
 		"chamber_id": 18,
 		"contest_id": 18,
 		"id": 18,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por San Juan"
+			"en_US": "Deputy"
 		}
 	},
 	{
-		"area_id": 20,
+		"area_id": 19,
 		"chamber_id": 19,
 		"contest_id": 19,
 		"id": 19,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por San Luis"
+			"en_US": "Deputy"
 		}
 	},
 	{
-		"area_id": 21,
+		"area_id": 20,
 		"chamber_id": 20,
 		"contest_id": 20,
 		"id": 20,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por Santa Cruz"
+			"en_US": "Deputy"
 		}
 	},
 	{
-		"area_id": 22,
+		"area_id": 21,
 		"chamber_id": 21,
 		"contest_id": 21,
 		"id": 21,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por Santa Fe"
+			"en_US": "Deputy"
 		}
 	},
 	{
-		"area_id": 23,
+		"area_id": 22,
 		"chamber_id": 22,
 		"contest_id": 22,
 		"id": 22,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por Santiago del Estero"
+			"en_US": "Deputy"
 		}
 	},
 	{
-		"area_id": 24,
+		"area_id": 23,
 		"chamber_id": 23,
 		"contest_id": 23,
 		"id": 23,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por Tierra del Fuego"
+			"en_US": "Deputy"
 		}
 	},
 	{
-		"area_id": 25,
+		"area_id": 24,
 		"chamber_id": 24,
 		"contest_id": 24,
 		"id": 24,
 		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Diputado/a por Tucumán"
+			"en_US": "Deputy"
+		}
+	},
+	{
+		"area_id": 25,
+		"chamber_id": 25,
+		"contest_id": 25,
+		"id": 25,
+		"role": "legislatorLowerBody",
+		"title": {
+			"en_US": "Deputy"
 		}
 	},
 	{
 		"area_id": 26,
-		"chamber_id": 25,
-		"contest_id": 25,
-		"id": 25,
-		"role": "legislatorUpperBody",
+		"chamber_id": 26,
+		"contest_id": 26,
+		"id": 26,
+		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Senador/a Nacional por Catamarca"
+			"en_US": "Deputy"
 		}
 	},
 	{
 		"area_id": 27,
-		"chamber_id": 26,
-		"contest_id": 26,
-		"id": 26,
-		"role": "legislatorUpperBody",
+		"chamber_id": 27,
+		"contest_id": 27,
+		"id": 27,
+		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Senador/a Nacional por Chubut"
+			"en_US": "Deputy"
 		}
 	},
 	{
 		"area_id": 28,
-		"chamber_id": 27,
-		"contest_id": 27,
-		"id": 27,
-		"role": "legislatorUpperBody",
+		"chamber_id": 28,
+		"contest_id": 28,
+		"id": 28,
+		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Senador/a Nacional por Córdoba"
+			"en_US": "Deputy"
 		}
 	},
 	{
 		"area_id": 29,
-		"chamber_id": 28,
-		"contest_id": 28,
-		"id": 28,
-		"role": "legislatorUpperBody",
+		"chamber_id": 29,
+		"contest_id": 29,
+		"id": 29,
+		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Senador/a Nacional por Corrientes"
+			"en_US": "Deputy"
 		}
 	},
 	{
 		"area_id": 30,
-		"chamber_id": 29,
-		"contest_id": 29,
-		"id": 29,
-		"role": "legislatorUpperBody",
+		"chamber_id": 30,
+		"contest_id": 30,
+		"id": 30,
+		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Senador/a Nacional por La Pampa"
+			"en_US": "Deputy"
 		}
 	},
 	{
 		"area_id": 31,
-		"chamber_id": 30,
-		"contest_id": 30,
-		"id": 30,
-		"role": "legislatorUpperBody",
+		"chamber_id": 31,
+		"contest_id": 31,
+		"id": 31,
+		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Senador/a Nacional por Mendoza"
+			"en_US": "Deputy"
 		}
 	},
 	{
 		"area_id": 32,
-		"chamber_id": 31,
-		"contest_id": 31,
-		"id": 31,
-		"role": "legislatorUpperBody",
+		"chamber_id": 32,
+		"contest_id": 32,
+		"id": 32,
+		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Senador/a Nacional por Santa Fe"
+			"en_US": "Deputy"
 		}
 	},
 	{
 		"area_id": 33,
-		"chamber_id": 32,
-		"contest_id": 32,
-		"id": 32,
-		"role": "legislatorUpperBody",
+		"chamber_id": 33,
+		"contest_id": 33,
+		"id": 33,
+		"role": "legislatorLowerBody",
 		"title": {
-			"en_US": "Senador/a Nacional por Tucumán"
+			"en_US": "Deputy"
+		}
+	},
+	{
+		"area_id": 34,
+		"chamber_id": 34,
+		"contest_id": 34,
+		"id": 34,
+		"role": "legislatorLowerBody",
+		"title": {
+			"en_US": "Deputy"
+		}
+	},
+	{
+		"area_id": 35,
+		"chamber_id": 35,
+		"contest_id": 35,
+		"id": 35,
+		"role": "legislatorLowerBody",
+		"title": {
+			"en_US": "Deputy"
+		}
+	},
+	{
+		"area_id": 36,
+		"chamber_id": 36,
+		"contest_id": 36,
+		"id": 36,
+		"role": "legislatorLowerBody",
+		"title": {
+			"en_US": "Deputy"
+		}
+	},
+	{
+		"area_id": 37,
+		"chamber_id": 37,
+		"contest_id": 37,
+		"id": 37,
+		"role": "legislatorLowerBody",
+		"title": {
+			"en_US": "Deputy"
+		}
+	},
+	{
+		"area_id": 38,
+		"chamber_id": 38,
+		"contest_id": 38,
+		"id": 38,
+		"role": "legislatorLowerBody",
+		"title": {
+			"en_US": "Deputy"
+		}
+	},
+	{
+		"area_id": 39,
+		"chamber_id": 39,
+		"contest_id": 39,
+		"id": 39,
+		"role": "legislatorLowerBody",
+		"title": {
+			"en_US": "Deputy"
+		}
+	},
+	{
+		"area_id": 40,
+		"chamber_id": 40,
+		"contest_id": 40,
+		"id": 40,
+		"role": "legislatorLowerBody",
+		"title": {
+			"en_US": "Deputy"
+		}
+	},
+	{
+		"area_id": 41,
+		"chamber_id": 41,
+		"contest_id": 41,
+		"id": 41,
+		"role": "legislatorLowerBody",
+		"title": {
+			"en_US": "Deputy"
+		}
+	},
+	{
+		"area_id": 42,
+		"chamber_id": 42,
+		"contest_id": 42,
+		"id": 42,
+		"role": "legislatorLowerBody",
+		"title": {
+			"en_US": "Deputy"
+		}
+	},
+	{
+		"area_id": 43,
+		"chamber_id": 43,
+		"contest_id": 43,
+		"id": 43,
+		"role": "legislatorLowerBody",
+		"title": {
+			"en_US": "Deputy"
+		}
+	},
+	{
+		"area_id": 44,
+		"chamber_id": 44,
+		"contest_id": 44,
+		"id": 44,
+		"role": "legislatorLowerBody",
+		"title": {
+			"en_US": "Deputy"
+		}
+	},
+	{
+		"area_id": 45,
+		"chamber_id": 45,
+		"contest_id": 45,
+		"id": 45,
+		"role": "legislatorLowerBody",
+		"title": {
+			"en_US": "Deputy"
 		}
 	}
 ]

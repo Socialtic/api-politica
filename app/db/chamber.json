@@ -1,226 +1,289 @@
 [
 	{
-		"area_id": 2,
+		"area_id": 1,
 		"id": 1,
 		"name": {
-			"en_US": "Diputado/a por Buenos Aires"
+			"en_US": "Presidencia de Colombia"
 		}
 	},
 	{
-		"area_id": 3,
+		"area_id": 2,
 		"id": 2,
 		"name": {
-			"en_US": "Diputado/a por Catamarca"
+			"en_US": "Senador de la República de Colombia"
 		}
 	},
 	{
 		"area_id": 4,
-		"id": 3,
+		"id": 4,
 		"name": {
-			"en_US": "Diputado/a por Chaco"
+			"en_US": "Senador de la República Curules de Paz"
 		}
 	},
 	{
 		"area_id": 5,
-		"id": 4,
+		"id": 5,
 		"name": {
-			"en_US": "Diputado/a por Chubut"
+			"en_US": "Senador de la República Comunidades Indígenas"
 		}
 	},
 	{
 		"area_id": 6,
-		"id": 5,
-		"name": {
-			"en_US": "Diputado/a por Ciudad Autónoma de Buenos Aires"
-		}
-	},
-	{
-		"area_id": 7,
 		"id": 6,
 		"name": {
-			"en_US": "Diputado/a por Córdoba"
-		}
-	},
-	{
-		"area_id": 8,
-		"id": 7,
-		"name": {
-			"en_US": "Diputado/a por Corrientes"
+			"en_US": "Representante a la Cámara por el departamento de Antioquia"
 		}
 	},
 	{
 		"area_id": 9,
-		"id": 8,
-		"name": {
-			"en_US": "Diputado/a por Entre Ríos"
-		}
-	},
-	{
-		"area_id": 10,
 		"id": 9,
 		"name": {
-			"en_US": "Diputado/a por Formosa"
+			"en_US": "Representante a la Cámara Colombianos en el Exterior"
 		}
 	},
 	{
 		"area_id": 11,
-		"id": 10,
+		"id": 11,
 		"name": {
-			"en_US": "Diputado/a por Jujuy"
+			"en_US": "Representante a la Cámara Comunidades Afrodescendientes"
 		}
 	},
 	{
 		"area_id": 12,
-		"id": 11,
+		"id": 12,
 		"name": {
-			"en_US": "Diputado/a por La Pampa"
+			"en_US": "Representante a la Cámara Comunidades Indígenas"
 		}
 	},
 	{
 		"area_id": 13,
-		"id": 12,
+		"id": 13,
 		"name": {
-			"en_US": "Diputado/a por La Rioja"
+			"en_US": "Representante a la Cámara por el departamento de Amazonas"
 		}
 	},
 	{
 		"area_id": 14,
-		"id": 13,
+		"id": 14,
 		"name": {
-			"en_US": "Diputado/a por Mendoza"
+			"en_US": "Representante a la Cámara por el departamento de Arauca"
 		}
 	},
 	{
 		"area_id": 15,
-		"id": 14,
+		"id": 15,
 		"name": {
-			"en_US": "Diputado/a por Misiones"
+			"en_US": "Representante a la Cámara por el departamento de Atlántico"
 		}
 	},
 	{
 		"area_id": 16,
-		"id": 15,
+		"id": 16,
 		"name": {
-			"en_US": "Diputado/a por Neuquén"
+			"en_US": "Representante a la Cámara por el departamento de Bolívar"
 		}
 	},
 	{
 		"area_id": 17,
-		"id": 16,
+		"id": 17,
 		"name": {
-			"en_US": "Diputado/a por Río Negro"
+			"en_US": "Representante a la Cámara por el departamento de Boyacá"
 		}
 	},
 	{
 		"area_id": 18,
-		"id": 17,
+		"id": 18,
 		"name": {
-			"en_US": "Diputado/a por Salta"
+			"en_US": "Representante a la Cámara por el departamento de Caldas"
 		}
 	},
 	{
 		"area_id": 19,
-		"id": 18,
+		"id": 19,
 		"name": {
-			"en_US": "Diputado/a por San Juan"
+			"en_US": "Representante a la Cámara por el departamento de Caquetá"
 		}
 	},
 	{
 		"area_id": 20,
-		"id": 19,
+		"id": 20,
 		"name": {
-			"en_US": "Diputado/a por San Luis"
+			"en_US": "Representante a la Cámara por el departamento de Casanare"
 		}
 	},
 	{
 		"area_id": 21,
-		"id": 20,
+		"id": 21,
 		"name": {
-			"en_US": "Diputado/a por Santa Cruz"
+			"en_US": "Representante a la Cámara por el departamento de Cauca"
 		}
 	},
 	{
 		"area_id": 22,
-		"id": 21,
+		"id": 22,
 		"name": {
-			"en_US": "Diputado/a por Santa Fe"
+			"en_US": "Representante a la Cámara por el departamento de Cesar"
 		}
 	},
 	{
 		"area_id": 23,
-		"id": 22,
+		"id": 23,
 		"name": {
-			"en_US": "Diputado/a por Santiago del Estero"
+			"en_US": "Representante a la Cámara por el departamento de Chocó"
 		}
 	},
 	{
 		"area_id": 24,
-		"id": 23,
+		"id": 24,
 		"name": {
-			"en_US": "Diputado/a por Tierra del Fuego"
+			"en_US": "Representante a la Cámara por el departamento de Córdoba"
 		}
 	},
 	{
 		"area_id": 25,
-		"id": 24,
+		"id": 25,
 		"name": {
-			"en_US": "Diputado/a por Tucumán"
+			"en_US": "Representante a la Cámara por el departamento de Cundinamarca"
 		}
 	},
 	{
 		"area_id": 26,
-		"id": 25,
+		"id": 26,
 		"name": {
-			"en_US": "Senador/a Nacional por Catamarca"
+			"en_US": "Representante a la Cámara por el departamento de Guainía"
 		}
 	},
 	{
 		"area_id": 27,
-		"id": 26,
+		"id": 27,
 		"name": {
-			"en_US": "Senador/a Nacional por Chubut"
+			"en_US": "Representante a la Cámara por el departamento de Guaviare"
 		}
 	},
 	{
 		"area_id": 28,
-		"id": 27,
+		"id": 28,
 		"name": {
-			"en_US": "Senador/a Nacional por Córdoba"
+			"en_US": "Representante a la Cámara por el departamento de Huila"
 		}
 	},
 	{
 		"area_id": 29,
-		"id": 28,
+		"id": 29,
 		"name": {
-			"en_US": "Senador/a Nacional por Corrientes"
+			"en_US": "Representante a la Cámara por el departamento de La Guajira"
 		}
 	},
 	{
 		"area_id": 30,
-		"id": 29,
+		"id": 30,
 		"name": {
-			"en_US": "Senador/a Nacional por La Pampa"
+			"en_US": "Representante a la Cámara por el departamento de Magdalena"
 		}
 	},
 	{
 		"area_id": 31,
-		"id": 30,
+		"id": 31,
 		"name": {
-			"en_US": "Senador/a Nacional por Mendoza"
+			"en_US": "Representante a la Cámara por el departamento de Meta"
 		}
 	},
 	{
 		"area_id": 32,
-		"id": 31,
+		"id": 32,
 		"name": {
-			"en_US": "Senador/a Nacional por Santa Fe"
+			"en_US": "Representante a la Cámara por el departamento de Nariño"
 		}
 	},
 	{
 		"area_id": 33,
-		"id": 32,
+		"id": 33,
 		"name": {
-			"en_US": "Senador/a Nacional por Tucumán"
+			"en_US": "Representante a la Cámara por el departamento de Norte Santander"
+		}
+	},
+	{
+		"area_id": 34,
+		"id": 34,
+		"name": {
+			"en_US": "Representante a la Cámara por el departamento de Putumayo"
+		}
+	},
+	{
+		"area_id": 35,
+		"id": 35,
+		"name": {
+			"en_US": "Representante a la Cámara por el departamento de Quindío"
+		}
+	},
+	{
+		"area_id": 36,
+		"id": 36,
+		"name": {
+			"en_US": "Representante a la Cámara por el departamento de Risaralda"
+		}
+	},
+	{
+		"area_id": 37,
+		"id": 37,
+		"name": {
+			"en_US": "Representante a la Cámara por el departamento de San Andrés y Providencia"
+		}
+	},
+	{
+		"area_id": 38,
+		"id": 38,
+		"name": {
+			"en_US": "Representante a la Cámara por el departamento de Santander"
+		}
+	},
+	{
+		"area_id": 39,
+		"id": 39,
+		"name": {
+			"en_US": "Representante a la Cámara por el departamento de Sucre"
+		}
+	},
+	{
+		"area_id": 40,
+		"id": 40,
+		"name": {
+			"en_US": "Representante a la Cámara por el departamento del Tolima"
+		}
+	},
+	{
+		"area_id": 41,
+		"id": 41,
+		"name": {
+			"en_US": "Representante a la Cámara por el departamento del Valle del Cauca"
+		}
+	},
+	{
+		"area_id": 42,
+		"id": 42,
+		"name": {
+			"en_US": "Representante a la Cámara por el departamento del Vaupés"
+		}
+	},
+	{
+		"area_id": 43,
+		"id": 43,
+		"name": {
+			"en_US": "Representante a la Cámara por el departamento del Vichada"
+		}
+	},
+	{
+		"area_id": 44,
+		"id": 44,
+		"name": {
+			"en_US": "Representante a la Cámara por Bogotá"
+		}
+	},
+	{
+		"area_id": 45,
+		"id": 45,
+		"name": {
+			"en_US": "Representante a la Cámara curules para las Víctimas"
 		}
 	}
 ]

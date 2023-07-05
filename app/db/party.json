@@ -1,1337 +1,1157 @@
 [
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "ALIANZA + VALORES"
+			"en_US": "PL",
+			"es_CO": "Partido Liberal Colombiano"
 		},
-		"area_id": 2,
-		"coalition_id": "",
+		"area_id": 1,
+		"coalition_id": 2,
 		"colors": [
-			"Dark Blue"
+			"RED",
+			"WHITE"
 		],
 		"fb_urls": [
-			"https://www.facebook.com/profile.php?id=100022757332085"
+			"https://www.facebook.com/partidoliberal"
 		],
 		"id": 1,
 		"ig_urls": [
-			"https://www.instagram.com/valoresprovinciadebuenosaires"
+			"https://instagram.com/partidoliberal_/"
 		],
 		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1261394342155075586/uFa2Kraf_400x400.jpg"
+			"http://partidoliberal.org.co/assets/images/imgimglogo-partido-liberal-colombiano--1-1529767980-1532112201.png"
 		],
 		"name": {
-			"en_US": "ALIANZA + VALORES",
-			"es_AR": "ALIANZA + VALORES"
+			"en_US": "Partido Liberal Colombiano",
+			"es_CO": "Partido Liberal Colombiano"
 		},
 		"websites": [
 			{
 				"note": "official",
-				"url": "https://www.valoresparamipais.com"
+				"url": "https://www.partidoliberal.org.co"
 			}
 		]
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "ALIANZA AVANZA LA LIBERTAD"
-		},
-		"area_id": 6,
-		"coalition_id": 5,
-		"colors": [
-			"Blue",
-			"Black"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/LibertadAvanzaOficial"
-		],
-		"id": 2,
-		"ig_urls": [
-			"https://www.instagram.com/lalibertadavanzaoficial"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1422950434751369222/njQmVapA_400x400.jpg"
-		],
-		"name": {
-			"en_US": "ALIANZA AVANZA LA LIBERTAD",
-			"es_AR": "ALIANZA AVANZA LA LIBERTAD"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://lalibertadavanza.com.ar"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "ALIANZA AVANZA LIBERTAD"
-		},
-		"area_id": 2,
-		"coalition_id": 5,
-		"colors": [
-			"Blue",
-			"Black"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/AvanzaLibertadArgentina"
-		],
-		"id": 3,
-		"ig_urls": [
-			"https://www.instagram.com/avanzalibertad_"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1338113484303847425/OICbKc0P_400x400.jpg"
-		],
-		"name": {
-			"en_US": "ALIANZA AVANZA LIBERTAD",
-			"es_AR": "ALIANZA AVANZA LIBERTAD"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://avanzalibertad.com"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "ALIANZA CHACO CAMBIA + JUNTOS POR EL CAMBIO"
-		},
-		"area_id": 4,
-		"coalition_id": 2,
-		"colors": [
-			"Orange",
-			"Green"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/chacocambia"
-		],
-		"id": 4,
-		"ig_urls": [
-			"https://www.instagram.com/chacocambiaig"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1417617490868326408/WEm4DhDB_400x400.jpg"
-		],
-		"name": {
-			"en_US": "ALIANZA CHACO CAMBIA + JUNTOS POR EL CAMBIO",
-			"es_AR": "ALIANZA CHACO CAMBIA + JUNTOS POR EL CAMBIO"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://chacocambia.com.ar/?fbclid=IwAR0yfLZ-FtRfaQfxi8xYEbhdQqrsrblf3mFzxnuFCaqeGRkPCE4cLvEVMKE"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "ALIANZA FITU SAN LUIS"
-		},
-		"area_id": 20,
-		"coalition_id": 3,
-		"colors": [
-			"Red"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/pts.sanluis"
-		],
-		"id": 5,
-		"ig_urls": [
-			"https://www.instagram.com/pts_sanluis"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1263986530818891776/6tVPdBBW_400x400.png"
-		],
-		"name": {
-			"en_US": "ALIANZA FITU SAN LUIS",
-			"es_AR": "ALIANZA FITU SAN LUIS"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.pts.org.ar/San-Luis"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "ALIANZA FRENTE DE TODOS"
+			"en_US": "PC",
+			"es_CO": "Partido Conservador Colombiano"
 		},
 		"area_id": 1,
 		"coalition_id": 1,
 		"colors": [
-			"Light Blue"
+			"BLUE",
+			"WHITE"
 		],
 		"fb_urls": [
-			"https://www.facebook.com/FrenteDeTodosdistritoSanLuis"
+			"https://www.facebook.com/soyconservador"
 		],
-		"id": 6,
+		"id": 2,
 		"ig_urls": [
-			"https://www.instagram.com/frentedetodosdistritosanluis"
+			"https://www.instagram.com/partidoconservadorcolombiano/"
 		],
 		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1143274630918156291/Om9WHE3C_400x400.png"
+			"https://caracol-brightspot.s3-us-west-2.amazonaws.com/assets/noticias/partido-conservador-logio.jpg"
 		],
 		"name": {
-			"en_US": "ALIANZA FRENTE DE TODOS",
-			"es_AR": "ALIANZA FRENTE DE TODOS"
+			"en_US": "Partido Conservador Colombiano",
+			"es_CO": "Partido Conservador Colombiano"
 		},
 		"websites": [
 			{
 				"note": "official",
-				"url": "https://frentedetodosdistritosanluis.com"
+				"url": "https://www.partidoconservador.com"
 			}
 		]
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "ALIANZA FRENTE VAMOS CON VOS"
+			"en_US": "CR",
+			"es_CO": "Partido Cambio Radical"
+		},
+		"area_id": 1,
+		"coalition_id": 11,
+		"colors": [
+			"RED",
+			"DARK BLUE"
+		],
+		"fb_urls": [
+			"https://www.facebook.com/PCambioRadical/"
+		],
+		"id": 3,
+		"ig_urls": [
+			"https://www.instagram.com/pcambioradical/"
+		],
+		"logo_urls": [
+			"https://www.camara.gov.co/sites/default/files/2017-05/CR.jpg"
+		],
+		"name": {
+			"en_US": "Partido Cambio Radical",
+			"es_CO": "Partido Cambio Radical"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.partidocambioradical.org"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "U",
+			"es_CO": "Partido de la U"
+		},
+		"area_id": 1,
+		"coalition_id": 1,
+		"colors": [
+			"YELLOW",
+			"ORANGE",
+			"RED",
+			"GREEN",
+			"BLUE"
+		],
+		"fb_urls": [
+			"https://www.facebook.com/PartidoDeLaUCol/"
+		],
+		"id": 4,
+		"ig_urls": [
+			"https://www.instagram.com/partidodelauoficial/"
+		],
+		"logo_urls": [
+			"http://cr00.epimg.net/radio/imagenes/2018/03/08/politica/1520473426_715939_1520473938_noticia_normal.jpg"
+		],
+		"name": {
+			"en_US": "Partido de la U",
+			"es_CO": "Partido de la U"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.partidodelau.com"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "AV",
+			"es_CO": "Alianza Verde"
 		},
 		"area_id": 1,
 		"coalition_id": 4,
 		"colors": [
-			"Green"
+			"GREEN",
+			"YELLOW"
 		],
 		"fb_urls": [
-			"https://www.facebook.com/Frente-Vamos-Con-Vos-107253101641200"
+			"https://www.facebook.com/PartidoAlianzaVerde/"
+		],
+		"id": 5,
+		"ig_urls": [
+			"https://www.instagram.com/partidoalianzaverde/"
+		],
+		"logo_urls": [
+			"https://1.bp.blogspot.com/-XPcIpMu3sD4/Xhinh3zAQ5I/AAAAAAAAAn8/oWV9366TWuUwX0560pLeQXy7xXbs6lGngCLcBGAsYHQ/s1600/Partido-Alianza-Verde-oficializara%25CC%2581-este-viernes-su-apoyo-a-la-candidatura-de-Orlando-Beni%25CC%2581tez.jpg"
+		],
+		"name": {
+			"en_US": "Alianza Verde",
+			"es_CO": "Alianza Verde"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.alianzaverde.org.co/index.php"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "PDA",
+			"es_CO": "Polo Democrático Alternativo"
+		},
+		"area_id": 1,
+		"coalition_id": 3,
+		"colors": [
+			"BRIGHT YELLOW",
+			"BLACK"
+		],
+		"fb_urls": [
+			"https://www.facebook.com/polodemocraticoalternativo"
+		],
+		"id": 6,
+		"ig_urls": [
+			"https://www.instagram.com/polo_democratico_/"
+		],
+		"logo_urls": [
+			"https://www.colombia.com/elecciones/2014/legislativas/images/partidos/polo-democratico-gr.png"
+		],
+		"name": {
+			"en_US": "Polo Democrático Alternativo",
+			"es_CO": "Polo Democrático Alternativo"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.polodemocratico.net"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "MIRA",
+			"es_CO": "Movimiento Independiente de Renovación Absoluta"
+		},
+		"area_id": 1,
+		"coalition_id": 5,
+		"colors": [
+			"NAVY BLUE",
+			"WHITE"
+		],
+		"fb_urls": [
+			"https://www.facebook.com/partidomira/"
 		],
 		"id": 7,
 		"ig_urls": [
-			"https://www.instagram.com/frentevamosconvos"
+			"https://www.instagram.com/partidomira/"
 		],
 		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1446097717390942216/ZTBbl-dv_400x400.jpg"
+			"https://es.wikipedia.org/wiki/Partido_Pol%C3%ADtico_MIRA#/media/Archivo:Logo_Partido_MIRA.svg"
 		],
 		"name": {
-			"en_US": "ALIANZA FRENTE VAMOS CON VOS",
-			"es_AR": "ALIANZA FRENTE VAMOS CON VOS"
+			"en_US": "Movimiento Independiente de Renovación Absoluta",
+			"es_CO": "Movimiento Independiente de Renovación Absoluta"
 		},
 		"websites": [
 			{
 				"note": "official",
-				"url": "https://www.vamosconvos.ar/?fbclid=IwAR0hfZboA0MqkBK2dVtqWxmo7xNP-BskUKkzsEvGmwvHA6Uv6fStuaYiG5g"
+				"url": "https://www.partidomira.com/"
 			}
 		]
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "ALIANZA FUERZA SAN LUIS"
+			"en_US": "CD",
+			"es_CO": "Centro Democrático"
 		},
-		"area_id": 20,
-		"coalition_id": 6,
+		"area_id": 1,
+		"coalition_id": 8,
 		"colors": [
-			"Cyan"
+			"BABY BLUE",
+			"YELLOW",
+			"RED",
+			"DARK BLUE"
 		],
 		"fb_urls": [
-			"https://www.facebook.com/FrenteFuerzaSanLuis"
+			"https://es-la.facebook.com/CeDemocratico/"
 		],
 		"id": 8,
 		"ig_urls": [
-			"https://www.instagram.com/frentefuerzasanluis"
+			"https://www.instagram.com/cedemocratico/?hl=es-la"
 		],
 		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1417132058447581184/2QOhPa_h_400x400.jpg"
+			"https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/6668448/logoCentroDemocratico.png"
 		],
 		"name": {
-			"en_US": "ALIANZA FUERZA SAN LUIS",
-			"es_AR": "ALIANZA FUERZA SAN LUIS"
+			"en_US": "Centro Democrático",
+			"es_CO": "Centro Democrático"
 		},
 		"websites": [
 			{
 				"note": "official",
-				"url": "https://frentefuerzasanluis.com.ar/?fbclid=IwAR14gptdUTmjaK6Q9x6mk6eGPjjm21i9AlooD-jmX3cxgH9NsxvyqmK4IQU"
+				"url": "https://www.centrodemocratico.com"
 			}
 		]
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "ALIANZA JUNTOS"
+			"en_US": "CJL",
+			"es_CO": "Colombia Justa Libres"
 		},
-		"area_id": 2,
+		"area_id": 1,
+		"coalition_id": 5,
+		"colors": [
+			"RED",
+			"BABY BLUE",
+			"BLACK"
+		],
+		"fb_urls": [
+			"https://www.facebook.com/ColJustaLibres/"
+		],
+		"id": 9,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://colombiajustalibres.org/wp-content/uploads/2019/11/Logo-1.png"
+		],
+		"name": {
+			"en_US": "Colombia Justa Libres",
+			"es_CO": "Colombia Justa Libres"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "http://www.colombiajustalibres.org/"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "D",
+			"es_CO": "Dignidad"
+		},
+		"area_id": 1,
+		"coalition_id": 6,
+		"colors": [
+			"PURPLE",
+			"WHITE",
+			"ORANGE"
+		],
+		"fb_urls": [
+			"https://www.facebook.com/PARTIDOASI"
+		],
+		"id": 11,
+		"ig_urls": [
+			"https://www.instagram.com/accounts/login/?next=/dignidad.co/"
+		],
+		"logo_urls": [
+			"https://dignidad.co/wp-content/uploads/2021/02/Logo_bg_Header-640x159.png"
+		],
+		"name": {
+			"en_US": "Dignidad",
+			"es_CO": "Dignidad"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.dignidad.co"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASI",
+			"es_CO": "Alianza Social Independiente"
+		},
+		"area_id": 1,
+		"coalition_id": 16,
+		"colors": [
+			"YELLOW",
+			"GREEN",
+			"RED"
+		],
+		"fb_urls": [
+			"https://www.facebook.com/dignidad.co"
+		],
+		"id": 12,
+		"ig_urls": [
+			"https://www.instagram.com/dignidad.co/"
+		],
+		"logo_urls": [
+			"https://alianzasocialindependiente.org/wp-content/uploads/2021/07/logo-web_Mesa-de-trabajo-1.png"
+		],
+		"name": {
+			"en_US": "Alianza Social Independiente",
+			"es_CO": "Alianza Social Independiente"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.alianzasocialindependiente.org"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "MAIS",
+			"es_CO": "Movimiento Alternativo Indígena y Social"
+		},
+		"area_id": 1,
+		"coalition_id": "",
+		"colors": [
+			"RED",
+			"YELLOW",
+			"GREEN"
+		],
+		"fb_urls": [
+			"https://www.facebook.com/pages/Movimiento-Alternativo-Ind%C3%ADgena-y-Social-MAIS-Comunidad-Oficial/1404532756537281"
+		],
+		"id": 13,
+		"ig_urls": [
+			"https://instagram.com/movimientomais/"
+		],
+		"logo_urls": [
+			"https://www.mais.com.co/templates/mais_tema/images/designer/9185be1649eab65f610cd54c5af3af17_logo_sup.svg"
+		],
+		"name": {
+			"en_US": "Movimiento Alternativo Indígena y Social",
+			"es_CO": "Movimiento Alternativo Indígena y Social"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.mais.com.co"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "AICO",
+			"es_CO": "Autoridades Indígenas de Colombia"
+		},
+		"area_id": 1,
+		"coalition_id": "",
+		"colors": [
+			"BLACK",
+			"GREEN"
+		],
+		"fb_urls": [
+			"facebook.com/PartidoAICO"
+		],
+		"id": 14,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.concejodemagangue.com/wp-content/uploads/2020/08/aico.png"
+		],
+		"name": {
+			"en_US": "Autoridades Indígenas de Colombia",
+			"es_CO": "Autoridades Indígenas de Colombia"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.partidoaico.org.co/"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "ADA",
+			"es_CO": "Alianza Democrática Amplia"
+		},
+		"area_id": 1,
+		"coalition_id": "",
+		"colors": [
+			"WHITE",
+			"RED",
+			"DARK BLUE"
+		],
+		"fb_urls": [
+			"https://www.facebook.com/Partido-ADA-109788217562340/"
+		],
+		"id": 15,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://scontent.fbog2-5.fna.fbcdn.net/v/t39.30808-6/271891335_404360748105084_7037061075633261594_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=mtaHOlMuObMAX8ix3i8&_nc_ht=scontent.fbog2-5.fna&oh=00_AT98fuIokr1qhXIBrlfzHUiVC_g4OYqvMyBUSTsT67LBEQ&oe=620D0498"
+		],
+		"name": {
+			"en_US": "Alianza Democrática Amplia",
+			"es_CO": "Alianza Democrática Amplia"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.partidoada.org/"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "COR",
+			"es_CO": "Colombia Renaciente"
+		},
+		"area_id": 1,
 		"coalition_id": 2,
+		"colors": [
+			"WHITE",
+			"BLUE",
+			"RED",
+			"ORANGE",
+			"DARK YELLOW",
+			"BRIGHT YELLOW"
+		],
+		"fb_urls": [],
+		"id": 16,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.tintiando.com/wp-content/uploads/2019/07/COLOMBIA-RENACIENTE.png"
+		],
+		"name": {
+			"en_US": "Colombia Renaciente",
+			"es_CO": "Colombia Renaciente"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.partidocolombiarenaciente.co/web/"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "C",
+			"es_CO": "Comunes"
+		},
+		"area_id": 1,
+		"coalition_id": 3,
+		"colors": [
+			"RED",
+			"GREEN"
+		],
+		"fb_urls": [
+			"https://www.facebook.com/PartidoColombiaRenaciente/"
+		],
+		"id": 17,
+		"ig_urls": [
+			"https://instagram.com/comunes.col"
+		],
+		"logo_urls": [
+			"https://www.cne.gov.co/images/events/comunicado-logo-prtido-comunes.png"
+		],
+		"name": {
+			"en_US": "Comunes",
+			"es_CO": "Comunes"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.partidocomunes.com.co"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "CH",
+			"es_CO": "Colombia Humana"
+		},
+		"area_id": 1,
+		"coalition_id": 3,
+		"colors": [
+			"BRIGHT PURPLE",
+			"WHITE"
+		],
+		"fb_urls": [
+			"https://www.facebook.com/OficialColombiaHumana/"
+		],
+		"id": 18,
+		"ig_urls": [
+			"https://www.instagram.com/colombiahumana_/"
+		],
+		"logo_urls": [
+			"https://corpsur.b-cdn.net/wp-content/uploads/2018/08/COL1-triangle.jpg"
+		],
+		"name": {
+			"en_US": "Colombia Humana",
+			"es_CO": "Colombia Humana"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.colombiahumana.co"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "NL",
+			"es_CO": "Nuevo Liberalismo"
+		},
+		"area_id": 1,
+		"coalition_id": 2,
+		"colors": [
+			"RED",
+			"WHITE"
+		],
+		"fb_urls": [],
+		"id": 20,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://i0.wp.com/nuevoliberalismo.org/wp-content/uploads/2022/01/Logo_NuevoLiberalismo_web.jpg?w=328&ssl=1"
+		],
+		"name": {
+			"en_US": "Nuevo Liberalismo",
+			"es_CO": "Nuevo Liberalismo"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.nuevoliberalismo.org"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "MSN",
+			"es_CO": "Movimiento de Salvación Nacional"
+		},
+		"area_id": 1,
+		"coalition_id": 7,
+		"colors": [
+			"BABY BLUE",
+			"BRIGHT GREEN",
+			"RED",
+			"BLACK"
+		],
+		"fb_urls": [
+			"https://www.facebook.com/MSNCOL"
+		],
+		"id": 21,
+		"ig_urls": [
+			"https://www.instagram.com/movsalvacionnal/"
+		],
+		"logo_urls": [
+			"https://es.wikipedia.org/wiki/Movimiento_de_Salvación_Nacional#/media/Archivo:Salvación_Nacional_(Colombia).svg"
+		],
+		"name": {
+			"en_US": "Movimiento de Salvación Nacional",
+			"es_CO": "Movimiento de Salvación Nacional"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.salvacionnacional.co"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "ADCI",
+			"es_CO": "Asociación De Cabildos Indigenas Por Colombia"
+		},
+		"area_id": 1,
+		"coalition_id": "",
 		"colors": [
 			""
 		],
 		"fb_urls": [],
-		"id": 9,
-		"ig_urls": [],
-		"logo_urls": [],
-		"name": {
-			"en_US": "ALIANZA JUNTOS",
-			"es_AR": "ALIANZA JUNTOS"
-		},
-		"websites": []
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "ALIANZA UNIDOS POR SAN LUIS"
-		},
-		"area_id": 20,
-		"coalition_id": 6,
-		"colors": [
-			"Dark Blue"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/frentesanluisunido"
-		],
-		"id": 10,
-		"ig_urls": [],
-		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/226077819_1026935161381531_6456446901423947323_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=kHC0_WiKJ_sAX8ODJJO&_nc_ht=scontent.faep9-2.fna&oh=6d373f3ad96c492ee28a52026f633e9f&oe=6197FD62"
-		],
-		"name": {
-			"en_US": "ALIANZA UNIDOS POR SAN LUIS",
-			"es_AR": "ALIANZA UNIDOS POR SAN LUIS"
-		},
-		"websites": []
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "ALIANZA VAMOS CON VOS"
-		},
-		"area_id": 8,
-		"coalition_id": 4,
-		"colors": [
-			"Green"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/Frente-Vamos-Con-Vos-107253101641200"
-		],
-		"id": 11,
-		"ig_urls": [
-			"https://www.instagram.com/frentevamosconvos"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1446097717390942216/ZTBbl-dv_400x400.jpg"
-		],
-		"name": {
-			"en_US": "ALIANZA VAMOS CON VOS",
-			"es_AR": "ALIANZA VAMOS CON VOS"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.vamosconvos.ar/?fbclid=IwAR0hfZboA0MqkBK2dVtqWxmo7xNP-BskUKkzsEvGmwvHA6Uv6fStuaYiG5g"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "AUTODETERMINACIÓN Y LIBERTAD"
-		},
-		"area_id": 6,
-		"coalition_id": 3,
-		"colors": [
-			"Purple"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/Aylibertad"
-		],
-		"id": 12,
-		"ig_urls": [
-			"https://www.instagram.com/aylibertadok"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1431414012957315073/ZLFuEIGz_400x400.jpg"
-		],
-		"name": {
-			"en_US": "AUTODETERMINACIÓN Y LIBERTAD",
-			"es_AR": "AUTODETERMINACIÓN Y LIBERTAD"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://aylibertad.com.ar"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "CAMBIA JUJUY"
-		},
-		"area_id": 11,
-		"coalition_id": 2,
-		"colors": [
-			"Pink"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/FrenteCambiaJUJUY"
-		],
-		"id": 13,
-		"ig_urls": [
-			"https://www.instagram.com/frentecambiajujuy"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1425829447207329797/r3WxRsbV_400x400.jpg"
-		],
-		"name": {
-			"en_US": "CAMBIA JUJUY",
-			"es_AR": "CAMBIA JUJUY"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://cambiajujuy.com/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "CAMBIA MENDOZA - DISTRITO MENDOZA"
-		},
-		"area_id": 14,
-		"coalition_id": 2,
-		"colors": [
-			"Blue"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/Frente-Cambia-Mendoza-1553614908244248"
-		],
-		"id": 14,
-		"ig_urls": [
-			"https://www.instagram.com/frentecambiamza"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1415447571078828033/DOoKXLIl_400x400.jpg"
-		],
-		"name": {
-			"en_US": "CAMBIA MENDOZA - DISTRITO MENDOZA",
-			"es_AR": "CAMBIA MENDOZA - DISTRITO MENDOZA"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://cambiamendoza.com"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "CAMBIA NEUQUÉN"
-		},
-		"area_id": 16,
-		"coalition_id": 2,
-		"colors": [
-			"Yellow"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/cambianeuquen"
-		],
-		"id": 15,
-		"ig_urls": [
-			"https://www.instagram.com/cambianeuquenok"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/218156253_124447899814664_3983360288842689691_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=wFkRCvZHb0kAX-hpsPL&_nc_ht=scontent.faep9-2.fna&oh=7ebdf7c7d76b00584047b3825e46b75b&oe=61982607"
-		],
-		"name": {
-			"en_US": "CAMBIA NEUQUÉN",
-			"es_AR": "CAMBIA NEUQUÉN"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://www.cambianeuquen.com"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "CAMBIA SANTA CRUZ"
-		},
-		"area_id": 21,
-		"coalition_id": 2,
-		"colors": [
-			"Yellow"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/CambiaSantaCruz"
-		],
-		"id": 16,
-		"ig_urls": [],
-		"logo_urls": [
-			"https://scontent.feze7-1.fna.fbcdn.net/v/t39.30808-6/226823568_107456351617218_3699284219011968184_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=c7dUTa0r4-MAX8KGoiS&_nc_ht=scontent.feze7-1.fna&oh=ed72fc7bff763a444d9446cd19ee0466&oe=61884946"
-		],
-		"name": {
-			"en_US": "CAMBIA SANTA CRUZ",
-			"es_AR": "CAMBIA SANTA CRUZ"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.cambiasantacruz.com"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "CHUBUT SOMOS TODOS"
-		},
-		"area_id": 5,
-		"coalition_id": 1,
-		"colors": [
-			"Purple"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/Chubut-Somos-Todos-104937981184498"
-		],
-		"id": 17,
-		"ig_urls": [
-			"https://www.instagram.com/chsomostodos"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1249404584923201536/Pa6hDR1J_400x400.jpg"
-		],
-		"name": {
-			"en_US": "CHUBUT SOMOS TODOS",
-			"es_AR": "CHUBUT SOMOS TODOS"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://www.chubutsomostodos.org.ar"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "CC-ARI",
-			"es_AR": "COALICION CIVICA - ARI"
-		},
-		"area_id": 16,
-		"coalition_id": 2,
-		"colors": [
-			"Blue"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/CoalicionCivicaAriNacional"
-		],
-		"id": 18,
-		"ig_urls": [
-			"https://www.instagram.com/ccari_ok"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1249852621424340999/_KEoG5vr_400x400.jpg"
-		],
-		"name": {
-			"en_US": "COALICION CIVICA - ARI",
-			"es_AR": "COALICION CIVICA - ARI"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.ccaridiputados.com.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "COMPROMISO FEDERAL"
-		},
-		"area_id": 8,
-		"coalition_id": 1,
-		"colors": [
-			"Cyan"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/juventudcompromisofederal"
-		],
-		"id": 19,
-		"ig_urls": [
-			"https://www.instagram.com/compromiso_federal"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1283227110774050816/NeVZ_GD3_400x400.png"
-		],
-		"name": {
-			"en_US": "COMPROMISO FEDERAL",
-			"es_AR": "COMPROMISO FEDERAL"
-		},
-		"websites": []
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "COMPROMISO FEDERAL - DISTRITO MENDOZA"
-		},
-		"area_id": 14,
-		"coalition_id": 1,
-		"colors": [
-			"Dark Blue"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/compromisofederal.mza"
-		],
-		"id": 20,
-		"ig_urls": [
-			"https://www.instagram.com/compromisofederal.mza"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1424740492953194496/x1owWFT0_400x400.jpg"
-		],
-		"name": {
-			"en_US": "COMPROMISO FEDERAL - DISTRITO MENDOZA",
-			"es_AR": "COMPROMISO FEDERAL - DISTRITO MENDOZA"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.gestamendocina.com/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "CORRIENTE DE PENSAMIENTO BONAERENSE"
-		},
-		"area_id": 3,
-		"coalition_id": 6,
-		"colors": [
-			"Yellow"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/CoPeBoARG"
-		],
-		"id": 21,
-		"ig_urls": [
-			"https://www.instagram.com/copeboarg"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/61534127_371982156782282_3414419367331364864_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=OegwGgbEOUQAX_c8fUp&_nc_ht=scontent.faep9-1.fna&oh=d8bd30c51535371ba0693f33d7e3ddcd&oe=619A7084"
-		],
-		"name": {
-			"en_US": "CORRIENTE DE PENSAMIENTO BONAERENSE",
-			"es_AR": "CORRIENTE DE PENSAMIENTO BONAERENSE"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://copebo.com.ar/new"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "DEL OBRERO"
-		},
-		"area_id": 15,
-		"coalition_id": 3,
-		"colors": [
-			"Red"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/partidoobreroarg"
-		],
-		"id": 22,
-		"ig_urls": [
-			"https://www.instagram.com/partidoobrero"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1041712502260817924/I6mgFMkh_400x400.jpg"
-		],
-		"name": {
-			"en_US": "DEL OBRERO",
-			"es_AR": "DEL OBRERO"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://po.org.ar/?fbclid=IwAR0HcJgS_qUZAnS3mYp4KxhXLLmPpDQQxjQ_1nYZennvBZM7pIVbcD7lOkA"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "ECO + VAMOS CORRIENTES"
-		},
-		"area_id": 8,
-		"coalition_id": 2,
-		"colors": [
-			"Lime",
-			"Yellow"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/ECO-M%C3%A1s-Vamos-Corrientes-106422871724660"
-		],
 		"id": 23,
-		"ig_urls": [
-			"https://www.instagram.com/ecocorrientes"
-		],
+		"ig_urls": [],
 		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1410039202989871105/_xrBuO2d_400x400.jpg"
+			"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Asociaci%C3%B3n_de_Cabildos_Ind%C3%ADgenas_por_Colombia_2022.png/100px-Asociaci%C3%B3n_de_Cabildos_Ind%C3%ADgenas_por_Colombia_2022.png"
 		],
 		"name": {
-			"en_US": "ECO + VAMOS CORRIENTES",
-			"es_AR": "ECO + VAMOS CORRIENTES"
+			"en_US": "Asociación De Cabildos Indigenas Por Colombia",
+			"es_CO": "Asociación De Cabildos Indigenas Por Colombia"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.vamosvaldes.ar/"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "ENCUENTRO VECINAL CORDOBA"
+			"en_US": "ANCIA",
+			"es_CO": "Asociación Nacional De Cabildos Y Autoridades Indígenas En Colombia Anicol"
 		},
-		"area_id": 7,
-		"coalition_id": 6,
+		"area_id": 1,
+		"coalition_id": "",
 		"colors": [
-			"Orange",
-			"Blue"
+			""
 		],
 		"fb_urls": [
-			"https://www.facebook.com/EncuentroVecinalCba"
+			"https://www.anicol.com.co",
+			"https://anicol.com.co/#"
 		],
 		"id": 24,
 		"ig_urls": [
-			"https://www.instagram.com/encuentrovecinalcordoba"
+			"https://www.anicol.com.co"
 		],
 		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/71472108_2441704692588361_4647877401433341952_n.png?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=KFuRQgfMPRsAX-L7S0f&_nc_ht=scontent.faep9-2.fna&oh=c321316321f7ee49bbfbdace12a52616&oe=61977530"
+			"https://www.anicol.com.co/wp-content/uploads/2021/03/Logo_ANICOL.jpg",
+			"https://anicol.com.co/wp-content/uploads/2021/03/Logo_ANICOL.jpg"
 		],
 		"name": {
-			"en_US": "ENCUENTRO VECINAL CORDOBA",
-			"es_AR": "ENCUENTRO VECINAL CORDOBA"
+			"en_US": "Asociación Nacional De Cabildos Y Autoridades Indígenas En Colombia Anicol",
+			"es_CO": "Asociación Nacional De Cabildos Y Autoridades Indígenas En Colombia Anicol"
 		},
 		"websites": [
 			{
 				"note": "official",
-				"url": "https://evcba.com.ar/?fbclid=IwAR0yveqEJ57lKfhpBu8wIizAsuNf2uAZ14uJTVpLRelLIqc73luMcdgRA_g"
+				"url": "https://www.anicol.com.co"
+			},
+			{
+				"note": "official",
+				"url": "https://anicol.com.co/#:~:text=Misi%C3%B3n,y%20garant%C3%ADa%20de%20sus%20derechos."
+			},
+			{
+				"note": "official",
+				"url": "https://anicol.com.co/#:~:text=Misi%C3%B3n,y%20garant%C3%ADa%20de%20sus%20derechos."
 			}
 		]
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FELICIDAD"
+			"en_US": "DDAP",
+			"es_CO": "Democracia Desde Abajo La Palma"
 		},
-		"area_id": 18,
-		"coalition_id": 6,
+		"area_id": 1,
+		"coalition_id": "",
 		"colors": [
-			"Orange"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/partidofelicidad.salta"
-		],
+		"fb_urls": [],
 		"id": 25,
-		"ig_urls": [
-			"https://www.instagram.com/partido_felicidad"
-		],
+		"ig_urls": [],
 		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/904767593533276160/U59IpGrn_400x400.jpg"
+			"https://upload.wikimedia.org/wikipedia/commons/4/4e/Democracia_desde_abajo_La_Palma.png"
 		],
 		"name": {
-			"en_US": "FELICIDAD",
-			"es_AR": "FELICIDAD"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://www.partidofelicidad.com.ar"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FRENTE AMPLIO CATAMARQUEÑO"
-		},
-		"area_id": 3,
-		"coalition_id": 6,
-		"colors": [
-			"Red"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/Frenteampliocatamarqueno"
-		],
-		"id": 26,
-		"ig_urls": [
-			"https://www.instagram.com/frente_amp.cat"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1433441374838345737/bFmVFfDu_400x400.jpg"
-		],
-		"name": {
-			"en_US": "FRENTE AMPLIO CATAMARQUEÑO",
-			"es_AR": "FRENTE AMPLIO CATAMARQUEÑO"
+			"en_US": "Democracia Desde Abajo La Palma",
+			"es_CO": "Democracia Desde Abajo La Palma"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FRENTE AMPLIO POR TUCUMAN"
+			"en_US": "ELC",
+			"es_CO": "Estamos Listas Colombia"
 		},
-		"area_id": 25,
-		"coalition_id": 6,
+		"area_id": 1,
+		"coalition_id": "",
 		"colors": [
-			"Blue"
+			""
+		],
+		"fb_urls": [],
+		"id": 26,
+		"ig_urls": [
+			"https://www.instagram.com/estamoslistas/?hl=en"
+		],
+		"logo_urls": [
+			"https://es.wikipedia.org/wiki/Movimiento_Estamos_Listas#/media/Archivo:Estamoslistas.jpg"
+		],
+		"name": {
+			"en_US": "Estamos Listas Colombia",
+			"es_CO": "Estamos Listas Colombia"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FCFC",
+			"es_CO": "Fuerza Ciudadana La Fuerza Del Cambio"
+		},
+		"area_id": 30,
+		"coalition_id": "",
+		"colors": [
+			""
 		],
 		"fb_urls": [
-			"https://www.facebook.com/Frente-Amplio-por-Tucum%C3%A1n-166202015516298"
+			"https://www.facebook.com/FuerzaCiudadanaSMR/"
 		],
 		"id": 27,
 		"ig_urls": [
-			"https://www.instagram.com/frenteamplioportucuman"
+			"https://www.instagram.com/fzciudadana/"
 		],
 		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/224908645_166328938836939_1557046132457320409_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=UzcchBvOAnEAX_iYAxw&_nc_ht=scontent.faep9-1.fna&oh=eea9ae13d30528cebe75f97a5d6d8787&oe=61979786"
+			"https://fuerzaciudadana.com.co/wp-content/uploads/2022/01/logo-fuerza.svg"
 		],
 		"name": {
-			"en_US": "FRENTE AMPLIO POR TUCUMAN",
-			"es_AR": "FRENTE AMPLIO POR TUCUMAN"
+			"en_US": "Fuerza Ciudadana La Fuerza Del Cambio",
+			"es_CO": "Fuerza Ciudadana La Fuerza Del Cambio"
 		},
 		"websites": [
 			{
 				"note": "official",
-				"url": "https://edicionldstuc.wixsite.com/frenteamplioxtucuman?fbclid=IwAR0Qgrd88MLA30qo4ezJ2csinffkMe4CsBGOZGJbuOUfmR48_cgyYb0_0as"
+				"url": "https://www.fuerzaciudadana.com.co/"
 			}
 		]
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FRENTE AMPLIO PROGRESISTA"
+			"en_US": "MA",
+			"es_CO": "Mandato Ambiental"
 		},
-		"area_id": 22,
-		"coalition_id": 6,
+		"area_id": 1,
+		"coalition_id": "",
 		"colors": [
-			"Orange"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/FrenteProgresistaCivicoYSocial"
-		],
+		"fb_urls": [],
 		"id": 28,
-		"ig_urls": [
-			"https://www.instagram.com/fapiriondo"
-		],
+		"ig_urls": [],
 		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/53305563_10156779720538964_1119804240148037632_n.png?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=iIhEVBT2tLIAX9W1W-p&_nc_ht=scontent.faep9-1.fna&oh=1816f3ad5c7f46fb227cac96913b64c0&oe=619869C5"
+			"https://upload.wikimedia.org/wikipedia/commons/7/75/Resguardo_Campo_Alegre.png"
 		],
 		"name": {
-			"en_US": "FRENTE AMPLIO PROGRESISTA",
-			"es_AR": "FRENTE AMPLIO PROGRESISTA"
+			"en_US": "Mandato Ambiental",
+			"es_CO": "Mandato Ambiental"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FRENTE CIVICO POR SANTIAGO"
+			"en_US": "MGN",
+			"es_CO": "Movimiento Gente Nueva"
 		},
-		"area_id": 23,
-		"coalition_id": 6,
+		"area_id": 1,
+		"coalition_id": "",
 		"colors": [
-			"Red",
-			"Blue"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/FrenteCivico"
-		],
+		"fb_urls": [],
 		"id": 29,
-		"ig_urls": [
-			"https://www.instagram.com/frentecivicoporsantiago"
-		],
+		"ig_urls": [],
 		"logo_urls": [
-			"https://www.elliberal.com.ar/fotos/cache/notas/2021/07/23/400x350_571675_20210723210540.jpg"
+			"https://es.wikipedia.org/wiki/Elecciones_legislativas_de_Colombia_de_2022#/media/Archivo:MOVIMIENTO_GENTE_NUEVA.png"
 		],
 		"name": {
-			"en_US": "FRENTE CIVICO POR SANTIAGO",
-			"es_AR": "FRENTE CIVICO POR SANTIAGO"
+			"en_US": "Movimiento Gente Nueva",
+			"es_CO": "Movimiento Gente Nueva"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://www.frentecivicosgo.com.ar"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FRENTE CONSENSO ISCHIGUALASTO (SAN JUAN)"
+			"en_US": "MNSO",
+			"es_CO": "Movimiento Nacional Sector Organizado De La Salud Sos Colombia"
 		},
-		"area_id": 19,
-		"coalition_id": 6,
+		"area_id": 1,
+		"coalition_id": "",
 		"colors": [
-			"Dark Blue"
+			""
 		],
 		"fb_urls": [
-			"https://www.facebook.com/ConsensoIschigualasto.ok"
+			"https://www.facebook.com/sosmovpolitico"
 		],
 		"id": 30,
 		"ig_urls": [
-			"https://www.instagram.com/consensoischigualasto"
+			"https://www.instagram.com/sosmovpolitico/"
 		],
 		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/246493949_1216626602155213_40669057754973059_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=6IL5l6gsmYEAX_o7C6l&_nc_ht=scontent.faep9-2.fna&oh=9c17a027e643977248e43054751bb4c5&oe=619A0219"
+			"https://es.wikipedia.org/wiki/Elecciones_legislativas_de_Colombia_de_2022#/media/Archivo:MOVIMIENTO_NACIONAL_SECTOR_ORGANIZADO_DE_LA_SALUD_SOS_COLOMBIA.png"
 		],
 		"name": {
-			"en_US": "FRENTE CONSENSO ISCHIGUALASTO (SAN JUAN)",
-			"es_AR": "FRENTE CONSENSO ISCHIGUALASTO (SAN JUAN)"
+			"en_US": "Movimiento Nacional Sector Organizado De La Salud Sos Colombia",
+			"es_CO": "Movimiento Nacional Sector Organizado De La Salud Sos Colombia"
 		},
 		"websites": [
 			{
 				"note": "official",
-				"url": "https://consensoischigualasto.com/?fbclid=IwAR1y16U7Qwr0jhS_VolZa6JYN4r4kSXKOhqoqYobP_RlBj8uKhAaHDtXlZo"
+				"url": "https://www.movimientososcolombia.co/"
 			}
 		]
 	},
 	{
 		"abbreviation": {
-			"en_US": "FITU-T",
-			"es_AR": "FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES UNIDAD-TUC"
-		},
-		"area_id": 25,
-		"coalition_id": 3,
-		"colors": [
-			"Red"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/fte.izquierda"
-		],
-		"id": 31,
-		"ig_urls": [
-			"https://www.instagram.com/frentedeizquierda"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1138872031984988160/afQKnnnz_400x400.png"
-		],
-		"name": {
-			"en_US": "FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES UNIDAD-TUC",
-			"es_AR": "FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES UNIDAD-TUC"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://po.org.ar"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "FIT",
-			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES"
-		},
-		"area_id": 2,
-		"coalition_id": 3,
-		"colors": [
-			"Red"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/fte.izquierda"
-		],
-		"id": 32,
-		"ig_urls": [
-			"https://www.instagram.com/frentedeizquierda"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1138872031984988160/afQKnnnz_400x400.png"
-		],
-		"name": {
-			"en_US": "FRENTE DE IZQUIERDA Y DE TRABAJADORES",
-			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://po.org.ar"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "FITU",
-			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD"
+			"en_US": "MUM",
+			"es_CO": "Movimiento Unitario Metapolitico"
 		},
 		"area_id": 1,
-		"coalition_id": 3,
+		"coalition_id": "",
 		"colors": [
-			"Red"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/fte.izquierda"
-		],
-		"id": 33,
-		"ig_urls": [
-			"https://www.instagram.com/frentedeizquierda"
-		],
+		"fb_urls": [],
+		"id": 31,
+		"ig_urls": [],
 		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1138872031984988160/afQKnnnz_400x400.png"
+			"https://es.wikipedia.org/wiki/Elecciones_legislativas_de_Colombia_de_2022#/media/Archivo:MOVIMIENTO_UNITARIO_METAPOLITICO.png"
 		],
 		"name": {
-			"en_US": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD",
-			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD"
+			"en_US": "Movimiento Unitario Metapolitico",
+			"es_CO": "Movimiento Unitario Metapolitico"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://po.org.ar"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD - DISTRITO MENDOZA"
+			"en_US": "OSA",
+			"es_CO": "O.S.A Organización Socio-Politica Ancestral"
 		},
-		"area_id": 14,
-		"coalition_id": 3,
+		"area_id": 1,
+		"coalition_id": "",
 		"colors": [
-			"Red"
+			""
+		],
+		"fb_urls": [],
+		"id": 32,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://es.wikipedia.org/wiki/Elecciones_legislativas_de_Colombia_de_2022#/media/Archivo:O.S.A._Organizaci%C3%B3n_Socio-pol%C3%ADtica_Ancestral.png"
+		],
+		"name": {
+			"en_US": "O.S.A Organización Socio-Politica Ancestral",
+			"es_CO": "O.S.A Organización Socio-Politica Ancestral"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "PIC",
+			"es_CO": "Partido Indigena Colombiano P.I.C"
+		},
+		"area_id": 12,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 33,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://es.wikipedia.org/wiki/Elecciones_legislativas_de_Colombia_de_2022#/media/Archivo:Partido_Ind%C3%ADgena_Colombiano_P.I.C.png"
+		],
+		"name": {
+			"en_US": "Partido Indigena Colombiano P.I.C",
+			"es_CO": "Partido Indigena Colombiano P.I.C"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "RCA",
+			"es_CO": "Resguardo Campo Alegre"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
 		],
 		"fb_urls": [
-			"https://www.facebook.com/PTS.FIT.Mendoza"
+			"https://www.facebook.com/wiwacampoalegre/"
 		],
 		"id": 34,
-		"ig_urls": [
-			"https://www.instagram.com/frentedeizquierda"
-		],
+		"ig_urls": [],
 		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1138872031984988160/afQKnnnz_400x400.png"
+			"https://es.wikipedia.org/wiki/Elecciones_legislativas_de_Colombia_de_2022#/media/Archivo:Resguardo_Campo_Alegre_22.png"
 		],
 		"name": {
-			"en_US": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD - DISTRITO MENDOZA",
-			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD - DISTRITO MENDOZA"
+			"en_US": "Resguardo Campo Alegre",
+			"es_CO": "Resguardo Campo Alegre"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://po.org.ar"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD (SAN JUAN)"
+			"en_US": "ACP",
+			"es_CO": "Afro Cimarrón Putumayo"
 		},
-		"area_id": 19,
-		"coalition_id": 3,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Red"
+			""
 		],
 		"fb_urls": [
-			"https://www.facebook.com/PTS-Frente-de-Izquierda-San-Juan-699803473498897"
+			"https://www.facebook.com/pg/AfrosCimarron/"
 		],
 		"id": 35,
-		"ig_urls": [
-			"https://www.instagram.com/frentedeizquierda"
-		],
+		"ig_urls": [],
 		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1138872031984988160/afQKnnnz_400x400.png"
+			"https://www.movimientocimarron.org/images/logo.png"
 		],
 		"name": {
-			"en_US": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD (SAN JUAN)",
-			"es_AR": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD (SAN JUAN)"
+			"en_US": "Afro Cimarrón Putumayo",
+			"es_CO": "Afro Cimarrón Putumayo"
 		},
 		"websites": [
 			{
 				"note": "official",
-				"url": "https://po.org.ar"
+				"url": "https://www.movimientocimarron.org/"
 			}
 		]
 	},
 	{
 		"abbreviation": {
-			"en_US": "FDT",
-			"es_AR": "FRENTE DE TODOS"
+			"en_US": "ACTE",
+			"es_CO": "Afrodes Capitulo Tumaco Étnico"
 		},
-		"area_id": 1,
-		"coalition_id": 1,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Light Blue"
+			""
 		],
 		"fb_urls": [
-			"https://www.facebook.com/frentedetodos"
+			"https://www.facebook.com/Afrodes-Colombia-517955778235287/"
 		],
 		"id": 36,
-		"ig_urls": [
-			"https://www.instagram.com/frentedetodos"
-		],
+		"ig_urls": [],
 		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1138931067346411520/0dvyWlnK_400x400.jpg"
+			"http://www.afrodescolombia.org/wp-content/uploads/2020/04/cropped-LOGO-GRANDE.png"
 		],
 		"name": {
-			"en_US": "FRENTE DE TODOS",
-			"es_AR": "FRENTE DE TODOS"
+			"en_US": "Afrodes Capitulo Tumaco Étnico",
+			"es_CO": "Afrodes Capitulo Tumaco Étnico"
 		},
 		"websites": [
 			{
 				"note": "official",
-				"url": "https://frentedetodos.org"
+				"url": "http://www.afrodescolombia.org/"
 			}
 		]
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FRENTE DE TODOS - DISTRITO MENDOZA"
+			"en_US": "AM",
+			"es_CO": "Afromutata"
 		},
-		"area_id": 14,
-		"coalition_id": 1,
+		"area_id": 11,
+		"coalition_id": "",
 		"colors": [
-			"Light Blue"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/FrenteDeTodosMendoza"
-		],
+		"fb_urls": [],
 		"id": 37,
-		"ig_urls": [
-			"https://www.instagram.com/todosmza"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1266001183937880065/FMvKcDtQ_400x400.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "FRENTE DE TODOS - DISTRITO MENDOZA",
-			"es_AR": "FRENTE DE TODOS - DISTRITO MENDOZA"
+			"en_US": "Afromutata",
+			"es_CO": "Afromutata"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://frentedetodos.org"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FRENTE DE TODOS (SAN JUAN)"
+			"en_US": "ANA",
+			"es_CO": "Alianza Nacional Afrocolombiana"
 		},
-		"area_id": 19,
-		"coalition_id": 1,
+		"area_id": 11,
+		"coalition_id": "",
 		"colors": [
-			"Light Blue"
+			""
 		],
 		"fb_urls": [
-			"https://www.facebook.com/TodosSanJuan"
+			"https://www.facebook.com/wix"
 		],
 		"id": 38,
-		"ig_urls": [
-			"https://www.instagram.com/frentedetodossanjuan"
-		],
+		"ig_urls": [],
 		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1415098900638208009/dLNVsAFI_400x400.jpg"
+			"https://static.wixstatic.com/media/3abf00_ebe8a37b01d741daaec57aa80b5acefc~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01/152982533_150875490217957_45358386166952.webp",
+			"https://static.wixstatic.com/media/3abf00_ebe8a37b01d741daaec57aa80b5acefc~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01/152982533_150875490217957_45358386166952.webp",
+			"https://static.wixstatic.com/media/3abf00_ebe8a37b01d741daaec57aa80b5acefc~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01/152982533_150875490217957_45358386166952.webp",
+			"https://static.wixstatic.com/media/3abf00_ebe8a37b01d741daaec57aa80b5acefc~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01/152982533_150875490217957_45358386166952.webp",
+			"https://static.wixstatic.com/media/3abf00_ebe8a37b01d741daaec57aa80b5acefc~mv2.jpg/v1/fill/w_80,h_80,al_c,q_80,usm_0.66_1.00_0.01/152982533_150875490217957_45358386166952.webp"
 		],
 		"name": {
-			"en_US": "FRENTE DE TODOS (SAN JUAN)",
-			"es_AR": "FRENTE DE TODOS (SAN JUAN)"
+			"en_US": "Alianza Nacional Afrocolombiana",
+			"es_CO": "Alianza Nacional Afrocolombiana"
 		},
 		"websites": [
 			{
 				"note": "official",
-				"url": "https://frentedetodos.org"
+				"url": "https://www.alianzanacionalafrocolombiana.com/"
 			}
 		]
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FRENTE DE TODOS (TUC)"
+			"en_US": "AT",
+			"es_CO": "Alternativos"
 		},
-		"area_id": 25,
-		"coalition_id": 1,
+		"area_id": 36,
+		"coalition_id": "",
 		"colors": [
-			"Light Blue"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/frentedetodos"
-		],
+		"fb_urls": [],
 		"id": 39,
-		"ig_urls": [
-			"https://www.instagram.com/frentedetodos"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1266001183937880065/FMvKcDtQ_400x400.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "FRENTE DE TODOS (TUC)",
-			"es_AR": "FRENTE DE TODOS (TUC)"
+			"en_US": "Alternativos",
+			"es_CO": "Alternativos"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://frentedetodos.org"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "FDT-PBA",
-			"es_AR": "FRENTE DE TODOS PBA"
+			"en_US": "AV",
+			"es_CO": "Andemvi"
 		},
-		"area_id": 2,
-		"coalition_id": 1,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Light Blue"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/frentetodospba"
-		],
+		"fb_urls": [],
 		"id": 40,
-		"ig_urls": [
-			"https://www.instagram.com/frentetodospba"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1329500928223875073/8B8Vhrqc_400x400.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "FRENTE DE TODOS PBA",
-			"es_AR": "FRENTE DE TODOS PBA"
+			"en_US": "Andemvi",
+			"es_CO": "Andemvi"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://frentedetodos.org"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FRENTE JUNTOS POR EL CAMBIO"
+			"en_US": "AFROCL",
+			"es_CO": "Asociación Afrocol. Desplazados Mcpio. Guacari Valle Del Cauca \"Adag\""
 		},
-		"area_id": 15,
-		"coalition_id": 2,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Yellow"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/juntosporelcambio"
-		],
+		"fb_urls": [],
 		"id": 41,
-		"ig_urls": [
-			"https://www.instagram.com/juntosporelcambio"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1189570680993538048/CwiTVjX3_400x400.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "FRENTE JUNTOS POR EL CAMBIO",
-			"es_AR": "FRENTE JUNTOS POR EL CAMBIO"
+			"en_US": "Asociación Afrocol. Desplazados Mcpio. Guacari Valle Del Cauca \"Adag\"",
+			"es_CO": "Asociación Afrocol. Desplazados Mcpio. Guacari Valle Del Cauca \"Adag\""
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://jxc.com.ar"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FRENTE PATRIOTICO LABORISTA"
+			"en_US": "AGROP",
+			"es_CO": "Asociación Agropecuaria Mujeres Victimas De Jerico - Asomuvij"
 		},
-		"area_id": 23,
-		"coalition_id": 6,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Blue"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/frentepatrioticolaborista"
-		],
+		"fb_urls": [],
 		"id": 42,
-		"ig_urls": [
-			"https://www.instagram.com/frentepatrioticolaborista"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/239183194_109116634813893_3958622031709967311_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=HlKT5qNSE2EAX-MdCPI&_nc_ht=scontent.faep9-1.fna&oh=a1b88235123a9e27fb71a45e339369e5&oe=6198768A"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "FRENTE PATRIOTICO LABORISTA",
-			"es_AR": "FRENTE PATRIOTICO LABORISTA"
+			"en_US": "Asociación Agropecuaria Mujeres Victimas De Jerico - Asomuvij",
+			"es_CO": "Asociación Agropecuaria Mujeres Victimas De Jerico - Asomuvij"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "FR",
-			"es_AR": "FRENTE RENOVADOR"
+			"en_US": "CAMPE",
+			"es_CO": "Asociación Campesina Para El Desarrollo Agropecuario De Simiti"
 		},
-		"area_id": 23,
-		"coalition_id": 1,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Blue"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/frenterenovador"
-		],
+		"fb_urls": [],
 		"id": 43,
-		"ig_urls": [
-			"https://www.instagram.com/frenterenovadoroficial"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/182266479_1691052341105540_4089734619515929936_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGP7Lb5FCxeksqv9KhKVp1C5AuRJtAa78LkC5Em0BrvwqvgNXyt0rY61kqHftJPu5s-3Tshd3yfCFMCVrBUSpFE&_nc_ohc=Z6xhbhZVh68AX9TjP97&_nc_ht=scontent.faep9-1.fna&oh=89b8f2d9e2ce329c163c0f4ba51c3a46&oe=619DCCF5"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "FRENTE RENOVADOR",
-			"es_AR": "FRENTE RENOVADOR"
+			"en_US": "Asociación Campesina Para El Desarrollo Agropecuario De Simiti",
+			"es_CO": "Asociación Campesina Para El Desarrollo Agropecuario De Simiti"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FRENTE RENOVADOR DE LA CONCORDIA SOCIAL"
+			"en_US": "MUVIC",
+			"es_CO": "Asociación Com. Mujeres Victimas Conflicto Armado Charco Nariño"
 		},
-		"area_id": 15,
-		"coalition_id": 1,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Red",
-			"Dark Blue"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/FrenteRenovadorDeLaConcordia"
-		],
+		"fb_urls": [],
 		"id": 44,
-		"ig_urls": [
-			"https://www.instagram.com/frenterenovadordelaconcordia"
-		],
-		"logo_urls": [
-			"https://lh3.googleusercontent.com/proxy/ViFvB6BVas-poXo82nwiYbSJ2FaYkjJ65O0P5VQTAR-deVvll4nCg2UdaotZlk9EJGHt6egF2itJrI_4s8BY5N_teZ19TQwMdv9gBfVplzhxYSUF_AgN53c7sZY37CdCUDNbp_XWXA"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "FRENTE RENOVADOR DE LA CONCORDIA SOCIAL",
-			"es_AR": "FRENTE RENOVADOR DE LA CONCORDIA SOCIAL"
+			"en_US": "Asociación Com. Mujeres Victimas Conflicto Armado Charco Nariño",
+			"es_CO": "Asociación Com. Mujeres Victimas Conflicto Armado Charco Nariño"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://www.concordiasocial.com.ar/concordia"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FRENTE SI + PRS"
+			"en_US": "DESPLA",
+			"es_CO": "Asociación Desplazados Por Violencia Radicados En Agustín Codazzi"
 		},
-		"area_id": 18,
-		"coalition_id": 6,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
 			""
 		],
@@ -1340,18 +1160,18 @@
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "FRENTE SI + PRS",
-			"es_AR": "FRENTE SI + PRS"
+			"en_US": "Asociación Desplazados Por Violencia Radicados En Agustín Codazzi",
+			"es_CO": "Asociación Desplazados Por Violencia Radicados En Agustín Codazzi"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "FDI",
-			"es_AR": "FRENTEDEIZQUIERDA"
+			"en_US": "ASOVIPM",
+			"es_CO": "Asociación Por La Dignidad De Las Víctimas “Asovipm”"
 		},
-		"area_id": 5,
-		"coalition_id": 3,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
 			""
 		],
@@ -1360,138 +1180,98 @@
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "FRENTEDEIZQUIERDA",
-			"es_AR": "FRENTEDEIZQUIERDA"
+			"en_US": "Asociación Por La Dignidad De Las Víctimas “Asovipm”",
+			"es_CO": "Asociación Por La Dignidad De Las Víctimas “Asovipm”"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "FUERZA REPUBLICANA TUC"
+			"en_US": "ASPROAGES",
+			"es_CO": "Asociación Prod. Agropecuatrios Vereda La Esperanza- Asproages"
 		},
-		"area_id": 25,
-		"coalition_id": 6,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Dark Blue"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/FuerzaRepublicanaTucuman/"
-		],
+		"fb_urls": [],
 		"id": 47,
-		"ig_urls": [
-			"https://www.instagram.com/fuerzarepublicana/"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/710102727355998208/MXXuZtLq_400x400.jpg"
-		],
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "FUERZA REPUBLICANA TUC",
-			"es_AR": "FUERZA REPUBLICANA TUC"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://fuerzarepublicana.com.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "HACEMOS POR CORDOBA"
-		},
-		"area_id": 7,
-		"coalition_id": 6,
-		"colors": [
-			"Red",
-			"Blue"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/HacemosPorCordoba/"
-		],
-		"id": 48,
-		"ig_urls": [
-			"https://www.instagram.com/hacemosporcba/"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/244100630_3131282600484345_2287444500514522344_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHybgFqvGHIFnOGmhVzE3tjP1eRChzNnb4_V5EKHM2dvljiuHCjYLPtxGkySL97Uccsu5UGpahvdAeVJA8cU4RY&_nc_ohc=pmLir_C5fn0AX9yGEgp&_nc_ht=scontent.faep9-2.fna&oh=e5454acc0a20667fd369224ef05a129e&oe=619BDBE5"
-		],
-		"name": {
-			"en_US": "HACEMOS POR CORDOBA",
-			"es_AR": "HACEMOS POR CORDOBA"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.hacemosporcordoba.com.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "JXC",
-			"es_AR": "JUNTOS POR EL CAMBIO"
-		},
-		"area_id": 1,
-		"coalition_id": 2,
-		"colors": [
-			"Yellow"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/juntosporelcambio"
-		],
-		"id": 49,
-		"ig_urls": [
-			"https://www.instagram.com/juntosporelcambio/"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/242542517_437035241119907_5043418134298708459_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEuQozrgufq2gYUhOZUEQtNBZ1tNFxOaygFnW00XE5rKBR1eXOrprUsAh_6Cc-_SCPHP4SyL7fl1t-vyUO2keRq&_nc_ohc=aMcll7QWXCEAX-6xC1h&_nc_ht=scontent.faep9-2.fna&oh=bd6e06ee3e429cee186b2dd70fa877ca&oe=619CDFC5"
-		],
-		"name": {
-			"en_US": "JUNTOS POR EL CAMBIO",
-			"es_AR": "JUNTOS POR EL CAMBIO"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://jxc.com.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "JUNTOS POR EL CAMBIO (SAN JUAN)"
-		},
-		"area_id": 19,
-		"coalition_id": 2,
-		"colors": [
-			"Yellow"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/JuntosXElCambioSanJuan/"
-		],
-		"id": 50,
-		"ig_urls": [
-			"https://www.instagram.com/juntosxelcambiosj/"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/64558191_2202418596478120_4921677778392186880_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEM1KAXH_IfW1WW6X3NNJnvUkweLSaFdhRSTB4tJoV2FCfmoomBw_S9d6kzRs7PQYothRZWf6maiwUKzHuI7VSK&_nc_ohc=1dmssndYpzAAX93f7cW&_nc_ht=scontent.faep9-1.fna&oh=195be479be1d901f834c42dac69be3ac&oe=619CC198"
-		],
-		"name": {
-			"en_US": "JUNTOS POR EL CAMBIO (SAN JUAN)",
-			"es_AR": "JUNTOS POR EL CAMBIO (SAN JUAN)"
+			"en_US": "Asociación Prod. Agropecuatrios Vereda La Esperanza- Asproages",
+			"es_CO": "Asociación Prod. Agropecuatrios Vereda La Esperanza- Asproages"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "JUNTOS POR EL CAMBIO +"
+			"en_US": "BOLIVCAMP",
+			"es_CO": "Asociación Productores Campesinos Y Victimas Del Sur Bolivar"
 		},
-		"area_id": 18,
-		"coalition_id": 2,
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 48,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación Productores Campesinos Y Victimas Del Sur Bolivar",
+			"es_CO": "Asociación Productores Campesinos Y Victimas Del Sur Bolivar"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "PUMAJ",
+			"es_CO": "Asociación Usuarios Hospital Rosario Pumarejo De López"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 49,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación Usuarios Hospital Rosario Pumarejo De López",
+			"es_CO": "Asociación Usuarios Hospital Rosario Pumarejo De López"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ADESAN",
+			"es_CO": "Asociación Victimas Desplazados Conflicto Armado De Santa Rosa (Adesan)"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 50,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación Victimas Desplazados Conflicto Armado De Santa Rosa (Adesan)",
+			"es_CO": "Asociación Victimas Desplazados Conflicto Armado De Santa Rosa (Adesan)"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASOCAMPRO",
+			"es_CO": "Asocamproariari"
+		},
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
 			""
 		],
@@ -1500,1168 +1280,4947 @@
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "JUNTOS POR EL CAMBIO +",
-			"es_AR": "JUNTOS POR EL CAMBIO +"
+			"en_US": "Asocamproariari",
+			"es_CO": "Asocamproariari"
 		},
-		"websites": []
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://productosdeldesarrolloalternativo.wordpress.com/directorio-de-asociaciones/asociaciones-de-meta/asocamproariari/"
+			}
+		]
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "JUNTOS POR EL CAMBIO CHUBUT"
+			"en_US": "ASOCCOR",
+			"es_CO": "Asoccor"
 		},
-		"area_id": 5,
-		"coalition_id": 2,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Yellow"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/Juntos-Chubut-109341978141586/"
-		],
+		"fb_urls": [],
 		"id": 52,
-		"ig_urls": [
-			"https://www.instagram.com/juntosporelcambiochubut/"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1139207590569742336/r6mtLrGm_400x400.jpg"
-		],
-		"name": {
-			"en_US": "JUNTOS POR EL CAMBIO CHUBUT",
-			"es_AR": "JUNTOS POR EL CAMBIO CHUBUT"
-		},
-		"websites": []
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "JUNTOS POR EL CAMBIO TIERRA DEL FUEGO"
-		},
-		"area_id": 24,
-		"coalition_id": 2,
-		"colors": [
-			"Yellow"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/juntosporelcambiotdfaias/"
-		],
-		"id": 53,
-		"ig_urls": [
-			"https://www.instagram.com/juntosxelcambiotdf/"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/64981494_342768186389166_6836857545978544128_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGOmHs06Mt09cvNixw7f8LDqELtaOGu2LGoQu1o4a7YsYPOdXsm_JNflb6jSehQ0nUmE7oJBQqf6r8ugwA1-p-C&_nc_ohc=EnJGlYDGOWQAX8Xh7OV&_nc_ht=scontent.faep9-1.fna&oh=e141f79869565745bcfd748239f0d789&oe=619C79AD"
-		],
-		"name": {
-			"en_US": "JUNTOS POR EL CAMBIO TIERRA DEL FUEGO",
-			"es_AR": "JUNTOS POR EL CAMBIO TIERRA DEL FUEGO"
-		},
-		"websites": []
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "JUNTOS POR EL CAMBIO TUCUMAN"
-		},
-		"area_id": 25,
-		"coalition_id": 2,
-		"colors": [
-			"Yellow"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/juntosporelcambiotucuman/"
-		],
-		"id": 54,
-		"ig_urls": [
-			"https://www.instagram.com/p/CUf6IR8LHZL/"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1418005882340847624/oE5T85_Y_400x400.jpg"
-		],
-		"name": {
-			"en_US": "JUNTOS POR EL CAMBIO TUCUMAN",
-			"es_AR": "JUNTOS POR EL CAMBIO TUCUMAN"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://juntosportucuman.com.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "JUNTOS POR ENTRE RIOS"
-		},
-		"area_id": 9,
-		"coalition_id": 2,
-		"colors": [
-			"Yellow"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/JuntosXEntreRios/"
-		],
-		"id": 55,
-		"ig_urls": [
-			"https://www.instagram.com/juntosporentrerios/"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/218405498_2875266496068686_7567116973559227180_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHUoQBRYUuiK2z46OE3yKbH3LAE0t68r9rcsATS3ryv2oRFgqchqU9NDtYjUveVlWNGaChY1UrhXN5bkUlu1Zl3&_nc_ohc=SxJylBSPAiYAX-ajETf&tn=yD1-nAFkyoTa3jB6&_nc_ht=scontent.faep9-1.fna&oh=48236543749a8af5de42a7647bd1d33d&oe=619D5AE5"
-		],
-		"name": {
-			"en_US": "JUNTOS POR ENTRE RIOS",
-			"es_AR": "JUNTOS POR ENTRE RIOS"
-		},
-		"websites": []
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "JUNTOS POR FORMOSA LIBRE"
-		},
-		"area_id": 10,
-		"coalition_id": 2,
-		"colors": [
-			"Yellow"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/librescentrodeestudio"
-		],
-		"id": 56,
-		"ig_urls": [
-			"https://www.instagram.com/juntosporfsalibre/"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t39.30808-6/244361215_230880932397751_5495103339067552909_n.png?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHr5H8_jAbV0AZoWIaMRkynnfYGOdrNqa-d9gY52s2pryhfOnNXaJY2Fl1P7NiMm1Ga9ESyiIi9Kj1n3DvWHFRQ&_nc_ohc=22OBKmRcHdEAX8hCQrO&_nc_ht=scontent.faep9-1.fna&oh=b463cb7949d3802b220d908576180fa8&oe=617BEF5D"
-		],
-		"name": {
-			"en_US": "JUNTOS POR FORMOSA LIBRE",
-			"es_AR": "JUNTOS POR FORMOSA LIBRE"
-		},
-		"websites": []
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "JUNTOS SOMOS RIO NEGRO"
-		},
-		"area_id": 17,
-		"coalition_id": 2,
-		"colors": [
-			"Green"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/juntossomosrionegro/"
-		],
-		"id": 57,
-		"ig_urls": [
-			"https://www.instagram.com/juntossomosrionegro/"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/30715263_418944731850704_8728921584829464576_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEB00EcoxClb-_Ipx5Dgn_fb_FbxulfhNJv8VvG6V-E0ujZ3RoWqeQ-Sk1WYgMjwNDz1I_l9_TZQcK7ZauJABEC&_nc_ohc=lloSVsNQrOgAX_MRdDQ&tn=yD1-nAFkyoTa3jB6&_nc_ht=scontent.faep9-1.fna&oh=23bd46ef5928d4a46af4d7a7a12d8cd6&oe=619B2893"
-		],
-		"name": {
-			"en_US": "JUNTOS SOMOS RIO NEGRO",
-			"es_AR": "JUNTOS SOMOS RIO NEGRO"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://jsrn.com.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "LLA",
-			"es_AR": "LA LIBERTAD AVANZA"
-		},
-		"area_id": 7,
-		"coalition_id": 5,
-		"colors": [
-			"Yellow",
-			"Orange"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/LibertadAvanzaOficial"
-		],
-		"id": 58,
-		"ig_urls": [
-			"https://www.instagram.com/lalibertadavanzaoficial/"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t39.30808-6/231461021_123639179905881_2693856269908143400_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeExff1rlh1Ogkxa9gDWrBIY03baM0D9E9nTdtozQP0T2WlOiMG_QD3Ys5bC1gbvPVJCIBsaMI_cNbChJ-qXzaua&_nc_ohc=AENtVkOg9tIAX_ZUKdo&_nc_ht=scontent.faep9-2.fna&oh=cc817143bd301a46f6b6d29ab20c6481&oe=617BD2E1"
-		],
-		"name": {
-			"en_US": "LA LIBERTAD AVANZA",
-			"es_AR": "LA LIBERTAD AVANZA"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://lalibertadavanza.com.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "LIBERTAD VALORES Y CAMBIO"
-		},
-		"area_id": 15,
-		"coalition_id": 5,
-		"colors": [
-			"Light Blue",
-			"Green"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/Libertad-Valores-y-Cambio-938697842863557/"
-		],
-		"id": 59,
-		"ig_urls": [],
-		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/53341341_2055990617800935_5867361205387001856_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEgK8Fjh6_1jVomVhyKC5TJBH8qSd0civoEfypJ3RyK-gHBHF1jE3sQNL5qtUXBjNoXPGN2W0BL3uefKKH7n37c&_nc_ohc=qyR_w_Q_FIgAX90sYg7&_nc_ht=scontent.faep9-2.fna&oh=16627a124f7f255af8386d0d7cfdc27c&oe=619D7F94"
-		],
-		"name": {
-			"en_US": "LIBERTAD VALORES Y CAMBIO",
-			"es_AR": "LIBERTAD VALORES Y CAMBIO"
-		},
-		"websites": []
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "MOVIMIENTO AL SOCIALISMO"
-		},
-		"area_id": 1,
-		"coalition_id": 3,
-		"colors": [
-			"Red"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/izquierda.nuevomas"
-		],
-		"id": 60,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "MOVIMIENTO AL SOCIALISMO",
-			"es_AR": "MOVIMIENTO AL SOCIALISMO"
+			"en_US": "Asoccor",
+			"es_CO": "Asoccor"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "MLS",
-			"es_AR": "MOVIMIENTO LIBRES DEL SUR"
+			"en_US": "SABROSO",
+			"es_CO": "Asociación Afrocolombiana Ser Negro Es Mas Sabroso"
 		},
-		"area_id": 1,
-		"coalition_id": 1,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Blue",
-			"Red"
+			""
 		],
 		"fb_urls": [
-			"https://www.facebook.com/libresdelsurnacional/"
+			"https://m.facebook.com/ser-negro-es-mas-sabroso-213038548740357/"
 		],
-		"id": 61,
+		"id": 53,
+		"ig_urls": [
+			"https://www.instagram.com/sernegroesmassabroso/?hl=en"
+		],
+		"logo_urls": [
+			"https://twitter.com/asociacion_es/photo"
+		],
+		"name": {
+			"en_US": "Asociación Afrocolombiana Ser Negro Es Mas Sabroso",
+			"es_CO": "Asociación Afrocolombiana Ser Negro Es Mas Sabroso"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "AFRODESAR",
+			"es_CO": "Asociación Afrodescendientes De Arboletes \"Afrodesar\""
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 54,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación Afrodescendientes De Arboletes \"Afrodesar\"",
+			"es_CO": "Asociación Afrodescendientes De Arboletes \"Afrodesar\""
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "AFRODENU",
+			"es_CO": "Asociacion Afrodescendientes De Nuevo Tay - Afrodenutay"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 55,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion Afrodescendientes De Nuevo Tay - Afrodenutay",
+			"es_CO": "Asociacion Afrodescendientes De Nuevo Tay - Afrodenutay"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "DESPLAZAD",
+			"es_CO": "Asociacion Agropecuaria De Afrodescendientes Desplazados"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/Asadevsaorg-104624848204583"
+		],
+		"id": 56,
+		"ig_urls": [
+			"https://www.instagram.com/asadevsaorg/"
+		],
+		"logo_urls": [
+			"https://asadevsa.org/#&gid=1&pid=1"
+		],
+		"name": {
+			"en_US": "Asociacion Agropecuaria De Afrodescendientes Desplazados",
+			"es_CO": "Asociacion Agropecuaria De Afrodescendientes Desplazados"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://asadevsa.org/"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "AGROCUM",
+			"es_CO": "Asociación Agropecuaria Del Cunimia \"Agrocum\""
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 57,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación Agropecuaria Del Cunimia \"Agrocum\"",
+			"es_CO": "Asociación Agropecuaria Del Cunimia \"Agrocum\""
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MIXTA",
+			"es_CO": "Asociacion Agropecuaria Mixta María La Alta"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 58,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion Agropecuaria Mixta María La Alta",
+			"es_CO": "Asociacion Agropecuaria Mixta María La Alta"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CARIBE",
+			"es_CO": "Asociación Agropecuarios Troncal Del Caribe"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 59,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación Agropecuarios Troncal Del Caribe",
+			"es_CO": "Asociación Agropecuarios Troncal Del Caribe"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "APVIDA",
+			"es_CO": "Asociación Alianza Por La Vida"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/alianza.porlavida.7"
+		],
+		"id": 60,
 		"ig_urls": [],
 		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t31.18172-8/28514808_1872869326066348_490245320583917339_o.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGjJ6o2u65I0W2VzmSU6uso_z9rHNWUKCD_P2sc1ZQoIA9e0dcQCXQYFOs_Arp_S375RImHjweYCyd4hCjtqD5A&_nc_ohc=hB0WjtnZrZYAX9p4rwZ&tn=yD1-nAFkyoTa3jB6&_nc_ht=scontent.faep9-1.fna&oh=17219ee5b1c22830d6d6e6e4b34d1085&oe=619C8801"
+			"https://www.facebook.com/photo/?fbid=1379994665557403&set=a.1379976448892558"
 		],
 		"name": {
-			"en_US": "MOVIMIENTO LIBRES DEL SUR",
-			"es_AR": "MOVIMIENTO LIBRES DEL SUR"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://libresdelsur.org.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "MPF",
-			"es_AR": "MOVIMIENTO POPULAR FUEGUINO"
-		},
-		"area_id": 24,
-		"coalition_id": 6,
-		"colors": [
-			"Blue",
-			"Orange"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/MOPOF54/"
-		],
-		"id": 62,
-		"ig_urls": [
-			"https://www.instagram.com/mopof.54/"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/220410272_2934897860093398_1342230475371849344_n.png?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGryumjyP6VbsnTEXzUtYdqw9RIF8mYZrvD1EgXyZhmu2KtNPogWFyS97JUcoOWvspd13ggHE-TrLxjiP7f7q6a&_nc_ohc=qPhFimboFJMAX8nTRI9&_nc_ht=scontent.faep9-1.fna&oh=3b6a0f9de31fa25ebf2ad76f04a712c2&oe=619BD3E1"
-		],
-		"name": {
-			"en_US": "MOVIMIENTO POPULAR FUEGUINO",
-			"es_AR": "MOVIMIENTO POPULAR FUEGUINO"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://movimientopopularfueguino.com.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "MPN",
-			"es_AR": "MOVIMIENTO POPULAR NEUQUINO"
-		},
-		"area_id": 16,
-		"coalition_id": 6,
-		"colors": [
-			"Light Blue"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/MPN.Movimiento.Popular.Neuquino"
-		],
-		"id": 63,
-		"ig_urls": [
-			"https://www.instagram.com/mpn_ok/"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/136706007_1298929283827197_2418051988195695656_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEZ2xOSrj-oJcOK8d8k-QIljPe4dqB5Z_SM97h2oHln9Fu6XlTppw7C4QlfpOeYoZ21f9aYu29EYjUCHi7-suaI&_nc_ohc=vpI4NAhXfg0AX8IlBcQ&tn=yD1-nAFkyoTa3jB6&_nc_ht=scontent.faep9-1.fna&oh=e754d2b542f2a6e089981df89c2ccd75&oe=619BF5DB"
-		],
-		"name": {
-			"en_US": "MOVIMIENTO POPULAR NEUQUINO",
-			"es_AR": "MOVIMIENTO POPULAR NEUQUINO"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://www.movimientopopularneuquino.org/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "NI",
-			"es_AR": "NUEVA IZQUIERDA"
-		},
-		"area_id": 9,
-		"coalition_id": 3,
-		"colors": [
-			"Red"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/MstArgentina/"
-		],
-		"id": 64,
-		"ig_urls": [
-			"https://www.instagram.com/mst_arg/"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/107822140_4052641914808146_2363292395918611373_n.png?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHXnweV_4XrYU4N6w1ZUXpYC2TAYa_kOCELZMBhr-Q4IZqE0zLoa_bgUUPB-YKmoy9sipoflTupgHj5pC3v6GvS&_nc_ohc=IWfaHlMo5ucAX-PQcq_&_nc_ht=scontent.faep9-2.fna&oh=86c3f9e4642acebb88f8d7fc5fbf5dfc&oe=619DCF55"
-		],
-		"name": {
-			"en_US": "NUEVA IZQUIERDA",
-			"es_AR": "NUEVA IZQUIERDA"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://mst.org.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "PARTIDO CONSERVADOR POPULAR"
-		},
-		"area_id": 9,
-		"coalition_id": 6,
-		"colors": [
-			"Dark Blue"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/pcpnacional"
-		],
-		"id": 65,
-		"ig_urls": [
-			"https://www.instagram.com/partidoconservadorpopular/"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/209080724_4491260417585468_1138573883047009110_n.png?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHNbZcWg3AKfznzonZ8OoeHwq6XzBZCPJPCrpfMFkI8k0WSs1W43bScpOKCEy4CNOXz4q5v2GhnA7mIppMoezkT&_nc_ohc=47MqrnfoK6AAX-3mXon&_nc_ht=scontent.faep9-2.fna&oh=d1ae634368931d3ab507ae34f2a77acc&oe=619B28D7"
-		],
-		"name": {
-			"en_US": "PARTIDO CONSERVADOR POPULAR",
-			"es_AR": "PARTIDO CONSERVADOR POPULAR"
+			"en_US": "Asociación Alianza Por La Vida",
+			"es_CO": "Asociación Alianza Por La Vida"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "PDO",
-			"es_AR": "PARTIDO DEL OBRERO"
+			"en_US": "ACAPRADIV",
+			"es_CO": "Asociación Campesina De Productores Agropecuarios Del Diviso \"Acapradiv\""
 		},
-		"area_id": 4,
-		"coalition_id": 3,
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 61,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación Campesina De Productores Agropecuarios Del Diviso \"Acapradiv\"",
+			"es_CO": "Asociación Campesina De Productores Agropecuarios Del Diviso \"Acapradiv\""
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "PFODUND",
+			"es_CO": "Asociacion Colombia Profunda"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 62,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion Colombia Profunda",
+			"es_CO": "Asociacion Colombia Profunda"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASOCODEMA",
+			"es_CO": "Asociacion Comité De Desplazados Mano De Dios Nuevo Amancer (Asocodeman)"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 63,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion Comité De Desplazados Mano De Dios Nuevo Amancer (Asocodeman)",
+			"es_CO": "Asociacion Comité De Desplazados Mano De Dios Nuevo Amancer (Asocodeman)"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MINGA",
+			"es_CO": "Asociacion Comunitaria De Poblacion Desplazada Del Municipio Del Charco Nariño La Minga"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 64,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion Comunitaria De Poblacion Desplazada Del Municipio Del Charco Nariño La Minga",
+			"es_CO": "Asociacion Comunitaria De Poblacion Desplazada Del Municipio Del Charco Nariño La Minga"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "WOUNDE",
+			"es_CO": "Asociación Concejo De Autoridades Woundeco"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 65,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.onic.org.co/images/noticias/2017/07/Woundeko.jpg"
+		],
+		"name": {
+			"en_US": "Asociación Concejo De Autoridades Woundeco",
+			"es_CO": "Asociación Concejo De Autoridades Woundeco"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.woundeko.com/quienes-somos"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "GVIRE",
+			"es_CO": "Asociación De Afrocolombianos Del Guaviare"
+		},
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
 			""
 		],
 		"fb_urls": [],
 		"id": 66,
 		"ig_urls": [],
-		"logo_urls": [],
+		"logo_urls": [
+			"https://twitter.com/Asojagu_/photo"
+		],
 		"name": {
-			"en_US": "PARTIDO DEL OBRERO",
-			"es_AR": "PARTIDO DEL OBRERO"
+			"en_US": "Asociación De Afrocolombianos Del Guaviare",
+			"es_CO": "Asociación De Afrocolombianos Del Guaviare"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "PARTIDO FE"
+			"en_US": "COLO",
+			"es_CO": "Asociacion De Apicultores De Coloso"
 		},
-		"area_id": 9,
-		"coalition_id": 6,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Blue",
-			"Green"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/PartidoFe"
-		],
-		"id": 67,
-		"ig_urls": [
-			"https://www.instagram.com/partidofe"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.18169-9/19884078_1512028715523849_6509430259028717568_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFejmRsFUTzuSGsG2CqbwI4jYXWauAYqNuNhdZq4Bio2wh46cYJSrhlh-eCAVLXW4rP7eix6Nj0_XoqeBm9DT7E&_nc_ohc=gcLx7K4XpnQAX9S8Zms&_nc_ht=scontent.faep9-1.fna&oh=c58646bac1e25da82e329fb1e6e6b003&oe=619CEC27"
-		],
-		"name": {
-			"en_US": "PARTIDO FE",
-			"es_AR": "PARTIDO FE"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://www.partidofe.org/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "PARTIDO FEDERAL - DISTRITO MENDOZA"
-		},
-		"area_id": 14,
-		"coalition_id": 6,
-		"colors": [
-			"Red",
-			"White"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/lista8Mendoza"
-		],
-		"id": 68,
-		"ig_urls": [
-			"https://www.instagram.com/lista8mendoza/"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1424750873562030092/CEIrO-SU_400x400.jpg"
-		],
-		"name": {
-			"en_US": "PARTIDO FEDERAL - DISTRITO MENDOZA",
-			"es_AR": "PARTIDO FEDERAL - DISTRITO MENDOZA"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://lista8mendoza.com.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "PARTIDO FRENTE INTEGRADOR"
-		},
-		"area_id": 4,
-		"coalition_id": 6,
-		"colors": [
-			"Red",
-			"Green"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/frenteintegradorchaco"
-		],
-		"id": 69,
-		"ig_urls": [
-			"https://www.instagram.com/frente.integrador/"
-		],
-		"logo_urls": [
-			"https://legislaturachaco.gov.ar/control/grandes/logofrente.jpeg"
-		],
-		"name": {
-			"en_US": "PARTIDO FRENTE INTEGRADOR",
-			"es_AR": "PARTIDO FRENTE INTEGRADOR"
-		},
-		"websites": []
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "PARTIDO INDEPENDIENTE DEL CHUBUT"
-		},
-		"area_id": 5,
-		"coalition_id": 6,
-		"colors": [
-			"Blue"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/pich.sumate"
-		],
-		"id": 70,
-		"ig_urls": [
-			"https://www.instagram.com/pich.sumate"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/219222394_100437302344629_7926511706274744540_n.png?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFr4DcvXouBkcb0Dr72TaHT_JhmiZeSelT8mGaJl5J6VKPCF99CL8foBf5ijK4ponfIAKFzyzlbvdOADKJUoifF&_nc_ohc=ljyVBkJQGUwAX8CYvO5&_nc_ht=scontent.faep9-1.fna&oh=ff1733cde10e03b6526ea85f41fe8f44&oe=619C08B0"
-		],
-		"name": {
-			"en_US": "PARTIDO INDEPENDIENTE DEL CHUBUT",
-			"es_AR": "PARTIDO INDEPENDIENTE DEL CHUBUT"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.pich.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "PO",
-			"es_AR": "PARTIDO OBRERO"
-		},
-		"area_id": 24,
-		"coalition_id": 3,
-		"colors": [
-			"Red",
-			"Yellow"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/partidoobreroarg"
-		],
-		"id": 71,
-		"ig_urls": [
-			"https://www.instagram.com/partidoobrero"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.18169-9/10477891_776281005771721_4491008967869458542_n.png?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHE1lE8nbQ7Qxua9SHgLSvkIUBK5zNAi_QhQErnM0CL9EgE2qFA82ENMbaONJn-lKMxWiXhDN6mS8F1JpEvh2-n&_nc_ohc=mcjmi5MK6z8AX_95dsf&tn=yD1-nAFkyoTa3jB6&_nc_ht=scontent.faep9-2.fna&oh=e28a648395ce9d7b6b1b549ed16e1d43&oe=619B64E2"
-		],
-		"name": {
-			"en_US": "PARTIDO OBRERO",
-			"es_AR": "PARTIDO OBRERO"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://po.org.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "PARTIDO POR UN SANTIAGO OBRERO"
-		},
-		"area_id": 23,
-		"coalition_id": 3,
-		"colors": [
-			"Red",
-			"Yellow"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/Po.SDE.Tendencia/"
-		],
-		"id": 72,
-		"ig_urls": [
-			"https://www.instagram.com/po.sde.tendencia"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/228786716_291813606049102_7317581459364226092_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHXfqBP8rt_dNPnKKCwFIbsENk7eTZaXJUQ2Tt5NlpclQDAs9F7-3rY_cR6s6xyyt3okHV9Rfxbmn-UcBzq6Trw&_nc_ohc=MBqlUI3fhxsAX-_Knn2&_nc_oc=AQl8SSqOjZ_Y83ykZP2ZZRr5Bc8xKbL9aXJWbfgrcD1pjUNSpHSMZZmO7QoaD4SAKqikaWu7ekRwMRIyX9REDCXU&_nc_ht=scontent.faep9-2.fna&oh=26b2bed2af3f3eef8132582c9cd6d847&oe=619AE152"
-		],
-		"name": {
-			"en_US": "PARTIDO POR UN SANTIAGO OBRERO",
-			"es_AR": "PARTIDO POR UN SANTIAGO OBRERO"
-		},
-		"websites": []
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "PARTIDO PRINCIPIOS Y CONVICCION"
-		},
-		"area_id": 10,
-		"coalition_id": 6,
-		"colors": [
-			"Light Blue",
-			"White"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/PartidoPrincipiosyConviccion"
-		],
-		"id": 73,
-		"ig_urls": [
-			"https://www.instagram.com/principiosyconviccion.2021"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.18169-9/22140964_1854517131229637_3051451808850483350_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEcspKF8KHJK815I2sM-rgtk1E_6n2lpfaTUT_qfaWl9uC_x4qq8Rto7Q_nqTqKx8G65d7UN71AzNAaii8P8dgw&_nc_ohc=NirVGYvSvtwAX_tomkG&_nc_ht=scontent.faep9-2.fna&oh=59f9704f6f0c1b0436c04d047f226d51&oe=619C73DB"
-		],
-		"name": {
-			"en_US": "PARTIDO PRINCIPIOS Y CONVICCION",
-			"es_AR": "PARTIDO PRINCIPIOS Y CONVICCION"
-		},
-		"websites": []
-	},
-	{
-		"abbreviation": {
-			"en_US": "P.S",
-			"es_AR": "PARTIDO SOCIALISTA"
-		},
-		"area_id": 1,
-		"coalition_id": 2,
-		"colors": [
-			"Red"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/psargentina/"
-		],
-		"id": 74,
-		"ig_urls": [
-			"https://www.instagram.com/psargentinaok"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.18169-9/13412863_1175426039175799_1562677605889087745_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_eui2=AeHn4A5qck39Ko8Fu17AjWZiYuUAIwf56XRi5QAjB_npdFck9r9IYCANSNBRzIDCb60VN3_VdOSja_5pesl4U6Iy&_nc_ohc=CTsCR0GgrH4AX_JWP8G&_nc_ht=scontent.faep9-2.fna&oh=5a39ddf42478036a4126bf7559f1f6c4&oe=619CAA0D"
-		],
-		"name": {
-			"en_US": "PARTIDO SOCIALISTA",
-			"es_AR": "PARTIDO SOCIALISTA"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "http://www.partidosocialista.org.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "PARTIDO VERDE - DISTRITO MENDOZA"
-		},
-		"area_id": 14,
-		"coalition_id": 6,
-		"colors": [
-			"Green",
-			"Yellow"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/PartidoVerdeMza"
-		],
-		"id": 75,
-		"ig_urls": [
-			"https://www.instagram.com/partidoverdemendoza"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/159523381_121494576649593_5743280624750799207_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHtZ2Rn6IkHoOTyUdzb-1QNx2fGSwnNJPTHZ8ZLCc0k9EqoRZyQJnK0fTlK4WJKDH3_Dw0v6xJGsODPVWBb3qRn&_nc_ohc=uyIrAQsBJDoAX-102Y8&_nc_ht=scontent.faep9-1.fna&oh=1a26082f4505160ce2a8a8d3dd8bcae0&oe=619AD8B3"
-		],
-		"name": {
-			"en_US": "PARTIDO VERDE - DISTRITO MENDOZA",
-			"es_AR": "PARTIDO VERDE - DISTRITO MENDOZA"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://partidoverde.com.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "PODEMOS"
-		},
-		"area_id": 22,
-		"coalition_id": 6,
-		"colors": [
-			"Cyan"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/vidayfamiliaok"
-		],
-		"id": 76,
-		"ig_urls": [
-			"https://www.instagram.com/vidayfamiliaok"
-		],
-		"logo_urls": [
-			"https://scontent.feze7-2.fna.fbcdn.net/v/t1.6435-9/240391374_220719603334747_4893466345268597988_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=9dXgtScuGXUAX98OY61&_nc_ht=scontent.feze7-2.fna&oh=e0bb3a3df3a065b14aa61844bae2be8a&oe=619BD68B"
-		],
-		"name": {
-			"en_US": "PODEMOS",
-			"es_AR": "PODEMOS"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://partidovidayfamilia.com"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "POLITICAOBRERA"
-		},
-		"area_id": 18,
-		"coalition_id": 3,
-		"colors": [
-			"Red",
-			"Yellow"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/PoliticaObrera"
-		],
-		"id": 77,
-		"ig_urls": [
-			"https://www.instagram.com/politicaobrera_"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-9/68834294_924673271212578_2852174686194761728_n.png?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEQEWb_Eh6BtLbXPBPvwv3gTfYxdJ0YFN9N9jF0nRgU374K_Uw_8DWoWFAl-_E66X9JeDMjQG7bymMxLpyELMFD&_nc_ohc=ZwKbnyRFEFAAX9PFhfu&_nc_ht=scontent.faep9-2.fna&oh=fea43090df1cd9efd2394fdf1bbea0be&oe=619D5116"
-		],
-		"name": {
-			"en_US": "POLITICAOBRERA",
-			"es_AR": "POLITICAOBRERA"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://politicaobrera.com/?fbclid=IwAR2mBVojdAO8sAOMV2M8fP5aqq4i1uvxGpfXVv_vAAxTAjcnCSKnhlaDl-U"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "PRIMERO SANTA FE"
-		},
-		"area_id": 22,
-		"coalition_id": 6,
-		"colors": [
-			"Red",
-			"Blue"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/primerosantafee"
-		],
-		"id": 78,
-		"ig_urls": [
-			"https://www.instagram.com/primerosantafe"
-		],
-		"logo_urls": [
-			"https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/212534925_103007312079763_2567121067303212321_n.png?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHgUVofyNYs2cQ4PStwCOt05g7-XGx9J_TmDv5cbH0n9Ndo3yQ3WWzwx25SWqH2YCr0nDFX7oLwY1T3vw22l3Dg&_nc_ohc=aan1gNwHs2EAX8JcM5n&_nc_ht=scontent.faep9-1.fna&oh=cb9f744df66b24c733f890874f8bbff0&oe=619CC322"
-		],
-		"name": {
-			"en_US": "PRIMERO SANTA FE",
-			"es_AR": "PRIMERO SANTA FE"
-		},
-		"websites": []
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "REPUBLICANOS UNIDOS"
-		},
-		"area_id": 24,
-		"coalition_id": 6,
-		"colors": [
-			"Purple",
-			"Orange"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/republicanos.unidos"
-		],
-		"id": 79,
-		"ig_urls": [
-			"https://www.instagram.com/republicanosunidos_ar"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1339388010358599680/AHrXLmyE_400x400.jpg"
-		],
-		"name": {
-			"en_US": "REPUBLICANOS UNIDOS",
-			"es_AR": "REPUBLICANOS UNIDOS"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://afiliate.republicanosunidos.com.ar/afiliaciones/nueva"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "SOMOS ENERGIA PARA RENOVAR SANTA CRUZ - SER"
-		},
-		"area_id": 21,
-		"coalition_id": 6,
-		"colors": [
-			"Light Blue"
+			""
 		],
 		"fb_urls": [],
-		"id": 80,
-		"ig_urls": [
-			"https://www.instagram.com/ser_santa_cruz"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1140969967090839558/lqaRW0Ii_400x400.png"
-		],
+		"id": 67,
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "SOMOS ENERGIA PARA RENOVAR SANTA CRUZ - SER",
-			"es_AR": "SOMOS ENERGIA PARA RENOVAR SANTA CRUZ - SER"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://sersantacruz.org/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "SOMOS FUEGUINOS"
-		},
-		"area_id": 24,
-		"coalition_id": 6,
-		"colors": [
-			"Blue",
-			"Yellow"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/SOMOSFUEGUINOS"
-		],
-		"id": 81,
-		"ig_urls": [
-			"https://www.instagram.com/somos.fueguinos/"
-		],
-		"logo_urls": [
-			"https://scontent.feze7-2.fna.fbcdn.net/v/t1.6435-9/169069079_1403404890040654_5144453910605379505_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=WSA1OWqHl2gAX8yJXIn&tn=C9TWi9PTtAjz_iHO&_nc_ht=scontent.feze7-2.fna&oh=aa7121c4417a65f08b229e13a12062f1&oe=61971DCC"
-		],
-		"name": {
-			"en_US": "SOMOS FUEGUINOS",
-			"es_AR": "SOMOS FUEGUINOS"
-		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://somosfueguinos.com.ar/"
-			}
-		]
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "SOMOS FUTURO"
-		},
-		"area_id": 22,
-		"coalition_id": 6,
-		"colors": [
-			"Purple",
-			"Blue"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/somoscreo"
-		],
-		"id": 82,
-		"ig_urls": [
-			"https://www.instagram.com/creo.santafe"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1438282611336548359/H_CiPX5n_400x400.jpg"
-		],
-		"name": {
-			"en_US": "SOMOS FUTURO",
-			"es_AR": "SOMOS FUTURO"
+			"en_US": "Asociacion De Apicultores De Coloso",
+			"es_CO": "Asociacion De Apicultores De Coloso"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "TODOS UNIDOS SAN LUIS"
+			"en_US": "RENACER",
+			"es_CO": "Asociacion De Aspirantes Al Retorno Del Predio \"Renacer\""
 		},
-		"area_id": 20,
-		"coalition_id": 6,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Green"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/todosunidossl"
-		],
-		"id": 83,
-		"ig_urls": [
-			"https://www.instagram.com/todos.unidos.belgrano/"
-		],
-		"logo_urls": [
-			"https://scontent.feze7-2.fna.fbcdn.net/v/t1.6435-9/86708781_105700241024105_6974993143145955328_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=5pupbfi9U7AAX_Bn8ZG&_nc_ht=scontent.feze7-2.fna&oh=91d3552ddd6531756f9cedddc133e100&oe=619A3865"
-		],
+		"fb_urls": [],
+		"id": 68,
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "TODOS UNIDOS SAN LUIS",
-			"es_AR": "TODOS UNIDOS SAN LUIS"
+			"en_US": "Asociacion De Aspirantes Al Retorno Del Predio \"Renacer\"",
+			"es_CO": "Asociacion De Aspirantes Al Retorno Del Predio \"Renacer\""
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "UNIDOS POR SALTA"
+			"en_US": "URABA",
+			"es_CO": "Asociación De Campesinos De Urabà"
 		},
-		"area_id": 18,
-		"coalition_id": 6,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Light Blue"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/Unidos-por-Salta-110407154564794/"
-		],
-		"id": 84,
-		"ig_urls": [
-			"https://www.instagram.com/unidosporsaltaok"
-		],
+		"fb_urls": [],
+		"id": 69,
+		"ig_urls": [],
 		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1430149146804211715/945Zk8dr_400x400.jpg"
+			"https://prensarural.org/spip/IMG/jpg/Asocamura.jpg"
 		],
 		"name": {
-			"en_US": "UNIDOS POR SALTA",
-			"es_AR": "UNIDOS POR SALTA"
+			"en_US": "Asociación De Campesinos De Urabà",
+			"es_CO": "Asociación De Campesinos De Urabà"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "UCR",
-			"es_AR": "UNION CIVICA RADICAL SAN LUIS"
+			"en_US": "ACCSUR",
+			"es_CO": "Asociacion De Campesinos Del Sur De Cordoba - Ascsucor"
 		},
-		"area_id": 20,
-		"coalition_id": 2,
-		"colors": [
-			"Blue",
-			"Red"
-		],
-		"fb_urls": [
-			"https://www.facebook.com/ucr.sanluisargentina"
-		],
-		"id": 85,
-		"ig_urls": [
-			"https://www.instagram.com/ucrsanluis/"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1302211249/ucr_san_luis_400x400.jpg"
-		],
-		"name": {
-			"en_US": "UNION CIVICA RADICAL SAN LUIS",
-			"es_AR": "UNION CIVICA RADICAL SAN LUIS"
-		},
-		"websites": []
-	},
-	{
-		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "UNION POPULAR FEDERAL"
-		},
-		"area_id": 7,
-		"coalition_id": 6,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
 			""
 		],
 		"fb_urls": [
-			"https://www.facebook.com/partidoupf"
+			"https://www.facebook.com/ascsucororg/"
 		],
-		"id": 86,
-		"ig_urls": [
-			"https://www.instagram.com/union.popular.federal"
-		],
+		"id": 70,
+		"ig_urls": [],
 		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1298339540332093440/OmS8iRTh_400x400.jpg"
+			"https://twitter.com/ascsucor_org/photo"
 		],
 		"name": {
-			"en_US": "UNION POPULAR FEDERAL",
-			"es_AR": "UNION POPULAR FEDERAL"
+			"en_US": "Asociacion De Campesinos Del Sur De Cordoba - Ascsucor",
+			"es_CO": "Asociacion De Campesinos Del Sur De Cordoba - Ascsucor"
 		},
-		"websites": [
-			{
-				"note": "official",
-				"url": "https://www.partidounionpopular.org/system/cont.php"
-			}
-		]
+		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "UNITE POR LA LIBERTAD Y LA DIGNIDAD"
+			"en_US": "CAMUC",
+			"es_CO": "Asociacion De Campesinos Unidos De Caucasia- Asocamuc"
 		},
-		"area_id": 1,
-		"coalition_id": 6,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Red",
-			"Black"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/Unite-por-la-Libertad-y-la-Dignidad-266969763774581"
-		],
-		"id": 87,
+		"fb_urls": [],
+		"id": 71,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "UNITE POR LA LIBERTAD Y LA DIGNIDAD",
-			"es_AR": "UNITE POR LA LIBERTAD Y LA DIGNIDAD"
+			"en_US": "Asociacion De Campesinos Unidos De Caucasia- Asocamuc",
+			"es_CO": "Asociacion De Campesinos Unidos De Caucasia- Asocamuc"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "VAMOS! MENDOCINOS - DISTRITO MENDOZA"
+			"en_US": "CAMPODES",
+			"es_CO": "Asociación De Campesinos Y Población Desplazada Y Comunidades Negras En Valledupar - Campodes"
 		},
-		"area_id": 14,
-		"coalition_id": 6,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Red",
-			"White"
+			""
 		],
-		"fb_urls": [
-			"https://www.facebook.com/Vamos.Mendocinos.Oficial"
-		],
-		"id": 88,
-		"ig_urls": [
-			"https://www.instagram.com/vamosmendocinos/"
-		],
-		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1449123047215022081/xFSmDvEE_400x400.jpg"
-		],
+		"fb_urls": [],
+		"id": 72,
+		"ig_urls": [],
+		"logo_urls": [],
 		"name": {
-			"en_US": "VAMOS! MENDOCINOS - DISTRITO MENDOZA",
-			"es_AR": "VAMOS! MENDOCINOS - DISTRITO MENDOZA"
+			"en_US": "Asociación De Campesinos Y Población Desplazada Y Comunidades Negras En Valledupar - Campodes",
+			"es_CO": "Asociación De Campesinos Y Población Desplazada Y Comunidades Negras En Valledupar - Campodes"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "UCEDE",
-			"es_AR": "UCEDE - UNION DEL CENTRO DEMOCRATICO"
+			"en_US": "ETNICO",
+			"es_CO": "Asociacion De Concejos Comunitarios Y Organizaciones Etnico Territoriales En Nariño"
 		},
-		"area_id": 13,
-		"coalition_id": 6,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Dark Blue"
+			""
 		],
 		"fb_urls": [
-			"https://www.facebook.com/UCEDEok"
+			"https://www.facebook.com/asocoetnar/"
 		],
-		"id": 89,
-		"ig_urls": [
-			"https://www.instagram.com/ucede.sn"
-		],
+		"id": 73,
+		"ig_urls": [],
 		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1138197750326190085/tXCazH5j_400x400.png"
+			"https://www.facebook.com/asocoetnar/photos/106031284810856"
 		],
 		"name": {
-			"en_US": "UCEDE - UNION DEL CENTRO DEMOCRATICO",
-			"es_AR": "UCEDE - UNION DEL CENTRO DEMOCRATICO"
+			"en_US": "Asociacion De Concejos Comunitarios Y Organizaciones Etnico Territoriales En Nariño",
+			"es_CO": "Asociacion De Concejos Comunitarios Y Organizaciones Etnico Territoriales En Nariño"
 		},
 		"websites": [
 			{
 				"note": "official",
-				"url": "https://www.ucede.ar"
+				"url": "https://asocoetnar.org/"
 			}
 		]
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "UNIDOS"
+			"en_US": "ASODENE",
+			"es_CO": "Asociacion De Desplazados De Necocli - Asodene"
 		},
-		"area_id": 13,
-		"coalition_id": 6,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Cyan"
+			""
+		],
+		"fb_urls": [],
+		"id": 74,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Desplazados De Necocli - Asodene",
+			"es_CO": "Asociacion De Desplazados De Necocli - Asodene"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FLORENCE",
+			"es_CO": "Asociacion De Desplazados De Peñas Coloradas Florencia"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 75,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Desplazados De Peñas Coloradas Florencia",
+			"es_CO": "Asociacion De Desplazados De Peñas Coloradas Florencia"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "BRICEÑO",
+			"es_CO": "Asociacion De Desplazados Del Municipio De Briceño"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 76,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Desplazados Del Municipio De Briceño",
+			"es_CO": "Asociacion De Desplazados Del Municipio De Briceño"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "DONCELLO",
+			"es_CO": "Asociacion De Desplazados Del Municipio De El Doncello"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 77,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Desplazados Del Municipio De El Doncello",
+			"es_CO": "Asociacion De Desplazados Del Municipio De El Doncello"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "TOLIMA",
+			"es_CO": "Asociacion De Desplazados Del Sur Del Tolima"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 78,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Desplazados Del Sur Del Tolima",
+			"es_CO": "Asociacion De Desplazados Del Sur Del Tolima"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MAÑANA",
+			"es_CO": "Asociacion De Desplazados Futuros Del Mañana"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 79,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Desplazados Futuros Del Mañana",
+			"es_CO": "Asociacion De Desplazados Futuros Del Mañana"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ADMA",
+			"es_CO": "Asociacion De Desplazados Y Mujeres De Antioquia \"Adma\""
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 80,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Desplazados Y Mujeres De Antioquia \"Adma\"",
+			"es_CO": "Asociacion De Desplazados Y Mujeres De Antioquia \"Adma\""
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASOFADHA",
+			"es_CO": "Asociación De Familias Desplazadas De Hacarí - Asofadhaca"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 81,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación De Familias Desplazadas De Hacarí - Asofadhaca",
+			"es_CO": "Asociación De Familias Desplazadas De Hacarí - Asofadhaca"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MITIERRA",
+			"es_CO": "Asociacion De Hombres De Mi Tierra"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 82,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Hombres De Mi Tierra",
+			"es_CO": "Asociacion De Hombres De Mi Tierra"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.asociacionhombresdemitierra.org/inicio/"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "CONFLICTO",
+			"es_CO": "Asociación De Juventud Emprendedora Y Víctima Del Conflicto"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://es-la.facebook.com/asojuvempuvoficial/"
+		],
+		"id": 83,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.facebook.com/asojuvempuvoficial/photos/a.1806743206211848/1806743212878514/"
+		],
+		"name": {
+			"en_US": "Asociación De Juventud Emprendedora Y Víctima Del Conflicto",
+			"es_CO": "Asociación De Juventud Emprendedora Y Víctima Del Conflicto"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "RIO",
+			"es_CO": "Asociacion De Las Canaleteras Futuristas Por La Recuperacion Del Tejido Social Y La Paz- Creciendo Junto Al Rio"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 84,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Las Canaleteras Futuristas Por La Recuperacion Del Tejido Social Y La Paz- Creciendo Junto Al Rio",
+			"es_CO": "Asociacion De Las Canaleteras Futuristas Por La Recuperacion Del Tejido Social Y La Paz- Creciendo Junto Al Rio"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "AMOR",
+			"es_CO": "Asociacion De Mujeres De Dios Es Amor"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 85,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Mujeres De Dios Es Amor",
+			"es_CO": "Asociacion De Mujeres De Dios Es Amor"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASOMUDEN",
+			"es_CO": "Asociación De Mujeres Desplazadas Del Meta \"Asomudem\""
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/Asomudem/"
+		],
+		"id": 86,
+		"ig_urls": [
+			"https://www.instagram.com/cecilialozanodefensora/"
+		],
+		"logo_urls": [
+			"http://www.asomudem.com.co/sitepad-data/uploads//2022/01/Sin-t%C3%ADtulo-2.png"
+		],
+		"name": {
+			"en_US": "Asociación De Mujeres Desplazadas Del Meta \"Asomudem\"",
+			"es_CO": "Asociación De Mujeres Desplazadas Del Meta \"Asomudem\""
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "http://www.asomudem.com.co/"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "CAQUETA",
+			"es_CO": "Asociacion De Mujeres Productoras De Carnicos Del Caqueta"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/pages/category/Community-Organization/asomupcar-Asociaci%C3%B3n-de-mujeres-productoras-de-c%C3%A1rnicos-del-Caquet%C3%A1-938790292931614/"
+		],
+		"id": 87,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.facebook.com/938790292931614/photos/a.938790816264895/938802902930353/?type=1&theater"
+		],
+		"name": {
+			"en_US": "Asociacion De Mujeres Productoras De Carnicos Del Caqueta",
+			"es_CO": "Asociacion De Mujeres Productoras De Carnicos Del Caqueta"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ADMUDIV",
+			"es_CO": "Asociacion De Mujeres Victimas De Villagarzon Admuviv"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 88,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Mujeres Victimas De Villagarzon Admuviv",
+			"es_CO": "Asociacion De Mujeres Victimas De Villagarzon Admuviv"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ONOFRE",
+			"es_CO": "Asociacion De Pequeños Productores Afrodescendiente De La Zona Platanera De San Onofre"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 89,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Pequeños Productores Afrodescendiente De La Zona Platanera De San Onofre",
+			"es_CO": "Asociacion De Pequeños Productores Afrodescendiente De La Zona Platanera De San Onofre"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "SUR",
+			"es_CO": "Asociacion De Productores Agroindustriales De Monterrey Sur"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
 		],
 		"fb_urls": [],
 		"id": 90,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "UNIDOS",
-			"es_AR": "UNIDOS"
+			"en_US": "Asociacion De Productores Agroindustriales De Monterrey Sur",
+			"es_CO": "Asociacion De Productores Agroindustriales De Monterrey Sur"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "VAMOS LA RIOJA - CAMBIA LA RIOJA"
+			"en_US": "APROCASUR",
+			"es_CO": "Asociacion De Productores De Cacao Aprocasur"
 		},
-		"area_id": 13,
-		"coalition_id": 6,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Yellow"
+			""
 		],
 		"fb_urls": [
-			"https://www.facebook.com/vamoslariojaOK"
+			"https://es-la.facebook.com/aprocasur"
 		],
 		"id": 91,
-		"ig_urls": [
-			"https://www.instagram.com/vamoslarioja"
-		],
+		"ig_urls": [],
 		"logo_urls": [
-			"https://pbs.twimg.com/profile_images/1432891919739334658/YtoLVv7j_400x400.jpg"
+			"https://aprocasur.org/wp-content/uploads/2020/02/logo-aprocasur-web.png"
 		],
 		"name": {
-			"en_US": "VAMOS LA RIOJA - CAMBIA LA RIOJA",
-			"es_AR": "VAMOS LA RIOJA - CAMBIA LA RIOJA"
+			"en_US": "Asociacion De Productores De Cacao Aprocasur",
+			"es_CO": "Asociacion De Productores De Cacao Aprocasur"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://aprocasur.org/#:~:text=Es%20una%20entidad%20regional%20de,sostenible%20desde%20la%20actividad%20agr%C3%ADcola."
+			},
+			{
+				"note": "official",
+				"url": "https://aprocasur.org/#:~:text=Es%20una%20entidad%20regional%20de,sostenible%20desde%20la%20actividad%20agr%C3%ADcola."
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "MESALLANA",
+			"es_CO": "Asociación De Productores De Mesallana"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 92,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación De Productores De Mesallana",
+			"es_CO": "Asociación De Productores De Mesallana"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "N/A",
-			"es_AR": "SOBERANIA POPULAR (1)"
+			"en_US": "COMUNITARIO",
+			"es_CO": "Asociación De Productores Para La Gestión Y Desarrollo Comunitario"
 		},
-		"area_id": 22,
-		"coalition_id": 6,
+		"area_id": 45,
+		"coalition_id": "",
 		"colors": [
-			"Blue",
-			"Red"
+			""
+		],
+		"fb_urls": [],
+		"id": 93,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación De Productores Para La Gestión Y Desarrollo Comunitario",
+			"es_CO": "Asociación De Productores Para La Gestión Y Desarrollo Comunitario"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ATACO",
+			"es_CO": "Asociacion De Retorno Renaciendo El Campo De Santa Rita Y Balsillas De Ataco"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 94,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Retorno Renaciendo El Campo De Santa Rita Y Balsillas De Ataco",
+			"es_CO": "Asociacion De Retorno Renaciendo El Campo De Santa Rita Y Balsillas De Ataco"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "DIGNIDAD",
+			"es_CO": "Asociacion De Sobrevivientes De Minas Antipersonal Luchando Por La Dignidad Y La Paz"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 95,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Sobrevivientes De Minas Antipersonal Luchando Por La Dignidad Y La Paz",
+			"es_CO": "Asociacion De Sobrevivientes De Minas Antipersonal Luchando Por La Dignidad Y La Paz"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MERCEDES",
+			"es_CO": "Asociación De Victimas Caminos De Esperanza Las Mercedes"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 96,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación De Victimas Caminos De Esperanza Las Mercedes",
+			"es_CO": "Asociación De Victimas Caminos De Esperanza Las Mercedes"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASORVIMM",
+			"es_CO": "Asociacion De Victimas De Crimenes Del Estado Asorvimm"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
 		],
 		"fb_urls": [
-			"https://www.facebook.com/FSP.LaCapital"
+			"https://www.facebook.com/asorvimm/"
 		],
-		"id": 92,
-		"ig_urls": [
-			"https://www.instagram.com/soberaniapopularok"
-		],
+		"id": 97,
+		"ig_urls": [],
 		"logo_urls": [
-			"https://scontent.faep9-2.fna.fbcdn.net/v/t39.30808-6/240735956_2312952375506119_5581750270060703304_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEedJY6dydCOMwuvIrOoNAZCvLEXdE52V4K8sRd0TnZXnz3yLgeRtwDh2s-4zXM8-EQdBmgwEFK2LfSaMjELjeO&_nc_ohc=pkTQb510sZ8AX_zz8R0&_nc_ht=scontent.faep9-2.fna&oh=cd349b8e751b78423873fa47b66cdd6e&oe=617B2CD9"
+			"https://www.facebook.com/asorvimm/photos/a.286345351700691/708434019491820/"
 		],
 		"name": {
-			"en_US": "SOBERANIA POPULAR (1)",
-			"es_AR": "SOBERANIA POPULAR (1)"
+			"en_US": "Asociacion De Victimas De Crimenes Del Estado Asorvimm",
+			"es_CO": "Asociacion De Victimas De Crimenes Del Estado Asorvimm"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "http://www.asorvimm.org/"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "CLAMORES",
+			"es_CO": "Asociacion De Victimas De La Violencia En Riosucio Clamores"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 98,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Victimas De La Violencia En Riosucio Clamores",
+			"es_CO": "Asociacion De Victimas De La Violencia En Riosucio Clamores"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASOVICE",
+			"es_CO": "Asociación De Víctimas Del Cesar Asovice"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 99,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación De Víctimas Del Cesar Asovice",
+			"es_CO": "Asociación De Víctimas Del Cesar Asovice"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FORFUR",
+			"es_CO": "Asociación De Víctimas Forjando Futuro \"Forfur\""
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/pg/Asoforfur-Asociaci%C3%B3n-de-V%C3%ADctimas-Forjando-Futuro-110455387228674/posts/"
+		],
+		"id": 100,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.facebook.com/110455387228674/photos/a.110455413895338/110455920561954/?type=1&theater"
+		],
+		"name": {
+			"en_US": "Asociación De Víctimas Forjando Futuro \"Forfur\"",
+			"es_CO": "Asociación De Víctimas Forjando Futuro \"Forfur\""
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "REGIONAL",
+			"es_CO": "Asociacion De Victimas Intercultural Y Regional"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://fr-fr.facebook.com/pg/Asociaci%C3%B3n-de-v%C3%ADctimas-intercultural-y-regional-338518163547402/posts/"
+		],
+		"id": 101,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://fr-fr.facebook.com/338518163547402/photos/a.338518176880734/341815049884380/?type=1&theater"
+		],
+		"name": {
+			"en_US": "Asociacion De Victimas Intercultural Y Regional",
+			"es_CO": "Asociacion De Victimas Intercultural Y Regional"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASOVIMIL",
+			"es_CO": "Asociacion De Victimas Militares Asovimil"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 102,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Victimas Militares Asovimil",
+			"es_CO": "Asociacion De Victimas Militares Asovimil"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "XIX",
+			"es_CO": "Asociacion De Victimas Renacer Siglo Xix"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 103,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion De Victimas Renacer Siglo Xix",
+			"es_CO": "Asociacion De Victimas Renacer Siglo Xix"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "PROGRESO",
+			"es_CO": "Asociacion El Progreso"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 104,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion El Progreso",
+			"es_CO": "Asociacion El Progreso"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASFACHOCO",
+			"es_CO": "Asociacion Familiar Y Amigos Del Choco - Asfachoco"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 105,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://pbs.twimg.com/media/FKWe8YAXsAEaDF-.jpg"
+		],
+		"name": {
+			"en_US": "Asociacion Familiar Y Amigos Del Choco - Asfachoco",
+			"es_CO": "Asociacion Familiar Y Amigos Del Choco - Asfachoco"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "GRANITA",
+			"es_CO": "Asociacion Granja Integral Tamarindo \"Granita\""
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 106,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://tamearauca.com/wp-content/uploads/2021/06/granita.jpg"
+		],
+		"name": {
+			"en_US": "Asociacion Granja Integral Tamarindo \"Granita\"",
+			"es_CO": "Asociacion Granja Integral Tamarindo \"Granita\""
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://tamearauca.com/ox_portfolio/asociacion-granja-integral-tamarindo-granita/"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASICAC",
+			"es_CO": "Asociacion Integral Campesinos De Cañito Asicac"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 107,
+		"ig_urls": [],
+		"logo_urls": [
+			"http://asicac.com.s3-website-us-east-1.amazonaws.com/trace-content/organizations/coops/colombia/lexcom/asicac/grafico/Logo_ASISAC.svg"
+		],
+		"name": {
+			"en_US": "Asociacion Integral Campesinos De Cañito Asicac",
+			"es_CO": "Asociacion Integral Campesinos De Cañito Asicac"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "http://asicac.com/"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "REMEDIOS",
+			"es_CO": "Asociacion La Mesa Minera Segovia- Remedios"
+		},
+		"area_id": 6,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 108,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion La Mesa Minera Segovia- Remedios",
+			"es_CO": "Asociacion La Mesa Minera Segovia- Remedios"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MECHE",
+			"es_CO": "Asociación María Meche"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 109,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación María Meche",
+			"es_CO": "Asociación María Meche"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MUTER",
+			"es_CO": "Asociacion Mujer Y Territorio"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 110,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion Mujer Y Territorio",
+			"es_CO": "Asociacion Mujer Y Territorio"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MAR",
+			"es_CO": "Asociacion Municipal De Pescadores Artesanales Del Municipio De Tumaco Nariño Los Faeneros Del Mar"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 111,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion Municipal De Pescadores Artesanales Del Municipio De Tumaco Nariño Los Faeneros Del Mar",
+			"es_CO": "Asociacion Municipal De Pescadores Artesanales Del Municipio De Tumaco Nariño Los Faeneros Del Mar"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "TIMBIQUI",
+			"es_CO": "Asociacion Municipal De Ususarios Campesinos De Timbiqui"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 112,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://buenaventuraenlinea.com/wp-content/uploads/2021/12/El-Pacifico-inscribio-candidatos-al-congreso-por-circunscripcion-de-Paz.jpeg"
+		],
+		"name": {
+			"en_US": "Asociacion Municipal De Ususarios Campesinos De Timbiqui",
+			"es_CO": "Asociacion Municipal De Ususarios Campesinos De Timbiqui"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "DESCOL",
+			"es_CO": "Asociación Nacional De Desplazados Unidos De Colombia"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 114,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación Nacional De Desplazados Unidos De Colombia",
+			"es_CO": "Asociación Nacional De Desplazados Unidos De Colombia"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASOCAMPRO",
+			"es_CO": "Asociacion Organizada De Campesinos Productivos Asocampro"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 115,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion Organizada De Campesinos Productivos Asocampro",
+			"es_CO": "Asociacion Organizada De Campesinos Productivos Asocampro"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "EDUCAT",
+			"es_CO": "Asociacion Para El Desarrollo Cultural Y Educativo"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 116,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion Para El Desarrollo Cultural Y Educativo",
+			"es_CO": "Asociacion Para El Desarrollo Cultural Y Educativo"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "PAVIDA",
+			"es_CO": "Asociación Paz Es Vida (Pa-Vida)"
+		},
+		"area_id": 22,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 117,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación Paz Es Vida (Pa-Vida)",
+			"es_CO": "Asociación Paz Es Vida (Pa-Vida)"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "PROTEGER",
+			"es_CO": "Asociación Proteger"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 118,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociación Proteger",
+			"es_CO": "Asociación Proteger"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "SIBERIA",
+			"es_CO": "Asociacion Unidos La Siberia"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 119,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion Unidos La Siberia",
+			"es_CO": "Asociacion Unidos La Siberia"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "NUSAPER",
+			"es_CO": "Asociacion Victimas Nucleo Santiago Perez Asvicnusaper"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 120,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asociacion Victimas Nucleo Santiago Perez Asvicnusaper",
+			"es_CO": "Asociacion Victimas Nucleo Santiago Perez Asvicnusaper"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASOENTORNO",
+			"es_CO": "Asoentorno"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 121,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asoentorno",
+			"es_CO": "Asoentorno"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASOGRECAN",
+			"es_CO": "Asogrecan"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 122,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asogrecan",
+			"es_CO": "Asogrecan"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASOINTEC",
+			"es_CO": "Asointec"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 123,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://es-la.facebook.com/asointec/photos/a.253756255003572/253756261670238/?type=1&theater"
+		],
+		"name": {
+			"en_US": "Asointec",
+			"es_CO": "Asointec"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://es-la.facebook.com/pg/asointec/posts/"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASOLIVIPAZ",
+			"es_CO": "Asolivipaz"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 124,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asolivipaz",
+			"es_CO": "Asolivipaz"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASOME",
+			"es_CO": "Asomevíctimas"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 125,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asomevíctimas",
+			"es_CO": "Asomevíctimas"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASOVCOMP",
+			"es_CO": "Asovcompartir-Asociacion De Victimas Del Conflicto"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 126,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asovcompartir-Asociacion De Victimas Del Conflicto",
+			"es_CO": "Asovcompartir-Asociacion De Victimas Del Conflicto"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASPROÑA",
+			"es_CO": "Asproñame"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 127,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Asproñame",
+			"es_CO": "Asproñame"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ASPROPISAT",
+			"es_CO": "Aspropisat"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 128,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Aspropisat",
+			"es_CO": "Aspropisat"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://productosdeldesarrolloalternativo.wordpress.com/directorio-de-asociaciones/asociaciones-de-cordoba/aspropisat/"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "TOMA",
+			"es_CO": "C.C La Toma"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 129,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "C.C La Toma",
+			"es_CO": "C.C La Toma"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MAYAN",
+			"es_CO": "Cabildo De Resguardo Indigena Mayabangloma"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 130,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Cabildo De Resguardo Indigena Mayabangloma",
+			"es_CO": "Cabildo De Resguardo Indigena Mayabangloma"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "AYWA",
+			"es_CO": "Cabildo Indigena Aywjawashi"
+		},
+		"area_id": 12,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 131,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Cabildo Indigena Aywjawashi",
+			"es_CO": "Cabildo Indigena Aywjawashi"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "SOMBREMEDIA",
+			"es_CO": "Cabildo Menor Indigena De Media Sombra"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 132,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Cabildo Menor Indigena De Media Sombra",
+			"es_CO": "Cabildo Menor Indigena De Media Sombra"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "COACNEJA",
+			"es_CO": "Coacneja"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 133,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coacneja",
+			"es_CO": "Coacneja"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FUNDAPROPA",
+			"es_CO": "Fundación Progresemos Pacífico (Fundapropa)"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 135,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Progresemos Pacífico (Fundapropa)",
+			"es_CO": "Fundación Progresemos Pacífico (Fundapropa)"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FAGA",
+			"es_CO": "Fundación Afrodescendiente Gente Activa"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 136,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Afrodescendiente Gente Activa",
+			"es_CO": "Fundación Afrodescendiente Gente Activa"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FA",
+			"es_CO": "Fundación Alcatraz"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/pg/FundacionGenteActivaAtlantico"
+		],
+		"id": 137,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.fundaciongenteactivaba.org/wp-content/uploads/2020/08/cropped-LoginGA-500x125-1.png"
+		],
+		"name": {
+			"en_US": "Fundación Alcatraz",
+			"es_CO": "Fundación Alcatraz"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://fundaciongenteactivaba.org"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "FAAPUMF",
+			"es_CO": "Fundación Amigos Por Un Mejor Futuro"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 138,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Amigos Por Un Mejor Futuro",
+			"es_CO": "Fundación Amigos Por Un Mejor Futuro"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FAY",
+			"es_CO": "Fundación Ayudémosnos"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 139,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Ayudémosnos",
+			"es_CO": "Fundación Ayudémosnos"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FCTF",
+			"es_CO": "Fundación Comunidad Terapeutica Fuerza Y Voluntad"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 140,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Comunidad Terapeutica Fuerza Y Voluntad",
+			"es_CO": "Fundación Comunidad Terapeutica Fuerza Y Voluntad"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FDCD",
+			"es_CO": "Fundación De Desplazados Campesinos Del Pacifico Sur D´ Escapada"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 141,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación De Desplazados Campesinos Del Pacifico Sur D´ Escapada",
+			"es_CO": "Fundación De Desplazados Campesinos Del Pacifico Sur D´ Escapada"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FDA",
+			"es_CO": "Fundación De Desplazados De Aracataca"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 142,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.fundesar.com/wp-content/uploads/2021/08/cropped-logo2.png"
+		],
+		"name": {
+			"en_US": "Fundación De Desplazados De Aracataca",
+			"es_CO": "Fundación De Desplazados De Aracataca"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.fundesar.com"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "FMD",
+			"es_CO": "Fundación De Mujeres Desplazadas Y Víctimas Por El Conflicto"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 143,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación De Mujeres Desplazadas Y Víctimas Por El Conflicto",
+			"es_CO": "Fundación De Mujeres Desplazadas Y Víctimas Por El Conflicto"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FCV",
+			"es_CO": "Fundación De Víctimas Del Cesar - Fundavice"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 144,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación De Víctimas Del Cesar - Fundavice",
+			"es_CO": "Fundación De Víctimas Del Cesar - Fundavice"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FDVV",
+			"es_CO": "Fundación Desplazados Victimas De La Violencia Del Tolima"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/Fundevivtol"
+		],
+		"id": 145,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.fundevivtol.org/wp-content/uploads/2020/06/fundevivtol.png"
+		],
+		"name": {
+			"en_US": "Fundación Desplazados Victimas De La Violencia Del Tolima",
+			"es_CO": "Fundación Desplazados Victimas De La Violencia Del Tolima"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.fundevivtol.org"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "FDCC",
+			"es_CO": "Fundación Diocesana Compartir"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/Fundaci%C3%B3n-Diocesana-Compartir-537309269728989"
+		],
+		"id": 146,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.facebook.com/537309269728989/photos/a.537311146395468/3872990316160851/"
+		],
+		"name": {
+			"en_US": "Fundación Diocesana Compartir",
+			"es_CO": "Fundación Diocesana Compartir"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FEM",
+			"es_CO": "Fundación Esperanza Medica"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/fundacion.e.medica"
+		],
+		"id": 147,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.facebook.com/photo/?fbid=10216052750383682&set=a.1342663298771"
+		],
+		"name": {
+			"en_US": "Fundación Esperanza Medica",
+			"es_CO": "Fundación Esperanza Medica"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FEEE",
+			"es_CO": "Fundación Etno Educativa Empresarial (Fundee)"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 148,
+		"ig_urls": [],
+		"logo_urls": [
+			"http://www.actiweb.one/fundee/imagenlogo.jpg?8304"
+		],
+		"name": {
+			"en_US": "Fundación Etno Educativa Empresarial (Fundee)",
+			"es_CO": "Fundación Etno Educativa Empresarial (Fundee)"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://actiweb.one/fundee"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "FFNB",
+			"es_CO": "Fundación Festival Nacional Del Bullerngue"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/fufenab"
+		],
+		"id": 149,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.facebook.com/fufenab/photos/a.102355225068850/103679454936427/"
+		],
+		"name": {
+			"en_US": "Fundación Festival Nacional Del Bullerngue",
+			"es_CO": "Fundación Festival Nacional Del Bullerngue"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FGAB",
+			"es_CO": "Fundación Grupo Amigos De La Biblioteca"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/GABFusagasuga"
+		],
+		"id": 150,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.facebook.com/GABFusagasuga/photos/a.1760906354053276/1760912240719354/"
+		],
+		"name": {
+			"en_US": "Fundación Grupo Amigos De La Biblioteca",
+			"es_CO": "Fundación Grupo Amigos De La Biblioteca"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FHN",
+			"es_CO": "Fundación Huella Nativa"
+		},
+		"area_id": 49,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 151,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Huella Nativa",
+			"es_CO": "Fundación Huella Nativa"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FIS",
+			"es_CO": "Fundación Igualdad Social"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 152,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Igualdad Social",
+			"es_CO": "Fundación Igualdad Social"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FLNCU",
+			"es_CO": "Fundación La Nueva Colonia Unida"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 153,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación La Nueva Colonia Unida",
+			"es_CO": "Fundación La Nueva Colonia Unida"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FMJPP",
+			"es_CO": "Fundación Mil Jovenes Por El Progreso De Un Pueblo"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 154,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Mil Jovenes Por El Progreso De Un Pueblo",
+			"es_CO": "Fundación Mil Jovenes Por El Progreso De Un Pueblo"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FMSX",
+			"es_CO": "Fundación Moderno Siglo Xxi"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 155,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Moderno Siglo Xxi",
+			"es_CO": "Fundación Moderno Siglo Xxi"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FMVC",
+			"es_CO": "Fundación Mvc"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/pg/fundaciomvc.co"
+		],
+		"id": 156,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.facebook.com/fundaciomvc.co/photos/a.101515251417256/107466754155439/"
+		],
+		"name": {
+			"en_US": "Fundación Mvc",
+			"es_CO": "Fundación Mvc"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FNNA",
+			"es_CO": "Fundación Niños Y Niñas Y Adolescentes De Colombia"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 157,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Niños Y Niñas Y Adolescentes De Colombia",
+			"es_CO": "Fundación Niños Y Niñas Y Adolescentes De Colombia"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FDAA",
+			"es_CO": "Fundación Para El Desarrollo Alternativo Ambiental Turistico"
+		},
+		"area_id": 41,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 158,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Para El Desarrollo Alternativo Ambiental Turistico",
+			"es_CO": "Fundación Para El Desarrollo Alternativo Ambiental Turistico"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FDEA",
+			"es_CO": "Fundación Para El Desarrollo Ecologico Y La Construccion Fundacon"
+		},
+		"area_id": 41,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 159,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Para El Desarrollo Ecologico Y La Construccion Fundacon",
+			"es_CO": "Fundación Para El Desarrollo Ecologico Y La Construccion Fundacon"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FDIV",
+			"es_CO": "Fundación Para El Desarrollo Integral De Victimas Y Discapacitados Fundamasvida"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 160,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Para El Desarrollo Integral De Victimas Y Discapacitados Fundamasvida",
+			"es_CO": "Fundación Para El Desarrollo Integral De Victimas Y Discapacitados Fundamasvida"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FDSCN",
+			"es_CO": "Fundación Para El Desarrollo Social De Comunidades Negras"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 161,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Para El Desarrollo Social De Comunidades Negras",
+			"es_CO": "Fundación Para El Desarrollo Social De Comunidades Negras"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FDSO",
+			"es_CO": "Fundación Para El Desarrollo Social De La Orinoquia"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/Fundaci%C3%B3n-para-el-Desarrollo-Integral-de-la-Orinoqu%C3%ADa-566204480432264"
+		],
+		"id": 162,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.facebook.com/566204480432264/photos/a.566204510432261/566204690432243/"
+		],
+		"name": {
+			"en_US": "Fundación Para El Desarrollo Social De La Orinoquia",
+			"es_CO": "Fundación Para El Desarrollo Social De La Orinoquia"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FUNDESOE",
+			"es_CO": "Fundación Para El Desarrollo Social Y Empresarial Fundesoe"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 163,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Para El Desarrollo Social Y Empresarial Fundesoe",
+			"es_CO": "Fundación Para El Desarrollo Social Y Empresarial Fundesoe"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "PESCAITO",
+			"es_CO": "Fundación Pescaito"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 164,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Pescaito",
+			"es_CO": "Fundación Pescaito"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FUNVIMEJOR",
+			"es_CO": "Fundación Por Un Vivir Mejor - Funvimejor"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 165,
+		"ig_urls": [],
+		"logo_urls": [
+			"http://www.funvimejor.org/images/log.jpeg"
+		],
+		"name": {
+			"en_US": "Fundación Por Un Vivir Mejor - Funvimejor",
+			"es_CO": "Fundación Por Un Vivir Mejor - Funvimejor"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "http://funvimejor.org/contactenos.php"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "FPROCRE",
+			"es_CO": "Fundación Procrecer"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 166,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Procrecer",
+			"es_CO": "Fundación Procrecer"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "RENACER",
+			"es_CO": "Fundación Renacer Social Del Pacífico Colombiano"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 167,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Renacer Social Del Pacífico Colombiano",
+			"es_CO": "Fundación Renacer Social Del Pacífico Colombiano"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "AFROPACI",
+			"es_CO": "Fundación Social Afrocolombianos Del Pacifico"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 168,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Social Afrocolombianos Del Pacifico",
+			"es_CO": "Fundación Social Afrocolombianos Del Pacifico"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MAGENDE",
+			"es_CO": "Fundación Social Magende Mi"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 169,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Social Magende Mi",
+			"es_CO": "Fundación Social Magende Mi"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "SOCIEM",
+			"es_CO": "Fundación Soluciones Sociales Y Empresariales - Sociem"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 170,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Soluciones Sociales Y Empresariales - Sociem",
+			"es_CO": "Fundación Soluciones Sociales Y Empresariales - Sociem"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CIERTO",
+			"es_CO": "Fundación Victimas Con Futuro Cierto Funvicierto"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 171,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fundación Victimas Con Futuro Cierto Funvicierto",
+			"es_CO": "Fundación Victimas Con Futuro Cierto Funvicierto"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "COALICIÓN",
+			"es_CO": "Partido Coalición"
+		},
+		"area_id": 1,
+		"coalition_id": "",
+		"colors": [
+			"WHITE"
+		],
+		"fb_urls": [],
+		"id": 172,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Partido Coalición",
+			"es_CO": "Partido Coalición"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCCNCH",
+			"es_CO": "Concejo Comunitario De Comunidades Negras De Campo Hermoso"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 173,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario De Comunidades Negras De Campo Hermoso",
+			"es_CO": "Concejo Comunitario De Comunidades Negras De Campo Hermoso"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCBDT",
+			"es_CO": "Concejo Comunitario De Bocas De Taparal"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 174,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario De Bocas De Taparal",
+			"es_CO": "Concejo Comunitario De Bocas De Taparal"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "PDVTDN",
+			"es_CO": "Palenque De La Vereda Las Trecientas Y Del Municipio De Galapa"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 175,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Palenque De La Vereda Las Trecientas Y Del Municipio De Galapa",
+			"es_CO": "Palenque De La Vereda Las Trecientas Y Del Municipio De Galapa"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCDG",
+			"es_CO": "Concejo Comunitario Del Guabal"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/Consejocomunitariodelguabal"
+		],
+		"id": 176,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.facebook.com/Consejocomunitariodelguabal/photos/a.1960766434174712/2135302693387751/"
+		],
+		"name": {
+			"en_US": "Concejo Comunitario Del Guabal",
+			"es_CO": "Concejo Comunitario Del Guabal"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCDCN",
+			"es_CO": "Concejo Comunitario De Comunidades Negras De Guayabal"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 177,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario De Comunidades Negras De Guayabal",
+			"es_CO": "Concejo Comunitario De Comunidades Negras De Guayabal"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCCNVG",
+			"es_CO": "Concejo Comunitario De La Comunidad Negra De Villa Gloria"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 178,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario De La Comunidad Negra De Villa Gloria",
+			"es_CO": "Concejo Comunitario De La Comunidad Negra De Villa Gloria"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCMDC",
+			"es_CO": "Concejo Comunitario Mayor De Certegui"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/cocomacer"
+		],
+		"id": 179,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.facebook.com/cocomacer/photos/a.217383062322333/217383255655647/"
+		],
+		"name": {
+			"en_US": "Concejo Comunitario Mayor De Certegui",
+			"es_CO": "Concejo Comunitario Mayor De Certegui"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CONMOGUZ",
+			"es_CO": "Conmoguz"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 180,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Conmoguz",
+			"es_CO": "Conmoguz"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCACT",
+			"es_CO": "Concejo Comunitario Arcilla, Cardón Y Tuna"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 181,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Arcilla, Cardón Y Tuna",
+			"es_CO": "Concejo Comunitario Arcilla, Cardón Y Tuna"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CKA",
+			"es_CO": "Corporacion Kofi Annan"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/Corporacionkofiannan"
+		],
+		"id": 182,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.facebook.com/Corporacionkofiannan/photos/a.102167391168357/630240195027738/"
+		],
+		"name": {
+			"en_US": "Corporacion Kofi Annan",
+			"es_CO": "Corporacion Kofi Annan"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://corporacionkofiannan.org/index.php/quienes-somos"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCCNL",
+			"es_CO": "Concejo Comunitario De La Comunidad Negra Limones"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 183,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.congresovisible.uniandes.edu.co/media/imgs/partidos/logos/Limones.png"
+		],
+		"name": {
+			"en_US": "Concejo Comunitario De La Comunidad Negra Limones",
+			"es_CO": "Concejo Comunitario De La Comunidad Negra Limones"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCRG",
+			"es_CO": "Concejo Comunitario Del Rio Guajui"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/consejocomunitariodelrioguajui"
+		],
+		"id": 184,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.cococauca.org/wp-content/uploads/2018/05/logo-cococauca_modificado.png"
+		],
+		"name": {
+			"en_US": "Concejo Comunitario Del Rio Guajui",
+			"es_CO": "Concejo Comunitario Del Rio Guajui"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://cococauca.org/tag/consejo-comunitario-del-rio-guajui"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCCP",
+			"es_CO": "Concejo Comunitario De La Costa Pacifica \"Concosta\""
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 185,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario De La Costa Pacifica \"Concosta\"",
+			"es_CO": "Concejo Comunitario De La Costa Pacifica \"Concosta\""
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCAP",
+			"es_CO": "Concejo Comunitario Alto Paraiso"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 186,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Alto Paraiso",
+			"es_CO": "Concejo Comunitario Alto Paraiso"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CMCI",
+			"es_CO": "Concejo Mayor Condoto Iró"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/COCOMACOIRO"
+		],
+		"id": 187,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.facebook.com/COCOMACOIRO/photos/a.102314251834072/254622646603231/?type=1&theater"
+		],
+		"name": {
+			"en_US": "Concejo Mayor Condoto Iró",
+			"es_CO": "Concejo Mayor Condoto Iró"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CMAB",
+			"es_CO": "Comunidades De Negros De Aguas Blancas"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 188,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Comunidades De Negros De Aguas Blancas",
+			"es_CO": "Comunidades De Negros De Aguas Blancas"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ODEPRI",
+			"es_CO": "Odeprivicor"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 189,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Odeprivicor",
+			"es_CO": "Odeprivicor"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCDFMB",
+			"es_CO": "Concejo Comunitario De Flamenco - Municipio De María La Baja"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 190,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario De Flamenco - Municipio De María La Baja",
+			"es_CO": "Concejo Comunitario De Flamenco - Municipio De María La Baja"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "OECA",
+			"es_CO": "Organización Étnica De Comunidades Afros Los Palenkes"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 191,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Organización Étnica De Comunidades Afros Los Palenkes",
+			"es_CO": "Organización Étnica De Comunidades Afros Los Palenkes"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCRV",
+			"es_CO": "Concejo Comunitario Rescate Las Varas"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 192,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Rescate Las Varas",
+			"es_CO": "Concejo Comunitario Rescate Las Varas"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://ccrescatealasvaras.blogspot.com"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCRC",
+			"es_CO": "Concejo Comunitario Rio Curbaradó"
+		},
+		"area_id": 11,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [
+			"https://www.facebook.com/Consejo-Comunitario-del-Rio-Curbarado-100613045873125"
+		],
+		"id": 193,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Rio Curbaradó",
+			"es_CO": "Concejo Comunitario Rio Curbaradó"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FC",
+			"es_CO": "Fuerza Colombia"
+		},
+		"area_id": 9,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 194,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fuerza Colombia",
+			"es_CO": "Fuerza Colombia"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCPA",
+			"es_CO": "Concejo Comunitario Panama De Arauca"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 195,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Panama De Arauca",
+			"es_CO": "Concejo Comunitario Panama De Arauca"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CPDDHA",
+			"es_CO": "Comité Permanente Por La Defensa De Los Derechos Humanos Arauca"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 196,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Comité Permanente Por La Defensa De Los Derechos Humanos Arauca",
+			"es_CO": "Comité Permanente Por La Defensa De Los Derechos Humanos Arauca"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "GAASD",
+			"es_CO": "Grupo Asociados Agropecuarios Santo Domingo"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 197,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Grupo Asociados Agropecuarios Santo Domingo",
+			"es_CO": "Grupo Asociados Agropecuarios Santo Domingo"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FASB",
+			"es_CO": "Federacion Agrominera Del Sur De Bolivar Fedeagromisbol"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 198,
+		"ig_urls": [],
+		"logo_urls": [
+			"http://www.fedeagromisbol.org/"
+		],
+		"name": {
+			"en_US": "Federacion Agrominera Del Sur De Bolivar Fedeagromisbol",
+			"es_CO": "Federacion Agrominera Del Sur De Bolivar Fedeagromisbol"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "http://fedeagromisbol.org"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "MUDEVISA",
+			"es_CO": "Mudevisa"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 199,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Mudevisa",
+			"es_CO": "Mudevisa"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MV",
+			"es_CO": "Mujeres Visionarias"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 200,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Mujeres Visionarias",
+			"es_CO": "Mujeres Visionarias"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCPM",
+			"es_CO": "Concejo Comunitario Pedeguita Y Mansilla"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 201,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Pedeguita Y Mansilla",
+			"es_CO": "Concejo Comunitario Pedeguita Y Mansilla"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CIAPTC",
+			"es_CO": "Corporacion Interetnica Acumenica Por El Desarrollo De La Recnciliacion Y Paz Territorial Ciederpaz"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 202,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporacion Interetnica Acumenica Por El Desarrollo De La Recnciliacion Y Paz Territorial Ciederpaz",
+			"es_CO": "Corporacion Interetnica Acumenica Por El Desarrollo De La Recnciliacion Y Paz Territorial Ciederpaz"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "SIPI",
+			"es_CO": "Revivir Sipi"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 203,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Revivir Sipi",
+			"es_CO": "Revivir Sipi"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CDDM",
+			"es_CO": "Comité Dos De Mayo"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 204,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Comité Dos De Mayo",
+			"es_CO": "Comité Dos De Mayo"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCRJ",
+			"es_CO": "Concejo Comunitario Rio Jimiaguando"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 205,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Rio Jimiaguando",
+			"es_CO": "Concejo Comunitario Rio Jimiaguando"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CMAA",
+			"es_CO": "Corporacion Municipal Agroecologica De Algeciras \"Comunas\""
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 206,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporacion Municipal Agroecologica De Algeciras \"Comunas\"",
+			"es_CO": "Corporacion Municipal Agroecologica De Algeciras \"Comunas\""
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CMFNS",
+			"es_CO": "Corp. Mesa Fortalecimiento De Org. Población Desplazada Norte De Santander"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 207,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corp. Mesa Fortalecimiento De Org. Población Desplazada Norte De Santander",
+			"es_CO": "Corp. Mesa Fortalecimiento De Org. Población Desplazada Norte De Santander"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CRDDH",
+			"es_CO": "Corporación Red Departamental De Defensores De Derechos Humanos"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 208,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporación Red Departamental De Defensores De Derechos Humanos",
+			"es_CO": "Corporación Red Departamental De Defensores De Derechos Humanos"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "RIGC",
+			"es_CO": "Resguardo Indigena Gabarra Catalaura"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 209,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Resguardo Indigena Gabarra Catalaura",
+			"es_CO": "Resguardo Indigena Gabarra Catalaura"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "TS",
+			"es_CO": "Tejiendo Sueños"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 210,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Tejiendo Sueños",
+			"es_CO": "Tejiendo Sueños"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCLA",
+			"es_CO": "Concejo Comunitario Los Andes"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 211,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.facebook.com/104556785429701/photos/a.104556812096365/109852191566827"
+		],
+		"name": {
+			"en_US": "Concejo Comunitario Los Andes",
+			"es_CO": "Concejo Comunitario Los Andes"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.facebook.com/Consejo-Comunitario-Los-Andes-104556785429701"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "PUMM",
+			"es_CO": "Por Un Mañana Mejor"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 212,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.funmamejor.weebly.com/uploads/4/3/2/6/43263565/1480631014.png"
+		],
+		"name": {
+			"en_US": "Por Un Mañana Mejor",
+			"es_CO": "Por Un Mañana Mejor"
+		},
+		"websites": [
+			{
+				"note": "official",
+				"url": "https://www.funmamejor.weebly.com/"
+			}
+		]
+	},
+	{
+		"abbreviation": {
+			"en_US": "RIPG",
+			"es_CO": "Resguardo Indigena Paez De Gaitania"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 213,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Resguardo Indigena Paez De Gaitania",
+			"es_CO": "Resguardo Indigena Paez De Gaitania"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CIALV",
+			"es_CO": "Comunidad Indígena Amoya la Virginia"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 214,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Comunidad Indígena Amoya la Virginia",
+			"es_CO": "Comunidad Indígena Amoya la Virginia"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCAPG",
+			"es_CO": "Concejo Comunitario Agricultores Del Patia Grande"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 215,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Agricultores Del Patia Grande",
+			"es_CO": "Concejo Comunitario Agricultores Del Patia Grande"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCTS",
+			"es_CO": "Concejo Comunitario Tablon Salado"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 216,
+		"ig_urls": [],
+		"logo_urls": [
+			"https://www.congresovisible.uniandes.edu.co/media/imgs/partidos/logos/Tablon_salado.png"
+		],
+		"name": {
+			"en_US": "Concejo Comunitario Tablon Salado",
+			"es_CO": "Concejo Comunitario Tablon Salado"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "COMUPAZ",
+			"es_CO": "Comupaz"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 217,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Comupaz",
+			"es_CO": "Comupaz"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCVM",
+			"es_CO": "Concejo Comunitario Verde Mandela"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 218,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Verde Mandela",
+			"es_CO": "Concejo Comunitario Verde Mandela"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCBMM",
+			"es_CO": "Concejo Comunitario Bajo y Mira Frontera"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 219,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Bajo y Mira Frontera",
+			"es_CO": "Concejo Comunitario Bajo y Mira Frontera"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "RECOMPAS",
+			"es_CO": "Corporacion Red De Concejos Comunitarios Del Pacifico Sur Recompas"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 220,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporacion Red De Concejos Comunitarios Del Pacifico Sur Recompas",
+			"es_CO": "Corporacion Red De Concejos Comunitarios Del Pacifico Sur Recompas"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CARDONALES",
+			"es_CO": "Concejo Comunit. Cmuds. Negras Guacoche - Los Cardonales"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 221,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunit. Cmuds. Negras Guacoche - Los Cardonales",
+			"es_CO": "Concejo Comunit. Cmuds. Negras Guacoche - Los Cardonales"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FUNVISOC",
+			"es_CO": "FUNVISOC"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 222,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "FUNVISOC",
+			"es_CO": "FUNVISOC"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "Coosocialtj",
+			"es_CO": "Coop. Social Multiactiva Trabajando Juntos - Coosocialtj"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 223,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coop. Social Multiactiva Trabajando Juntos - Coosocialtj",
+			"es_CO": "Coop. Social Multiactiva Trabajando Juntos - Coosocialtj"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCRLT",
+			"es_CO": "Concejo Comunitario de los Ríos la Larga y Tumaradó"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 224,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario de los Ríos la Larga y Tumaradó",
+			"es_CO": "Concejo Comunitario de los Ríos la Larga y Tumaradó"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCV",
+			"es_CO": "Corporación Corazones Verdes"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 225,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporación Corazones Verdes",
+			"es_CO": "Corporación Corazones Verdes"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "DDHHRECRE",
+			"es_CO": "Fund. D.D.H.H. Y D.I.H Arte, Medio Amb., Cultura Paz Y Recreacion"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 226,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fund. D.D.H.H. Y D.I.H Arte, Medio Amb., Cultura Paz Y Recreacion",
+			"es_CO": "Fund. D.D.H.H. Y D.I.H Arte, Medio Amb., Cultura Paz Y Recreacion"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "GEAF",
+			"es_CO": "Grupo Empresarial Afrocolombiano Fedeafro"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 227,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Grupo Empresarial Afrocolombiano Fedeafro",
+			"es_CO": "Grupo Empresarial Afrocolombiano Fedeafro"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CGDM",
+			"es_CO": "Comité De Ganaderos De La Montañita"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 228,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Comité De Ganaderos De La Montañita",
+			"es_CO": "Comité De Ganaderos De La Montañita"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "LGAC",
+			"es_CO": "Liga de Gobernantes Anticorrupción"
+		},
+		"area_id": 38,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 229,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Liga de Gobernantes Anticorrupción",
+			"es_CO": "Liga de Gobernantes Anticorrupción"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ECSYMD",
+			"es_CO": "El Cambio Soy Yo Movimiento Digital"
+		},
+		"area_id": 41,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 230,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "El Cambio Soy Yo Movimiento Digital",
+			"es_CO": "El Cambio Soy Yo Movimiento Digital"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "COCOMAN",
+			"es_CO": "Concejo Comunitario Mayor De Novita “Cocoman”"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 231,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Mayor De Novita “Cocoman”",
+			"es_CO": "Concejo Comunitario Mayor De Novita “Cocoman”"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "VOLAO",
+			"es_CO": "Resguardo Indigena Zenu El Volao"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 232,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Resguardo Indigena Zenu El Volao",
+			"es_CO": "Resguardo Indigena Zenu El Volao"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "REDESC",
+			"es_CO": "Corporacion Redesc"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 233,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporacion Redesc",
+			"es_CO": "Corporacion Redesc"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "BOSQUES",
+			"es_CO": "Genteybosques"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 234,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Genteybosques",
+			"es_CO": "Genteybosques"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CREDHOS",
+			"es_CO": "Credhos"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 235,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Credhos",
+			"es_CO": "Credhos"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCPDS",
+			"es_CO": "Corporación Constructores De Paz Y Desarrollo Sostenible"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 236,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporación Constructores De Paz Y Desarrollo Sostenible",
+			"es_CO": "Corporación Constructores De Paz Y Desarrollo Sostenible"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "IBIRICO",
+			"es_CO": "Concejo Comunitario Comunidades Negras La Jagua De Ibírico"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 237,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Comunidades Negras La Jagua De Ibírico",
+			"es_CO": "Concejo Comunitario Comunidades Negras La Jagua De Ibírico"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "URABA",
+			"es_CO": "Yo soy Urabá"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 239,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Yo soy Urabá",
+			"es_CO": "Yo soy Urabá"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "COAPAZ",
+			"es_CO": "Corporación Ambiental y Social Construyendo Paz"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 240,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporación Ambiental y Social Construyendo Paz",
+			"es_CO": "Corporación Ambiental y Social Construyendo Paz"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "COMPARTIDA",
+			"es_CO": "Corporación Felicidad Compartida"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 241,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporación Felicidad Compartida",
+			"es_CO": "Corporación Felicidad Compartida"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "PORCE",
+			"es_CO": "Consejo Comunitario de Porce Medio"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 242,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Consejo Comunitario de Porce Medio",
+			"es_CO": "Consejo Comunitario de Porce Medio"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "HARAMBE",
+			"es_CO": "Corporación Social y Deportiva Comunidades Negras Afrodescendientes de Turbo Harambe"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 243,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporación Social y Deportiva Comunidades Negras Afrodescendientes de Turbo Harambe",
+			"es_CO": "Corporación Social y Deportiva Comunidades Negras Afrodescendientes de Turbo Harambe"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CORPOCREAMOS",
+			"es_CO": "Corporación Creamos Urabá"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 244,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporación Creamos Urabá",
+			"es_CO": "Corporación Creamos Urabá"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "POCABUY",
+			"es_CO": "País de Pocabuy"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 245,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "País de Pocabuy",
+			"es_CO": "País de Pocabuy"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "IROKA",
+			"es_CO": "Resguardo Indigena Iroka"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 246,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Resguardo Indigena Iroka",
+			"es_CO": "Resguardo Indigena Iroka"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CORPOVIGENTE",
+			"es_CO": "Corporacion Vision Gente Corpovigente"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 247,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporacion Vision Gente Corpovigente",
+			"es_CO": "Corporacion Vision Gente Corpovigente"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FXIW",
+			"es_CO": "Observatorio De Movs. Soc. Paces Y Conflictos Wramba Fxiw"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 248,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Observatorio De Movs. Soc. Paces Y Conflictos Wramba Fxiw",
+			"es_CO": "Observatorio De Movs. Soc. Paces Y Conflictos Wramba Fxiw"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "PIOYA",
+			"es_CO": "Resguardo Indígena Pioya"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 249,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Resguardo Indígena Pioya",
+			"es_CO": "Resguardo Indígena Pioya"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "GARRAPA",
+			"es_CO": "Zanjón De Garrapetero"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 250,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Zanjón De Garrapetero",
+			"es_CO": "Zanjón De Garrapetero"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "SANL",
+			"es_CO": "Comunidad Indígena San Luis"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 251,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Comunidad Indígena San Luis",
+			"es_CO": "Comunidad Indígena San Luis"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CAGUAN",
+			"es_CO": "Comité De Víctimas, Restitución De Tierra Vida San Vicente Del Caguán"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 252,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Comité De Víctimas, Restitución De Tierra Vida San Vicente Del Caguán",
+			"es_CO": "Comité De Víctimas, Restitución De Tierra Vida San Vicente Del Caguán"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "UNIOS",
+			"es_CO": "Union De Orgs. Sociales, Agrarias Y Ambientales (Unios)"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 253,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Union De Orgs. Sociales, Agrarias Y Ambientales (Unios)",
+			"es_CO": "Union De Orgs. Sociales, Agrarias Y Ambientales (Unios)"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "COORDOSAC",
+			"es_CO": "Coord. Deptal Org. Soc. Ambientales Campesinas Caqueta (Coordosac)"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 254,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coord. Deptal Org. Soc. Ambientales Campesinas Caqueta (Coordosac)",
+			"es_CO": "Coord. Deptal Org. Soc. Ambientales Campesinas Caqueta (Coordosac)"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "VICMAS",
+			"es_CO": "VICTIMÁS"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 255,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "VICTIMÁS",
+			"es_CO": "VICTIMÁS"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MICONCAMP",
+			"es_CO": "Corporación De Desplazados Mi Consuelo Campesino \"Miconcamp\""
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 256,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporación De Desplazados Mi Consuelo Campesino \"Miconcamp\"",
+			"es_CO": "Corporación De Desplazados Mi Consuelo Campesino \"Miconcamp\""
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "GMOV",
+			"es_CO": "Gente en Movimiento"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 257,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Gente en Movimiento",
+			"es_CO": "Gente en Movimiento"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "FUNA",
+			"es_CO": "FUNAFROPECOR"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 258,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "FUNAFROPECOR",
+			"es_CO": "FUNAFROPECOR"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "SOMOS",
+			"es_CO": "Somos Identidad"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 259,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Somos Identidad",
+			"es_CO": "Somos Identidad"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "JORGE",
+			"es_CO": "Resguardo Indigena Zenú Del Alto San Jorge"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 260,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Resguardo Indigena Zenú Del Alto San Jorge",
+			"es_CO": "Resguardo Indigena Zenú Del Alto San Jorge"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "VIVIR",
+			"es_CO": "Corporacion Narrar Para Vivir"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 261,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporacion Narrar Para Vivir",
+			"es_CO": "Corporacion Narrar Para Vivir"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CLARA",
+			"es_CO": "Consejo Comunitario De La Comunidad Negra De Agua Clara"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 262,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Consejo Comunitario De La Comunidad Negra De Agua Clara",
+			"es_CO": "Consejo Comunitario De La Comunidad Negra De Agua Clara"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "GALAPA",
+			"es_CO": "Comunidad Indigena Zenu De Galapa"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 263,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Comunidad Indigena Zenu De Galapa",
+			"es_CO": "Comunidad Indigena Zenu De Galapa"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "YURU",
+			"es_CO": "Consejo Comunitario Del Rio Yurumangui"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 264,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Consejo Comunitario Del Rio Yurumangui",
+			"es_CO": "Consejo Comunitario Del Rio Yurumangui"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "NAYA",
+			"es_CO": "Consejo Comunitario Del Rio Naya"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 265,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Consejo Comunitario Del Rio Naya",
+			"es_CO": "Consejo Comunitario Del Rio Naya"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MALAG",
+			"es_CO": "Consejo Comunitario De La Plata Bahia Malaga"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 266,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Consejo Comunitario De La Plata Bahia Malaga",
+			"es_CO": "Consejo Comunitario De La Plata Bahia Malaga"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "OEAP",
+			"es_CO": "Organización De La Etnia Afrocolombiana El Paraiso - Oeap"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 267,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Organización De La Etnia Afrocolombiana El Paraiso - Oeap",
+			"es_CO": "Organización De La Etnia Afrocolombiana El Paraiso - Oeap"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "NEGRI",
+			"es_CO": "Organización Social Negritudes Unidas Negrihuma"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 268,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Organización Social Negritudes Unidas Negrihuma",
+			"es_CO": "Organización Social Negritudes Unidas Negrihuma"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MEMO",
+			"es_CO": "Red De Victimas Tejedoras De La Memoria"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 269,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Red De Victimas Tejedoras De La Memoria",
+			"es_CO": "Red De Victimas Tejedoras De La Memoria"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "RIMAR",
+			"es_CO": "Corporacion Para El Desarrollo Comunitario Rincon Del Mar"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 270,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporacion Para El Desarrollo Comunitario Rincon Del Mar",
+			"es_CO": "Corporacion Para El Desarrollo Comunitario Rincon Del Mar"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "GUAJI",
+			"es_CO": "Resguardo Indígena Alta Y Media Guajira"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 271,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Resguardo Indígena Alta Y Media Guajira",
+			"es_CO": "Resguardo Indígena Alta Y Media Guajira"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "PATIA",
+			"es_CO": "Concejo Comunitario Unión Patía Viejo"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 272,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Unión Patía Viejo",
+			"es_CO": "Concejo Comunitario Unión Patía Viejo"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "LEONCITO",
+			"es_CO": "Concejo Comunitario Bocas del Atrato y Leoncito"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 273,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Bocas del Atrato y Leoncito",
+			"es_CO": "Concejo Comunitario Bocas del Atrato y Leoncito"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "ANTERO",
+			"es_CO": "Concejo Comunitario Manuel Zapata Olivella de San Antero"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 274,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Manuel Zapata Olivella de San Antero",
+			"es_CO": "Concejo Comunitario Manuel Zapata Olivella de San Antero"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CASIMIRO",
+			"es_CO": "Concejo Comunitario Mayor de Casimiro"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 275,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Mayor de Casimiro",
+			"es_CO": "Concejo Comunitario Mayor de Casimiro"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MEJI",
+			"es_CO": "Consejo Comunitario Recuerdo de Nuestros Ancestros Río Mejicano"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 276,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Consejo Comunitario Recuerdo de Nuestros Ancestros Río Mejicano",
+			"es_CO": "Consejo Comunitario Recuerdo de Nuestros Ancestros Río Mejicano"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MANZA",
+			"es_CO": "Consejo Comunitario de Vuelta Manza"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 277,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Consejo Comunitario de Vuelta Manza",
+			"es_CO": "Consejo Comunitario de Vuelta Manza"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "SOCO",
+			"es_CO": "Consejo Comunitario de Comunidades Negras Socolando"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 278,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Consejo Comunitario de Comunidades Negras Socolando",
+			"es_CO": "Consejo Comunitario de Comunidades Negras Socolando"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "BICO",
+			"es_CO": "Consejo Comunitario Veredas Unidas un Bien Común"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 279,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Consejo Comunitario Veredas Unidas un Bien Común",
+			"es_CO": "Consejo Comunitario Veredas Unidas un Bien Común"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CERRITO",
+			"es_CO": "Concejo Comunitario de los Corregimientos de San Antonio y el Castillo municipio del Cerrito"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 280,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario de los Corregimientos de San Antonio y el Castillo municipio del Cerrito",
+			"es_CO": "Concejo Comunitario de los Corregimientos de San Antonio y el Castillo municipio del Cerrito"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "LLORO",
+			"es_CO": "Consejo Comunitario Integral de Lloró"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 281,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Consejo Comunitario Integral de Lloró",
+			"es_CO": "Consejo Comunitario Integral de Lloró"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "AFROZ",
+			"es_CO": "Consejo Comunitario Afrozabaletas"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 282,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Consejo Comunitario Afrozabaletas",
+			"es_CO": "Consejo Comunitario Afrozabaletas"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CORELI",
+			"es_CO": "Corporación de Educadores del Litoral Pacífico Corelipa"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 283,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Corporación de Educadores del Litoral Pacífico Corelipa",
+			"es_CO": "Corporación de Educadores del Litoral Pacífico Corelipa"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "HIDALG",
+			"es_CO": "Fernando Ríos Hidalgo"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 284,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Fernando Ríos Hidalgo",
+			"es_CO": "Fernando Ríos Hidalgo"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "BACHICHI",
+			"es_CO": "Consejo Comunitario Piedras Bachichi Del Corregimiento De Santa Cecilia"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 285,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Consejo Comunitario Piedras Bachichi Del Corregimiento De Santa Cecilia",
+			"es_CO": "Consejo Comunitario Piedras Bachichi Del Corregimiento De Santa Cecilia"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "VOZNE",
+			"es_CO": "Consejo Comunitario Voz de los Negros"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 286,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Consejo Comunitario Voz de los Negros",
+			"es_CO": "Consejo Comunitario Voz de los Negros"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "GIRON",
+			"es_CO": "Consejo Comunitario Puerto Girón"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 287,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Consejo Comunitario Puerto Girón",
+			"es_CO": "Consejo Comunitario Puerto Girón"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCMCR",
+			"es_CO": "Concejo Comunitario Mayor Condoto Rio Iro"
+		},
+		"area_id": 45,
+		"coalition_id": "",
+		"colors": [
+			""
+		],
+		"fb_urls": [],
+		"id": 288,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Concejo Comunitario Mayor Condoto Rio Iro",
+			"es_CO": "Concejo Comunitario Mayor Condoto Rio Iro"
 		},
 		"websites": []
 	}

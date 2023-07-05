@@ -1,109 +1,482 @@
 [
 	{
 		"abbreviation": {
-			"en_US": "",
-			"es_AR": ""
+			"en_US": "EC",
+			"es_CO": "EC"
 		},
 		"colors": [
-			""
+			"BLUE"
 		],
 		"fb_urls": [],
 		"id": 1,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Oficialismo",
-			"es_AR": "Oficialismo"
+			"en_US": "Coalición Equipo por Colombia",
+			"es_CO": "Coalición Equipo por Colombia"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "",
-			"es_AR": ""
+			"en_US": "CCE",
+			"es_CO": "CCE"
 		},
 		"colors": [
-			""
+			"GREEN"
 		],
 		"fb_urls": [],
 		"id": 2,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Oposicion",
-			"es_AR": "Oposicion"
+			"en_US": "Coalición Centro Esperanza",
+			"es_CO": "Coalición Centro Esperanza"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "",
-			"es_AR": ""
+			"en_US": "PH",
+			"es_CO": "PH"
 		},
 		"colors": [
-			""
+			"PURPLE"
 		],
 		"fb_urls": [],
 		"id": 3,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Izquierda",
-			"es_AR": "Izquierda"
+			"en_US": "Pacto Histórico",
+			"es_CO": "Pacto Histórico"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "",
-			"es_AR": ""
+			"en_US": "AVCE",
+			"es_CO": "AVCE"
 		},
 		"colors": [
-			""
+			"GREEN",
+			"YELLOW"
 		],
 		"fb_urls": [],
 		"id": 4,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Tercera vía",
-			"es_AR": "Tercera vía"
+			"en_US": "Coalición Alianza Verde Y Centro Esperanza",
+			"es_CO": "Coalición Alianza Verde Y Centro Esperanza"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "",
-			"es_AR": ""
+			"en_US": "MCJL",
+			"es_CO": "MCJL"
 		},
 		"colors": [
-			""
+			"BLUE",
+			"RED"
 		],
 		"fb_urls": [],
 		"id": 5,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Libertarios",
-			"es_AR": "Libertarios"
+			"en_US": "Coalición Mira - Colombia Justa Libres",
+			"es_CO": "Coalición Mira - Colombia Justa Libres"
 		},
 		"websites": []
 	},
 	{
 		"abbreviation": {
-			"en_US": "",
-			"es_AR": ""
+			"en_US": "JPC",
+			"es_CO": "JPC"
 		},
 		"colors": [
-			""
+			"YELLOW"
 		],
 		"fb_urls": [],
 		"id": 6,
 		"ig_urls": [],
 		"logo_urls": [],
 		"name": {
-			"en_US": "Otros",
-			"es_AR": "Otros"
+			"en_US": "Coalición Juntos Por Caldas",
+			"es_CO": "Coalición Juntos Por Caldas"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MCJLSN",
+			"es_CO": "MCJLSN"
+		},
+		"colors": [
+			"BLUE",
+			"RED",
+			"YELLOW"
+		],
+		"fb_urls": [],
+		"id": 7,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Mira- Colombia Justa Libres - Salvación Nacional",
+			"es_CO": "Coalición Mira- Colombia Justa Libres - Salvación Nacional"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MCDCJL",
+			"es_CO": "MCDCJL"
+		},
+		"colors": [
+			"BLUE",
+			"RED",
+			"YELLOW",
+			"LIGH'T 'BLUE"
+		],
+		"fb_urls": [],
+		"id": 8,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Mira-Centro Democrático-Colombia Justa Libres",
+			"es_CO": "Coalición Mira-Centro Democrático-Colombia Justa Libres"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MSNCJL",
+			"es_CO": "MSNCJL"
+		},
+		"colors": [
+			"YELLOW",
+			"BLUE"
+		],
+		"fb_urls": [],
+		"id": 9,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Movimiento Salvación Nacional Y Colombia Justa Libres",
+			"es_CO": "Coalición Movimiento Salvación Nacional Y Colombia Justa Libres"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "PHV",
+			"es_CO": "PHV"
+		},
+		"colors": [
+			"PURPLE",
+			"GREEN"
+		],
+		"fb_urls": [],
+		"id": 10,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Pacto Histórico Y Verdes",
+			"es_CO": "Coalición Pacto Histórico Y Verdes"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CRM",
+			"es_CO": "CRM"
+		},
+		"colors": [
+			"BLUE",
+			"WHITE",
+			"RED"
+		],
+		"fb_urls": [],
+		"id": 11,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Partido Cambio Radical Y Partido Político Mira",
+			"es_CO": "Coalición Partido Cambio Radical Y Partido Político Mira"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCCD",
+			"es_CO": "CCCD"
+		},
+		"colors": [
+			"BLUE",
+			"LIGHT BLUE"
+		],
+		"fb_urls": [],
+		"id": 12,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Partido Conservador Colombiano Y Partido Centro Democrático",
+			"es_CO": "Coalición Partido Conservador Colombiano Y Partido Centro Democrático"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCU",
+			"es_CO": "CCU"
+		},
+		"colors": [
+			"BLUE",
+			"ORANGE"
+		],
+		"fb_urls": [],
+		"id": 13,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Partido Conservador Colombiano Y Partido De La \"U\"",
+			"es_CO": "Coalición Partido Conservador Colombiano Y Partido De La \"U\""
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "UCJL",
+			"es_CO": "UCJL"
+		},
+		"colors": [
+			"ORANGE",
+			"RED"
+		],
+		"fb_urls": [],
+		"id": 14,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Partido De La U Y Partido Colombia Justa Libres",
+			"es_CO": "Coalición Partido De La U Y Partido Colombia Justa Libres"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "PLCJL",
+			"es_CO": "PLCJL"
+		},
+		"colors": [
+			"RED",
+			"ORANGE"
+		],
+		"fb_urls": [],
+		"id": 15,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Partido Liberal Colombiano - Colombia Justa Libres",
+			"es_CO": "Coalición Partido Liberal Colombiano - Colombia Justa Libres"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "PASI",
+			"es_CO": "PASI"
+		},
+		"colors": [
+			"RED",
+			"YELLOW"
+		],
+		"fb_urls": [],
+		"id": 16,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Partido Liberal Colombiano - Partido Asi",
+			"es_CO": "Coalición Partido Liberal Colombiano - Partido Asi"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "MCD",
+			"es_CO": "MCD"
+		},
+		"colors": [
+			"BLUE",
+			"LIGHT BLUE",
+			"YELLOW"
+		],
+		"fb_urls": [],
+		"id": 17,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Partido Político Mira- Partido Político Centro Democrático",
+			"es_CO": "Coalición Partido Político Mira- Partido Político Centro Democrático"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CRCJLMU",
+			"es_CO": "CRCJLMU"
+		},
+		"colors": [
+			"BLUE",
+			"RED",
+			"ORANGE"
+		],
+		"fb_urls": [],
+		"id": 18,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Partidos Cambio Radical - Colombia Justa Libres - Mira - De La U",
+			"es_CO": "Coalición Partidos Cambio Radical - Colombia Justa Libres - Mira - De La U"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CRCJLM",
+			"es_CO": "CRCJLM"
+		},
+		"colors": [
+			"RED",
+			"BLUE",
+			"WHITE"
+		],
+		"fb_urls": [],
+		"id": 19,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalicion Partidos Cambio Radical - Colombia Justas Libres - Mira",
+			"es_CO": "Coalicion Partidos Cambio Radical - Colombia Justas Libres - Mira"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCJLM",
+			"es_CO": "CCJLM"
+		},
+		"colors": [
+			"LIGHT BLUE",
+			"RED"
+		],
+		"fb_urls": [],
+		"id": 20,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Partidos Conservador Colombiano - Colombia Justa Libres - Partido Político Mira",
+			"es_CO": "Coalición Partidos Conservador Colombiano - Colombia Justa Libres - Partido Político Mira"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CCCJLCN",
+			"es_CO": "CCCJLCN"
+		},
+		"colors": [
+			"BLUE",
+			"LIGHT BLUE",
+			"YELLOW"
+		],
+		"fb_urls": [],
+		"id": 21,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Partidos Conservador Colombiano - Colombia Justa Libres - Partido Salvación Nacional",
+			"es_CO": "Coalición Partidos Conservador Colombiano - Colombia Justa Libres - Partido Salvación Nacional"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "UMCJLASI",
+			"es_CO": "UMCJLASI"
+		},
+		"colors": [
+			"ORANGE",
+			"BLUE",
+			"YELLOW"
+		],
+		"fb_urls": [],
+		"id": 22,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Partidos De La U - Mira - Colombia Justa Libres - Asi",
+			"es_CO": "Coalición Partidos De La U - Mira - Colombia Justa Libres - Asi"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "CRCJL",
+			"es_CO": "CRCJL"
+		},
+		"colors": [
+			"RED",
+			"YELLOW"
+		],
+		"fb_urls": [],
+		"id": 23,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Partidos Cambio Radical Y Colombia Justa Libres",
+			"es_CO": "Coalición Partidos Cambio Radical Y Colombia Justa Libres"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "UMCJL",
+			"es_CO": "UMCJL"
+		},
+		"colors": [
+			"ORANGE",
+			"YELLOW"
+		],
+		"fb_urls": [],
+		"id": 24,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Partidos  de La U - Mira Y Colombia Justa Libres",
+			"es_CO": "Coalición Partidos  de La U - Mira Y Colombia Justa Libres"
+		},
+		"websites": []
+	},
+	{
+		"abbreviation": {
+			"en_US": "UMCR",
+			"es_CO": "UMCR"
+		},
+		"colors": [
+			"ORANGE",
+			"RED",
+			"BLUE"
+		],
+		"fb_urls": [],
+		"id": 25,
+		"ig_urls": [],
+		"logo_urls": [],
+		"name": {
+			"en_US": "Coalición Partidos de La U. Mira Y Cambio Radical",
+			"es_CO": "Coalición Partidos de La U. Mira Y Cambio Radical"
 		},
 		"websites": []
 	}
