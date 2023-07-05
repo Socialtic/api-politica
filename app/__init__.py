@@ -22,7 +22,7 @@ application = Flask(__name__)
 application.config["SQLALCHEMY_DATABASE_URI"] = database_file
 application.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
 application.config['JSON_AS_ASCII'] = False
-isOnDev = False
+isOnDev = True
 application.debug = isOnDev
 application.register_blueprint(bp_frontend)
 application.register_blueprint(bp_token)
@@ -43,9 +43,6 @@ with application.app_context():
 	    INTERNAL_TOKEN = TokenAuth.find_by_id(1)
 	except:
 	    INTERNAL_TOKEN = True
-	    
-	    
-	print("TOKEN: " + str(INTERNAL_TOKEN))
 
 #   Functions for the app
 from app.controllers.area import *
